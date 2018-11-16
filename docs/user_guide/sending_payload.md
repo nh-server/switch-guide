@@ -2,6 +2,23 @@
 
 Now that the device is in RCM, we will need to send it a payload. The methods are mostly the same, but slightly differs depending on what hardware you have available.
 
+## Windows
+
+### What you need
+
+- The latest release of [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI/releases) (either the MSI or zip)
+- The latest release of [Hekate](https://github.com/CTCaer/hekate/releases/)
+- A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
+
+### Instructions
+
+1. Install TegraRcmGUI, and run it. Go to the settings tab and press "Install Driver" and follow the on-screen prompts to install the APX driver.
+2. Connect your Switch in RCM to your PC using the USB cable and go to the payload tab of TegraRcmGUI 
+	- It should show that your Switch is detected in the bottom left corner
+3. Select the Hekate `.bin` file by pressing the file button next to the "Inject payload" button in the payload tab
+4. Click "Inject payload" to launch Hekate
+
+
 ## Mac / Linux
 
 ### What you need
