@@ -15,3 +15,6 @@ nav:
         - 'Blocking Updates': 'advanced/blocking_updates.md'
     - Frequently Asked Questions: faq.md
     - About: about.md
+    
+markdown_extensions:
+    - admonition
