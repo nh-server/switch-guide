@@ -26,6 +26,8 @@ It's highly recommended that you use an SD card that is formatted to exFAT, and 
 6. Insert your SD card into your PC
 7. Copy the `backup` folder on your SD card to a safe location on your PC
 
+&nbsp;
+
 ## Combining NAND backup parts
 
 If your NAND was dumped in one cohesive part, you may skip to the next section.
@@ -41,4 +43,6 @@ If your NAND was dumped in one cohesive part, you may skip to the next section.
 3. Once you have the complete `rawnand.bin`, you may delete the original chunks
     - Don't forget to keep your backup in a safe location
 
-### [Continue to Launching CFW](launching_cfw.md)
+&nbsp;
+
+#### [Continue to Launching CFW](launching_cfw.md)
