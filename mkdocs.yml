@@ -1,5 +1,11 @@
 site_name: NH Switch Guide
 theme: slate
+copyright: Copyright &copy; 2019 <a href="https://discord.gg/C29hYvh" target="_blank">Nintendo Homebrew</a>, Maintained by the <a href="/about">NH All-Star Team</a>.
+google_analytics: ['UA-27795084-5', 'mkdocs.org']
+
+plugins:
+    - search
+
 nav:
     - Home: index.md
     - User Guide:
