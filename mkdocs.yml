@@ -9,11 +9,11 @@ nav:
         - 'Sending a Payload': 'user_guide/sending_payload.md'
         - 'Making a NAND Backup': 'user_guide/making_a_nand_backup.md'
         - 'Launching CFW': 'user_guide/launching_cfw.md'
-    - Advanced:
-        - 'Theming': 'advanced/theming.md'
-        - 'Game Modding': 'advanced/game_modding.md'        
-        - 'Save Management': 'advanced/save_management.md'
-        - 'Blocking Updates': 'advanced/blocking_updates.md'
+    - Extras:
+        - 'Theming': 'extras/theming.md'
+        - 'Game Modding': 'extras/game_modding.md'        
+        - 'Save Management': 'extras/save_management.md'
+        - 'Blocking Updates': 'extras/blocking_updates.md'
     - Frequently Asked Questions: faq.md
     - About: about.md
     
