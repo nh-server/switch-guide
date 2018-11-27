@@ -50,7 +50,7 @@ A guide collaboration between Nintendo Homebrew's Helpers and Staff, from stock 
 
     - A USB-A to USB-C cable, and a PC
     - A USB-OTG cable, a USB-A to USB-C cable, and an Android device
-    - This does not work on every phone
+		- This does not work on every android phone
     - A USB-C cable, and an Android device with a USB-C port
     - A Lightning to USB-C cable, and a jailbroken iOS device
         - This method is not covered by the guide, but you can read more about it at [this website](https://mologie.github.io/nxboot/)
@@ -59,7 +59,7 @@ If everything goes according to plan, you will lose no data and end up with ever
 
 Keep your device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!
 
-Custom Firmware is not permanent with current methods, and will be wiped upon rebooting the system.
+Custom Firmware is not permanent with current methods, and will be unloaded upon rebooting the system.
 
 It is advised that you read the entire guide from start to finish one or more times before actually running through the guide with your system.
 
