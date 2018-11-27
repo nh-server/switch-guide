@@ -14,11 +14,17 @@ Your switch is now booting into Atmosphere.
 
 To verify Atmosphere launched properly, open the Settings applet, and navigate to System. You should see `AMS` next to the version number.
 
+&nbsp;
+
 ![Atmosphere version string](../img/launching_cfw_atmosphere_version_string.jpg)
+
+&nbsp;
 
 You will now be able to launch the Homebrew Menu by launching the Album applet. To launch into the actual gallery, launch the Album applet while holding the (R) button.
 
 Place homebrew applications into the `switch` folder on your SD card.
+
+&nbsp;
 
 ### Basic use cases for included homebrew
 - Checkpoint is a save manager, it can dump and restore saves from/to your system. Dumped saves are stored in `switch/checkpoint/saves`
