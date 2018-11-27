@@ -4,6 +4,8 @@
 
 Now that the device is in RCM, we will need to send it a payload. The methods are mostly the same, but slightly differs depending on what hardware you have available.
 
+&nbsp;
+
 ## Windows
 
 ### What you need
@@ -22,10 +24,13 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 5. Press the file button next to `Inject payload`, and navigate to and select your hekate_ctcaer `.bin` file
 6. Click `Inject payload` to launch Hekate
 
+&nbsp;
 
 ## Mac / Linux
 
-### TODO
+#### TODO
+
+&nbsp;
 
 ## Android
 
@@ -46,4 +51,6 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 7. If prompted, grant Rekado access to the Switch
 8. Select your hekate_ctcaer `.bin` file in the dialog that pops up
 
-### [Continue to Making a NAND Backup](making_a_nand_backup.md)
+&nbsp;
+
+#### [Continue to Making a NAND Backup](making_a_nand_backup.md)
