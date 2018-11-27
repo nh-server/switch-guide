@@ -34,6 +34,8 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
 ## Android
 
+### What you need
+
 - The latest release of [Rekado](https://github.com/MenosGrante/Rekado/releases)
     - You will need to enable Unknown Sources in your device settings to install this
 - The latest release of [Hekate](https://github.com/CTCaer/hekate/releases/)
@@ -41,6 +43,9 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
     - If your device has a USB-C port, you may use a C-C cable
     - If your device only has a Micro USB port, you will need a USB OTG adapter and a USB A-C cable
         - This **will not work** on every phone!
+		
+### Instructions
+
 1. Copy the hekate_ctcaer `.bin` file from the Hekate `.zip` file to a location on your phone
     - A tool such as Amaze File Manager can do this
 2. Launch Rekado on your phone
