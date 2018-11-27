@@ -6,9 +6,10 @@ Unlike systems such as the DSi, Wii, or 3DS, Switch CFW is currently volatile- i
 
 ## Instructions
 
-1. Power on your Switch into RCM, and upload the Hekate payload
-2. Navigate to `Launch firmware` with the volume buttons, and press the power button to confirm
-3. Navigate to `Atmosphere` with the volume buttons, and press the power button to confirm
+!!! tip ""
+    1. Power on your Switch into RCM, and upload the Hekate payload
+    2. Navigate to `Launch firmware` with the volume buttons, and press the power button to confirm
+    3. Navigate to `Atmosphere` with the volume buttons, and press the power button to confirm
 
 Your switch is now booting into Atmosphere.
 
