@@ -3,8 +3,9 @@
 A guide collaboration between Nintendo Homebrew's Helpers and Staff, from stock to Atmosphere.
 
 &nbsp;
-!!! Note
-    This guide currently will not work on systems running 6.2.0!
+
+!!! danger "6.2.0"
+    This guide will currently not work on systems running 6.2.0!
 
 ### What is homebrew?
 

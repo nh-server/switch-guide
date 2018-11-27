@@ -23,10 +23,10 @@ Here is a visual representation of which pads are which.
 
 ### Tinfoil
 
-!!! Note
+!!! snippet "Note"
     This method will result in the right Joy-Con being detected as in wireless mode while attached to the Switch, and this method may result in the Joy-Con being permanently detected as wireless if you update the Joy-Con firmware while this mod is installed. In the latter case, fixing this requires opening up the Joy-Con and reseating the battery. It is recommended that you only use this to get into RCM, and immediately remove it once you're successfully in RCM.
 
-!!! Note
+!!! snippet "Note"
     Take care to not short pin 4 by accident while the system is on. This pin provides power to the Joy-Con, so shorting it by accident may damage your Switch permanently.
 
 This method entails putting a thin piece of tinfoil in between pins 9 and 10 on the Joy-Con, and the Joy-Con rail, then folding the foil over the back of the rail to tape it in place. This is best done by taking a 1 square inch piece of tinfoil, and folding it multiple times.
@@ -39,10 +39,10 @@ Here are some examples of the end-result from [8-Bit Flashback on YouTube](https
 
 ### Metal Bridge / Paperclip
 
-!!! Note
+!!! snippet "Note"
     This method is not recommended due to having a serious risk of permanently damaging your Switch's right Joy-Con rail. It is listed here as it is utilizing household items, but it is highly recommended to either do the tinfoil method or to order an RCM jig. This risk is made exponentially higher if a tool such as a screwdriver is used instead of a metal wire or paperclip.
 
-!!! Note
+!!! snippet "Note"
     Take care to not short pin 4 by accident while the system is on. This pin provides power to the Joy-Con, so shorting it by accident may damage your Switch permanently.
 
 This method entails taking a piece of metal (such as a paperclip or screwdriver) and bending it so that it touches pins 1 and 10, or any other grounded piece of metal and pin 10.
@@ -55,7 +55,7 @@ Here are some examples of shorting pins 1 and 10 using a wire from HowDenKing#00
 
 ## RCM Jig
 
-!!! Note 
+!!! snippet "Note"
     Some jig designs use paperclips, inheriting the same risks as the Metal Bridge / Paperclip method. If you would like a safe jig design, we highly recommend [switchjigs.com](https://switchjigs.com).
 
 This method is similar to the Metal Bridge / Paperclip method, but is more reliable and safer in many cases. Jigs hold a wire in place so the correct pins are shorted every time.
@@ -66,10 +66,10 @@ Jigs range in price, with the ones we recommend being $10. They're more expensiv
 
 ## Bent Joy-Con Pins
 
-!!! Note
+!!! snippet "Note"
     This method will result in the right Joy-Con being detected as in wireless mode while attached to the Switch, and this method may result in the Joy-Con being permanently detected as wireless if you update the Joy-Con firmware while this mod is installed. In the latter case, fixing this requires opening up the Joy-Con and reseating the battery.
 
-!!! Note
+!!! snippet "Note"
     This method requires opening your right Joy-Con, voiding its warranty. Not for the faint of heart.
 
 The goal of this method is to open the Joy-Con to the point that you can reach the contact pads easily, and use a thin object such as a knife to gently bend pin 9 onto pin 10, shorting them.
@@ -80,10 +80,10 @@ Here is an example from Sonlen#0666 on our Discord server.
 
 ### Soldered Joy-Con Pads - 9 & 10 
 
-!!! Note
+!!! snippet "Note"
     This method will result in the right Joy-Con being detected as in wireless mode while attached to the Switch, and this method may result in the Joy-Con being permanently detected as wireless if you update the Joy-Con firmware while this mod is installed. In the latter case, fixing this requires opening up the Joy-Con and reseating the battery. It is recommended to solder pads 7 and 10 together with a resistor instead.
 
-!!! Note
+!!! snippet "Note"
     This method requires opening your right Joy-Con, voiding its warranty. Not for the faint of heart.
 
 This is similar to the previous method, however the goal is to solder pads 9 and 10 together.
@@ -94,7 +94,7 @@ Here is an example from YyAoMmIi#3705 on our Discord server.
 
 ### Soldered Joy-Con Pads - 7 & 10
 
-!!! Note
+!!! snippet "Note"
     This method requires opening your right Joy-Con, voiding its warranty. Not for the faint of heart.
 
 This is similar to the previous method, however the goal is to solder pins 7 and 10 together with a surface-mount 0805 10k resistor. Apart from using a reed switch, this is currently considered the safest method that involves soldering to pads.
