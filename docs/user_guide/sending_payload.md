@@ -46,4 +46,4 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 7. If prompted, grant Rekado access to the Switch
 8. Select your hekate_ctcaer `.bin` file in the dialog that pops up
 
-## [Continue to Making a NAND Backup](making_a_nand_backup.md)
+### [Continue to Making a NAND Backup](making_a_nand_backup.md)

@@ -23,4 +23,4 @@ Hekate will be used as an intermediary bootloader, as it has useful options such
 6. Copy *the contents of* the nx-hbmenu `.zip` file to the root of your SD card
 7. Copy `hekate-ipl.ini` to the `bootloader` folder on your SD card
 
-# [Continue to Entering RCM](entering_rcm.md)
+### [Continue to Entering RCM](entering_rcm.md)

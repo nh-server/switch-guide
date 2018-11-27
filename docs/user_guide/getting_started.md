@@ -43,4 +43,4 @@ The following information is based on [this GBATemp thread](https://gbatemp.net/
     - XAJ70043X and above are potentially patched
     - XAJ7005XX and above are patched
 
-# [Continue to SD Preparation](sd_preparation.md)
+### [Continue to SD Preparation](sd_preparation.md)

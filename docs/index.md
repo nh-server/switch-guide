@@ -51,4 +51,4 @@ Custom Firmware is not permanent with current methods, and will be wiped upon re
 
 It is advised that you read the entire guide from start to finish one or more times before actually running through the guide with your system.
 
-# [Continue to Getting Started](user_guide/getting_started.md)
+### [Continue to Getting Started](user_guide/getting_started.md)

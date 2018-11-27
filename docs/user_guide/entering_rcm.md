@@ -95,4 +95,4 @@ Here is an example from stuckpixel#3421 on the ReSwitched Discord server.
 
 While one of these methods are in place, hold Volume Up and the power button. If your switch displays nothing, you are successfully in RCM. If your Switch displays the Nintendo logo and boots normally or immediately shuts down, you didn't successfully enter RCM and should try again.
 
-[Continue to Sending a Payload](sending_payload.md)
+### [Continue to Sending a Payload](sending_payload.md)

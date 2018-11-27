@@ -41,4 +41,4 @@ If your NAND was dumped in one cohesive part, you may skip to the next section.
 3. Once you have the complete `rawnand.bin`, you may delete the original chunks
     - Don't forget to keep your backup in a safe location
 
-# [Continue to Launching CFW](launching_cfw.md)
+### [Continue to Launching CFW](launching_cfw.md)
