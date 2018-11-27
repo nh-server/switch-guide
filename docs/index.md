@@ -1,3 +1,5 @@
+<a href="https://discord.gg/C29hYvh" target="_blank"><img style="float: right;" src="img/discord.png"></a>
+
 # NH Switch Guide
 
 A guide collaboration between Nintendo Homebrew's Helpers and Staff, from stock to Atmosphere.
