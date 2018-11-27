@@ -8,7 +8,11 @@ This vulnerability was independently discovered by several different Switch hack
 
 Patched units can be identified by their serial number. This number can be found on the bottom of your Switch adjacent to the USB-C port, or in the Settings applet at **System -> Serial Information**.
 
+&nbsp;
+
 ![Visual for System Settings serial location](../img/getting_started_serial_location.jpg)
+
+&nbsp;
 
 ### Determining if your Switch is vulnerable
 
@@ -20,28 +24,35 @@ The homebrew community has crowdsourced a list of known serial numbers which are
 
 The following information is based on [this GBATemp thread](https://gbatemp.net/threads/switch-informations-by-serial-number-read-the-first-post-before-asking-questions.481215/).
 
-- If your serial starts with **XAW1**:
-    - XAW10078XXX and below are unpatched
-    - XAW10079XXX and above are potentially patched
-    - XAW1010XXX and above are patched
-- If your serial starts with **XAW4**:
-    - XAW40011XXX and below are unpatched
-    - XAW40012XXX and above are potentially patched
-    - XAW40013XXX and above are patched
-- If your serial starts with **XAW7**:
-    - XAW700178X and below are unpatched
-    - XAW700179X and above are potentially patched
-    - XAW70019X and above are patched
-- If your serial starts with **XAJ1**:
-    - XAJ10031XX and above are potentially patched
-- If your serial starts with **XAJ4**:
-    - XAJ40050X and below are unpatched
-    - XAJ40051X and above are potentially patched
-    - XAJ4006XX and above are patched
-- If your serial starts with **XAJ7**:
-    - XAJ70042X and below are unpatched
-    - XAJ70043X and above are potentially patched
-    - XAJ7005XX and above are patched
+
+!!! note ""
+    - If your serial starts with **XAW1**:
+        - XAW10078XXX and below are unpatched
+        - XAW10079XXX and above are potentially patched
+        - XAW1010XXX and above are patched
+!!! note ""
+    - If your serial starts with **XAW4**:
+        - XAW40011XXX and below are unpatched
+        - XAW40012XXX and above are potentially patched
+        - XAW40013XXX and above are patched
+!!! note ""
+    - If your serial starts with **XAW7**:
+        - XAW700178X and below are unpatched
+        - XAW700179X and above are potentially patched
+        - XAW70019X and above are patched
+!!! note ""
+    - If your serial starts with **XAJ1**:
+        - XAJ10031XX and above are potentially patched
+!!! note ""
+    - If your serial starts with **XAJ4**:
+        - XAJ40050X and below are unpatched
+        - XAJ40051X and above are potentially patched
+        - XAJ4006XX and above are patched
+!!! note ""
+    - If your serial starts with **XAJ7**:
+        - XAJ70042X and below are unpatched
+        - XAJ70043X and above are potentially patched
+        - XAJ7005XX and above are patched
 
 &nbsp;
 
