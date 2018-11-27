@@ -1,6 +1,6 @@
 # Getting Started
 
-## Finding your serial number
+### Finding your serial number
 
 The first thing to do is determine if your Switch is vulnerable to fusee-gelee, the exploit we will be using to launch CFW.
 
@@ -10,7 +10,7 @@ Patched units can be identified by their serial number. This number can be found
 
 ![Visual for System Settings serial location](../img/getting_started_serial_location.jpg)
 
-## Determining if your Switch is vulnerable
+### Determining if your Switch is vulnerable
 
 The homebrew community has crowdsourced a list of known serial numbers which are vulnerable to fusee-gelee. 
 
@@ -43,4 +43,6 @@ The following information is based on [this GBATemp thread](https://gbatemp.net/
     - XAJ70043X and above are potentially patched
     - XAJ7005XX and above are patched
 
-### [Continue to SD Preparation](sd_preparation.md)
+&nbsp;
+
+#### [Continue to SD Preparation](sd_preparation.md)

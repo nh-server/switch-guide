@@ -2,25 +2,27 @@
 
 A guide collaboration between Nintendo Homebrew's Helpers and Staff, from stock to Atmosphere.
 
+&nbsp;
 
-## What is homebrew?
+
+### What is homebrew?
 
 Homebrew applications are custom, user-made software, which haven’t been authorised by Nintendo. This can include save editing tools, games, emulators, and more.
 
 Homebrew can be run for free on your Switch as long as you have a "first-generation" system, and a USB-C cable.
 
-## What is Custom Firmware?
+### What is Custom Firmware?
 
 Custom Firmware (“CFW”) enables you to use more advanced hacks that userland homebrew can’t easily do. For instance, installing game modifications with ease.
 
 CFW can be set up on any first-generation console on any version (but will require additional tools).
 
-## What does this guide install?
+### What does this guide install?
 This guide has the end goal of taking a completely unmodified Switch from stock firmware to fusee-gelee powered Custom Firmware.
 
 fusee-gelee is currently the best method of launching Custom Firmware that gives us nearly full control of the system. It utilizes a vulnerability in the bootROM of the first-generation Switch systems, allowing us to send any payload we want to the Switch's recovery mode, instead of only ones that Nintendo have authorized.
 
-## What can I do with Custom Firmware?
+### What can I do with Custom Firmware?
 
 * Customize your HOME Menu with user-created themes and splash screens
 * Use “ROM hacks” for games that you own
@@ -28,7 +30,7 @@ fusee-gelee is currently the best method of launching Custom Firmware that gives
 * Play games for older systems with various emulators, using RetroArch or other standalone emulators
 * Safely update to the latest system version without fear of losing access to homebrew
 
-## What do I need to know before starting?
+### What do I need to know before starting?
 
 Before beginning the guide, you must know the risks of Switch hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They’re rare but still a possibility so make sure you follow ALL directions EXACTLY.
 
@@ -51,4 +53,6 @@ Custom Firmware is not permanent with current methods, and will be wiped upon re
 
 It is advised that you read the entire guide from start to finish one or more times before actually running through the guide with your system.
 
-### [Continue to Getting Started](user_guide/getting_started.md)
+&nbsp;
+
+#### [Continue to Getting Started](user_guide/getting_started.md)

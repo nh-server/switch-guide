@@ -21,7 +21,7 @@ Here is a visual representation of which pads are which.
 
 ![Right Joy-Con pad reference](../img/entering_rcm_pad_reference.jpg)
 
-## Tinfoil
+### Tinfoil
 
 !!! Note
     This method will result in the right Joy-Con being detected as in wireless mode while attached to the Switch, and this method may result in the Joy-Con being permanently detected as wireless if you update the Joy-Con firmware while this mod is installed. In the latter case, fixing this requires opening up the Joy-Con and reseating the battery. It is recommended that you only use this to get into RCM, and immediately remove it once you're successfully in RCM.
@@ -37,7 +37,7 @@ Here are some examples of the end-result from [8-Bit Flashback on YouTube](https
 
 ![8-Bit Flashback Tinfoil Reference 2](../img/entering_rcm_tinfoil_8bfb_2.png)
 
-## Metal Bridge / Paperclip
+### Metal Bridge / Paperclip
 
 !!! Note
     This method is not recommended due to having a serious risk of permanently damaging your Switch's right Joy-Con rail. It is listed here as it is utilizing household items, but it is highly recommended to either do the tinfoil method or to order an RCM jig. This risk is made exponentially higher if a tool such as a screwdriver is used instead of a metal wire or paperclip.
@@ -78,7 +78,7 @@ Here is an example from Sonlen#0666 on our Discord server.
 
 ![Sonlen example](../img/entering_rcm_bent_pins.jpg)
 
-## Soldered Joy-Con Pads - 9 & 10 
+### Soldered Joy-Con Pads - 9 & 10 
 
 !!! Note
     This method will result in the right Joy-Con being detected as in wireless mode while attached to the Switch, and this method may result in the Joy-Con being permanently detected as wireless if you update the Joy-Con firmware while this mod is installed. In the latter case, fixing this requires opening up the Joy-Con and reseating the battery. It is recommended to solder pads 7 and 10 together with a resistor instead.
@@ -92,7 +92,7 @@ Here is an example from YyAoMmIi#3705 on our Discord server.
 
 ![YyAoMmIi solder example](../img/entering_rcm_solder_910_yyaommii.jpg)
 
-## Soldered Joy-Con Pads - 7 & 10
+### Soldered Joy-Con Pads - 7 & 10
 
 !!! Note
     This method requires opening your right Joy-Con, voiding its warranty. Not for the faint of heart.
@@ -103,8 +103,10 @@ Here is an example from stuckpixel#3421 on the ReSwitched Discord server.
 
 ![stuckpixel solder example](../img/entering_rcm_solder_710_stuckpixel.png)
 
-## Booting RCM
+### Booting RCM
 
 While one of these methods are in place, hold Volume Up and the power button. If your switch displays nothing, you are successfully in RCM. If your Switch displays the Nintendo logo and boots normally or immediately shuts down, you didn't successfully enter RCM and should try again.
 
-### [Continue to Sending a Payload](sending_payload.md)
+&nbsp;
+
+#### [Continue to Sending a Payload](sending_payload.md)

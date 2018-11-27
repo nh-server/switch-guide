@@ -1,4 +1,5 @@
 site_name: NH Switch Guide
+theme: slate
 nav:
     - Home: index.md
     - User Guide:
