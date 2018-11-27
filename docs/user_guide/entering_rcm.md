@@ -19,7 +19,7 @@ Here is a visual representation of which pins are which.
 
 Here is a visual representation of which pads are which.
 
-![Right Joy-Con pad reference](https://i.imgur.com/LqaDgXY.jpg)
+![Right Joy-Con pad reference](../img/entering_rcm_pad_reference.jpg)
 
 ## Tinfoil
 
@@ -32,6 +32,7 @@ This method entails putting a thin piece of tinfoil in between pins 9 and 10 on 
 Here are some examples of the end-result from [8-Bit Flashback on YouTube](https://youtu.be/3-UeB_enPrM?t=136). (Note that video guides tend to get outdated quickly (and the linked one is already outdated), and while we don't recommend any video guides as a result, this one is linked for the purposes of giving a visual on how to successfully do the tinfoil method.)
 
 ![8-Bit Flashback Tinfoil Reference 1](../img/entering_rcm_tinfoil_8bfb_1.png)
+
 ![8-Bit Flashback Tinfoil Reference 2](../img/entering_rcm_tinfoil_8bfb_2.png)
 
 ## Metal Bridge / Paperclip
@@ -45,6 +46,7 @@ This method entails taking a piece of metal (such as a paperclip or screwdriver)
 Here are some examples of shorting pins 1 and 10 using a wire from HowDenKing#0001 on our Discord server.
 
 ![HowDenKing Paperclip Reference 1](../img/entering_rcm_paperclip_hdk_1.jpg)
+
 ![HowDenKing Paperclip Reference 2](../img/entering_rcm_paperclip_hdk_2.jpg)
 
 ## RCM Jig
@@ -55,7 +57,7 @@ This method is similar to the Metal Bridge / Paperclip method, but is more relia
 
 Jigs range in price, with the ones we recommend being $10. They're more expensive than other jigs, but spending $10 on a quality jig using 32-gauge wire is a smaller cost than replacing your entire Joy-Con rail after the pins are scratched off by a paperclip jig.
 
-![switchjigs.com jigs](https://i.imgur.com/u9LzlsD.jpg)
+![switchjigs.com jigs](../img/entering_rcm_jig.jpg)
 
 ## Bent Joy-Con Pins
 
@@ -67,7 +69,7 @@ The goal of this method is to open the Joy-Con to the point that you can reach t
 
 Here is an example from Sonlen#0666 on our Discord server.
 
-![Sonlen example](https://i.imgur.com/G7CPNdC.jpg)
+![Sonlen example](../img/entering_rcm_bent_pins.jpg)
 
 ## Soldered Joy-Con Pads - 9 & 10 
 
