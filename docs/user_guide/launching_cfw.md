@@ -19,3 +19,8 @@ To verify Atmosphere launched properly, open the Settings applet, and navigate t
 You will now be able to launch the Homebrew Menu by launching the Album applet. To launch into the actual gallery, launch the Album applet while holding the (R) button.
 
 Place homebrew applications into the `switch` folder on your SD card.
+
+### Basic use cases for included homebrew
+- Checkpoint is a save manager, it can dump and restore saves from/to your system. Dumped saves are stored in `switch/checkpoint/saves`
+- FTPD is a ftp tool for connecting your switch's sd card wirelessly to your pc. Tools like Filezilla can connect to your switch on `(ip of switch):5000`
+- NX-Shell is a file explorer for the switch. You can move files, listen to mp3's, view images and stuff like that.
