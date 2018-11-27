@@ -12,8 +12,6 @@ nav:
         - 'Theming': 'advanced/theming.md'
         - 'Game Modding': 'advanced/game_modding.md'        
         - 'Save Management': 'advanced/save_management.md'
-        - 'Upgrade/Downgrade': 'advanced/upgrade_downgrade.md'
-        - 'Advanced RCM Options': 'advanced/advanced_rcm.md'
         - 'Blocking Updates': 'advanced/blocking_updates.md'
     - Frequently Asked Questions: faq.md
     - About: about.md
