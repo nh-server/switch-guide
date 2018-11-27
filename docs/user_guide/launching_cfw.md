@@ -16,7 +16,8 @@ To verify Atmosphere launched properly, open the Settings applet, and navigate t
 
 &nbsp;
 
-![Atmosphere version string](../img/launching_cfw_atmosphere_version_string.jpg)
+!!! tip ""
+    ![Atmosphere version string](../img/launching_cfw_atmosphere_version_string.jpg)
 
 &nbsp;
 

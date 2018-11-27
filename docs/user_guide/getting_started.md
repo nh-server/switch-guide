@@ -10,7 +10,8 @@ Patched units can be identified by their serial number. This number can be found
 
 &nbsp;
 
-![Visual for System Settings serial location](../img/getting_started_serial_location.jpg)
+!!! tip ""
+    ![Visual for System Settings serial location](../img/getting_started_serial_location.jpg)
 
 &nbsp;
 
