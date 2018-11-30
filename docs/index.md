@@ -6,9 +6,6 @@ A guide collaboration between Nintendo Homebrew's Helpers and Staff, from stock 
 
 &nbsp;
 
-!!! danger "6.2.0 Firmware"
-    This guide will currently not work on systems running 6.2.0 !
-
 ### What is homebrew?
 
 !!! tip ""
