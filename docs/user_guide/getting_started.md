@@ -30,30 +30,38 @@ The following information is based on [this GBATemp thread](https://gbatemp.net/
     - If your serial starts with **XAW1**:
         - XAW10078XXX and below are unpatched
         - XAW10079XXX and above are potentially patched
-        - XAW1010XXX and above are patched
+        - XAW1012000X and above are patched
 !!! note ""
     - If your serial starts with **XAW4**:
-        - XAW40011XXX and below are unpatched
-        - XAW40012XXX and above are potentially patched
-        - XAW40013XXX and above are patched
+        - XAW4001100X and below are unpatched
+        - XAW4001200X and above are potentially patched
+        - XAW4001300X and above are patched
 !!! note ""
     - If your serial starts with **XAW7**:
-        - XAW700178X and below are unpatched
-        - XAW700179X and above are potentially patched
-        - XAW70019X and above are patched
+        - XAW7001780X and below are unpatched
+        - XAW7001790X and above are potentially patched
+        - XAW7003000X and above are patched
 !!! note ""
     - If your serial starts with **XAJ1**:
-        - XAJ10031XX and above are potentially patched
+        - XAJ1002000X and below are unpatched
+        - XAJ1002100X and above are potentially patched
+        - XAJ1003000X and above are patched
 !!! note ""
     - If your serial starts with **XAJ4**:
-        - XAJ40050X and below are unpatched
-        - XAJ40051X and above are potentially patched
-        - XAJ4006XX and above are patched
+        - XAJ4004600X and below are unpatched
+        - XAJ4004700X and above are potentially patched
+        - XAJ4006000X and above are patched
 !!! note ""
     - If your serial starts with **XAJ7**:
-        - XAJ70042X and below are unpatched
-        - XAJ70043X and above are potentially patched
-        - XAJ7005XX and above are patched
+        - XAJ7004000X and below are unpatched
+        - XAJ7004100X and above are potentially patched
+        - XAJ7005000X and above are patched
+!!! note ""
+    - If your serial starts with **XAJ9**:
+        - These units are refurbished units provided by Nintendo. No information is known yet, but they are potentially patched.
+!!! note ""
+    - If your serial starts with **XAK**:
+        - No information is known yet- you are encouraged to continue with the guide and report on the GBATemp thread if the guide worked, along with the first few digits of your serial number.
 
 &nbsp;
 
