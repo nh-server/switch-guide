@@ -57,6 +57,7 @@
     Nintendo still recieves a lot of information, even with those options disabled. We also cannot know if Nintendo decides to look for something in the logs and ban people in retrospect. They have also shown to expand their telemetry options with every other firmware update.
  
     Currently all bans have been for very obvious and intrusive actions, specifically:
+
     - Developers using their unique Switch data to poke and reverse-engineer Nintendos Server responses
     - People pirating games and using them online
     - People changing their profile pictures to custom pictures (which is not possible without pirating the Nintendo SDK)
@@ -64,11 +65,11 @@
     - People cheating online in general (Modifying Cart stats in MK8)
     - People installing homebrew NSP files, which Nintendo can pick up on with their telemetry
     - People using unsafe custom firmware (such as ReiNX) that dangerously changes the system version string, creating a massive red flag for Nintendo 
-    - Atmosphere safely changes the version string and does not have this problem
+        * Atmosphere safely changes the version string and does not have this problem
 
     Atmosphere stops some- but *not all*- of Nintendo's telemetry, and prevents crash reports from being sent. This means Nintendo can't tell if anything- including homebrew, or modded games- crashed, and Atmosphere dumps the crash log to the SD card to help homebrew develeopers. However, Nintendo still receives information about what is being played, and general system report information.
 
-    Atmosphere is not a silver bullet, and this does not mean that Nintendo won't decide to ban people for harmless homebrew in the future. If you are scared to get banned then don't use homebrew for now. In a future Atmosphere update, we will be able to create a dual-boot (EmuNAND) solution, that allows us to have a clean, online firmware and a seperate offline firmware for homebrew related things. Unbanning on the Switch will be a lot harder, if not impossible.
+    Atmosphere is not a silver bullet, and this does not mean that Nintendo won't decide to ban people for harmless homebrew in the future. If you are scared to get banned then don't use homebrew for now. In a future Atmosphere update, we will be able to create a dual-boot (EmuNAND) solution, that allows us to have a clean, online firmware and a seperate offline firmware for homebrew related things. Unbanning on the Switch will be a lot harder than previous Nintendo systems, if not impossible.
 
 !!! danger "SX OS"
     *Team Xecuter's "EmuNAND" is not a proper, or safe, EmuNAND, and Nintendo can pick up on it with their telemetry.*
