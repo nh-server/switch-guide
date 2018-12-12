@@ -36,7 +36,7 @@ If your NAND was dumped in one cohesive part, you may skip to the next section.
 ### What you need
 
 !!! tip ""
-    - [NAND joiner scripts](https://github.com/CTCaer/hekate/releases/download/v4.2/joiner_scripts_for_windows_linux_macos.zip)
+    - [NAND joiner scripts](https://github.com/CTCaer/hekate/releases/) (joiner_scripts_for_windows_linux_macos.zip)
 
 ### Instructions
 
