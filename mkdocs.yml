@@ -18,7 +18,7 @@ nav:
         - 'Game Modding': 'extras/game_modding.md'        
         - 'Save Management': 'extras/save_management.md'
         - 'Blocking Updates': 'extras/blocking_updates.md'
-        - 'Getting your keys': 'extras/keys.md'
+        - 'Backup Keys': 'extras/backup_keys.md'
     - FAQ: faq.md
     - About: about.md
     

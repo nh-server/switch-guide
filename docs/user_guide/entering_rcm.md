@@ -33,13 +33,8 @@ There are several methods of entering RCM (**R**e**C**overy **M**ode). The most 
 
     This method entails putting a thin piece of tinfoil in between pins 9 and 10 on the Joy-Con, and the Joy-Con rail, then folding the foil over the back of the rail to tape it in place. This is best done by taking a 1 square inch piece of tinfoil, and folding it multiple times.
 
-    Here are some examples of the end-result from [8-Bit Flashback on YouTube](https://youtu.be/3-UeB_enPrM?t=136). (Note that video guides tend to get outdated quickly (and the linked one is already outdated), and while we don't recommend any video guides as a result, this one is linked for the purposes of giving a visual on how to successfully do the tinfoil method.)
-
     !!! tip ""
-        ![8-Bit Flashback Tinfoil Reference 1](../img/entering_rcm_tinfoil_8bfb_1.png)
-
-    !!! tip ""
-        ![8-Bit Flashback Tinfoil Reference 2](../img/entering_rcm_tinfoil_8bfb_2.png)
+        <iframe width=100% height=430 src="https://www.youtube.com/embed/dm6hxGbZZj4"> </iframe>
 </details>
 
 !!! tip ""
@@ -58,10 +53,10 @@ There are several methods of entering RCM (**R**e**C**overy **M**ode). The most 
     Here are some examples of shorting pins 1 and 10 using a wire from HowDenKing#0001 on our Discord server.
 
     !!! tip ""
-        ![HowDenKing Paperclip Reference 1](../img/entering_rcm_paperclip_hdk_1.jpg)
+        ![HowDenKing Paperclip Reference 1](../user_guide/img/entering_rcm_paperclip_hdk_1.jpg)
 
     !!! tip ""
-        ![HowDenKing Paperclip Reference 2](../img/entering_rcm_paperclip_hdk_2.jpg)
+        ![HowDenKing Paperclip Reference 2](../user_guide/img/entering_rcm_paperclip_hdk_2.jpg)
 </details>
 
 !!! tip ""
@@ -77,7 +72,7 @@ There are several methods of entering RCM (**R**e**C**overy **M**ode). The most 
     Jigs range in price, with the ones we recommend being $10. They're more expensive than other jigs, but spending $10 on a quality jig using 32-gauge wire is a smaller cost than replacing your entire Joy-Con rail after the pins are scratched off by a paperclip jig.
 
     !!! tip ""
-        ![switchjigs.com jigs](../img/entering_rcm_jig.jpg)
+        ![switchjigs.com jigs](../user_guide/img/entering_rcm_jig.jpg)
 </details>
 
 !!! tip ""
@@ -96,7 +91,7 @@ There are several methods of entering RCM (**R**e**C**overy **M**ode). The most 
     Here is an example from Sonlen#0666 on our Discord server.
 
     !!! tip ""
-        ![Sonlen example](../img/entering_rcm_bent_pins.jpg)
+        ![Sonlen example](../user_guide/img/entering_rcm_bent_pins.jpg)
 </details>
 
 !!! tip ""
@@ -115,7 +110,7 @@ There are several methods of entering RCM (**R**e**C**overy **M**ode). The most 
     Here is an example from YyAoMmIi#3705 on our Discord server.
 
     !!! tip ""
-        ![YyAoMmIi solder example](../img/entering_rcm_solder_910_yyaommii.jpg)
+        ![YyAoMmIi solder example](../user_guide/img/entering_rcm_solder_910_yyaommii.jpg)
 </details>
 
 !!! tip ""
@@ -131,7 +126,7 @@ There are several methods of entering RCM (**R**e**C**overy **M**ode). The most 
     Here is an example from stuckpixel#3421 on the ReSwitched Discord server.
 
     !!! tip ""
-        ![stuckpixel solder example](../img/entering_rcm_solder_710_stuckpixel.png)
+        ![stuckpixel solder example](../user_guide/img/entering_rcm_solder_710_stuckpixel.jpg)
 </details>
 
 &nbsp;
