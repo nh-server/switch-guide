@@ -43,7 +43,7 @@ If your NAND was dumped in one cohesive part, you may skip to the next section.
 !!! tip ""
     1. Copy *the contents of* the joiner scripts `.zip` file to the `backup` -> (numbers) folder on your PC
     2. Run the script matching the amount of NAND chunks you have, and the operating system you are on
-    - Users with 15 chunks should run the `join_15_1GBparts` file, and users with 30 chunks should run the `join_30_2GBparts` file
+    - Users with 15 chunks should run the `join_15_2GBparts` file, and users with 30 chunks should run the `join_30_1GBparts` file
     - This will take a few minutes
     3. Once you have the complete `rawnand.bin`, you may delete the original chunks
     - Don't forget to keep your backup in a safe location
