@@ -1,4 +1,4 @@
-<a href="https://discord.gg/C29hYvh" target="_blank"><img style="float: right;" src="user_guide/img/discord.png"></a>
+<a href="https://discord.gg/C29hYvh" target="_blank"><img style="float: right;" src="img/discord.png"></a>
 
 # NH Switch Guide
 
