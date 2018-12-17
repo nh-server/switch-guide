@@ -31,7 +31,21 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 ## Mac / Linux
 
 !!! tip ""
-    #### TODO
+    ### What you need
+
+!!! tip ""
+    - The latest release of <insert injector here>
+    - The latest release of [Hekate](https://github.com/CTCaer/hekate/releases/)
+    - A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
+
+### Instructions
+
+!!! tip ""
+    1. Download and run the payload injector
+    2. Connect your Switch in RCM to your PC using the USB cable
+    3. Wait for your Switch to be shown as found in the injector
+    4. Press `Select Payload`, and navigate to and select your hekate_ctcaer `.bin` file
+    6. Click `Send Payload!` to launch Hekate
 
 &nbsp;
 
