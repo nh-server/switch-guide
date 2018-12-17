@@ -17,7 +17,7 @@
 ## What you need 
 
 !!! tip ""
-	- The latest release of [NX-ThemesBeta](https://cdn.discordapp.com/attachments/522066540741394452/523467764711817216/NXThemesInstallerBeta6.7z) //Needs to go out of beta 
+	- The latest release of [NX-ThemesBeta](https://cdn.discordapp.com/attachments/522066540741394452/523467764711817216/NXThemesInstallerBeta6.7z)
 	- The latest release of [Switch Theme Injector](https://cdn.discordapp.com/attachments/522066540741394452/523254673902141460/SwitchThemesInjector3.4Beta2.7z)
 	- Your `prod.keys` keyset file
 
@@ -67,3 +67,10 @@
 	1. Boot switch CFW, launch the homebrew launcher and launch `NXThemes`.
 	2. Navigate to `Themes`, Your theme file('s) should be listed here. You can install them one by one.
 	3. Reboot your switch to see the changes.
+	
+&nbsp;
+
+## Sharing your theme
+
+!!! tip ""
+	The `(name).nxtheme` files are completely legal to share! On the flipside, the .szs files are **illegal** to share, as they contain coprighted content. 
