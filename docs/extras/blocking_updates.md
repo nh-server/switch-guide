@@ -13,8 +13,6 @@ We will be using 90DNS, a community-run custom DNS.
     4. Set Primary DNS to `163.172.141.219`
     5. Set Secondary DNS to `45.248.48.62`
     6. Save Settings and test connection.
-    
-    &nbsp;
-
+   
 !!! tip ""
     ![Visual for System Settings serial location](../extras/img/blocking_updates.jpg)
