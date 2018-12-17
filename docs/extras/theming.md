@@ -37,11 +37,11 @@
 
 ## Compatible theme files
 
-!!! tip "For 4.x and 5.x the following files are avalable to be themed via NXThemes:"
+!!! tip "For 4.x and 5.x the following files are available to be themed via NXThemes:"
 	- Residentmenu.szs, The home menu of the switch. (This will also theme settings, news and all apps on 5.x)
 	- Entrance.szs, The lockscreen of the switch.
 	
-!!! tip "For 6.x the following files are avalable to be themed via NXThemes:"
+!!! tip "For 6.x the following files are available to be themed via NXThemes:"
 	- Residentmenu.szs, The home menu of the switch.
 	- Entrance.szs, The lockscreen of the switch.
 	- Notification.szs, The news section of the switch.
