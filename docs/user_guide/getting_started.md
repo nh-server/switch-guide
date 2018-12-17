@@ -35,7 +35,7 @@ The following information is based on [this GBATemp thread](https://gbatemp.net/
     - If your serial starts with **XAW4**:
         - XAW4001100X and below are unpatched
         - XAW4001200X and above are potentially patched
-        - XAW4001300X and above are patched
+        - XAW4003000X and above are patched
 !!! note ""
     - If your serial starts with **XAW7**:
         - XAW7001780X and below are unpatched
