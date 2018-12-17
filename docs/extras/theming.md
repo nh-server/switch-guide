@@ -7,7 +7,7 @@
 	This guide requires windows apps to work.
 
 !!! tip "Switch theme example:"
-	![ExampleSwitchTheme](../img/ExampleSwitchTheming.jpg)
+	![ExampleSwitchTheme](..extras/img/switch_theming.jpg)
 
 
 	
