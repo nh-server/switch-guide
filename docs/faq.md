@@ -10,7 +10,7 @@
 ### How do I use the exploit? How can I boot into RCM?
 
 !!! tip ""
-    To launch CFW through the exploit, the Switch needs to be in "Recovery Mode"(RCM). The easiest way to enter RCM is by grounding pin 10 in the right joycon rail and holding VOL+ on boot. Several methods and designs to do this exist, see https://xghostboyx.github.io/RCM-Guide/ for more information. Once the Switch is in RCM it needs to be connected to either a computer, phone or dongle to send the exploit and the payload.
+    To launch CFW through the exploit, the Switch needs to be in "Recovery Mode"(RCM). The easiest way to enter RCM is by grounding pin 10 in the right joycon rail and holding VOL+ on boot. Several methods and designs to do this exist, see [This page of the guide](../user_guide/entering_rcm) for more information. Once the Switch is in RCM it needs to be connected to either a computer, phone or dongle to send the exploit and the payload.
 
     This procedure needs to happen every time the Switch boots from a completely "off" state, otherwise the Switch will boot into the stock firmware.
 
