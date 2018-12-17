@@ -72,4 +72,4 @@
     Atmosphere is not a silver bullet, and this does not mean that Nintendo won't decide to ban people for harmless homebrew in the future. If you are scared to get banned then don't use homebrew for now. In a future Atmosphere update, we will be able to create a dual-boot (EmuNAND) solution, that allows us to have a clean, online firmware and a seperate offline firmware for homebrew related things. Unbanning on the Switch will be a lot harder than previous Nintendo systems, if not impossible.
 
 !!! danger "SX OS"
-    *Team Xecuter's "EmuNAND" is not a proper, or safe, EmuNAND, and Nintendo can pick up on it with their telemetry.*
+    *Team Xecuter's "EmuNAND" is not a proper (or safe) EmuNAND, and Nintendo can pick up on it with their telemetry.*
