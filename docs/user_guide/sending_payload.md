@@ -30,8 +30,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
 ## Mac / Linux
 
-!!! tip ""
-    ### What you need
+### What you need
 
 !!! tip ""
     - The latest release of <insert injector here>
