@@ -28,7 +28,7 @@
 !!! tip ""
 	1. Place `SwitchThemesNX.nro` in the switch folder on your sd card.
 	2. Boot switch CFW, launch the homebrew launcher and launch `NXThemes`.
-	3. Navigate to `Dump NCA` and press + to dump the home nca.
+	3. Navigate to `Dump NCA`, press right to select the dump nca button and press + to dump the home nca.
 	4. Turn your switch off and put the sd card back into the pc.
 	5. Launch the `Switch Theme Injector` app, navigate to `extract NCA`. Select your keyset file from your pc and the `themes/systemData` folder on your sd card.
 	6. All .szs files required for theming are now located in `themes/systemData` on your sd card. Copy them to your pc.
