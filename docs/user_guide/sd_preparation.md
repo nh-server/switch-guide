@@ -28,7 +28,7 @@ Hekate will be used as an intermediary bootloader, as it has useful options such
 !!! tip ""
     1. Insert your Switch's SD card into your PC
     2. Copy *the contents of* the Atmosphere `.zip` file to the root of your SD card
-    3. Copy `fusee-primary.bin` to the root of your SD card
+    3. Copy `fusee-primary.bin` to the atmosphere folder on your SD card
     4. Copy the `bootloader` folder from the Hekate `.zip` file to the root of your SD card
     5. Copy nx-hbloader (`hbl.nsp`) to the `atmosphere` folder on your SD card
     6. Copy *the contents of* the nx-hbmenu `.zip` file to the root of your SD card
