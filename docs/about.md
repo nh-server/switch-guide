@@ -4,7 +4,7 @@
 
 This guide was written by staff members of the [Nintendo Homebrew Discord server](https://discord.gg/C29hYvh) 
 
-**Flump, jerbear64, Phoenix, xGhostBoyx and Such Meme Many Skill.**
+**Flump, jerbear64, Phoenix, xGhostBoyx, Such Meme Many Skill, and oreo639.**
 
 &nbsp;
 
