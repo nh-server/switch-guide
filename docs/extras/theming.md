@@ -1,6 +1,6 @@
 # Theming
 
-You can create unique styles and layouts for you Switch Home Menu. Learn how to do so below.
+You can create unique styles and layouts for your Switch Home Menu.
 
 &nbsp;
 
@@ -10,8 +10,10 @@ You can create unique styles and layouts for you Switch Home Menu. Learn how to 
 !!! snippet "Windows only!"
 	This guide requires windows apps to work.
 
-!!! tip "Example Theme"
+!!! tip ""
 	![ExampleSwitchTheme](../extras/img/switch_theming.jpg)
+
+&nbsp;
 
 ### What you need 
 

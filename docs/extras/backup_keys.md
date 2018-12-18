@@ -1,18 +1,20 @@
 # Backup Keys
+This section is for making a backup of your console keys.
 
 &nbsp;
 
 !!! danger "Advanced users only!"
-	This section is for making a backup of your console keys. Keys are meant for decrypting game dumps, usually for modding purposes. Most users won't need this.
+	Keys are meant for decrypting game dumps, usually for modding purposes. Most users won't need this.
 
+&nbsp;
 
-## What you need
+### What you need
 
 !!! tip ""
 	- The latest release of [Lockpick](https://github.com/shchmue/Lockpick/releases)
 	- The latest release of [Hekate](https://github.com/CTCaer/hekate/releases)
 
-## Instructions
+### Instructions
 
 !!! tip ""
 	1. Copy `Lockpick.nro` to the `switch` folder on your SD card.
@@ -23,3 +25,6 @@
 	6. Launch Atmosphere CFW
 	7. Go to the homebrew menu, and launch the Lockpick app. Once it finishes dumping, press + to exit
 	8. You should now have your prod.keys in the `switch` folder on the sd card
+
+!!! tip "Lockpick"
+	![ExampleSwitchTheme](../extras/img/backup_keys.jpg)

@@ -2,6 +2,8 @@
 
 LayeredFS, a tool built in to Atmosphere, allows you to replace game files with your own.
 
+&nbsp;
+
 ### Instructions
 
 !!! tip ""
