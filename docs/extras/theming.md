@@ -18,53 +18,43 @@ You can create unique styles and layouts for your Switch Home Menu.
 ### What you need 
 
 !!! tip ""
-	- The latest release of [NX-ThemesBeta](https://cdn.discordapp.com/attachments/522066540741394452/523467764711817216/NXThemesInstallerBeta6.7z)
-	- The latest release of [Switch Theme Injector](https://cdn.discordapp.com/attachments/522066540741394452/523254673902141460/SwitchThemesInjector3.4Beta2.7z)
+	- The latest release of [NXThemeInstaller and Switch Theme Injector v3.4](https://github.com/exelix11/SwitchThemeInjector/releases)
+		- You need both the `NXThemeInstaller.nro` and `ReleaseV3.4.zip`
 	- Your `prod.keys` keyset file
 	
+&nbsp;
+
 ### Dumping required files
 
 !!! tip ""
-	1. Place `SwitchThemesNX.nro` in the switch folder on your sd card.
-	2. Boot switch CFW, launch the homebrew launcher and launch `NXThemes`.
-	3. Navigate to `Dump NCA`, press right to select the dump nca button and press + to dump the home nca.
-	4. Turn your switch off and put the sd card back into the pc.
-	5. Launch the `Switch Theme Injector` app, navigate to `extract NCA`. Select your keyset file from your pc and the `themes/systemData` folder on your sd card.
-	6. All .szs files required for theming are now located in `themes/systemData` on your sd card. Copy them to your pc.
-
-&nbsp;
-
-### Compatible theme files
-
-!!! tip "For 4.x and 5.x the following files are available to be themed via NXThemes:"
-	- Residentmenu.szs, The home menu of the switch. (This will also theme settings, news and all apps on 5.x)
-	- Entrance.szs, The lockscreen of the switch.
-	
-!!! tip "For 6.x the following files are available to be themed via NXThemes:"
-	- Residentmenu.szs, The home menu of the switch.
-	- Entrance.szs, The lockscreen of the switch.
-	- Notification.szs, The news section of the switch.
-	- set.szs, The settings app of the switch.
-	- Flaunch.szs, The All software menu of the switch.
+	1. Unzip `ReleaseV3.4.zip` to somewhere on your pc's drive.
+	2. Place `NXThemeInstaller.nro` in the switch folder on your sd card.
+	3. Boot switch CFW, launch the homebrew launcher and launch `NXThemes`.
+	4. Navigate to `Dump NCA` and press + to dump the home nca.
+	5. Turn your switch off and put the sd card back into the pc.
+	6. Launch the `SwitchThemes.exe` app from the `ReleaseV3.4.zip`, navigate to `extract NCA`. Select your keyset file from your pc and the `themes/systemData` folder on your sd card.
+	7. All .szs files required for theming are now located in `themes/systemData` on your sd card. Copy them to your pc if you want to make themes manually later on.
 
 &nbsp;
 
 ### Making a theme
 
 !!! tip ""
-	1. Open up the `Switch Theme Injector` app. On the top click `Open szs`, Open a compatible szs file you copied from step 6. (See above for compatible files)
-	2. Navigate to `Inject & Patch`.
-	3. Open a 720P image (very important!!), This image will become the background for the .szs you're modifying. Select a layout if you want a layout to be added to your theme.
-	4. Click `Build Theme Pack`, then fill out the details in the window that pops up. After filling out this window and clicking ok, you'll get asked where to save the file.
-	5. Put this new `(Name).nxtheme` file in the `themes` folder on your sd card.
-	6. Repeat these steps for every element of the switch you want to modify.
+	1. Open up the `SwitchThemes.exe` app. Navigate to `NXTheme Builder`.
+	2. Select a Home menu part, A 720P image (very important!!) and a Layout patch. Click on `Build NXTheme` after selecting your home menu part, image and layout patch.
+	3. Fill out the details in the window that pops up. After filling out this window and clicking ok, you will get asked where to save the NXTheme file. Save this file in the `themes` folder on the sd card
+	4. Repeat these steps for every home menu part of the switch you want to modify.
+
+&nbsp;
 	
 ### Installing a theme
 
 !!! tip ""
 	1. Boot switch CFW, launch the homebrew launcher and launch `NXThemes`.
-	2. Navigate to `Themes`, Your theme file('s) should be listed here. You can install them one by one.
+	2. Navigate to `Themes`, Your theme files should be listed here. You can install them one by one.
 	3. Reboot your switch to see the changes.
+
+&nbsp;
 
 ### Sharing your theme
 
