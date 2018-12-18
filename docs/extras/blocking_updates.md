@@ -4,6 +4,8 @@ You can add custom DNS to your WiFi connection that will block all communication
 
 We will be using [90DNS](https://gitlab.com/ao/90dns), a community-run custom DNS server. If you prefer, you can run your own DNS server following the instructions on the [GitLab repository.](https://gitlab.com/ao/90dns/blob/master/SELFHOST.md)
 
+&nbsp;
+
 ### Instructions
 
 !!! tip ""
