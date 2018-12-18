@@ -6,6 +6,8 @@ Once the backup is finished, **keep it somewhere safe.** The best backup is the 
 
 It's highly recommended that you use an SD card that is formatted to exFAT, and has at least 32 gigabytes of space free, so the end-result doesn't need to be stitched together or take multiple reboots. This will still work on smaller cards, but it's not ideal.
 
+&nbsp;
+
 ### Instructions
 
 !!! tip ""
@@ -31,7 +33,9 @@ It's highly recommended that you use an SD card that is formatted to exFAT, and 
 
 # Combining NAND backup parts
 
-If your NAND was dumped in one cohesive part, you may skip to the next section.
+The following section is if your nand was dumped in seperate parts (15 or 30). If your NAND was dumped in one complete part, you may skip to the next section. 
+
+&nbsp;
 
 ### What you need
 
