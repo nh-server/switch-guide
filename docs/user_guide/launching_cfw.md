@@ -4,7 +4,9 @@ Now that the preparation work is out of the way, we're finally ready to launch c
 
 Unlike systems such as the DSi, Wii, or 3DS, Switch CFW is currently volatile- it will only work as long as your Switch is on. As soon as your Switch crashes, is shut down, or restarted, CFW will no longer function and you will need to follow these instructions again.
 
-## Instructions
+&nbsp;
+
+### Instructions
 
 !!! tip ""
     1. Power on your Switch into RCM, and upload the Hekate payload
