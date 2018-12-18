@@ -26,7 +26,7 @@ A guide collaboration between Nintendo Homebrew's Helpers and Staff, from stock 
 ### What does this guide install?
 
 !!! tip ""
-    This guide has the end goal of taking a completely unmodified Switch from stock firmware to fusee-gelee powered Custom Firmware.
+    This guide has the end goal of taking a completely unmodified Switch from Stock Firmware to Atmosphere Custom Firmware.
 
     fusee-gelee is currently the best method of launching Custom Firmware that gives us nearly full control of the system. It utilizes a vulnerability in the bootROM of the first-generation Switch systems, allowing us to send any payload we want to the Switch's recovery mode, instead of only ones that Nintendo have authorized.
 
@@ -57,7 +57,7 @@ A guide collaboration between Nintendo Homebrew's Helpers and Staff, from stock 
 
 If everything goes according to plan, you will lose no data and end up with everything that you started with (games, NNID, saves, etc will be preserved).
 
-Keep your device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off!
+Keep your device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off.
 
 Custom Firmware is not permanent with current methods, and will be unloaded upon rebooting the system.
 
