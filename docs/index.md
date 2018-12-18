@@ -6,6 +6,9 @@ A guide collaboration between Nintendo Homebrew's Helpers and Staff, from stock 
 
 &nbsp;
 
+!!! tip "Discord Help"
+    For live support with this guide please visit us in **#switch-assistance** on [Nintendo Homebrew Discord](https://discord.gg/C29hYvh).
+
 ### What is homebrew?
 
 !!! tip ""
