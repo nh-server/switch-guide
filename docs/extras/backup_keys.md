@@ -3,7 +3,7 @@
 &nbsp;
 
 !!! danger "Advanced users only!"
-	This section is meant for getting your console keys. Keys are meant for decrypting game dumps, usually for modding purposes. Most users won't need this.
+	This section is for making a backup of your console keys. Keys are meant for decrypting game dumps, usually for modding purposes. Most users won't need this.
 
 
 ## What you need
