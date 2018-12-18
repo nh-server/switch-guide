@@ -19,7 +19,7 @@
 !!! tip ""
     Most people prefer to use 3d-printed jigs to enter RCM. These jigs are made in a way that they slide into the right joycon rail and have a piece of connected wire that then bridges pin 10 and one of the grounded pins on the Switch. A lot of different designs for these jigs exist, but it is important to understand, that these jigs can damage the Switch if they are made in a bad way.
 
-    Since the wire in the jig is supposed to touch the pads inside the Switchs joycon rail, it is important to use wire that is thin, not rigid and bent/not pointy. Paperclips make for potentially dangerous jigs, as they are made out of a hard material, are rigid and pointy and can easily scratch off the pads inside the Switch. A good jig uses 32Gauge(0.2mm diameter) wire and is bent in a way that the end of the wire does not scratch the pads. https://switchjigs.com/ sells jigs we consider "good". You can also download and 3d-print your own jig and use the pictures on the website to guide you on how to bend the wire correctly.
+    Since the wire in the jig is supposed to touch the pads inside the Switch's joycon rail, it is important to use wire that is thin, not rigid and bent/not pointy. Paperclips make for potentially dangerous jigs, as they are made out of a hard material, are rigid and pointy and can easily scratch off the pads inside the Switch. A good jig uses 32Gauge(0.2mm diameter) wire and is bent in a way that the end of the wire does not scratch the pads. https://switchjigs.com/ sells jigs we consider "good". You can also download and 3d-print your own jig and use the pictures on the website to guide you on how to bend the wire correctly.
 
 ### Is there a way to launch CFW more comfortably?
 
