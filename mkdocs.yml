@@ -14,11 +14,11 @@ nav:
         - 'Making a NAND Backup': 'user_guide/making_a_nand_backup.md'
         - 'Launching CFW': 'user_guide/launching_cfw.md'
     - Extras:
+        - 'Blocking Updates': 'extras/blocking_updates.md'
+        - 'Backup Keys': 'extras/backup_keys.md'
         - 'Theming': 'extras/theming.md'
         - 'Game Modding': 'extras/game_modding.md'        
         - 'Save Management': 'extras/save_management.md'
-        - 'Blocking Updates': 'extras/blocking_updates.md'
-        - 'Backup Keys': 'extras/backup_keys.md'
     - FAQ: faq.md
     - About: about.md
     

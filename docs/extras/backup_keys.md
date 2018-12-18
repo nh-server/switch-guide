@@ -1,18 +1,16 @@
-# Instructions on how to get your console keys
+# Backup Keys
 
+&nbsp;
 
 !!! danger "Advanced users only!"
 	This section is meant for getting your console keys. Keys are meant for decrypting game dumps, usually for modding purposes. Most users won't need this.
-	
-&nbsp;
+
 
 ## What you need
 
 !!! tip ""
 	- The latest release of [Lockpick](https://github.com/shchmue/Lockpick/releases)
 	- The latest release of [Hekate](https://github.com/CTCaer/hekate/releases)
-	
-&nbsp;
 
 ## Instructions
 
@@ -25,7 +23,3 @@
 	6. Launch Atmosphere CFW
 	7. Go to the homebrew menu, and launch the Lockpick app. Once it finishes dumping, press + to exit
 	8. You should now have your prod.keys in the `switch` folder on the sd card
-
-
-
-
