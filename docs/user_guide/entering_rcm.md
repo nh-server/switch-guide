@@ -5,7 +5,7 @@ As the Switch uses a Tegra X1 processor, it has a special recovery mode that is,
 There are several methods of entering RCM (**R**e**C**overy **M**ode). The most affordable of these require nothing more than common household items, while the most reliable are very cheap ($10).
 
 !!! danger "Patched Switch"
-    Note that patched units **can** enter RCM, but it is useless to us on those systems. Also note that this is a different recovery mode than the one accessed by holding Volume Up, Volume Down, and Power.
+    Note that patched units **can** enter RCM, but it is not able to send a payload on those systems. Also note that RCM is a different recovery mode than the one accessed by holding Volume Up, Volume Down, and Power.
 
 !!! snippet "Note"
     The order of methods on this page is in the order of ease. The easiest to immediately accomplish are listed at the top, and the most advanced/difficult methods are at the bottom.
