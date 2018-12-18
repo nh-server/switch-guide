@@ -33,7 +33,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 ### What you need
 
 !!! tip ""
-    - The latest release of <insert injector here>
+    - The latest release of [fusee-interfacee-tk](https://github.com/nh-server/fusee-interfacee-tk/releases)
     - The latest release of [Hekate](https://github.com/CTCaer/hekate/releases/)
     - A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
 
