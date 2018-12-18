@@ -44,7 +44,7 @@ You can create unique styles and layouts for your Switch Home Menu.
 
 !!! tip ""
 	1. Open up the `SwitchThemes.exe` app. Navigate to `NXTheme Builder`.
-	2. Select a Home menu part, A 720P image (very important!!) and a Layout patch. Click on `Build NXTheme` after selecting your home menu part, image and layout patch.
+	2. Select a Home menu part, A 720P image and a Layout patch. Click on `Build NXTheme` after selecting your home menu part, image and layout patch.
 	3. Fill out the details in the window that pops up. After filling out this window and clicking ok, you will get asked where to save the NXTheme file. Save this file in the `themes` folder on the sd card.
 	4. Repeat these steps for every home menu part of the switch you want to modify.
 
