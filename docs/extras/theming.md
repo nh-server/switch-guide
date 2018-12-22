@@ -21,8 +21,6 @@ You can create unique styles and layouts for your Switch Home Menu.
 	- The latest release of [NXThemeInstaller and Switch Theme Injector v3.4](https://github.com/exelix11/SwitchThemeInjector/releases)
 		- You need both the `NXThemeInstaller.nro` and `ReleaseV3.4.zip`
 	- Your `prod.keys` keyset file
-	
-&nbsp;
 
 ### Dumping required files
 

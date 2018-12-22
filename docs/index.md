@@ -65,4 +65,4 @@ It is advised that you read the entire guide from start to finish one or more ti
 
 &nbsp;
 
-#### [Continue to Getting Started](user_guide/getting_started.md)
+#### [Continue to Getting Started <i class="fa fa-arrow-circle-right fa-lg"></i>](user_guide/getting_started.md) 

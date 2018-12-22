@@ -76,4 +76,4 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
 &nbsp;
 
-#### [Continue to Making a NAND Backup](making_a_nand_backup.md)
+#### [Continue to Making a NAND Backup <i class="fa fa-arrow-circle-right fa-lg"></i>](making_a_nand_backup.md)

@@ -133,4 +133,4 @@ There are several methods of entering RCM (**R**e**C**overy **M**ode). The most 
 
 &nbsp;
 
-#### [Continue to Sending a Payload](sending_payload.md)
+#### [Continue to Sending a Payload <i class="fa fa-arrow-circle-right fa-lg"></i>](sending_payload.md)

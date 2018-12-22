@@ -38,4 +38,4 @@ Hekate will be used as an intermediary bootloader, as it has useful options such
 
 &nbsp;
 
-#### [Continue to Entering RCM](entering_rcm.md)
+#### [Continue to Entering RCM <i class="fa fa-arrow-circle-right fa-lg"></i>](entering_rcm.md)
