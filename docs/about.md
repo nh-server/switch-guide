@@ -6,6 +6,8 @@ This guide was written by staff members of the [Nintendo Homebrew Discord server
 
 **Flump, jerbear64, Phoenix, xGhostBoyx, Such Meme Many Skill, and oreo639.**
 
+[You can find this guide on GitHub!](https://github.com/nh-server/switch-guide)
+
 &nbsp;
 
 !!! tip ""
