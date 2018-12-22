@@ -1,0 +1,21 @@
+language: python
+
+python: 3.6.7
+
+branches: master
+
+install:
+    - pip install mkdocs
+    - pip install fontawesome-markdown
+    - pip install mkdocs-bootswatch
+
+before_deploy:
+    - mkdocs build --verbose --clean --strict
+
+deploy:
+    provider: pages
+    skip_cleanup: true
+    github_token: $github_token
+    local_dir: site
+    on:
+        branch: master
