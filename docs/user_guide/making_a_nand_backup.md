@@ -54,4 +54,4 @@ The following section is if your nand was dumped in seperate parts (15 or 30). I
 
 &nbsp;
 
-#### [Continue to Launching CFW](launching_cfw.md)
+#### [Continue to Launching CFW <i class="fa fa-arrow-circle-right fa-lg"></i>](launching_cfw.md)

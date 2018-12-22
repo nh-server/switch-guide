@@ -65,4 +65,4 @@ The following information is based on [this GBATemp thread](https://gbatemp.net/
 
 &nbsp;
 
-#### [Continue to SD Preparation](sd_preparation.md)
+#### [Continue to SD Preparation <i class="fa fa-arrow-circle-right fa-lg"></i>](sd_preparation.md)

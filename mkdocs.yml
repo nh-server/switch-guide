@@ -24,3 +24,4 @@ nav:
     
 markdown_extensions:
     - admonition
+    - fontawesome_markdown
