@@ -19,7 +19,7 @@ Hekate will be used as an intermediary bootloader, as it has useful options such
     - The latest release of [FTPD](https://github.com/mtheall/ftpd/releases)
 	    - Download the `ftpd.nro` release of FTPD
     - The latest release of [NX-Shell](https://github.com/joel16/NX-Shell/releases)
-    - [hekate-ipl.ini](../files/hekate_ipl.ini)
+    - <a href="../../files/hekate_ipl.ini" download>hekate-ipl.ini</a>
 
 
 
