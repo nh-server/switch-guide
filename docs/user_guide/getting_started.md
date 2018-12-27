@@ -23,6 +23,11 @@ The homebrew community has crowdsourced a list of known serial numbers which are
 - If your serial number is listed as "patched", there is nothing you can do at this time. 
 - If your system is patched, it is highly advised to keep it on 4.1.0 or lower, if possible, as there may be a vulnerability for these versions in the far future.
 
+!!! tip "Notice"
+    If you are unsure on if your serial is patched, you can test your console yourself following the instructions [here.](/extras/rcmtest/)
+
+&nbsp;
+
 The following information is based on [this GBATemp thread](https://gbatemp.net/threads/switch-informations-by-serial-number-read-the-first-post-before-asking-questions.481215/).
 
 
