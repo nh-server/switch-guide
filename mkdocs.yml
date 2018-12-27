@@ -15,6 +15,7 @@ nav:
         - 'Launching CFW': 'user_guide/launching_cfw.md'
     - Extras:
         - 'Blocking Updates': 'extras/blocking_updates.md'
+        - 'Manual RCM testing': 'extras/rcmtest.md'
         - 'Backup Keys': 'extras/backup_keys.md'
         - 'Theming': 'extras/theming.md'
         - 'Save Management': 'extras/save_management.md'
