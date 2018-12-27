@@ -11,8 +11,8 @@ To enter RCM, please look at [this page.](/user_guide/entering_rcm/) After you'v
 &nbsp;
 
 
-!!! tip ""
-    Essential files: [The fusee test payload by ktempkin](http://misc.ktemkin.com/fusee.bin)
+!!! tip "Essential files"
+    [The fusee test payload](http://misc.ktemkin.com/fusee.bin) by ktempkin
 &nbsp;
 
 Follow the directions from the [sending payload guide](/user_guide/sending_payload/), but replace all usage of the hekate.bin payloaf with the fusee.bin payload you downloaded above.
