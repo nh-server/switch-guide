@@ -2,7 +2,7 @@
 
 We will now place the required files for the Atmosphere custom firmware and some additional homebrew files on the SD card.
 
-Hekate will be used as an intermediary bootloader, as it has useful options such as unsetting the archive bit on files for exFAT SD cards, backing up and restoring NAND backups, and "dual-booting" different payloads.
+Atmosphere has its own bootloader, called fusee. For the purposes of this guide, we will be using Hekate instead, so that we can back up the system's NAND (internal storage) and do other advanced features in the future.
 
 &nbsp;
 
