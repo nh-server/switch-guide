@@ -2,7 +2,7 @@
 
 We will now place the required files for the Atmosphere custom firmware and some additional homebrew files on the SD card.
 
-Atmosphere has its own bootloader, called fusee. For the purposes of this guide, we will be using Hekate instead, so that we can back up the system's NAND (internal storage) and do other advanced features in the future.
+Atmosphere has its own bootloader, called fusee (primary). For the purposes of this guide we will be using Hekate instead, so that we can back up the system's NAND (internal storage) and do other advanced features in the future.
 
 &nbsp;
 
