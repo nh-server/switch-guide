@@ -24,7 +24,7 @@ The homebrew community has crowdsourced a list of known serial numbers which are
 - If your system is patched, it is highly advised to keep it on 4.1.0 or lower, if possible, as there may be a vulnerability for these versions in the far future.
 
 !!! tip "Notice"
-    If you are unsure if your serial is patched, you can test your console yourself following the instructions [here.](/extras/rcmtest/)
+    If you are unsure if your serial is patched, you can test your console yourself following the instructions [here.](../extras/rcm-test/)
 
 &nbsp;
 
