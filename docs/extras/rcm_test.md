@@ -16,14 +16,14 @@ To enter RCM, please look at [this page.](/user_guide/entering_rcm/) After you'v
 
 &nbsp;
 
-Follow the directions from the [sending payload guide](/user_guide/sending_payload/), but replace all usage of the hekate.bin payloaf with the fusee.bin payload you downloaded above.
+Follow the directions from the [sending payload guide](/user_guide/sending_payload/), but replace all usage of the hekate.bin payload with the fusee.bin payload you downloaded above.
 
 After you have sent the payload, your console should display an ASCII rocket ship, like pictured below.
 
 !!! tip ""
     ![Fusee Test Payload](../extras/img/fusee_test.jpg)
 
-If it does, your console is unpatched, and you can continue on with the guide! If nothing is shown, your console is likely patched. You can double check your serial number with the list [here](/user_guide/getting_started/), if you desire.
+If it does, your console is unpatched, and you can continue on with the guide! If nothing is shown, your console is likely patched. You can double check your serial number with the list [here](/user_guide/getting_started/) if you desire.
 
 &nbsp;
 
