@@ -4,7 +4,7 @@ This section is for manually testing if your Nintendo Switch can use the fusee-g
 &nbsp;
 
 ### Entering RCM
-To enter RCM, please look at [this page.](/switch_guide/user_guide/entering_rcm/) After you've read that and are able to enter RCM, continue on.
+To enter RCM, please look at [this page.](/switch-guide/user_guide/entering_rcm/) After you've read that and are able to enter RCM, continue on.
 
 &nbsp;
 
@@ -16,7 +16,7 @@ To enter RCM, please look at [this page.](/switch_guide/user_guide/entering_rcm/
 
 &nbsp;
 
-Follow the directions from the [sending payload guide](/switch_guide/user_guide/sending_payload/), but replace all usage of the hekate.bin payload with the fusee.bin payload you downloaded above.
+Follow the directions from the [sending payload guide](/switch-guide/user_guide/sending_payload/), but replace all usage of the hekate.bin payload with the fusee.bin payload you downloaded above.
 
 After you have sent the payload, your console should display an ASCII rocket ship, like pictured below.
 
@@ -27,4 +27,4 @@ If it does, your console is unpatched, and you can continue on with the guide! I
 
 &nbsp;
 
-#### [If your console is unpatched, continue to SD Preparation <i class="fa fa-arrow-circle-right fa-lg"></i>](/switch_guide/user_guide/sd_preparation/)
+#### [If your console is unpatched, continue to SD Preparation <i class="fa fa-arrow-circle-right fa-lg"></i>](/switch-guide/user_guide/sd_preparation/)
