@@ -55,6 +55,9 @@ A guide collaboration between Nintendo Homebrew's Helpers and Staff, from stock 
     - A Lightning to USB-C cable, and a jailbroken iOS device
         - This method is not covered by the guide, but you can read more about it at [this website](https://mologie.github.io/nxboot/)
 
+
+	You will also need a micro SD card that is preferably 32 gigabytes large or greater, as NAND backups for the console will take up around 30 gigabytes.
+	 
 If everything goes according to plan, you will lose no data and end up with everything that you started with (games, NNID, saves, etc will be preserved).
 
 Keep your device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off.
