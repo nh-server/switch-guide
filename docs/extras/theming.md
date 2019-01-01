@@ -65,4 +65,4 @@ You can create unique styles and layouts for your Switch Home Menu.
 
 ### Find other user created themes
 !!! tip ""
-There's a subreddit where lots of people share their theme, it's called [r/NXTheme](https://www.reddit.com/r/NXThemes/). Search for posts with the `NXTheme` tag, these contain user created themes. Installation of these themes are nearly the same as installing your own themes, you drop the folder containing the nxthemes files in the `themes` folder on your sd card, then install them via the switch homebrew app.
+	There's a subreddit where lots of people share their theme, it's called [r/NXTheme](https://www.reddit.com/r/NXThemes/). Search for posts with the `NXTheme` tag, these contain user created themes. Installation of these themes are nearly the same as installing your own themes, you drop the folder containing the nxthemes files in the `themes` folder on your sd card, then install them via the switch homebrew app.
