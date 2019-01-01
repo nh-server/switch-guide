@@ -25,7 +25,7 @@ You can create unique styles and layouts for your Switch Home Menu.
 ### Dumping required files
 
 !!! tip ""
-	1. Unzip `ReleaseV3.4.zip` to somewhere on your pc's drive.
+	1. Unzip `ReleaseV3.5.zip` to somewhere on your pc's drive.
 	2. Place `NXThemeInstaller.nro` in the switch folder on your sd card.
 	3. Boot switch CFW, launch the homebrew launcher and launch `NXThemes`.
 	4. Navigate to `Dump NCA` and press + to dump the home nca.
@@ -61,3 +61,7 @@ You can create unique styles and layouts for your Switch Home Menu.
 
 !!! tip ""
 	The `(name).nxtheme` files are completely legal to share! On the flipside, the .szs files are **illegal** to share, as they contain coprighted content. 
+
+
+### Find other user created themes
+There's a subreddit where lots of people share their theme, it's called [r/NXTheme](https://www.reddit.com/r/NXThemes/). Search for posts with the `NXTheme` tag, these contain user created themes. Installation of these themes are nearly the same as installing your own themes, you drop the folder containing the nxthemes files in the `themes` folder on your sd card, then install them via the switch homebrew app.
