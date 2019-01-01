@@ -19,7 +19,7 @@ You can create unique styles and layouts for your Switch Home Menu.
 
 !!! tip ""
 	- The latest release of [NXThemeInstaller and Switch Theme Injector v3.5](https://github.com/exelix11/SwitchThemeInjector/releases)
-		- You need both the `NXThemeInstaller.nro` and `ReleaseV3.5.zip`
+		- You need both the `NXThemesInstaller.nro` and `ReleaseV3.5.zip`
 	- Your `prod.keys` keyset file
 	
 &nbsp;
@@ -41,7 +41,7 @@ You can create unique styles and layouts for your Switch Home Menu.
 ### Installing a theme
 
 !!! tip ""
-	1. Copy `NXThemeInstaller.nro` to the switch folder on your sd card.
+	1. Copy `NXThemesInstaller.nro` to the switch folder on your sd card.
 	2. Copy your `prod.keys` to the switch folder on your sd card.
 	3. Create a folder called `themes` on your sd card and copy your `.nxtheme` files to the themes folder on your sd card .
 	4. Boot switch CFW, launch the homebrew launcher and launch `NXThemes Installer`.
