@@ -40,6 +40,9 @@ You can create unique styles and layouts for your Switch Home Menu.
 
 ### Installing a theme
 
+!!! warning "System updates"
+	Every time you do a system update, you need to redump your home menu files. To do this, follow step 5 below again.
+
 !!! tip ""
 	1. Copy `NXThemesInstaller.nro` to the switch folder on your sd card.
 	2. Copy your `prod.keys` to the switch folder on your sd card.
