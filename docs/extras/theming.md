@@ -4,10 +4,10 @@ You can create unique styles and layouts for your Switch Home Menu.
 
 &nbsp;
 
-!!! danger "Console keys needed!"
+!!! danger "Console keys needed"
 	You need your console keys dumped for this, check out the [Backup Keys](backup_keys.md) section if you haven't done so already.
 	
-!!! snippet "Windows only!"
+!!! snippet "Windows only"
 	This guide requires windows apps to work.
 
 !!! tip ""
@@ -26,8 +26,8 @@ You can create unique styles and layouts for your Switch Home Menu.
 
 ### Making a theme
 
-!!! tip "Note:"
-	Only the lockscreen and homescreen can be individually themed on <=5.1. The settings, news and all software home menu parts will have the same background as the homescreen.
+!!! tip "Notice"
+	Only the lockscreen and homescreen can be individually themed on 5.1 and below. The settings, news and all software home menu parts will have the same background as the homescreen.
 
 !!! tip ""
 	1. Unzip `ReleaseV3.5.zip` to somewhere on your pc's drive.
@@ -40,7 +40,7 @@ You can create unique styles and layouts for your Switch Home Menu.
 
 ### Installing a theme
 
-!!! warning "System updates"
+!!! danger "System updates"
 	Every time you do a system update, you need to redump your home menu files. To do this, follow step 5 below again.
 
 !!! tip ""
