@@ -18,19 +18,16 @@ You can create unique styles and layouts for your Switch Home Menu.
 ### What you need 
 
 !!! tip ""
-	- The latest release of [NXThemeInstaller and Switch Theme Injector v3.5](https://github.com/exelix11/SwitchThemeInjector/releases)
-		- You need both the `NXThemesInstaller.nro` and `ReleaseV3.5.zip`
+	- The latest release of [NXThemeInstaller and Switch Theme Injector v3.6](https://github.com/exelix11/SwitchThemeInjector/releases)
+		- You need both the `NXThemesInstaller.nro` and `ReleaseV3.6.zip`
 	- Your `prod.keys` keyset file
 	
 &nbsp;
 
 ### Making a theme
 
-!!! tip "Notice"
-	Only the lockscreen and homescreen can be individually themed on 5.1 and below. The settings, news and all software home menu parts will have the same background as the homescreen.
-
 !!! tip ""
-	1. Unzip `ReleaseV3.5.zip` to somewhere on your pc's drive.
+	1. Unzip `ReleaseV3.6.zip` to somewhere on your pc's drive.
 	1. Open up the `SwitchThemes.exe` app. Navigate to `NXTheme Builder`.
 	2. Select a Home menu part, A 720P image and a Layout patch. Click on `Build NXTheme` after selecting your home menu part, image and layout patch.
 	3. Fill out the details in the window that pops up. After filling out this window and clicking ok, you will get asked where to save the NXTheme file. Save this file to a temporary folder.
