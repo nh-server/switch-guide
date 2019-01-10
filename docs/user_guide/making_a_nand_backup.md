@@ -18,8 +18,8 @@
     - This may take a few minutes
     4. Press any key to continue, then navigate to `Backup eMMC RAW GPP` and press the power button
         - This will take a long time
-        - On FAT32 SD cards or cards that have less than 32 gigabytes of space available, the NAND will be split into 4 gigabyte chunks
-            - Hekate will stop producing these chunks when it runs out of space. When this happens, do the following:
+        - On FAT32 SD cards or cards that have less than 32 gigabytes of space available, the NAND will be split into 1 or 2 gigabyte parts.
+            - Hekate will stop producing these parts when it runs out of space. When this happens, do the following:
             - Power off your system
             - Insert your SD card into your PC
             - Move all files from the `backup` folder on your SD card to a safe location on your PC
@@ -47,10 +47,10 @@ The following section is if your nand was dumped in seperate parts (15 or 30). I
 
 !!! tip ""
     1. Copy *the contents of* the joiner scripts `.zip` file to the `backup` -> (numbers) folder on your PC
-    2. Run the script matching the amount of NAND chunks you have, and the operating system you are on
-    - Users with 15 chunks should run the `join_15_2GBparts` file, and users with 30 chunks should run the `join_30_1GBparts` file
+    2. Run the script matching the amount of NAND parts you have, and the operating system you are on
+    - Users with 15 parts should run the `join_15_2GBparts` file, and users with 30 parts should run the `join_30_1GBparts` file
     - This will take a few minutes
-    3. Once you have the complete `rawnand.bin`, you may delete the original chunks
+    3. Once you have the complete `rawnand.bin`, you may delete the original parts
     - Don't forget to keep your backup in a safe location
 
 &nbsp;
