@@ -72,3 +72,17 @@
 
 !!! danger "SX OS"
     *Team Xecuter's "EmuNAND" is not a proper (or safe) EmuNAND, and Nintendo can pick up on it with their telemetry.*
+
+### What formats can homebrew come in? Where do I place my downloaded homebrew?
+
+!!! tip ""
+    Homebrew can come in two different formats, namely in `nro` files and in `kip` files.
+
+    `nro` files are placed in the `switch` folder on your SD card and can be launched using the Homebrew menu.
+
+    `kip` files are placed in the `atmosphere/kips` folder on your SD card and provide additional services.
+
+!!! danger "Homebrew risks"
+    *Be careful with launching downloaded homebrew! If you don't know the source, it's best not to launch it.*
+
+    *Homebrew can potentially damage your system! Atmosphere provides protections against common bricking methods, but these are not guaranteed to always work!*
