@@ -60,7 +60,7 @@
 
     - Developers using their unique Switch data to poke and reverse-engineer Nintendos Server responses
     - People pirating games and using them online
-    - People changing their profile pictures to custom pictures (which is not possible without pirating the Nintendo SDK)
+    - People changing their profile pictures to custom pictures
     - People using savegame editors to unlock content that is not available yet and using it online (Splatoon 2)
     - People cheating online in general (Modifying Cart stats in MK8)
     - People installing homebrew NSP files, which Nintendo can pick up on with their telemetry
