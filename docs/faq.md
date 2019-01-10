@@ -82,7 +82,7 @@
 
     `kip` files are placed in the `atmosphere/kips` folder on your SD card and provide additional services.
 
-!!! danger ""
+!!! danger "Homebrew risks"
     *Be careful with launching downloaded homebrew! If you don't know the source, it's best not to launch it.*
 
-    *Homebrew can modify your entire system. While Atmosphere contains basic protections against permanent bricks, these can be circumvented by a skilled enough hacker!*
+    *Homebrew can potentially damage your system! Atmosphere provides protections against common bricking methods, but these are not guaranteed to always work!*
