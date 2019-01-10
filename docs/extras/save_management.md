@@ -6,7 +6,7 @@ For save management, [Checkpoint](https://github.com/flagbrew/checkpoint/release
 
 &nbsp;
 
-### Chekpoint
+### Checkpoint
 Please read Checkpoint's [usage page](https://github.com/FlagBrew/Checkpoint#usage) for information on how to use it.
 
 !!! tip ""
