@@ -8,7 +8,7 @@ This guide was written by staff members of the [Nintendo Homebrew Discord Server
 
 Thank you to [everyone else](https://github.com/nh-server/switch-guide/graphs/contributors) that contributed to the guide on GitHub, but special thanks to **noirscape**.
 
-[You can find this guide on GitHub!](https://github.com/nh-server/switch-guide)
+[You can find this guide on GitHub!](https://github.com/nh-server/switch-guide) It is licensed under the [ISC license.](https://github.com/nh-server/switch-guide/blob/master/LICENSE.md)
 
 &nbsp;
 
