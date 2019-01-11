@@ -107,7 +107,7 @@
 !!! tip ""
     This is an issue primarily affecting macOS users, but may occur on other devices as well. If you are able to launch the homebrew menu, but you are not seeing some or any of your homebrew, you will need to unset the archive bit with Hekate.
 
-    1. [Send the Hekate payload to your Switch](user_guide/sending_payload/).
+    1. [Send the Hekate payload to your Switch](../user_guide/sending_payload/).
     2. Navigate to `Tools` with the volume buttons and press power to confirm.
     3. Navigate to `Fix archive bit (except Nintendo folder)` with the volume buttons and press power to confirm.
     4. Wait a bit, this may take a while.
@@ -116,4 +116,4 @@
     7. Wait a bit, this may take a while.
     8. Press any button to continue.
     9. Navigate to `Back...` with the volume buttons and press power to confirm.
-    10. Follow the instructions at [Launching CFW](user_guide/launching_cfw/) to launch Atmosphere.
+    10. Follow the instructions at [Launching CFW](../user_guide/launching_cfw/) to launch Atmosphere.
