@@ -86,3 +86,34 @@
     *Be careful with launching downloaded homebrew! If you don't know the source, it's best not to launch it.*
 
     *Homebrew can potentially damage your system! Atmosphere provides protections against common bricking methods, but these are not guaranteed to always work!*
+
+### What size microSD card should I buy? What format should my microSD card be in?
+
+!!! tip ""
+    microSD cards that are 32GB or smaller can be used for homebrew, but are not recommended as these will not permit you to have a full NAND dump and an emuNAND in the future.
+
+    The recommended microSD card size is 128GB. This will permit you to make a full NAND dump as well as having enough space to run an emuNAND in the future while also having adequate space for homebrew.
+
+    The recommended filesystem format is FAT32. While the Switch supports exFAT through an additional update from Nintendo, this filesystem is prone to corruption and as a result is not advisable.
+
+
+!!! danger "Fake microSD cards"
+    Do not buy microSD cards from sites like eBay. These microSD cards are often fake and do not have the advertised amount of storage and will result in data corruption if used. Consumer grade microSD cards do not exist in capacities over 512GB and any that advertise that they are 512GB or larger are fake.
+    
+    If you suspect your microSD card is fake or damaged, see the instructions [here](https://3ds.filthycasuals.tech/sderrors.html) to verify the integrity of your SD card.
+
+### My homebrew is not showing up on the homebrew menu and I'm sure the files are in their correct place!
+
+!!! tip ""
+    This is an issue primarily affecting macOS users, but may occur on other devices as well. If you are able to launch the homebrew menu, but you are not seeing some or any of your homebrew, you will need to unset the archive bit with Hekate.
+
+    1. [Send the Hekate payload to your Switch](../user_guide/sending_payload/).
+    2. Navigate to `Tools` with the volume buttons and press power to confirm.
+    3. Navigate to `Fix archive bit (except Nintendo folder)` with the volume buttons and press power to confirm.
+    4. Wait a bit, this may take a while.
+    5. Press any button to continue.
+    6. Navigate to `Fix archive bit (Nintendo folder)` with the volume buttons and press power to confirm.
+    7. Wait a bit, this may take a while.
+    8. Press any button to continue.
+    9. Navigate to `Back...` with the volume buttons and press power to confirm.
+    10. Follow the instructions at [Launching CFW](../user_guide/launching_cfw/) to launch Atmosphere.
