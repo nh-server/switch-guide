@@ -16,3 +16,15 @@ This guide was written by staff members of the [Nintendo Homebrew Discord Server
 
 !!! tip ""
     ![Nintendo Homebrew](img/nh.jpg)
+
+!!! tip "Developer / Tool credits"
+    - **Atmosphere-NX** for [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere).
+    - **switchbrew** for [nx-hbloader](https://github.com/switchbrew/nx-hbloader) and [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu).
+    - **nwert** and **CTCaer** for [Hekate](https://github.com/CTCaer/hekate).
+    - **Flagbrew** for [Checkpoint](https://github.com/FlagBrew/Checkpoint).
+    - **mtheall** for [FTPD](https://github.com/mtheall/ftpd/).
+    - **joel16** for [NX-Shell](https://github.com/joel16/NX-Shell).
+    - **Cease & DeSwitch** for [fusee-gelee](https://github.com/Cease-and-DeSwitch/fusee-launcher).
+    - **MenosGrante** for [Rekado](https://github.com/MenosGrante/Rekado/releases).
+    - **eliboa** for [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI/releases).
+    - **Essometer** for collecting patched Switch serials.
