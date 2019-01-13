@@ -90,9 +90,9 @@
 ### What size microSD card should I buy? What format should my microSD card be in?
 
 !!! tip ""
-    The minimal required microSD card size is 64GB. This will permit you to make a NAND dump as well as have an emuNAND in the future.
+    microSD cards that are 32GB or smaller can be used for homebrew, but are not recommended as these will not permit you to have a full NAND dump and an emuNAND in the future.
 
-    The recommended microSD card size is 128GB. This will permit you to make a NAND dump as well as having enough space to run an emuNAND in the future while also having adequate space for homebrew.
+    The recommended microSD card size is 128GB. This will permit you to make a full NAND dump as well as having enough space to run an emuNAND in the future while also having adequate space for homebrew.
 
     The recommended filesystem format is FAT32. While the Switch supports exFAT through an additional update from Nintendo, this filesystem is prone to corruption and as a result is not advisable.
 
