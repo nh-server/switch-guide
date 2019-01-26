@@ -19,7 +19,8 @@ nav:
         - 'Backup Keys': 'extras/backup_keys.md'
         - 'Theming': 'extras/theming.md'
         - 'Save Management': 'extras/save_management.md'
-        - 'Game Modding': 'extras/game_modding.md'        
+        - 'Game Modding': 'extras/game_modding.md'  
+        - 'Giving Homebrew More RAM': 'extras/himem_homebrew.md'      
     - FAQ: faq.md
     - About: about.md
     
