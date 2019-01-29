@@ -35,7 +35,7 @@
 
     The chances of a persistent, untethered coldboot solution (like on the 3DS and Wii-U) technically exist on firmwares below 3.0.2.
 
-### Shoule I update XY FW?
+### Should I update XY FW?
 
 !!! tip ""
     If your Switch is one of the new hardware revisions that patched the exploit in RCM and you are on firmware 4.1.0 or lower, you should not update if you want to have CFW in the forseeable future.
