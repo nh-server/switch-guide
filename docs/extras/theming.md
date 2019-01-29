@@ -10,7 +10,6 @@ You can create unique styles and layouts for your Switch Home Menu.
 !!! tip ""
 	![ExampleSwitchTheme](../extras/img/switch_theming.jpg)
 
-&nbsp;
 
 ### What you need 
 
@@ -30,6 +29,7 @@ You can create unique styles and layouts for your Switch Home Menu.
 	3. Fill out the details in the window that pops up. After filling out this window and clicking ok, you will get asked where to save the NXTheme file. Save this file to a temporary folder.
 	4. Repeat step 3 and 4 for every home menu part of the switch you want to modify.
 
+&nbsp;
 
 ### Making a theme (Other os's)
 
