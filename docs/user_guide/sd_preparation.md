@@ -10,6 +10,21 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
 	Your SD card will need to be formatted as either FAT32 or exFAT. FAT32 is recommended as it is more stable and will work out of the box with the Switch's operating system, but has a file size limit of 4GB. If you plan on using exFAT, you will need to install the exFAT update for your Switch, which is downloaded when you insert an exFAT formatted SD card in to your Switch. Note that this will update your console and requires an internet connection.
 &nbsp;
 
+## Method 1: Kosmos (formerly SDFiles)
+
+### What you need
+
+!!! tip ""
+    - The latest release of [Kosmos](https://github.com/AtlasNX/Kosmos/releases)
+
+### Instructions
+
+!!! tip ""
+    1. Insert your Switch's SD card into your PC
+    2. Copy *the contents of* the Kosmos `.zip` file to the root of your SD Card.
+
+## Method 2: Manual
+
 ### What you need
 
 !!! tip ""
