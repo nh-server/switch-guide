@@ -30,7 +30,7 @@ Next we're gonna add a new udev rule. udev is a device manager for the linux ker
 1. Open a terminal.
 2. Change to the root user with the following command: `sudo su`. Enter your password when prompted.
 3. Enter the following command: `mkdir -p /etc/udev/rules.d`.
-4. Enter the following command: `echo 'SUBSYSTEMS=="usb", ATTRS{manufacturer}=="NVIDIA Corp.", ATTRS{product}=="APX", GROUP="nintendo_switch"' > /etc/udev/rules.d/10-switch.rules`.
+4. Enter the following command: <code class="textwrap">echo 'SUBSYSTEMS=="usb", ATTRS{manufacturer}=="NVIDIA Corp.", ATTRS{product}=="APX", GROUP="nintendo_switch"' > /etc/udev/rules.d/10-switch.rules</code>.
 5. Enter the following command: `udevadm control --reload`.
 6. Enter the following command: `udevadm trigger`.
 7. Logout and log back in.

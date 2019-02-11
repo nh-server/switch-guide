@@ -2,3 +2,7 @@ summary {
   cursor: pointer;
   outline: none;
 }
+
+code.textwrap {
+  white-space: normal;
+}
