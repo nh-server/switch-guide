@@ -40,11 +40,11 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 ### Instructions
 
 !!! tip ""
-    1. Download and run the payload injector
+    1. Download and run the payload injector (if you are on Linux, you will need to run this program as root or use `sudo`.)
     2. Connect your Switch in RCM to your PC using the USB cable
     3. Wait for your Switch to be shown as found in the injector
     4. Press `Select Payload`, and navigate to and select your hekate_ctcaer `.bin` file
-    6. Click `Send Payload!` to launch Hekate
+    5. Click `Send Payload!` to launch Hekate
 
 &nbsp;
 
