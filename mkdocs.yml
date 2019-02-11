@@ -21,6 +21,7 @@ nav:
         - 'Save Management': 'extras/save_management.md'
         - 'Game Modding': 'extras/game_modding.md'  
         - 'Giving Homebrew More RAM': 'extras/himem_homebrew.md'      
+        - 'Linux - Run payload sender without root': 'extras/adding_udev.md'
     - FAQ: faq.md
     - About: about.md
     
