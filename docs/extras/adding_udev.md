@@ -6,7 +6,7 @@ This section details how to add an udev rule to let you send a payload to the Ni
     The following instructions are not for beginners. Only do this if you are confident in what you are doing.
 
 !!! tip ""
-    The following instructions only work if you have a system that implements `eudev`. Most modern distros come with `systemd` already installed, which includes a `eudev` implementation.
+    The following instructions only work if you have a system that implements `udev`. Most modern distros come with `systemd` already installed, which includes a `udev` implementation.
 
     There are differing implementations of the following commands on different distros. The commands below are assumed to be ran on Ubuntu. Check your distros manual if you are not running Ubuntu for the equivalent commands.
 
