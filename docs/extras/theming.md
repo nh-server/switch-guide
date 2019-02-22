@@ -64,10 +64,6 @@ You can create unique styles and layouts for your Switch Home Menu.
  
 
 !!! tip ""
-	If you get the error "Residentmenu is not found in lyt dir": 
-
-	- You probably are using outdated or badly dumped keys. Delete all key files off the sd card and re-dump them with lockpick
-
 	My switch crashes on boot after i installed a theme!:
 
 	- You installed a bad theme. You can remove it by going into the `(CFW)/Titles/0100000000001000/romfs/lyt` and deleting every file in that folder
