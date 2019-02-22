@@ -4,9 +4,6 @@ You can create unique styles and layouts for your Switch Home Menu.
 
 &nbsp;
 
-!!! danger "Console keys needed"
-	You need your console keys dumped for this, check out the **<span style="text-decoration:underline">[Backup Keys](backup_keys.md)</span>** section if you haven't done so already.
-
 !!! tip ""
 	![ExampleSwitchTheme](../extras/img/switch_theming.jpg)
 
@@ -14,9 +11,8 @@ You can create unique styles and layouts for your Switch Home Menu.
 ### What you need 
 
 !!! tip ""
-	- The latest release of **[NXThemeInstaller and Switch Theme Injector v3.6](https://github.com/exelix11/SwitchThemeInjector/releases)**
-		- You need both the `NXThemesInstaller.nro` and `ReleaseV3.6.zip`
-	- Your `prod.keys` keyset file
+	- The latest release of **[NXThemeInstaller and Switch Theme Injector v3.7](https://github.com/exelix11/SwitchThemeInjector/releases)**
+		- You need both the `NXThemesInstaller.nro` and `ReleaseV3.7.zip`
 	
 &nbsp;
 
@@ -51,25 +47,15 @@ You can create unique styles and layouts for your Switch Home Menu.
 
 ### Installing a theme
 
-!!! warning "System updates"
-	Every time you do a system update, you need to re-dump your keys and re-dump your home menu. Do so by following the steps below:
-	
-	1. Delete any key files (prod.keys, keys.ini) files off your sd card.
-	2. Re-do the **[Backup Keys](backup_keys.md)** guide
-	3. Inside the NXThemes nro app, navigate to `Extract home menu`, press right and press +.
-
 !!! tip "Community Themes"
 	If you want to use community themes, for example from the **[r/NXTheme Subreddit](https://www.reddit.com/r/NXThemes/)**, you can put the nxthemes provided by the theme maker in the `themes` folder on your sd card, preferably in a subfolder, and follow the guide below to install a theme.
 
 !!! tip ""
 	1. Copy `NXThemesInstaller.nro` to the switch folder on your sd card.
-	2. Copy your `prod.keys` to the switch folder on your sd card.
-	3. Create a folder called `themes` on your sd card and copy your `.nxtheme` files to the themes folder on your sd card .
-	4. Boot switch CFW, launch the homebrew launcher and launch `NXThemes Installer`.
-	5. Navigate to `Extract home menu`, press right and press +. Your home menu files will be dumped now.
-	6. Navigate to `Themes`, Your theme files should be listed here. You can install them one by one.
-	7. Reboot your switch to see the changes.
-	8. (Note: After following the guide above, you only have to put an nxtheme in the `themes` folder, and install it via the app, as you already dumped the required files)
+	2. Create a folder called `themes` on your sd card and copy your `.nxtheme` files to the themes folder on your sd card .
+	3. Boot switch CFW, launch the homebrew launcher and launch `NXThemes Installer`.
+	4. Navigate to `Themes`, Your theme files should be listed here. You can install them one by one.
+	5. Reboot your switch to see the changes.
 	
 &nbsp;
 
@@ -85,6 +71,10 @@ You can create unique styles and layouts for your Switch Home Menu.
 	My switch crashes on boot after i installed a theme!:
 
 	- You installed a bad theme. You can remove it by going into the `(CFW)/Titles/0100000000001000/romfs/lyt` and deleting every file in that folder
+	
+	The NXTheme installer crashes when i launch it:
+	
+	- This is probably due to the archive bit being set on either the app or the nxthemes. This is usually the result of copying files to an sd card via a mac. If you are experiencing this issue, try resetting the archive bit via hekate for all files.
 
 
 ### Sharing your theme
