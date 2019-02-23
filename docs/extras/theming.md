@@ -19,7 +19,7 @@ You can create unique styles and layouts for your Switch Home Menu.
 ### Making a theme (Windows)
 
 !!! tip ""
-	1. Unzip `ReleaseV3.6.zip` to somewhere on your pc's drive.
+	1. Unzip `ReleaseV3.7.zip` to somewhere on your pc's drive.
 	1. Open up the `SwitchThemes.exe` app. Navigate to `NXTheme Builder`.
 	2. Select a Home menu part, A 720P image and a Layout patch. Click on `Build NXTheme` after selecting your home menu part, image and layout patch.
 	3. Fill out the details in the window that pops up. After filling out this window and clicking ok, you will get asked where to save the NXTheme file. Save this file to a temporary folder.
