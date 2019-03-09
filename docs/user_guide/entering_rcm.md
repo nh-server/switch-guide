@@ -7,7 +7,7 @@ There are several methods of entering RCM (**R**e**C**overy **M**ode). The most 
 &nbsp;
 
 !!! danger "Patched Switch"
-    Note that patched units **can** enter RCM, but it is not able to send a payload on those systems. Also note that RCM is a different recovery mode than the one accessed by holding Volume Up, Volume Down, and Power.
+    Note that patched units **can** enter RCM, but it is not possible to send a payload on those systems. Also note that RCM is a different recovery mode than the one accessed by holding Volume Up, Volume Down, and Power.
 
 !!! snippet "Note"
     The order of methods on this page is in the order of ease. The easiest to immediately accomplish are listed at the top, and the most advanced/difficult methods are at the bottom.
@@ -171,7 +171,7 @@ There are several methods of entering RCM (**R**e**C**overy **M**ode). The most 
     !!! tip ""
         ![wire refrence](../user_guide/img/entering_rcm_button_1.jpg)
 		
-	You will then want to take the circular end of one of the wires and add a small amount of solder, keeping it mostly flat (ONLY DO THIS TO ONE OF THE WIRES!). You will then glue this wire down to the below point on the Joycon release button (make sure glue doesn't cover the top of the solder/wire as it will act as a contact point).
+	You will then want to take the circular end of one of the wires and add a small amount of solder, keeping it mostly flat (ONLY DO THIS TO ONE OF THE WIRES!). You will then glue this wire down to the below point on the Joycon release button. Make sure glue doesn't cover the top of the solder/wire as it will act as a contact point. Also, ensure that you leave enough space for the button to function correctly. Try pushing the button from the outside and observing its travel path so that you can see where and how you should safely glue the solder glob.
 	
 	!!! tip ""
         ![Eip joycon button refrence](../user_guide/img/entering_rcm_button_5.jpg)
