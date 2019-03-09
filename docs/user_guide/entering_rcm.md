@@ -33,14 +33,17 @@ There are several methods of entering RCM (**R**e**C**overy **M**ode). The most 
     !!! snippet "Note"
         Take care to not short pin 4 by accident while the system is on. This pin provides power to the Joy-Con, so shorting it by accident may damage your Switch permanently.
 
-    This method entails putting a thin piece of tinfoil in between pins 9 and 10 on the Joy-Con, and the Joy-Con rail, then folding the foil over the back of the rail to tape it in place. This is best done by taking a 1 square inch piece of tinfoil, and folding it multiple times.
+    This method entails putting a thin piece of tinfoil in between pins 9 and 10 (seen below) on the Joy-Con, and the Joy-Con rail, then folding the foil over the back of the rail to tape it in place. This is best done by taking a 1/2 square inch piece of tinfoil (1.25 square cm), and folding it multiple times until it’s around 1 mm wide. Although we normally frown upon the use of video tutorials, we suggest you watch the small instructional video below before performing this task.
 
+	!!! tip ""
+		![Numbered Joycon Pins Refrence](../user_guide/img/entering_rcm_joycon_pins.jpg)
+	
     !!! tip ""
         <iframe width=100% height=430 src="https://www.youtube.com/embed/dm6hxGbZZj4"> </iframe>
 </details>
 
 !!! tip ""
-    ### Metal Bridge / Paperclip
+    ### Metal Bridge / Paperclip (Not recommended)
     <details>
         <summary>Click to expand!</summary>
     
@@ -50,8 +53,11 @@ There are several methods of entering RCM (**R**e**C**overy **M**ode). The most 
     !!! snippet "Note"
         Take care to not short pin 4 by accident while the system is on. This pin provides power to the Joy-Con, so shorting it by accident may damage your Switch permanently.
 
-    This method entails taking a piece of metal (such as a paperclip or screwdriver) and bending it so that it touches pins 1 and 10, or any other grounded piece of metal and pin 10.
+    This method entails taking a piece of metal (such as a paperclip or screwdriver) and bending it so that it touches pins 1 and 10, or any other grounded piece of metal and pin 10 (numbered pads shown below).
 
+	!!! tip ""
+		![Console Numbered Pads Refrence](../user_guide/img/entering_rcm_pads_numbered.jpg)
+	
     Here are some examples of shorting pins 1 and 10 using a wire from HowDenKing#0001 on our Discord server.
 
     !!! tip ""
@@ -62,19 +68,24 @@ There are several methods of entering RCM (**R**e**C**overy **M**ode). The most 
 </details>
 
 !!! tip ""
-    ### RCM Jig
+    ### RCM Jig (Easiest for  beginners)
     <details>
         <summary>Click to expand!</summary>
     
     !!! snippet "Note"
         Some jig designs use paperclips, inheriting the same risks as the Metal Bridge / Paperclip method. If you would like a safe jig design, we highly recommend [switchjigs.com](https://switchjigs.com).
 
-    This method is similar to the Metal Bridge / Paperclip method, but is more reliable and safer in many cases. Jigs hold a wire in place so the correct pins are shorted every time.
+    This method is similar to the Metal Bridge / Paperclip method, but is more reliable and safer in many cases. Jigs hold a wire in place so the correct pins (10 and a ground) are shorted every time.
 
-    Jigs range in price, with the ones we recommend being $10. They're more expensive than other jigs, but spending $10 on a quality jig using 32-gauge wire is a smaller cost than replacing your entire Joy-Con rail after the pins are scratched off by a paperclip jig.
+    Jigs range in price, with the ones we recommend being $5. They're slightly more expensive than some mass produced jigs, however we can guarantee their quality. Also spending $5 on a quality jig using 32-gauge wire is a smaller cost than replacing your entire Joy-Con rail after the pins are scratched off by a paperclip jig.
 
     !!! tip ""
         ![switchjigs.com jigs](../user_guide/img/entering_rcm_jig.jpg)
+		
+	In the case you plan to make you own jig, this image lays out the pads numbers on the console. Make sure your jig NEVER touches pin 4. Pin 4 provides 5v power to the Joycons, if connected to any other pin you will fry the console.
+	
+	!!! tip ""
+		![Console Numbered Pads Refrence](../user_guide/img/entering_rcm_pads_numbered.jpg)
 </details>
 
 !!! tip ""
@@ -88,8 +99,11 @@ There are several methods of entering RCM (**R**e**C**overy **M**ode). The most 
     !!! snippet "Note"
         This method requires opening your right Joy-Con, voiding its warranty. Not for the faint of heart.
 
-    The goal of this method is to open the Joy-Con to the point that you can reach the contact pads easily, and use a thin object such as a knife to gently bend pin 9 onto pin 10, shorting them.
+    The goal of this method is to open the right handed Joy-Con to the point that you can reach the contact pads easily, and use a thin object such as a knife to gently bend pin 9 and 10 (shown below) slightly up and towards each other so they touch, shorting them.
 
+    !!! tip ""
+        ![Joycon Pin Refrence](../user_guide/img/enterting_rcm_pins_numbered.jpg)
+	
     Here is an example from Sonlen#0666 on our Discord server.
 
     !!! tip ""
@@ -107,8 +121,11 @@ There are several methods of entering RCM (**R**e**C**overy **M**ode). The most 
     !!! snippet "Note"
         This method requires opening your right Joy-Con, voiding its warranty. Not for the faint of heart.
 
-    This is similar to the previous method, however the goal is to solder pads 9 and 10 together.
+    The goal of this method is to open the right handed Joy-Con to the point that you can reach the contact pads easily. This is similar to the previous method, however the goal is to solder pads 9 and 10 (seen below) together. This can either be done using a small wire, or directly bridging the pads with solder.
 
+	!!! tip ""
+        ![joycon numbered pads refrence](../user_guide/img/entering_rcm_solder_numbered.jpg)
+	
     Here is an example from YyAoMmIi#3705 on our Discord server.
 
     !!! tip ""
@@ -123,12 +140,54 @@ There are several methods of entering RCM (**R**e**C**overy **M**ode). The most 
     !!! snippet "Note"
         This method requires opening your right Joy-Con, voiding its warranty. Not for the faint of heart.
 
-    This is similar to the previous method, however the goal is to solder pins 7 and 10 together with a surface-mount 0805 10k resistor. Apart from using a reed switch, this is currently considered the safest method that involves soldering to pads.
+    The goal of this method is to open the right handed Joy-Con to the point that you can reach the contact pads easily. This is similar to the previous method, however the goal is to solder pins 7 and 10 (shown below) together with a surface-mount 0805 10k resistor. Apart from using a physical switch/button, this is currently considered the safest method that involves soldering to pads.
 
+	!!! tip ""
+        ![joycon numbered pads refrence](../user_guide/img/entering_rcm_solder_numbered.jpg)
+	
     Here is an example from stuckpixel#3421 on the ReSwitched Discord server.
 
     !!! tip ""
         ![stuckpixel solder example](../user_guide/img/entering_rcm_solder_710_stuckpixel.jpg)
+</details>
+
+!!! tip ""
+    ### Soldered Joy-Con Pads - Physical RCM Button (Safest)
+    <details>
+        <summary>Click to expand!</summary>
+    
+    !!! snippet "Note"
+        This method requires opening your right Joy-Con, voiding its warranty. Not for the faint of heart.
+
+    This method comes to us from the mind of pbanj#9188 on Discord. All pictures of this method in action were provided by him, with some supplementary images provided by eip ∞#3283 on Discord.
+	
+	The goal of this method is to open the right handed Joy-Con to the point that you can reach the contact pads easily. This is similar to the previous method, however you will be soldering wires to pins 7 and 10 (shown below) and wiring them to the "Joycon release button" at the top back of the right hand Joycon.
+
+	!!! tip ""
+        ![joycon numbered pads refrence](../user_guide/img/entering_rcm_solder_numbered.jpg)
+	
+    In order to start this method you will want to take two lengths of wire, and wrap one end of each into a small circle.
+
+    !!! tip ""
+        ![wire refrence](../user_guide/img/entering_rcm_button_1.jpg)
+		
+	You will then want to take the circular end of one of the wires and add a small amount of solder, keeping it mostly flat (ONLY DO THIS TO ONE OF THE WIRES!). You will then glue this wire down to the below point on the Joycon release button (make sure glue doesn't cover the top of the solder/wire as it will act as a contact point).
+	
+	!!! tip ""
+        ![Eip joycon button refrence](../user_guide/img/entering_rcm_button_5.jpg)
+		
+	!!! tip ""
+        ![pbanj joycon button refrence](../user_guide/img/entering_rcm_button_3.jpg)
+		
+	The first wire should now be in place as seen by the green circle below. The second wire does not need any solder, instead you will hold it in place using the screw as shown by the red circle in the picture below.
+	
+	!!! tip ""
+        ![pbanj joycon button refrence](../user_guide/img/entering_rcm_button_6.jpg)
+
+	Pressing the Joycon button in you should now notice the solder point you created making contact with the piece of metal held in by the screw. Once you have these elements in place you want to connect one wire to pad 7 and the other to pad 10 (it doesn't matter which is which). After that you have successfully created an RCM button on your Joycon. You will now need to hold down the Joycon release button when attempting to boot RCM.
+	
+	!!! tip ""
+        ![pbanj joycon button refrence](../user_guide/img/entering_rcm_button_2.jpg)
 </details>
 
 &nbsp;
