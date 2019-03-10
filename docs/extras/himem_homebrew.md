@@ -20,7 +20,7 @@ The method we are using will override an application with the Homebrew Menu. You
 	1. Insert your Switch's SD card into your PC.
 	2. Navigate to the `atmosphere` folder.
 	3. Open `loader.ini` in a text editor.
-	4. Replace `hbl_tid=010000000000100D` with `hbl_tid=0100DC000A472000`.
+	4. Replace `title_id=010000000000100D` with `title_id=0100DC000A472000`.
           - This tells Atmosphere to load Homebrew using the demo for 10 Second Run RETURNS instead of the album.
           - If you're not using the demo for 10 Second Run RETURNS, replace this with the Title ID of your target application instead.
 	5. Insert your Switch's SD card back into your Switch, and boot it up normally.
