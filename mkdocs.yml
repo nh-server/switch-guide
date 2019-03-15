@@ -24,6 +24,7 @@ nav:
         - 'Game Modding': 'extras/game_modding.md'  
         - 'Giving Homebrew More RAM': 'extras/himem_homebrew.md'      
         - 'Linux injection without root': 'extras/adding_udev.md'
+        - 'Alternate Boot Setups': 'extras/alternate_bootsetups.md
     - FAQ: faq.md
     - About: about.md
     
