@@ -15,7 +15,7 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
 !!! tip ""
     - The latest release of [Hekate](https://github.com/CTCaer/hekate/releases/)
     - The latest release of [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere/releases) 
-        - You will need to download both the release zip and the `fusee-primary.bin`
+        - You will need to download the release zip.
     - The latest release of [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases)
 	    - Download the `Checkpoint.nro` release of Checkpoint
     - The latest release of [FTPD](https://github.com/mtheall/ftpd/releases)
@@ -30,7 +30,6 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
 !!! tip ""
     1. Insert your Switch's SD card into your PC
     2. Copy *the contents of* the Atmosphere `.zip` file to the root of your SD card
-    3. Copy `fusee-primary.bin` to the atmosphere folder on your SD card
     4. Copy the `bootloader` folder from the Hekate `.zip` file to the root of your SD card
     5. Copy `hekate-ipl.ini` to the `bootloader` folder on your SD card
     6. Copy `ftpd.nro` , `Checkpoint.nro` and `NX-Shell.nro` to the `switch` folder on your SD card
