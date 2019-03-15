@@ -37,7 +37,7 @@ If you need to troubleshoot something, or need to try a different boot setup, re
     - The latest release of [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere/releases) 
         - You will need to download both the release zip and the `fusee-primary.bin`
     
-# Instructions
+### Instructions
  
 !!! tip ""
     1. Insert your Switch's SD card into your PC
