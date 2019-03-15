@@ -30,9 +30,9 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
 !!! tip ""
     1. Insert your Switch's SD card into your PC
     2. Copy *the contents of* the Atmosphere `.zip` file to the root of your SD card
-    4. Copy the `bootloader` folder from the Hekate `.zip` file to the root of your SD card
-    5. Copy `hekate-ipl.ini` to the `bootloader` folder on your SD card
-    6. Copy `ftpd.nro` , `Checkpoint.nro` and `NX-Shell.nro` to the `switch` folder on your SD card
+    3. Copy the `bootloader` folder from the Hekate `.zip` file to the root of your SD card
+    4. Copy `hekate-ipl.ini` to the `bootloader` folder on your SD card
+    5. Copy `ftpd.nro` , `Checkpoint.nro` and `NX-Shell.nro` to the `switch` folder on your SD card
 
 &nbsp;
 
