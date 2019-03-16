@@ -25,7 +25,7 @@ If you need to troubleshoot something, or need to try a different boot setup, re
     3. Copy `fusee-primary.bin` to the atmosphere folder on your SD card
     4. Copy the `bootloader` folder from the Hekate `.zip` file to the root of your SD card
     5. Copy `hekate-ipl.ini` to the `bootloader` folder on your SD card
-    6. Setup is complete, now you can boot CFW by injecting `hekate.bin`
+    6. Setup is complete, now you can boot CFW by injecting the hekate_ctcaer `.bin` file from the Hekate zip
 
 
 &nbsp;
