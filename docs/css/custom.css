@@ -3,6 +3,6 @@ summary {
   outline: none;
 }
 
-code.textwrap {
-  white-space: normal;
+code {
+  white-space: normal !important;
 }
