@@ -32,27 +32,4 @@
 
 &nbsp;
 
-# Combining NAND backup parts
-
-The following section is if your nand was dumped in seperate parts (15 or 30). If your NAND was dumped in one complete part, you may skip to the next section. 
-
-&nbsp;
-
-### What you need
-
-!!! tip ""
-    - [NAND joiner scripts](https://github.com/CTCaer/hekate/releases/) (joiner_scripts_for_windows_linux_macos.zip)
-
-### Instructions
-
-!!! tip ""
-    1. Copy *the contents of* the joiner scripts `.zip` file to the `backup` -> (numbers) folder on your PC
-    2. Run the script matching the amount of NAND parts you have, and the operating system you are on
-    - Users with 15 parts should run the `join_15_2GBparts` file, and users with 30 parts should run the `join_30_1GBparts` file
-    - This will take a few minutes
-    3. Once you have the complete `rawnand.bin`, you may delete the original parts
-    - Don't forget to keep your backup in a safe location
-
-&nbsp;
-
 #### [Continue to Launching CFW <i class="fa fa-arrow-circle-right fa-lg"></i>](launching_cfw.md)
