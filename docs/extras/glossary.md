@@ -32,7 +32,7 @@ The following list is in alphabetical order.
 - Tegra X1: A chip made by Nvidia that is used in the Nintendo Switch.
 - Trinket: A tiny chip that is soldered on the Switch motherboard to automatically send a payload if it is in RCM.
 - TrustZone: The highest security level on the Switch.
-- XCI/NSP: Format used to dump games to. XCI is used for gamecard dumps, while NSP is for dumping system titles.
+- XCI/NSP: Format used to dump games to. XCI is used for gamecard dumps, while NSP is for dumping digital titles.
 
 ## Resources
 
