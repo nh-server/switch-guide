@@ -22,7 +22,7 @@ The following list is in alphabetical order.
 - Homebrew: Unsigned code that can be ran on the Nintendo Switch. Examples of homebrew include save editors, emulators and ports of PC games, but can also include completely original games. To run this code, you need to have an exploit.
 - Homebrew launcher: Software developed by the Switchbrew team that lets you run other Homebrew.
 - Jig: Refers to a piece of hardware that you can put in the Joycon rail to enter RCM.
-- KIP: Short for Kernel Integrated Patch. These files can be loaded in when the Switch boots in CFW and provide additional functionality.
+- KIP: Short for Kernel Initial Process. These files can be loaded in when the Switch boots in CFW and provide additional functionality.
 - NAND: The internal filesystem used by the Switch. Contains boot0 and boot1, as well as PRODINFO and various other partitions.
 - nx-hbloader: Intermediary program used to load the Homebrew Launcher from CFW developed by Switchbrew. Comes bundled with Atmosphere.
 - PRODINFO: A partition on the NAND of your Switch. This along with boot0 and boot1 is the only part of your Switch that can render it unbootable if improperly modified. Atmosphere backs up this partition on booting and it is included in your NAND backup.
