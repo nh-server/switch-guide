@@ -24,16 +24,22 @@ To verify Atmosphere launched properly, open the Settings applet, and navigate t
 
 &nbsp;
 
-You will now be able to launch the Homebrew Menu by launching the Album applet. To launch into the actual gallery, launch the Album applet while holding the (R) button.
+### Launching the Homebrew Menu
 
-Place homebrew applications into the `switch` folder on your SD card.
+You will now be able to launch the Homebrew Menu by by holding the R button while launching any game (including demos/cartridges), application (e.g. Youtube/Hulu), or the album. If R is not held, the album, game, or application will launch like normal.
+    
+!!! warning "A note about using the album for the Homebrew Menu"
+    - Using the album for the Homebrew Menu instead of a game or application has several limitations, including but not limited to: a smaller amout of available memory (RAM), as well as being unable to launch a full-featured web browser. It is strongly recommended to launch homebrew through applications or games instead.
+    
+!!! tip "Adding new applications"
+    - Place homebrew applications (`.nro` files) into the `switch` folder on your SD card.
 
 &nbsp;
 
-### Basic use cases for included homebrew
+### What the included homebrew applications do
 
 !!! tip ""
-    - Checkpoint is a save manager, it can dump and restore saves from/to your system. Dumped saves are stored in `switch/checkpoint/saves`
+    - Checkpoint is a save manager, it can dump and restore saves from/to your system. For more information, see [Save Management](../extras/save_management.md)
 
     - FTPD is a ftp tool for connecting your switch's sd card wirelessly to your pc. Tools like Filezilla can connect to your switch on `(ip of switch):5000`
 
