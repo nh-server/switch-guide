@@ -34,42 +34,55 @@ The homebrew community has crowdsourced a list of known serial numbers which are
 The following information is based on [this GBATemp thread](https://gbatemp.net/threads/switch-informations-by-serial-number-read-the-first-post-before-asking-questions.481215/).
 
 
-!!! note ""
-    - If your serial starts with **XAW1**:
-        - XAW10078XXX and below are unpatched
-        - XAW10079XXX and above are potentially patched
-        - XAW1012000X and above are patched
-!!! note ""
-    - If your serial starts with **XAW4**:
-        - XAW4001100X and below are unpatched
-        - XAW4001200X and above are potentially patched
-        - XAW4003000X and above are patched
-!!! note ""
-    - If your serial starts with **XAW7**:
-        - XAW7001780X and below are unpatched
-        - XAW7001790X and above are potentially patched
-        - XAW7003000X and above are patched
-!!! note ""
-    - If your serial starts with **XAJ1**:
-        - XAJ1002000X and below are unpatched
-        - XAJ1002100X and above are potentially patched
-        - XAJ1003000X and above are patched
-!!! note ""
-    - If your serial starts with **XAJ4**:
-        - XAJ4004600X and below are unpatched
-        - XAJ4004700X and above are potentially patched
-        - XAJ4006000X and above are patched
-!!! note ""
-    - If your serial starts with **XAJ7**:
-        - XAJ7004000X and below are unpatched
-        - XAJ7004100X and above are potentially patched
-        - XAJ7005000X and above are patched
-!!! note ""
-    - If your serial starts with **XAJ9**:
-        - These units are refurbished units provided by Nintendo. No information is known yet, but they are potentially patched.
-!!! note ""
-    - If your serial starts with **XAK**:
-        - No information is known yet- you are encouraged to continue with the guide and report on the GBATemp thread if the guide worked, along with the first few digits of your serial number.
+
+!!! tip ""
+    ### List of console serial number ranges
+    <details>
+        <summary>Click to expand!</summary>
+        
+    !!! note ""
+        - If your serial starts with **XAW1**:
+            - XAW10078XXX and below are unpatched
+            - XAW10079XXX and above are potentially patched
+            - XAW1012000X and above are patched
+    !!! note ""
+        - If your serial starts with **XAW4**:
+            - XAW4001100X and below are unpatched
+            - XAW4001200X and above are potentially patched
+            - XAW4003000X and above are patched
+    !!! note ""
+        - If your serial starts with **XAW7**:
+            - XAW7001780X and below are unpatched
+            - XAW7001790X and above are potentially patched
+            - XAW7003000X and above are patched
+    !!! note ""
+        - If your serial starts with **XAJ1**:
+            - XAJ1002000X and below are unpatched
+            - XAJ1002100X and above are potentially patched
+            - XAJ1003000X and above are patched
+    !!! note ""
+        - If your serial starts with **XAJ4**:
+            - XAJ4004600X and below are unpatched
+            - XAJ4004700X and above are potentially patched
+            - XAJ4006000X and above are patched
+    !!! note ""
+        - If your serial starts with **XAJ7**:
+            - XAJ7004000X and below are unpatched
+            - XAJ7004100X and above are potentially patched
+            - XAJ7005000X and above are patched
+    !!! note ""
+        - If your serial starts with **XAJ9**:
+            - These units are refurbished units provided by Nintendo. No information is known yet, but they are potentially patched.
+    !!! note ""
+        - If your serial starts with **XAK**:
+            - No information is known yet- you are encouraged to continue with the guide and report on the GBATemp thread if the guide worked, along with the first few digits of your serial number.
+</details>
+&nbsp;
+
+### Console Preparation
+
+!!! danger "Important"
+    Before setting up the console for homebrew, it is important to have at least one eShop game, application (such as Youtube or Hulu), or a game demo such as [10 Second Run RETURNS](https://www.nintendo.com/games/detail/10-second-run-returns-switch). A game cartridge will also work, but note that the cartridge will have to be inserted in order to run homebrew if you wish to go this route. Once you have a game or application, you are prepared to continue on with the guide.
 
 &nbsp;
 
