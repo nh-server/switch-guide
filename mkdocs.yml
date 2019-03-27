@@ -25,6 +25,7 @@ nav:
         - 'Giving Homebrew More RAM': 'extras/himem_homebrew.md'      
         - 'Linux injection without root': 'extras/adding_udev.md'
         - 'Alternate Boot Setups': 'extras/alternate_bootsetups.md'
+        - 'Glossary': 'extras/glossary.md'
     - FAQ: faq.md
     - About: about.md
     
