@@ -8,6 +8,10 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
 
 !!! danger "Notice"
 	Your SD card will need to be formatted as either FAT32 or exFAT. FAT32 is recommended as it is more stable and will work out of the box with the Switch's operating system, but has a file size limit of 4GB. If you plan on using exFAT, you will need to install the exFAT update for your Switch, which is downloaded when you insert an exFAT formatted SD card in to your Switch. Note that this will update your console and requires an internet connection.
+
+!!! warning "NxThemeInstaller"
+    The ban risks of using Switch themes are at this time unknown. Use them at your own risk.
+
 &nbsp;
 
 ### What you need
@@ -20,7 +24,10 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
 	    - Download the `Checkpoint.nro` release of Checkpoint
     - The latest release of [FTPD](https://github.com/mtheall/ftpd/releases)
 	    - Download the `ftpd.nro` release of FTPD
+    - The latest release of [NXThemeInstaller](https://github.com/exelix11/SwitchThemeInjector/releases)
+        - Download the `NxThemesInstaller.nro` release of NxThemeInstaller
     - The latest release of [NX-Shell](https://github.com/joel16/NX-Shell/releases)
+    - The latest release of the [hbappstore](https://github.com/vgmoose/hb-appstore/releases)
     - <a href="../../files/hekate_ipl.ini" download>hekate-ipl.ini</a>
 
 
@@ -32,7 +39,8 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
     2. Copy *the contents of* the Atmosphere `.zip` file to the root of your SD card
     3. Copy the `bootloader` folder from the Hekate `.zip` file to the root of your SD card
     4. Copy `hekate-ipl.ini` to the `bootloader` folder on your SD card
-    5. Copy `ftpd.nro` , `Checkpoint.nro` and `NX-Shell.nro` to the `switch` folder on your SD card
+    5. Copy the `switch` folder inside the `appstore.zip` to the root of your SD card
+    5. Copy `ftpd.nro` , `Checkpoint.nro` , `NX-Shell.nro` and `NxThemesInstaller.nro` to the `switch` folder on your SD card
 
 &nbsp;
 
