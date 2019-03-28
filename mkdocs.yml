@@ -23,6 +23,7 @@ nav:
         - 'Save Management': 'extras/save_management.md'
         - 'Game Modding': 'extras/game_modding.md'       
         - 'Linux injection without root': 'extras/adding_udev.md'
+        - 'Showing File Name Extensions (Windows)': 'extras/showing_file_extensions.md'
         - 'Alternate Boot Setups': 'extras/alternate_bootsetups.md'
         - 'Glossary': 'extras/glossary.md'
     - FAQ: faq.md
