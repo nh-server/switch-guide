@@ -61,7 +61,7 @@ Make sure all of your images you convert are 720P!
 !!! tip "Homebrew app store"
 	If you want to use the homebrew app store for themes, you can simply install the theme you want via the appstore, and follow the instructions from step 2 onwards below.
 
-1. Copy the `.nxtheme` files to the `themes` folder on your sd card (I reccomend you put them into folders).
+1. Copy the `.nxtheme` files to the `themes` folder on your sd card (It is recommended you put them into their own folders, e.g. /themes/awesome_theme/awesome.nxtheme)..
 	- Create the `themes` folder on the root of your sd card if it does not exist.
 &nbsp;
 2. Boot Switch CFW, launch the Homebrew Menu and launch `NXThemes Installer`.
@@ -72,7 +72,7 @@ Make sure all of your images you convert are 720P!
 
 ## Installing a custom font
 
-1. Put a font in the .ttf file format into the `themes` folder (I reccomend you put them into folders).
+1. Put a font in the .ttf file format into the `themes` folder (It is recommended you put them into their own folders, e.g. /themes/cool_font/font.ttf).
 2. Boot Switch CFW, launch the Homebrew Menu and launch `NXThemes Installer`
 3. Find your font and install it
 4. Reboot your switch to see the changes.
@@ -85,6 +85,6 @@ My Switch crashes on boot after I installed a theme!:
 
 - You installed a bad theme. You can remove it by going into the `(CFW)/Titles/0100000000001000/romfs/lyt` and deleting every file in that folder
 	
-The NXTheme installer crashes when i launch it:
+The NXTheme installer crashes when I launch it:
 	
 - This is probably due to the archive bit being set on either the app or the nxthemes. This is usually the result of copying files to an sd card via a Mac. If you are experiencing this issue, try resetting the archive bit via Hekate for all files.
