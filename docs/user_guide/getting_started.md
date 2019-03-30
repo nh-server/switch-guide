@@ -39,37 +39,37 @@ The following information is based on [this GBATemp thread](https://gbatemp.net/
     ### List of console serial number ranges
     <details>
         <summary>Click to expand!</summary>
-        
+
     !!! note ""
         - If your serial starts with **XAW1**:
-            - XAW10078XXX and below are unpatched
-            - XAW10079XXX and above are potentially patched
-            - XAW1012000X and above are patched
+            - XAW10000000000 through XAW10074000000 are unpatched
+            - XAW10075000000 through XAW10120000000 are potentially patched
+            - Serials above XAW10120000000 are patched
     !!! note ""
         - If your serial starts with **XAW4**:
-            - XAW4001100X and below are unpatched
-            - XAW4001200X and above are potentially patched
-            - XAW4003000X and above are patched
+            - XAW40000000000 through XAW40011000000 are unpatched
+            - XAW40011000000 through XAW40012000000 are potentially patched
+            - Serials above XAW40012000000 are patched
     !!! note ""
         - If your serial starts with **XAW7**:
-            - XAW7001780X and below are unpatched
-            - XAW7001790X and above are potentially patched
-            - XAW7003000X and above are patched
+            - XAW70000000000 through XAW70017800000 are unpatched
+            - XAW70017800000 through XAW70030000000 are potentially patched
+            - Serials above XAW70030000000 are patched
     !!! note ""
         - If your serial starts with **XAJ1**:
-            - XAJ1002000X and below are unpatched
-            - XAJ1002100X and above are potentially patched
-            - XAJ1003000X and above are patched
+           - XAJ10000000000 through XAJ10020000000 are unpatched
+           - XAJ10020000000 through XAJ10030000000 are potentially patched
+           - Serials above XAJ10030000000 are patched
     !!! note ""
         - If your serial starts with **XAJ4**:
-            - XAJ4004600X and below are unpatched
-            - XAJ4004700X and above are potentially patched
-            - XAJ4006000X and above are patched
+            - XAJ40000000000 through XAJ40046000000 are unpatched
+            - XAJ40046000000 through XAJ40060000000 are potentially patched
+            - Serials above XAJ40060000000 are patched
     !!! note ""
         - If your serial starts with **XAJ7**:
-            - XAJ7004000X and below are unpatched
-            - XAJ7004100X and above are potentially patched
-            - XAJ7005000X and above are patched
+            - XAJ70000000000 through XAJ70040000000 are unpatched
+            - XAJ70040000000 through XAJ70050000000 are potentially patched
+            - Serials above XAJ70050000000 are patched
     !!! note ""
         - If your serial starts with **XAJ9**:
             - These units are refurbished units provided by Nintendo. No information is known yet, but they are potentially patched.
