@@ -57,9 +57,9 @@ The following information is based on [this GBATemp thread](https://gbatemp.net/
             - Serials above XAW70030000000 are patched
     !!! note ""
         - If your serial starts with **XAJ1**:
-           - XAJ10000000000 through XAJ10020000000 are unpatched
-           - XAJ10020000000 through XAJ10030000000 are potentially patched
-           - Serials above XAJ10030000000 are patched
+            - XAJ10000000000 through XAJ10020000000 are unpatched
+            - XAJ10020000000 through XAJ10030000000 are potentially patched
+            - Serials above XAJ10030000000 are patched
     !!! note ""
         - If your serial starts with **XAJ4**:
             - XAJ40000000000 through XAJ40046000000 are unpatched
