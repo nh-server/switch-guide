@@ -25,6 +25,8 @@ This guide was written by staff members of the [Nintendo Homebrew Discord Server
     - **mtheall** for [FTPD](https://github.com/mtheall/ftpd/).
     - **joel16** for [NX-Shell](https://github.com/joel16/NX-Shell).
     - **Cease & DeSwitch** for [fusee-gelee](https://github.com/Cease-and-DeSwitch/fusee-launcher).
-    - **MenosGrante** for [Rekado](https://github.com/MenosGrante/Rekado/releases).
-    - **eliboa** for [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI/releases).
+    - **MenosGrante** for [Rekado](https://github.com/MenosGrante/Rekado).
+    - **eliboa** for [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI).
+    - **vgmoose**, **pwsincd**, **rw-r-r_0644** and **crc32** for [hb-appstore](https://github.com/vgmoose/hb-appstore).
+    - **exelix* for [nxthemesinstaller and SwitchThemeInjector](https://github.com/exelix11/SwitchThemeInjector).
     - **Essometer** for collecting patched Switch serials.
