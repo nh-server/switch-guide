@@ -1,10 +1,11 @@
 # Making Essential Backups
+
 !!! danger "Important"
-    It is critical to make these backups. They can be used to restore the device to a working state. Do not skip these steps.
+    It is critical to make these backups. Do not skip these steps.
 
 &nbsp;
 
-# Making a NAND Backup
+## Making a NAND Backup
 
 !!! danger "Important"
 	A NAND backup is crucial. They can be used to restore the device to a working state in case of emergencies, and will be required in order to migrate to an EmuNAND setup in the near future.
@@ -38,7 +39,7 @@
 
 &nbsp;
 
-# Getting your Console's Unique Keys
+## Getting your Console's Unique Keys
 
 !!! danger "Important"
     These keys are critical to have. They can be used as another way to restore your device to a working state when paired with other tools, if your NAND backup is not enough.
@@ -46,6 +47,8 @@
 &nbsp;
 
 ### Instructions
+
+!!! tip ""
     1. Enter RCM and upload the Hekate payload
     2. Use the volume buttons to navigate to `Launch` -> `Payloads...`, then press the power button
     3. Navigate to `Lockpick_RCM.bin`, then press the power button
@@ -54,6 +57,8 @@
     6. Lockpick_RCM should now inform you that your keys have been saved to `/switch/prod.keys` on the SD card.
     7. Press the power button to power off your Switch
     8. Insert your SD card into your PC
-    9. Copy `/switch/prod.keys` from your SD card to a safe location on your PC (it is suggested to copy it to the same place that you copied your NAND backup to).
+    9. Copy `prod.keys` from the `switch` folder on your SD card to a safe location on your PC (it is suggested to copy it to the same place that you copied your NAND backup to).
+
+&nbsp;
 
 #### [Continue to Launching CFW <i class="fa fa-arrow-circle-right fa-lg"></i>](launching_cfw.md)

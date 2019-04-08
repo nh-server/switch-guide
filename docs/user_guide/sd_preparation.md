@@ -23,6 +23,7 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
     - The latest release of [Hekate](https://github.com/CTCaer/hekate/releases/)
     - The latest release of [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere/releases) 
         - You will need to download the release zip.
+    - The latest release of [Lockpick_RCM](https://github.com/shchmue/Lockpick_RCM/releases)
     - The latest release of [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases)
         - Download the `Checkpoint.nro` release of Checkpoint
     - The latest release of [FTPD](https://github.com/mtheall/ftpd/releases)
@@ -44,7 +45,8 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
     5. Delete `reboot_payload.bin` in the `atmosphere` folder on your SD card
     6. Rename Hekate's `.bin` file to `reboot_payload.bin`
     7. Copy `hekate-ipl.ini` to the `bootloader` folder on your SD card
-    8. Create a folder named `appstore` inside the `switch` folder on your SD card, and put `appstore.nro` in it
+    8. Copy `Lockpick_RCM.bin` to the `payloads` folder inside the `bootloader` folder on your SD card
+    8. Create a folder named `appstore` inside the `switch` folder on your SD card, and put `appstore.nro` in its
     9. Copy `ftpd.nro` , `Checkpoint.nro` , `NX-Shell.nro` and `NxThemesInstaller.nro` to the `switch` folder on your SD card
 
 &nbsp;
