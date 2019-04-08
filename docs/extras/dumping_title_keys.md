@@ -15,16 +15,15 @@ This section is for dumping your games' title keys.
 	- The latest release of [Hekate](https://github.com/CTCaer/hekate/releases)
 
 ### Instructions
+!!! warning "Read this first"
+    If you haven't run [Lockpick_RCM to dump your console's keys](../user_guide/making_essential_backups.md), do that first before continuing.
 
 !!! tip ""
-	1. Copy `Lockpick.nro` to the `switch` folder on your SD card.
-	2. Place your SD card back into your Switch.
-	3. Inject the Hekate payload to your Switch via your favorite payload injector.
-	4. In Hekate, navigate to `Console info` -> `Print fuse info`. Press the power button to dump the fuse info. Press the volume button after it says `done` to go back.
-	5. Navigate to `Print TSEC keys`. Press the power button to dump the TSEC keys. Press the volume button after it says `done` to go back.
-	6. Launch Atmosphere CFW
-	7. Go to the homebrew menu, and launch the Lockpick app. Once it finishes dumping, press + to exit
-	8. You should now have your prod.keys in the `switch` folder on the sd card
+	1. Copy `Lockpick.nro` to the `switch` folder on your SD card
+	2. Place your SD card back into your Switch
+	3. Launch Atmosphere CFW
+	4. Go to the homebrew menu, and launch the Lockpick app. Once it finishes dumping, press + to exit
+	5. You should now have your title.keys file in the `switch` folder on your SD card
 
 !!! tip "Lockpick"
 	![ExampleSwitchTheme](../extras/img/backup_keys.jpg)
