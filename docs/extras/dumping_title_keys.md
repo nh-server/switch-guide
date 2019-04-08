@@ -1,10 +1,10 @@
-# Backup Keys
-This section is for making a backup of your console keys.
+# Dumping Title Keys
+This section is for dumping your games' title keys.
 
 &nbsp;
 
 !!! danger "Advanced users only!"
-	Keys are meant for decrypting game dumps, usually for modding purposes. Most users won't need this.
+	Title keys are meant for decrypting game dumps, usually for modding purposes. Most users won't need this.
 
 &nbsp;
 

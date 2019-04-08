@@ -18,7 +18,7 @@ nav:
         - 'Restoring a NAND Backup': 'extras/nandrestore.md'
         - 'AutoRCM': 'extras/autorcm.md'
         - 'Manual RCM Testing': 'extras/rcm_test.md'
-        - 'Backup Keys': 'extras/backup_keys.md'
+        - 'Dumping Title Keys': 'extras/dumping_title_keys.md'
         - 'Theming': 'extras/theming.md'
         - 'Save Management': 'extras/save_management.md'
         - 'Game Modding': 'extras/game_modding.md'       
