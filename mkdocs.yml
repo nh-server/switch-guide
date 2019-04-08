@@ -11,7 +11,7 @@ nav:
         - 'SD Preparation': 'user_guide/sd_preparation.md'        
         - 'Entering RCM': 'user_guide/entering_rcm.md'    
         - 'Sending a Payload': 'user_guide/sending_payload.md'
-        - 'Making a NAND Backup': 'user_guide/making_a_nand_backup.md'
+        - 'Making Essential Backups': 'user_guide/essential_backups.md'
         - 'Launching CFW': 'user_guide/launching_cfw.md'
     - Extras:
         - 'Blocking Updates': 'extras/blocking_updates.md'
