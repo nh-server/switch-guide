@@ -12,7 +12,6 @@ This section is for dumping your games' title keys.
 
 !!! tip ""
 	- The latest release of [Lockpick](https://github.com/shchmue/Lockpick/releases)
-	- The latest release of [Hekate](https://github.com/CTCaer/hekate/releases)
 
 ### Instructions
 
