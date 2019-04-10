@@ -1,4 +1,11 @@
-# Making a NAND Backup
+# Making Essential Backups
+
+!!! danger "Important"
+    It is critical to make these backups. Do not skip these steps.
+
+&nbsp;
+
+## Making a NAND Backup
 
 !!! danger "Important"
 	A NAND backup is crucial. They can be used to restore the device to a working state in case of emergencies, and will be required in order to migrate to an EmuNAND setup in the near future.
@@ -29,6 +36,28 @@
     5. Press any key to continue, then power off your Switch
     6. Insert your SD card into your PC
     7. Copy the `backup` folder on your SD card to a safe location on your PC
+
+&nbsp;
+
+## Getting your Console's Unique Keys
+
+!!! danger "Important"
+    These keys are critical to have. They can be used as another way to restore your device to a working state when paired with other tools, if your NAND backup is not enough.
+
+&nbsp;
+
+### Instructions
+
+!!! tip ""
+    1. Enter RCM and upload the Hekate payload
+    2. Use the volume buttons to navigate to `Launch` -> `Payloads...`, then press the power button
+    3. Navigate to `Lockpick_RCM.bin`, then press the power button
+    4. After Lockpick_RCM starts, press the power button or any of the the volume buttons when it prompts you to `Reboot to Sept`
+    5. Wait for the "sept by Atmosphere" logo to display, and then Lockpick_RCM will start again
+    6. Lockpick_RCM should now inform you that your keys have been saved to `/switch/prod.keys` on the SD card.
+    7. Press the power button to power off your Switch
+    8. Insert your SD card into your PC
+    9. Copy `prod.keys` from the `switch` folder on your SD card to a safe location on your PC (it is suggested to copy it to the same place that you copied your NAND backup to).
 
 &nbsp;
 

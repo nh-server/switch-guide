@@ -30,3 +30,4 @@ This guide was written by staff members of the [Nintendo Homebrew Discord Server
     - **vgmoose**, **pwsincd**, **rw-r-r_0644** and **crc32** for [hb-appstore](https://github.com/vgmoose/hb-appstore).
     - **exelix** for [nxthemesinstaller and SwitchThemeInjector](https://github.com/exelix11/SwitchThemeInjector).
     - **Essometer** for collecting patched Switch serials.
+    - **Shchmue** for [Lockpick](https://github.com/shchmue/Lockpick/releases) and [Lockpick_RCM](https://github.com/shchmue/Lockpick_RCM/releases)
