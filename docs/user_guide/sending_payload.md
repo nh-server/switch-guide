@@ -2,6 +2,9 @@
 
 # Sending a Payload
 
+!!! warning "If you were sent here directly"
+    Make sure you've [put your device into RCM](entering_rcm.md), and downloaded Hekate (extract its zip file if necessary) before continuing.
+
 Now that the device is in RCM, we will need to send it a payload. The methods are mostly the same, but slightly differs depending on what hardware you have available.
 
 &nbsp;
@@ -12,7 +15,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
 !!! tip ""
     - The latest release of [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI/releases) (either the MSI or zip)
-    - The latest release of [Hekate](https://github.com/CTCaer/hekate/releases/)
+    - The latest release of [Hekate](https://github.com/CTCaer/hekate/releases/) (either the hekate_ctcaer bin or the hekate_ctcaer zip)
     - A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
 
 ### Instructions
@@ -75,5 +78,8 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
     8. Select your hekate_ctcaer `.bin` file in the dialog that pops up
 
 &nbsp;
+
+!!! danger "If nothing happens after you send the payload"
+    If your console's screen remains black after you've sent Hekate, it's possible your payload was corrupted, or that your console is patched. If your payload injector program shows that 0 bytes were sent, then it is definitely patched, so you'll be unable to proceed with the rest of the guide.
 
 #### [Continue to Making Essential Backups <i class="fa fa-arrow-circle-right fa-lg"></i>](making_essential_backups.md)

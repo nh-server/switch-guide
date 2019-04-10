@@ -17,7 +17,6 @@ nav:
         - 'Blocking Updates': 'extras/blocking_updates.md'
         - 'Restoring a NAND Backup': 'extras/nandrestore.md'
         - 'AutoRCM': 'extras/autorcm.md'
-        - 'Manual RCM Testing': 'extras/rcm_test.md'
         - 'Dumping Title Keys': 'extras/dumping_title_keys.md'
         - 'Theming': 'extras/theming.md'
         - 'Save Management': 'extras/save_management.md'
