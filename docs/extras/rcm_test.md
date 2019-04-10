@@ -12,7 +12,7 @@ To enter RCM, please look at [this page.](/switch-guide/user_guide/entering_rcm/
     All consoles can enter RCM, regardless of if they are patched or not! This guide will test to see if you can use the fusee-gelee exploit, which is required for the use of CFW. 
 
 !!! tip "Essential files"
-    [The fusee test payload](http://misc.ktemkin.com/fusee.bin) by ktemkin
+    [The fusee test payload](http://loli.tube/fusee.bin) by ktemkin
 
 &nbsp;
 
