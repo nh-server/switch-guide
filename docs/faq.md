@@ -2,10 +2,13 @@
 
 ### What firmware versions are currently hackable?
 
+!!! danger "**DO NOT UPDATE** to Firmware **8.0.0**"
+    There is currently no CFW available for 8.0.0. **DO NOT** update past 7.0.1 until told otherwise.
+    
 !!! tip ""
-    Currently two hardware revisions of the Switch exist. Any Switch bought before July 2018 has a bootrom bug that allows us to launch CFW regardless of the firmware version on the switch. This bug cannot be fixed by Nintendo once the console leaves the factory, not even if the console is sent in for repairs. This means that all current and future firmwares will be able to launch CFW through this exploit on the old hardware revision.
+    Currently two hardware revisions of the Switch exist. Any Switch bought before July 2018 has a bootrom bug that allows us to launch CFW regardless of the firmware version on the Switch, unless Nintendo changed something in the system, which would still be able to be bypassed. This bug cannot be fixed by Nintendo once the console leaves the factory, not even if the console is sent in for repairs. This means that all current and future firmwares will be able to launch CFW through this exploit on the old hardware revision.
 
-    The first claims of a new hardware revision of the Switch that fixes the exploit needed to launch cfw have been made in July 2018. Currently the only way to know if your Switch is hackable is by trying to send the payload in RCM. Even with this exploit fixed, any Switch on firmware 4.1 and below will be able to launch CFW through other means in the far future. The serial number on the back of the box can possibly tell you which consoles are patched and which aren't. See [GBA Thread](https://gbatemp.net/threads/switch-informations-by-serial-number.481215/) for an up to date list.
+    The first claims of a new hardware revision of the Switch that fixes the exploit needed to launch CFW have been made in July 2018. Currently the only way to know if your Switch is hackable is by trying to send the payload in RCM. Even with this exploit fixed, any Switch on firmware 4.1 and below will be able to launch CFW through other means in the far future. The serial number on the back of the box can possibly tell you which consoles are patched and which aren't. See [GBA Thread](https://gbatemp.net/threads/switch-informations-by-serial-number.481215/) for an up to date list.
 
 ### How do I use the exploit?
 
