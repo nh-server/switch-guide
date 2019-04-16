@@ -6,6 +6,9 @@ A guide collaboration between Nintendo Homebrew's Helpers and Staff, from stock 
 
 &nbsp;
 
+!!! danger "**DO NOT UPDATE** to Firmware **8.0.0**"
+    There is currently no CFW available for 8.0.0. **DO NOT** update past 7.0.1 until told otherwise.
+
 !!! tip "Discord Help"
     For live support with this guide please visit us in **#switch-assistance** on [Nintendo Homebrew Discord](https://discord.gg/C29hYvh).
 
