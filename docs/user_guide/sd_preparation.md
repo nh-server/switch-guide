@@ -51,4 +51,9 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
 
 &nbsp;
 
+!!! danger "If you're using Firmware 8.0.0"
+    In addition to the steps above, you will also need to download [fusee-primary](https://github.com/Atmosphere-NX/Atmosphere/releases/download/0.8.8/fusee-primary.bin) and put it in `/bootloader/payloads` on your SD card.
+
+&nbsp
+
 #### [Continue to Entering RCM <i class="fa fa-arrow-circle-right fa-lg"></i>](entering_rcm.md)

@@ -24,7 +24,7 @@ The homebrew community has crowdsourced a list of known serial numbers which are
 
 - If your serial number is on this list as "potentially patched", follow the guide and see if your system works. 
 - If your serial number is listed as "patched", there is nothing you can do at this time. 
-- If your system is patched, it is highly advised to keep it on 4.1.0 or lower, if possible, as there may be a vulnerability for these versions in the far future.
+- If your system is patched, it is highly advised to keep it on 7.0.1 or lower, if possible, as there may be a vulnerability for these versions in the far future. **DO NOT update patched consoles past 7.0.1 if you want to ever have a chance of running homebrew and/or CFW on them.**
 
 !!! tip "Notice"
     If you are unsure if your serial is patched, you can test your console yourself following the instructions [here.](sending_payload.md)
