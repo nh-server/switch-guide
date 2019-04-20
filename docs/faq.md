@@ -2,13 +2,10 @@
 
 ### What firmware versions are currently hackable?
 
-!!! danger "**DO NOT UPDATE** to Firmware **8.0.0**"
-    There is currently no CFW available for 8.0.0. **DO NOT** update past 7.0.1 until told otherwise.
-    
 !!! tip ""
     Currently two hardware revisions of the Switch exist. Any Switch bought before July 2018 has a bootrom bug that allows us to run code regardless of the firmware version on the Switch. When Nintendo updates the system, however, CFW will usually need an update to account for it. This bug cannot be fixed by Nintendo once the console leaves the factory, not even if the console is sent in for repairs. This means that all current and future firmwares will be able to launch CFW through this exploit on the old hardware revision.
 
-    The first claims of a new hardware revision of the Switch that fixes the exploit needed to launch CFW have been made in July 2018. Currently the only way to know if your Switch is hackable is by trying to send the payload in RCM. Even with this exploit fixed, any Switch on firmware 4.1 and below will be able to launch CFW through other means in the far future. The serial number on the back of the box can possibly tell you which consoles are patched and which aren't. See [GBA Thread](https://gbatemp.net/threads/switch-informations-by-serial-number.481215/) for an up to date list.
+    The first claims of a new hardware revision of the Switch that fixes the exploit needed to launch CFW have been made in July 2018. Currently the only way to know if your Switch is hackable is by trying to send the payload in RCM. Even with this exploit fixed, any Switch on firmware 7.0.1 and below will be able to launch CFW through other means in the far future. The serial number on the back of the box can possibly tell you which consoles are patched and which aren't. See [this GBAtemp thread](https://gbatemp.net/threads/switch-informations-by-serial-number.481215/) for an up to date list.
 
 ### How do I use the exploit?
 
@@ -41,9 +38,9 @@
 ### Should I update XY FW?
 
 !!! tip ""
-    If your Switch is one of the new hardware revisions that patched the exploit in RCM and you are on firmware 4.1.0 or lower, you should not update if you want to have CFW in the forseeable future.
+    If your Switch is one of the new hardware revisions that patched the exploit in RCM and you are on firmware 7.0.1 or lower, you should not update if you want to have CFW in the forseeable future.
 
-    If your Switch is one of the older hardware revisions and you don't mind having to use jigs/hardmods/AutoRCM and sending the exploit via computer, phone or dongle everytime you want to launch into CFW then it is completely safe to update. If you want the chance to maybe, one day, not have to use a external device, then it is recommended to stay on a FW as low as possible. Beware that this means that you potentially need to wait for a very long time (months to years) for this to happen, if ever. Private exploits to launch CFW are known to exist for firmwares up to 4.1.
+    If your Switch is one of the older hardware revisions and you don't mind having to use jigs/hardmods/AutoRCM and sending the exploit via computer, phone or dongle everytime you want to launch into CFW then it is completely safe to update. If you want the chance to maybe, one day, not have to use a external device, then it is recommended to stay on a FW as low as possible. Beware that this means that you potentially need to wait for a very long time (months to years) for this to happen, if ever. Private exploits to launch CFW are known to exist for firmwares up to 7.0.1.
 
     Downgrading on the Switch is possible, but it requires using AutoRCM and a custom bootloader payload to bypass the Switch's several hardware anti-downgrade mechanisms. This will not work on an unpatched system, and is practically useless for most users.
     On every boot the Switch firmware checks how many e-fuses have been burned and how many e-fuses the Switch expects to be burned. Major updates to the Switch, or updates in which a large vulnerability has been patched, irreversibly burn one of the Switch's 32 "e-fuses". If the Switch ever detects that more e-fuses have been burned than expected (meaning a downgrade happened), it will refuse to boot. Replacing e-fuses is not an option.
