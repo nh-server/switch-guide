@@ -32,7 +32,7 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
         - Download the `NxThemesInstaller.nro` release of NxThemeInstaller
     - The latest release of [NX-Shell](https://github.com/joel16/NX-Shell/releases)
     - The latest release of the [hbappstore](https://github.com/vgmoose/hb-appstore/releases)
-    - <a href="../../files/hekate_ipl.ini" download>hekate-ipl.ini</a>
+    - <a href="../../files/hekate_ipl.ini" download>hekate_ipl.ini</a>
 
 
 ### Instructions
