@@ -6,20 +6,6 @@ Unlike systems such as the DSi, Wii, or 3DS, Switch CFW is currently volatile- i
 
 &nbsp;
 
-!!! danger "If you're on firmware 8.0.0"
-    Instead of the Instructions section below, follow this:
-
-    1. Power on your Switch into RCM, and upload the hekate payload
-
-    2. Navigate to `Launch` with the volume buttons, and press the power button to confirm
-
-    3. Navigate to `Payloads` with the volume buttons, and press the power button to confirm
-
-    4. Navigate to `fusee-primary.bin` with the volume buttons and press the power button to confirm
-    Your Switch is now booting into Atmosphere. Also note that booting stock from Hekate *is not possible at this current time.*
-
-    Now proceed to the System Settings picture below, to verify that you are in Atmosphere.
-
 ### Instructions
 
 !!! tip ""
