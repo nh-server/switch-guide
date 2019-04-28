@@ -20,13 +20,13 @@ You can create unique styles and layouts for your Switch Home Menu.
 
 ### What you need
 
-The latest release of **[Switch Theme Injector v3.8](https://github.com/exelix11/SwitchThemeInjector/releases)**
+The latest release of **[Switch Theme Injector](https://github.com/exelix11/SwitchThemeInjector/releases)**
 
-- You need to download the `ReleaseV3.8.zip` on the download page
+- You need to download the `ReleaseVx.x.zip` on the download page
 
 ### Making the theme
 
-1. Unzip `ReleaseV3.8.zip` to somewhere on your pc's drive.
+1. Unzip `ReleaseVx.x.zip` to somewhere on your pc's drive.
 2. Open up the `SwitchThemes.exe` app. Navigate to `NXTheme Builder`.
 3. Select a Home menu part, A 720p image and a Layout patch. Click on `Build NXTheme` after selecting your home menu part, image and layout patch.
 4. Fill out the details in the window that pops up. After filling out this window and clicking ok, you will get asked where to save the NXTheme file. Save this file to a temporary folder.
