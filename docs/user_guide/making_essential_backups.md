@@ -42,7 +42,7 @@
 ## Getting your Console's Unique Keys
 
 !!! danger "Important"
-    These keys are critical to have. In an extreme emegency, they can be used in conjunction with your NAND backup and other tools to restore your console to a working state.
+    These keys are critical to have. In an extreme emergency, they can be used in conjunction with your NAND backup and other tools to restore your console to a working state.
 
 &nbsp;
 
