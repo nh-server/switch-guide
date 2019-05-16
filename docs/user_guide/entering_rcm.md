@@ -20,7 +20,7 @@ There are several methods of entering RCM (**R**e**C**overy **M**ode). The most 
     1. Power off the Switch and use one of the methods listed below to short the pins.
     2. Hold Volume Up and press the Power button.
      
-    If your Switch displays the Nintendo logo and boots normally or immediately shuts down, you didn't successfully enter RCM and should try again.
+    If your Switch displays the Nintendo logo and boots normally or immediately shuts down, you didn't successfully enter RCM and should try again. Otherwise, if your console did not turn on normally, and the screen remained black with no backlight, your Switch is in RCM.
 
 !!! tip ""
     ### Tinfoil
