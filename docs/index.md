@@ -10,7 +10,7 @@ A guide collaboration between Nintendo Homebrew's Helpers and Staff, from stock 
     For live support with this guide please visit us in **#switch-assistance** on [Nintendo Homebrew Discord](https://discord.gg/C29hYvh).
 
 !!! danger "Issues with latest firmware"
-	Version 8.1.0 currently does not boot from Hekate, both Atmosphere and stock firmware. To boot Atmosphere, [please follow these steps](extras/alternate_bootsetups#chainloading-fusee-primary-from-hekate) until Hekate is updated.
+	Version 8.1.0 currently does not boot from Hekate, both Atmosphere and stock firmware. To boot Atmosphere, [please follow these steps](extras/alternate_bootsetups/#chainloading-fusee-primary-from-hekate) until Hekate is updated.
 
 ### What is homebrew?
 
