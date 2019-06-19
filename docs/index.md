@@ -6,9 +6,6 @@ A guide collaboration between Nintendo Homebrew's Helpers and Staff, from stock 
 
 &nbsp;
 
-!!! danger "**DO NOT UPDATE** to Firmware **8.1.0**"
-    There is currently no CFW available for 8.1.0. **DO NOT** update past 8.0.1 until told otherwise!
-
 !!! tip "Discord Help"
     For live support with this guide please visit us in **#switch-assistance** on [Nintendo Homebrew Discord](https://discord.gg/C29hYvh).
 
@@ -47,7 +44,7 @@ A guide collaboration between Nintendo Homebrew's Helpers and Staff, from stock 
 !!! tip ""
     Before beginning the guide, you must know the risks of Switch hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They’re rare but still a possibility so make sure you follow ALL directions EXACTLY.
 
-    This guide will work on first-generation Switch consoles in all regions on firmware 8.0.1 or below.
+    This guide will work on first-generation Switch consoles in all regions on firmware 8.1.0 or below.
 
     You will need one of the following in order to successfully follow this guide:
 
