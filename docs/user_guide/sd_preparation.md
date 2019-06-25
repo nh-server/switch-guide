@@ -25,6 +25,7 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
 !!! tip ""
     - The latest release of [Hekate](https://github.com/CTCaer/hekate/releases/)
         - Download the `hekate_ctcaer_(version).zip` release of hekate
+    - The hekate config file: <a href="../../files/hekate_ipl.ini" download>hekate_ipl.ini</a>
     - The latest release of [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere/releases) 
         - Download both the `atmosphere-(version).zip` and `fusee-primary.bin` releases of Atmosphere.
     - The latest release of [Lockpick_RCM](https://github.com/shchmue/Lockpick_RCM/releases)
@@ -39,8 +40,6 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
         - Download the `NX-Shell.nro` release of nx-shell
     - The latest release of the [hbappstore](https://github.com/vgmoose/hb-appstore/releases)
         - Download the `appstore.nro` release of hbappstore
-    - <a href="../../files/hekate_ipl.ini" download>hekate_ipl.ini</a>
-
 
 ### Instructions
 
