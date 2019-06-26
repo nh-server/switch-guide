@@ -23,51 +23,6 @@ There are several methods of entering RCM (**R**e**C**overy **M**ode). The most 
     If your Switch displays the Nintendo logo and boots normally or immediately shuts down, you didn't successfully enter RCM and should try again. Otherwise, if your console did not turn on normally, and the screen remained black with no backlight, your Switch is in RCM.
 
 !!! tip ""
-    ### Tinfoil
-    <details>
-        <summary>Click to expand!</summary>
-    
-    !!! snippet "Note"
-        This method will result in the right Joy-Con being detected as in wireless mode while attached to the Switch, and this method may result in the Joy-Con being permanently detected as wireless if you update the Joy-Con firmware while this mod is installed. In the latter case, fixing this requires opening up the Joy-Con and reseating the battery. It is recommended that you only use this to get into RCM, and immediately remove it once you're successfully in RCM.
-
-    !!! snippet "Note"
-        Take care to not short pin 4 by accident while the system is on. This pin provides power to the Joy-Con, so shorting it by accident may damage your Switch permanently.
-
-    This method entails putting a thin piece of tinfoil in between pins 9 and 10 (seen below) on the Joy-Con, and the Joy-Con rail, then folding the foil over the back of the rail to tape it in place. This is best done by taking a 1/2 square inch piece of tinfoil (1.25 square cm), and folding it multiple times until it’s around 1 mm wide. Although we normally frown upon the use of video tutorials, we suggest you watch the small instructional video below before performing this task.
-
-	!!! tip ""
-		![Numbered Joycon Pins Refrence](../user_guide/img/entering_rcm_joycon_pins.jpg)
-	
-    !!! tip ""
-        <iframe width=100% height=430 src="https://www.youtube.com/embed/dm6hxGbZZj4"> </iframe>
-</details>
-
-!!! tip ""
-    ### Metal Bridge / Paperclip (Not recommended)
-    <details>
-        <summary>Click to expand!</summary>
-    
-    !!! snippet "Note"
-        This method is not recommended due to having a serious risk of permanently damaging your Switch's right Joy-Con rail. It is listed here as it is utilizing household items, but it is highly recommended to either do the tinfoil method or to order an RCM jig. This risk is made exponentially higher if a tool such as a screwdriver is used instead of a metal wire or paperclip.
-
-    !!! snippet "Note"
-        Take care to not short pin 4 by accident while the system is on. This pin provides power to the Joy-Con, so shorting it by accident may damage your Switch permanently.
-
-    This method entails taking a piece of metal (such as a paperclip or screwdriver) and bending it so that it touches pins 1 and 10, or any other grounded piece of metal and pin 10 (numbered pads shown below).
-
-	!!! tip ""
-		![Console Numbered Pads Refrence](../user_guide/img/entering_rcm_pads_numbered.jpg)
-	
-    Here are some examples of shorting pins 1 and 10 using a wire from HowDenKing#0001 on our Discord server.
-
-    !!! tip ""
-        ![HowDenKing Paperclip Reference 1](../user_guide/img/entering_rcm_paperclip_hdk_1.jpg)
-
-    !!! tip ""
-        ![HowDenKing Paperclip Reference 2](../user_guide/img/entering_rcm_paperclip_hdk_2.jpg)
-</details>
-
-!!! tip ""
     ### RCM Jig (Easiest for  beginners)
     <details>
         <summary>Click to expand!</summary>
@@ -188,6 +143,55 @@ There are several methods of entering RCM (**R**e**C**overy **M**ode). The most 
 	
 	!!! tip ""
         ![pbanj joycon button refrence](../user_guide/img/entering_rcm_button_2.jpg)
+</details>
+
+
+!!! danger "Tinfoil and paperclips"
+    There is a high potential of permanent damage or *bricking* your console if these are used repeatedly or improperly, and carry a risk even if only used once!
+
+!!! tip ""
+    ### Tinfoil
+    <details>
+        <summary>Click to expand!</summary>
+    
+    !!! snippet "Note"
+        This method will result in the right Joy-Con being detected as in wireless mode while attached to the Switch, and this method may result in the Joy-Con being permanently detected as wireless if you update the Joy-Con firmware while this mod is installed. In the latter case, fixing this requires opening up the Joy-Con and reseating the battery. It is recommended that you only use this to get into RCM, and immediately remove it once you're successfully in RCM.
+
+    !!! snippet "Note"
+        Take care to not short pin 4 by accident while the system is on. This pin provides power to the Joy-Con, so shorting it by accident may damage your Switch permanently.
+
+    This method entails putting a thin piece of tinfoil in between pins 9 and 10 (seen below) on the Joy-Con, and the Joy-Con rail, then folding the foil over the back of the rail to tape it in place. This is best done by taking a 1/2 square inch piece of tinfoil (1.25 square cm), and folding it multiple times until it’s around 1 mm wide. Although we normally frown upon the use of video tutorials, we suggest you watch the small instructional video below before performing this task.
+
+	!!! tip ""
+		![Numbered Joycon Pins Refrence](../user_guide/img/entering_rcm_joycon_pins.jpg)
+	
+    !!! tip ""
+        <iframe width=100% height=430 src="https://www.youtube.com/embed/dm6hxGbZZj4"> </iframe>
+</details>
+
+!!! tip ""
+    ### Metal Bridge / Paperclip (Not recommended)
+    <details>
+        <summary>Click to expand!</summary>
+    
+    !!! snippet "Note"
+        This method is not recommended due to having a serious risk of permanently damaging your Switch's right Joy-Con rail. It is listed here as it is utilizing household items, but it is highly recommended to either do the tinfoil method or to order an RCM jig. This risk is made exponentially higher if a tool such as a screwdriver is used instead of a metal wire or paperclip.
+
+    !!! snippet "Note"
+        Take care to not short pin 4 by accident while the system is on. This pin provides power to the Joy-Con, so shorting it by accident may damage your Switch permanently.
+
+    This method entails taking a piece of metal (such as a paperclip or screwdriver) and bending it so that it touches pins 1 and 10, or any other grounded piece of metal and pin 10 (numbered pads shown below).
+
+	!!! tip ""
+		![Console Numbered Pads Refrence](../user_guide/img/entering_rcm_pads_numbered.jpg)
+	
+    Here are some examples of shorting pins 1 and 10 using a wire from HowDenKing#0001 on our Discord server.
+
+    !!! tip ""
+        ![HowDenKing Paperclip Reference 1](../user_guide/img/entering_rcm_paperclip_hdk_1.jpg)
+
+    !!! tip ""
+        ![HowDenKing Paperclip Reference 2](../user_guide/img/entering_rcm_paperclip_hdk_2.jpg)
 </details>
 
 &nbsp;
