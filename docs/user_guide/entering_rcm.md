@@ -149,7 +149,7 @@ There are several methods of entering RCM (**R**e**C**overy **M**ode). The most 
 !!! danger "Tinfoil and paperclips"
     There is a high potential of permanent damage or *bricking* your console if these are used repeatedly or improperly, and carry a risk even if only used once!
 
-	!!! tip ""
+!!! tip ""
     ### Metal Bridge / Paperclip (Not recommended)
     <details>
         <summary>Click to expand!</summary>
