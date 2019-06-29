@@ -14,7 +14,7 @@ A guide collaboration between Nintendo Homebrew's Helpers and Staff, from stock 
 !!! tip ""
     Homebrew applications are custom, user-made software, which haven’t been authorised by Nintendo. This can include save editing tools, games, emulators, and more.
 
-    Homebrew can be run for free on your Switch as long as you have a "first-generation" system running 8.0.1 or lower, and a USB-C cable.
+    Homebrew can be run for free on your Switch as long as you have a "first-generation" system running 8.1.0 or lower, and a USB-C cable.
 
 ### What is Custom Firmware?
 
