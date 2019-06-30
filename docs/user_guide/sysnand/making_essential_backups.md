@@ -19,11 +19,11 @@
 ### Instructions
 
 !!! tip ""
-    1. Enter RCM and upload the Hekate payload
-    2. Use the volume buttons to navigate to `Tools` -> `Backup`, then press the power button
-    3. Navigate to `Backup eMMC BOOT0/1`, then press the power button
-    - This may take a few minutes
-    4. Press any key to continue, then navigate to `Backup eMMC RAW GPP` and press the power button
+    1. Enter RCM and inject the Hekate payload
+    2. Use the touch screen to navigate to `Tools` and then `Backup eMMC`
+    3. Tap on `eMMC BOOT0 & BOOT1`
+        - This may take a few minutes
+    4. Tap on `Close` to continue, then tap on `eMMC RAW GPP`
         - This will take a long time
         - On FAT32 SD cards or cards that have less than 32 gigabytes of space available, the NAND will be split into 1 or 2 gigabyte parts.
             - Hekate will stop producing these parts when it runs out of space. When this happens, do the following:
@@ -31,9 +31,9 @@
             - Insert your SD card into your PC
             - Move all files from the `backup` folder on your SD card to a safe location on your PC
             - Insert your SD card into your Switch
-            - Enter RCM again, upload Hekate again, and continue by navigating to `Tools` -> `Backup` -> `Backup eMMC RAW GPP` again
+            - Enter RCM again, inject Hekate again, and continue the backup by tapping on `Tools` > `Backup eMMC` > `eMMC RAW GPP`
             - Repeat the process until the NAND is completely dumped
-    5. Press any key to continue, then power off your Switch
+    5. Press `Close` > `Home` > `Power Off`
     6. Insert your SD card into your PC
     7. Copy the `backup` folder on your SD card to a safe location on your PC
 
@@ -49,14 +49,13 @@
 ### Instructions
 
 !!! tip ""
-    1. Enter RCM and upload the Hekate payload
-    2. Use the volume buttons to navigate to `Launch` -> `Payloads...`, then press the power button
-    3. Navigate to `Lockpick_RCM.bin`, then press the power button
-    4. If Lockpick_RCM prompts you to `Reboot to Sept`, press power or either volume button to do so. A "sept by Atmosphere" logo will then display, followed by Lockpick_RCM starting again. If it does *not* prompt you, continue on to step 5.
-    5. Lockpick_RCM should now inform you that your keys have been saved to `/switch/prod.keys` on the SD card.
-    6. Press the power button to power off your Switch
-    7. Insert your SD card into your PC
-    8. Copy `prod.keys` from the `switch` folder on your SD card to a safe location on your PC (it is suggested to copy it to the same place that you copied your NAND backup to).
+    1. Enter RCM and inject the Hekate payload
+    2. Tap on `Payloads`, then on `Lockpick_RCM.bin`
+    3. If Lockpick_RCM prompts you to `Reboot to Sept`, press power or either volume button to do so. A "sept by Atmosphere" logo will then display, followed by Lockpick_RCM starting again. If it does *not* prompt you, continue on to step 4.
+    4. Lockpick_RCM should now inform you that your keys have been saved to `/switch/prod.keys` on the SD card.
+    5. Press the power button to power off your Switch
+    6. Insert your SD card into your PC
+    7. Copy `prod.keys` from the `switch` folder on your SD card to a safe location on your PC (it is suggested to copy it to the same place that you copied your NAND backup to).
 
 &nbsp;
 
