@@ -1,5 +1,11 @@
 # Partitioning the sd card 
 
+!!!warning "This will delete everything on your sd card"
+	Doing this will delete all your data from your sd card, be warned!
+
+!!!danger "Make sure you get the right drive"
+	Make sure you pick your SD card while following thse steps, and not some other drive. **if you pick the wrong drive that drive will be deleted instead, be warned!** 
+
 -----
 
 ### What you need (Windows)
@@ -10,9 +16,6 @@
 -----
 
 ### Instructions (Windows)
-
-!!!warning "This will delete everything on your sd card"
-	Doing this will delete all your data from your sd card, be warned!
 
 1. Install and open minitool partition wizard
 2. Go into the `Disk & Partition Management`
