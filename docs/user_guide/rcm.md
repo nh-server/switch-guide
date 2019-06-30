@@ -4,7 +4,7 @@
 
 /* maybe put some info about the rcm exploit here */
 
-### Emunand cfw (Reccomended)
+### Emunand cfw (Recommended)
 
 !!!tip ""
 	What's needed for emunand:
