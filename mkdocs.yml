@@ -8,11 +8,13 @@ nav:
     - Home: index.md
     - User Guide:
         - 'Getting Started': 'user_guide/getting_started.md'
-        - 'SD Preparation': 'user_guide/sd_preparation.md'        
-        - 'Entering RCM': 'user_guide/entering_rcm.md'    
-        - 'Sending a Payload': 'user_guide/sending_payload.md'
-        - 'Making Essential Backups': 'user_guide/making_essential_backups.md'
-        - 'Launching CFW': 'user_guide/launching_cfw.md'
+        - 'RCM': 'user_guide/rcm.md'        
+        - 'Partitioning the SD': 'user_guide/emummc/partitioning_sd.md'    
+        - 'SD preparations': 'user_guide/emummc/sd_preparation.md'
+        - 'Entering RCM': 'user_guide/emummc/entering_rcm.md'
+        - 'Sending a payload': 'user_guide/emummc/sending_payload.md'
+        - 'Making the emuMMC': 'user_guide/emummc/making_emummc.md'
+        - 'Launching cfw': 'user_guide/emummc/launching_cfw.md'
     - Extras:
         - 'Blocking Updates': 'extras/blocking_updates.md'
         - 'Restoring a NAND Backup': 'extras/nandrestore.md'

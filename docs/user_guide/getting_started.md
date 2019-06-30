@@ -29,55 +29,25 @@ The homebrew community has crowdsourced a list of known serial numbers which are
 !!! tip "Notice"
     If you are unsure if your serial is patched, you can test your console yourself following the instructions [here.](sending_payload.md)
 
+-----
+
 &nbsp;
+
+### Serial list
 
 The following information is based on [this GBATemp thread](https://gbatemp.net/threads/switch-informations-by-serial-number-read-the-first-post-before-asking-questions.481215/).
 
+| Serial Numbers    | <span style="color:green">Unpatched</span> | <span style="color:orange">Potentially patched</span> | <span style="color:red">Patched</span> |
+| :----|:---------------------------------|:---------------------------------|:----------------------|
+| XAW1 | XAW10000000000 to XAW10074000000 | XAW10075000000 to XAW10120000000 | XAW10120000000 and up |
+| XAW4 | XAW40000000000 to XAW40011000000 | XAW40011000000 to XAW40012000000 | XAW40012000000 and up |
+| XAW7 | XAW70000000000 to XAW70017800000 | XAW70017800000 to XAW70030000000 | XAW40012000000 and up |
+| XAJ1 | XAJ10000000000 to XAJ10020000000 | XAJ10020000000 to XAJ10030000000 | XAJ10030000000 and up |
+| XAJ4 | XAJ40000000000 to XAJ40046000000 | XAJ40046000000 to XAJ40060000000 | XAJ40060000000 and up |
+| XAJ7 | XAJ70000000000 to XAJ70040000000 | XAJ70040000000 to XAJ70050000000 | XAJ70050000000 and up |
 
-
-!!! tip ""
-    ### List of console serial number ranges
-    <details>
-        <summary>Click to expand!</summary>
-
-    !!! note ""
-        - If your serial starts with **XAW1**:
-            - XAW10000000000 through XAW10074000000 are unpatched
-            - XAW10075000000 through XAW10120000000 are potentially patched
-            - Serials above XAW10120000000 are patched
-    !!! note ""
-        - If your serial starts with **XAW4**:
-            - XAW40000000000 through XAW40011000000 are unpatched
-            - XAW40011000000 through XAW40012000000 are potentially patched
-            - Serials above XAW40012000000 are patched
-    !!! note ""
-        - If your serial starts with **XAW7**:
-            - XAW70000000000 through XAW70017800000 are unpatched
-            - XAW70017800000 through XAW70030000000 are potentially patched
-            - Serials above XAW70030000000 are patched
-    !!! note ""
-        - If your serial starts with **XAJ1**:
-            - XAJ10000000000 through XAJ10020000000 are unpatched
-            - XAJ10020000000 through XAJ10030000000 are potentially patched
-            - Serials above XAJ10030000000 are patched
-    !!! note ""
-        - If your serial starts with **XAJ4**:
-            - XAJ40000000000 through XAJ40046000000 are unpatched
-            - XAJ40046000000 through XAJ40060000000 are potentially patched
-            - Serials above XAJ40060000000 are patched
-    !!! note ""
-        - If your serial starts with **XAJ7**:
-            - XAJ70000000000 through XAJ70040000000 are unpatched
-            - XAJ70040000000 through XAJ70050000000 are potentially patched
-            - Serials above XAJ70050000000 are patched
-    !!! note ""
-        - If your serial starts with **XAJ9**:
-            - These units are refurbished units provided by Nintendo. No information is known yet, but they are potentially patched.
-    !!! note ""
-        - If your serial starts with **XAK**:
-            - No information is known yet- you are encouraged to continue with the guide and report on the GBATemp thread if the guide worked, along with the first few digits of your serial number.
-</details>
 &nbsp;
+
 
 ### Console Preparation
 
@@ -86,4 +56,14 @@ The following information is based on [this GBATemp thread](https://gbatemp.net/
 
 &nbsp;
 
-#### [Continue to SD Preparation <i class="fa fa-arrow-circle-right fa-lg"></i>](sd_preparation.md)
+-----
+
+### Version table
+
+|Firmware version|Unpatched Switches                 |Patched switches|
+|:---------------|:----------------------------------|:---------------|
+|1.0.0           |Nebera or [**RCM**](rcm.md)     |N/A             |
+|2.0.0-3.0.2     |Caffeine or [**RCM**](rcm.md)   |N/A             |
+|4.0-4.1         |Caffeine or [**RCM**](rcm.md)   |Caffeine        |
+|5.0-7.0.1       |[**RCM**](rcm.md)               |Wait for CFW    |
+|8.0.1-8.1.0     |[**RCM**](rcm.md)               |Out of luck     |
