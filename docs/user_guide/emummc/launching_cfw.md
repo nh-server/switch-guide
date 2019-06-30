@@ -6,7 +6,7 @@ Unlike systems such as the DSi, Wii, or 3DS, Switch CFW is currently volatile- i
 
 &nbsp;
 
-!!!tip "Keep emuMMC offline at all times"
+!!!danger "Keep emuMMC offline at all times"
     You should keep your emuMMC(emunand) offline (or with 90dns) at all times. Not doing this will likely result in a ban
 
 ### Instructions
