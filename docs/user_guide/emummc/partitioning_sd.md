@@ -26,14 +26,14 @@
 	- Drag the partition the the end of the sd card
 	- You should see the following 
 	- !!!tip ""
-		![Create_emummc_partition](img/emummc_create_minitool.png)
+		![Create_emummc_partition](../img/emummc_create_minitool.png)
 5. Create another new partition with the following settings:
 	- Ignore the warning about windows not being able to recognize the partition
 	- Partition the rest of your sd card's size
 	- File system: FAT32
 6. Your sd card now should look something like this:
 	- !!!tip ""
-		![SD_format](img/emummc_final_minitool.png)
+		![SD_format](../img/emummc_final_minitool.png)
 7. Apply the changes to your sd card by hitting apply in the top left
 
 &nbsp;
@@ -56,7 +56,7 @@
 2. Run `sudo fdisk -l`. Enter your password if prompted. This will print information about all drives connected to your computer. Use the information about the file size to identify your microSD card. Specifically, take note of the line after `Disk `. This will look something like `/dev/xxx`, where `xxx` will differ on your system (can also be longer than three characters). It does NOT end with a number.
 3. Run `sudo gparted <value>`. Enter your password if prompted. Replace `<value>` in the command with the information you obtained from step 2.
 4. You will see a list of partitions on your SD card. Go to `Device` -> `Create partition table`. Select `msdos` as the partition type and select Apply. This will remove all existing partitions from your SD card.
-5. Go to `Partition` -> `New`. Set `New size (MiB)` to `29828`. Also, make sure that `Free space following (MiB)` is `0`. Set `File system` to `cleared`. Finally, set the `Label` to `emuMMC`. Leave everything else untouched and select `Add`.
+5. Go to `Partition` -> `New`. Set `New size (MiB)` to `30000`. Also, make sure that `Free space following (MiB)` is `0`. Set `File system` to `cleared`. Finally, set the `Label` to `emuMMC`. Leave everything else untouched and select `Add`.
 6. At the top part of gparted, you will now see a large gray space to the left. Right click this space, select `New`.
 7. Set `File system` to `fat32`. Set `Label` to `sMicroSD`. Leave everything else untouched and select `Add`.
 8. Click the check icon in the toolbar.
