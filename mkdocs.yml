@@ -14,7 +14,7 @@ nav:
         - 'Entering RCM': 'user_guide/emummc/entering_rcm.md'
         - 'Sending a payload': 'user_guide/emummc/sending_payload.md'
         - 'Making the emuMMC': 'user_guide/emummc/making_emummc.md'
-        - 'Launching cfw': 'user_guide/emummc/launching_cfw.md'
+        - 'Launching CFW': 'user_guide/emummc/launching_cfw.md'
     - Extras:
         - 'Blocking Updates': 'extras/blocking_updates.md'
         - 'Restoring a NAND Backup': 'extras/nandrestore.md'

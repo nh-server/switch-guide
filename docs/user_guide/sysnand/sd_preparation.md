@@ -13,7 +13,7 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
     The ban risks of using Switch themes are at this time unknown. Use them at your own risk.
 
 !!! warning "File name extensions"
-    If you use Windows, you should enable file name extensions before continuing. See [this link](../extras/showing_file_extensions.md) for a guide on how to do this.
+    If you use Windows, you should enable file name extensions before continuing. See [this link](../../extras/showing_file_extensions.md) for a guide on how to do this.
 
 &nbsp;
 
