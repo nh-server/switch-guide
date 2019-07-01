@@ -42,12 +42,12 @@ You will now be able to launch the Homebrew Menu by by holding the R button whil
 ### What the included homebrew applications do
 
 !!! tip ""
-    - Checkpoint is a save manager, it can dump and restore saves from/to your system. For more information, see [Save Management](../extras/save_management.md)
+    - Checkpoint is a save manager, it can dump and restore saves from/to your system. For more information, see [Save Management](../../extras/save_management.md)
 
     - FTPD is a ftp tool for connecting your Switch's sd card wirelessly to your pc. Tools like Filezilla can connect to your switch on `(ip of switch):5000`
 
     - NX-Shell is a file explorer for the Switch. You can move files, listen to mp3's, view images etc.
 
-    - NXThemeInstaller is a theme installer app. See the [Theming section of our guide](../extras/theming.md) for more information
+    - NXThemeInstaller is a theme installer app. See the [Theming section of our guide](../../extras/theming.md) for more information
 
     - hbappstore is a homebrew app store where a large collection of switch homebrew is kept.
