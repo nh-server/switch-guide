@@ -2,8 +2,6 @@ language: python
 
 python: 3.6.7
 
-branches: master
-
 install:
     - pip install mkdocs
     - pip install fontawesome-markdown
