@@ -19,7 +19,7 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
 !!! tip ""
     - The latest release of [Hekate](https://github.com/CTCaer/hekate/releases/)
         - Download the `hekate_ctcaer_(version).zip` release of hekate
-    - The hekate config file: <a href="../../../files/hekate_ipl.ini" download>hekate_ipl.ini</a>
+    - The hekate config file: <a href="../../../files/emu/hekate_ipl.ini" download>hekate_ipl.ini</a>
     - The bootlogo zip folder: <a href="../../../files/bootlogos.zip" download>bootlogos.zip</a>
     - The latest release of [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere/releases) 
         - Download the `atmosphere-(version).zip` relese of Atmosphere.
