@@ -3,9 +3,7 @@ language: python
 python: 3.6.7
 
 install:
-    - pip install mkdocs
-    - pip install fontawesome-markdown
-    - pip install mkdocs-bootswatch
+    - pip install mkdocs -r requirements.txt
 
 script:
     - mkdocs build --verbose --clean --strict
