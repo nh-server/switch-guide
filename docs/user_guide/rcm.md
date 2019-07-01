@@ -23,6 +23,6 @@
 
 ### Sysnand cfw
 
-This is for the people who don't have an 64gb sd card or larger, or don't want emunand. **this is not reccomended**
+This is for the people who don't have an 64gb sd card or larger, or don't want emunand. **this is not recommended**
 
 [Continue to SD preperations (sysnand cfw)](sysnand/sd_preparation.md)

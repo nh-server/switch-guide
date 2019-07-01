@@ -62,7 +62,7 @@ The following information is based on [this GBATemp thread](https://gbatemp.net/
 
 |Firmware version|Unpatched Switches                 |Patched switches|
 |:---------------|:----------------------------------|:---------------|
-|1.0.0           |Nebera or [**RCM**](rcm.md)     |N/A             |
+|1.0.0           |Nereba or [**RCM**](rcm.md)     |N/A             |
 |2.0.0-3.0.2     |Caffeine or [**RCM**](rcm.md)   |N/A             |
 |4.0-4.1         |Caffeine or [**RCM**](rcm.md)   |Caffeine        |
 |5.0-7.0.1       |[**RCM**](rcm.md)               |Wait for CFW    |
