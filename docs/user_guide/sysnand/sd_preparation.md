@@ -25,7 +25,7 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
     - The hekate config file: <a href="../../../files/sys/hekate_ipl.ini" download>hekate_ipl.ini</a>
     - The bootlogo zip folder: <a href="../../../files/bootlogos.zip" download>bootlogos.zip</a>
     - The latest release of [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere/releases) 
-        - Download the `atmosphere-(version).zip` relese of Atmosphere.
+        - Download the `atmosphere-(version).zip` release of Atmosphere.
     - The latest release of [Lockpick_RCM](https://github.com/shchmue/Lockpick_RCM/releases)
         - Download the `Lockpick_RCM.bin` release of Lockpick
     - The latest release of [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases)
