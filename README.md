@@ -2,6 +2,8 @@
 
 [The guide can be found here!](https://nh-server.github.io/switch-guide)
 
+[![Build Status](https://travis-ci.com/nh-server/switch-guide.svg?branch=master)](https://travis-ci.com/nh-server/switch-guide)
+
 Nintendo Switch homebrew guide written by staff members of the Nintendo Homebrew Discord server.
 
 ![nh-server.github.io/switch-guide](https://phoenix.s-ul.eu/opEhcK7q.png)
