@@ -74,6 +74,4 @@
 	4. Wait until it finishes running. Depending on the size of your microSD card, this might take a while.
 	5. Run `sudo fatlabel <value> "sMicroSD"`. Enter your password if prompted. Replace `<value>` with the value you got from step 2.
 
-/* Missing other os's */
-
 #### [Continue to SD Preperations <i class="fa fa-arrow-circle-right fa-lg"></i>](sd_preparation.md)
