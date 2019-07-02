@@ -13,6 +13,3 @@ By default, Microsoft Windows 10 does not show file extensions for known file ty
 
 !!! tip ""
     ![Visual for the above instructions](img/file_extensions.png)
-
-
-#### [Return to SD Preparation <i class="fa fa-arrow-circle-right fa-lg"></i>](../user_guide/sd_preparation.md)
