@@ -6,12 +6,15 @@ Unlike systems such as the DSi, Wii, or 3DS, Switch CFW is currently volatile- i
 
 &nbsp;
 
+!!!danger "Keep emuMMC offline at all times"
+    You should keep your emuMMC(emunand) offline (or with 90dns) at all times. Not doing this will likely result in a ban
+
 ### Instructions
 
 !!! tip ""
-    1. Power on your Switch into RCM, and upload the Hekate payload
-    2. Navigate to `Launch` with the volume buttons, and press the power button to confirm
-    3. Navigate to `Atmosphere FSS0` with the volume buttons, and press the power button to confirm
+    1. Power on your Switch into RCM, and inject the Hekate payload
+    2. Navigate to `Launch` using the touch screen
+    3. Find `Atmosphere FSS0 EmuMMC` and launch it
 
 Your Switch is now booting into Atmosphere.
 
@@ -20,7 +23,7 @@ To verify Atmosphere launched properly, open the Settings applet, and navigate t
 &nbsp;
 
 !!! tip ""
-    ![Atmosphere version string](../user_guide/img/launching_cfw_atmosphere_version_string.jpg)
+    ![Atmosphere version string](../img/launching_cfw_atmosphere_version_string.jpg)
 
 &nbsp;
 
@@ -39,12 +42,12 @@ You will now be able to launch the Homebrew Menu by by holding the R button whil
 ### What the included homebrew applications do
 
 !!! tip ""
-    - Checkpoint is a save manager, it can dump and restore saves from/to your system. For more information, see [Save Management](../extras/save_management.md)
+    - Checkpoint is a save manager, it can dump and restore saves from/to your system. For more information, see [Save Management](../../extras/save_management.md)
 
     - FTPD is a ftp tool for connecting your Switch's sd card wirelessly to your pc. Tools like Filezilla can connect to your switch on `(ip of switch):5000`
 
     - NX-Shell is a file explorer for the Switch. You can move files, listen to mp3's, view images etc.
 
-    - NXThemeInstaller is a theme installer app. See the [Theming section of our guide](../extras/theming.md) for more information
+    - NXThemeInstaller is a theme installer app. See the [Theming section of our guide](../../extras/theming.md) for more information
 
     - hbappstore is a homebrew app store where a large collection of switch homebrew is kept.

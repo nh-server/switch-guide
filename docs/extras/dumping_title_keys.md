@@ -16,7 +16,7 @@ This section is for dumping your games' title keys.
 ### Instructions
 
 !!! warning "Read this first"
-    If you haven't run [Lockpick_RCM to dump your console's keys](../user_guide/making_essential_backups.md), do that first before continuing.
+    If you haven't run [Lockpick_RCM to dump your console's keys](../user_guide/sysnand/making_essential_backups.md), do that first before continuing.
 
 !!! tip ""
 	1. Copy `Lockpick.nro` to the `switch` folder on your SD card
