@@ -56,9 +56,9 @@
 2. Run `sudo fdisk -l`. Enter your password if prompted. This will print information about all drives connected to your computer. Use the information about the file size to identify your microSD card. Specifically, take note of the line after `Disk `. This will look something like `/dev/xxx`, where `xxx` will differ on your system (can also be longer than three characters). It does NOT end with a number.
 3. Run `sudo gparted <value>`. Enter your password if prompted. Replace `<value>` in the command with the information you obtained from step 2.
 4. You will see a list of partitions on your SD card. Go to `Device` -> `Create partition table`. Select `msdos` as the partition type and select Apply. This will remove all existing partitions from your SD card.
-5. Go to `Partition` -> `New`. Set `New size (MiB)` to `30000`. Also, make sure that `Free space following (MiB)` is `0`. Set `File system` to `cleared`. Finally, set the `Label` to `emuMMC`. Leave everything else untouched and select `Add`.
-6. At the top part of gparted, you will now see a large gray space to the left. Right click this space, select `New`.
-7. Set `File system` to `fat32`. Set `Label` to `sMicroSD`. Leave everything else untouched and select `Add`.
+5. Go to `Partition` -> `New`. Set `Free space following (MiB)` to `30000`. Set `Free space preceding (MiB)` to `0`. Set `File system` to `fat32`. Finally, set the `Label` to `sMicroSD`. Leave everything else untouched and select `Add`.
+6. At the top part of gparted, you will now see a large gray space to the right. Right click this space, select `New`.
+7. Set `File system` to `linux-swap`. Set `Label` to `emuMMC`. Leave everything else untouched and select `Add`.
 8. Click the check icon in the toolbar.
 9. Wait for all operations to succeed. This might take a while.
 10. Close `gparted`.
