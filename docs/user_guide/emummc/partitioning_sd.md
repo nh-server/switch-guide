@@ -19,18 +19,25 @@
 
 1. Install and open minitool partition wizard
 2. Go into the `Disk & Partition Management`
-3. Find your sd card and delete the volume on it
-4. Create a new partition with the following settings:
-	- Partition size: 29.2GB
-	- File System: Unformatted
-	- Drag the partition the the end of the sd card
-	- You should see the following 
+3. Find your SD card and delete the volume on it by right clicking on the partition and pressing delete (This will delete all your data on your sd card!)
+4. Create a new partition by right clicking on the unallocated space and then pressing `Create` with the following instructions:
+	- Set metrics on the right of `Unallocated Space Before` and `Unallocated Space After` to MB if it's set to GB
+	- Set the `File System` to FAT32
+	- Set the `Partition Label` to `SD`
+	- Set the partition size to `16.00`
+	- Set the `Unallocated Space After` to `29872`
+	- Drag the left arrow of the partition completely to the left, filling all the space to the left
+	- Set the `Unallocated Space Before` to 16 
 	- !!!tip ""
-		![Create_emummc_partition](../img/emummc_create_minitool.png)
+		 Note that `Partition Size:` differs on how big your sd card is
+		![Create_SD_partition](../img/minitool1.png)
+
 5. Create another new partition with the following settings:
 	- Ignore the warning about windows not being able to recognize the partition
-	- Partition the rest of your sd card's size
-	- File system: FAT32
+	- If it doesn't use the full space yet, make this partition fill the rest of the space
+	- Set the file system to `Unformatted`
+	- !!!tip ""
+		![Create_emummc_partition](../img/minitool2.png)
 6. Your sd card now should look something like this:
 	- !!!tip ""
 		![SD_format](../img/emummc_final_minitool.png)
