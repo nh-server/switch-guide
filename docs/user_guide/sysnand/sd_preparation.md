@@ -9,9 +9,6 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
 !!! danger "Notice"
     Your SD card will need to be formatted as either FAT32 or exFAT. FAT32 is recommended as it is more stable and will work out of the box with the Switch's operating system, but has a file size limit of 4GB. If you plan on using exFAT, you will need to install the exFAT update for your Switch, which is downloaded when you insert an exFAT formatted SD card in to your Switch. Note that this will update your console and requires an internet connection.
 
-!!! warning "NxThemeInstaller"
-    The ban risks of using Switch themes are at this time unknown. Use them at your own risk.
-
 !!! warning "File name extensions"
     If you use Windows, you should enable file name extensions before continuing. See [this link](../../extras/showing_file_extensions.md) for a guide on how to do this.
 
@@ -20,24 +17,25 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
 ### What you need
 
 !!! tip ""
-    - The latest release of [Hekate](https://github.com/CTCaer/hekate/releases/)
-        - Download the `hekate_ctcaer_(version).zip` release of hekate
-    - The hekate config file: <a href="../../../files/sys/hekate_ipl.ini" download>hekate_ipl.ini</a>
+    - The latest release of <a href="https://github.com/CTCaer/Hekate/releases/" target="_blank">Hekate</a> (Download the `hekate_ctcaer_(version).zip` release of hekate)
+  
+    - The hekate config file: <a href="../../../files/emu/hekate_ipl.ini" download>hekate_ipl.ini</a>
+  
     - The bootlogo zip folder: <a href="../../../files/bootlogos.zip" download>bootlogos.zip</a>
-    - The latest release of [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere/releases) 
-        - Download the `atmosphere-(version).zip` release of Atmosphere.
-    - The latest release of [Lockpick_RCM](https://github.com/shchmue/Lockpick_RCM/releases)
-        - Download the `Lockpick_RCM.bin` release of Lockpick
-    - The latest release of [Checkpoint](https://github.com/FlagBrew/Checkpoint/releases)
-        - Download the `Checkpoint.nro` release of Checkpoint
-    - The latest release of [FTPD](https://github.com/mtheall/ftpd/releases)
-        - Download the `ftpd.nro` release of FTPD
-    - The latest release of [NXThemeInstaller](https://github.com/exelix11/SwitchThemeInjector/releases)
-        - Download the `NxThemesInstaller.nro` release of NxThemeInstaller
-    - The latest release of [NX-Shell](https://github.com/joel16/NX-Shell/releases)
-        - Download the `NX-Shell.nro` release of nx-shell
-    - The latest release of the [hbappstore](https://github.com/vgmoose/hb-appstore/releases)
-        - Download the `appstore.nro` release of hbappstore
+  
+    - The latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a>  (Download the `atmosphere-(version).zip` release of Atmosphere.)
+  
+     - The latest release of <a href="https://github.com/shchmue/Lockpick_RCM/releases" target="_blank">Lockpick_RCM</a>  (Download the `Lockpick_RCM.bin` release of Lockpick)
+  
+    - The latest release of <a href="https://github.com/FlagBrew/Checkpoint/releases" target="_blank">Checkpoint</a>  (Download the `Checkpoint.nro` release of Checkpoint)
+  
+    - The latest release of <a href="https://github.com/mtheall/ftpd/releases" target="_blank">FTPD</a>  (Download the `ftpd.nro` release of FTPD)
+  
+    - The latest release of <a href="https://github.com/exelix11/SwitchThemeInjector/releases" target="_blank">NXThemeInstaller</a>  (Download the `NxThemesInstaller.nro` release of NxThemeInstaller)
+  
+    - The latest release of <a href="https://github.com/joel16/NX-Shell/releases" target="_blank">NX-Shell</a> (Download the `NX-Shell.nro` release of nx-shell)
+  
+    - The latest release of the <a href="https://github.com/vgmoose/hb-appstore/releases" target="_blank">hbappstore</a> (Download the `appstore.nro` release of hbappstore)
 
 ### Instructions
 
@@ -55,6 +53,7 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
     11. Copy `ftpd.nro` , `Checkpoint.nro` , `NX-Shell.nro` and `NxThemesInstaller.nro` to the `switch` folder on your SD card
 
      ![sdfilesimg](../img/sdfiles.png)
+
 
 &nbsp;
 
