@@ -43,8 +43,9 @@
 		![SD_format](../img/emummc_final_minitool.png)
 7. Apply the changes to your sd card by hitting apply in the top left
 
-#### [Continue to SD Preperations <i class="fa fa-arrow-circle-right fa-lg"></i>](sd_preparation.md)
 &nbsp;
+
+#### [Continue to SD Preperations <i class="fa fa-arrow-circle-right fa-lg"></i>](sd_preparation.md)
 
 -----
 ## Linux instructions
