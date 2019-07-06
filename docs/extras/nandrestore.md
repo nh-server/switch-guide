@@ -33,7 +33,7 @@ Before we start, check if you have a tree of folders called `backup/[8 Character
 	If the MAJOR version you were on before you performed the NAND restore is HIGHER than the NAND backup itself, you have to enable autoRCM to not get stuck in a boot crash.
 	Major versions include 1.0, 2.0, 3.0, 4.0, 4.1, 5.0, 6.0, 6.2, 7.0
 
-	If you were in autorcm before you upgraded to a newer major version (and still are after the upgrade) you don't have to do this.
+	If you were in autorcm before you upgraded to a newer major version (and still were after the upgrade) you don't have to do this.
 
 	1. In Hekate's main menu, navigate to `Tools` and go to the bottom of the page where you will find a button called `Archive bit - AutoRCM`
 	2. Select the `AutoRCM` buttom and you will see `ON` written next to it. This means it is enabled.
