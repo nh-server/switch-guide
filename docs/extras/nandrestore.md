@@ -9,7 +9,7 @@
 - Your `RawNAND.bin` (Combined or in 15 or 30 parts)
 - Your `BOOT0` and `BOOT1`
 	- If you're missing any of the files above, ask for further help in the [Nintendo Homebrew](https://discord.gg/C29hYvh) Discord server
-- The <a href="https://github.com/CTCaer/Hekate/releases/" target="_blank">Hekate</a> Payload
+- The <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a> Payload
 - A microSD card larger than 32gb
 
 ### Instructions:
