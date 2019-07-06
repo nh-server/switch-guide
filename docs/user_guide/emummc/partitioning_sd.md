@@ -43,6 +43,7 @@
 		![SD_format](../img/emummc_final_minitool.png)
 7. Apply the changes to your sd card by hitting apply in the top left
 
+#### [Continue to SD Preperations <i class="fa fa-arrow-circle-right fa-lg"></i>](sd_preparation.md)
 &nbsp;
 
 -----
@@ -80,6 +81,8 @@
 	3. Run `sudo mkdosfs <value> -s 64 -F 32 -I`. Enter your password if prompted. Replace `<value>` with the value you got from step 2.
 	4. Wait until it finishes running. Depending on the size of your microSD card, this might take a while.
 	5. Run `sudo fatlabel <value> "sMicroSD"`. Enter your password if prompted. Replace `<value>` with the value you got from step 2.
+
+#### [Continue to SD Preperations <i class="fa fa-arrow-circle-right fa-lg"></i>](sd_preparation.md)
 
 -----
 ## macOS instructions
