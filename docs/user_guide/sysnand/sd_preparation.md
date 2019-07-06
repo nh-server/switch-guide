@@ -9,6 +9,11 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
 !!! danger "Notice"
     Your SD card will need to be formatted as either FAT32 or exFAT. FAT32 is recommended as it is more stable and will work out of the box with the Switch's operating system, but has a file size limit of 4GB. If you plan on using exFAT, you will need to install the exFAT update for your Switch, which is downloaded when you insert an exFAT formatted SD card in to your Switch. Note that this will update your console and requires an internet connection.
 
+
+!!! warning "NxThemeInstaller"
+    The ban risks of using Switch themes are at this time unknown. Use them at your own risk.
+    
+
 !!! warning "File name extensions"
     If you use Windows, you should enable file name extensions before continuing. See [this link](../../extras/showing_file_extensions.md) for a guide on how to do this.
 
