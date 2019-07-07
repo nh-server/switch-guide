@@ -1,14 +1,14 @@
 ## Restore a NAND backup to the switch
 
-!!! Danger "Warning:" 	
-	-This will reset your system version, all of your saves, games, and other system settings back to a point from when you made the the NAND backup. Keep this in mind, as you probably don't have to restore a NAND backup unless you have bricked your switch or want to go back online safely after using cfw.
+!!! danger "Warning:" 	
+	-This will reset all of your saves, games, system version and other system settings back to a point when you made the the nand backup. Keep this in mind, as you probably don't have to restore a nand backup unless you have bricked your switch or want to go back online safely after using cfw.
 	
 	-If you're going to restore an old NAND which will downgrade your firmware it's best to create a second NAND backup before restoring the first one in case something goes wrong.
 
 ### What you need:
-- Your `RawNAND.bin` (Combined or in 15 or 30 parts)
+- Your `rawnand.bin` (Combined or in 15 or 30 parts)
 - Your `BOOT0` and `BOOT1`
-	- If you're missing any of the files above, ask for further help in the [Nintendo Homebrew](https://discord.gg/C29hYvh) Discord server
+	- If you're missing any of the files above, ask for further help in the [Nintendo Homebrew](https://discord.gg/C29hYvh) Discord server.
 - The <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a> Payload
 - A microSD card larger than 32gb
 
@@ -16,7 +16,7 @@
 
 Before we start, check if you have a tree of folders called `backup/[8 Character NAND id]/restore` on your sd card.
 
-!!! Warning "If you don't see a backup or [8 Character NAND id] folder on your sd card:"
+!!! warning "If you don't see a backup or [8 Character NAND id] folder on your sd card:"
 	This means you do not have a nand backup, it is highly reccomended you make one as soon as possible. Follow the steps below to make one.
 
 	1. Launch the latest Hekate payload on your switch.
@@ -24,12 +24,12 @@ Before we start, check if you have a tree of folders called `backup/[8 Character
 	3. Then go to `Tools > Backup eMMC > eMMC RAW GPP` and let it do its thing. (This will take a while!)
 	4. Wait for the process to complete. When it's completed, you now have a `backup/[8 Character NAND id]/restore` folder on your sd card. Continue with step 1 of the guide.
 
-1. Copy your `RawNAND.bin` (combined or in 15 or 30 parts, this can be done by using the joiner scripts on the hekate github release page), `BOOT0`, and `BOOT1` to the 	`backup/[8 Character NAND id]/restore` folder on the sd card.
+1. Copy your `rawnand.bin` (combined or in 15 or 30 parts, this can be done by using the joiner scripts on the hekate github release page), `BOOT0`, and `BOOT1` to the 	`backup/[8 Character NAND id]/restore` folder on the sd card.
 2. Put your sd card into your switch, and launch Hekate.
 3. Navigate to `Tools > Restore eMMC`. Select `Restore eMMC BOOT0 & BOOT1`. Wait for this process to complete.
 4. In that same menu, select `eMMC RAW GPP` and wait for the process to complete. This will take a very long time to complete.
 
-!!! Danger "If you're downgrading using your NAND backup"
+!!! danger "If you're downgrading using your NAND backup"
 	If the MAJOR version you were on before you performed the NAND restore is HIGHER than the NAND backup itself, you have to enable autoRCM to not get stuck in a boot crash.
 	Major versions include 1.0, 2.0, 3.0, 4.0, 4.1, 5.0, 6.0, 6.2, 7.0
 
