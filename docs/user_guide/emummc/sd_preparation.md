@@ -24,7 +24,7 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
      - The latest release of <a href="https://github.com/shchmue/Lockpick_RCM/releases" target="_blank">Lockpick_RCM</a> (Download the `Lockpick_RCM.bin` release of Lockpick)
     - The latest release of <a href="https://github.com/FlagBrew/Checkpoint/releases" target="_blank">Checkpoint</a> (Download the `Checkpoint.nro` release of Checkpoint)
     - The latest release of <a href="https://github.com/mtheall/ftpd/releases" target="_blank">FTPD</a> (Download the `ftpd.nro` release of FTPD)
-    - The latest release of <a href="https://github.com/exelix11/SwitchThemeInjector/releases" target="_blank">NXThemesInstaller</a> (Download the `NxThemesInstaller.nro` release of NxThemeInstaller)
+    - The latest release of <a href="https://github.com/exelix11/SwitchThemeInjector/releases" target="_blank">NXThemeInstaller</a> (Download the `NxThemesInstaller.nro` release of NxThemeInstaller)
     - The latest release of <a href="https://github.com/joel16/NX-Shell/releases" target="_blank">NX-Shell</a> (Download the `NX-Shell.nro` release of nx-shell)
     - The latest release of the <a href="https://github.com/vgmoose/hb-appstore/releases" target="_blank">hbappstore</a> (Download the `appstore.nro` release of hbappstore)
 
@@ -44,6 +44,9 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
     11. Copy `ftpd.nro` , `Checkpoint.nro` , `NX-Shell.nro` and `NxThemesInstaller.nro` to the `switch` folder on your SD card
 
      ![sdfilesimg](../img/sdfiles.png)
+
+!!! note "Restoring your existing Nintendo folder"
+     If you were already using your microsd card as a storage device for your games and backed it up before partitioning your microsd card, it is now safe to restore it. Place it back on the root of your microsd card.
 
 
 &nbsp;
