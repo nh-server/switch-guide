@@ -49,7 +49,7 @@
 &nbsp;
 
 !!!note "Note: Restoring your nand backup"
-    Your nand backup will be located in `backup` folder on the root of your sd. If you ever need to restore your backup, the instructions are [here](/././extras/nandrestore)
+    Your nand backup will be located in the `backup` folder on the root of your sd. If you ever need to restore your backup, the instructions are [here](/././extras/nandrestore)
 
 
 !!!tip "Note: If your SD card is FAT32"
