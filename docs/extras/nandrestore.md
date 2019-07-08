@@ -36,4 +36,4 @@ Before we start, check if you have a tree of folders called `backup/[8 Character
 	If you were in autorcm before you upgraded to a newer major version (and still were after the upgrade) you don't have to do this.
 
 	1. In Hekate's main menu, navigate to `Tools` and go to the bottom of the page where you will find a button called `Archive bit - AutoRCM`
-	2. Select the `AutoRCM` buttom and you will see `ON` written next to it. This means it is enabled.
+	2. Select the `AutoRCM` button and you will see `ON` written next to it. This means it is enabled.
