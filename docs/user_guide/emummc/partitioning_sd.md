@@ -7,7 +7,7 @@
 	Make sure you pick your SD card while following thse steps, and not some other drive. **if you pick the wrong drive that drive will be deleted instead, be warned!** 
 
 !!! warning "Backing up your existing Nintendo folder"
-	Before we start, if you are using a microsd card already as a storage device for your games, you will want to back up your `Nintendo` folder  that is on the root of you sd card to a safe place on your computer. This folder contains your games and saves.
+	Before we start, if you are using a microSD card already as a storage device for your games, you will want to back up your `Nintendo` folder that is on the root of you sd card to a safe place on your computer. This folder contains your games and saves.
 
 -----
 

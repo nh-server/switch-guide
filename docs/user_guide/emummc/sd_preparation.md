@@ -46,7 +46,7 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
      ![sdfilesimg](../img/sdfiles.png)
 
 !!! note "Restoring your existing Nintendo folder"
-     If you were already using your microsd card as a storage device for your games and backed it up before partitioning your microsd card, it is now safe to restore it. Place it back on the root of your microsd card.
+     If you were already using your microSD card as a storage device for your games and backed it up before partitioning your microSD card, it is now safe to restore it. Place it back on the root of your microSD card.
 
 
 &nbsp;
