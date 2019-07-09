@@ -16,36 +16,31 @@
 
 ### Instructions
 
+!!! tip ""
 
-1. Enter RCM and inject the Hekate payload
-2. Use the touch screen to navigate to `Tools` and then `Backup eMMC`
-3. Tap on `eMMC BOOT0 & BOOT1`
-    - This may take a few minutes
-4. Tap on `Close` to continue, then tap on `eMMC RAW GPP`
-    - This will take a long time
-    - On FAT32 SD cards or cards that have less than 32 gigabytes of space available, the NAND will be split into 1 or 2 gigabyte parts.
-        - Hekate will stop producing these parts when it runs out of space. When this happens, do the following:
-        - Power off your system
-        - Insert your SD card into your PC
-        - Move all files from the `backup` folder on your SD card to a safe location on your PC
-        - Insert your SD card into your Switch
-        - Enter RCM again, inject Hekate again, and continue the backup by tapping on `Tools` > `Backup eMMC` > `eMMC RAW GPP`
-        - Repeat the process until the NAND is completely dumped
-5. Press `Close` > `Home` > `Power Off`
-6. Insert your SD card into your PC
-7. Copy the `backup` folder on your SD card to a safe location on your PC
+    1. Enter RCM and inject the Hekate payload
+    2. Use the touch screen to navigate to `Tools` and then `Backup eMMC`
+    3. Tap on `eMMC BOOT0 & BOOT1`
+       - This may take a few minutes
+    4. Tap on `Close` to continue, then tap on `eMMC RAW GPP`
+       - This will take a long time
+       - On FAT32 SD cards or cards that have less than 32 gigabytes of space available, the NAND will be split into 1 or 2 gigabyte parts.
+          - Hekate will stop producing these parts when it runs out of space. When this happens, do the following:
+          - Power off your system
+          - Insert your SD card into your PC
+          - Move all files from the `backup` folder on your SD card to a safe location on your PC
+          - Insert your SD card into your Switch
+          - Enter RCM again, inject Hekate again, and continue the backup by tapping on `Tools` > `Backup eMMC` > `eMMC RAW GPP`
+          - Repeat the process until the NAND is completely dumped
+    5. Press `Close` > `Home` > `Power Off`
+    6. Insert your SD card into your PC
+    7. Copy the `backup` folder on your SD card to a safe location on your PC
 
 &nbsp;
 
-!!!note "Note: Restoring your nand backup"
-    Your nand backup will be located in the `backup` folder on the root of your sd. If you ever need to restore your backup, the instructions are [here](/././extras/nandrestore)
-
-
-!!!tip "Note: If your SD card is FAT32"
-        Your nand backup will be in multiple parts, you can join the parts together by using this <a href="https://github.com/CTCaer/hekate/releases/download/v5.0.0/joiner_scripts_for_windows_linux_macos.zip" target="_blank">script</a>.
-
 -----
 
+&nbsp;
 
 ### Getting your Console's Unique Keys
 
