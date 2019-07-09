@@ -30,7 +30,7 @@ Before we start, check if you have a tree of folders called `backup/[8 Character
 
 !!! danger "If you're downgrading using your NAND backup"
 	If the MAJOR version you were on before you performed the NAND restore is HIGHER than the NAND backup itself, you have to enable autoRCM to not get stuck in a boot crash.
-	Major versions include 1.0, 2.0, 3.0, 4.0, 4.1, 5.0, 6.0, 6.2, 7.0
+	A system update is considered a major version when a fuse is burned, you can check **<a href="https://switchbrew.org/wiki/Fuses#Anti-downgrade" target=blank>which versions burn fuses here</a>**.
 
 	If you were in autorcm before you upgraded to a newer major version (and still were after the upgrade) you don't have to do this.
 
