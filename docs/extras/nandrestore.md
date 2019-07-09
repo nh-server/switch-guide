@@ -21,8 +21,7 @@ Before we start, check if you have a tree of folders called `backup/[8 Character
 
 	1. Launch the latest Hekate payload on your switch.
 	2. Navigate to `Tools > Backup eMMC > eMMC BOOT0 & BOOT1` and let it do its thing.
-	3. Then go to `Tools > Backup eMMC > eMMC RAW GPP` and let it do its thing. (This will take a while!)
-	4. Wait for the process to complete. When it's completed, you now have a `backup/[8 Character NAND id]/restore` folder on your sd card. Continue with step 1 of the guide.
+	3. Wait for the process to complete. When it's completed, you now have a `backup/[8 Character NAND id]/restore` folder on your sd card. Continue with step 1 of the guide.
 
 1. Copy your `rawnand.bin` (combined or in 15 or 30 parts, this can be done by using the joiner scripts on the hekate github release page), `BOOT0`, and `BOOT1` to the 	`backup/[8 Character NAND id]/restore` folder on the sd card.
 2. Put your sd card into your switch, and launch Hekate.
@@ -36,4 +35,4 @@ Before we start, check if you have a tree of folders called `backup/[8 Character
 	If you were in autorcm before you upgraded to a newer major version (and still were after the upgrade) you don't have to do this.
 
 	1. In Hekate's main menu, navigate to `Tools` and go to the bottom of the page where you will find a button called `Archive bit - AutoRCM`
-	2. Select the `AutoRCM` button and you will see `ON` written next to it. This means it is enabled.
+	2. Select the `AutoRCM` buttom and you will see `ON` written next to it. This means it is enabled.
