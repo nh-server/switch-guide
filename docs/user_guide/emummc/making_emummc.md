@@ -50,14 +50,6 @@
 
 &nbsp;
 
-!!!note "Note: Restoring your nand backup"
-    Your nand backup will be located in `backup` folder on the root of your sd. If you ever need to restore your backup, the instructions are [here](/././extras/nandrestore)
-
-
-!!!tip "Note: If your SD card is FAT32"
-        Your nand backup will be in multiple parts, you can join the parts together by using this <a href="https://github.com/CTCaer/hekate/releases/download/v5.0.0/joiner_scripts_for_windows_linux_macos.zip" target="_blank">script</a>.
-&nbsp;
-
 -----
 
 ### Getting your Console's Unique Keys
