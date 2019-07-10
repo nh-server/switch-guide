@@ -29,10 +29,10 @@ Before we start, check if you have a tree of folders called `backup/[8 Character
 4. In that same menu, select `eMMC RAW GPP` and wait for the process to complete. This will take a very long time to complete.
 
 !!! danger "If you're downgrading using your NAND backup"
-	If the MAJOR version you were on before you performed the NAND restore is HIGHER than the NAND backup itself, you have to enable autoRCM to not get stuck in a boot crash.
-	A system update is considered a major version when a fuse is burned, you can check **<a href="https://switchbrew.org/wiki/Fuses#Anti-downgrade" target=blank>which versions burn fuses here</a>**.
+	If the security version you were on before you performed the NAND restore is HIGHER than the NAND backup itself, you have to enable autoRCM to not get stuck in a boot crash.
+	A system update is considered a security version when a fuse is burned, you can check **<a href="https://switchbrew.org/wiki/Fuses#Anti-downgrade" target=blank>which versions burn fuses here</a>**.
 
-	If you were in autorcm before you upgraded to a newer major version (and still were after the upgrade) you don't have to do this.
+	If you were in autorcm before you upgraded to a newer security version (and still were after the upgrade) you don't have to do this.
 
 	1. In Hekate's main menu, navigate to `Tools` and go to the bottom of the page where you will find a button called `Archive bit - AutoRCM`
 	2. Select the `AutoRCM` buttom and you will see `ON` written next to it. This means it is enabled.
