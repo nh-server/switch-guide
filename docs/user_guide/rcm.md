@@ -3,7 +3,7 @@
 RCM (short for ReCovery Mode) is a mode for the switch that allows nintendo to send the switch commands to do various things. People found out that on unpatched switches, you could send a payload, and then quickly copy it into the memory buffer behind the stack, overflowing the memory buffer into the stack, meaning you smash the stack and get full access to everything on the system. We use it here to launch atmosphere.
 
 !!!tip "Emunand vs Sysnand"
-	- Emunand stands for Emulated nand, this means that your entire nand (system memory) will run off your sd card with custom firmware (CFW)     this nand is *completely separate* from your sysnand.
+	- Emunand stands for Emulated nand, this means that your entire nand (system memory) will run off your sd card with custom firmware (CFW) this nand is *completely seprate* from your sysnand.
 
 	- Sysnand stands for System nand, meaning the internal storage in your actual switch, which means that cfw will run off your nand that is on your actual system, which presents a higher ban risk.
 
