@@ -66,7 +66,7 @@ The following information is based on [this GBATemp thread](https://gbatemp.net/
 ### Version Table
 
 !!! note "Note"
-Nereba and Caffeine how-to guides are currently a Work-In-Progress (WIP)!
+    Nereba and Caffeine how-to guides are currently a Work-In-Progress (WIP)!
 
 &nbsp;
 
