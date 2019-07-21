@@ -71,7 +71,7 @@
     Atmosphere is not a silver bullet, and this does not mean that Nintendo won't decide to ban people for harmless homebrew in the future. If you are scared to get banned then don't use homebrew for now. Atmosphere now supports emuMMC (emuNAND): a copy of Switch system software, run entirely from the SD card instead. 
     This erases ban risks due to the fact that emuMMC is run in a quarantined, offline state, not touching the internal memory. You are still able to boot into original firmware to play online.
 
-    For patched units reliant on deja-vu, sysNAND will always have to be on a firmware below 8.0. You can use an updated emuMMC dedicated to online/clean play, while your sysNAND is used offline for custom firmware.
+    For patched units reliant on deja-vu, sysNAND will always have to be on a firmware below 4.1. For switches from 5.0 to 7.0.1 deja-vu isn't quite out yet but is coming soon. (Also please note that firmwares 8.0.0+ will never work with deja-vu) You can use an updated emuMMC dedicated to online/clean play, while your sysNAND is used offline for custom firmware. 
 
 !!! danger "SX OS"
     *Team Xecuter's "EmuNAND" is not a proper (or safe) EmuNAND, and Nintendo can pick up on it with their telemetry.*
