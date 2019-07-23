@@ -42,6 +42,7 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
     9. Copy `Lockpick_RCM.bin` to the `/bootloader/payloads` folder on your SD card
     10. Create a folder named `appstore` inside the `switch` folder on your SD card, and put `appstore.nro` in it
     11. Copy `ftpd.nro` , `Checkpoint.nro` , `NX-Shell.nro` and `NxThemesInstaller.nro` to the `switch` folder on your SD card
+    12. Reinsert your SD card back into your Switch
 
      ![sdfilesimg](../img/sdfiles.png)
 
