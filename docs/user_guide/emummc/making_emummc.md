@@ -60,7 +60,7 @@
 !!!tip ""
     1. Enter RCM and inject the Hekate payload.
     2. Tap the `Payloads` option, then press Lockpick_RCM.bin.
-    3. If Lockpick_RCM prompts you to `Reboot to Sept`, press power or either volume button to do so. A "sept by Atmosphere" logo will then display, followed by Lockpick_RCM starting again. If it does *not* prompt you, continue on to step 3.
+    3. If Lockpick_RCM prompts you to `Reboot to Sept`, press power or either volume button to do so. A "sept by Atmosphere" logo will then display, followed by Lockpick_RCM starting again. If it does *not* prompt you, continue on to step 4.
     4. Lockpick_RCM should now inform you that your keys have been saved to `/switch/prod.keys` on the SD card.
     5. Press the power button to power off your Switch.
     6. Insert your SD card into your PC.
