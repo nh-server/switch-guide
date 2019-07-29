@@ -74,7 +74,7 @@
 4. You will see a list of partitions on your SD card. Go to `Device` -> `Create partition table`. Select `msdos` as the partition type and select Apply. This will remove all existing partitions from your SD card.
 5. Go to `Partition` -> `New`. And do the following:
     - Set `Free space following (MiB)` to `30000`. 
-    - Set `Free space preceding (MiB)` to `0`. 
+    - Set `Free space preceding (MiB)` to `1`. 
     - Set `File system` to `fat32`. 
     - Set the `Label` to `sMicroSD`. 
     - Leave everything else untouched and select `Add`.
