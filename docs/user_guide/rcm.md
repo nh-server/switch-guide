@@ -19,8 +19,11 @@ RCM (short for ReCovery Mode) is a mode for the switch that allows nintendo to s
 	- Installing game cartridge dumps without "dirtying" sysNAND, allowing sysNAND to be used online without ban risk.
 	- Allowing users on patched Switches using Caffeine to update their emuNAND to latest and use it online, keeping sysNAND at a lower vulnerable version.
 
+&nbsp;
+
 #### [Continue to Partitioning SD (emuMMC) <i class="fa fa-arrow-circle-right fa-lg"></i>](emummc/partitioning_sd.md)
 -----
+
 
 ### sysNAND CFW (**Not Recommended**)
 
@@ -29,5 +32,6 @@ This is for the people who don't have an 64GB microSD card or larger, or who don
 !!!note "Note"
 	If you set up an emuNAND you may still have CFW on your sysNAND if you choose to use it. You do not have to follow the guide linked below; all the files are the same, you simply select "sysNAND CFW" from Hekate/Nyx.
 
+&nbsp;
 
 #### [Continue to SD preparations (sysNAND CFW) <i class="fa fa-arrow-circle-right fa-lg"></i>](sysnand/sd_preparation.md)

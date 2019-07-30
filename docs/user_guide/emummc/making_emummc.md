@@ -65,7 +65,6 @@
     5. Press the power button to power off your Switch.
     6. Insert your SD card into your PC.
     7. Copy `prod.keys` from the `switch` folder on your SD card to a safe location on your PC (it is suggested to copy it to the same place that you copied your NAND backup to).
-    
 
 &nbsp;
 

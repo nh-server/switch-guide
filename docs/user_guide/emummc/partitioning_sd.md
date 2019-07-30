@@ -98,6 +98,7 @@
 	4. Wait until it finishes running. Depending on the size of your microSD card, this might take a while.
 	5. Run `sudo fatlabel <value> "sMicroSD"`. Enter your password if prompted. Replace `<value>` with the value you got from step 2.
 
+&nbsp;
 
 #### [Continue to SD Preparations <i class="fa fa-arrow-circle-right fa-lg"></i>](sd_preparation.md)
 
@@ -116,5 +117,7 @@
 2. Run `diskutil list`. This will print information about all drives connected to your Mac. Use the information about the disk size to identify your microSD card. Use the device name such as `/dev/disk#` when partitioning the microSD card.
 3. Run the following command to partition the disk. Ensure that the device name is replaced with the one for your disk.  
 `diskutil partitionDisk disk# MBR ms-dos SMICROSD R ms-dos EMUMMC 61124608S`
+
+&nbsp;
 
 #### [Continue to SD Preperations <i class="fa fa-arrow-circle-right fa-lg"></i>](sd_preparation.md)
