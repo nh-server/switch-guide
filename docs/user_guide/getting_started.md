@@ -78,3 +78,7 @@ The following information is based on [this GBATemp thread](https://gbatemp.net/
 | 5.0.0 - 7.0.1 | [**RCM**](rcm.md)               | Wait for CFW               | **N/A**                   | **N/A**                |
 | 8.0.1 - 8.1.0 | [**RCM**](rcm.md)               | Unhackable (currently)     | **N/A**                   | **N/A**                |
 | >8.1.0        | [**RCM**](rcm.md)               | Unhackable (currently)     | Unhackable (currently)    | Unhackable (currently) |
+
+&nbsp;
+
+#### [If your Switch is not patched, continue to RCM <i class="fa fa-arrow-circle-right fa-lg"></i>](rcm.md)
