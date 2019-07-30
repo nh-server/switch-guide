@@ -145,4 +145,6 @@ There are several methods of entering RCM (**R**e**C**overy **M**ode). The most 
         ![Sonlen example](../img/entering_rcm_bent_pins.jpg)
 </details>
 
+&nbsp;
+
 #### [Continue to Sending a Payload <i class="fa fa-arrow-circle-right fa-lg"></i>](sending_payload.md)
