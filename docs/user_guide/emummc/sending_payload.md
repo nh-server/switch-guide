@@ -82,4 +82,6 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 !!! danger "If nothing happens after you send the payload"
     If your console's screen remains black after you've sent Hekate, it's possible your payload was corrupted, or that your console is patched. If your payload injector program shows that 0 bytes were sent, then it is definitely patched, so you'll be unable to proceed with the rest of the guide.
 
+&nbsp;
+
 #### [Continue to Making the emuMMC <i class="fa fa-arrow-circle-right fa-lg"></i>](making_emummc.md)
