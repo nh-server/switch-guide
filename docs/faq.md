@@ -119,4 +119,4 @@
     7. Wait a bit, this may take a while.
     8. Press any button to continue.
     9. Navigate to `Back...` with the volume buttons and press power to confirm.
-    10. Follow the instructions at [Launching CFW](../user_guide/launching_cfw/) to launch Atmosphere.
+    10. Follow the instructions at [Launching CFW](../user_guide/emummc/launching_cfw/) to launch Atmosphere.
