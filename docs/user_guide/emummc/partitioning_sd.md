@@ -74,7 +74,7 @@
 4. You will see a list of partitions on your SD card. Go to `Device` -> `Create partition table`. Select `msdos` as the partition type and select Apply. This will remove all existing partitions from your SD card.
 5. Go to `Partition` -> `New`. And do the following:
     - Set `Free space following (MiB)` to `30000`. 
-    - Set `Free space preceding (MiB)` to `0`. 
+    - Set `Free space preceding (MiB)` to `1`. 
     - Set `File system` to `fat32`. 
     - Set the `Label` to `sMicroSD`. 
     - Leave everything else untouched and select `Add`.
@@ -98,8 +98,9 @@
 	4. Wait until it finishes running. Depending on the size of your microSD card, this might take a while.
 	5. Run `sudo fatlabel <value> "sMicroSD"`. Enter your password if prompted. Replace `<value>` with the value you got from step 2.
 
+&nbsp;
 
-#### [Continue to SD Preperations <i class="fa fa-arrow-circle-right fa-lg"></i>](sd_preparation.md)
+#### [Continue to SD Preparations <i class="fa fa-arrow-circle-right fa-lg"></i>](sd_preparation.md)
 
 -----
 ## macOS instructions
@@ -116,5 +117,7 @@
 2. Run `diskutil list`. This will print information about all drives connected to your Mac. Use the information about the disk size to identify your microSD card. Use the device name such as `/dev/disk#` when partitioning the microSD card.
 3. Run the following command to partition the disk. Ensure that the device name is replaced with the one for your disk.  
 `diskutil partitionDisk disk# MBR ms-dos SMICROSD R ms-dos EMUMMC 61124608S`
+
+&nbsp;
 
 #### [Continue to SD Preperations <i class="fa fa-arrow-circle-right fa-lg"></i>](sd_preparation.md)
