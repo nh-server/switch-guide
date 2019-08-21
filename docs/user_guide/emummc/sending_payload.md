@@ -2,6 +2,9 @@
 
 # Sending a Payload
 
+!!! warning "If you are here to test if your switch is patched"
+    Make sure to continue with [SD preparations](../emummc/sd_preparation.md) instead of `Making the emuMMC` at the end of this page.
+
 !!! warning "If you were sent here directly"
     Make sure you've [put your device into RCM](entering_rcm.md), and downloaded Hekate (extract its zip file if necessary) before continuing.
 
@@ -81,5 +84,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
 !!! danger "If nothing happens after you send the payload"
     If your console's screen remains black after you've sent Hekate, it's possible your payload was corrupted, or that your console is patched. If your payload injector program shows that 0 bytes were sent, then it is definitely patched, so you'll be unable to proceed with the rest of the guide.
+
+&nbsp;
 
 #### [Continue to Making the emuMMC <i class="fa fa-arrow-circle-right fa-lg"></i>](making_emummc.md)

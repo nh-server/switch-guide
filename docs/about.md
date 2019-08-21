@@ -12,7 +12,7 @@ This guide was written by staff members of the [Nintendo Homebrew Discord Server
     Thank you to [everyone else](https://github.com/nh-server/switch-guide/graphs/contributors) that contributed to the guide on GitHub, but special thanks to **noirscape**.
 
 !!! tip ""
-    [You can find this guide on GitHub](https://github.com/nh-server/switch-guide) It is licensed under the [ISC license.](https://github.com/nh-server/switch-guide/blob/master/LICENSE.md)
+    [You can find this guide on GitHub](https://github.com/nh-server/switch-guide), It is licensed under the [ISC license.](https://github.com/nh-server/switch-guide/blob/master/LICENSE.md)
 
 !!! tip ""
     ![Nintendo Homebrew](img/nh.jpg)
@@ -24,10 +24,10 @@ This guide was written by staff members of the [Nintendo Homebrew Discord Server
     - **Flagbrew** for [Checkpoint](https://github.com/FlagBrew/Checkpoint).
     - **mtheall** for [FTPD](https://github.com/mtheall/ftpd/).
     - **joel16** for [NX-Shell](https://github.com/joel16/NX-Shell).
-    - **Cease & DeSwitch** for [fusee-gelee](https://github.com/Cease-and-DeSwitch/fusee-launcher).
+    - **Cease & DeSwitch** for [fusee-gelee](https://github.com/Qyriad/fusee-launcher).
     - **MenosGrante** for [Rekado](https://github.com/MenosGrante/Rekado).
     - **eliboa** for [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI).
     - **vgmoose**, **pwsincd**, **rw-r-r_0644** and **crc32** for [hb-appstore](https://github.com/vgmoose/hb-appstore).
-    - **exelix** for [nxthemesinstaller and SwitchThemeInjector](https://github.com/exelix11/SwitchThemeInjector).
+    - **exelix** for [NXThemes Installer and SwitchThemeInjector](https://github.com/exelix11/SwitchThemeInjector).
     - **Essometer** for collecting patched Switch serials.
     - **shchmue** for [Lockpick](https://github.com/shchmue/Lockpick/releases) and [Lockpick_RCM](https://github.com/shchmue/Lockpick_RCM/releases)
