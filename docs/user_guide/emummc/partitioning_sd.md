@@ -1,4 +1,4 @@
-# Partitioning the sd card 
+# Partitioning the SD Card 
 
 !!!warning "This will delete everything on your sd card"
 	Doing this will delete all your data from your sd card, be warned!
@@ -56,7 +56,7 @@
 #### [Continue to SD Preperations <i class="fa fa-arrow-circle-right fa-lg"></i>](sd_preparation.md)
 
 -----
-## Linux instructions
+## Linux Instructions
 
 !!! danger "SD card identification"
 	Make 100% sure you get your microSD card during the following steps. If you are not careful, you can end up wiping your entire linux filesystem. We are not responsible for data loss when doing this.
@@ -103,7 +103,7 @@
 #### [Continue to SD Preparations <i class="fa fa-arrow-circle-right fa-lg"></i>](sd_preparation.md)
 
 -----
-## macOS instructions
+## macOS Instructions
 
 !!! danger "SD card identification"
 	Make 100% sure you get your microSD card during the following steps. If you are not careful, you can end up wiping the wrong disk. We are not responsible for data loss when doing this.
