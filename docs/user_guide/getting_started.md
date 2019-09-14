@@ -80,8 +80,8 @@ The following information is based on [this GBATemp thread](https://gbatemp.net/
 | 4.0.0 - 4.1.0 | Caffeine or [**RCM**](rcm.md)   | Caffeine                   | **N/A**                     | **N/A**                |
 | 5.0.0 - 7.0.0 | [**RCM**](rcm.md)               | Wait for CFW               | **N/A**                     | **N/A**                |
 | 7.0.1         | [**RCM**](rcm.md)               | Wait for CFW               | Unhackable (currently)      | **N/A**                |
-| 8.0.1 - 8.1.0 | [**RCM**](rcm.md)               | Unhackable (currently)     | Unhackable (currently)      | **N/A**                |
-| >8.1.0        | [**RCM**](rcm.md)               | Unhackable (currently)     | Unhackable (currently)      | Unhackable (currently) |
+| 8.0.1 - 9.0.0 | [**RCM**](rcm.md)               | Unhackable (currently)     | Unhackable (currently)      | **N/A**                |
+| >9.0.0        | [**RCM**](rcm.md)               | Unhackable (currently)     | Unhackable (currently)      | Unhackable (currently) |
 
 &nbsp;
 
