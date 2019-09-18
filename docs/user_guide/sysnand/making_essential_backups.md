@@ -50,11 +50,13 @@
 !!!tip ""
     1. Enter RCM and inject the Hekate payload.
     2. Tap the `Payloads` option, then press Lockpick_RCM.bin.
-    3. If Lockpick_RCM prompts you to `Reboot to Sept`, press power or either volume button to do so. A "sept by Atmosphere" logo will then display, followed by Lockpick_RCM starting again. If it does *not* prompt you, continue on to step 3.
-    4. Lockpick_RCM should now inform you that your keys have been saved to `/switch/prod.keys` on the SD card.
-    5. Press the power button to power off your Switch.
-    6. Insert your SD card into your PC.
-    7. Copy `prod.keys` from the `switch` folder on your SD card to a safe location on your PC (it is suggested to copy it to the same place that you copied your NAND backup to).
+    3. If Lockpick_RCM asks you to select between SysNAND and emuMMC, choose SysNAND by navigating with the volume buttons and pressing the power button. If not, continue with step 4.
+    4. If Lockpick_RCM prompts you to `Reboot to Sept`, press power or either volume button to do so. A "sept by Atmosphere" logo will then display, followed by Lockpick_RCM starting again. If it does *not* prompt you, continue on to step 5.
+    5. Lockpick_RCM should now inform you that your keys have been saved to `/switch/prod.keys` on the SD card.
+    6. Press any button to return to the main menu.
+    7. Navigate to 'Power off' with the volume buttons and select it with the power button.
+    8. Insert your SD into your PC.
+    9. Copy `prod.keys` from the `switch` folder on your SD card to a safe location on your PC (it is suggested to copy it to the same place that you copied your NAND backup to).
     
 &nbsp;
 
