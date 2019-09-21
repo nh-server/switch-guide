@@ -53,7 +53,7 @@
 
 &nbsp;
 
-#### [Continue to SD Preperations <i class="fa fa-arrow-circle-right fa-lg"></i>](sd_preparation.md)
+#### [Continue to SD Preparations <i class="fa fa-arrow-circle-right fa-lg"></i>](sd_preparation.md)
 
 -----
 ## Linux Instructions
@@ -120,4 +120,4 @@
 
 &nbsp;
 
-#### [Continue to SD Preperations <i class="fa fa-arrow-circle-right fa-lg"></i>](sd_preparation.md)
+#### [Continue to SD Preparations <i class="fa fa-arrow-circle-right fa-lg"></i>](sd_preparation.md)
