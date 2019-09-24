@@ -16,6 +16,9 @@ There are several methods of entering RCM (**R**e**C**overy **M**ode). The most 
 
 ### Instructions
 
+!!!warning "Before you start"
+    Before you start, boot your switch normally, and delete all the wifi networks. You can add them back to your sysnand after completing this guide
+
 !!! tip ""
     1. Power off the Switch and use one of the methods listed below to short the pins on the right joycon rail.
     2. Hold Volume Up and press the Power button.
