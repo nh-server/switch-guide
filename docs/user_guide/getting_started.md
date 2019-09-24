@@ -79,11 +79,9 @@ The following information is based on [this GBATemp thread](https://gbatemp.net/
 | 2.0.0 - 3.0.2 | Caffeine or [**RCM**](rcm.md)   | **N/A**                    | **N/A**                     | **N/A**                |
 | 4.0.0 - 4.1.0 | Caffeine or [**RCM**](rcm.md)   | Caffeine                   | **N/A**                     | **N/A**                |
 | 5.0.0 - 7.0.0 | [**RCM**](rcm.md)               | Wait for CFW               | **N/A**                     | **N/A**                |
-| 7.0.1         | [**RCM**](rcm.md)               | Wait for CFW               | Wait for exploit            | **N/A**                |
-| 8.0.1         | [**RCM**](rcm.md)               | Wait for exploit           | Wait for exploit            | Wait for exploit       |
-| 8.1.0         | [**RCM**](rcm.md)               | Unhackable (currently)     | Unhackable (currently)      | Unhackable (currently) |
-| >9.0.0        | [**RCM**](rcm.md)               | Unhackable (currently)     | Unhackable (currently)      | Unhackable (currently) |
-
+| 7.0.1         | [**RCM**](rcm.md)               | Wait for CFW               | Update to 8.0.0/1           | **N/A**                |
+| 8.0.1         | [**RCM**](rcm.md)               | Wait for homebrew          | Wait for homebrew           | Wait for homebrew      |
+| 8.1.0 - 9.0.0 | [**RCM**](rcm.md)               | Unhackable (currently)     | Unhackable (currently)      | Unhackable (currently) |
 
 &nbsp;
 
