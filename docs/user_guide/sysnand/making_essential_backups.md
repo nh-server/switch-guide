@@ -55,7 +55,7 @@
     5. Lockpick_RCM should now inform you that your keys have been saved to `/switch/prod.keys` on the SD card.
     6. Press any button to return to the main menu.
     7. Navigate to 'Power off' with the volume buttons and select it with the power button.
-    8. Insert your SD Card into your PC.
+    8. Insert your SD card into your PC.
     9. Copy `prod.keys` from the `switch` folder on your SD card to a safe location on your PC (it is suggested to copy it to the same place that you copied your NAND backup to).
     
 &nbsp;
