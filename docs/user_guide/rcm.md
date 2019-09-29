@@ -34,4 +34,4 @@ This is for the people who don't have an 64GB microSD card or larger, or who don
 
 &nbsp;
 
-#### [Continue to SD preparations (sysNAND CFW) <i class="fa fa-arrow-circle-right fa-lg"></i>](sysnand/sd_preparation.md)
+#### [Continue to SD preparations (sysNAND CFW) (**Not Recommended**) <i class="fa fa-arrow-circle-right fa-lg"></i>](sysnand/sd_preparation.md)
