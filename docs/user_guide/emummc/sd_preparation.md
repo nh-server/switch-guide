@@ -40,7 +40,7 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
     7. Rename Hekate's `.bin` file to `reboot_payload.bin`
     8. Copy `hekate_ipl.ini` to the `bootloader` folder on your SD card
     9. Copy `Lockpick_RCM.bin` to the `/bootloader/payloads` folder on your SD card
-    10. Copy *the contents* of the EdiZon `SD.zip` file to the root of your SD card
+    10. Copy *the contents* of the `SD.zip` file to the root of your SD card
     11. Create a folder named `appstore` inside the `switch` folder on your SD card, and put `appstore.nro` in it
     12. Copy `ftpd.nro`, `NX-Shell.nro` and `NxThemesInstaller.nro` to the `switch` folder on your SD card
     13. Reinsert your SD card back into your Switch
