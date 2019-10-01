@@ -56,8 +56,8 @@ A guide collaboration between Nintendo Homebrew's Helpers and Staff, from stock 
         - This method is not covered by the guide, but you can read more about it at [this website](https://mologie.github.io/nxboot/)
 
 
-	You will also need a micro SD card that is at least 4 gigabytes and preferably 32 gigabytes large or greater, as NAND backups for the console will take up around 30 gigabytes.
-	 
+    You will also need a micro SD card that is at least 64 gigabytes or larger if you plan on following this guide through the emummc path, which is safer and strongly recommended. If you must use a smaller SD card, it is possible with the sysmmc path, but strongly not recommended.
+
 If everything goes according to plan, you will lose no data and end up with everything that you started with (games, NNID, saves, etc will be preserved).
 
 Keep your device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off.
