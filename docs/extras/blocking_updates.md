@@ -6,7 +6,21 @@ We will be using [90DNS](https://gitlab.com/a/90dns), a community-run custom DNS
 
 &nbsp;
 
-### Instructions
+### Hijack check
+
+In some cases, 90DNS does not work, which means that your switch can communicate with the Nintendo servers. This might happen when your ISP hijacks your DNS requests. There are several methods you can use to test whether 90DNS works on the network that the switch is connected to:
+
+!!! tip ""
+	- Run the connectivity test program on your computer that is in the [90DNS README file.](https://gitlab.com/a/90dns/blob/master/README.md)
+	- Set up 90DNS on a clean NAND on your switch and check if you can connect to the eshop. Error 2811-1007 means that 90dns works.
+	- Set the DNS on your computer to the IPs found in the instructions below and open [90dns.test.](http://90dns.test/) If 90DNS works you'll see a message telling you that you are connected successfully.
+
+If 90DNS does not work, you can choose to keep the switch permanently offline or to host a DNS server yourself. Instructions to host your own 90DNS server can be found [here.](https://gitlab.com/a/90dns/blob/master/SELFHOST.md)
+
+-----
+
+
+### Setting up 90DNS
 
 !!! tip ""
     1. Go to the Settings applet, and then to the Internet tab.
