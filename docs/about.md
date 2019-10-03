@@ -33,5 +33,6 @@ This guide was written by staff members of the [Nintendo Homebrew Discord Server
     - **Essometer** for collecting patched Switch serials.
     - **shchmue** for [Lockpick](https://github.com/shchmue/Lockpick/releases) and [Lockpick_RCM](https://github.com/shchmue/Lockpick_RCM/releases).
     - **Ave** for [90DNS](https://gitlab.com/a/90dns).
+    - **Nexrem (meganukebmp)** for the [Switch 90DNS Tester](https://github.com/meganukebmp/Switch_90DNS_tester).
     - **exelix11** for [Switch Theme Injector](https://github.com/exelix11/SwitchThemeInjector/releases).
     - **vgmoose** for [hb-appstore](https://github.com/vgmoose/hb-appstore).
