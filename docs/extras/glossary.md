@@ -16,7 +16,7 @@ The following list is in alphabetical order.
 - Dongle: Device you can plug in the charging port of your Switch to automatically send a payload if your Switch is in RCM.
 - Encryption keys: Keys used to encrypt files from the Nintendo Switch. These can be dumped by following the guide [here](/extras/backup_keys/).
   - BIS keys: Specific keys used to decrypt the NAND.
-- fusee-gelee/shoFEL2: Two names for two different implementations of the same exploit. This is an exploit that grants full bootrom access to the Nintendo Switch from the Tegra X1s RCM and permits us to run CFW. This exploit requires an external device and a tiny hardware modification. fusee-gelee is developed by an ex-ReSwitched developer, while shoFEL2 is developed by the failoverfl0w team. This guide uses fusee-gelee.
+- fusee-gelee/ShofEL2: Two names for two different implementations of the same exploit. This is an exploit that grants full bootrom access to the Nintendo Switch from the Tegra X1s RCM and permits us to run CFW. This exploit requires an external device and a tiny hardware modification. fusee-gelee is developed by an ex-ReSwitched developer, while ShofEL2 is developed by the failoverfl0w team. This guide uses fusee-gelee.
 - hactool: Software used to decrypt Nintendo Switch files like .XCI and .NSP files.
 - Hekate: A bootloader for the Nintendo Switch. The current guide uses this in combination with essential files from Atmosphere to boot CFW.
 - Homebrew: Unsigned code that can be ran on the Nintendo Switch. Examples of homebrew include save editors, emulators and ports of PC games, but can also include completely original games. To run this code, you need to have an exploit.
