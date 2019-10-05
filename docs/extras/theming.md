@@ -12,7 +12,8 @@ You can create unique styles and layouts for your Switch Home Menu.
 
 	Follow the `Installing a theme` section if you want to install a theme
 
-	Follow the `Installing a custom font` section if you want to install a custom font
+	Follow the `Installing a custom font` sectio
+	n if you want to install a custom font
 
 &nbsp;
 
@@ -20,7 +21,7 @@ You can create unique styles and layouts for your Switch Home Menu.
 
 ### What you need
 
-The latest release of **[Switch Theme Injector](https://github.com/exelix11/SwitchThemeInjector/releases)**
+The latest release of <a href="https://github.com/exelix11/SwitchThemeInjector/releases" target="_blank">**Switch Theme Injector**</a>
 
 - You need to download the `ReleaseVx.x.zip` on the download page
 
@@ -34,13 +35,13 @@ The latest release of **[Switch Theme Injector](https://github.com/exelix11/Swit
 
 &nbsp;
 
-## Making a theme (Other os's)
+## Making a theme (Mac / Linux)
 
 ### Making the theme
 
 Make sure that the images you want to use are 1280x720 and in JPG!
 
-1. Navigate to **[Exelix's web injector](https://exelix11.github.io/SwitchThemeInjector/v2/)**.
+1. Navigate to <a href="https://exelix11.github.io/SwitchThemeInjector/v2/" target="_blank">.**Exelix's Web Injector**</a>
 2. Select a Theme Target you want to edit. After this, click the Open an Image button and select your background image.
 3. Choose a theme name and an author name and optionally a different layout, then click build NxTheme.
 4. Your browser will prompt you to download a file. Save this file to a temporary folder.
@@ -51,7 +52,7 @@ Make sure that the images you want to use are 1280x720 and in JPG!
 ## Installing a theme
 
 !!! tip "Community Themes"
-	If you want to use community themes, for example from the **[r/NXTheme Subreddit](https://www.reddit.com/r/NXThemes/)**, you can follow the guide below to install a community provided nxtheme
+	If you want to use community themes, for example from the <a href="https://www.reddit.com/r/NXThemes/" target="_blank">**r/NXThemes**</a>, you can follow the guide below to install a community provided nxtheme
 
 !!! tip "Homebrew app store"
 	If you want to use the homebrew app store for themes, you can simply install the theme you want via the appstore, and follow the instructions from step 2 onwards below.
