@@ -17,8 +17,8 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 ### What you need
 
 !!! tip ""
-    - The latest release of [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI/releases) (either the MSI or zip)
-    - The latest release of [Hekate](https://github.com/CTCaer/hekate/releases/) (either the hekate_ctcaer bin or the hekate_ctcaer zip)
+    - The latest release of <a href="https://github.com/eliboa/TegraRcmGUI/releases" target="_blank">TegraRcmGUI</a> (either the MSI or zip)
+    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a> (either the hekate_ctcaer bin or the hekate_ctcaer zip)
     - A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
 
 ### Instructions
@@ -39,8 +39,8 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 ### What you need
 
 !!! tip ""
-    - The latest release of [fusee-interfacee-tk](https://github.com/nh-server/fusee-interfacee-tk/releases)
-    - The latest release of [Hekate](https://github.com/CTCaer/hekate/releases/)
+    - The latest release of <a href="https://github.com/nh-server/fusee-interfacee-tk/releases" target="_blank">fusee-interfacee-tk</a>
+    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a> (either the hekate_ctcaer bin or the hekate_ctcaer zip)
     - A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
 
 ### Instructions
@@ -59,9 +59,9 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 ### What you need
 
 !!! tip ""
-    - The latest release of [Rekado](https://github.com/MenosGrante/Rekado/releases)
+    - The latest release of <a href="https://github.com/MenosGrante/Rekado/releases" target="_blank">Rekado</a>
         - You will need to enable Unknown Sources in your device settings to install this
-    - The latest release of [Hekate](https://github.com/CTCaer/hekate/releases/)
+    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a> (either the hekate_ctcaer bin or the hekate_ctcaer zip)
     - A USB-C cable
         - If your device has a USB-C port, you may use a C-C cable
         - If your device only has a Micro USB port, you will need a USB OTG adapter and a USB A-C cable
