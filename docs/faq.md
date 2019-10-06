@@ -3,16 +3,25 @@
 ### What firmware versions are currently hackable?
 
 !!! tip ""
-    Currently two hardware revisions of the Switch exist. Any Switch bought before July 2018 has a bootrom bug that allows us to run code regardless of the firmware version on the Switch. When Nintendo updates the system, however, CFW will usually need an update to account for it. This bug cannot be fixed by Nintendo once the console leaves the factory, not even if the console is sent in for repairs. This means that all current and future firmwares will be able to launch CFW through this exploit on the old hardware revision.
-
-    The first claims of a new hardware revision of the Switch that fixes the exploit needed to launch CFW have been made in July 2018. Currently the only way to know if your Switch is hackable is by trying to send the payload in RCM. Even with this exploit fixed, any Switch on firmware 7.0.1 and below will be able to launch CFW through other means in the far future. The serial number on the back of the box can possibly tell you which consoles are patched and which aren't. See [this GBAtemp thread](https://gbatemp.net/threads/switch-informations-by-serial-number.481215/) for an up to date list.
+     Currently two hardware revisions of the Switch exist. Any Switch bought before July 2018 has a bootrom bug that allows us to run code regardless of the firmware version on the Switch. When Nintendo updates the system, however, CFW will usually need an update to account for it. 
+	This bug cannot be fixed by Nintendo once the console leaves the factory, not even if the console is sent in for repairs. This means that all current and future firmwares will be able to launch CFW through this exploit on the old hardware revision.
+    The first claims of a new hardware revision of the Switch that fixes the exploit needed to launch CFW have been made in July 2018. 
+	Currently the only way to know if your Switch is hackable is by trying to send the payload in RCM. 
+	Even with this exploit fixed, any Switch on firmware 7.0.1 and below will be able to launch CFW through other means in the far future. 
+	The serial number on the back of the box can possibly tell you which consoles are patched and which aren't. 
+	See [this GBAtemp thread](https://gbatemp.net/threads/switch-informations-by-serial-number.481215/) for an up to date list.
+ 
 
 ### How do I use the exploit?
 
 !!! tip ""
-    To launch CFW through the exploit, the Switch needs to be in "Recovery Mode"(RCM). The easiest way to enter RCM is by grounding pin 10 in the right joycon rail and holding VOL+ on boot. Several methods and designs to do this exist, see [this page of the guide](../user_guide/emummc/entering_rcm) for more information. Once the Switch is in RCM it needs to be connected to either a computer, phone or dongle to send the exploit and the payload.
+    To launch CFW through the exploit, the Switch needs to be in "Recovery Mode"(RCM). 
+ The easiest way to enter RCM is by grounding pin 10 in the right joycon rail and holding VOL+ on boot. 
+ Several methods and designs to do this exist, see [this page of the guide](https://nh-server.github.io/switch-guide/user_guide/emummc/entering_rcm) for more information. 
+ Once the Switch is in RCM it needs to be connected to either a computer, phone or dongle to send the exploit and the payload.
 
-    This procedure needs to happen every time the Switch boots from a completely "off" state, otherwise the Switch will boot into the stock firmware.
+This procedure needs to happen every time the Switch boots from a completely "off" state, otherwise the Switch will boot into the stock firmware.
+
 
 ### What makes a good jig good?
 
@@ -28,35 +37,45 @@
 
     Many Android-phones are able to send the exploit to the Switch, making them a perfect portable way to launch CFW. Different designs for portable dongles exist, ranging from Raspberry Pi Zero and Arduino projects to internal dongles, that work completely autonomous. The latter should only be done by advanced users, as it requires soldering onto the Switch mainboard itself.
 
-### Will we ever be able to launch CFW directly?
-
-!!! tip ""
-    In the future there will possibly be methods to launch CFW without needing a computer, phone or dongle to send the exploit and payload from. However, the higher the firmware of the Switch the less likely these exploits become. Currently there is little hope for such an exploit on firmware 5.0+. Even on lower firmwares, this exploit will most likely not directly boot you into CFW from a "off" state, but require you to launch an exploit on the original firmware to then reboot into CFW.
-
-    The chances of a persistent, untethered coldboot solution (like on the 3DS and Wii-U) technically exist on firmwares below 3.0.2.
-
 ### Should I update my Firmware?
 
 !!! tip ""
     If your Switch is one of the new hardware revisions that patched the exploit in RCM and you are on firmware 7.0.1 or lower, you should not update if you want to have CFW in the forseeable future.
 
-    If your Switch is one of the older hardware revisions and you don't mind having to use jigs/hardmods/AutoRCM and sending the exploit via computer, phone or dongle everytime you want to launch into CFW then it is completely safe to update. If you want the chance to maybe, one day, not have to use a external device, then it is recommended to stay on a FW as low as possible. Beware that this means that you potentially need to wait for a very long time (months to years) for this to happen, if ever. Private exploits to launch CFW are known to exist for firmwares up to 7.0.1.
+    If your Switch is one of the older hardware revisions and you don't mind having to use jigs/hardmods/AutoRCM and sending the exploit via computer, phone or dongle everytime you want to launch into CFW then it is completely safe to update. 
+	If you want the chance to maybe, one day, not have to use a external device, then it is recommended to stay on a FW as low as possible. 
+	Beware that this means that you potentially need to wait for a very long time (months to years) for this to happen, if ever. Private exploits to launch CFW over the Browser are known to exist for firmwares up to 7.0.1.
 
-    Downgrading on the Switch is possible, but it requires using AutoRCM and a custom bootloader payload to bypass the Switch's several hardware anti-downgrade mechanisms. This will not work on an unpatched system, and is practically useless for most users.
-    On every boot the Switch firmware checks how many e-fuses have been burned and how many e-fuses the Switch expects to be burned. Major updates to the Switch, or updates in which a large vulnerability has been patched, irreversibly burn one of the Switch's 32 "e-fuses". If the Switch ever detects that more e-fuses have been burned than expected (meaning a downgrade happened), it will refuse to boot. Replacing e-fuses is not an option.
+    Downgrading on the Switch is possible, but it requires using AutoRCM and a custom bootloader payload to bypass the Switch's several hardware anti-downgrade mechanisms. 
+	This will not work on an unpatched system, and is practically useless for most users.
+    On every boot the Switch firmware checks how many e-fuses have been burned and how many e-fuses the Switch expects to be burned. 
+	Major updates to the Switch, or updates in which a large vulnerability has been patched, irreversibly burn one of the Switch's 64 "e-fuses". 
+	*If the Switch ever detects that more e-fuses have been burned than expected (meaning a downgrade happened), it will refuse to boot. Replacing e-fuses is not an option.*
+	You can check fuse information [here](https://switchbrew.org/wiki/Fuses#Anti-downgrade)
+	
+	Atmosphere 0.9.4 works fine with the new 9.0.1 firmware update on unpatched units. The situation for patched and new units is this:
+	*"Old" Patched Switch (HAC-001): Do NOT update past 7.0.1. Units on 7.0.1 and below will eventually get CFW. Patched units that have upgraded to 8.0.0 or 8.0.1 will likely get homebrew.*
+	*"New" Switch (HAC-001-01): Do NOT update past 8.0.1. Units on 8.0.1 and below will likely get homebrew. Units on 8.1.0 and higher are not expected to be hacked and can be updated.*
+	*Switch Lite (HDH-001): Do NOT update past 8.0.1. Units on 8.0.1 and below will likely get homebrew. Units on 8.1.0 and higher are not expected to be hacked and can be updated.*
 
-    A method to update without burning e-fuses exists, but, like downgrading, it forces you to use AutoRCM and sending the exploit via USB every time, as booting into the stock firmware even once would instantly burn the e-fuse. Note that other anti-downgrade mechanisms exist, making it for example impossible to boot game carts on a firmware below 4.1 if the Switch has ever launched a game on firmware 4.1+. This can only be worked around by completely disabling the game cart slot while on 4.1 or greater, which is similarly impractical for most users.
-    You can check fuse information [here](https://switchbrew.org/wiki/Fuses) (scroll down to the "Anti-Downgrade" section of the article)
+
+    A method to update without burning e-fuses exists, but, like downgrading, it forces you to use AutoRCM and sending the exploit via USB every time, as booting into the stock firmware even once would instantly burn the e-fuse. Note that other anti-downgrade mechanisms exist, making it for example impossible to boot game carts on a firmware below 4.1/9.0.0 if the Switch has ever launched a game on firmware 4.1+/9.0.0+. This can only be worked around by completely disabling the game cart slot while on 4.1/9.0.0 or greater, which is similarly impractical for most users.
 
 
-### Is it safe to use homebrew?
+
+### Is it safe to use homebrew? Will I get banned?
 
 !!! tip ""
-    The Switch comes with a lot of telemetry, and has been called a "telemetry monster" by several prominent developers. As long as the Switch is connected to the internet, Nintendo gets a report about a lot of different actions and states and has the option to log or act on them. Even if the Switch is offline and connects to the internet at a later point, Nintendo still recieves information about what happened while the Switch was disconnected.
+    The Switch comes with a lot of telemetry, and has been called a "telemetry monster" by several prominent developers. 
+   As long as the Switch is connected to the internet, Nintendo gets a report about a lot of different actions and states and has the option to log or act on them. 
+   Even if the Switch is offline and connects to the internet at a later point, Nintendo still recieves information about what happened while the Switch was disconnected.
  
-    To disable some of this telemetry, it is advised to disable the sending of error reports in the System Settings of the Switch. Additionally if you live in the EU you can set the "do not share" option on [Nintendos Accounts Settings Page](https://accounts.nintendo.com/setting) to prevent your Switch from sending a lot of telemetry.
+    To disable some of this telemetry, it is advised to disable the sending of error reports in the System Settings of the Switch. 
+	Additionally if you live in the EU you can set the "do not share" option on [Nintendos Accounts Settings Page](https://accounts.nintendo.com/setting) to prevent your Switch from sending a lot of telemetry.
  
-    Nintendo still recieves a lot of information, even with those options disabled. We also cannot know if Nintendo decides to look for something in the logs and ban people in retrospect. They have also shown to expand their telemetry options with every other firmware update.
+    Nintendo still recieves a lot of information, even with those options disabled. 
+	We also cannot know if Nintendo decides to look for something in the logs and ban people in retrospect. 
+	They have also shown to expand their telemetry options with every other firmware update.
  
     Currently all bans have been for very obvious and intrusive actions, specifically:
 
@@ -74,9 +93,8 @@
     This erases ban risks due to the fact that emuMMC is run in a quarantined, offline state, not touching the internal memory. You are still able to boot into original firmware to play online.
 
     For patched units reliant on deja-vu, sysNAND will always have to be on a firmware below 4.1. For switches from 5.0 to 7.0.1 deja-vu isn't quite out yet but is coming soon. (Also please note that firmwares 8.0.0+ will never work with deja-vu) You can use an updated emuMMC dedicated to online/clean play, while your sysNAND is used offline for custom firmware. 
-
-!!! danger "SX OS"
-    *Team Xecuter's "EmuNAND" is not a proper (or safe) EmuNAND, and Nintendo can pick up on it with their telemetry.*
+	
+ **Team Xecuter's "EmuNAND" is not a proper (or safe) EmuNAND, and Nintendo can pick up on it with their telemetry.***Homebrew can potentially damage your system! Atmosphere provides protections against common bricking methods, but these are not guaranteed to always work!*
 
 ### What formats can homebrew come in?
 
