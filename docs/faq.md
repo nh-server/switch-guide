@@ -100,7 +100,8 @@
     The recommended filesystem format is FAT32. While the Switch supports exFAT through an additional update from Nintendo, this filesystem is prone to corruption and as a result is not advisable.
 
 
-!!! danger "Fake microSD cards"    Do not buy microSD cards from sites like eBay. These microSD cards are often fake and do not have the advertised amount of storage and will result in data corruption if used. Amazon has had some problems with fake SD cards, so we recommend buying them at a physical store.
+!!! danger "Fake microSD cards"    
+    Do not buy microSD cards from sites like eBay. These microSD cards are often fake and do not have the advertised amount of storage and will result in data corruption if used. Amazon has had some problems with fake SD cards, so we recommend buying them at a physical store.
 Even on trust worthy sites, *always, always check reviews on a product before buying!!*
     
     If you suspect your microSD card is fake or damaged, see the instructions [here](https://3ds.eiphax.tech/sd.html) to verify the integrity of your SD card.
