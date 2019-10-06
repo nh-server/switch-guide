@@ -27,6 +27,7 @@ nav:
         - 'Showing File Name Extensions (Windows)': 'extras/showing_file_extensions.md'
         - 'Alternate Boot Setups': 'extras/alternate_bootsetups.md'
         - 'Glossary': 'extras/glossary.md'
+        - 'Updating CFW': 'extras/updating.md'
     - FAQ: faq.md
     - About: about.md
     

@@ -51,3 +51,5 @@ You will now be able to launch the Homebrew Menu by holding the R button while l
     - NXThemeInstaller is a theme installer app. See the [Theming section of our guide](../../extras/theming.md) for more information
 
     - hbappstore is a homebrew app store where a large collection of switch homebrew is kept.
+
+    - atmosphere-updater is a homebrew app capable of updating Atmosphere. See [this](../../extras/updating.md) page for information on keeping your system up to date.
