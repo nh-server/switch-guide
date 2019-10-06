@@ -29,7 +29,7 @@ If you did not install this utility, you can download it from <a href="https://g
 
 Updating your Atmosphere and Hekate installation using atmosphere-updater:
 
-!! tip "" - Always update Atmosphere and Hekate together when using atmosphere-updater! Otherwise your `reboot_payload.bin` will not correctly be preserved.
+!!! tip "" - Always update Atmosphere and Hekate together when using atmosphere-updater! Otherwise your `reboot_payload.bin` will not correctly be preserved.
 
 1. Open the Homebrew menu
 2. Open `Atmosphere-Updater`.
@@ -64,7 +64,7 @@ If you did not install this utility, you can download it from <a href="https://g
 
 Updating your Atmosphere and Hekate installation using atmosphere-updater:
 
-!! tip "" - Always update Atmosphere and Hekate together when using atmosphere-updater! Otherwise your `reboot_payload.bin` will not correctly be preserved.
+!!! tip "" - Always update Atmosphere and Hekate together when using atmosphere-updater! Otherwise your `reboot_payload.bin` will not correctly be preserved.
 
 1. Open the Homebrew menu
 2. Open `Atmosphere-Updater`.
