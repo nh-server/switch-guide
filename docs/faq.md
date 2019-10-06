@@ -35,7 +35,7 @@
 
     The chances of a persistent, untethered coldboot solution (like on the 3DS and Wii-U) technically exist on firmwares below 3.0.2.
 
-### Should I update XY FW?
+### Should I update XY Firmware?
 
 !!! tip ""
     If your Switch is one of the new hardware revisions that patched the exploit in RCM and you are on firmware 7.0.1 or lower, you should not update if you want to have CFW in the forseeable future.
@@ -46,6 +46,8 @@
     On every boot the Switch firmware checks how many e-fuses have been burned and how many e-fuses the Switch expects to be burned. Major updates to the Switch, or updates in which a large vulnerability has been patched, irreversibly burn one of the Switch's 32 "e-fuses". If the Switch ever detects that more e-fuses have been burned than expected (meaning a downgrade happened), it will refuse to boot. Replacing e-fuses is not an option.
 
     A method to update without burning e-fuses exists, but, like downgrading, it forces you to use AutoRCM and sending the exploit via USB every time, as booting into the stock firmware even once would instantly burn the e-fuse. Note that other anti-downgrade mechanisms exist, making it for example impossible to boot game carts on a firmware below 4.1 if the Switch has ever launched a game on firmware 4.1+. This can only be worked around by completely disabling the game cart slot while on 4.1 or greater, which is similarly impractical for most users.
+    You can check fuse information [here](https://switchbrew.org/wiki/Fuses) (scroll down to the "Anti-Downgrade" section of the article)
+
 
 ### Is it safe to use homebrew?
 
@@ -79,15 +81,13 @@
 ### What formats can homebrew come in?
 
 !!! tip ""
-    Homebrew can come in two different formats, namely in `nro` files and in `kip` files.
+    Homebrew can come in two different formats, namely in `nro` files and in `bin` files.
 
-    `nro` files are placed in the `switch` folder on your SD card and can be launched using the Homebrew menu.
-
-    `kip` files are placed in the `atmosphere/kips` folder on your SD card and provide additional services.
+    `nro` Files are placed in the `switch` folder on your SD card and can be launched using the Homebrew menu.
+    `bin` This format is used as a payload and is to be pushed in rcm mode using tegrarcmgui on windows and fusee-interfacee-tk on other operating systems.
 
 !!! danger "Homebrew risks"
     *Be careful with launching downloaded homebrew! If you don't know the source, it's best not to launch it.*
-
     *Homebrew can potentially damage your system! Atmosphere provides protections against common bricking methods, but these are not guaranteed to always work!*
 
 ### What microSD card/format should I use?
@@ -100,10 +100,10 @@
     The recommended filesystem format is FAT32. While the Switch supports exFAT through an additional update from Nintendo, this filesystem is prone to corruption and as a result is not advisable.
 
 
-!!! danger "Fake microSD cards"
-    Do not buy microSD cards from sites like eBay. These microSD cards are often fake and do not have the advertised amount of storage and will result in data corruption if used. Consumer grade microSD cards do not exist in capacities over 512GB and any that advertise that they are 512GB or larger are fake.
+!!! danger "Fake microSD cards"    Do not buy microSD cards from sites like eBay. These microSD cards are often fake and do not have the advertised amount of storage and will result in data corruption if used. Amazon has had some problems with fake SD cards, so we recommend buying them at a physical store.
+Even on trust worthy sites, *always, always check reviews on a product before buying!!*
     
-    If you suspect your microSD card is fake or damaged, see the instructions [here](https://3ds.filthycasuals.tech/sderrors.html) to verify the integrity of your SD card.
+    If you suspect your microSD card is fake or damaged, see the instructions [here](https://3ds.eiphax.tech/sd.html) to verify the integrity of your SD card.
 
 ### My homebrew is not showing up on the menu?
 
