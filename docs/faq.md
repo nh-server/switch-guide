@@ -3,7 +3,7 @@
 ### What firmware versions are currently hackable?
 
 !!! tip ""
-    Currently two hardware revisions of the Switch exist. Any Switch bought before July 2018 has a bootrom bug that allows us to run code regardless of the firmware version on the Switch. When Nintendo updates the system, however, CFW will usually need an update to account for it. 
+    Currently two hardware revisions of the Switch exist. Any Switch bought or manufactured before the middle of 2018 has a bootrom bug that allows us to run code regardless of the firmware version on the Switch. When Nintendo updates the system, however, CFW will usually need an update to account for it. 
     This bug cannot be fixed by Nintendo once the console leaves the factory, unless the console is sent in for repairs. This means that all current and future firmwares will be able to launch CFW through this exploit on the old hardware revision.
 
     Any console purchased after approximately August 2018 is **likely** to be patched. This includes the latest units on shelves, referred to as 'red box' or 'Mariko'.
