@@ -43,9 +43,9 @@
 	- Ignore the warning about Windows not being able to recognize the partition.
 	- Set the `File System` to `Unformatted`.
 	- Set the metrics on the right of `Unallocated Space Before`, `Partition Size`, and `Unallocated Space After` from `GB` to `MB`.
-	- `Unallocated Space Before` should display as 0MB.
-	- `Partition Size` should display as `29856 MB`.
-	- `Unallocated Space After` should display as 0MB.
+	- `Unallocated Space Before` should display as `0MB`.
+	- `Partition Size` should display as `29856MB`.
+	- `Unallocated Space After` should display as `0MB`.
 
 
 		![Create_emummc_partition](../img/minitool2.png)
