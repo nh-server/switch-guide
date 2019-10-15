@@ -14,42 +14,48 @@
 ## Windows Instructions
 
 !!!tip "What you need (Windows)"
-	- [Minitool partition wizard (or any other good partition manager)](https://www.partitionwizard.com/download/v11/pw11-free.exe)
+	- [MiniTool Partition Wizard (or any other good partition manager)](https://www.partitionwizard.com/download/v11/pw11-free.exe)
 
 
 ### Instructions (Windows)
 
-1. Install and open minitool partition wizard
-2. Go into the `Disk & Partition Management`
-3. Find your SD card and delete the volume on it by right clicking on the partition and pressing delete (This will delete all your data on your sd card!)
+1. Install and open MiniTool Partition Wizard.
+2. Click the `Disk & Partition Management` button.
+3. Find your SD card and delete the volume on it by right clicking on the partition and pressing delete (This will delete all your data on your SD card!)
 4. Create a new partition by right clicking on the unallocated space and then pressing `Create` with the following instructions:
-	- Set metrics on the right of `Unallocated Space Before` and `Unallocated Space After` to MB if it's set to GB
-	- Set the `File System` to FAT32
-	- Set the `Partition Label` to `SD`
-	- Set the partition size to `16.00`
-	- Set the `Unallocated Space After` to `29872`
-	- Drag the left arrow of the partition completely to the left, filling all the space to the left
-	- Set the `Unallocated Space Before` to 16 
-
+	- Set the metrics on the right of `Unallocated Space Before` and `Unallocated Space After` to `MB` if it's set to `GB`.
+	- Set the metrics on the right of `Partition Size` to `GB` if it's set to `MB`.
+	- Set the `File System` to `FAT32`.
+	- Set the `Partition Label` to `SD`.
+	- Set the `Partition Size` to `8.00`.
+	- Set the `Unallocated Space After` to `29872`.
+	- Drag the left arrow of the partition completely to the left, filling all the space to the left.
+	- Set the `Unallocated Space Before` to `16`.
+	- If done correctly, the `Unallocated Space After` should now display as `29856` instead of `29872`.
 
 		![Create_SD_partition](../img/minitool1.png)
 
 
 
+	- The final `Partition Size` of the FAT32 partition will vary depending on your SD card's total size.
+
 5. Create another new partition with the following settings:
-	- Ignore the warning about windows not being able to recognize the partition
-	- If it doesn't use the full space yet, make this partition fill the rest of the space
-	- Set the file system to `Unformatted`
-  
+	- Ignore the warning about Windows not being able to recognize the partition.
+	- Set the `File System` to `Unformatted`.
+	- Set the metrics on the right of `Unallocated Space Before`, `Partition Size`, and `Unallocated Space After` from `GB` to `MB`.
+	- `Unallocated Space Before` should display as 0MB.
+	- `Partition Size` should display as `29856 MB`.
+	- `Unallocated Space After` should display as 0MB.
+
 
 		![Create_emummc_partition](../img/minitool2.png)
 
 
-6. Your sd card now should look something like this:
+6. Your SD card now should look similar to this:
    
 	![SD_format](../img/emummc_final_minitool.png)
 
-7. Apply the changes to your sd card by hitting apply in the top left
+7. Apply the changes to your SD card by hitting `Apply` in the top left.
 
 &nbsp;
 
