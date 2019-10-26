@@ -15,7 +15,7 @@ Unlike systems such as the DSi, Wii, or 3DS, Switch CFW is currently volatile- i
 
 Your Switch is now booting into Atmosphere.
 
-To verify Atmosphere launched properly, open the Settings applet, and navigate to System. You should see `AMS` next to the version number.
+To verify Atmosphere launched properly, open the Settings applet, and navigate to System. You should see `AMS` next to the version number, as well as an `S` at the end, indicating you are booted into sysMMC.
 
 &nbsp;
 

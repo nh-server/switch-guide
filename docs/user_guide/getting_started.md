@@ -57,7 +57,7 @@ The following information is based on [this GBATemp thread](https://gbatemp.net/
 ### Console Preparation
 
 !!! danger "Important"
-    Before setting up the console for homebrew, it is important to have at least one eShop game (such as [Onigiri](https://www.nintendo.com/games/detail/onigiri-switch/), application (such as [YouTube](https://www.nintendo.com/games/detail/youtube-switch/) or [Hulu](https://www.nintendo.com/games/detail/hulu-switch/)), or a game demo such as [10 Second Run RETURNS](https://www.nintendo.com/games/detail/10-second-run-returns-switch). A game cartridge will also work, but note that the cartridge will have to be inserted in order to run homebrew if you wish to go this route. Once you have a game or application, you are prepared to continue on with the guide.
+    Before setting up the console for homebrew, it is important to have at least one eShop game (such as [Onigiri](https://www.nintendo.com/games/detail/onigiri-switch/)), application (such as [YouTube](https://www.nintendo.com/games/detail/youtube-switch/) or [Hulu](https://www.nintendo.com/games/detail/hulu-switch/)), or a game demo such as [10 Second Run RETURNS](https://www.nintendo.com/games/detail/10-second-run-returns-switch). Running homebrew through any game cartridge will also work, but it must be inserted. Running homebrew does not permanently replace or remove the game/application, nor does it become tied to only one game/application (any cartridge you have inserted or any game/application installed can always be used). Once you have any game or application, you are prepared to continue on with the guide.
 
 &nbsp;
 
