@@ -64,7 +64,8 @@ If you did not install this utility, you can download it from <a href="https://g
 
 Updating your Atmosphere and Hekate installation using atmosphere-updater:
 
-!!! tip "" - Always update Atmosphere and Hekate together when using atmosphere-updater! Otherwise your `reboot_payload.bin` will not correctly be preserved.
+!!!tip "" 
+    - Always update Atmosphere and Hekate together when using atmosphere-updater! Otherwise your `reboot_payload.bin` will not correctly be preserved.
 
 1. Open the Homebrew menu
 2. Open `Atmosphere-Updater`.
@@ -106,3 +107,67 @@ sysMMC and emuMMC have separate system firmwares and need to be updated separate
 If you keep your emuMMC offline, you will have to use a gamecard to update your system firmware, synchronize it with another Nintendo Switch or dump an updated firmware from your sysMMC.
 
 The last option invovles running homebrew on your sysMMC.
+
+
+# Updating emummc (emunand)
+
+
+!!!warning "Do you have a nand back up yet?"
+    Please do not start this guide without doing a raw gpp and a boot 0/1 nand back up!
+You can learn how to make one [here](/user_guide/sysnand/making_essential_backups/).
+
+
+!!!danger "Downgrading"
+    This guide is made for updating your emummc **NOT** for downgrading. Downgrading at all, sysnand or emummc, is not recommended and not worth it. Downgrading is also very dangerous and can lead to serious complications even when performed correctly. *General rule of thumb and tl;dr of this block DO NOT DOWNGRADE!!!!!!* 
+    <!--good enough denn?--> 
+
+### What you will need
+
+!!!tip ""
+    - The latest release of <a href="https://github.com/J-D-K/biggestDump/releases" target="_blank">biggestDump</a>
+    - The latest release of <a href=https://switchtools.sshnuke.net target="_blank">ChoiDujourNX</a>
+    - The latest release of <a href="https://github.com/CTCaer/hekate/releases" target="_blank">Hekate</a>
+    - The latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases">Atmosphere</a--> 
+    - The latest release of <a href="https://github.com/suchmememanyskill/Payload_Launcher/releases" target="_blank">Payload Injector</a>
+
+
+!!!danger ""
+    ChoiDujourNX is **NOT** the same as ChoiDujour. Please make sure you download ChoiDujour**NX**!
+
+### Prep Work
+
+1. Insert your microSD card into your computer.
+2. Make a folder inside your `switch` folder called `system updates`.
+3. Copy `biggestDump.nro` to `/switch/system updates` from the `biggestDump.zip` file.
+4. Copy `ChoiDujourNX.nro` to `/switch/system updates` from the `ChoiDujourNX.zip` file.
+5. Copy `Payload_Injector.nro` to `/switch` from the `Payload_Injector.zip` file.
+6. Update atmosphere and hekate by using the above guides.
+7. Create a folder on the root of your SD card called `payloads` and copy the `hekate_ctcaer_x.x.x.bin` payload into that folder.
+8. If you haven't already, update you sysnand to the latest firmware.
+
+### Dumping your sysnand firmware
+
+!!!note "Ban risk?"
+    In this guide we will be booting into sysnand or system nand cfw. So you might be asking: 'Will I get banned?' The answer is no, simply running atmosphere and running homebrew apps has no ban risk these days.
+
+1. Inject hekate and go to `Launch -> Atmosphere FSS0 SYS`.
+2. Hold `R` while launching a digital game to boot into the homebrew launcher.
+3. Once in there, navigate to the `system updates` folder where you should see biggestDump.
+4. Open it, and press `A`, let it do its thing while it is dumping.
+5. Once it is finished, press `+` to exit, back in the homebrew launcher press `B` to return to the previous folder.
+6. Navigate to Payload_Injector and open it.
+7. Inside, select the `/payloads/` path option and find hekate, then press `A` to launch it, and `A` again to confirm.
+
+
+### Updating your emummc with ChoiDujourNX
+
+1. In hekate go to `Launch -> Atmosphere FSS0 Emu`.
+2. Once booted, hold `R` while launching a digital game to boot into the homebrew launcher.
+3. Navigate to the `system updates` folder where you should see ChoiDujourNX, launch it.
+4. Once in ChoiDujourNX, navigate to `Update/registered`. In that folder you should see a ton of `.nca` files.
+5. Hit `Choose` in the bottom right hand corner of the screen.
+6. When given the option, select your firmware that you have just dumped. **NOT** the one with `(Exfat)`.
+7. Hit `Select firmware` in the bottom right hand corner of the screen.
+8. Hit `Start installation`. Let it do its thing.
+9. Reboot when it is done.
+10. Once rebooted, make sure everything works ok, and if you want check ur firmware in `Settings -> System`
