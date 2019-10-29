@@ -106,19 +106,19 @@ sysMMC and emuMMC have separate system firmwares and need to be updated separate
 
 If you keep your emuMMC offline, you will have to use a gamecard to update your system firmware, synchronize it with another Nintendo Switch or dump an updated firmware from your sysMMC.
 
-The last option invovles running homebrew on your sysMMC.
+The last option involves running homebrew on your sysMMC.
 
 
-# Updating emummc (emunand)
+# Updating emuMMC
 
 
-!!!warning "Do you have a nand back up yet?"
+!!!warning "Do you have a nand yet?"
     Please do not start this guide without doing a raw gpp and a boot 0/1 nand back up!
 You can learn how to make one [here](/user_guide/sysnand/making_essential_backups/).
 
 
 !!!danger "Downgrading"
-    This guide is made for updating your emummc **NOT** for downgrading. Downgrading at all, sysnand or emummc, is not recommended and not worth it. Downgrading is also very dangerous and can lead to serious complications even when performed correctly. *General rule of thumb and tl;dr of this block DO NOT DOWNGRADE!!!!!!* 
+    This guide is made for updating your emuMMC **NOT** for downgrading. Downgrading at all, sysMMC or emuMMC, is not recommended and not worth it. Downgrading is also very dangerous and can lead to serious complications even when performed correctly. *General rule of thumb and tl;dr of this block DO NOT DOWNGRADE!!!!!!* 
     <!--good enough denn?--> 
 
 ### What you will need
@@ -143,12 +143,12 @@ You can learn how to make one [here](/user_guide/sysnand/making_essential_backup
 5. Copy `Payload_Injector.nro` to `/switch` from the `Payload_Injector.zip` file.
 6. Update atmosphere and hekate by using the above guides.
 7. Create a folder on the root of your SD card called `payloads` and copy the `hekate_ctcaer_x.x.x.bin` payload into that folder.
-8. If you haven't already, update you sysnand to the latest firmware.
+8. If you haven't already, update you sysMMC to the latest firmware.
 
-### Dumping your sysnand firmware
+### Dumping your sysMMC firmware
 
 !!!note "Ban risk?"
-    In this guide we will be booting into sysnand or system nand cfw. So you might be asking: 'Will I get banned?' The answer is no, simply running atmosphere and running homebrew apps has no ban risk these days.
+    In this guide we will be booting into sysMMC or system memory cfw. So you might be asking: 'Will I get banned?' The answer is no, simply running atmosphere and running homebrew apps has no ban risk these days.
 
 1. Inject hekate and go to `Launch -> Atmosphere FSS0 SYS`.
 2. Hold `R` while launching a digital game to boot into the homebrew launcher.
@@ -159,7 +159,7 @@ You can learn how to make one [here](/user_guide/sysnand/making_essential_backup
 7. Inside, select the `/payloads/` path option and find hekate, then press `A` to launch it, and `A` again to confirm.
 
 
-### Updating your emummc with ChoiDujourNX
+### Updating your emuMMC with ChoiDujourNX
 
 1. In hekate go to `Launch -> Atmosphere FSS0 Emu`.
 2. Once booted, hold `R` while launching a digital game to boot into the homebrew launcher.
@@ -170,4 +170,4 @@ You can learn how to make one [here](/user_guide/sysnand/making_essential_backup
 7. Hit `Select firmware` in the bottom right hand corner of the screen.
 8. Hit `Start installation`. Let it do its thing.
 9. Reboot when it is done.
-10. Once rebooted, make sure everything works ok, and if you want check ur firmware in `Settings -> System`
+10. Once rebooted, make sure everything works ok, and if you want check your firmware in `Settings -> System`.
