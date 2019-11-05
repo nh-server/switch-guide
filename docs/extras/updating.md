@@ -116,7 +116,7 @@ The last option involves running homebrew on your sysMMC.
     You can learn how to make one [here](/user_guide/sysnand/making_essential_backups/).
 
 !!!danger "Downgrading"
-    This guide is made for updating your emuMMC **NOT** for downgrading. Downgrading at all, sysMMC or emuMMC, is not recommended and not worth it. Downgrading is also very dangerous and can lead to serious complications even when performed correctly.
+    This guide is made for updating your emuMMC. It is **not** for downgrading. Downgrading at all, sysMMC or emuMMC, is not recommended and not worth it. Downgrading is also very dangerous and can lead to serious complications even when performed correctly.
 
 ### What you will need
 
@@ -126,7 +126,7 @@ The last option involves running homebrew on your sysMMC.
     - The latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases">Atmosphere</a>
 
 !!!danger ""
-    ChoiDujourNX is **NOT** the same as ChoiDujour. Please make sure you download ChoiDujour**NX**!
+    ChoiDujourNX is **not** the same as ChoiDujour. Please make sure you download ChoiDujour**NX**!
 
 ### Preparing your SD card
 
