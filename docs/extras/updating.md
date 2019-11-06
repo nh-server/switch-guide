@@ -29,7 +29,8 @@ If you did not install this utility, you can download it from <a href="https://g
 
 Updating your Atmosphere and Hekate installation using atmosphere-updater:
 
-!!! tip "" - Always update Atmosphere and Hekate together when using atmosphere-updater! Otherwise your `reboot_payload.bin` will not correctly be preserved.
+!!! tip ""
+    - Always update Atmosphere and Hekate together when using atmosphere-updater! Otherwise your `reboot_payload.bin` will not correctly be preserved.
 
 1. Open the Homebrew menu
 2. Open `Atmosphere-Updater`.
@@ -139,7 +140,7 @@ The last option involves running homebrew on your sysMMC.
 
 ### Dumping your sysMMC firmware
 
-!!!danger "Ban risk"
+!!!danger "Potential ban risk"
     In this guide we will be booting into sysMMC with the Atmosphere CFW loaded. There is a [ban risk](/faq/#is-it-safe-to-use-homebrew-will-i-get-banned) associated with doing this, however as long as you stick to the instructions in the guide, you should not risk being banned.
 
 !!!note "Clean SD card"
