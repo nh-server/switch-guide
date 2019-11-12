@@ -2,7 +2,7 @@
 
 # Sending a Payload
 
-!!! warning "If you are here to test if your switch is patched"
+!!! warning "If you are here to test if your Switch is patched"
     Make sure you have [put your device into RCM](../emummc/entering_rcm.md) and downloaded Hekate (if necessary, extract its zip file onto the root of your SD card) before continuing. Once finished, if your console is **not** patched, continue with [Partitioning the SD](../emummc/partitioning_sd.md) instead of `Making the emuMMC` at the end of this page.
 
 
