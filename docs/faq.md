@@ -147,9 +147,9 @@
     If you suspect your microSD card is fake or damaged, see the instructions <a href="https://3ds.eiphax.tech/sd.html" target="_blank">here</a> to verify the integrity of your SD card.
 
 ### Amazon/eBay/Aliexpress jigs
+
+!!!tip ""
     Although some Switch jigs are for sale on these websites and others like them, we have *no way of verifying that they are appropriate or safe for use with the Switch* and as such we do not recommend buying from these websites. The only seller we trust due to their reputation and our overall experience with the many jigs they have sent out is <a href="https://switchjigs.com/" target="_blank">Switch Jigs</a>.
-
-
 
 
 
