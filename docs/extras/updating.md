@@ -142,7 +142,7 @@ If you keep your emuMMC offline, you will have to use a gamecard to update your 
 2. Inject `RCMFirmwareDumper.bin` using TegraRCMGUI (Like you would with Hekate).
 2. Press the power button to start the dump.
 3. Wait about 1-2 minutes for the tool to dump your firmware.
-4. When the tool finishes, power off your Switch by holding the power button and go back to Hekate.
+4. When the tool finishes, reboot into Hekate by pressing Volume Down. (If you replaced reboot_to_payload.bin, you will reboot into RCM instead. If so, reinject Hekate.)
 
 ### Updating your emuMMC with ChoiDujourNX
 
