@@ -141,8 +141,8 @@ If you keep your emuMMC offline, you will have to use a gamecard to update your 
 1. Make sure your sysMMC is up to date. If your sysMMC is not up-to-date, update it through the System Settings.
 2. Inject `RCMFirmwareDumper.bin` using TegraRCMGUI (Like you would with Hekate).
 2. Press the power button to start the dump.
-3. Wait about 1-2 minutes for it to dump.
-4. When it is done, power off your switch and go back to Hekate.
+3. Wait about 1-2 minutes for the tool to dump your firmware.
+4. When the tool finishes, power off your Switch by holding the power button and go back to Hekate.
 
 ### Updating your emuMMC with ChoiDujourNX
 
@@ -150,9 +150,10 @@ If you keep your emuMMC offline, you will have to use a gamecard to update your 
 2. Once booted, hold `R` while launching a game to boot into the homebrew launcher.
 3. Navigate to the `system updates` folder where you should see ChoiDujourNX, launch it.
 4. Once in ChoiDujourNX, navigate to `Firmware/(firmware version number)`. In that folder you should see a large number of `.nca` files.
-5. Hit `Choose` in the bottom right hand corner of the screen.
+5. Tap on `Choose` in the bottom right hand corner of the screen.
 6. When given the option, select your firmware that you have just dumped. If it is available, choose the update with `(Exfat)`.
-7. Hit `Select firmware` in the bottom right hand corner of the screen.
-8. Hit `Start installation`. Let it do its thing.
-9. Reboot when it is done.
-10. Once rebooted, make sure everything works ok, and if you want check your firmware in `Settings -> System`.
+7. Tap `Select firmware` in the bottom right hand corner of the screen.
+8. Tap `Start installation`.
+9. Wait until ChoiDujourNX completes installing the dumped firmware.
+10. Once it completes, it will ask you if it can reboot. Tap `Reboot`.
+11. Once rebooted, launch into emuMMC and verify your system works. You can verify your system has been properly updated in `Settings -> System` on your emuMMC.
