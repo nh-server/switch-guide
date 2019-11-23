@@ -107,8 +107,6 @@ sysMMC and emuMMC have separate system firmwares and need to be updated separate
 
 If you keep your emuMMC offline, you will have to use a gamecard to update your system firmware, synchronize it with another Nintendo Switch or dump an updated firmware from your sysMMC.
 
-The last option involves running homebrew on your sysMMC.
-
 ## Updating emuMMC by dumping an updated firmware from your sysMMC
 
 !!!warning "Do you have an eMMC backup yet?"
@@ -122,9 +120,9 @@ The last option involves running homebrew on your sysMMC.
 ### What you will need
 
 !!!tip ""
-    - The latest release of <a href="https://github.com/J-D-K/biggestDump/releases" target="_blank">biggestDump</a>
+    - The latest release of <a href="https://github.com/suchmememanyskill/RCMFirmwareDumper/releases" target="_blank">RCMFirmwareDumper</a>
     - The latest release of <a href="https://switchtools.sshnuke.net" target="_blank">ChoiDujourNX</a>
-    - The latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases">Atmosphere</a>
+    - The latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a>
 
 !!!danger ""
     ChoiDujourNX is **not** the same as ChoiDujour. Please make sure you download ChoiDujour**NX**!
@@ -133,31 +131,25 @@ The last option involves running homebrew on your sysMMC.
 
 1. Insert your microSD card into your computer.
 2. Make a folder inside your `switch` folder called `system updates`.
-3. Copy `biggestDump.nro` to `/switch/system updates` from the `biggestDump.zip` file.
-4. Copy `ChoiDujourNX.nro` to `/switch/system updates` from the `ChoiDujourNX.zip` file.
-5. Update Atmosphere and Hekate by using the above guides.
-6. If you haven't already, update the sysMMC to the latest firmware.
+3. Download `RCMFirmwareDumper.bin` and place it somewhere on your PC (A good idea is to put it where you keep all your switch payloads like Hekate).
+3. Copy `ChoiDujourNX.nro` to `/switch/system updates` from the `ChoiDujourNX.zip` file.
+4. Update Atmosphere and Hekate by using the above guides.
+5. If you haven't already, update the sysMMC to the latest firmware.
 
 ### Dumping your sysMMC firmware
 
-!!!danger "Potential ban risk"
-    In this guide we will be booting into sysMMC with the Atmosphere CFW loaded. There is a [ban risk](/faq/#is-it-safe-to-use-homebrew-will-i-get-banned) associated with doing this, however as long as you stick to the instructions in the guide, you should not risk being banned.
-
-!!!note "Clean SD card"
-    Before starting these instructions, make sure that you have removed any existing `Update` folder from the root of your SD card.
-
-1. Inject Hekate and go to `Launch -> Atmosphere FSS0 SYS`.
-2. Hold `R` while launching a game to boot into the homebrew launcher.
-3. Once in there, navigate to the `system updates` folder where you should see biggestDump.
-4. Open it, and press `A` to dump your current firmware.
-5. Once it is finished, hold power and press reboot. This should cause you to reboot into Hekate (if it doesn't, you'll need to power off your Switch and inject Hekate again manually.)
+1. Make sure your sysMMC is up to date. If your sysMMC is not up-to-date, update it through the System Settings.
+2. Inject `RCMFirmwareDumper.bin` using TegraRCMGUI (Like you would with Hekate).
+2. Press the power button to start the dump.
+3. Wait about 1-2 minutes for it to dump.
+4. When it is done, power off your switch and go back to Hekate.
 
 ### Updating your emuMMC with ChoiDujourNX
 
 1. In Hekate go to `Launch -> Atmosphere FSS0 Emu`.
 2. Once booted, hold `R` while launching a game to boot into the homebrew launcher.
 3. Navigate to the `system updates` folder where you should see ChoiDujourNX, launch it.
-4. Once in ChoiDujourNX, navigate to `Update/registered`. In that folder you should see a ton of `.nca` files.
+4. Once in ChoiDujourNX, navigate to `Firmware/(firmware version number)`. In that folder you should see a large number of `.nca` files.
 5. Hit `Choose` in the bottom right hand corner of the screen.
 6. When given the option, select your firmware that you have just dumped. If it is available, choose the update with `(Exfat)`.
 7. Hit `Select firmware` in the bottom right hand corner of the screen.
