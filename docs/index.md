@@ -6,6 +6,9 @@ A guide collaboration between Nintendo Homebrew's Helpers and Staff, from stock 
 
 &nbsp;
 
+!!! danger "**DO NOT UPDATE** to Firmware **9.1.0**"
+    There is currently no sysMMC/sysNAND CFW available for 9.1.0. EmuMMC will continue to boot fine, provided that you do NOT update it past 9.0.1. **DO NOT** update past 9.0.1 until told otherwise!
+
 !!! tip "Discord Help"
     For live support with this guide please visit us in **#switch-assistance** over at the [Nintendo Homebrew Discord](https://discord.gg/C29hYvh).
 
