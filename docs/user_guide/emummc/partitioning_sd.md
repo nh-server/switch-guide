@@ -42,6 +42,7 @@
 5. Create another new partition with the following settings:
 	- Ignore the warning about Windows not being able to recognize the partition.
 	- Set the `File System` to `Unformatted`.
+	- Set the `Drive Letter` to `None`
 	- Set the metrics on the right of `Unallocated Space Before`, `Partition Size`, and `Unallocated Space After` from `GB` to `MB`.
 	- `Unallocated Space Before` should display as `0MB`.
 	- `Partition Size` should display as `29856MB`.
