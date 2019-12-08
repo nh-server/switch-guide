@@ -44,7 +44,7 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
     10. Copy *the contents* of the EdiZon `SD.zip` file to the root of your SD card
     11. Create a folder named `appstore` inside the `switch` folder on your SD card, and put `appstore.nro` in it
     12. Copy `ftpd.nro`, `NX-Shell.nro`, `NxThemesInstaller.nro` and `atmosphere-updater.nro` to the `switch` folder on your SD card
-	13. If you were already using your microSD card as a storage device for your games and backed it up before partitioning your microSD card, please place it back on the root of your microSD card.
+    13. If you were already using your microSD card as a storage device for your games and backed it up before partitioning your microSD card, please place it back on the root of your microSD card.
     14. Reinsert your SD card back into your Switch
 
      ![sdfilesimg](../img/sdfiles.png)
