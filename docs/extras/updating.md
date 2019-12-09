@@ -112,7 +112,7 @@ If you keep your emuMMC offline, you will have to use a gamecard to update your 
 !!!warning "Do you have an eMMC backup yet?"
     Please do not start this guide without doing a RAW GPP and a BOOT 0/1 eMMC backup!
 
-    You can learn how to make one [here](/user_guide/sysnand/making_essential_backups/).
+    You can learn how to make one [here](../user_guide/sysnand/making_essential_backups.md).
 
 !!!danger "Downgrading"
     This guide is made for updating your emuMMC. It is **not** for downgrading. Downgrading at all, sysMMC or emuMMC, is not recommended and not worth it. Downgrading is also very dangerous and can lead to serious complications even when performed correctly.
