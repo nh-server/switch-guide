@@ -5,9 +5,6 @@
 
 	Note: Before you freak out if the switch's screen stays black when you power on your switch after activating AutoRCM, it's not bricked. it's in RCM.
 
-!!! danger "If you're on Firmware 9.1.0"
-    Hekate has not been updated to support 9.1.0 yet, so it will *not* be able to boot stock. If you decide to enable autoRCM, you will not be able to boot CFW or OFW on sysNAND/sysMMC for the time being, unless autoRCM is removed. **EmuMMC is not affected as long as it is NOT updated to 9.1.0.**
-
 !!! warning "If you don't have a boot0/1 backup yet..."
 	You really want to kill your console huh? If you haven't made a boot0/1 backup yet, it is recommended to make one **right now**.
 
