@@ -3,9 +3,6 @@
 !!!warning "This will delete everything on your sd card"
 	Doing this will delete all your data from your sd card, be warned!
 
-!!!danger "Make sure you get the right drive"
-	Make sure you pick your SD card while following thse steps, and not some other drive. **if you pick the wrong drive that drive will be deleted instead, be warned!** 
-
 !!! warning "Backing up your existing Nintendo folder"
 	Before we start, if you are using a microSD card already as a storage device for your games, you will want to back up your `Nintendo` folder that is on the root of your microSD card to a safe place on your computer. This folder contains your games and saves.
 
@@ -38,6 +35,9 @@ What you need:
 
 !!! danger "SD card identification"
 	Make 100% sure you get your microSD card during the following steps. If you are not careful, you can end up wiping your entire linux filesystem. We are not responsible for data loss when doing this.
+
+!!! warning "Who is this for?"
+	This section is for the people who do not want to let a tool automatically modify their sd, and want to do it manually for more control over what gets created. This section helps with that
 
 !!! tip "What you will need (Linux)"
     - The latest version of `gparted`
