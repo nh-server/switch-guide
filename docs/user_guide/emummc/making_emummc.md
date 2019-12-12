@@ -9,6 +9,7 @@
 
 !!!tip ""
     1. Enter RCM and inject the Hekate payload
+        - If you forgot how to do this, re-read the [sending payload](sending_payload.md) section of the guide.
     2. Use the touch screen to navigate to `emuMMC`
     3. Tap on `Create emuMMC`, then select `SD Partition`
     4. Tap on `Continue`. It will start making the emummc now. After it's done return to the emuMMC menu using the `Close` buttons
@@ -31,6 +32,7 @@
 
 !!! tip ""
     1. Enter RCM and inject the Hekate payload
+        - If you forgot how to do this, re-read the [sending payload](sending_payload.md) section of the guide.
     2. Use the touch screen to navigate to `Tools` and then `Backup eMMC`
     3. Tap on `eMMC BOOT0 & BOOT1`
        - This may take a few minutes
@@ -59,6 +61,7 @@
 
 !!!tip ""
     1. Enter RCM and inject the Hekate payload.
+        - If you forgot how to do this, re-read the [sending payload](sending_payload.md) section of the guide.
     2. Tap the `Payloads` option, then press Lockpick_RCM.bin.
     3. If Lockpick_RCM asks you to select between SysNAND or emuMMC, choose SysNAND by navigating with the volume buttons and pressing the power button. If not, continue with step 4.
     4. If Lockpick_RCM prompts you to `Reboot to Sept`, press power or either volume button to do so. A "sept by Atmosphere" logo will then display, followed by Lockpick_RCM starting again. If it does *not* prompt you, continue on to step 5.
