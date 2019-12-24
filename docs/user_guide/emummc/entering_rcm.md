@@ -22,6 +22,9 @@ There are several methods of entering RCM (**R**e**C**overy **M**ode). The most 
 
     If your Switch displays the Nintendo logo and boots normally or immediately shuts down, you didn't successfully enter RCM and should try again. Otherwise, if your console did not turn on normally, and the screen remained black with no backlight, your Switch is in RCM.
 
+!!! snippet "Using a PC?"
+    If you're using a PC, try connecting a USB-C cable to the PC, shorting the pins using a method below, then holding Vol Up and connecting the USB-C cable. This can have more reliable results, but won't work if you are using a non-PC injection method.
+
 !!! tip ""
     ### RCM Jig (Easiest for beginners)
     <details>
@@ -37,7 +40,7 @@ There are several methods of entering RCM (**R**e**C**overy **M**ode). The most 
     !!! tip ""
         ![switchjigs.com jigs](../img/entering_rcm_jig.jpg)
 		
-	In the case you plan to make you own jig, this image lays out the pads numbers on the console. Make sure your jig NEVER touches pin 4. Pin 4 provides 5v power to the Joycons, if connected to any other pin you will fry the console.
+	In the case you plan to make your own jig, this image lays out the pads numbers on the console. Make sure your jig NEVER touches pin 4. Pin 4 provides 5v power to the Joycons, if connected to any other pin you will fry the console.
 
 	!!! tip ""
 		![Console Numbered Pads Refrence](../img/entering_rcm_pads_numbered.jpg)
