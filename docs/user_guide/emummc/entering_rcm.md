@@ -22,7 +22,7 @@ There are several methods of entering RCM (**R**e**C**overy **M**ode). The most 
 
     If your Switch displays the Nintendo logo and boots normally or immediately shuts down, you didn't successfully enter RCM and should try again. Otherwise, if your console did not turn on normally, and the screen remained black with no backlight, your Switch is in RCM.
 
-!!! snippet "Using a PC?"
+!!! note "Using a PC?"
     If you're using a PC, try connecting a USB-C cable to the PC, shorting the pins using a method below, then holding Vol Up and connecting the USB-C cable. This can have more reliable results, but won't work if you are using a non-PC injection method.
 
 !!! tip ""
