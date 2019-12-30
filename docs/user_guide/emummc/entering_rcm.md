@@ -129,7 +129,7 @@ There are several methods of entering RCM (**R**e**C**overy **M**ode). The most 
         <summary>Click to expand!</summary>
 
     !!! snippet "Note"
-        This method will result in the right Joy-Con being detected as in wireless mode while attached to the Switch, and this method may result in the Joy-Con being permanently detected as wireless if you update the Joy-Con firmware while this mod is installed. In the latter case, fixing this requires opening up the Joy-Con and reseating the battery.
+        This method will result in the right Joy-Con being detected as in wireless mode while attached to the Switch, and this method may result in the Joy-Con being permanently detected as wireless if you update the Joy-Con firmware while this mod is installed. In the latter case, fixing this requires opening up the Joy-Con and resetting the battery.
 
     !!! snippet "Note"
         This method requires opening your right Joy-Con, voiding its warranty. Not for the faint of heart.
