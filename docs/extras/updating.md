@@ -145,7 +145,7 @@ If you keep your emuMMC offline, you will have to use a gamecard to update your 
 3. Using the volume and power buttons, select `Tools` and then `Dump Firmware`.
 4. Wait about 1-2 minutes for the tool to dump your firmware.
 5. When the tool finishes, press any volume button.
-6. Select `Reboot to Hekate` (if this is not an available option, select `Reboot to RCM` and reinject Hekate) using the volume and power buttons.
+6. Select `Exit` and then `Reboot to Hekate`.
 
 ### Updating your emuMMC with ChoiDujourNX
 
