@@ -122,7 +122,7 @@ If you keep your emuMMC offline, you will have to use a gamecard to update your 
 ### What you will need
 
 !!!tip ""
-    - The latest release of <a href="https://github.com/suchmememanyskill/RCMFirmwareDumper/releases" target="_blank">RCMFirmwareDumper</a>
+    - The latest release of <a href="https://github.com/suchmememanyskill/TegraExplorer/releases" target="_blank">TegraExplorer</a>
     - The latest release of <a href="https://switchtools.sshnuke.net" target="_blank">ChoiDujourNX</a>
     - The latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a>
 
@@ -133,7 +133,7 @@ If you keep your emuMMC offline, you will have to use a gamecard to update your 
 
 1. Insert your microSD card into your computer.
 2. Make a folder inside your `switch` folder called `system updates`.
-3. Download `RCMFirmwareDumper.bin` and place it somewhere on your PC (A good idea is to put it where you keep all your switch payloads like Hekate).
+3. Download `TegraExplorer.bin` and place it somewhere on your PC (A good idea is to put it where you keep all your switch payloads like Hekate).
 3. Copy `ChoiDujourNX.nro` to `/switch/system updates` from the `ChoiDujourNX.zip` file.
 4. Update Atmosphere and Hekate by using the above guides.
 5. If you haven't already, update the sysMMC to the latest firmware.
@@ -141,18 +141,18 @@ If you keep your emuMMC offline, you will have to use a gamecard to update your 
 ### Dumping your sysMMC firmware
 
 1. Make sure your sysMMC is up to date. If your sysMMC is not up-to-date, update it through the System Settings.
-2. Inject `RCMFirmwareDumper.bin` using TegraRCMGUI (Like you would with Hekate).
-3. Using the volume and power buttons, select `Dump Firmware`.
+2. Inject `TegraExplorer.bin` using TegraRCMGUI (Like you would with Hekate).
+3. Using the volume and power buttons, select `Tools` and then `Dump Firmware`.
 4. Wait about 1-2 minutes for the tool to dump your firmware.
 5. When the tool finishes, press any volume button.
-6. Select `Reboot to Hekate` (if this is not an available option, select `Reboot to RCM` and reinject Hekate) using the volume and power buttons.
+6. Select `Exit` and then `Reboot to Hekate`.
 
 ### Updating your emuMMC with ChoiDujourNX
 
 1. In Hekate go to `Launch -> Atmosphere FSS0 Emu`.
 2. Once booted, hold `R` while launching a game to boot into the homebrew launcher.
 3. Navigate to the `system updates` folder where you should see ChoiDujourNX, launch it.
-4. Once in ChoiDujourNX, navigate to `Firmware/(firmware version number)`. In that folder you should see a large number of `.nca` files.
+4. Once in ChoiDujourNX, navigate to `tegraexplorer/Firmware/<latest firmware number>`. In that folder you should see a large number of `.nca` files.
 5. Tap on `Choose` in the bottom right hand corner of the screen.
 6. When given the option, select your firmware that you have just dumped. If it is available, choose the update with `(Exfat)`.
 7. Tap `Select firmware` in the bottom right hand corner of the screen.
