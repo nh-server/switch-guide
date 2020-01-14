@@ -19,6 +19,7 @@ What you need:
 1. Inject the TegraExplorer payload with your 64GB (or larger) SD card inserted into your Switch.
 	- If you forgot how to do this, re-read the [sending payload](sending_payload.md) section of the guide.
 2. Navigate to `SD Format` and press the power button to enter the SD format menu.
+	- If you can't find the SD Format option, make sure that your SD card is inserted and select Mount SD.
 3. Navigate to `Format for EmuMMC setup` and press the power button to confirm.
 5. Read the warning, and press power after 10 seconds to format your SD card.
 	- Note: This will delete all data on your SD card. Make sure you backed up your Nintendo folder!
