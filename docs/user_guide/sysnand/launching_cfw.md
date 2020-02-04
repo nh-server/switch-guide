@@ -26,7 +26,7 @@ To verify Atmosphere launched properly, open the Settings applet, and navigate t
 
 ### Launching the Homebrew Menu
 
-You will now be able to launch the Homebrew Menu by holding the R button while launching any game (including demos/cartridges), application (e.g. Youtube/Hulu), or the album. If R is not held, the album, game, or application will launch like normal.
+You will now be able to launch the Homebrew Menu by opening the album or by holding the R button while launching any game (including demos/cartridges), application (e.g. Youtube/Hulu). If R is not held, the game or application will launch like normal.
     
 !!! warning "A note about using the album for the Homebrew Menu"
     - Using the album for the Homebrew Menu instead of a game or application has several limitations, including but not limited to: a smaller amount of available memory (RAM), as well as being unable to launch a full-featured web browser. It is strongly recommended to launch homebrew through applications or games instead.
