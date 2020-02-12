@@ -95,6 +95,31 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
 &nbsp;
 
+## Chomebook
+
+### What you need
+
+!!! tip ""
+    - A USB-C cable
+    - If your chromebook has a USB-C port, do note that this will not work using a C-C cable.
+
+    Payloads you'll need for this guide:
+
+    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a> (either the hekate_ctcaer bin or the hekate_ctcaer zip)
+    - The latest release of <a href="https://github.com/suchmememanyskill/TegraExplorer/releases" target="_blank">TegraExplorer</a>
+
+### Instructions
+    
+!!! tip ""
+    1. Go to the injection [website](https://switchgui.de/web-payload/) and scroll all the way down
+    2. Select the "Upload Payload" option and upload the hekate_ctcaer `.bin` file from the Hekate `.zip` file.
+        - The first time you read this page you should inject TegraExplorer.bin.
+    4. Connect your Switch in RCM to your Chromebook using the USB cable.
+    5. Select "Do the thing". A pop up will appear. Click the `APX` option.
+    6. Press the Connect button and the payload will be injected.
+    
+&nbsp;
+
 !!! danger "If nothing happens after you send the payload"
     If your console's screen remains black after you've sent Hekate, it's possible your payload was corrupted, or that your console is patched. If your payload injector program shows that 0 bytes were sent, then it is definitely patched, so you'll be unable to proceed with the rest of the guide.
 
