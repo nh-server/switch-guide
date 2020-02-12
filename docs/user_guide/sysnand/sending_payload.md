@@ -92,7 +92,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
     
 !!! tip ""
     1. Go to the website https://switchgui.de/web-payload/ and scroll all the way down
-    2. Select the "Upload Payload" option and upload the hekate_ctcaer `.bin` file (the first time you do this you should use the TegraExplorer `.bin` file)
+    2. Select the "Upload Payload" option and upload the hekate_ctcaer `.bin` file
     3. Connect your switch that is in RCM to the computer
     4. Select "Do the thing" and when the pop-up appear, select the APX option
     5. Press the Connect button and the payload will be injected
