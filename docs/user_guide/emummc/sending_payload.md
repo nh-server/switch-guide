@@ -49,7 +49,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
     - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a> (either the hekate_ctcaer bin or the hekate_ctcaer zip)
     - The latest release of <a href="https://github.com/suchmememanyskill/TegraExplorer/releases" target="_blank">TegraExplorer</a>
-
+If you do not want to run the fusee-gelee program, you may run a chromium based browser (you will need to do this as root on linux) and follow the steps for Chromebooks.
 ### Instructions
 
 !!! tip ""
@@ -78,7 +78,9 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
     - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a> (either the hekate_ctcaer bin or the hekate_ctcaer zip)
     - The latest release of <a href="https://github.com/suchmememanyskill/TegraExplorer/releases" target="_blank">TegraExplorer</a>
-		
+    
+Optionally, you can launch it from a chromium based browser by going to the site https://webcfw.sdsetup.com/ and following the same instructions as Chromebook users would follow (you can find this below).
+
 ### Instructions
 
 !!! tip ""
@@ -99,5 +101,19 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
     If your console's screen remains black after you've sent Hekate, it's possible your payload was corrupted, or that your console is patched. If your payload injector program shows that 0 bytes were sent, then it is definitely patched, so you'll be unable to proceed with the rest of the guide.
 
 &nbsp;
+
+
+## Chrome OS
+
+### What you need
+
+!!! tip “”
+    1. Download and extract the hekate_ctcaer `.bin` file from the Hekate `.zip`file.
+    2. Go to the website https://webcfw.sdsetup.com/.
+    3. Under "Setup payload delivery" find where it says "Select payload" and click on where it says `Hekate`.
+    4. Press "Upload payload" and select the hekate_ctcaer `.bin` file you extracted earlier. The first time you do this you should use TegraExplorer.bin.
+    5. Connect your switch to your chromebook with a usb-usbc cable while it is in RCM mode.
+    6. Select deliver payload and select "APX" when a prompt asks you what device.
+    7. Press ok and the payload will be sent.
 
 #### [Continue to Partitioning the SD <i class="fa fa-arrow-circle-right fa-lg"></i>](partitioning_sd.md)
