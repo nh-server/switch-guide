@@ -10,10 +10,11 @@ We will be using [90DNS](https://gitlab.com/a/90dns), a community-run custom DNS
 
 !!! tip ""
     1. Go to the Settings applet, and then to the Internet tab.
-    2. Select the WiFi network you are connected to and click `Change Settings`.
-    3. Change DNS Settings to Manual.
-    4. Pick the Server that is the closest to your device out of the below chart and      enter its Primary and Secondary DNS into your connection.
-    5. Save Settings and test connection.
+    2. If your Switch is not connected to a WiFi network, provide a **incorrect** password of equal length, then when asked if you wish to re-enter the password, click `Change Settings`, and continue from step 4.
+    3. Select the WiFi network you are connected to and click `Change Settings`.
+    4. Change DNS Settings to Manual.
+    5. Pick the Server that is the closest to your device out of the below chart and      enter its Primary and Secondary DNS into your connection.
+    6. Save Settings and test connection.
    
 | Location                              | Primary DNS         | Secondary DNS       |
 |:--------------------------------------|:--------------------|:--------------------|
