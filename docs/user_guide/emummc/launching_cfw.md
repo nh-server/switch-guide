@@ -42,7 +42,7 @@ You will now be able to launch the Homebrew Menu by opening the album or by hold
 ### What the included homebrew applications do
 
 !!! tip ""
-    - EdiZon is a save manager, it can dump and restore saves from/to your system. For more information, see [Save Management](../../extras/save_management.md)
+    - Checkpoint is a save manager, it can dump and restore saves from/to your system. For more information, see [Save Management](../../extras/save_management.md)
 
     - FTPD is a ftp tool for connecting your Switch's sd card wirelessly to your pc. Tools like Filezilla can connect to your switch on `(ip of switch):5000`
 
