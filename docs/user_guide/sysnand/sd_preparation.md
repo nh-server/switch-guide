@@ -27,7 +27,7 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
     - The bootlogo zip folder: <a href="../../../files/bootlogos.zip" download>bootlogos.zip</a>
     - The latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a> (Download the `atmosphere-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip` release of Atmosphere.)
      - The latest release of <a href="https://github.com/shchmue/Lockpick_RCM/releases" target="_blank">Lockpick_RCM</a> (Download the `Lockpick_RCM.bin` release of Lockpick)
-    - The latest release of <a href="https://github.com/WerWolv/EdiZon/releases" target="_blank">EdiZon</a> (Download the `SD.zip` release of EdiZon)
+    - The latest release of <a href="https://github.com/FlagBrew/Checkpoint/releases" target="_blank">Checkpoint</a> (Download the `Checkpoint.nro` release of Checkpoint)
     - The latest release of <a href="https://github.com/mtheall/ftpd/releases" target="_blank">FTPD</a> (Download the `ftpd.nro` release of FTPD)
     - The latest release of <a href="https://github.com/exelix11/SwitchThemeInjector/releases" target="_blank">NXThemeInstaller</a> (Download the `NxThemesInstaller.nro` release of NxThemeInstaller)
     - The latest release of <a href="https://github.com/joel16/NX-Shell/releases" target="_blank">NX-Shell</a> (Download the `NX-Shell.nro` release of nx-shell)
@@ -47,10 +47,9 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
     7. Rename Hekate's `.bin` file to `reboot_payload.bin`
     8. Copy `hekate_ipl.ini` to the `bootloader` folder on your SD card
     9. Copy `Lockpick_RCM.bin` to the `/bootloader/payloads` folder on your SD card
-    10. Copy *the contents* of the EdiZon `SD.zip` file to the root of your SD card
-    11. Create a folder named `appstore` inside the `switch` folder on your SD card, and put `appstore.nro` in it
-    12. Copy `ftpd.nro`, `NX-Shell.nro`, `NxThemesInstaller.nro` and `atmosphere-updater.nro` to the `switch` folder on your SD card
-    13. Reinsert your SD card back into your Switch
+    10. Create a folder named `appstore` inside the `switch` folder on your SD card, and put `appstore.nro` in it
+    11. Copy `Checkpoint.nro`, `ftpd.nro`, `NX-Shell.nro`, `NxThemesInstaller.nro` and `atmosphere-updater.nro` to the `switch` folder on your SD card
+    12. Reinsert your SD card back into your Switch
 
      ![sdfilesimg](../img/sdfiles.png)
 
