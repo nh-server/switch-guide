@@ -16,7 +16,7 @@ RCM (short for ReCovery Mode) is a mode for the switch that allows nintendo to s
 
 	#### Pros of using emuNAND over sysNAND CFW:
 	
-	- Installing game cartridge dumps without "dirtying" sysNAND, allowing sysNAND to be used online without ban risk.
+	- Using homebrew applications such as save editors, or cheating in games offline without "dirtying" or affecting sysNAND, allowing sysNAND to be used online without ban risk.
 	- Allowing users on patched Switches using Caffeine to update their emuNAND to latest and use it online, keeping sysNAND at a lower vulnerable version.
 
 &nbsp;
