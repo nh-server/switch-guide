@@ -67,21 +67,21 @@ The following information is based on [this GBATemp thread](https://gbatemp.net/
 
 !!! note "Note"
     Nereba and Caffeine how-to guides are currently a Work-In-Progress (WIP)!
-    
+
 !!! note "Note"
     While the "New" Switch (HAC-001-01)'s earliest possible firmware is 7.0.1, it is **not** vulnerable to *déjà vu*, the exploit used by Nereba and Caffeine, because of hardware differences from the "Old" Switch (HAC-001).
 
 &nbsp;
 
 | Firmware Version | Unpatched Switches (HAC-001) | Patched Switches (HAC-001) | "New" Switch (HAC-001-01)   | Switch Lite (HDH-001)  | 
-|:--------------|:--------------------------------|:---------------------------|:----------------------------|:-----------------------|
-| 1.0.0         | Nereba or [**RCM**](rcm.md)     | **N/A**                    | **N/A**                     | **N/A**                |
-| 2.0.0 - 3.0.2 | Caffeine or [**RCM**](rcm.md)   | **N/A**                    | **N/A**                     | **N/A**                |
-| 4.0.0 - 4.1.0 | Caffeine or [**RCM**](rcm.md)   | Caffeine                   | **N/A**                     | **N/A**                |
-| 5.0.0 - 7.0.0 | [**RCM**](rcm.md)               | Wait for CFW               | **N/A**                     | **N/A**                |
-| 7.0.1         | [**RCM**](rcm.md)               | Wait for CFW               | Cart update to 8.0.1        | **N/A**                |
-| 8.0.1         | [**RCM**](rcm.md)               | Wait for homebrew          | Wait for homebrew           | Wait for homebrew      |
-| 8.1.0 - 9.2.0 | [**RCM**](rcm.md)               | Unhackable (currently)     | Unhackable (currently)      | Unhackable (currently) |
+|:---------------|:--------------------------------|:---------------------------|:----------------------------|:-----------------------|
+| 1.0.0          | Nereba or [**RCM**](rcm.md)     | **N/A**                    | **N/A**                     | **N/A**                |
+| 2.0.0 - 3.0.2  | Caffeine or [**RCM**](rcm.md)   | **N/A**                    | **N/A**                     | **N/A**                |
+| 4.0.0 - 4.1.0  | Caffeine or [**RCM**](rcm.md)   | Caffeine                   | **N/A**                     | **N/A**                |
+| 5.0.0 - 7.0.0  | [**RCM**](rcm.md)               | Wait for CFW               | **N/A**                     | **N/A**                |
+| 7.0.1          | [**RCM**](rcm.md)               | Wait for CFW               | Cart update to 8.0.1        | **N/A**                |
+| 8.0.1          | [**RCM**](rcm.md)               | Wait for homebrew          | Wait for homebrew           | Wait for homebrew      |
+| 8.1.0 - 10.0.0 | [**RCM**](rcm.md)               | Unhackable (currently)     | Unhackable (currently)      | Unhackable (currently) |
 
 &nbsp;
 
