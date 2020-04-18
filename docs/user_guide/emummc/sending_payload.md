@@ -95,7 +95,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
 &nbsp;
 
-## Chomebook
+## Chromebook
 
 ### What you need
 
