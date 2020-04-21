@@ -7,7 +7,7 @@ This guide was written by staff members of the [Nintendo Homebrew Discord Server
 &nbsp;
 
 !!! tip "Credits"
-    **Flump, jerbear64, Phoenix, xGhostBoyx, Such Meme Many Skill, and oreo639.**
+    **Flump, jerbear64, Phoenix, xGhostBoyx, Such Meme Many Skill, PhazonicRidley, emmo, dennthecafebabe, Dax, and oreo639.**
 
     Thank you to [everyone else](https://github.com/nh-server/switch-guide/graphs/contributors) that contributed to the guide on GitHub, but special thanks to **noirscape**.
 
