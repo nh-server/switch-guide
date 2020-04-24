@@ -10,40 +10,32 @@ We will be using [90DNS](https://gitlab.com/a/90dns), a community-run custom DNS
 
 !!! tip ""
     Enter the console's System Settings, and then proceed to the Internet tab. From here:
-    !!! tip ""
-        ### If your console is not already connected to the Internet via WiFi
-        <details>
-            <summary>Click to expand!</summary>
+    
 
-        !!! tip ""
-            1. Select your WiFi network from the list of networks.
-            2. Enter an **incorrect** password that is 8 characters long and press OK.
-            3. After a few moments of attempting to connect, the console will display a connection error.
-            4. Press OK to close the error message.
-            5. Press Close when it offers to display more details about the error.
-            6. When asked if you want to re-enter the password, pick "View Settings".
-            7. Proceed to the "Changing DNS Settings" section below.
-        </details>
+    ### Setting up a new connection via WiFi
+    
+    !!! warning "Open WiFi networks without a password"
+        Not all WiFi networks require a password to connect. If your network does not use one, you can use the `Manual Setup` option, located at the very bottom of the `Internet Settings` screen below all other WiFi networks.
+        
+    1. Select your WiFi network from the list of networks.
+    2. Enter an **incorrect** password that is 8 characters long and press `OK`.
+    3. After a few moments of attempting to connect, the console will display a connection error.
+    4. Press `OK` to close the error message.
+    5. Press `Close` when it offers to display more details about the error.
+    6. When asked if you want to re-enter the password, pick `View Settings`.
+    7. Change `DNS Settings` to `Manual`.
+    8. Pick the server that is the closest to your location out of the below chart and enter its `Primary` and `Secondary` DNS into your connection settings.
+    9. Enter the correct password for your WiFi connection.
+    10. Save the settings and test the connection.
 
-    !!! tip ""
-        ### If your console is already connected to the Internet
-        <details>
-            <summary>Click to expand!</summary>
+    -----
 
-        !!! tip ""
-            1. Select the network you are connected to and select "Change Settings".
-            2. Proceed to the "Changing DNS Settings" section below.
-        </details>
+    ### Editing an existing WiFi connection
+    1. Select your existing WiFi network from the list of networks.
+    2. Select `Change Settings`.
+    3. Pick the server that is the closest to your location out of the below chart and enter its Primary and Secondary DNS into your connection settings.
+    4. Save the settings and test the connection.
 
-!!! warning "If you used an incorrect password to change the WiFi settings"
-    Don't forget to change the password to the correct one!
-
-### Changing DNS Settings
-
-!!! tip ""
-    1. Change DNS Settings to Manual.
-    2. Pick the Server that is the closest to your device out of the below chart and      enter its Primary and Secondary DNS into your connection.
-    3. Save Settings and test connection.
    
 | Location                              | Primary DNS         | Secondary DNS       |
 |:--------------------------------------|:--------------------|:--------------------|
