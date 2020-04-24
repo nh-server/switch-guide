@@ -1,6 +1,6 @@
 # Blocking Updates
 
-You can add custom DNS to your WiFi connection that will block all communication with the Nintendo servers. This will stop any updates and reporting to Nintendo, but it will prevent use of the eShop and online games.
+You can add a custom DNS to your WiFi connection that will block all communication with Nintendo's servers. This will stop any updates and reporting to Nintendo, but it will prevent use of the eShop and online games.
 
 We will be using [90DNS](https://gitlab.com/a/90dns), a community-run custom DNS server. If you prefer, you can run your own DNS server following the instructions on the [GitLab repository.](https://gitlab.com/a/90dns/blob/master/SELFHOST.md)
 
@@ -9,11 +9,41 @@ We will be using [90DNS](https://gitlab.com/a/90dns), a community-run custom DNS
 ### Instructions
 
 !!! tip ""
-    1. Go to the Settings applet, and then to the Internet tab.
-    2. Select the WiFi network you are connected to and click `Change Settings`.
-    3. Change DNS Settings to Manual.
-    4. Pick the Server that is the closest to your device out of the below chart and      enter its Primary and Secondary DNS into your connection.
-    5. Save Settings and test connection.
+    Enter the console's System Settings, and then proceed to the Internet tab. From here:
+    !!! tip ""
+        ### If your console is not already connected to the Internet via WiFi
+        <details>
+            <summary>Click to expand!</summary>
+
+        !!! tip ""
+            1. Select your WiFi network from the list of networks.
+            2. Enter an **incorrect** password that is 8 characters long and press OK.
+            3. After a few moments of attempting to connect, the console will display a connection error.
+            4. Press OK to close the error message.
+            5. Press Close when it offers to display more details about the error.
+            6. When asked if you want to re-enter the password, pick "View Settings".
+            7. Proceed to the "Changing DNS Settings" section below.
+        </details>
+
+    !!! tip ""
+        ### If your console is already connected to the Internet
+        <details>
+            <summary>Click to expand!</summary>
+
+        !!! tip ""
+            1. Select the network you are connected to and select "Change Settings".
+            2. Proceed to the "Changing DNS Settings" section below.
+        </details>
+
+!!! warning "If you used an incorrect password to change the WiFi settings"
+    Don't forget to change the password to the correct one!
+
+### Changing DNS Settings
+
+!!! tip ""
+    1. Change DNS Settings to Manual.
+    2. Pick the Server that is the closest to your device out of the below chart and      enter its Primary and Secondary DNS into your connection.
+    3. Save Settings and test connection.
    
 | Location                              | Primary DNS         | Secondary DNS       |
 |:--------------------------------------|:--------------------|:--------------------|
@@ -40,3 +70,4 @@ We will be using [90DNS](https://gitlab.com/a/90dns), a community-run custom DNS
         ![tester example](../extras/img/90dns_tester_switch.jpg)
 
 </details>
+
