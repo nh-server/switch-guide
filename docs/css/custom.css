@@ -6,3 +6,7 @@ summary {
 code {
   white-space: normal !important;
 }
+
+body {
+    color: white;
+}
