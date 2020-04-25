@@ -66,7 +66,7 @@
     Major updates to the Switch, or updates in which a large vulnerability has been patched, irreversibly burn one of the Switch's 64 "e-fuses". 
     *If the Switch ever detects that more e-fuses have been burned than expected (meaning a downgrade happened), it will refuse to boot. Replacing e-fuses is not an option.*
     You can find more information about fuses <a href="https://switchbrew.org/wiki/Fuses#Anti-downgrade" target="_blank">here</a>
-    Atmosphere 0.11.1 works fine with the new 10.0.0 firmware update on unpatched units. The situation for patched and new units is this:
+    Atmosphere 0.12.0 works fine with the new 10.0.1 firmware update on unpatched units. The situation for patched and new units is this:
     **"Old"** *Patched Switch (HAC-001): Do NOT update past 7.0.1. Units on 7.0.1 and below will eventually get CFW. Patched units that have upgraded to 8.0.0 or 8.0.1 will likely get homebrew.*
     **"New"** *Switch (HAC-001-01): Do NOT update past 8.0.1. Units on 8.0.1 and below will likely get homebrew. Units on 8.1.0 and higher are not expected to be hacked and can be updated.*
     **Switch Lite** *(HDH-001): Do NOT update past 8.0.1. Units on 8.0.1 and below will likely get homebrew. Units on 8.1.0 and higher are not expected to be hacked and can be updated.*
