@@ -17,7 +17,7 @@
 
 -----
 
-### Making a nand backup
+### Making a NAND backup
 
 
 !!! danger "Important"
@@ -33,9 +33,9 @@
     1. Enter RCM and inject the Hekate payload
     2. Use the touch screen to navigate to `Tools` and then `Backup eMMC`
     3. Tap on `eMMC BOOT0 & BOOT1`
-       - This may take a few minutes
+       - This should only take a few seconds, but if your SD card is very slow, it may take around a minute.
     4. Tap on `Close` to continue, then tap on `eMMC RAW GPP`
-       - This will take a long time
+       - This will take a long time. Expect it to take between 10 minutes to an hour (or more, if your SD card is very slow).
        - On FAT32 SD cards or cards that have less than 32 gigabytes of space available, the NAND will be split into 1 or 2 gigabyte parts.
           - Hekate will stop producing these parts when it runs out of space. When this happens, do the following:
           - Power off your system
