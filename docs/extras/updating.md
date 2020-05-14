@@ -8,9 +8,7 @@ After following our guide, your system will consist of three core elements that 
 
 When updating Atmosphere always make sure to _read the release notes_. They may list important changes and modifications to your system.
 
-### Manual method: SD card
-
-When a new version of Atmosphere releases, you can always update Atmosphere by following these steps:
+When a new version of Atmosphere releases, you can update Atmosphere by following these steps:
 
 1. Turn off your Nintendo Switch and plug your SD card in your computer.
 2. Back up `reboot_payload.bin` from the `atmosphere` folder of your SD card to your computer.
@@ -21,35 +19,11 @@ When a new version of Atmosphere releases, you can always update Atmosphere by f
 5. Place your copy of `reboot_payload.bin` in the `atmosphere` folder. If you are prompted to overwrite files, do so.
 6. Put your SD card back in your Switch and launch CFW.
 
-### Automated method: atmosphere-updater
-
-It is also possible to update Atmosphere and Hekate through a homebrew utility called `atmosphere-updater`. This utility should be installed if you followed our guide.
-
-If you did not install this utility, you can download it from <a href="https://github.com/ITotalJustice/atmosphere-updater/releases" target="_blank">here</a> or from the homebrew appstore.
-
-Updating your Atmosphere and Hekate installation using atmosphere-updater:
-
-!!! tip ""
-    - Always update Atmosphere and Hekate together when using atmosphere-updater! Otherwise your `reboot_payload.bin` will not correctly be preserved.
-
-1. Open the Homebrew menu
-2. Open `Atmosphere-Updater`.
-3. Select `Update Hekate (for hekate / kosmos users)`.
-4. Press `A` when prompted.
-5. When asked to update AMS and hekate, press `A`.
-6. When asked to overwrite Atmosphere ini files, press `B`.
-7. Wait for it to complete.
-8. Select `Reboot (reboot to payload)`.
-9. Press `A`.
-10. You can now select your launch option in Hekate.
-
 ## Updating Hekate
 
 When updating Hekate always make sure to _read the release notes_. They may list important changes and modifications to your system.
 
-### Manual method: SD card
-
-When a new version of Hekate releases, you can always update by following these steps:
+When a new version of Hekate releases, you can update by following these steps:
 
 1. Turn off your Nintendo Switch and plug your SD card in your computer.
 2. Download the latest version of <a href="https://github.com/CTCaer/Hekate/releases/" target="_blank">Hekate</a> (Download the `hekate_ctcaer_(version).zip` release of hekate).
@@ -59,33 +33,11 @@ When a new version of Hekate releases, you can always update by following these 
 6. Rename Hekate's `.bin` file to `reboot_payload.bin`.
 7. Put your SD card back in your Switch and launch CFW.
 
-### Automated method: atmosphere-updater
-
-It is also possible to update Atmosphere and Hekate through a homebrew utility called `atmosphere-updater`. This utility should be installed if you followed our guide. 
-
-If you did not install this utility, you can download it from <a href="https://github.com/ITotalJustice/atmosphere-updater/releases" target="_blank">here</a> or from the homebrew appstore.
-
-Updating your Atmosphere and Hekate installation using atmosphere-updater:
-
-!!!tip ""
-    - Always update Atmosphere and Hekate together when using atmosphere-updater! Otherwise your `reboot_payload.bin` will not correctly be preserved.
-
-1. Open the Homebrew menu
-2. Open `Atmosphere-Updater`.
-3. Select `Update Hekate (for hekate / kosmos users)`.
-4. Press `A` when prompted.
-5. When asked to update AMS and hekate, press `A`.
-6. When asked to overwrite Atmosphere ini files, press `B`.
-7. Wait for it to complete.
-8. Select `Reboot (reboot to payload)`.
-9. Press `A`.
-10. You can now select your launch option in Hekate.
-
 ## Updating your firmware
 
 Always check _before_ updating your system firmware if the latest version of Atmosphere _as well_ as the latest version of Hekate support the firmware version you are updating towards.
 
-Currently the latest version supported by Atmosphere and Hekate is: **10.0.1**.
+Currently the latest version supported by Atmosphere and Hekate is: **10.0.2**.
 
 In addition, updating to or past some firmwares update the gamecard firmware. Reference the table below for information about these.
 

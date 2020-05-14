@@ -52,4 +52,3 @@ You will now be able to launch the Homebrew Menu by opening the album or by hold
 
     - hbappstore is a homebrew app store where a large collection of switch homebrew is kept.
 
-    - atmosphere-updater is a homebrew app capable of updating Atmosphere. See [this](../../extras/updating.md) page for information on keeping your system up to date.
