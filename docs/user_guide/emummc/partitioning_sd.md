@@ -23,7 +23,7 @@ What you need:
 3. Navigate to `Format for EmuMMC setup` and press the power button to confirm.
 5. Read the warning, and press power after 10 seconds to format your SD card.
 	- Note: This will delete all data on your SD card. Make sure you backed up your Nintendo folder!
-	- This will take about 5 minutes.
+	- This should not take more than a few seconds.
 6. Press any button to return to the main menu.
 7. Navigate to `Exit` and press the power button to enter the Exit menu.
 8. Navigate to `Reboot to RCM` and press the power button to reboot to RCM. It's now safe to eject your sd card for the next part of the guide.
