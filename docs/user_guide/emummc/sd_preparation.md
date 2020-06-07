@@ -6,12 +6,6 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
 
 &nbsp;
 
-!!! danger "Notice"
-    Your SD card will need to be formatted as either FAT32 or exFAT, but FAT32 is recommended as it is more stable and will work out of the box with the Switch's operating system. Using exFAT on the Switch should be avoided due to the filesystem being prone to corruption, and sometimes causing custom firmware fail to boot. You will also need to install the exFAT update for your Switch, which is downloaded when you insert an exFAT formatted SD card in to your Switch. Note that this will update your console and requires an internet connection.
-
-!!! danger "Notice"
-If you successfully partitioned your SD card in the previous page, it will already be formatted as FAT32.
-
 !!! warning "File name extensions"
     If you use Windows, you should enable file name extensions before continuing. See [this link](../../extras/showing_file_extensions.md) for a guide on how to do this.
 
