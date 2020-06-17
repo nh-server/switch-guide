@@ -55,6 +55,10 @@ Atmosphere (and Hekate) come bundled with patches that automatically disable the
 
 Otherwise, you can safely update your system firmware through the system settings.
 
+!!!warning "Note about autoRCM"
+    If you have autoRCM enabled and you're updating your system in stock, **updating will disable autoRCM** and you will need to enter RCM manually to boot custom firmware again.
+    To prevent autoRCM from being disabled, boot CFW on sysMMC and update through settings from there.
+
 ### About emuMMC
 
 sysMMC and emuMMC have separate system firmwares and need to be updated separately.
