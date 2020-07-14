@@ -13,10 +13,7 @@ This section details how to add an udev rule to let you send a payload to the Ni
 ## Option 1: Manually adding rules and group
 
 !!! tip ""
-    The following instructions are not for beginners. Only do this if you are confident in what you are doing.
-
-!!! tip ""
-    There are differing implementations of the following commands on different distros. The commands below are assumed to be ran on Ubuntu. Check your distros manual if you are not running Ubuntu for the equivalent commands.
+    The following instructions are not for beginners. Only do this if you understand what you are doing.
 
 ### Creating a new group
 
@@ -46,8 +43,8 @@ You should now be able to run the payload sender without having to use `sudo`.
 
 ## Option 2: Installing a package with the rules
 
-!!! tip ""
-    These rules will actually allow _ANY_ user to access your switch via USB, not only your user.
+!!! tip "Note:"
+    These rules will actually allow _ANY_ user to access your switch via USB, not only _your_ user.
 
 You may just follow the instructions at <a href="https://github.com/pheki/nx-udev" target="_blank">nx-udev</a>, or if you're on Ubuntu / Debian:
 
