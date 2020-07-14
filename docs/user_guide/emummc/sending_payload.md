@@ -3,7 +3,7 @@
 # Sending a Payload
 
 !!! warning "If you are here to test if your Switch is patched"
-    Make sure you have [put your device into RCM](../emummc/entering_rcm.md) and downloaded Hekate (if necessary, extract its zip file onto the root of your SD card) before continuing. Once finished, if your console is **not** patched, continue with [Partitioning the SD](../emummc/partitioning_sd.md) instead of `Making the emuMMC` at the end of this page.
+    Make sure you have [put your device into RCM](entering_rcm.md) and downloaded Hekate (if necessary, extract its zip file onto the root of your SD card) before continuing. Once finished, if your console is **not** patched, continue with [Partitioning the SD](partitioning_sd.md) instead of `Making the emuMMC` at the end of this page.
 
 
 Now that the device is in RCM, we will need to send it a payload. The methods are mostly the same, but slightly differ depending on what hardware you have available.
@@ -53,7 +53,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 ### Instructions
 
 !!! tip ""
-    1. Download and run the payload injector (if you are on Linux, you will need to run this program as root or use `sudo`).
+    1. Download and run the payload injector (if you're on Linux, you will need to run this program as root, use `sudo`, or follow the instructions at [Linux injection without root](../../extras/adding_udev.md)).
     2. Connect your Switch in RCM to your PC using the USB cable.
     3. Wait for your Switch to be shown as found in the injector.
     4. Press `Select Payload`, and navigate to and select your payload `.bin` file.
