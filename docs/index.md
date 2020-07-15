@@ -24,7 +24,7 @@ A guide collaboration between Nintendo Homebrew's Helpers and Staff, from stock 
     Custom Firmware (“CFW”) is a piece software that modifies the system firmware.
     Atmosphere, for example, does this by running in the background and patching the OS "on the fly".
 
-    This allows one to extend the functionality of their system by giving homebrew higher levels of permission than most userland exploits and can be used to provide extra services and features for homebrew devs and users to take advantage of for different purposes, for instance game modding using LayeredFS.
+    This allows one to extend the functionality of their system by giving homebrew higher levels of permission than most userland exploits and can be used to provide extra services and features for homebrew devs and users to take advantage of for different purposes, for instance, game modding using LayeredFS.
 
     CFW can be set up on any first-generation console on any version (but will require additional tools).
 
