@@ -47,7 +47,9 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
     11. Copy `Checkpoint.nro`, `ftpd.nro`, `NX-Shell.nro` and `NxThemesInstaller.nro` to the `switch` folder on your SD card
     12. Reinsert your SD card back into your Switch
 
-     ![sdfilesimg](../img/sdfiles.png)
+    !!! tip ""
+        Your SD card should look similar to this. The `Nintendo` folder will not be present if your switch has not already booted with the microSD card inserted.
+        ![sdfilesimg](../img/sdfiles.png)
 
 &nbsp;
 

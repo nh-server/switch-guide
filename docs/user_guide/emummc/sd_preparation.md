@@ -43,7 +43,9 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
     12. If you were already using your microSD card as a storage device for your games and backed it up before partitioning your microSD card, please place it back on the root of your microSD card.
     13. Reinsert your SD card back into your Switch
 
-     ![sdfilesimg](../img/sdfiles.png)
+    !!! tip ""
+        Your SD card should look similar to this. The `Nintendo` folder will not be present if your switch has not already booted with the microSD card inserted.
+        ![sdfilesimg](../img/sdfiles.png)
 
 &nbsp;
 
