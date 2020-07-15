@@ -12,4 +12,4 @@ LayeredFS, a tool built in to Atmosphere, allows you to replace game files with 
     Switch game title IDs can be found on [http://nswdb.com/](http://nswdb.com/). If you have a pre-made mod, the files would be placed here. Then, once the title is launched while in Atmosphere, your mod should load.
     
 !!! tip "Batman in BOTW"
-	![ExampleSwitchTheme](../extras/img/game_modding.jpg)
+	![ExampleGameMod](../extras/img/game_modding.jpg)
