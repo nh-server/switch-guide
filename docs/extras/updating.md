@@ -84,10 +84,9 @@ If you keep your emuMMC offline, you will have to use a gamecard to update your 
 ### Preparing your SD card
 
 1. Insert your microSD card into your computer.
-2. Make a folder inside your `switch` folder called `system updates`.
-3. Download `TegraExplorer.bin` and place it somewhere on your PC (A good idea is to put it where you keep all your switch payloads like Hekate).
-4. Update Atmosphere and Hekate by using the above guides.
-5. If you haven't already, update the sysMMC to the latest firmware.
+2. Download `TegraExplorer.bin` and place it somewhere on your PC (A good idea is to put it where you keep all your switch payloads like Hekate).
+3. Update Atmosphere and Hekate by using the above guides.
+4. If you haven't already, update the sysMMC to the latest firmware.
 
 ### Dumping your sysMMC firmware
 
