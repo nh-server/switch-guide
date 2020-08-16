@@ -80,6 +80,7 @@ If you keep your emuMMC offline, you will have to use a gamecard to update your 
 !!!tip ""
     - The latest release of <a href="https://github.com/suchmememanyskill/TegraExplorer/releases" target="_blank">TegraExplorer</a>
     - The latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a>
+    - Your prod.keys file (if you don't have them, use <a href="https://github.com/shchmue/Lockpick_RCM" target="_blank">Lockpick_RCM</a> to dump them)
 
 ### Preparing your SD card
 
