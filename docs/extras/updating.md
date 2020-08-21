@@ -105,6 +105,7 @@ If you keep your emuMMC offline, you will have to use a gamecard to update your 
 3. Find Daybreak in the homebrew menu and launch it.
 4. Tap on `Install` and navigate to `tegraexplorer/Firmware/<latest firmware number>`.
 5. Tap on `Continue` and then `Preserve settings`.
+    - If you see the message `Warning: exFAT firmware is missing or corrupt`, you likely don't have the exFAT drivers installed on your sysMMC. Just press continue if this is the case.
 6. If it is available choose `Install (FAT32 + exFAT)`, otherwise `Install (FAT32)` and then `Continue`.
 7. Wait until Daybreak completes installing the dumped firmware.
 8. Once it completes, it will ask if you want to reboot. Tap `Reboot`.
