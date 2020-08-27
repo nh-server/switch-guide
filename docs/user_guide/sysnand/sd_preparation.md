@@ -38,14 +38,11 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
     3. Copy the `bootloader` folder from the Hekate `.zip` file to the root of your SD card
     4. Copy the `bootloader` folder from the `bootlogos.zip` file to the root of your SD card
        - If you're asked to merge the bootloader folders, do so
-    5. Copy Hekate's `.bin` file from the Hekate `.zip` file to the `atmosphere` folder on your SD card
-    6. Delete `reboot_payload.bin` in the `atmosphere` folder on your SD card
-    7. Rename Hekate's `.bin` file to `reboot_payload.bin`
-    8. Copy `hekate_ipl.ini` to the `bootloader` folder on your SD card
-    9. Copy `Lockpick_RCM.bin` to the `/bootloader/payloads` folder on your SD card
-    10. Create a folder named `appstore` inside the `switch` folder on your SD card, and put `appstore.nro` in it
-    11. Copy `Checkpoint.nro`, `ftpd.nro`, `NX-Shell.nro` and `NxThemesInstaller.nro` to the `switch` folder on your SD card
-    12. Reinsert your SD card back into your Switch
+    5. Copy `hekate_ipl.ini` to the `bootloader` folder on your SD card
+    6. Copy `Lockpick_RCM.bin` to the `/bootloader/payloads` folder on your SD card
+    7. Create a folder named `appstore` inside the `switch` folder on your SD card, and put `appstore.nro` in it
+    8. Copy `Checkpoint.nro`, `ftpd.nro`, `NX-Shell.nro` and `NxThemesInstaller.nro` to the `switch` folder on your SD card
+    9. Reinsert your SD card back into your Switch
 
     !!! tip ""
         Your SD card should look similar to this. The `Nintendo` folder will not be present if your switch has not already booted with the microSD card inserted.
