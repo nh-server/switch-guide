@@ -10,7 +10,7 @@ When updating Atmosphere always make sure to _read the release notes_. They may 
 
 When a new version of Atmosphere releases, you can update Atmosphere by following these steps:
 
-1. Launch Hekate, and go to the Options tab at the top right of the screen. Turn "Update Reboot 2 Payload" on the bottom right ON.
+1. Launch Hekate, and go to the Options tab at the top right of the screen. Turn "Update Reboot 2 Payload" on the bottom right ON (if it isn't on already).
 2. Tap "Save Options" at the bottom of the screen.
 2. Turn off your Nintendo Switch and plug your SD card in your computer.
 3. Download the latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a> (Download the `atmosphere-(version).zip` release of Atmosphere.)
@@ -25,7 +25,7 @@ When updating Hekate always make sure to _read the release notes_. They may list
 
 When a new version of Hekate releases, you can update by following these steps:
 
-1. Launch Hekate, and go to the Options tab at the top right of the screen. Turn "Update Reboot 2 Payload" on the bottom right ON.
+1. Launch Hekate, and go to the Options tab at the top right of the screen. Turn "Update Reboot 2 Payload" on the bottom right ON (if it isn't on already).
 2. Tap "Save Options" at the bottom of the screen.
 3. Turn off your Nintendo Switch and plug your SD card in your computer.
 4. Download the latest version of <a href="https://github.com/CTCaer/Hekate/releases/" target="_blank">Hekate</a> (Download the `hekate_ctcaer_(version).zip` release of hekate).
