@@ -57,7 +57,7 @@ A guide collaboration between Nintendo Homebrew's Helpers and Staff, from stock 
     - A USB-OTG cable, a USB-A to USB-C cable, and an Android device
 		- This does not work on every android phone
     - A USB-C cable, and an Android device with a USB-C port
-    - A Lightning to USB-C cable, and a jailbroken iOS device
+    - A Lightning-OTG adapter, a USB-A to USB-C cable, and a jailbroken iOS device
         - This method is not covered by the guide, but you can read more about it at [this website](https://mologie.github.io/nxboot/)
 
 
