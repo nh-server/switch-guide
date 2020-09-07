@@ -22,7 +22,7 @@
 	AutoRCM can be used for good as well:
 
 	- If you were having trouble getting into RCM before, because for example you're using the tinfoil method, now you can get into RCM every time
-	- If you want to keep fuses unburned, you can do so with AutoRCM, as the Switch never gets the change to burn them after updating when using AutoRCM
+	- If you want to keep fuses unburned, you can do so with AutoRCM, as the Switch never gets the chance to burn them after updating when using AutoRCM
 	- Easier to inject a payload using a payload injector
 
 If, despite all of the warnings above, you still want to install AutoRCM, and understand the risks, do the following:
