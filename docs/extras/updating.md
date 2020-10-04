@@ -10,13 +10,12 @@ When updating Atmosphere always make sure to _read the release notes_. They may 
 
 When a new version of Atmosphere releases, you can update Atmosphere by following these steps:
 
-1. Launch Hekate, and go to the Options tab at the top right of the screen. Turn "Update Reboot 2 Payload" on the bottom right ON (if it isn't on already).
-2. Tap "Save Options" at the bottom of the screen.
-2. Turn off your Nintendo Switch and plug your SD card in your computer.
-3. Download the latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a> (Download the `atmosphere-(version).zip` release of Atmosphere.)
-4. Copy *the contents of* the Atmosphere `.zip` file to the root of your SD card.
+1. Turn off your Nintendo Switch and plug your SD card in your computer.
+2. Download the latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a> (Download the `atmosphere-(version).zip` release of Atmosphere.)
+3. Copy *the contents of* the Atmosphere `.zip` file to the root of your SD card.
     - If you are prompted to overwrite files, do so, _except_ for the `.ini` files.
     - If you do accidentally overwrite the `.ini` files, this is not an emergency but you will lose any changes you made to Atmospheres settings.
+4. (If your hekate is not on the latest version) Update hekate via the steps below
 5. Put your SD card back in your Switch and launch CFW.
 
 ## Updating Hekate
@@ -25,12 +24,11 @@ When updating Hekate always make sure to _read the release notes_. They may list
 
 When a new version of Hekate releases, you can update by following these steps:
 
-1. Launch Hekate, and go to the Options tab at the top right of the screen. Turn "Update Reboot 2 Payload" on the bottom right ON (if it isn't on already).
-2. Tap "Save Options" at the bottom of the screen.
-3. Turn off your Nintendo Switch and plug your SD card in your computer.
-4. Download the latest version of <a href="https://github.com/CTCaer/Hekate/releases/" target="_blank">Hekate</a> (Download the `hekate_ctcaer_(version).zip` release of hekate).
-5. Copy the `bootloader` folder from the Hekate `.zip` file to the root of your SD card. If you are asked to overwrite or merge files while copying, say yes to merge/overwrite them.
-6. Put your SD card back in your Switch and launch CFW.
+1. Turn off your Nintendo Switch and plug your SD card in your computer.
+2. Download the latest version of <a href="https://github.com/CTCaer/Hekate/releases/" target="_blank">Hekate</a> (Download the `hekate_ctcaer_(version).zip` release of hekate).
+3. Copy the `bootloader` folder from the Hekate `.zip` file to the root of your SD card. If you are asked to overwrite or merge files while copying, say yes to merge/overwrite them.
+4. Put your SD card back in your Switch and launch Hekate.
+5. Go to the Options tab at the top right of the screen. Turn "Update Reboot 2 Payload" on the bottom right ON (if it isn't on already). Tap "Save Options" at the bottom of the screen.
 
 ## Updating your firmware
 
