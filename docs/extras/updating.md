@@ -10,8 +10,10 @@ When updating Atmosphere always make sure to _read the release notes_. They may 
 
 When a new version of Atmosphere releases, you can update Atmosphere by following these steps:
 
+<!-- Notice for easy removal later once EXPERIMENTAL releases aren't needed:  This section below has a notice about EXPIREMENTAL release. -->
+
 1. Turn off your Nintendo Switch and plug your SD card in your computer.
-2. Download the latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a> (Download the `atmosphere-(version).zip` release of Atmosphere.)
+2. Download the latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a> (Download the `atmosphere-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip` release of Atmosphere. Do not download the `atmosphere-EXPERIMENTAL-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip` release.)
 3. Copy *the contents of* the Atmosphere `.zip` file to the root of your SD card.
     - If you are prompted to overwrite files, do so, _except_ for the `.ini` files.
     - If you do accidentally overwrite the `.ini` files, this is not an emergency but you will lose any changes you made to Atmospheres settings.
