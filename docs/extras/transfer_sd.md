@@ -1,6 +1,6 @@
 # Changing SD cards
 
-The goal of this page is to transfer the contents from one SD card to another one. The method to do this differs in whether you have set up a partition based emuMMC on your SD card before or not.
+The goal of this page is to transfer the contents from one SD card to another one. The method to do this will differ, depending on whether you're using a partition based emuMMC on your SD card or not.
 
 We will be using [hekate](https://github.com/CTCaer/hekate/releases/) to both backup and restore the emuMMC, so make sure that you have its latest files on your SD card already.
 
@@ -10,27 +10,27 @@ We will be using [hekate](https://github.com/CTCaer/hekate/releases/) to both ba
 
     ### You should first check whether you have a file or partition based emuMMC:
     
-    1. Inject the hekate payload.
-    2. Tap on `emuMMC`.
-    3. Under `emuMMC Info & Selection`, check the text next to `Type`.
-       - If you have one it should be either `SD Raw Partition` or `SD File`.
+    1.  Inject the hekate payload.
+    2.  Tap on `emuMMC`.
+    3.  Under `emuMMC Info & Selection`, check the text next to `Type`.
+        - If you have one it should be either `SD Raw Partition` or `SD File`.
 
 
     ### IF YOU USE A FILE BASED EMUMMC OR YOU DO NOT HAVE AN EMUMMC: 
         
-    1. Remove your SD card.   
-    2. Insert your old SD card into your computer.
-    3. Copy the contents of your SD card somewhere to your PC.
-    4. Eject the SD card and insert your new one.
-    5. Format your new SD card to FAT32 if it isn’t already.
-       - To do this, use [guiformat](http://ridgecrop.co.uk/index.htm?guiformat.htm) for example (Windows).
-    6. Copy the files from your PC to your new SD card and you’re done.
+    1.  Remove your SD card.   
+    2.  Insert your old SD card into your computer.
+    3.  Copy the contents of your SD card somewhere to your PC.
+    4.  Eject the SD card and insert your new one.
+    5.  Format your new SD card to FAT32 if it isn’t already.
+        - To do this, use [guiformat](http://ridgecrop.co.uk/index.htm?guiformat.htm) for example (Windows).
+    6.  Copy the files from your PC to your new SD card and you’re done.
 
 
     ### IF YOU USE A PARTITION BASED EMUMMC:
     
     !!!warning "Space for the backup"
-    You need at least 30GB of free space to be able to backup the emuMMC!
+    You need at least 30GB of free space to be able to backup and restore the emuMMC!
     
     1.  Inject the hekate payload.
     2.  In the main menu, tap on `Tools`, then `Backup eMMC` and set `SD emuMMC Raw Partition` at the bottom of your screen to `ON`.
@@ -43,7 +43,7 @@ We will be using [hekate](https://github.com/CTCaer/hekate/releases/) to both ba
     9.  Copy the contents of your old SD card to your new one.
     10. Navigate to `/backup/<some characters>/` on your SD card and move `BOOT0`, `BOOT1` and the `rawnand.bin.xx` files to the `restore` folder.
     11. Eject the SD card and insert it into your switch.
-    12.Inject the hekate payload once again.
+    12. Inject the hekate payload once again.
     13. Tap on `Tools`, `Restore eMMC`, set `SD emuMMC Raw Partition` at the bottom of your screen to `ON`.
     14. Restore the backup by tapping on both `SD emuMMC BOOT0 & BOOT1` and `SD emuMMC RAW GPP` (Note: raw gpp may take a while).
     15. Your emuMMC is now restored on the new SD card and you should be able to launch it from `Launch` -> `Atmosphere FSS0 EmuMMC`  in hekate.
