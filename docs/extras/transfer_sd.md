@@ -46,5 +46,7 @@ We will be using [hekate](https://github.com/CTCaer/hekate/releases/) to both ba
     12. Inject the hekate payload once again.
     13. Tap on `Tools`, `Restore eMMC`, set `SD emuMMC Raw Partition` at the bottom of your screen to `ON`.
     14. Restore the backup by tapping on both `SD emuMMC BOOT0 & BOOT1` and `SD emuMMC RAW GPP` (Note: raw gpp may take a while).
+        - It is very important that for both of these the `SD emuMMC Raw Partition` option is enabled, otherwise you will be altering your sysMMC
+          which is not what you want.
     15. Your emuMMC is now restored on the new SD card and you should be able to launch it from `Launch` -> `Atmosphere FSS0 EmuMMC`  in hekate.
 
