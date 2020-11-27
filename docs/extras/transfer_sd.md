@@ -6,7 +6,7 @@ We will be using [hekate](https://github.com/CTCaer/hekate/releases/) to both ba
 
 ## Instructions
 
-### You should first check whether you have a file or partition based emuMMC:
+You should first check whether you have a file or partition based emuMMC:
     
 1.  Inject the hekate payload.
 2.  Tap on `emuMMC`.
@@ -14,7 +14,7 @@ We will be using [hekate](https://github.com/CTCaer/hekate/releases/) to both ba
     - If you have one it should be either `SD Raw Partition` or `SD File`.
 
 
-### IF YOU USE A FILE BASED EMUMMC OR YOU DO NOT HAVE AN EMUMMC: 
+IF YOU USE A FILE BASED EMUMMC OR YOU DO NOT HAVE AN EMUMMC: 
         
 1.  Remove your SD card.   
 2.  Insert your old SD card into your computer.
@@ -25,10 +25,10 @@ We will be using [hekate](https://github.com/CTCaer/hekate/releases/) to both ba
 6.  Copy the files from your PC to your new SD card and you’re done.
 
 
-### IF YOU USE A PARTITION BASED EMUMMC:
+IF YOU USE A PARTITION BASED EMUMMC:
     
 !!!warning "Space for the backup"
-You need at least 30GB of free space to be able to backup and restore the emuMMC!
+    You need at least 30GB of free space to be able to backup and restore the emuMMC!
 
 1.  Inject the hekate payload.
 2.  In the main menu, tap on `Tools`, then `Backup eMMC` and set `SD emuMMC Raw Partition` at the bottom of your screen to `ON`.
