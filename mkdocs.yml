@@ -28,6 +28,7 @@ nav:
         - 'Alternate Boot Setups': 'extras/alternate_bootsetups.md'
         - 'RCM Payload Injectors Information': 'extras/rcm_injectors.md'
         - 'Updating CFW': 'extras/updating.md'
+        - 'Changing SD cards': 'extras/transfer_sd.md'
         - 'Glossary': 'extras/glossary.md'
     - FAQ: faq.md
     - About: about.md
