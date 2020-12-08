@@ -43,10 +43,3 @@ jobs:
         # Build the site using mkdocs
         run: mkdocs build --verbose --clean --strict
 
-      # Upload the generated documentation
-      - name: Upload site artifact
-        uses: actions/upload-artifact@v1
-        with:
-          name: site
-          path: site
-
