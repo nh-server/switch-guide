@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="NH Discord Server.">
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Glossary - NH Switch Guide</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/darcula.min.css">
+        <link href="../../css/custom.css" rel="stylesheet">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">NH Switch Guide</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">User Guide <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../user_guide/getting_started/" class="dropdown-item">Getting Started</a>
+</li>
+                                    
+<li>
+    <a href="../../user_guide/rcm/" class="dropdown-item">RCM</a>
+</li>
+                                    
+<li>
+    <a href="../../user_guide/emummc/entering_rcm/" class="dropdown-item">Entering RCM</a>
+</li>
+                                    
+<li>
+    <a href="../../user_guide/emummc/sending_payload/" class="dropdown-item">Sending a payload</a>
+</li>
+                                    
+<li>
+    <a href="../../user_guide/emummc/partitioning_sd/" class="dropdown-item">Partitioning the SD</a>
+</li>
+                                    
+<li>
+    <a href="../../user_guide/emummc/sd_preparation/" class="dropdown-item">SD preparations</a>
+</li>
+                                    
+<li>
+    <a href="../../user_guide/emummc/making_emummc/" class="dropdown-item">Making the emuMMC</a>
+</li>
+                                    
+<li>
+    <a href="../../user_guide/emummc/launching_cfw/" class="dropdown-item">Launching CFW</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Extras <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../blocking_updates/" class="dropdown-item">Blocking Updates</a>
+</li>
+                                    
+<li>
+    <a href="../nandrestore/" class="dropdown-item">Restoring a NAND Backup</a>
+</li>
+                                    
+<li>
+    <a href="../autorcm/" class="dropdown-item">AutoRCM</a>
+</li>
+                                    
+<li>
+    <a href="../dumping_title_keys/" class="dropdown-item">Dumping Title Keys</a>
+</li>
+                                    
+<li>
+    <a href="../theming/" class="dropdown-item">Theming</a>
+</li>
+                                    
+<li>
+    <a href="../save_management/" class="dropdown-item">Save Management</a>
+</li>
+                                    
+<li>
+    <a href="../game_modding/" class="dropdown-item">Game Modding</a>
+</li>
+                                    
+<li>
+    <a href="../adding_udev/" class="dropdown-item">Linux injection without root</a>
+</li>
+                                    
+<li>
+    <a href="../showing_file_extensions/" class="dropdown-item">Showing File Name Extensions (Windows)</a>
+</li>
+                                    
+<li>
+    <a href="../alternate_bootsetups/" class="dropdown-item">Alternate Boot Setups</a>
+</li>
+                                    
+<li>
+    <a href="../rcm_injectors/" class="dropdown-item">RCM Payload Injectors Information</a>
+</li>
+                                    
+<li>
+    <a href="../updating/" class="dropdown-item">Updating CFW</a>
+</li>
+                                    
+<li>
+    <a href="../transfer_sd/" class="dropdown-item">Changing SD cards</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Glossary</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../faq/" class="nav-link">FAQ</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../about/" class="nav-link">About</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../transfer_sd/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../../faq/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#glossary-of-common-hacking-terms" class="nav-link">Glossary of common hacking terms</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#hacking-terms" class="nav-link">Hacking terms</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#resources" class="nav-link">Resources</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="glossary-of-common-hacking-terms">Glossary of common hacking terms</h1>
+<p>This section is dedicated to explaining a number of common terms that are used when hacking the Nintendo Switch as well as linking a number of resources that can help fledgling developers or curious users.</p>
+<h2 id="hacking-terms">Hacking terms</h2>
+<p>The following list is in alphabetical order.</p>
+<ul>
+<li>90DNS: DNS that blocks system updates on the Nintendo Switch.</li>
+<li>Atmosphere: The CFW developed by the Atmosphere-NX organization on GitHub and the one used in this guide.</li>
+<li>AutoRCM: A method that corrupts parts of your boot0 and boot1, causing the Switch to boot into RCM automatically. Using this requires an additional peripheral (such as a computer, phone, dongle or trinket) to be able to boot your Switch.</li>
+<li>boot0 and boot1: Two partitions of the Switch NAND.</li>
+<li>CFW: Short for custom firmware. Custom firmware permits you to completely modify how your Switch works.</li>
+<li>Deja Vu: An unreleased exploit chain for the Nintendo Switch. The completely unpatched version of this chain will grant access to TrustZone, which effectively means being able to enter CFW. The TrustZone part of this exploit was patched in firmware version 5.0.0 and up, but normal homebrew access can still be gained up to firmware version 6.0.1.</li>
+<li>DNS: <a href="https://en.wikipedia.org/wiki/Domain_Name_System">Domain Name System</a>. Basically it's the internets addressbook. If you visit a website, the DNS is what tells you what server the site is hosted on.</li>
+<li>Dongle: Device you can plug in the charging port of your Switch to automatically send a payload if your Switch is in RCM.</li>
+<li>Encryption keys: Keys used to encrypt files from the Nintendo Switch. These can be dumped by following the guide <a href="/extras/backup_keys/">here</a>.</li>
+<li>BIS keys: Specific keys used to decrypt the NAND.</li>
+<li>fusee-gelee/ShofEL2: Two names for two different implementations of the same exploit. This is an exploit that grants full bootrom access to the Nintendo Switch from the Tegra X1s RCM and permits us to run CFW. This exploit requires an external device and a tiny hardware modification. fusee-gelee is developed by an ex-ReSwitched developer, while ShofEL2 is developed by the failoverfl0w team. This guide uses fusee-gelee.</li>
+<li>hactool: Software used to decrypt Nintendo Switch files like .XCI and .NSP files.</li>
+<li>Hekate: A bootloader for the Nintendo Switch. The current guide uses this in combination with essential files from Atmosphere to boot CFW.</li>
+<li>Homebrew: Unsigned code that can be ran on the Nintendo Switch. Examples of homebrew include save editors, emulators and ports of PC games, but can also include completely original games. To run this code, you need to have an exploit.</li>
+<li>Homebrew launcher: Software developed by the Switchbrew team that lets you run other Homebrew.</li>
+<li>Jig: Refers to a piece of hardware that you can put in the Joycon rail to enter RCM.</li>
+<li>KIP: Short for Kernel Initial Process. These files can be loaded in when the Switch boots in CFW and provide additional functionality.</li>
+<li>NAND: The internal filesystem used by the Switch. Contains boot0 and boot1, as well as PRODINFO and various other partitions.</li>
+<li>nx-hbloader: Intermediary program used to load the Homebrew Launcher from CFW developed by Switchbrew. Comes bundled with Atmosphere.</li>
+<li>PRODINFO: A partition on the NAND of your Switch. This along with boot0 and boot1 is the only part of your Switch that can render it unbootable if improperly modified. Atmosphere backs up this partition on booting and it is included in your NAND backup.</li>
+<li>ReSwitched: A hacking team that is one of the main developers for Atmosphere.</li>
+<li>RCM: A shorthand for "Recovery Mode". When talking about hacking the Switch, this commonly refers to the Recovery Mode in the Tegra X1 chip that is included in the Nintendo Switch. Can be entered by holding down the Tegra X1 home button. This button is not the same as the home button on the joycons. Ways of pressing this button can be found <a href="/user_guide/entering_rcm/">here</a>.</li>
+<li>TegraRCMGUI/fusee-interface-gtk: Software used to run the fusee-gelee exploit on the Switch.</li>
+<li>Tegra X1: A chip made by Nvidia that is used in the Nintendo Switch.</li>
+<li>Trinket: A tiny chip that is soldered on the Switch motherboard to automatically send a payload if it is in RCM.</li>
+<li>TrustZone: The highest security level on the Switch.</li>
+<li>XCI/NSP: Format used to dump games to. XCI is used for gamecard dumps, while NSP is for dumping digital titles.</li>
+</ul>
+<h2 id="resources">Resources</h2>
+<p>The resources below are for users and developers interested in developing Homebrew or for those that want to get a more technical understanding of the various concepts.</p>
+<ul>
+<li>The <a href="https://reswitched.team/faq/">ReSwitched FAQ</a> lists a general overview of how the Switch works.</li>
+<li><a href="https://switchbrew.org">Switchbrew</a> is a wiki detailing the inner workings of the Nintendo Switch's firmware.</li>
+<li><a href="https://switchbrew.github.io/libnx/index.html">libNX documentation</a>. LibNX is the library used to develop Homebrew on the Nintendo Switch.</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2019 <a href="https://discord.gg/C29hYvh" target="_blank">Nintendo Homebrew</a>, Maintained by the <a href="/switch-guide/about">NH Discord Server</a>.</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

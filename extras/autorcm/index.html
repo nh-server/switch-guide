@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="NH Discord Server.">
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>AutoRCM - NH Switch Guide</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/darcula.min.css">
+        <link href="../../css/custom.css" rel="stylesheet">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">NH Switch Guide</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">User Guide <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../user_guide/getting_started/" class="dropdown-item">Getting Started</a>
+</li>
+                                    
+<li>
+    <a href="../../user_guide/rcm/" class="dropdown-item">RCM</a>
+</li>
+                                    
+<li>
+    <a href="../../user_guide/emummc/entering_rcm/" class="dropdown-item">Entering RCM</a>
+</li>
+                                    
+<li>
+    <a href="../../user_guide/emummc/sending_payload/" class="dropdown-item">Sending a payload</a>
+</li>
+                                    
+<li>
+    <a href="../../user_guide/emummc/partitioning_sd/" class="dropdown-item">Partitioning the SD</a>
+</li>
+                                    
+<li>
+    <a href="../../user_guide/emummc/sd_preparation/" class="dropdown-item">SD preparations</a>
+</li>
+                                    
+<li>
+    <a href="../../user_guide/emummc/making_emummc/" class="dropdown-item">Making the emuMMC</a>
+</li>
+                                    
+<li>
+    <a href="../../user_guide/emummc/launching_cfw/" class="dropdown-item">Launching CFW</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Extras <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../blocking_updates/" class="dropdown-item">Blocking Updates</a>
+</li>
+                                    
+<li>
+    <a href="../nandrestore/" class="dropdown-item">Restoring a NAND Backup</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">AutoRCM</a>
+</li>
+                                    
+<li>
+    <a href="../dumping_title_keys/" class="dropdown-item">Dumping Title Keys</a>
+</li>
+                                    
+<li>
+    <a href="../theming/" class="dropdown-item">Theming</a>
+</li>
+                                    
+<li>
+    <a href="../save_management/" class="dropdown-item">Save Management</a>
+</li>
+                                    
+<li>
+    <a href="../game_modding/" class="dropdown-item">Game Modding</a>
+</li>
+                                    
+<li>
+    <a href="../adding_udev/" class="dropdown-item">Linux injection without root</a>
+</li>
+                                    
+<li>
+    <a href="../showing_file_extensions/" class="dropdown-item">Showing File Name Extensions (Windows)</a>
+</li>
+                                    
+<li>
+    <a href="../alternate_bootsetups/" class="dropdown-item">Alternate Boot Setups</a>
+</li>
+                                    
+<li>
+    <a href="../rcm_injectors/" class="dropdown-item">RCM Payload Injectors Information</a>
+</li>
+                                    
+<li>
+    <a href="../updating/" class="dropdown-item">Updating CFW</a>
+</li>
+                                    
+<li>
+    <a href="../transfer_sd/" class="dropdown-item">Changing SD cards</a>
+</li>
+                                    
+<li>
+    <a href="../glossary/" class="dropdown-item">Glossary</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../faq/" class="nav-link">FAQ</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../about/" class="nav-link">About</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../nandrestore/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../dumping_title_keys/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#autorcm" class="nav-link">AutoRCM</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h2 id="autorcm">AutoRCM</h2>
+<div class="admonition tip">
+<p class="admonition-title">What is AutoRCM?</p>
+<p>AutoRCM causes the console to believe it is bricked, and will automatically launch RCM upon boot for recovery purposes, without needing a jig. As RCM is a recovery mode from repair specialists, this is an intended feature from the device developer, though is also considered a softbrick. If you aren't careful, misuse of AutoRCM can lead to real <strong>damage</strong>, especially with units that cannot inject custom RCM payloads (like Mariko hardware). Please take care when using it. Please keep in mind that the console can no longer boot on its own, so you'll need a PC, phone, or other payload injector to start the console after a coldboot.</p>
+<p>Note: If the console screen stays black when pressing the power button after activating AutoRCM, remember that it's not broken. It's in RCM.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">If you don't have a BOOT0/1 backup yet...</p>
+<p>You really want to kill your console, huh? If you haven't made a BOOT0/1 backup yet, it is recommended to make one <strong>right now</strong>.</p>
+<ol>
+<li>Boot Hekate</li>
+<li>Go to <code>Tools</code>, and select <code>Backup eMMC</code></li>
+<li>Then tap <code>eMMC BOOT0 &amp; BOOT1</code> and let the process complete.</li>
+</ol>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">Disadvantages of AutoRCM</p>
+<p>There are some disadvantages you should consider before installing AutoRCM:</p>
+<ul>
+<li>Please keep in mind that the console can no longer boot on its own, so you'll need a PC, phone, or other payload injector to start the console after letting the console fully shut off. (AutoRCM by itself is considered a "tethered jailbreak").
+    Note: Sleep Mode is not considered "powering off/on" the console. Sleep Mode will still work as intended and is fully unchanged with AutoRCM.</li>
+<li>When completely discharged, your Switch will take a very long time to charge while in RCM. To solve this, charge the console for approximately twenty minutes before booting into Hekate and selecting a boot option. After it's done booting, the console will now charge at a normal speed with a battery icon in the corner.</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Advantages of AutoRCM</p>
+<p>AutoRCM can be used for good as well:</p>
+<ul>
+<li>If you were having trouble getting into RCM before (i.e you were using the tinfoil method), now you can get into RCM without any hassle.</li>
+<li>If you want to keep fuses unburned, you can do so with AutoRCM, as the Switch never gets the chance to burn them. Nintendo's bootloaders burn the fuses, but those bootloaders cannot be used if AutoRCM is enabled.
+    Note: updating the console while booted into Hekate's "stock" configuration will clear AutoRCM on the next reboot. Please update while using custom firmware, or be sure to use a jig after the console reboots.</li>
+<li>It's easier to inject a payload using a payload injector, as using your jig and booting into RCM manually is no longer required.</li>
+</ul>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Other information...</p>
+<ul>
+<li>This method corrupts a single byte in both your BOOT0 and your BOOT1 partitions. This is why a backup of those is recommended.</li>
+</ul>
+</div>
+<ul>
+<li>This software version of AutoRCM can almost always be reversed, so don't freak out if it doesn't work out the way you'd like it to.</li>
+</ul>
+<p>If, despite all of the warnings above, you still wish to install AutoRCM, and understand the risks, do the following:</p>
+<ol>
+<li>Boot Hekate</li>
+<li>Go to <code>Tools</code></li>
+<li>At the bottom of the page, tap <code>Archive bit - AutoRCM</code></li>
+<li>Then tap <code>AutoRCM</code>. It will show a little <code>ON</code> next to the option once you have done this.</li>
+</ol></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2019 <a href="https://discord.gg/C29hYvh" target="_blank">Nintendo Homebrew</a>, Maintained by the <a href="/switch-guide/about">NH Discord Server</a>.</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="NH Discord Server.">
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Updating CFW - NH Switch Guide</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/darcula.min.css">
+        <link href="../../css/custom.css" rel="stylesheet">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">NH Switch Guide</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">User Guide <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../user_guide/getting_started/" class="dropdown-item">Getting Started</a>
+</li>
+                                    
+<li>
+    <a href="../../user_guide/rcm/" class="dropdown-item">RCM</a>
+</li>
+                                    
+<li>
+    <a href="../../user_guide/emummc/entering_rcm/" class="dropdown-item">Entering RCM</a>
+</li>
+                                    
+<li>
+    <a href="../../user_guide/emummc/sending_payload/" class="dropdown-item">Sending a payload</a>
+</li>
+                                    
+<li>
+    <a href="../../user_guide/emummc/partitioning_sd/" class="dropdown-item">Partitioning the SD</a>
+</li>
+                                    
+<li>
+    <a href="../../user_guide/emummc/sd_preparation/" class="dropdown-item">SD preparations</a>
+</li>
+                                    
+<li>
+    <a href="../../user_guide/emummc/making_emummc/" class="dropdown-item">Making the emuMMC</a>
+</li>
+                                    
+<li>
+    <a href="../../user_guide/emummc/launching_cfw/" class="dropdown-item">Launching CFW</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Extras <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../blocking_updates/" class="dropdown-item">Blocking Updates</a>
+</li>
+                                    
+<li>
+    <a href="../nandrestore/" class="dropdown-item">Restoring a NAND Backup</a>
+</li>
+                                    
+<li>
+    <a href="../autorcm/" class="dropdown-item">AutoRCM</a>
+</li>
+                                    
+<li>
+    <a href="../dumping_title_keys/" class="dropdown-item">Dumping Title Keys</a>
+</li>
+                                    
+<li>
+    <a href="../theming/" class="dropdown-item">Theming</a>
+</li>
+                                    
+<li>
+    <a href="../save_management/" class="dropdown-item">Save Management</a>
+</li>
+                                    
+<li>
+    <a href="../game_modding/" class="dropdown-item">Game Modding</a>
+</li>
+                                    
+<li>
+    <a href="../adding_udev/" class="dropdown-item">Linux injection without root</a>
+</li>
+                                    
+<li>
+    <a href="../showing_file_extensions/" class="dropdown-item">Showing File Name Extensions (Windows)</a>
+</li>
+                                    
+<li>
+    <a href="../alternate_bootsetups/" class="dropdown-item">Alternate Boot Setups</a>
+</li>
+                                    
+<li>
+    <a href="../rcm_injectors/" class="dropdown-item">RCM Payload Injectors Information</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Updating CFW</a>
+</li>
+                                    
+<li>
+    <a href="../transfer_sd/" class="dropdown-item">Changing SD cards</a>
+</li>
+                                    
+<li>
+    <a href="../glossary/" class="dropdown-item">Glossary</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../faq/" class="nav-link">FAQ</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../about/" class="nav-link">About</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../rcm_injectors/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../transfer_sd/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#keeping-your-system-up-to-date" class="nav-link">Keeping your system up-to-date</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#updating-atmosphere" class="nav-link">Updating Atmosphere</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#updating-hekate" class="nav-link">Updating Hekate</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#updating-your-firmware" class="nav-link">Updating your firmware</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#updating-emummc-by-dumping-an-updated-firmware-from-your-sysmmc" class="nav-link">Updating emuMMC by dumping an updated firmware from your sysMMC</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="keeping-your-system-up-to-date">Keeping your system up-to-date</h1>
+<p>This page documents how you can keep your system up-to-date.</p>
+<p>After following our guide, your system will consist of three core elements that can be updated. Atmosphere, Hekate and your system firmware.</p>
+<h2 id="updating-atmosphere">Updating Atmosphere</h2>
+<p>When updating Atmosphere always make sure to <em>read the release notes</em>. They may list important changes and modifications to your system.</p>
+<p>When a new version of Atmosphere releases, you can update Atmosphere by following these steps:</p>
+<!-- Notice for easy removal later once EXPERIMENTAL releases aren't needed:  This section below has a notice about EXPIREMENTAL release. -->
+
+<ol>
+<li>Turn off your Nintendo Switch and plug your SD card in your computer.</li>
+<li>Download the latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a> (Download the <code>atmosphere-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip</code> release of Atmosphere. Do not download the <code>atmosphere-EXPERIMENTAL-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip</code> release.)</li>
+<li>Copy <em>the contents of</em> the Atmosphere <code>.zip</code> file to the root of your SD card.<ul>
+<li>If you are prompted to overwrite files, do so, <em>except</em> for the <code>.ini</code> files.</li>
+<li>If you do accidentally overwrite the <code>.ini</code> files, this is not an emergency but you will lose any changes you made to Atmospheres settings.</li>
+</ul>
+</li>
+<li>(If your hekate is not on the latest version) Update hekate via the steps below</li>
+<li>Put your SD card back in your Switch and launch CFW.</li>
+</ol>
+<h2 id="updating-hekate">Updating Hekate</h2>
+<p>When updating Hekate always make sure to <em>read the release notes</em>. They may list important changes and modifications to your system.</p>
+<p>When a new version of Hekate releases, you can update by following these steps:</p>
+<ol>
+<li>Turn off your Nintendo Switch and plug your SD card in your computer.</li>
+<li>Download the latest version of <a href="https://github.com/CTCaer/Hekate/releases/" target="_blank">Hekate</a> (Download the <code>hekate_ctcaer_(version).zip</code> release of hekate).</li>
+<li>Copy the <code>bootloader</code> folder from the Hekate <code>.zip</code> file to the root of your SD card. If you are asked to overwrite or merge files while copying, say yes to merge/overwrite them.</li>
+<li>Put your SD card back in your Switch and launch Hekate.</li>
+<li>Go to the Options tab at the top right of the screen. Turn "Update Reboot 2 Payload" on the bottom right ON (if it isn't on already). Tap "Save Options" at the bottom of the screen.</li>
+</ol>
+<h2 id="updating-your-firmware">Updating your firmware</h2>
+<p>Always check <em>before</em> updating your system firmware if the latest version of Atmosphere <em>as well</em> as the latest version of Hekate support the firmware version you are updating towards.</p>
+<p>Currently the latest version supported by Atmosphere and Hekate is: <strong>11.0.0</strong>.</p>
+<p>In addition, updating to or past some firmwares update the gamecard firmware. Reference the table below for information about these.</p>
+<table>
+<thead>
+<tr>
+<th>Updating from</th>
+<th>Updating towards</th>
+<th>Updates gamecard firmware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Below 4.0.0</td>
+<td>Below 4.0.0</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Below 4.0.0</td>
+<td>4.0.0 or above</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>On or above 4.0.0, but below 9.0.0</td>
+<td>At least 4.1.0 but below 9.0.0</td>
+<td>No</td>
+</tr>
+<tr>
+<td>On or above 4.0.0, but below 9.0.0</td>
+<td>9.0.0 or above</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>On or above 9.0.0, but below 11.0.0</td>
+<td>At least 9.1.0 but below 11.0.0</td>
+<td>No</td>
+</tr>
+<tr>
+<td>On or above 9.0.0, but below 11.0.0</td>
+<td>11.0.0 or above</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>On or above 11.0.0</td>
+<td>Latest supported Atmosphere &amp; Hekate revision</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+<p>If at least one of the versions you are updating towards also updates the gamecard firmware, you will not be able to downgrade below that version without making the gamecard slot unusable until you update.</p>
+<p>Atmosphere (and Hekate) come bundled with patches that automatically disable the gamecard slot if it is detected that the system has an older gamecard firmware that would be updated. If you boot into RCM on each boot (for example by using AutoRCM), this means that the gamecard slot will not be updated and you can downgrade below that version. If this happens, you will not be able to use the gamecard slot as long as you are on the newer firmware.</p>
+<p>Otherwise, you can safely update your system firmware through the system settings.</p>
+<div class="admonition warning">
+<p class="admonition-title">Note about autoRCM</p>
+<p>If you have autoRCM enabled and you're updating your system while in stock firmware, <strong>updating will disable autoRCM</strong> and you will need to enter RCM manually to boot custom firmware again.
+To prevent autoRCM from being disabled, boot CFW on sysMMC and update through settings from there, as booting without AutoRCM <ins>will burn any preserved fuses</ins>.</p>
+</div>
+<h3 id="about-emummc">About emuMMC</h3>
+<p>sysMMC and emuMMC have separate system firmwares and need to be updated separately.</p>
+<p>If you keep your emuMMC offline, you will have to use a gamecard to update your system firmware, synchronize it with another Nintendo Switch or dump an updated firmware from your sysMMC.</p>
+<h2 id="updating-emummc-by-dumping-an-updated-firmware-from-your-sysmmc">Updating emuMMC by dumping an updated firmware from your sysMMC</h2>
+<div class="admonition warning">
+<p class="admonition-title">Do you have an eMMC backup yet?</p>
+<p>Please do not start this guide without doing a RAW GPP and a BOOT 0/1 eMMC backup!</p>
+<p>You can learn how to make one <a href="../../user_guide/sysnand/making_essential_backups/">here</a>.</p>
+</div>
+<div class="admonition danger">
+<p class="admonition-title">Downgrading</p>
+<p>This guide is made for updating your emuMMC. It is <strong>not</strong> for downgrading. Downgrading at all, sysMMC or emuMMC, is not recommended and not worth it. Downgrading is also very dangerous and can lead to serious complications even when performed correctly.</p>
+</div>
+<h3 id="what-you-will-need">What you will need</h3>
+<div class="admonition tip">
+<ul>
+<li>The latest release of <a href="https://github.com/suchmememanyskill/TegraExplorer/releases" target="_blank">TegraExplorer</a></li>
+<li>The latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a></li>
+<li>Your prod.keys file (if you don't have them, use <a href="https://github.com/shchmue/Lockpick_RCM" target="_blank">Lockpick_RCM</a> to dump them)</li>
+</ul>
+</div>
+<h3 id="preparing-your-sd-card">Preparing your SD card</h3>
+<ol>
+<li>Insert your microSD card into your computer.</li>
+<li>Download <code>TegraExplorer.bin</code> and place it somewhere on your PC (A good idea is to put it where you keep all your switch payloads like Hekate).</li>
+<li>Update Atmosphere and Hekate by using the above guides.</li>
+<li>If you haven't already, update the sysMMC to the latest firmware.</li>
+</ol>
+<h3 id="dumping-your-sysmmc-firmware">Dumping your sysMMC firmware</h3>
+<ol>
+<li>Make sure your sysMMC is up to date. If your sysMMC is not up-to-date, update it through the System Settings.</li>
+<li>Inject <code>TegraExplorer.bin</code> using TegraRCMGUI (Like you would with Hekate).</li>
+<li>Using the volume and power buttons, select <code>Tools</code>, then <code>Dump Firmware</code> and for the format type choose <code>Daybreak</code>.</li>
+<li>Wait about 1-2 minutes for the tool to dump your firmware.</li>
+<li>When the tool finishes, press any volume button.</li>
+<li>Select <code>Exit</code> and then <code>Reboot to Atmosphere</code>.</li>
+</ol>
+<h3 id="updating-your-emummc-with-daybreak">Updating your emuMMC with Daybreak</h3>
+<ol>
+<li>In Hekate go to <code>Launch -&gt; Atmosphere FSS0 Emu</code>.</li>
+<li>Once booted, hold <code>R</code> while launching a game to boot into the homebrew menu.</li>
+<li>Find Daybreak in the homebrew menu and launch it.</li>
+<li>Tap on <code>Install</code> and navigate to <code>tegraexplorer/Firmware/&lt;latest firmware number&gt;</code>.</li>
+<li>Tap on <code>Continue</code> and then <code>Preserve settings</code>.<ul>
+<li>If you see the message <code>Warning: exFAT firmware is missing or corrupt</code>, you likely don't have the exFAT drivers installed on your sysMMC. Just press continue if this is the case.</li>
+</ul>
+</li>
+<li>If it is available choose <code>Install (FAT32 + exFAT)</code>, otherwise <code>Install (FAT32)</code> and then <code>Continue</code>.</li>
+<li>Wait until Daybreak completes installing the dumped firmware.</li>
+<li>Once it completes, it will ask if you want to reboot. Tap <code>Reboot</code>.</li>
+<li>Once rebooted, launch into emuMMC and verify your system works. You can verify your system has been properly updated in <code>Settings -&gt; System</code>.</li>
+</ol></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2019 <a href="https://discord.gg/C29hYvh" target="_blank">Nintendo Homebrew</a>, Maintained by the <a href="/switch-guide/about">NH Discord Server</a>.</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

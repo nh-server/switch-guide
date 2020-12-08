@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="NH Discord Server.">
+        
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>FAQ - NH Switch Guide</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/darcula.min.css">
+        <link href="../css/custom.css" rel="stylesheet">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">NH Switch Guide</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">User Guide <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../user_guide/getting_started/" class="dropdown-item">Getting Started</a>
+</li>
+                                    
+<li>
+    <a href="../user_guide/rcm/" class="dropdown-item">RCM</a>
+</li>
+                                    
+<li>
+    <a href="../user_guide/emummc/entering_rcm/" class="dropdown-item">Entering RCM</a>
+</li>
+                                    
+<li>
+    <a href="../user_guide/emummc/sending_payload/" class="dropdown-item">Sending a payload</a>
+</li>
+                                    
+<li>
+    <a href="../user_guide/emummc/partitioning_sd/" class="dropdown-item">Partitioning the SD</a>
+</li>
+                                    
+<li>
+    <a href="../user_guide/emummc/sd_preparation/" class="dropdown-item">SD preparations</a>
+</li>
+                                    
+<li>
+    <a href="../user_guide/emummc/making_emummc/" class="dropdown-item">Making the emuMMC</a>
+</li>
+                                    
+<li>
+    <a href="../user_guide/emummc/launching_cfw/" class="dropdown-item">Launching CFW</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Extras <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../extras/blocking_updates/" class="dropdown-item">Blocking Updates</a>
+</li>
+                                    
+<li>
+    <a href="../extras/nandrestore/" class="dropdown-item">Restoring a NAND Backup</a>
+</li>
+                                    
+<li>
+    <a href="../extras/autorcm/" class="dropdown-item">AutoRCM</a>
+</li>
+                                    
+<li>
+    <a href="../extras/dumping_title_keys/" class="dropdown-item">Dumping Title Keys</a>
+</li>
+                                    
+<li>
+    <a href="../extras/theming/" class="dropdown-item">Theming</a>
+</li>
+                                    
+<li>
+    <a href="../extras/save_management/" class="dropdown-item">Save Management</a>
+</li>
+                                    
+<li>
+    <a href="../extras/game_modding/" class="dropdown-item">Game Modding</a>
+</li>
+                                    
+<li>
+    <a href="../extras/adding_udev/" class="dropdown-item">Linux injection without root</a>
+</li>
+                                    
+<li>
+    <a href="../extras/showing_file_extensions/" class="dropdown-item">Showing File Name Extensions (Windows)</a>
+</li>
+                                    
+<li>
+    <a href="../extras/alternate_bootsetups/" class="dropdown-item">Alternate Boot Setups</a>
+</li>
+                                    
+<li>
+    <a href="../extras/rcm_injectors/" class="dropdown-item">RCM Payload Injectors Information</a>
+</li>
+                                    
+<li>
+    <a href="../extras/updating/" class="dropdown-item">Updating CFW</a>
+</li>
+                                    
+<li>
+    <a href="../extras/transfer_sd/" class="dropdown-item">Changing SD cards</a>
+</li>
+                                    
+<li>
+    <a href="../extras/glossary/" class="dropdown-item">Glossary</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">FAQ</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../about/" class="nav-link">About</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../extras/glossary/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../about/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#what-firmware-versions-are-currently-hackable" class="nav-link">What firmware versions are currently hackable?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#how-do-i-use-the-exploit-how-can-i-boot-into-rcm" class="nav-link">How do I use the exploit? How can I boot into RCM?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#what-makes-a-good-jig-good-can-i-use-a-paperclip" class="nav-link">What makes a good jig good? Can I use a paperclip?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#is-there-an-easier-way-to-enter-rcm" class="nav-link">Is there an easier way to enter RCM?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#should-i-update-my-firmware" class="nav-link">Should I update my Firmware?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#is-it-safe-to-use-homebrew-will-i-get-banned" class="nav-link">Is it safe to use homebrew? Will I get banned?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#what-formats-can-homebrew-come-in" class="nav-link">What formats can homebrew come in</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#what-microsd-cardformat-should-i-use" class="nav-link">What microSD card/format should I use?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#fake-microsd-cards" class="nav-link">Fake microSD cards</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#amazonebayaliexpress-jigs" class="nav-link">Amazon/eBay/Aliexpress jigs</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#my-homebrew-is-not-showing-up-on-the-menu" class="nav-link">My homebrew is not showing up on the menu</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h2 id="what-firmware-versions-are-currently-hackable">What firmware versions are currently hackable?</h2>
+<div class="admonition tip">
+<p>Currently two hardware revisions of the Switch exist. Any Switch bought or manufactured before the middle of 2018 has a bootrom bug that allows us to run code regardless of the firmware version on the Switch. When Nintendo updates the system, however, CFW will usually need an update to account for it. 
+This bug cannot be fixed by Nintendo once the console leaves the factory, unless the console is sent in for repairs. This means that all current and future firmwares will be able to launch CFW through this exploit on the old hardware revision.</p>
+<p>Any console purchased after approximately August 2018 is <strong>likely</strong> to be patched. This includes the latest units on shelves, referred to as 'red box' or 'Mariko'.
+Mariko is hardware patched, but may come on a vulnerable firmware.
+Currently the only way to know if your Switch is hackable is by trying to send the payload in RCM.
+Even with this exploit fixed, many Switches on 8.0.1 and below will be hackable to some degree in the future (see <a href="#should-i-update-my-firmware">Should I update my Firmware?</a> for much more detailed information).
+The serial number on the back of the box can possibly tell you which consoles are patched and which aren't. 
+See <a href="https://gbatemp.net/threads/switch-informations-by-serial-number.481215/" target="_blank">here</a> for an up to date list.</p>
+</div>
+<h2 id="how-do-i-use-the-exploit-how-can-i-boot-into-rcm">How do I use the exploit? How can I boot into RCM?</h2>
+<div class="admonition tip">
+<p>To launch CFW through the exploit, the Switch needs to be in "Recovery Mode"(RCM). 
+The easiest way to enter RCM is by grounding pin 10 in the right joycon rail and holding VOL+ on boot. 
+Several methods and designs to do this exist, see <a href="https://nh-server.github.io/switch-guide/user_guide/emummc/entering_rcm">our guide</a> for more information. 
+Once the Switch is in RCM it needs to be connected to either a computer, phone or dongle to send the exploit and the payload.</p>
+<p>This procedure needs to happen every time the Switch boots from a completely "off" state, otherwise the Switch will boot into the stock firmware.</p>
+</div>
+<h2 id="what-makes-a-good-jig-good-can-i-use-a-paperclip">What makes a good jig good? Can I use a paperclip?</h2>
+<div class="admonition tip">
+<p>Most people prefer to use 3d-printed jigs to enter RCM. 
+These jigs are made in a way that they slide into the right joycon rail and have a piece of connected wire that then bridges pin 10 and one of the grounded pins on the Switch. 
+A lot of different designs for these jigs exist, but it is important to understand, that these jigs can damage the Switch if they are made in a bad way.</p>
+<p>Since the wire in the jig is supposed to touch the pads inside the Switch's joycon rail, it is important to use wire that is thin, not rigid and bent/not pointy. 
+Paperclips make for potentially dangerous jigs, as they are made out of a hard material, are rigid and pointy and can easily scratch off the pads inside the Switch. 
+A good jig uses 32Gauge(0.2mm diameter) wire and is bent in a way that the end of the wire does not scratch the pads. <a href="https://switchjigs.com/" target="_blank">Switch Jigs</a> sells jigs we consider "good". 
+You can also download and 3d-print your own jig and use the pictures on the website to guide you on how to bend the wire correctly.</p>
+</div>
+<h2 id="is-there-an-easier-way-to-enter-rcm">Is there an easier way to enter RCM?</h2>
+<div class="admonition tip">
+<p>To enter RCM more comfortably a solution called "AutoRCM" exists. 
+Once set up, this method will always boot the Switch into RCM, even without a jig or holding any buttons. 
+This works by "bricking" the Switch in a controlled manner. 
+The Switch detects that something is wrong and boots into RCM to get repaired. 
+The big downside of this method is, that it is impossible to boot the Switch without a computer, phone or dongle, as it will never boot into stock firmware by itself, and that it requires an SD card with the proper CFW files on it at all times. In addition, if the battery of the Switch is completely drained, the Switch will need to charge to at least 10% in Hekate before launching Atmosphere, otherwise the Switch will refuse to boot due to the low battery. Charging in RCM is not recommended as this is very slow. AutoRCM can be reversed, but it is advised to keep a working NAND and BOOT0/1 backup before using it.</p>
+<p>Many Android-phones are able to send the exploit to the Switch, making them a perfect portable way to launch CFW. Different designs for portable dongles exist, ranging from Raspberry Pi Zero and Arduino projects to internal dongles, that work completely autonomous. The latter should only be done by advanced users, as it requires soldering onto the Switch mainboard itself.</p>
+</div>
+<h2 id="should-i-update-my-firmware">Should I update my Firmware?</h2>
+<div class="admonition tip">
+<p>If your Switch is one of the new hardware revisions that patched the exploit in RCM and you are on firmware 7.0.1 or lower, you should not update if you want to have CFW in the forseeable future.</p>
+<p>If your Switch is one of the older hardware revisions and you don't mind having to use jigs/hardmods/AutoRCM and sending the exploit via computer, phone or dongle everytime you want to launch into CFW then it is completely safe to update. 
+If you want the chance to maybe, one day, not have to use a external device, then it is recommended to stay on a FW as low as possible. 
+Beware that this means that you potentially need to wait for a very long time (months to years) for this to happen, if ever. Private exploits to launch CFW over the Browser are known to exist for firmwares up to 7.0.1.</p>
+<p>Downgrading on the Switch is possible, but it requires using AutoRCM and a custom bootloader payload to bypass the Switch's several hardware anti-downgrade mechanisms. 
+This will not work on an unpatched system, and is practically useless for most users.
+On every boot the Switch firmware checks how many e-fuses have been burned and how many e-fuses the Switch expects to be burned. 
+Major updates to the Switch, or updates in which a large vulnerability has been patched, irreversibly burn one of the Switch's 64 "e-fuses". 
+<em>If the Switch ever detects that more e-fuses have been burned than expected (meaning a downgrade happened), it will refuse to boot. Replacing e-fuses is not an option.</em>
+You can find more information about fuses <a href="https://switchbrew.org/wiki/Fuses#Anti-downgrade" target="_blank">here</a>
+Atmosphere 0.16.0 works fine with the new 11.0.0 firmware update on unpatched units. The situation for patched and new units is this:</p>
+<ul>
+<li>
+<p><strong>"Old"</strong> <em>Patched Switch (HAC-001): Do NOT update past 7.0.1. Units on 7.0.1 and below will eventually get CFW. Patched units that have upgraded to 8.0.0 or 8.0.1 will likely get homebrew.</em></p>
+</li>
+<li>
+<p><strong>"New"</strong> <em>Switch (HAC-001-01): Do NOT update past 8.0.1. Units on 8.0.1 and below will likely get homebrew. Units on 8.1.0 and higher are not expected to be hacked and can be updated.</em></p>
+</li>
+<li>
+<p><strong>Switch Lite</strong> <em>(HDH-001): Do NOT update past 8.0.1. Units on 8.0.1 and below will likely get homebrew. Units on 8.1.0 and higher are not expected to be hacked and can be updated.</em></p>
+</li>
+</ul>
+<p>A method to update without burning e-fuses exists, but, like downgrading, it forces you to use AutoRCM and sending the exploit via USB every time, as booting into the stock firmware even once would instantly burn the e-fuse. Note that other anti-downgrade mechanisms exist, making it for example impossible to boot game carts on a firmware below 4.1/9.0.0 if the Switch has ever launched a game on firmware 4.1+/9.0.0+. This can only be worked around by completely disabling the game cart slot while on 4.1/9.0.0 or greater, which is similarly impractical for most users.</p>
+</div>
+<h2 id="is-it-safe-to-use-homebrew-will-i-get-banned">Is it safe to use homebrew? Will I get banned?</h2>
+<div class="admonition tip">
+<p>The Switch comes with a lot of telemetry, and has been called a "telemetry monster" by several prominent developers. 
+As long as the Switch is connected to the internet, Nintendo gets a report about a lot of different actions and states and has the option to log or act on them. 
+Even if the Switch is offline and connects to the internet at a later point, Nintendo still recieves information about what happened while the Switch was disconnected.</p>
+<p>To disable some of this telemetry, it is advised to disable the sending of error reports in the System Settings of the Switch. 
+Additionally if you live in the EU you can set the "do not share" option on <a href="https://accounts.nintendo.com/setting" target="_blank">Nintendo's website</a> to prevent your Switch from sending a lot of telemetry, although the effectiveness of this is questionable.</p>
+<p>Nintendo still receives a lot of information, even with those options disabled. 
+We also cannot know if Nintendo decides to look for something in the logs and ban people in retrospect. 
+They have also shown to expand their telemetry options with every other firmware update.</p>
+<div class="admonition tip">
+<p class="admonition-title">Currently all bans have been for very obvious and intrusive actions, specifically:</p>
+<ul>
+<li>Developers using their unique Switch data to poke and reverse-engineer Nintendos Server responses</li>
+<li>People pirating games and using them online</li>
+<li>People changing their profile pictures to custom pictures</li>
+<li>People using savegame editors to unlock content that is not available yet and using it online (Splatoon 2)</li>
+<li>People cheating online in general (Modifying Cart stats in MK8)</li>
+<li>People installing homebrew NSP files, which Nintendo can pick up on with their telemetry</li>
+</ul>
+</div>
+<p>Atmosphere stops some, but <strong><em>not all</em></strong> of Nintendo's telemetry, and prevents crash reports from being sent. This means Nintendo can't tell if anything, including homebrew or modded games crashed, and Atmosphere dumps the crash log to the SD card to help homebrew developers. However, Nintendo still receives information about what is being played, and general system report information.</p>
+<p>Atmosphere is not a silver bullet, and this does not mean that Nintendo won't decide to ban people for harmless homebrew in the future. If you are scared to get banned then don't use homebrew for now. Atmosphere now supports emuMMC (emuNAND): a copy of Switch system software, run entirely from the SD card instead. 
+This erases ban risks due to the fact that emuMMC is run in a quarantined, offline state, not touching the internal memory. You are still able to boot into original firmware to play online.</p>
+<p>For patched units reliant on deja-vu, sysNAND will always have to be on a firmware below 4.1. For switches from 5.0 to 7.0.1 deja-vu isn't quite out yet but is coming soon. (Also please note that firmwares 8.0.0+ will never work with deja-vu) You can use an updated emuMMC dedicated to online/clean play, while your sysNAND is used offline for custom firmware.</p>
+<p>We do not recommend the use of ReiNX or SX OS for many reasons, primary among them that they use lots of assets from Atmosphere and offer no real benefit that Atmosphere does not offer anyway.
+We also do not recommend Kosmos, as its large amount of extras on top of regular Atmosphere make it difficult to troubleshoot strange issues.
+All of these alternative CFWs also tend to use non-conventional setups which can cause issues that make it difficult to troubleshoot, which is another reason we prefer using Atmosphere.
+Additionally, it is advised to use 90DNS which blocks connections to any Nintendo servers. If you use an emuNAND for CFW and keep your sysNAND clean for playing online, you should use 90DNS on your emuNAND.
+<em>Note: Keeping your emuNAND "dirty" and your sysNAND "clean" pertains primarily to those using the RCM exploit. Users employing Nereba or Caffeine will do the opposite.</em></p>
+</div>
+<h2 id="what-formats-can-homebrew-come-in">What formats can homebrew come in</h2>
+<div class="admonition tip">
+<p>Homebrew can come in two different formats, namely in <code>nro</code> files and in <code>bin</code> files.</p>
+<ul>
+<li><code>nro</code> Files are placed in the <code>switch</code> folder on your SD card and can be launched using the Homebrew menu.</li>
+<li><code>bin</code> This format is used as a payload and is to be pushed in RCM using a payload launcher like tegrarcmgui on windows and fusee-interfacee-tk on other operating systems.</li>
+</ul>
+</div>
+<p><strong>Homebrew risks</strong>
+<em>Be careful with launching downloaded homebrew! If you don't know the source, it's best not to launch it.</em>
+<em>Homebrew can potentially damage your system! Atmosphere provides protections against common bricking methods, but these are not guaranteed to always work!</em></p>
+<h2 id="what-microsd-cardformat-should-i-use">What microSD card/format should I use?</h2>
+<div class="admonition tip">
+<p>microSD cards that are 32GB or smaller can be used for homebrew, but are not recommended as these will not permit you to have a full NAND dump and/or an emuMMC on them.</p>
+<p>The recommended microSD card size is 128GB. This will permit you to make a full NAND dump as well as having enough space to run an emuNAND in the future while also having adequate space for homebrew.</p>
+<p>The recommended filesystem format is FAT32. While the Switch supports exFAT through an additional update from Nintendo, this filesystem is prone to corruption and as a result is not advisable.</p>
+</div>
+<h2 id="fake-microsd-cards">Fake microSD cards</h2>
+<div class="admonition tip">
+<p>Do not buy microSD cards from sites like eBay. 
+These microSD cards are often fake and do not have the advertised amount of storage and will result in data corruption if used. 
+Amazon has had some problems with fake SD cards, so we recommend buying them at a physical store. Even on trustworthy sites, <em>always, always check reviews on a product before buying!!</em></p>
+<p>If you suspect your microSD card is fake or damaged, see the instructions <a href="https://3ds.eiphax.tech/sd.html" target="_blank">here</a> to verify the integrity of your SD card.</p>
+</div>
+<h2 id="amazonebayaliexpress-jigs">Amazon/eBay/Aliexpress jigs</h2>
+<div class="admonition tip">
+<p>Although some Switch jigs are for sale on these websites and others like them, we have <em>no way of verifying that they are appropriate or safe for use with the Switch</em> and as such we do not recommend buying from these websites. The only seller we trust due to their reputation and our overall experience with the many jigs they have sent out is <a href="https://switchjigs.com/" target="_blank">Switch Jigs</a>.</p>
+</div>
+<h2 id="my-homebrew-is-not-showing-up-on-the-menu">My homebrew is not showing up on the menu</h2>
+<div class="admonition tip">
+<p>This is an issue primarily affecting macOS users, but may occur on other devices as well. If you are able to launch the homebrew menu, but you are not seeing some or any of your homebrew, you will need to unset the archive bit with Hekate.</p>
+<ol>
+<li>Send the Hekate payload to your Switch by following these instructions: <a href="https://nh-server.github.io/switch-guide/user_guide/emummc/sending_payload/">here</a></li>
+<li>Click on <code>Tools</code> on the top menu bar</li>
+<li>In the bottom left corner click on <code>Archive bit * AutoRCM</code></li>
+<li>Click on <code>Unset Archive bit</code> - this might take a while</li>
+<li>Press <code>Close</code> in the top right corner</li>
+<li>Press <code>Home</code> in the top menu bar to get back from where you started</li>
+<li>Follow the instructions at the Launching CFW page <a href="https://nh-server.github.io/switch-guide/user_guide/emummc/launching_cfw/">here</a> to launch Atmosphere.</li>
+</ol>
+</div></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2019 <a href="https://discord.gg/C29hYvh" target="_blank">Nintendo Homebrew</a>, Maintained by the <a href="/switch-guide/about">NH Discord Server</a>.</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
