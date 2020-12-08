@@ -13,12 +13,6 @@ on:
         with:
           persist-credentials: false
 
-      # Download the generated documentation
-      - name: Download site artifact
-        uses: actions/download-artifact@v1
-        with:
-          name: site
-
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
