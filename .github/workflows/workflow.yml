@@ -1,6 +1,4 @@
-# This is a basic workflow to help you get started with Actions
-
-name: switch-guide
+name: Main workflow
 
 on:
   push:
@@ -46,11 +44,10 @@ jobs:
         # Build the site using mkdocs
         run: mkdocs build --verbose --clean --strict
 
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@3.7.1
+      # Upload the generated documentation
+      - name: Upload site artifact
+        uses: actions/upload-artifact@v1
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: site # The folder the action should deploy.
-          CLEAN: true # Automatically remove deleted files from the deploy branch
+          name: site
+          path: site
 
