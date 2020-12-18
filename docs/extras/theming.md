@@ -79,7 +79,8 @@ Make sure that the images you want to use are 1280x720 and in JPG!
 ## Troubleshooting:
 My Switch crashes on boot after I installed a theme!:
 
-- You installed a bad theme. You can remove it by going into the `/atmosphere/titles/0100000000001000/romfs/lyt` and deleting every file in that folder.
+- You installed a bad theme. You can remove it by going into the `/atmosphere/contents/0100000000001000/romfs/lyt` and deleting every file in that folder.
+  - Note: `contents` is called `titles` on Atmosphere versions 0.9.4 and below
 
 The NXTheme installer crashes when I launch it:
 
