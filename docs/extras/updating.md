@@ -94,10 +94,10 @@ If you keep your emuMMC offline, you will have to use a gamecard to update your 
 
 1. Make sure your sysMMC is up to date. If your sysMMC is not up-to-date, update it through the System Settings.
 2. Inject `TegraExplorer.bin` using TegraRCMGUI (Like you would with Hekate).
-3. Using the volume and power buttons, select `Tools`, then `Dump Firmware` and for the format type choose `Daybreak`.
+3. Using the joystick and the A buttons, select `Dump Firmware`.
 4. Wait about 1-2 minutes for the tool to dump your firmware.
-5. When the tool finishes, press any volume button.
-6. Select `Exit` and then `Reboot to Atmosphere`.
+5. When the tool finishes, press any button.
+6. Select `Reboot to atmosphere/reboot_payload.bin`.
 
 ### Updating your emuMMC with Daybreak
 
