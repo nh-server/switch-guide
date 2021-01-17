@@ -8,7 +8,7 @@
 
 -----
 
-## Preperations
+## Preparations
 
 What you need:
 
