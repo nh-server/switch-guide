@@ -6,7 +6,7 @@ This section is dedicated to explaining a number of common terms that are used w
 
 The following list is in alphabetical order.
 
-- **90DNS**: DNS that blocks system updates on the Nintendo Switch. This can be enabled by following the guide [here](switch-guide/extras/blocking_updates/).
+- **90DNS**: DNS that blocks system updates on the Nintendo Switch. This can be enabled by following the guide [here](blocking_updates.md).
 - **[Atmosphere](https://github.com/Atmosphere-NX/Atmosphere)**: The CFW developed by the Atmosphere-NX organization on GitHub and the one used in this guide.
 - **AutoRCM**: A method that corrupts parts of your boot0 and boot1, causing the Switch to boot into RCM automatically. Using this requires an additional peripheral (such as a computer, phone, dongle or trinket) to be able to boot your Switch.
 - **boot0 and boot1**: Two partitions of the Switch NAND.
@@ -14,7 +14,7 @@ The following list is in alphabetical order.
 - **Deja Vu**: An unreleased exploit chain for the Nintendo Switch. The completely unpatched version of this chain will grant access to TrustZone, which effectively means being able to enter CFW. The TrustZone part of this exploit was patched in firmware version 5.0.0 and up, but normal homebrew access can still be gained up to firmware version 6.0.1.
 - **DNS**: [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System). Basically, it's the internet's addressbook. If you visit a website, the DNS is what tells you what server the site is hosted on.
 - **Dongle**: Device you can plug in the charging port of your Switch to automatically send a payload if your Switch is in RCM.
-- **Encryption keys**: Keys used to encrypt files from the Nintendo Switch. These can be dumped by following the guide [here](switch-guide/extras/dumping_title_keys/).
+- **Encryption keys**: Keys used to encrypt files from the Nintendo Switch. These can be dumped by following the guide [here](dumping_title_keys.md).
   - **BIS keys**: Specific keys used to decrypt the NAND.
 - **[fusee-gelee](https://github.com/Qyriad/fusee-launcher/blob/master/report/fusee_gelee.md)/[ShofEL2](https://github.com/fail0verflow/shofel2)**: Two names for two different implementations of the same exploit. This is an exploit that grants full bootrom access to the Nintendo Switch from the Tegra X1s RCM and permits us to run CFW. This exploit requires an external device and a tiny hardware modification. fusee-gelee is developed by an ex-ReSwitched developer, while ShofEL2 is developed by the failoverfl0w team. This guide uses fusee-gelee.
 - **[hactool](https://github.com/SciresM/hactool)**: Software used to decrypt Nintendo Switch files like .XCI and .NSP files.
@@ -27,7 +27,7 @@ The following list is in alphabetical order.
 - **nx-hbloader**: Intermediary program used to load the Homebrew Launcher from CFW developed by Switchbrew. Comes bundled with Atmosphere.
 - **PRODINFO**: A partition on the NAND of your Switch. This along with boot0 and boot1 is the only part of your Switch that can render it unbootable if improperly modified. Atmosphere backs up this partition on booting and it is included in your NAND backup.
 - **ReSwitched**: A hacking team that is one of the main developers for Atmosphere.
-- **RCM**: A shorthand for "Recovery Mode". When talking about hacking the Switch, this commonly refers to the Recovery Mode in the Tegra X1 chip that is included in the Nintendo Switch. Can be entered by holding down the Tegra X1 home button. This button is not the same as the home button on the joycons. Ways of pressing this button can be found [here](switch-guide/user_guide/emummc/entering_rcm/).
+- **RCM**: A shorthand for "Recovery Mode". When talking about hacking the Switch, this commonly refers to the Recovery Mode in the Tegra X1 chip that is included in the Nintendo Switch. Can be entered by holding down the Tegra X1 home button. This button is not the same as the home button on the joycons. Ways of pressing this button can be found [here](../user_guide/emummc/entering_rcm.md).
 - **[TegraRCMGUI](https://github.com/eliboa/TegraRcmGUI/releases)/fusee-interface-gtk**: Software used to run the fusee-gelee exploit on the Switch.
 - **Tegra X1**: [A chip made by Nvidia that is used in the Nintendo Switch.](https://en.wikipedia.org/wiki/Tegra#Tegra_X1)
 - **Trinket**: A tiny chip that is soldered on the Switch motherboard to automatically send a payload if it is in RCM.
