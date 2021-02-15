@@ -18,7 +18,7 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
 !!! tip ""
     - The latest release of <a href="https://github.com/CTCaer/Hekate/releases/" target="_blank">Hekate</a> (Download the `hekate_ctcaer_(version).zip` release of hekate)
     - The hekate config file: <a href="../../../files/emu/hekate_ipl.ini" download>hekate_ipl.ini</a>
-    - The 90dns dns redirection config: <a href="../../../files/emummc.txt" download>emummc.txt</a>
+    - The 90dns DNS redirection config: <a href="../../../files/emummc.txt" download>emummc.txt</a>
     - The bootlogo zip folder: <a href="../../../files/bootlogos.zip" download>bootlogos.zip</a>
     - The latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a> (Download the `atmosphere-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip` release of Atmosphere. Do not download the `atmosphere-EXPERIMENTAL-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip` release.)
      - The latest release of <a href="https://github.com/shchmue/Lockpick_RCM/releases" target="_blank">Lockpick_RCM</a> (Download the `Lockpick_RCM.bin` release of Lockpick)
@@ -39,10 +39,10 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
     5. Copy `hekate_ipl.ini` to the `bootloader` folder on your SD card
     6. Copy `Lockpick_RCM.bin` to the `/bootloader/payloads` folder on your SD card
     7. Create a folder named `hosts` inside the `atmosphere` folder on your SD card, and put `emummc.txt` in it
-    7. Create a folder named `appstore` inside the `switch` folder on your SD card, and put `appstore.nro` in it
-    8. Copy `Checkpoint.nro`, `ftpd.nro`, `NX-Shell.nro` and `NxThemesInstaller.nro` to the `switch` folder on your SD card
-    9. If you were already using your microSD card as a storage device for your games and backed it up before partitioning your microSD card, please place it back on the root of your microSD card.
-    10. Reinsert your SD card back into your Switch
+    8. Create a folder named `appstore` inside the `switch` folder on your SD card, and put `appstore.nro` in it
+    9. Copy `Checkpoint.nro`, `ftpd.nro`, `NX-Shell.nro` and `NxThemesInstaller.nro` to the `switch` folder on your SD card
+    10. If you were already using your microSD card as a storage device for your games and backed it up before partitioning your microSD card, please place it back on the root of your microSD card.
+    11. Reinsert your SD card back into your Switch
 
     !!! tip ""
         Your SD card should look similar to this. The `Nintendo` folder will not be present if your switch has not already booted with the microSD card inserted.

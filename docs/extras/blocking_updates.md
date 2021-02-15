@@ -1,9 +1,9 @@
 # Blocking Updates
 
-This page will help you set up a method to block Nintendo from reaching your switch. This will stop any updates and reporting to Nintendo, but it will prevent use of the eShop and online games.
+This page will help you set up a method to block all communication with Nintendo. This will stop any updates and reporting to Nintendo, but it will prevent use of the eShop and online games.
 
 ### Instructions (AMS DNS redirection)
-You can configure atmosphere to automatically redirect any requests directed to Nintendo to nothing instead. Documentation about this feature can be [found here](https://github.com/Atmosphere-NX/Atmosphere/blob/master/docs/features/dns_mitm.md). The section below will help you set up dns redirection on your emummc. Note that this will only apply when you are using cfw.
+You can configure Atmosphere to automatically redirect any requests directed to Nintendo to nothing instead. Documentation about this feature can be [found here](https://github.com/Atmosphere-NX/Atmosphere/blob/master/docs/features/dns_mitm.md). The section below will help you set up DNS redirection on your emummc. Note that this will only apply when you are using cfw.
 
 #### What you need: 
 
@@ -12,14 +12,14 @@ You can configure atmosphere to automatically redirect any requests directed to 
 
 #### Setup:
 
-1. Insert your sd into your pc
+1. Insert your SD into your pc
 2. Enter the Atmosphere folder
 3. If it doesn't exist already, create a folder named `hosts` in the atmosphere folder
 4. Copy the emummc.txt into the hosts folder
-    - If you want to apply the dns redirection to sysmmc instead of emummc, rename the file to `sysmmc.txt`
+    - If you want to apply the DNS redirection to sysmmc instead of emummc, rename the file to `sysmmc.txt`
 
 !!! note "Verify functionality"
-    You can verify the functionality of the dns redirection by booting into emummc (or sysmmc if you applied the config to sys), and powering off after. 
+    You can verify the functionality of the DNS redirection by booting into emummc (or sysmmc if you applied the config to sys), and powering off after. 
     
     A report will be generated in sd:/atmosphere/logs called `dns_mitm_startup.log`. If this starts with the following, the dns redirection is active
 
@@ -75,11 +75,11 @@ You can add a custom DNS to your WiFi connection that will block all communicati
 
 ## Testing if you can reach nintendo
 
-### Testing via the eshop (Stock)
+### Testing via the eShop (Stock)
 
 !!! tip ""
-    1. Open the eshop. Wait until it either opens or displays an error
-    2. If it displays "Unable to display page." you seem to have nintendo blocked
+    1. Open the eShop. Wait until it either opens or displays an error
+    2. If it displays "Unable to display page." you seem to have Nintendo blocked
 
 ### Testing via a homebrew app (CFW)
 
