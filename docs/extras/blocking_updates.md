@@ -1,12 +1,35 @@
 # Blocking Updates
 
-You can add a custom DNS to your WiFi connection that will block all communication with Nintendo's servers. This will stop any updates and reporting to Nintendo, but it will prevent use of the eShop and online games.
+This page will help you set up a method to block all communication with Nintendo. This will stop any updates and reporting to Nintendo, but it will prevent use of the eShop and online games.
 
-We will be using [90DNS](https://gitlab.com/a/90dns), a community-run custom DNS server. If you prefer, you can run your own DNS server following the instructions on the [GitLab repository.](https://gitlab.com/a/90dns/blob/master/SELFHOST.md)
+### Instructions (AMS DNS redirection)
+You can configure Atmosphere to automatically redirect any requests directed to Nintendo to nothing instead. Documentation about this feature can be [found here](https://github.com/Atmosphere-NX/Atmosphere/blob/master/docs/features/dns_mitm.md). The section below will help you set up DNS redirection on your emummc. Note that this will only apply when you are using cfw.
+
+#### What you need: 
+
+- <a href="../../../files/emummc.txt" download>emummc.txt</a>
+- Atmosphere 0.18.0 or higher
+
+#### Setup:
+
+1. Insert your SD into your pc
+2. Enter the Atmosphere folder
+3. If it doesn't exist already, create a folder named `hosts` in the atmosphere folder
+4. Copy the emummc.txt into the hosts folder
+    - If you want to apply the DNS redirection to sysmmc instead of emummc, rename the file to `sysmmc.txt`
+
+!!! note "Verify functionality"
+    You can verify the functionality of the DNS redirection by booting into emummc (or sysmmc if you applied the config to sys), and powering off after. 
+    
+    A report will be generated in sd:/atmosphere/logs called `dns_mitm_startup.log`. If this starts with the following, the dns redirection is active
+
+    !!! tip ""
+        ![dnsmitmlog](../extras/img/dnsmitm.png)
 
 &nbsp;
 
-### Instructions
+### Instructions (90dns)
+You can add a custom DNS to your WiFi connection that will block all communication with Nintendo's servers. We will be using [90DNS](https://gitlab.com/a/90dns), a community-run custom DNS server. If you prefer, you can run your own DNS server following the instructions on the [GitLab repository.](https://gitlab.com/a/90dns/blob/master/SELFHOST.md)
 
 !!! tip ""
     Enter the console's System Settings, and then proceed to the Internet tab. From here:
@@ -47,19 +70,26 @@ We will be using [90DNS](https://gitlab.com/a/90dns), a community-run custom DNS
     Example for a 90dns connection with the Europe settings:
     ![Visual for System Settings serial location](../extras/img/blocking_updates.png)
 
+
+&nbsp;
+
+## Testing if you can reach nintendo
+
+### Testing via the eShop (Stock)
+
 !!! tip ""
-    ### Testing if your 90dns connection is working
-    <details>
-        <summary>Click to expand!</summary>
+    1. Open the eShop. Wait until it either opens or displays an error
+    2. If it displays "Unable to display page." you seem to have Nintendo blocked
 
-    !!! tip ""
-        1. Download the latest release of the [90dns Tester](https://github.com/meganukebmp/Switch_90DNS_tester/releases)
-        2. Place the `Switch_90DNS_tester.nro` in the `switch` folder on your SD
-        3. Enter the homebrew menu and run the 90dns Tester
-        4. After the test finished it should look similar to the below picture, with every `nintendo` domain being blocked
+### Testing via a homebrew app (CFW)
 
-    !!! tip ""
-        ![tester example](../extras/img/90dns_tester_switch.jpg)
+!!! tip ""
+    1. Download the latest release of the [90dns Tester](https://github.com/meganukebmp/Switch_90DNS_tester/releases)
+    2. Place the `Switch_90DNS_tester.nro` in the `switch` folder on your SD
+    3. Enter the homebrew menu and run the 90dns Tester
+    4. After the test finished it should look similar to the below picture, with every `nintendo` domain being blocked
 
-</details>
+!!! tip ""
+    ![tester example](../extras/img/90dns_tester_switch.jpg)
+
 
