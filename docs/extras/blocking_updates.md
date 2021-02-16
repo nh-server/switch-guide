@@ -7,7 +7,7 @@ You can configure Atmosphere to automatically redirect any requests directed to 
 
 #### What you need: 
 
-- <a href="../../../files/emummc.txt" download>emummc.txt</a>
+- <a href="../../files/emummc.txt" download>emummc.txt</a>
 - Atmosphere 0.18.0 or higher
 
 #### Setup:
