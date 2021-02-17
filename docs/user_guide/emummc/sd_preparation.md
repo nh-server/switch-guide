@@ -41,7 +41,7 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
     7. Create a folder named `hosts` inside the `atmosphere` folder on your SD card, and put `emummc.txt` in it
     8. Create a folder named `appstore` inside the `switch` folder on your SD card, and put `appstore.nro` in it
     9. Copy `Checkpoint.nro`, `ftpd.nro`, `NX-Shell.nro` and `NxThemesInstaller.nro` to the `switch` folder on your SD card
-    10. If you were already using your microSD card as a storage device for your games and backed it up before partitioning your microSD card, please place it back on the root of your microSD card.
+    10. If you were already using your microSD card as a storage device for your games and backed up the Nintendo folder before partitioning your microSD card, please place it back on the root of your microSD card.
     11. Reinsert your SD card back into your Switch
 
     !!! tip ""
