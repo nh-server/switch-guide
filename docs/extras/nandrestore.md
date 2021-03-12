@@ -17,7 +17,7 @@
 Before we start, check if you have a tree of folders called `backup/[8 Character NAND id]/restore` on your sd card.
 
 !!! warning "If you don't see a backup or [8 Character NAND id] folder on your sd card:"
-	This means you do not have a nand backup, it is highly reccomended you make one as soon as possible. Follow the steps below to make one.
+	This means you do not have a nand backup, it is highly recommended you make one as soon as possible. Follow the steps below to make one.
 
 	1. Launch the latest Hekate payload on your switch.
 	2. Navigate to `Tools > Backup eMMC > eMMC BOOT0 & BOOT1` and let it do its thing.
