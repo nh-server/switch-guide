@@ -20,7 +20,7 @@ Atmosphere has its own bootloader, called fusee (primary). For the purposes of t
     - The hekate config file: <a href="../../../files/emu/hekate_ipl.ini" download>hekate_ipl.ini</a>
     - The 90dns DNS redirection config: <a href="../../../files/emummc.txt" download>emummc.txt</a>
     - The bootlogo zip folder: <a href="../../../files/bootlogos.zip" download>bootlogos.zip</a>
-    - The latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a> (Download the `atmosphere-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip` release of Atmosphere. Do not download the `atmosphere-EXPERIMENTAL-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip` release.)
+    - The latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a> (Download the `atmosphere-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip` release of Atmosphere.
      - The latest release of <a href="https://github.com/shchmue/Lockpick_RCM/releases" target="_blank">Lockpick_RCM</a> (Download the `Lockpick_RCM.bin` release of Lockpick)
     - The latest release of <a href="https://github.com/FlagBrew/Checkpoint/releases" target="_blank">Checkpoint</a> (Download the `Checkpoint.nro` release of Checkpoint)
     - The latest release of <a href="https://github.com/mtheall/ftpd/releases" target="_blank">FTPD</a> (Download the `ftpd.nro` release of FTPD)
