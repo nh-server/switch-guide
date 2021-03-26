@@ -41,6 +41,8 @@ There are several methods of entering RCM (**R**e**C**overy **M**ode). The most 
 
 	!!! tip ""
 		![Console Numbered Pads Refrence](../img/entering_rcm_pads_numbered.jpg)
+	
+	Please note that once you have successfully entered RCM, you can take the jig out of the joycon rail.
 </details>
 
 !!! tip ""
