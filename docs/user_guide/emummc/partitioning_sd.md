@@ -28,7 +28,7 @@ What you need:
 6. Navigate to `Reboot to RCM` and press the A button to reboot to RCM. It's now safe to eject your sd card for the next part of the guide.
 
 !!! warning "Windows complaining about an unreadable drive"
-    If you get the issue that Windows says the SD card is unreadable and wants to format it, do not format! This is likely your emuMMC partition.
+    If you get the issue that Windows says the SD card is unreadable and wants to format it, do not format! This is likely your emuMMC partition. After partitioning your sd, your sd will show up as 2 drives on your pc. Use the drive that can be accessed
     
 &nbsp;
 
