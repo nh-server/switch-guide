@@ -161,7 +161,7 @@
     1. Send the Hekate payload to your Switch by following these instructions: [here](https://nh-server.github.io/switch-guide/user_guide/emummc/sending_payload/)
     2. Click on `Tools` on the top menu bar
     3. In the bottom left corner click on `Archive bit * AutoRCM`
-    4. Click on `Unset Archive bit` - this might take a while
+    4. Click on `Fix Archive bit` - this might take a while
     5. Press `Close` in the top right corner
     6. Press `Home` in the top menu bar to get back from where you started
     7. Follow the instructions at the Launching CFW page [here](https://nh-server.github.io/switch-guide/user_guide/emummc/launching_cfw/) to launch Atmosphere.
