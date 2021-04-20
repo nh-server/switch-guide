@@ -35,7 +35,7 @@ When a new version of Hekate releases, you can update by following these steps:
 
 Always check _before_ updating your system firmware if the latest version of Atmosphere _as well_ as the latest version of Hekate support the firmware version you are updating towards.
 
-Currently the latest version supported by Atmosphere and Hekate is: **12.0.0**.
+Currently the latest version supported by Atmosphere and Hekate is: **12.0.1**.
 
 In addition, updating to or past some firmwares update the gamecard firmware. Reference the table below for information about these.
 
