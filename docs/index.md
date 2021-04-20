@@ -16,7 +16,7 @@ A guide collaboration between Nintendo Homebrew's Helpers and Staff, from stock 
 
     This can include save editing tools, games, emulators, and more.
 
-    Homebrew can be run for free on your Switch through Custom Firmware as long as you have a "first-generation" system running 12.0.0 or lower, and a USB-C cable.
+    Homebrew can be run for free on your Switch through Custom Firmware as long as you have a "first-generation" system running 12.0.1 or lower, and a USB-C cable.
 
 ### What is Custom Firmware?
 
@@ -49,7 +49,7 @@ A guide collaboration between Nintendo Homebrew's Helpers and Staff, from stock 
 !!! tip ""
     Before beginning the guide, you must know the risks of Switch hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They’re rare but still a possibility so make sure you follow ALL directions EXACTLY.
 
-    This guide will work on first-generation Switch consoles in all regions on firmware 12.0.0 or below.
+    This guide will work on first-generation Switch consoles in all regions on firmware 12.0.1 or below.
 
     You will need one of the following in order to successfully follow this guide:
 
