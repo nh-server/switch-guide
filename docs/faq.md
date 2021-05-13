@@ -64,7 +64,7 @@
     Major updates to the Switch, or updates in which a large vulnerability has been patched, irreversibly burn one of the Switch's 64 "e-fuses". 
     *If the Switch ever detects that more e-fuses have been burned than expected (meaning a downgrade happened), it will refuse to boot. Replacing e-fuses is not an option.*
     You can find more information about fuses <a href="https://switchbrew.org/wiki/Fuses#Anti-downgrade" target="_blank">here</a>
-    Atmosphere 0.16.1 works fine with the new 11.0.1 firmware update on unpatched units. The situation for patched and new units is this:
+    Atmosphere 0.19.3 works fine with the new 12.0.2 firmware update on unpatched units. The situation for patched and new units is this:
 
     - **"Old"** *Patched Switch (HAC-001): Do NOT update past 7.0.1. Units on 7.0.1 and below will eventually get CFW. Patched units that have upgraded to 8.0.0 or 8.0.1 will likely get homebrew.*
 
@@ -161,7 +161,7 @@
     1. Send the Hekate payload to your Switch by following these instructions: [here](https://nh-server.github.io/switch-guide/user_guide/emummc/sending_payload/)
     2. Click on `Tools` on the top menu bar
     3. In the bottom left corner click on `Archive bit * AutoRCM`
-    4. Click on `Unset Archive bit` - this might take a while
+    4. Click on `Fix Archive bit` - this might take a while
     5. Press `Close` in the top right corner
     6. Press `Home` in the top menu bar to get back from where you started
     7. Follow the instructions at the Launching CFW page [here](https://nh-server.github.io/switch-guide/user_guide/emummc/launching_cfw/) to launch Atmosphere.

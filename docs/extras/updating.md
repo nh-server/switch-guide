@@ -35,7 +35,7 @@ When a new version of Hekate releases, you can update by following these steps:
 
 Always check _before_ updating your system firmware if the latest version of Atmosphere _as well_ as the latest version of Hekate support the firmware version you are updating towards.
 
-Currently the latest version supported by Atmosphere and Hekate is: **11.0.1**.
+Currently the latest version supported by Atmosphere and Hekate is: **12.0.2**.
 
 In addition, updating to or past some firmwares update the gamecard firmware. Reference the table below for information about these.
 
@@ -47,7 +47,9 @@ In addition, updating to or past some firmwares update the gamecard firmware. Re
 | On or above 4.0.0, but below 9.0.0   | 9.0.0 or above                                | Yes                       |
 | On or above 9.0.0, but below 11.0.0  | At least 9.1.0 but below 11.0.0               | No                        |
 | On or above 9.0.0, but below 11.0.0  | 11.0.0 or above                               | Yes                       |
-| On or above 11.0.0                   | Latest supported Atmosphere & Hekate revision | No                        |
+| On or above 11.0.0 but below 12.0.0  | At least 11.0.1 but below 12.0.0              | No                        |
+| On or above 11.0.0 but below 12.0.0  | 12.0.0 or above                               | Yes                       |
+| On or above 12.0.0                   | Latest supported Atmosphere & Hekate revision | No                        |
 
 If at least one of the versions you are updating towards also updates the gamecard firmware, you will not be able to downgrade below that version without making the gamecard slot unusable until you update.
 

@@ -14,9 +14,6 @@ This guide was written by staff members of the [Nintendo Homebrew Discord Server
 !!! tip ""
     [You can find this guide on GitHub](https://github.com/nh-server/switch-guide), It is licensed under the [ISC license.](https://github.com/nh-server/switch-guide/blob/master/LICENSE.md)
 
-!!! tip ""
-    ![Nintendo Homebrew](img/nh.jpg)
-
 !!! tip "Developer / Tool credits"
     - **Atmosphere-NX** for [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere).
     - **switchbrew** for [nx-hbloader](https://github.com/switchbrew/nx-hbloader) and [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu).
@@ -36,3 +33,7 @@ This guide was written by staff members of the [Nintendo Homebrew Discord Server
     - **Nexrem (meganukebmp)** for the [Switch 90DNS Tester](https://github.com/meganukebmp/Switch_90DNS_tester).
     - **exelix11** for [Switch Theme Injector](https://github.com/exelix11/SwitchThemeInjector/releases).
     - **vgmoose** for [hb-appstore](https://github.com/vgmoose/hb-appstore).
+    - **suchmememanyskill** for [TegraExplorer](https://github.com/suchmememanyskill/TegraExplorer)
+
+!!! tip ""
+    ![Nintendo Homebrew](img/nh.jpg)
