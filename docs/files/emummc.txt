@@ -29,6 +29,7 @@
 127.0.0.1 *nintendo.co.za
 127.0.0.1 *nintendo.se
 127.0.0.1 *nintendo.ch
+127.0.0.1 *nintendo.pl
 127.0.0.1 *nintendoswitch.com
 127.0.0.1 *nintendoswitch.com.cn
 127.0.0.1 *nintendoswitch.cn
