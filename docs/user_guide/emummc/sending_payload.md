@@ -3,7 +3,7 @@
 # Sending a Payload
 
 !!! warning "If you are here to test if your Switch is patched"
-    Make sure you have [put your device into RCM](entering_rcm.md) and downloaded Hekate (if necessary, extract its zip file onto the root of your SD card) before continuing. Once finished, if your console is **not** patched, continue with [Partitioning the SD](partitioning_sd.md).
+    Make sure you have [put your device into RCM](entering_rcm.md) and downloaded TegraExplorer. Once finished, if your console is **not** patched, continue with [Partitioning the SD](partitioning_sd.md).
 
 
 Now that the device is in RCM, we will need to send it a payload. The methods are mostly the same, but slightly differ depending on what hardware you have available.
@@ -20,8 +20,8 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
     Payloads you'll need for this guide:
 
-    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a> (either the hekate_ctcaer bin or the hekate_ctcaer zip)
-    - The latest release of <a href="https://github.com/suchmememanyskill/TegraExplorer/releases" target="_blank">TegraExplorer</a>
+    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (hekate_ctcaer bin) is located in the hekate_ctcaer zip.
+    - The latest release of <a href="https://github.com/suchmememanyskill/TegraExplorer/releases" target="_blank">TegraExplorer</a>.
 
 ### Instructions
 
@@ -121,7 +121,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 &nbsp;
 
 !!! danger "If nothing happens after you send the payload"
-    If your console's screen remains black after you've sent Hekate, it's possible your payload was corrupted, or that your console is patched. If your payload injector program shows that 0 bytes were sent, then it is definitely patched, so you'll be unable to proceed with the rest of the guide.
+    If your console's screen remains black after you've sent TegraExplorer, it's possible your payload was corrupted, or that your console is patched. If your payload injector program shows that 0 bytes were sent, then it is definitely patched, so you'll be unable to proceed with the rest of the guide.
 
 &nbsp;
 
