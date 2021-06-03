@@ -15,7 +15,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
 !!! tip ""
     - The latest release of <a href="https://github.com/eliboa/TegraRcmGUI/releases" target="_blank">TegraRcmGUI</a> (either the MSI or zip)
-    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a> (either the hekate_ctcaer bin or the hekate_ctcaer zip)
+    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (hekate_ctcaer bin) is located in the hekate_ctcaer zip.
     - A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
 
 ### Instructions
