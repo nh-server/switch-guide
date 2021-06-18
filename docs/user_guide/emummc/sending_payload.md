@@ -121,7 +121,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 &nbsp;
 
 !!! danger "If nothing happens after you send the payload"
-    If your console's screen remains black after you've sent TegraExplorer, it's possible your payload was corrupted, or that your console is patched. If your payload injector program shows that 0 bytes were sent, then it is definitely patched, so you'll be unable to proceed with the rest of the guide.
+    If your console's screen remains black after you've sent TegraExplorer (or any other payload), it's possible your payload was corrupted, or that your console is patched. If your payload injector program shows that 0 bytes were sent, then it is definitely patched, so you'll be unable to proceed with the rest of the guide.
 
 &nbsp;
 
