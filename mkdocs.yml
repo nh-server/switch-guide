@@ -3,6 +3,7 @@ theme: slate
 copyright: Copyright &copy; 2021 <a href="https://discord.gg/C29hYvh" target="_blank">Nintendo Homebrew</a>, Maintained by the <a href="/switch-guide/about">NH Discord Server</a>.
 site_description: Switch CFW Guide.
 site_author: NH Discord Server.
+site_url: https://nh-server.github.io/switch-guide/
 
 nav:
     - Home: index.md
