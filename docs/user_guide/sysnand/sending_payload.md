@@ -15,7 +15,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
 !!! tip ""
     - The latest release of <a href="https://github.com/eliboa/TegraRcmGUI/releases" target="_blank">TegraRcmGUI</a> (either the MSI or zip)
-    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a> (either the hekate_ctcaer bin or the hekate_ctcaer zip)
+    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (hekate_ctcaer bin) is located in the hekate_ctcaer zip.
     - A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
 
 ### Instructions
@@ -37,7 +37,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
 !!! tip ""
     - The latest release of <a href="https://github.com/nh-server/fusee-interfacee-tk/releases" target="_blank">fusee-interfacee-tk</a>
-    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a> (either the hekate_ctcaer bin or the hekate_ctcaer zip)
+    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (hekate_ctcaer bin) is located in the hekate_ctcaer zip.
     - A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
 
 ### Instructions
@@ -58,7 +58,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 !!! tip ""
     - The latest release of <a href="https://github.com/MenosGrante/Rekado/releases" target="_blank">Rekado</a>
         - You will need to enable Unknown Sources in your device settings to install this
-    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a> (either the hekate_ctcaer bin or the hekate_ctcaer zip)
+    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (hekate_ctcaer bin) is located in the hekate_ctcaer zip.
     - A USB-C cable
         - If your device has a USB-C port, you may use a C-C cable
         - If your device only has a Micro USB port, you will need a USB OTG adapter and a USB A-C cable
@@ -89,7 +89,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
     Payloads you'll need for this guide:
 
-    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a> (either the hekate_ctcaer bin or the hekate_ctcaer zip)
+    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (hekate_ctcaer bin) is located in the hekate_ctcaer zip.
 
 ### Instructions
     
@@ -103,7 +103,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 &nbsp;
 
 !!! danger "If nothing happens after you send the payload"
-    If your console's screen remains black after you've sent Hekate, it's possible your payload was corrupted, or that your console is patched. If your payload injector program shows that 0 bytes were sent, then it is definitely patched, so you'll be unable to proceed with the rest of the guide.
+    If your console's screen remains black after you've sent Hekate (or any other payload), it's possible your payload was corrupted, or that your console is patched. If your payload injector program shows that 0 bytes were sent, then it is definitely patched, so you'll be unable to proceed with the rest of the guide.
 
 &nbsp;
 
