@@ -91,17 +91,17 @@
  
     !!!tip "Currently all bans have been for very obvious and intrusive actions, specifically:"
         - Developers using their unique Switch data to poke and reverse-engineer Nintendos Server responses
-        - People pirating games and using them online
+        - People pirating games and going online on emuNAND/SysCFW
         - People changing their profile pictures to custom pictures
         - People using savegame editors to unlock content that is not available yet and using it online (Splatoon 2)
         - People cheating online in general (Modifying Cart stats in MK8)
-        - People installing homebrew NSP files, which Nintendo can pick up on with their telemetry
+        - People installing NSP/XCI files, which Nintendo can pick up on with their telemetry
 
 
     Atmosphere stops some, but ***not all*** of Nintendo's telemetry, and prevents crash reports from being sent. This means Nintendo can't tell if anything, including homebrew or modded games crashed, and Atmosphere dumps the crash log to the SD card to help homebrew developers. However, Nintendo still receives information about what is being played, and general system report information.
 
     Atmosphere is not a silver bullet, and this does not mean that Nintendo won't decide to ban people for harmless homebrew in the future. If you are scared to get banned then don't use homebrew for now. Atmosphere now supports emuMMC (emuNAND): a copy of Switch system software, run entirely from the SD card instead. 
-    This erases ban risks due to the fact that emuMMC is run in a quarantined, offline state, not touching the internal memory. You are still able to boot into original firmware to play online.
+    This doesn't erase ban risks due to the fact that emuMMC shares the same console identifiers but emuMMC still lets you run your homebrew in a completely different environment.
 
     For patched units reliant on deja-vu, sysNAND will always have to be on a firmware below 4.1. For switches from 5.0 to 7.0.1 deja-vu isn't quite out yet but is coming soon. (Also please note that firmwares 8.0.0+ will never work with deja-vu) You can use an updated emuMMC dedicated to online/clean play, while your sysNAND is used offline for custom firmware.
 	
