@@ -7,7 +7,7 @@ For save management,  [Edizon](https://github.com/WerWolv/EdiZon/releases) is re
 &nbsp;
 	
 ### Edizon
-Please read Edizon's [homepage](https://github.com/WerWolv98/EdiZon) for information on how to use it.
+Please read Edizon's [homepage](https://github.com/WerWolv/EdiZon/wiki) for information on how to use it.
 
 !!! tip ""
 	![ExampleSwitchTheme](../extras/img/save_edizon.jpg)
