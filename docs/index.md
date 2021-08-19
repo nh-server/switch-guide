@@ -21,7 +21,7 @@ A guide collaboration between Nintendo Homebrew's Helpers and Staff, from stock 
 ### What is Custom Firmware?
 
 !!! tip ""
-    Custom Firmware (“CFW”) is a piece software that modifies the system firmware.
+    Custom Firmware (“CFW”) is a piece of software that modifies the system firmware.
     Atmosphere, for example, does this by running in the background and patching the OS on the fly.
 
     This allows one to extend the functionality of their system by giving homebrew higher levels of permission than most userland exploits and can be used to provide extra features for homebrew devs and users to take advantage of for various purposes, for instance, game modding using LayeredFS.
