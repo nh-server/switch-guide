@@ -5,7 +5,7 @@
 ### Making the emuMMC
 
 !!!warning "Before you start"
-    Before you start, boot your switch normally, and delete all the wifi networks. You can add them back to your sysnand after completing this guide
+    If you don't plan on using the Internet on your emuMMC, it is recommended to boot your switch normally and delete all the wifi networks. You can add them back to your sysnand after completing this guide.
 
 !!!tip ""
     1. Enter RCM and inject the Hekate payload

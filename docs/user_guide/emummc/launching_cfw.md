@@ -2,12 +2,9 @@
 
 Now that the preparation work is out of the way, we're finally ready to launch custom firmware on the Switch.
 
-Unlike systems such as the DSi, Wii, or 3DS, Switch CFW is currently volatile- it will only work as long as your Switch is on. As soon as your Switch completely loses power for any reason (shutting down, battery dying, etc.), CFW will no longer be active and you will need to follow these instructions again.
+Unlike systems such as the DSi, Wii, or 3DS, Switch CFW is currently volatile. It will only work as long as your Switch is on. As soon as your Switch completely loses power for any reason (shutting down, battery dying, etc.), CFW will no longer be active and you will need to follow these instructions again.
 
 &nbsp;
-
-!!!danger "Keep emuMMC offline at all times"
-    You should keep your emuMMC(emunand) offline (or with 90dns) at all times. Not doing this will likely result in a ban
 
 ### Instructions
 
@@ -44,7 +41,7 @@ You will now be able to launch the Homebrew Menu by opening the album or by hold
 !!! tip ""
     - Checkpoint is a save manager, it can dump and restore saves from/to your system. For more information, see [Save Management](../../extras/save_management.md)
 
-    - FTPD is a ftp tool for connecting your Switch's sd card wirelessly to your pc. Tools like Filezilla can connect to your switch on `(ip of switch):5000`
+    - FTPD is a ftp tool for connecting your Switch's sd card wirelessly to your pc. Tools like WinSCP can connect to your switch on `(ip of switch):5000`
 
     - NX-Shell is a file explorer for the Switch. You can move files, listen to mp3's, view images etc.
 
