@@ -6,6 +6,9 @@ Unlike systems such as the DSi, Wii, or 3DS, Switch CFW is currently volatile. I
 
 &nbsp;
 
+!!! danger "Keep emuMMC offline at all times"
+    Your emuMMC (emuNAND) should never connect to Nintendo. For online play, eShop browsing, or any other Nintendo online activity, use your sysNAND. Using both emuMMC and sysNAND online will likely result in a ban.
+
 ### Instructions
 
 !!! tip ""
