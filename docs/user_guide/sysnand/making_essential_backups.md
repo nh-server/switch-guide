@@ -50,7 +50,7 @@
 !!!tip ""
     1. Enter RCM and inject the Hekate payload.
     2. Tap the `Payloads` option, then press Lockpick_RCM.bin.
-    3. If Lockpick_RCM asks you to select between SysNAND and emuMMC, choose SysNAND by navigating with the volume buttons and pressing the power button. If not, continue with step 4.
+    3. If Lockpick_RCM asks you to select between SysNAND and EmuNAND, choose SysNAND by navigating with the volume buttons and pressing the power button. If not, continue with step 4.
     4. Lockpick_RCM should now inform you that your keys have been saved to `/switch/prod.keys` on the SD card.
     5. Press any button to return to the main menu.
     6. Navigate to 'Power off' with the volume buttons and select it with the power button.
