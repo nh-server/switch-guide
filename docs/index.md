@@ -56,7 +56,7 @@ A guide collaboration between Nintendo Homebrew's Helpers and Staff, from stock 
     - A PC and a USB cable capable of data transfer between your Switch and your PC
     - An Android device and a USB cable capable of data transfer between your Switch and your Android device
 		- This does not work on every android phone
-    - A jailbroken iOS device and a USB cable capable of data transfer between your Switch and your iOS device
+    - A Lightning-OTG adapter, a jailbroken iOS device and a USB cable capable of data transfer between your Switch and the adapter
         - This method is not covered by the guide, but you can read more about it at [this website](https://mologie.github.io/nxboot/)
 
 
