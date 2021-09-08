@@ -207,12 +207,14 @@
 <p>After following our guide, your system will consist of three core elements that can be updated. Atmosphere, Hekate and your system firmware.</p>
 <h2 id="updating-atmosphere">Updating Atmosphere</h2>
 <p>When updating Atmosphere always make sure to <em>read the release notes</em>. They may list important changes and modifications to your system.</p>
+<div class="admonition warning">
+<p class="admonition-title">Updating from below Atmosphere 1.0.0</p>
+<p>If you update from below Atmosphere 1.0.0, there are additional steps to follow. You will have to delete the <code>sept</code> folder from your sd, delete <code>fusee-secondary.bin</code> from your <code>atmosphere</code> folder and update your hekate config file: <a href="../../files/emu/hekate_ipl.ini" download>hekate_ipl.ini</a> in the <code>bootloader</code> folder.</p>
+</div>
 <p>When a new version of Atmosphere releases, you can update Atmosphere by following these steps:</p>
-<!-- Notice for easy removal later once EXPERIMENTAL releases aren't needed:  This section below has a notice about EXPIREMENTAL release. -->
-
 <ol>
 <li>Turn off your Nintendo Switch and plug your SD card in your computer.</li>
-<li>Download the latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a> (Download the <code>atmosphere-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip</code> release of Atmosphere. Do not download the <code>atmosphere-EXPERIMENTAL-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip</code> release.)</li>
+<li>Download the latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a> (Download the <code>atmosphere-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip</code> release of Atmosphere.)</li>
 <li>Copy <em>the contents of</em> the Atmosphere <code>.zip</code> file to the root of your SD card.<ul>
 <li>If you are prompted to overwrite files, do so.</li>
 </ul>
@@ -329,7 +331,7 @@ To prevent autoRCM from being disabled, boot CFW on sysMMC and update through se
 <ol>
 <li>Make sure your sysMMC is up to date. If your sysMMC is not up-to-date, update it through the System Settings.</li>
 <li>Inject <code>TegraExplorer.bin</code> using TegraRCMGUI (Like you would with Hekate).</li>
-<li>Using the joystick and the A buttons, select <code>Dump Firmware</code>.</li>
+<li>Using the joystick and the A buttons, select <code>FirmwareDump.te</code>.</li>
 <li>Wait about 1-2 minutes for the tool to dump your firmware.</li>
 <li>When the tool finishes, press any button.</li>
 <li>Select <code>Reboot to atmosphere/reboot_payload.bin</code>.</li>

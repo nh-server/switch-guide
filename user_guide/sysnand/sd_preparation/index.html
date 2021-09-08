@@ -178,7 +178,7 @@
 
 <h1 id="sd-preparation">SD Preparation</h1>
 <p>We will now place the required files for the Atmosphere custom firmware and some additional homebrew files on the SD card.</p>
-<p>Atmosphere has its own bootloader, called fusee (primary). For the purposes of this guide we will be using Hekate instead, so that we can back up the system's NAND (internal storage) and take advantage of other advanced features in the future.</p>
+<p>Atmosphere has its own bootloader, called fusee. For the purposes of this guide we will be using Hekate instead, so that we can back up the system's NAND (internal storage) and take advantage of other advanced features in the future.</p>
 <p>&nbsp;</p>
 <div class="admonition danger">
 <p class="admonition-title">FAT32 vs exFAT</p>
@@ -190,14 +190,12 @@
 </div>
 <p>&nbsp;</p>
 <h3 id="what-you-need">What you need</h3>
-<!-- Notice for easy removal later once WITHOUT_MESOSPHERE releases aren't needed:  This section below has a notice about WITHOUT_MESOSPHERE release. -->
-
 <div class="admonition tip">
 <ul>
 <li>The latest release of <a href="https://github.com/CTCaer/Hekate/releases/" target="_blank">Hekate</a> (Download the <code>hekate_ctcaer_(version).zip</code> release of hekate)</li>
 <li>The hekate config file: <a href="../../../files/sys/hekate_ipl.ini" download>hekate_ipl.ini</a></li>
 <li>The bootlogo zip folder: <a href="../../../files/bootlogos.zip" download>bootlogos.zip</a></li>
-<li>The latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a>. Download the <code>atmosphere-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip</code> release of Atmosphere. Do not download the <code>atmosphere-(version)-master-(version)-WITHOUT_MESOSPHERE+hbl-(version)+hbmenu-(version).zip</code> release.</li>
+<li>The latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a>. Download the <code>atmosphere-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip</code> release of Atmosphere.</li>
 <li>The latest release of <a href="https://github.com/shchmue/Lockpick_RCM/releases" target="_blank">Lockpick_RCM</a> (Download the <code>Lockpick_RCM.bin</code> release of Lockpick)</li>
 <li>The latest release of <a href="https://github.com/SciresM/Checkpoint/releases" target="_blank">Checkpoint</a> (Download the <code>Checkpoint.nro</code> release of Checkpoint). Note: This is a fork of checkpoint as the current release of checkpoint is broken</li>
 <li>The latest release of <a href="https://github.com/mtheall/ftpd/releases" target="_blank">FTPD</a> (Download the <code>ftpd.nro</code> release of FTPD)</li>
