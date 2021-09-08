@@ -8,12 +8,14 @@ After following our guide, your system will consist of three core elements that 
 
 When updating Atmosphere always make sure to _read the release notes_. They may list important changes and modifications to your system.
 
+!!! warning "Updating from below Atmosphere 1.0.0"
+    If you update from below Atmosphere 1.0.0, there are additional steps to follow. You will have to delete the `sept` folder from your sd, delete `fusee-secondary.bin` from your `atmosphere` folder and update your hekate config file: <a href="../../files/emu/hekate_ipl.ini" download>hekate_ipl.ini</a> in the `bootloader` folder.
+
 When a new version of Atmosphere releases, you can update Atmosphere by following these steps:
 
-<!-- Notice for easy removal later once EXPERIMENTAL releases aren't needed:  This section below has a notice about EXPIREMENTAL release. -->
 
 1. Turn off your Nintendo Switch and plug your SD card in your computer.
-2. Download the latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a> (Download the `atmosphere-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip` release of Atmosphere. Do not download the `atmosphere-EXPERIMENTAL-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip` release.)
+2. Download the latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a> (Download the `atmosphere-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip` release of Atmosphere.)
 3. Copy *the contents of* the Atmosphere `.zip` file to the root of your SD card.
     - If you are prompted to overwrite files, do so.
 4. (If your hekate is not on the latest version) Update hekate via the steps below
@@ -94,7 +96,7 @@ If you keep your emuMMC offline, you will have to use a gamecard to update your 
 
 1. Make sure your sysMMC is up to date. If your sysMMC is not up-to-date, update it through the System Settings.
 2. Inject `TegraExplorer.bin` using TegraRCMGUI (Like you would with Hekate).
-3. Using the joystick and the A buttons, select `Dump Firmware`.
+3. Using the joystick and the A buttons, select `FirmwareDump.te`.
 4. Wait about 1-2 minutes for the tool to dump your firmware.
 5. When the tool finishes, press any button.
 6. Select `Reboot to atmosphere/reboot_payload.bin`.

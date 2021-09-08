@@ -51,13 +51,12 @@ A guide collaboration between Nintendo Homebrew's Helpers and Staff, from stock 
 
     This guide will work on first-generation Switch consoles in all regions on firmware 12.1.0 or below.
 
-    You will need one of the following in order to successfully follow this guide:
+    You will need **one** of the following in order to successfully follow this guide:
 
-    - A USB-A to USB-C cable, and a PC
-    - A USB-OTG cable, a USB-A to USB-C cable, and an Android device
+    - A PC and a USB cable capable of data transfer between your Switch and your PC
+    - An Android device and a USB cable capable of data transfer between your Switch and your Android device
 		- This does not work on every android phone
-    - A USB-C cable, and an Android device with a USB-C port
-    - A Lightning-OTG adapter, a USB-A to USB-C cable, and a jailbroken iOS device
+    - A Lightning-OTG adapter, a jailbroken iOS device and a USB cable capable of data transfer between your Switch and the adapter
         - This method is not covered by the guide, but you can read more about it at [this website](https://mologie.github.io/nxboot/)
 
 

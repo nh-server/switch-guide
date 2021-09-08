@@ -38,6 +38,6 @@ The following list is in alphabetical order.
 
 The resources below are for users and developers interested in developing Homebrew or for those that want to get a more technical understanding of the various concepts.
 
-- The [ReSwitched FAQ](https://reswitched.team/faq/) lists a general overview of how the Switch works.
+- The [ReSwitched FAQ](https://reswitched.github.io/faq/) lists a general overview of how the Switch works.
 - [Switchbrew](https://switchbrew.org) is a wiki detailing the inner workings of the Nintendo Switch's firmware.
 - [libNX documentation](https://switchbrew.github.io/libnx/index.html). LibNX is the library used to develop Homebrew on the Nintendo Switch.
