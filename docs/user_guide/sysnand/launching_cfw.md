@@ -54,4 +54,4 @@ You will now be able to launch the Homebrew Menu by opening the album or by hold
 ### Updating your setup
 
 !!! tip ""
-	Whenever a new Switch firmware update releases you may need to update your files to be able to use CFW on the new version. Make sure to follow the instructions on [this](https://switchgui.de/switch-guide/extras/updating/) page to update your setup correctly.
+	Whenever a new Switch firmware update releases you may need to update your files to be able to use CFW on the new version. Make sure to follow the instructions on [this page](https://switchgui.de/switch-guide/extras/updating/) to update your setup correctly.
