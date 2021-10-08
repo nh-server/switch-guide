@@ -35,7 +35,7 @@ The latest release of <a href="https://github.com/exelix11/SwitchThemeInjector/r
 
 &nbsp;
 
-## Making a theme (Mac / Linux)
+## Making a theme (Mac / Linux / Chrome OS)
 
 ### Making the theme
 
@@ -47,12 +47,6 @@ Make sure that the images you want to use are 1280x720 and in JPG!
 4. Your browser will prompt you to download a file. Save this file to a temporary folder.
 5. Repeat step 2 to 4 for every Home Menu part of the Switch you want to modify.
 	
-&nbsp;
-
-## Making a theme (Chromebook)
-
-### Follow the instructions for Mac/Linux
-
 &nbsp;
 
 ## Installing a theme
