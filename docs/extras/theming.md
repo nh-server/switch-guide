@@ -49,6 +49,12 @@ Make sure that the images you want to use are 1280x720 and in JPG!
 	
 &nbsp;
 
+## Making a theme (Chromebook)
+
+### Follow the instructions for Mac/Linux
+
+&nbsp;
+
 ## Installing a theme
 
 !!! tip "Community Themes"
