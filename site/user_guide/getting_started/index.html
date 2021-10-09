@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="NH Discord Server.">
+        <link rel="canonical" href="https://nh-server.github.io/switch-guide/user_guide/getting_started/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Getting Started - NH Switch Guide</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/darcula.min.css">
+        <link href="../../css/custom.css" rel="stylesheet">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">NH Switch Guide</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">User Guide <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Getting Started</a>
+</li>
+                                    
+<li>
+    <a href="../rcm/" class="dropdown-item">RCM</a>
+</li>
+                                    
+<li>
+    <a href="../emummc/entering_rcm/" class="dropdown-item">Entering RCM</a>
+</li>
+                                    
+<li>
+    <a href="../emummc/sending_payload/" class="dropdown-item">Sending a payload</a>
+</li>
+                                    
+<li>
+    <a href="../emummc/partitioning_sd/" class="dropdown-item">Partitioning the SD</a>
+</li>
+                                    
+<li>
+    <a href="../emummc/sd_preparation/" class="dropdown-item">SD preparations</a>
+</li>
+                                    
+<li>
+    <a href="../emummc/making_emummc/" class="dropdown-item">Making the emuMMC</a>
+</li>
+                                    
+<li>
+    <a href="../emummc/launching_cfw/" class="dropdown-item">Launching CFW</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Extras <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../extras/blocking_updates/" class="dropdown-item">Blocking Updates</a>
+</li>
+                                    
+<li>
+    <a href="../../extras/nandrestore/" class="dropdown-item">Restoring a NAND Backup</a>
+</li>
+                                    
+<li>
+    <a href="../../extras/autorcm/" class="dropdown-item">AutoRCM</a>
+</li>
+                                    
+<li>
+    <a href="../../extras/dumping_title_keys/" class="dropdown-item">Dumping Title Keys</a>
+</li>
+                                    
+<li>
+    <a href="../../extras/theming/" class="dropdown-item">Theming</a>
+</li>
+                                    
+<li>
+    <a href="../../extras/save_management/" class="dropdown-item">Save Management</a>
+</li>
+                                    
+<li>
+    <a href="../../extras/game_modding/" class="dropdown-item">Game Modding</a>
+</li>
+                                    
+<li>
+    <a href="../../extras/adding_udev/" class="dropdown-item">Linux injection without root</a>
+</li>
+                                    
+<li>
+    <a href="../../extras/showing_file_extensions/" class="dropdown-item">Showing File Name Extensions (Windows)</a>
+</li>
+                                    
+<li>
+    <a href="../../extras/alternate_bootsetups/" class="dropdown-item">Alternate Boot Setups</a>
+</li>
+                                    
+<li>
+    <a href="../../extras/rcm_injectors/" class="dropdown-item">RCM Payload Injectors Information</a>
+</li>
+                                    
+<li>
+    <a href="../../extras/updating/" class="dropdown-item">Updating CFW</a>
+</li>
+                                    
+<li>
+    <a href="../../extras/transfer_sd/" class="dropdown-item">Changing SD cards</a>
+</li>
+                                    
+<li>
+    <a href="../../extras/glossary/" class="dropdown-item">Glossary</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../faq/" class="nav-link">FAQ</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../about/" class="nav-link">About</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../.." class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../rcm/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#getting-started" class="nav-link">Getting Started</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="getting-started">Getting Started</h1>
+<h3 id="finding-your-serial-number">Finding your serial number</h3>
+<p>The first thing to do is determine if your Switch is vulnerable to fusee-gelee, the exploit we will be using to launch CFW.</p>
+<p>This vulnerability was independently discovered by several different Switch hacking teams, and multiple variants of it were released to the public in April 2018 after a 90-day disclosure period ended. Nintendo and NVIDIA were made aware of the issue before the public release as a result, and Switch systems that are not vulnerable to the exploit started being spotted in the wild in July 2018. NVIDIA <a href="https://nvidia.custhelp.com/app/answers/detail/a_id/4660/~/security-notice%3A-nvidia-tegra-rcm-vulnerability">publicly acknowledged the flaw</a> in April as well. In July 2019, Nintendo announced updated consoles, a handheld variant of the Switch called the Switch Lite (HDH-001), and a new model of original Switch (HAC-001-01) with better battery life. Both of these new models use a new processor called the T210b01 (also known as T214 and Mariko) with a new bootROM, and are not hackable at the current time.</p>
+<p>Patched and Mariko units can be identified by their serial number. This number can be found on the bottom of your Switch adjacent to the USB-C port, or in the Settings applet at <strong>System -&gt; Serial Information</strong>. </p>
+<p>&nbsp;</p>
+<div class="admonition tip">
+<p><img alt="Visual for System Settings serial location" src="../img/getting_started_serial_location.jpg" /></p>
+</div>
+<div class="admonition tip">
+<p><img alt="Visual for serial location on the bottom of console" src="../img/serial_switch.png" />    </p>
+</div>
+<p>&nbsp;</p>
+<h3 id="determining-if-your-switch-is-vulnerable">Determining if your Switch is vulnerable</h3>
+<p>The homebrew community has crowdsourced a list of known serial numbers which are vulnerable to fusee-gelee. </p>
+<ul>
+<li>If your serial number is on this list as "potentially patched", follow the guide and see if your system works. </li>
+<li>If your serial number is listed as "patched", there is nothing you can do at this time. </li>
+<li>If your system is patched, it is highly advised to keep it on 7.0.1 or lower, if possible, as there may be a vulnerability for these versions in the far future. <strong>DO NOT update patched consoles past 7.0.1 if you want to ever have a chance of running homebrew and/or CFW on them.</strong></li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Notice</p>
+<p>If you are unsure if your serial is patched, you can test your console yourself following the instructions <a href="../emummc/sending_payload/">here.</a></p>
+</div>
+<hr />
+<p>&nbsp;</p>
+<h3 id="serial-list">Serial list</h3>
+<p>The following information is based on <a href="https://gbatemp.net/threads/switch-informations-by-serial-number-read-the-first-post-before-asking-questions.481215/">this GBATemp thread</a>.</p>
+<table>
+<thead>
+<tr>
+<th align="left">Serial Numbers</th>
+<th align="left"><span style="color:green">Unpatched</span></th>
+<th align="left"><span style="color:orange">Potentially patched</span></th>
+<th align="left"><span style="color:red">Patched</span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">XAW1</td>
+<td align="left">XAW10000000000 to XAW10074000000</td>
+<td align="left">XAW10074000000 to XAW10120000000</td>
+<td align="left">XAW10120000000 and up</td>
+</tr>
+<tr>
+<td align="left">XAW4</td>
+<td align="left">XAW40000000000 to XAW40011000000</td>
+<td align="left">XAW40011000000 to XAW40012000000</td>
+<td align="left">XAW40012000000 and up</td>
+</tr>
+<tr>
+<td align="left">XAW7</td>
+<td align="left">XAW70000000000 to XAW70017800000</td>
+<td align="left">XAW70017800000 to XAW70030000000</td>
+<td align="left">XAW70030000000 and up</td>
+</tr>
+<tr>
+<td align="left">XAJ1</td>
+<td align="left">XAJ10000000000 to XAJ10020000000</td>
+<td align="left">XAJ10020000000 to XAJ10030000000</td>
+<td align="left">XAJ10030000000 and up</td>
+</tr>
+<tr>
+<td align="left">XAJ4</td>
+<td align="left">XAJ40000000000 to XAJ40046000000</td>
+<td align="left">XAJ40046000000 to XAJ40060000000</td>
+<td align="left">XAJ40060000000 and up</td>
+</tr>
+<tr>
+<td align="left">XAJ7</td>
+<td align="left">XAJ70000000000 to XAJ70040000000</td>
+<td align="left">XAJ70040000000 to XAJ70050000000</td>
+<td align="left">XAJ70050000000 and up</td>
+</tr>
+<tr>
+<td align="left">XKW1</td>
+<td align="left"><strong>N/A</strong></td>
+<td align="left"><strong>N/A</strong></td>
+<td align="left">XKW10000000000 and up</td>
+</tr>
+<tr>
+<td align="left">XKJ1</td>
+<td align="left"><strong>N/A</strong></td>
+<td align="left"><strong>N/A</strong></td>
+<td align="left">XKJ10000000000 and up</td>
+</tr>
+<tr>
+<td align="left">XJW1</td>
+<td align="left"><strong>N/A</strong></td>
+<td align="left"><strong>N/A</strong></td>
+<td align="left">XJW01000000000 and up</td>
+</tr>
+<tr>
+<td align="left">XWW1</td>
+<td align="left"><strong>N/A</strong></td>
+<td align="left"><strong>N/A</strong></td>
+<td align="left">XWW01000000000 and up</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h3 id="console-preparation">Console Preparation</h3>
+<div class="admonition danger">
+<p class="admonition-title">Important</p>
+<p>Before setting up the console for homebrew, it is important to have at least one eShop game (such as <a href="https://www.nintendo.com/games/detail/onigiri-switch/">Onigiri</a>), application (such as <a href="https://www.nintendo.com/games/detail/youtube-switch/">YouTube</a> or <a href="https://www.nintendo.com/games/detail/hulu-switch/">Hulu</a>), or a game demo such as <a href="https://www.nintendo.com/games/detail/10-second-run-returns-switch">10 Second Run RETURNS</a>. Running homebrew through any game cartridge will also work, but it must be inserted. Running homebrew does not permanently replace or remove the game/application, nor does it become tied to only one game/application (any cartridge you have inserted or any game/application installed can always be used). Once you have any game or application, you are prepared to continue on with the guide.</p>
+</div>
+<p>&nbsp;</p>
+<hr />
+<h3 id="version-table">Version Table</h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Nereba and Caffeine how-to guides are currently a Work-In-Progress (WIP)!</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>While the "New" Switch (HAC-001-01)'s earliest possible firmware is 7.0.1, it is <strong>not</strong> vulnerable to <em>déjà vu</em>, the exploit used by Nereba and Caffeine, because of hardware differences from the "Old" Switch (HAC-001).</p>
+</div>
+<p>&nbsp;</p>
+<table>
+<thead>
+<tr>
+<th align="left">Firmware Version</th>
+<th align="left">Unpatched Switches (HAC-001)</th>
+<th align="left">Patched Switches (HAC-001)</th>
+<th align="left">"New" Switch (HAC-001-01)</th>
+<th align="left">Switch Lite (HDH-001)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">1.0.0</td>
+<td align="left">Nereba or <a href="../rcm/"><strong>RCM</strong></a></td>
+<td align="left"><strong>N/A</strong></td>
+<td align="left"><strong>N/A</strong></td>
+<td align="left"><strong>N/A</strong></td>
+</tr>
+<tr>
+<td align="left">2.0.0 - 3.0.2</td>
+<td align="left">Caffeine or <a href="../rcm/"><strong>RCM</strong></a></td>
+<td align="left"><strong>N/A</strong></td>
+<td align="left"><strong>N/A</strong></td>
+<td align="left"><strong>N/A</strong></td>
+</tr>
+<tr>
+<td align="left">4.0.0 - 4.1.0</td>
+<td align="left">Caffeine or <a href="../rcm/"><strong>RCM</strong></a></td>
+<td align="left">Caffeine</td>
+<td align="left"><strong>N/A</strong></td>
+<td align="left"><strong>N/A</strong></td>
+</tr>
+<tr>
+<td align="left">5.0.0 - 7.0.0</td>
+<td align="left"><a href="../rcm/"><strong>RCM</strong></a></td>
+<td align="left">Wait for CFW</td>
+<td align="left"><strong>N/A</strong></td>
+<td align="left"><strong>N/A</strong></td>
+</tr>
+<tr>
+<td align="left">7.0.1</td>
+<td align="left"><a href="../rcm/"><strong>RCM</strong></a></td>
+<td align="left">Wait for CFW</td>
+<td align="left">Cart update to 8.0.1</td>
+<td align="left"><strong>N/A</strong></td>
+</tr>
+<tr>
+<td align="left">8.0.1</td>
+<td align="left"><a href="../rcm/"><strong>RCM</strong></a></td>
+<td align="left">Wait for homebrew</td>
+<td align="left">Wait for homebrew</td>
+<td align="left">Wait for homebrew</td>
+</tr>
+<tr>
+<td align="left">8.1.0 - 13.0.0</td>
+<td align="left"><a href="../rcm/"><strong>RCM</strong></a></td>
+<td align="left">Unhackable (currently)</td>
+<td align="left">Unhackable (currently)</td>
+<td align="left">Unhackable (currently)</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h4 id="if-your-switch-is-not-patched-continue-to-rcm"><a href="../rcm/">If your Switch is not patched, continue to RCM <i class="fa fa-arrow-circle-right fa-lg"></i></a></h4></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2021 <a href="https://discord.gg/C29hYvh" target="_blank">Nintendo Homebrew</a>, Maintained by the <a href="/switch-guide/about">NH Discord Server</a>.</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

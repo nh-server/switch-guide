@@ -1,0 +1,16 @@
+summary {
+  cursor: pointer;
+  outline: none;
+}
+
+code {
+  white-space: normal !important;
+}
+
+body {
+    color: #E0E0E0;
+}
+
+a:not([class]) {
+  color: #00A3D1;
+}
