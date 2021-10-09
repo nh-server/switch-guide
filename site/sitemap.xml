@@ -2,157 +2,281 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://nh-server.github.io/switch-guide/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nh-server.github.io/switch-guide/about/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nh-server.github.io/switch-guide/faq/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nh-server.github.io/switch-guide/extras/adding_udev/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nh-server.github.io/switch-guide/extras/alternate_bootsetups/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nh-server.github.io/switch-guide/extras/autorcm/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nh-server.github.io/switch-guide/extras/blocking_updates/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nh-server.github.io/switch-guide/extras/dumping_title_keys/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nh-server.github.io/switch-guide/extras/game_modding/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nh-server.github.io/switch-guide/extras/glossary/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nh-server.github.io/switch-guide/extras/nandrestore/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nh-server.github.io/switch-guide/extras/rcm_injectors/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nh-server.github.io/switch-guide/extras/save_management/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nh-server.github.io/switch-guide/extras/showing_file_extensions/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nh-server.github.io/switch-guide/extras/theming/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nh-server.github.io/switch-guide/extras/transfer_sd/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nh-server.github.io/switch-guide/extras/updating/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nh-server.github.io/switch-guide/user_guide/getting_started/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nh-server.github.io/switch-guide/user_guide/rcm/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nh-server.github.io/switch-guide/user_guide/emummc/entering_rcm/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nh-server.github.io/switch-guide/user_guide/emummc/launching_cfw/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nh-server.github.io/switch-guide/user_guide/emummc/linux_partitioning/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nh-server.github.io/switch-guide/user_guide/emummc/making_emummc/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nh-server.github.io/switch-guide/user_guide/emummc/partitioning_sd/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nh-server.github.io/switch-guide/user_guide/emummc/sd_preparation/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nh-server.github.io/switch-guide/user_guide/emummc/sending_payload/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nh-server.github.io/switch-guide/user_guide/sysnand/entering_rcm/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nh-server.github.io/switch-guide/user_guide/sysnand/launching_cfw/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nh-server.github.io/switch-guide/user_guide/sysnand/making_essential_backups/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nh-server.github.io/switch-guide/user_guide/sysnand/sd_preparation/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://nh-server.github.io/switch-guide/user_guide/sysnand/sending_payload/</loc>
+<<<<<<< HEAD
          <lastmod>2021-10-09</lastmod>
+=======
+         <lastmod>2021-10-08</lastmod>
+>>>>>>> 6bc92433ae4cb24171f4ceb6588567fa022b90b9
          <changefreq>daily</changefreq>
     </url>
 </urlset>
