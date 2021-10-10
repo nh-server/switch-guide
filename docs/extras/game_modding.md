@@ -7,7 +7,7 @@ LayeredFS, a tool built in to Atmosphere, allows you to replace game files with 
 
 
 !!!Danger "Ban Warning"
-    Make sure to be safe while modding games. Cheating online is a very easy way to get **banned** if you are not careful. Make sure to only use mods that could be considered **cheating** on offline games. If the game has online components, **it may be unsafe to even mod the offline features of the app**. Splatoon, for example, is notorious for banning people who modded the offline campaign and later went online). For these cases it is reccomended to only use unsafe mods for online games in an **offline EmuMMC**. For Smash Ultimate specific mods, consider reading this <a href="https://gamebanana.com/threads/218137" target="_blank">post</a> on GameBanana. For more information regarding bans see the "Is it safe to use homebrew? Will I get banned?" section of the [FAQ](../faq.md)
+    Make sure to be safe while modding games. Cheating online is a very easy way to get **banned** if you are not careful. Make sure to only use mods that could be considered **cheating** on offline games. If the game has online components, **it may be unsafe to even mod the offline features of the app**. Splatoon, for example, is notorious for banning people who modded the offline campaign and later went online). For these cases it is **strongly** recommended to only use unsafe mods for online games in an **offline EmuMMC**. For Smash Ultimate specific mods, consider reading this <a href="https://gamebanana.com/threads/218137" target="_blank">post</a> on GameBanana. For more information regarding bans see the "Is it safe to use homebrew? Will I get banned?" section of the [FAQ](../faq.md)
 
 ### What you need
 
@@ -15,12 +15,14 @@ LayeredFS, a tool built in to Atmosphere, allows you to replace game files with 
     - The latest release of <a href="https://github.com/nadrino/SimpleModManager/releases/" target="_blank">SimpleModManager</a> (Download the `.nro` file)
     - The atmosphere Config file <a href="../../files/extras/override_config.ini" download>override_config.ini</a>
     - The template zip file <a href="../../files/extras/modManager_template.zip" download>template.zip</a>
+    - **Optional:** The atmosphere override config file <a href="../../files/extras/override_config.ini" download>override_config.ini</a>
+    !!! tip ""
+        While optional, it is strongly recommended. This will set launching a game with mods/cheats to be binded to the L button. By default, mods and cheats are loaded while **not** holding the L button, which can be unpreferable as it can easily cause you to accidetantlly load unwanted mods(i.e while loading an online game). 
 
 ### SimpleModManager set-up
 !!! tip ""
     1. Copy `SimpleModManager.nro` to the `switch` folder on your SD card
-    2. Copy `override_config.ini` to `/atmosphere/configs`  (this will set booting mods/cheats to a keybind) 
-    **If that file already exists, you can instead append `override_key=L` and `cheat_enable_key=L` onto it**
+    2. If you downloaded the `override_config.ini` file, copy it to `/atmosphere/configs`
     3. Extract templates.zip onto the root of your SD card. This will be the template you use for adding mods
     4. Certain simple changes will need to be made to the template to make it work for you: 
     5. Rename the `/mods/gameName` folder to the name of the game
@@ -41,7 +43,7 @@ LayeredFS, a tool built in to Atmosphere, allows you to replace game files with 
     4. Launch the app and you will now see all your mods which you can apply and disable. Simply apply the mods you want and close the app.
     !!! tip ""
         ![In-AppExample](../extras/img/mod_app_example.jpg)
-    5. To launch a game with mods (or cheats) you will need to hold L while booting the title.
+    If you applied the atmosphere override config, you can now hold L while launching the game to load mods. If you did not apply the config, you should instead **not** hold L to get the same result.
 !!! tip "Sanic in BOTW"
 	![ExampleGameMod](../extras/img/game_modding.jpg)
 
