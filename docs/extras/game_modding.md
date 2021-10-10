@@ -7,7 +7,7 @@ LayeredFS, a tool built in to Atmosphere, allows you to replace game files with 
 
 
 !!!Danger "Ban Warning"
-    Make sure to be safe while modding games. Cheating online is a very easy way to get **banned** if you are not careful. Make sure to only use mods that could be considered **cheating** on offline games. If the game has online components, **it may be unsafe to even mod the offline features of the app**. Splatoon, for example, is notorious for banning people who modded the offline campaign and later went online). For these cases it is **strongly** recommended to only use unsafe mods for online games in an **offline EmuMMC**. For Smash Ultimate specific mods, consider reading this <a href="https://gamebanana.com/threads/218137" target="_blank">post</a> on GameBanana. For more information regarding bans see the "Is it safe to use homebrew? Will I get banned?" section of the [FAQ](../faq.md)
+    Make sure to be safe while modding games. Cheating online is a very easy way to get **banned** if you are not careful. Make sure to only use mods that could be considered **cheating** on offline games. If the game has online components, **it may be unsafe to even mod the offline features of the app**. Splatoon, for example, is notorious for banning people who modded the offline campaign and later went online. For these cases it is **strongly** recommended to only use unsafe mods for online games in an **offline EmuMMC**. For Smash Ultimate specific mods, consider reading this <a href="https://gamebanana.com/threads/218137" target="_blank">post</a> on GameBanana. For more information regarding bans see the "Is it safe to use homebrew? Will I get banned?" section of the [FAQ](../faq.md)
 
 ### What you need
 
