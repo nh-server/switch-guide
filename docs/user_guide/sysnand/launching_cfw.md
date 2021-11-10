@@ -48,3 +48,10 @@ You will now be able to launch the Homebrew Menu by opening the album or by hold
     - NXThemeInstaller is a theme installer app. See the [Theming section of our guide](../../extras/theming.md) for more information
 
     - hbappstore is a homebrew app store where a large collection of switch homebrew is kept.
+
+&nbsp;
+
+### Updating your setup
+
+!!! tip ""
+	Whenever a new Switch firmware update releases you may need to update your files to be able to use CFW on the new version. Make sure to follow the instructions on [this page](https://switchgui.de/switch-guide/extras/updating/) to update your setup correctly.
