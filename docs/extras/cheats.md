@@ -7,9 +7,12 @@ For cheats management, [EdiZon](https://github.com/WerWolv/EdiZon/releases) is r
 ### Instructions
 
 !!! tip ""
-    Atmosphere looks for cheats to load in the `contents` sub-folder of the `atmosphere` folder. The template it looks for is `sd:/atmosphere/contents/<title_id>/cheats/<build_id>.txt`. You need to create the `<title_id>` folder and sub-folders manually:
+    Atmosphere looks for cheats to load in the `contents` sub-folder of the `atmosphere` folder. The template it looks for is `sd:/atmosphere/contents/<title_id>/cheats/<build_id>.txt`.
+    You need to create the `<title_id>` folder and sub-folders manually:
+
     - `title_id` being the title or program of a game. This is game specific.
     - `build_id` being the version of a game. Cheats can be version specific so make sure the cheats you are using are compatible with your version.
+
     **Note: On Atmosphere 0.9.4 and below `contents` is called `titles`**. 
 
     Switch game title IDs and build IDs can be found using the cheat menu of EdiZon (TID and BID, see below for a sample). Once the title is launched while in Atmosphere, your cheats should be applied.
