@@ -7,9 +7,12 @@ For cheats management, [EdiZon](https://github.com/WerWolv/EdiZon/releases) is r
 ### Instructions
 
 !!! tip ""
-    Cheats should be stored in a text file located in `/atmosphere/contents/<title_id>/cheats/<build_id>.txt`. If a folder doesn't exist, create it yourself, `<title_id>` being the title ID of the game you would like to use cheats in, and `<build_id>` being the build ID of the version of the game you would like to use cheats in. **Note: On Atmosphere 0.9.4 and below `contents` is called `titles`**. 
+    Atmosphere looks for cheats to load in the `contents` sub-folder of the `atmosphere` folder. The template it looks for is `sd:/atmosphere/contents/<title_id>/cheats/<build_id>.txt`. You need to create the `<title_id>` folder and sub-folders manually:
+    - `title_id` being the title or program of a game. This is game specific.
+    - `build_id` being the version of a game. Cheats can be version specific so make sure the cheats you are using are compatible with your version.
+    **Note: On Atmosphere 0.9.4 and below `contents` is called `titles`**. 
 
-    Switch game title IDs and build IDs can be found using the cheat menu of EdiZon (TID and BID). Once the title is launched while in Atmosphere, your cheats should be applied.
+    Switch game title IDs and build IDs can be found using the cheat menu of EdiZon (TID and BID, see below for a sample). Once the title is launched while in Atmosphere, your cheats should be applied.
 
 !!! tip "Preventing cheats from being active"
     To prevent cheats from being enabled by default, you can change your atmosphere configuration:
@@ -23,4 +26,5 @@ For cheats management, [EdiZon](https://github.com/WerWolv/EdiZon/releases) is r
 For more in-depth details about Atmosphere's cheat engine, you can refer to [this page](https://github.com/Atmosphere-NX/Atmosphere/blob/master/docs/features/cheats.md).
     
 !!! tip "Cheats in EdiZon"
+    Here the title ID of the game (TID) is "0100646009FBE000" and the build ID of the game (BID) is "0B9A75586BC1A6C6". Cheats are loaded from `sd:/atmosphere/contents/0100646009FBE000/cheats/0B9A75586BC1A6C6.txt`.
 	![ExampleGameCheat](../extras/img/game_cheating.jpg)
