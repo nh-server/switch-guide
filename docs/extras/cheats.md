@@ -30,4 +30,6 @@ For more in-depth details about Atmosphere's cheat engine, you can refer to [thi
     
 !!! tip "Cheats in EdiZon"
     Here the title ID of the game (TID) is "0100646009FBE000" and the build ID of the game (BID) is "0B9A75586BC1A6C6". Cheats are loaded from `sd:/atmosphere/contents/0100646009FBE000/cheats/0B9A75586BC1A6C6.txt`.
-	![ExampleGameCheat](../extras/img/game_cheating.jpg)
+    
+    !!! tip ""
+	    ![ExampleGameCheat](../extras/img/game_cheating.jpg)
