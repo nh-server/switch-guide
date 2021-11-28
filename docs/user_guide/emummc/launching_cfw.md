@@ -42,7 +42,7 @@ You will now be able to launch the Homebrew Menu by opening the album or by hold
 ### What the included homebrew applications do
 
 !!! tip ""
-    - Checkpoint is a save manager, it can dump and restore saves from/to your system. For more information, see [Save Management](../../extras/save_management.md)
+    - JKSV is a save manager, it can dump and restore saves from/to your system. For more information, see [Save Management](../../extras/save_management.md)
 
     - FTPD is a ftp tool for connecting your Switch's sd card wirelessly to your pc. Tools like WinSCP can connect to your switch on `(ip of switch):5000`
 
@@ -57,4 +57,4 @@ You will now be able to launch the Homebrew Menu by opening the album or by hold
 ### Updating your setup
 
 !!! tip ""
-	Whenever a new Switch firmware update releases you may need to update your files to be able to use CFW on the new version. Make sure to follow the instructions on [this page](https://switchgui.de/switch-guide/extras/updating/) to update your setup correctly.
+	Whenever a new Switch firmware update releases you may need to update your files to be able to use CFW on the new version. Make sure to follow the instructions on [this page](../../extras/updating.md) to update your setup correctly.
