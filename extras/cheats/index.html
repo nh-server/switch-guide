@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <meta name="author" content="NH Discord Server.">
-        <link rel="canonical" href="https://nh-server.github.io/switch-guide/extras/blocking_updates/">
+        <link rel="canonical" href="https://nh-server.github.io/switch-guide/extras/cheats/">
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Blocking Updates - NH Switch Guide</title>
+        <title>Game Cheats - NH Switch Guide</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -79,7 +79,7 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="./" class="dropdown-item active">Blocking Updates</a>
+    <a href="../blocking_updates/" class="dropdown-item">Blocking Updates</a>
 </li>
                                     
 <li>
@@ -107,7 +107,7 @@
 </li>
                                     
 <li>
-    <a href="../cheats/" class="dropdown-item">Game Cheats</a>
+    <a href="./" class="dropdown-item active">Game Cheats</a>
 </li>
                                     
 <li>
@@ -154,12 +154,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../../user_guide/emummc/launching_cfw/" class="nav-link">
+                                <a rel="prev" href="../game_modding/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../nandrestore/" class="nav-link">
+                                <a rel="next" href="../adding_udev/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -181,12 +181,8 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#blocking-updates" class="nav-link">Blocking Updates</a>
+            <li class="nav-item" data-level="1"><a href="#games-cheats" class="nav-link">Games cheats</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#testing-if-you-can-reach-nintendo" class="nav-link">Testing if you can reach nintendo</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
               </ul>
             </li>
         </ul>
@@ -194,119 +190,37 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="blocking-updates">Blocking Updates</h1>
-<p>This page will help you set up a method to block all communication with Nintendo. This will stop any updates and reporting to Nintendo, but it will prevent use of the eShop and online games.</p>
-<h3 id="instructions-ams-dns-redirection">Instructions (AMS DNS redirection)</h3>
-<p>You can configure Atmosphere to automatically redirect any requests directed to Nintendo to nothing instead. Documentation about this feature can be <a href="https://github.com/Atmosphere-NX/Atmosphere/blob/master/docs/features/dns_mitm.md">found here</a>. The section below will help you set up DNS redirection on your emummc. Note that this will only apply when you are using cfw.</p>
-<h4 id="what-you-need">What you need:</h4>
+<h1 id="games-cheats">Games cheats</h1>
+<p>For cheats management, <a href="https://github.com/WerWolv/EdiZon/releases">EdiZon</a> is recommended. It has support for Atmosphere's cheat engine, providing an easy way to download new cheats, as well as toggle them on or off.</p>
+<p>&nbsp;</p>
+<h3 id="instructions">Instructions</h3>
+<div class="admonition tip">
+<p>Atmosphere looks for cheats to load in the <code>contents</code> sub-folder of the <code>atmosphere</code> folder. The template it looks for is <code>sd:/atmosphere/contents/&lt;title_id&gt;/cheats/&lt;build_id&gt;.txt</code>.
+You need to create the <code>&lt;title_id&gt;</code> folder and sub-folders manually:</p>
 <ul>
-<li><a href="../../files/emummc.txt" download>emummc.txt</a></li>
-<li>Atmosphere 0.18.0 or higher</li>
+<li><code>title_id</code> being the title or program of a game. This is game specific.</li>
+<li><code>build_id</code> being the version of a game. Cheats can be version specific so make sure the cheats you are using are compatible with your version.</li>
 </ul>
-<h4 id="setup">Setup:</h4>
-<ol>
-<li>Insert your SD into your pc</li>
-<li>Enter the Atmosphere folder</li>
-<li>If it doesn't exist already, create a folder named <code>hosts</code> in the atmosphere folder</li>
-<li>Copy the emummc.txt into the hosts folder<ul>
-<li>If you want to apply the DNS redirection to sysmmc instead of emummc, rename the file to <code>sysmmc.txt</code></li>
+<p><strong>Note: On Atmosphere 0.9.4 and below <code>contents</code> is called <code>titles</code></strong>. </p>
+<p>Switch game title IDs and build IDs can be found using the cheat menu of EdiZon (TID and BID, see below for a sample). Once the title is launched while in Atmosphere, your cheats should be applied.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Preventing cheats from being active</p>
+<p>To prevent cheats from being enabled by default, you can change your atmosphere configuration:</p>
+<ul>
+<li>Copy <code>system_settings.ini</code> from <code>/atmosphere/config_templates</code> to <code>/atmosphere/config</code> if it is not already there.</li>
+<li>Edit the line <code>; dmnt_cheats_enabled_by_default = u8!0x1</code> to <code>dmnt_cheats_enabled_by_default = u8!0x0</code>.
+    Make sure to remove the space and the semicolon " ;"</li>
 </ul>
-</li>
-</ol>
-<div class="admonition note">
-<p class="admonition-title">Verify functionality</p>
-<p>You can verify the functionality of the DNS redirection by booting into emummc (or sysmmc if you applied the config to sys), and powering off after. </p>
-<p>A report will be generated in sd:/atmosphere/logs called <code>dns_mitm_startup.log</code>. If this starts with the following, the dns redirection is active</p>
+<p>By default, holding the L button while launching a game will disable any cheat.</p>
+</div>
+<p>For more in-depth details about Atmosphere's cheat engine, you can refer to <a href="https://github.com/Atmosphere-NX/Atmosphere/blob/master/docs/features/cheats.md">this page</a>.</p>
 <div class="admonition tip">
-<p><img alt="dnsmitmlog" src="../img/dnsmitm.png" /></p>
-</div>
-</div>
-<p>&nbsp;</p>
-<h3 id="instructions-90dns">Instructions (90dns)</h3>
-<p>You can add a custom DNS to your WiFi connection that will block all communication with Nintendo's servers. We will be using <a href="https://gitlab.com/a/90dns">90DNS</a>, a community-run custom DNS server. If you prefer, you can run your own DNS server following the instructions on the <a href="https://gitlab.com/a/90dns/blob/master/SELFHOST.md">GitLab repository.</a></p>
+<p class="admonition-title">Cheats in EdiZon</p>
+<p>Here the title ID of the game (TID) is "0100646009FBE000" and the build ID of the game (BID) is "0B9A75586BC1A6C6". Cheats are loaded from <code>sd:/atmosphere/contents/0100646009FBE000/cheats/0B9A75586BC1A6C6.txt</code>.</p>
 <div class="admonition tip">
-<p>Enter the console's System Settings, and then proceed to the Internet tab. From here:</p>
-<h3 id="setting-up-a-new-connection-via-wifi">Setting up a new connection via WiFi</h3>
-<div class="admonition warning">
-<p class="admonition-title">Open WiFi networks without a password</p>
-<p>Not all WiFi networks require a password to connect. If your network does not use one, you can use the <code>Manual Setup</code> option, located at the very bottom of the <code>Internet Settings</code> screen below all other WiFi networks.</p>
+<p><img alt="ExampleGameCheat" src="../img/game_cheating.jpg" /></p>
 </div>
-<ol>
-<li>Select your WiFi network from the list of networks.</li>
-<li>Enter an <strong>incorrect</strong> password that is 8 characters long and press <code>OK</code>.</li>
-<li>After a few moments of attempting to connect, the console will display a connection error.</li>
-<li>Press <code>OK</code> to close the error message.</li>
-<li>Press <code>Close</code> when it offers to display more details about the error.</li>
-<li>When asked if you want to re-enter the password, pick <code>View Settings</code>.</li>
-<li>Change <code>DNS Settings</code> to <code>Manual</code>.</li>
-<li>Pick the server that is the closest to your location out of the below chart and enter its <code>Primary</code> and <code>Secondary</code> DNS into your connection settings.</li>
-<li>Enter the correct password for your WiFi connection.</li>
-<li>Save the settings and test the connection.</li>
-</ol>
-<hr />
-<h3 id="editing-an-existing-wifi-connection">Editing an existing WiFi connection</h3>
-<ol>
-<li>Select your existing WiFi network from the list of networks.</li>
-<li>Select <code>Change Settings</code>.</li>
-<li>Pick the server that is the closest to your location out of the below chart and enter its Primary and Secondary DNS into your connection settings.</li>
-<li>Save the settings and test the connection.</li>
-</ol>
-<hr />
-<h3 id="using-homebrew-to-set-90dns-on-all-existing-wifi-networks">Using homebrew to set 90dns on all existing WiFi networks</h3>
-<ol>
-<li>Download <a href="https://github.com/suchmememanyskill/switch-90dns-setter/releases">switch-90dns-setter</a> and put it in the switch folder.</li>
-<li>Launch CFW and open the homebrew menu.</li>
-<li>Launch <code>90dns setter</code>.</li>
-<li>Press X to apply 90dns to all WiFi networks.</li>
-<li>Press Y to reboot the switch.</li>
-<li>Check in system settings if networks have a custom DNS applied.</li>
-</ol>
-</div>
-<table>
-<thead>
-<tr>
-<th align="left">Location</th>
-<th align="left">Primary DNS</th>
-<th align="left">Secondary DNS</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Europe (Server located in France)</td>
-<td align="left"><code>163.172.141.219</code></td>
-<td align="left"><code>207.246.121.77</code></td>
-</tr>
-<tr>
-<td align="left">America (Server located in the USA)</td>
-<td align="left"><code>207.246.121.77</code></td>
-<td align="left"><code>163.172.141.219</code></td>
-</tr>
-</tbody>
-</table>
-<div class="admonition tip">
-<p>Example for a 90dns connection with the Europe settings:
-<img alt="Visual for System Settings serial location" src="../img/blocking_updates.png" /></p>
-</div>
-<p>&nbsp;</p>
-<h2 id="testing-if-you-can-reach-nintendo">Testing if you can reach nintendo</h2>
-<h3 id="testing-via-the-eshop-stock">Testing via the eShop (Stock)</h3>
-<div class="admonition tip">
-<ol>
-<li>Open the eShop. Wait until it either opens or displays an error</li>
-<li>If it displays "Unable to display page." you seem to have Nintendo blocked</li>
-</ol>
-</div>
-<h3 id="testing-via-a-homebrew-app-cfw">Testing via a homebrew app (CFW)</h3>
-<div class="admonition tip">
-<ol>
-<li>Download the latest release of the <a href="https://github.com/meganukebmp/Switch_90DNS_tester/releases">90dns Tester</a></li>
-<li>Place the <code>Switch_90DNS_tester.nro</code> in the <code>switch</code> folder on your SD</li>
-<li>Enter the homebrew menu and run the 90dns Tester</li>
-<li>After the test finished it should look similar to the below picture, with every <code>nintendo</code> domain being blocked</li>
-</ol>
-</div>
-<div class="admonition tip">
-<p><img alt="tester example" src="../img/90dns_tester_switch.jpg" /></p>
 </div></div>
             </div>
         </div>
