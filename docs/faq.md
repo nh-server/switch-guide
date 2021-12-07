@@ -32,8 +32,8 @@
 
     Since the wire in the jig is supposed to touch the pads inside the Switch's joycon rail, it is important to use wire that is thin, not rigid and bent/not pointy. 
     Paperclips make for potentially dangerous jigs, as they are made out of a hard material, are rigid and pointy and can easily scratch off the pads inside the Switch. 
-    A good jig uses 32Gauge(0.2mm diameter) wire and is bent in a way that the end of the wire does not scratch the pads. <a href="https://switchjigs.com/" target="_blank">Switch Jigs</a> sells jigs we consider "good". 
-    You can also download and 3d-print your own jig and use the pictures on the website to guide you on how to bend the wire correctly.
+    A good jig uses 32Gauge(0.2mm diameter) wire and is bent in a way that the end of the wire does not scratch the pads.
+    You can download and 3d-print your own jig and use the pictures on the website to guide you on how to bend the wire correctly.
 
 
 ## Is there an easier way to enter RCM?
@@ -149,7 +149,7 @@
 ## Amazon/eBay/Aliexpress jigs
 
 !!!tip ""
-    Although some Switch jigs are for sale on these websites and others like them, we have *no way of verifying that they are appropriate or safe for use with the Switch* and as such we do not recommend buying from these websites. The only seller we trust due to their reputation and our overall experience with the many jigs they have sent out is <a href="https://switchjigs.com/" target="_blank">Switch Jigs</a>.
+    Although some Switch jigs are for sale on these websites and others like them, we have *no way of verifying that they are appropriate or safe for use with the Switch* and as such we do not recommend buying from these websites.
 
 
 
