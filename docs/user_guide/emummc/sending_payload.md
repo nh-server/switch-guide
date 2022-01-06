@@ -28,12 +28,24 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 !!! tip ""
     1. Install and run TegraRcmGUI.
     2. Navigate to the `Settings` tab, then press `Install Driver` and follow the on-screen instructions.
+        - If you face issues when installing the driver, follow the [driver installation with Zadig](#driver-installation-with-zadig) section below.
     3. Connect your Switch in RCM to your PC using the USB cable.
     4. Navigate to the `Payload` tab of TegraRcmGUI.
         - Your Switch should be shown as detected in the bottom left corner.
     5. Press the file button next to `Inject payload`, and navigate to and select your payload `.bin` file.
         - The first time you read this page you should inject TegraExplorer.bin.
     6. Click `Inject payload` to launch the payload you selected.
+
+### Driver installation with Zadig
+
+!!! tip ""
+    Follow these steps if you face issues when installing the driver with TegraRcmGUI. You will need the latest version of <a href="https://zadig.akeo.ie" target="_blank">Zadig</a>.
+
+    1. Launch Zadig. In the `Options` menu, be sure that `List All Devices` is enabled.
+    2. Connect your Switch in RCM to your PC using the USB cable.
+    3. In Zadig, select "APX" in the device list.
+    4. Select `libusbK (v3.1.0.0)` in the driver list.
+    5. Click `Install Driver` and wait for the installation to finish.
 
 &nbsp;
 
