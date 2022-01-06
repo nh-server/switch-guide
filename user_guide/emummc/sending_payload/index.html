@@ -230,7 +230,10 @@
 <div class="admonition tip">
 <ol>
 <li>Install and run TegraRcmGUI.</li>
-<li>Navigate to the <code>Settings</code> tab, then press <code>Install Driver</code> and follow the on-screen instructions.</li>
+<li>Navigate to the <code>Settings</code> tab, then press <code>Install Driver</code> and follow the on-screen instructions.<ul>
+<li>If you face issues when installing the driver, follow the <a href="#driver-installation-with-zadig">driver installation with Zadig</a> section below.</li>
+</ul>
+</li>
 <li>Connect your Switch in RCM to your PC using the USB cable.</li>
 <li>Navigate to the <code>Payload</code> tab of TegraRcmGUI.<ul>
 <li>Your Switch should be shown as detected in the bottom left corner.</li>
@@ -241,6 +244,17 @@
 </ul>
 </li>
 <li>Click <code>Inject payload</code> to launch the payload you selected.</li>
+</ol>
+</div>
+<h3 id="driver-installation-with-zadig">Driver installation with Zadig</h3>
+<div class="admonition tip">
+<p>Follow these steps if you face issues when installing the driver with TegraRcmGUI. You will need the latest version of <a href="https://zadig.akeo.ie" target="_blank">Zadig</a>.</p>
+<ol>
+<li>Launch Zadig. In the <code>Options</code> menu, be sure that <code>List All Devices</code> is enabled.</li>
+<li>Connect your Switch in RCM to your PC using the USB cable.</li>
+<li>In Zadig, select "APX" in the device list.</li>
+<li>Select <code>libusbK (v3.1.0.0)</code> in the driver list.</li>
+<li>Click <code>Install Driver</code> and wait for the installation to finish.</li>
 </ol>
 </div>
 <p>&nbsp;</p>
@@ -352,7 +366,7 @@
 
         <footer class="col-md-12">
             <hr>
-                <p>Copyright &copy; 2021 <a href="https://discord.gg/C29hYvh" target="_blank">Nintendo Homebrew</a>, Maintained by the <a href="/switch-guide/about">NH Discord Server</a>.</p>
+                <p>Copyright &copy; 2022 <a href="https://discord.gg/C29hYvh" target="_blank">Nintendo Homebrew</a>, Maintained by the <a href="/switch-guide/about">NH Discord Server</a>.</p>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
