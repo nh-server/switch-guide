@@ -1,4 +1,4 @@
-# Blocking Updates
+# Blocking Nintendo
 
 This page will help you set up a method to block all communication with Nintendo. This will stop any updates and reporting to Nintendo, but it will prevent use of the eShop and online games.
 
