@@ -14,20 +14,32 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 ### What you need
 
 !!! tip ""
-    - The latest release of <a href="https://github.com/eliboa/TegraRcmGUI/releases" target="_blank">TegraRcmGUI</a> (either the MSI or zip)
+    - The latest release of <a href="https://github.com/eliboa/TegraRcmGUI/releases" target="_blank">TegraRcmGUI</a> (either the MSI or zip).
     - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (hekate_ctcaer bin) is located in the hekate_ctcaer zip.
-    - A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
+    - A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C).
 
 ### Instructions
 
 !!! tip ""
-    1. Install and run TegraRCMGUI
-    2. Navigate to the `Settings` tab, then press `Install Driver` and follow the on-screen instructions
-    3. Connect your Switch in RCM to your PC using the USB cable
-    4. Navigate to the `Payload` tab of TegraRcmGUI 
-    - Your Switch should be shown as detected in the bottom left corner
-    5. Press the file button next to `Inject payload`, and navigate to and select your hekate_ctcaer `.bin` file
-    6. Click `Inject payload` to launch Hekate
+    1. Install and run TegraRCMGUI.
+    2. Navigate to the `Settings` tab, then press `Install Driver` and follow the on-screen instructions.
+        - If you face issues when installing the driver, follow the [driver installation with Zadig](#driver-installation-with-zadig) section below.
+    3. Connect your Switch in RCM to your PC using the USB cable.
+    4. Navigate to the `Payload` tab of TegraRcmGUI.
+        - Your Switch should be shown as detected in the bottom left corner.
+    5. Press the file button next to `Inject payload`, and navigate to and select your hekate_ctcaer `.bin` file.
+    6. Click `Inject payload` to launch Hekate.
+
+### Driver installation with Zadig
+
+!!! tip ""
+    Follow these steps if you face issues when installing the driver with TegraRcmGUI. You will need the latest version of <a href="https://zadig.akeo.ie" target="_blank">Zadig</a>.
+
+    1. Launch Zadig. In the `Options` menu, be sure that `List All Devices` is enabled.
+    2. Connect your Switch in RCM to your PC using the USB cable.
+    3. In Zadig, select "APX" in the device list.
+    4. Select `libusbK (v3.1.0.0)` in the driver list.
+    5. Click `Install Driver` and wait for the installation to finish.
 
 &nbsp;
 

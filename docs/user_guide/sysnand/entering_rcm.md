@@ -28,11 +28,9 @@ There are several methods of entering RCM (**R**e**C**overy **M**ode). The most 
         <summary>Click to expand!</summary>
 
     !!! snippet "Note"
-        Some jig designs use paperclips, inheriting the same risks as the Metal Bridge / Paperclip method. If you would like a safe jig design, we highly recommend [switchjigs.com](https://switchjigs.com).
+        Some jig designs use paperclips, inheriting the same risks as the Metal Bridge / Paperclip method.
 
     This method is similar to the Metal Bridge / Paperclip method, but is more reliable and safer in many cases. Jigs hold a wire in place so the correct pins (10 and a ground) are shorted every time.
-
-    Jigs range in price, with the ones we recommend being $5. They're slightly more expensive than some mass produced jigs, however we can guarantee their quality. Also spending $5 on a quality jig using 32-gauge wire is a smaller cost than replacing your entire Joy-Con rail after the pins are scratched off by a paperclip jig.
 
     !!! tip ""
         ![switchjigs.com jigs](../img/entering_rcm_jig.jpg)

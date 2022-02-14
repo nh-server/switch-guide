@@ -35,7 +35,7 @@ The latest release of <a href="https://github.com/exelix11/SwitchThemeInjector/r
 
 &nbsp;
 
-## Making a theme (Mac / Linux)
+## Making a theme (Mac / Linux / Chrome OS)
 
 ### Making the theme
 
