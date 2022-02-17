@@ -6,7 +6,7 @@ This section is dedicated to explaining a number of common terms that are used w
 
 The following list is in alphabetical order.
 
-- **90DNS**: DNS that blocks system updates on the Nintendo Switch. This can be enabled by following the guide [here](blocking_updates.md).
+- **90DNS**: DNS that blocks system updates on the Nintendo Switch. This can be enabled by following the guide [here](blocking_nintendo.md).
 - **[Atmosphere](https://github.com/Atmosphere-NX/Atmosphere)**: The CFW developed by the Atmosphere-NX organization on GitHub and the one used in this guide.
 - **AutoRCM**: A method that corrupts parts of your boot0 and boot1, causing the Switch to boot into RCM automatically. Using this requires an additional peripheral (such as a computer, phone, dongle or trinket) to be able to boot your Switch.
 - **boot0 and boot1**: Two partitions of the Switch NAND.
