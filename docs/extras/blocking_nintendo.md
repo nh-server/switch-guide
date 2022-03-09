@@ -3,24 +3,24 @@
 This page will help you set up a method to block all communication with Nintendo. This will stop any updates and reporting to Nintendo, but it will prevent use of the eShop and online games.
 
 ### Instructions (AMS DNS redirection)
-You can configure Atmosphere to automatically redirect any requests directed to Nintendo to nothing instead. Documentation about this feature can be [found here](https://github.com/Atmosphere-NX/Atmosphere/blob/master/docs/features/dns_mitm.md). The section below will help you set up DNS redirection on your emummc. Note that this will only apply when you are using cfw.
+You can configure Atmosphere to automatically redirect any requests directed to Nintendo to nothing instead. Documentation about this feature can be [found here](https://github.com/Atmosphere-NX/Atmosphere/blob/master/docs/features/dns_mitm.md). The section below will help you set up DNS redirection on your emuMMC. Note that this will only apply when you are using CFW.
 
-#### What you need: 
+#### What you need:
 
 - <a href="../../files/emummc.txt" download>emummc.txt</a>
 - Atmosphere 0.18.0 or higher
 
 #### Setup:
 
-1. Insert your SD into your pc
+1. Insert your SD into your PC
 2. Enter the Atmosphere folder
 3. If it doesn't exist already, create a folder named `hosts` in the atmosphere folder
 4. Copy the emummc.txt into the hosts folder
-    - If you want to apply the DNS redirection to sysmmc instead of emummc, rename the file to `sysmmc.txt`
+    - If you want to apply the DNS redirection to sysMMC instead of emuMMC, rename the file to `sysmmc.txt`
 
 !!! note "Verify functionality"
-    You can verify the functionality of the DNS redirection by booting into emummc (or sysmmc if you applied the config to sys), and powering off after. 
-    
+    You can verify the functionality of the DNS redirection by booting into emuMMC (or sysMMC if you applied the config to sys), and powering off after.
+
     A report will be generated in sd:/atmosphere/logs called `dns_mitm_startup.log`. If this starts with the following, the dns redirection is active
 
     !!! tip ""
@@ -33,13 +33,13 @@ You can add a custom DNS to your WiFi connection that will block all communicati
 
 !!! tip ""
     Enter the console's System Settings, and then proceed to the Internet tab. From here:
-    
+
 
     ### Setting up a new connection via WiFi
-    
+
     !!! warning "Open WiFi networks without a password"
         Not all WiFi networks require a password to connect. If your network does not use one, you can use the `Manual Setup` option, located at the very bottom of the `Internet Settings` screen below all other WiFi networks.
-        
+
     1. Select your WiFi network from the list of networks.
     2. Enter an **incorrect** password that is 8 characters long and press `OK`.
     3. After a few moments of attempting to connect, the console will display a connection error.
@@ -62,14 +62,14 @@ You can add a custom DNS to your WiFi connection that will block all communicati
     -----
 
     ### Using homebrew to set 90dns on all existing WiFi networks
-    1. Download [switch-90dns-setter](https://github.com/suchmememanyskill/switch-90dns-setter/releases) and put it in the switch folder.
+    1. Download [switch-90dns-setter](https://github.com/suchmememanyskill/switch-90dns-setter/releases) and put it in the /switch folder.
     2. Launch CFW and open the homebrew menu.
     3. Launch `90dns setter`.
     4. Press X to apply 90dns to all WiFi networks.
-    5. Press Y to reboot the switch.
+    5. Press Y to reboot the Switch.
     6. Check in system settings if networks have a custom DNS applied.
 
-   
+
 | Location                              | Primary DNS         | Secondary DNS       |
 |:--------------------------------------|:--------------------|:--------------------|
 | Europe (Server located in France)     | `163.172.141.219`   | `207.246.121.77`    |
@@ -95,11 +95,9 @@ You can add a custom DNS to your WiFi connection that will block all communicati
 
 !!! tip ""
     1. Download the latest release of the [90dns Tester](https://github.com/meganukebmp/Switch_90DNS_tester/releases)
-    2. Place the `Switch_90DNS_tester.nro` in the `switch` folder on your SD
+    2. Place the `switch_90DNS_tester.nro` in the `/switch` folder on your SD
     3. Enter the homebrew menu and run the 90dns Tester
     4. After the test finished it should look similar to the below picture, with every `nintendo` domain being blocked
 
 !!! tip ""
     ![tester example](../extras/img/90dns_tester_switch.jpg)
-
-

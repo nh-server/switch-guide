@@ -8,7 +8,7 @@ The following list is in alphabetical order.
 
 - **90DNS**: DNS that blocks system updates on the Nintendo Switch. This can be enabled by following the guide [here](blocking_nintendo.md).
 - **[Atmosphere](https://github.com/Atmosphere-NX/Atmosphere)**: The CFW developed by the Atmosphere-NX organization on GitHub and the one used in this guide.
-- **AutoRCM**: A method that corrupts parts of your boot0 and boot1, causing the Switch to boot into RCM automatically. Using this requires an additional peripheral (such as a computer, phone, dongle or trinket) to be able to boot your Switch.
+- **autoRCM**: A method that corrupts parts of your boot0 and boot1, causing the Switch to boot into RCM automatically. Using this requires an additional peripheral (such as a computer, phone, dongle or trinket) to be able to boot your Switch.
 - **boot0 and boot1**: Two partitions of the Switch NAND.
 - **CFW**: Short for custom firmware. Custom firmware permits you to completely modify how your Switch works.
 - **Deja Vu**: An unreleased exploit chain for the Nintendo Switch. The completely unpatched version of this chain will grant access to TrustZone, which effectively means being able to enter CFW. The TrustZone part of this exploit was patched in firmware version 5.0.0 and up, but normal homebrew access can still be gained up to firmware version 6.0.1.

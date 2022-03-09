@@ -14,12 +14,12 @@ When updating Atmosphere always make sure to _read the release notes_. They may 
 When a new version of Atmosphere releases, you can update Atmosphere by following these steps:
 
 
-1. Turn off your Nintendo Switch and plug your SD card in your computer.
+1. Turn off your Nintendo Switch and plug your microSD Card in your computer.
 2. Download the latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a> (Download the `atmosphere-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip` release of Atmosphere.)
-3. Copy *the contents of* the Atmosphere `.zip` file to the root of your SD card.
+3. Copy *the contents of* the Atmosphere `.zip` file to the root of your microSD Card.
     - If you are prompted to overwrite files, do so.
 4. (If your hekate is not on the latest version) Update hekate via the steps below
-5. Put your SD card back in your Switch and launch CFW.
+5. Put your microSD Card back in your Switch and launch CFW.
 
 ## Updating Hekate
 
@@ -27,10 +27,10 @@ When updating Hekate always make sure to _read the release notes_. They may list
 
 When a new version of Hekate releases, you can update by following these steps:
 
-1. Turn off your Nintendo Switch and plug your SD card in your computer.
-2. Download the latest version of <a href="https://github.com/CTCaer/Hekate/releases/" target="_blank">Hekate</a> (Download the `hekate_ctcaer_(version).zip` release of hekate).
-3. Copy the `bootloader` folder from the Hekate `.zip` file to the root of your SD card. If you are asked to overwrite or merge files while copying, say yes to merge/overwrite them.
-4. Put your SD card back in your Switch and launch Hekate.
+1. Turn off your Nintendo Switch and plug your microSD Card in your computer.
+2. Download the latest version of <a href="https://github.com/CTCaer/Hekate/releases/" target="_blank">Hekate</a> (Download the `hekate_ctcaer_(version).zip` release of Hekate).
+3. Copy the `bootloader` folder from the Hekate `.zip` file to the root of your microSD Card. If you are asked to overwrite or merge files while copying, say yes to merge/overwrite them.
+4. Put your microSD Card back in your Switch and launch Hekate.
 5. Go to the Options tab at the top right of the screen. Turn "Update Reboot 2 Payload" on the bottom right ON (if it isn't on already). Tap "Save Options" at the bottom of the screen.
 
 ## Updating your firmware
@@ -55,13 +55,13 @@ In addition, updating to or past some firmwares update the gamecard firmware. Re
 
 If at least one of the versions you are updating towards also updates the gamecard firmware, you will not be able to downgrade below that version without making the gamecard slot unusable until you update.
 
-Atmosphere (and Hekate) come bundled with patches that automatically disable the gamecard slot if it is detected that the system has an older gamecard firmware that would be updated. If you boot into RCM on each boot (for example by using AutoRCM), this means that the gamecard slot will not be updated and you can downgrade below that version. If this happens, you will not be able to use the gamecard slot as long as you are on the newer firmware.
+Atmosphere (and Hekate) come bundled with patches that automatically disable the gamecard slot if it is detected that the system has an older gamecard firmware that would be updated. If you boot into RCM on each boot (for example by using autoRCM), this means that the gamecard slot will not be updated and you can downgrade below that version. If this happens, you will not be able to use the gamecard slot as long as you are on the newer firmware.
 
 Otherwise, you can safely update your system firmware through the system settings.
 
 !!!warning "Note about autoRCM"
     If you have autoRCM enabled and you're updating your system while in stock firmware, **updating will disable autoRCM** and you will need to enter RCM manually to boot custom firmware again.
-    To prevent autoRCM from being disabled, boot CFW on sysMMC and update through settings from there, as booting without AutoRCM <ins>will burn any preserved fuses</ins>.
+    To prevent autoRCM from being disabled, boot CFW on sysMMC and update through settings from there, as booting without autoRCM <ins>will burn any preserved fuses</ins>.
 
 ### About emuMMC
 
@@ -85,9 +85,9 @@ If you keep your emuMMC offline, you will have to use a gamecard to update your 
     - The latest release of <a href="https://github.com/suchmememanyskill/TegraExplorer/releases" target="_blank">TegraExplorer</a>
     - The latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a>
 
-### Preparing your SD card
+### Preparing your microSD Card
 
-1. Insert your microSD card into your computer.
+1. Insert your microSD Card into your computer.
 2. Download `TegraExplorer.bin` and place it somewhere on your PC (A good idea is to put it where you keep all your switch payloads like Hekate).
 3. Update Atmosphere and Hekate by using the above guides.
 4. If you haven't already, update the sysMMC to the latest firmware.

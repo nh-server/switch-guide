@@ -14,7 +14,7 @@ Unlike systems such as the DSi, Wii, or 3DS, Switch CFW is currently volatile. I
 !!! tip ""
     1. Power on your Switch into RCM, and inject the Hekate payload
     2. Navigate to `Launch` using the touch screen
-    3. Find `Atmosphere FSS0 EmuMMC` and launch it
+    3. Find `Atmosphere FSS0 emuMMC` and launch it
 
 Your Switch is now booting into Atmosphere.
 
@@ -30,12 +30,12 @@ To verify Atmosphere launched properly, open the Settings applet, and navigate t
 ### Launching the Homebrew Menu
 
 You will now be able to launch the Homebrew Menu by opening the album or by holding the R button while launching any game (including demos/cartridges), or application (e.g. Youtube/Hulu). If R is not held, the game or application will launch like normal.
-    
+
 !!! warning "A note about using the album for the Homebrew Menu"
-    - Using the album for the Homebrew Menu instead of a game or application has several limitations, including but not limited to: a smaller amount of available memory (RAM), as well as being unable to launch a full-featured web browser. It is strongly recommended to launch homebrew through applications or games instead. If your games don't show up as "installed" on your switch, copy the contents of the `Nintendo` folder from the root of the sd card to the `emummc/RAW1/Nintendo` folder
-    
+    - Using the album for the Homebrew Menu instead of a game or application has several limitations, including but not limited to: a smaller amount of available memory (RAM), as well as being unable to launch a full-featured web browser. It is strongly recommended to launch homebrew through applications or games instead. If your games don't show up as "installed" on your Switch, copy the contents of the `Nintendo` folder from the root of the microSD Card to the `emummc/RAW1/Nintendo` folder.
+
 !!! tip "Adding new applications"
-    - Place homebrew applications (`.nro` files) into the `switch` folder on your SD card.
+    - Place homebrew applications (`.nro` files) into the `/switch` folder on your microSD Card.
 
 &nbsp;
 
@@ -44,13 +44,13 @@ You will now be able to launch the Homebrew Menu by opening the album or by hold
 !!! tip ""
     - JKSV is a save manager, it can dump and restore saves from/to your system. For more information, see [Save Management](../../extras/save_management.md)
 
-    - FTPD is a ftp tool for connecting your Switch's sd card wirelessly to your pc. Tools like WinSCP can connect to your switch on `(ip of switch):5000`
+    - FTPD is a FTP tool for connecting your Switch's microSD Card wirelessly to your PC. Tools like WinSCP can connect to your Switch on `(ip of Switch):5000`
 
     - NX-Shell is a file explorer for the Switch. You can move files, listen to mp3's, view images etc.
 
     - NXThemeInstaller is a theme installer app. See the [Theming section of our guide](../../extras/theming.md) for more information
 
-    - hbappstore is a homebrew app store where a large collection of switch homebrew is kept.
+    - hbappstore is a homebrew app store where a large collection of Switch homebrew is kept.
 
 &nbsp;
 
