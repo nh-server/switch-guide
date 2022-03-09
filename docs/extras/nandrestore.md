@@ -33,7 +33,7 @@ Before we start, check if you have a tree of folders called `backup/[8 Character
 	If the security revision you were on before you performed the NAND restore is HIGHER than the NAND backup itself, you have to enable autoRCM to not get stuck in a crash on boot.
 	A system update is considered a security revision when a fuse is burned. You can check **<a href="https://switchbrew.org/wiki/Fuses#Anti-downgrade" target=blank>which versions burn fuses here</a>**.
 
-	If no fuses were burnt between the NAND backup you are restoring, and the Switch's current version, you can ignore this.
+	AutoRCM prevents fuses from being burnt. If autoRCM was installed ever since the NAND backup you are restoring, you don't need to worry about this.
 
 	1. In Hekate's main menu, navigate to `Tools` and go to the bottom of the page where you will find a button called `Archive bit - autoRCM`
 	2. Select the `autoRCM` button, and you will see `ON` written next to it. This means AutoRCM is enabled.
