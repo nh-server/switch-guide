@@ -81,7 +81,7 @@
 !!!tip ""
     The Switch comes with a lot of telemetry, and has been called a "telemetry monster" by several prominent developers.
     As long as the Switch is connected to the internet, Nintendo gets a report about a lot of different actions and states and has the option to log or act on them.
-    Even if the Switch is offline and connects to the internet at a later point, Nintendo still recieves information about what happened while the Switch was disconnected.
+    Even if the Switch is offline and connects to the internet at a later point, Nintendo still receives information about what happened while the Switch was disconnected.
 
     To disable some of this telemetry, it is advised to disable the sending of error reports in the System Settings of the Switch.
     Additionally if you live in the EU you can set the "do not share" option on <a href="https://accounts.nintendo.com/setting" target="_blank">Nintendo's website</a> to prevent your Switch from sending a lot of telemetry, although the effectiveness of this is questionable.
@@ -155,10 +155,10 @@
 !!!tip ""
     This is an issue primarily affecting macOS users, but may occur on other devices as well. If you are able to launch the homebrew menu, but you are not seeing some or any of your homebrew, you will need to unset the archive bit with Hekate.
 
-    1. Send the Hekate payload to your Switch by following these instructions: [here](../user_guide/emummc/sending_payload.md)
+    1. Send the Hekate payload to your Switch by following these instructions: [here](/user_guide/emummc/sending_payload.md)
     2. Click on `Tools` on the top menu bar
     3. In the bottom left corner click on `Archive bit * autoRCM`
     4. Click on `Fix Archive bit` - this might take a while
     5. Press `Close` in the top right corner
     6. Press `Home` in the top menu bar to get back from where you started
-    7. Follow the instructions at the Launching CFW page [here](../user_guide/emummc/launching_cfw.md) to launch Atmosphere.
+    7. Follow the instructions at the Launching CFW page [here](/user_guide/emummc/launching_cfw.md) to launch Atmosphere.
