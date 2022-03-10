@@ -8,7 +8,7 @@ The following list is in alphabetical order.
 
 - **90DNS**: DNS that blocks system updates on the Nintendo Switch. This can be enabled by following the guide [here](blocking_nintendo.md).
 - **[Atmosphere](https://github.com/Atmosphere-NX/Atmosphere)**: The CFW developed by the Atmosphere-NX organization on GitHub and the one used in this guide.
-- **autoRCM**: refers to an environment where the Switch boots into RCM automatically, without the need of a jig. Please see https://switchgui.de/switch-guide/extras/autorcm/ for more info.
+- **autoRCM**: This refers to an environment where the Switch boots into RCM automatically, without the need of a jig. Please see [this page](/autorcm.md) for more info.
 - **boot0 / boot1**: Two partitions of the Switch NAND that the console verifies in order to boot into the Switch OS.
 - **CFW**: Short for custom firmware. Custom firmware permits you to completely modify how your Switch works.
 - **Deja Vu**: An unreleased exploit chain for the Nintendo Switch. The completely unpatched version of this chain will grant access to TrustZone, which effectively means being able to enter CFW. The TrustZone part of this exploit was patched in firmware version 5.0.0 and up, but normal homebrew access can still be gained up to firmware version 6.0.1.
@@ -29,7 +29,7 @@ The following list is in alphabetical order.
 - **NAND**: The internal filesystem used by the Switch. Contains boot0 and boot1, as well as PRODINFO and various other partitions.
 - **NAND Backup**: A complete snapshot of the internal storage from a particular point in time. These are useful for brick recovery and to retrieve individual files from.
 - **nx-hbloader**: Intermediary program used to load the Homebrew Launcher from CFW developed by Switchbrew. Comes bundled with Atmosphere.
-- **PRODINFO**: A crucial partition on the NAND of your Switch. Atmosphere backs up this partition on booting and it is included in your NAND backup. Losing or corrupting this file will permanently prevent a Switch from connecting to Nintendo servers.
+- **PRODINFO**: A crucial partition on the NAND of your Switch. Atmosphere backs up this partition on booting and it is included in your NAND backup. Losing/corrupting this file will permanently prevent a Switch from booting and/or connecting to Nintendo servers.
 - **ReSwitched**: A hacking team that is one of the main developers for Atmosphere.
 - **RCM**: A shorthand for "Recovery Mode". This commonly refers to the Recovery Mode in the Tegra X1 chip that is included in the Nintendo Switch. Can be entered by holding down the Tegra X1 home button. This button is not the same as the home button on the Joy-Con controller. Ways of pressing this button can be found [here](../user_guide/emummc/entering_rcm.md).
 - **[TegraRCMGUI](https://github.com/eliboa/TegraRcmGUI/releases)/[fusee-interface-tk](https://github.com/nh-server/fusee-interfacee-tk/releases)**: Software used to run the fusee-gelee exploit on the Switch.

@@ -36,5 +36,5 @@ If, despite all of the warnings above, you still wish to install autoRCM, and un
 
 1. Boot Hekate
 2. Go to `Tools`
-3. At the bottom of the page, tap `Arch Bit • autoRCM • Touch • Pkg1/2`
-4. Then tap `autoRCM`. It will show a little `ON` next to the option once you have done this.
+3. At the bottom of the page, tap `Arch bit • AutoRCM • Touch • Pkg1/2`
+4. Then tap `AutoRCM`. It will show a little `ON` next to the option once you have done this.

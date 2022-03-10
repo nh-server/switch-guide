@@ -12,7 +12,7 @@ You can configure Atmosphere to automatically redirect any requests directed to 
 
 #### Setup:
 
-1. Insert your SD into your PC
+1. Insert your microSD Card into your PC
 2. Enter the Atmosphere folder
 3. If it doesn't exist already, create a folder named `hosts` in the atmosphere folder
 4. Copy the emummc.txt into the hosts folder
@@ -62,7 +62,7 @@ You can add a custom DNS to your WiFi connection that will block all communicati
     -----
 
     ### Using homebrew to set 90dns on all existing WiFi networks
-    1. Download [switch-90dns-setter](https://github.com/suchmememanyskill/switch-90dns-setter/releases) and put it in the /switch folder.
+    1. Download [Switch-90dns-setter](https://github.com/suchmememanyskill/switch-90dns-setter/releases) and put it in the /switch folder.
     2. Launch CFW and open the homebrew menu.
     3. Launch `90dns setter`.
     4. Press X to apply 90dns to all WiFi networks.

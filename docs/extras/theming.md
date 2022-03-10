@@ -55,10 +55,10 @@ Make sure that the images you want to use are 1280x720 and in JPG!
 	If you want to use community themes, for example from the <a href="https://www.reddit.com/r/NXThemes/" target="_blank">**r/NXThemes**</a>, you can follow the guide below to install a community provided nxtheme
 
 !!! tip "Homebrew app store"
-	If you want to use the homebrew app store for themes, you can simply install the theme you want via the appstore, and follow the instructions from step 2 onwards below.
+	If you want to use the Homebrew App Store for themes, you can simply install the theme you want via the App Store, and follow the instructions from step 2 onwards below.
 
-1. Copy the `.nxtheme` files to the `/themes` folder on your microSD Card (It is recommended you put them into their own folders, e.g. /themes/awesome_theme/awesome.nxtheme).
-	- Create the `/themes` folder on the root of your microSD Card if it does not exist.
+1. Copy the `.nxtheme` files to `/themes` on your microSD Card (It is recommended you put them into their own folders.For example, /themes/awesome_theme/awesome.nxtheme).
+	- Create the `themes` folder on the root of your microSD Card if it does not exist.
 &nbsp;
 2. Boot Switch CFW, launch the Homebrew Menu and launch `NXThemes Installer`.
 3. Your theme files should be listed here. You can install them one by one.

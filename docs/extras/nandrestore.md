@@ -35,5 +35,5 @@ Before we start, check if you have a tree of folders called `backup/[8 Character
 
 	AutoRCM prevents fuses from being burnt. If autoRCM was installed ever since the NAND backup you are restoring, you don't need to worry about this.
 
-	1. In Hekate's main menu, navigate to `Tools` and go to the bottom of the page where you will find a button called `Archive bit - autoRCM`
-	2. Select the `autoRCM` button, and you will see `ON` written next to it. This means AutoRCM is enabled.
+	1. In Hekate's main menu, navigate to `Tools` and go to the bottom of the page where you will find a button called `Archive bit - AutoRCM`
+	2. Select the `AutoRCM` button, and you will see `ON` written next to it. This means AutoRCM is enabled.

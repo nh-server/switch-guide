@@ -42,7 +42,7 @@ Atmosphere has its own bootloader, called fusee. For the purposes of this guide 
     10. If you were already using your microSD Card as a storage device for your games and backed up the Nintendo folder before partitioning your microSD Card, please place it back on the root of your microSD Card.
     11. Reinsert your microSD Card back into your Switch
 
-    !!!danger "About emuMMC.txt"
+    !!!danger "About emummc.txt"
         Putting the `emummc.txt` file provided by this guide into `/atmosphere/hosts` will prevent your emuMMC (emuNAND) from connecting to Nintendo. Not doing this will likely result in a ban.
 
     !!! tip ""

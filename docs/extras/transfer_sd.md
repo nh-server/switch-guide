@@ -36,7 +36,7 @@ You should first check whether you have a file or partition based emuMMC:
 4.  Once both are done, go back to the main menu, remove your microSD Card and insert it into your PC.
 5.  If Windows asks you to format a drive, discard it and select the drive with your SD contents.
 6.  Copy the contents of your microSD Card somewhere to your PC.
-7.  Follow only [this page](https://switchgui.de/switch-guide/user_guide/emummc/partitioning_sd/) to partition the new microSD Card for an emuMMC setup.
+7.  Follow only [this page](../user_guide/emummc/partitioning_sd/) to partition the new microSD Card for an emuMMC setup.
 8.  After it’s done, exit and insert your new microSD Card into your PC.
 9.  Copy the contents of your old microSD Card to your new one.
 10. Navigate to `/backup/<some characters>/` on your microSD Card and move `BOOT0`, `BOOT1` and the `rawnand.bin.xx` files to the `restore` folder.

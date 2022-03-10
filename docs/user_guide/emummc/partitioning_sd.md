@@ -19,7 +19,7 @@ What you need:
 1. Inject the TegraExplorer payload with your 64GB (or larger) microSD Card inserted into your Switch.
 	- If you forgot how to do this, re-read the [sending payload](sending_payload.md) section of the guide.
 2. Navigate to `Partition the SD` and press the A button to enter the SD format menu.
-	- If you can't find the Partition the sd option, make sure that your microSD Card is inserted and select Mount SD.
+	- If you can't find the Partition the SD option, make sure that your microSD Card is inserted and select Mount SD.
 3. Navigate to `FAT32 + emuMMC` and press the A button to confirm.
 4. Read the warning, and select Yes to partition & format your microSD Card.
 	- Note: This will delete all data on your microSD Card. Make sure you backed up your Nintendo folder!
