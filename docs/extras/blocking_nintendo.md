@@ -62,7 +62,7 @@ You can add a custom DNS to your WiFi connection that will block all communicati
     -----
 
     ### Using homebrew to set 90dns on all existing WiFi networks
-    1. Download [Switch-90dns-setter](https://github.com/suchmememanyskill/switch-90dns-setter/releases) and put it in the /switch folder.
+    1. Download [Switch-90dns-setter](https://github.com/suchmememanyskill/switch-90dns-setter/releases) and put it in the `/switch` folder.
     2. Launch CFW and open the homebrew menu.
     3. Launch `90dns setter`.
     4. Press X to apply 90dns to all WiFi networks.
