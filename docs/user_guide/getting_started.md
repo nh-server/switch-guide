@@ -45,10 +45,9 @@ The following information is based on [this GBATemp thread](https://gbatemp.net/
 | XAJ1 | XAJ10000000000 to XAJ10020000000 | XAJ10020000000 to XAJ10030000000 | XAJ10030000000 and up |
 | XAJ4 | XAJ40000000000 to XAJ40046000000 | XAJ40046000000 to XAJ40060000000 | XAJ40060000000 and up |
 | XAJ7 | XAJ70000000000 to XAJ70040000000 | XAJ70040000000 to XAJ70050000000 | XAJ70050000000 and up |
-| XKW1 | **N/A** | **N/A** | XKW10000000000 and up |
-| XKJ1 | **N/A** | **N/A** | XKJ10000000000 and up |
-| XJW1 | **N/A** | **N/A** | XJW01000000000 and up |
-| XWW1 | **N/A** | **N/A** | XWW01000000000 and up |
+| XAK1 | **N/A** | XAK10000000000 and up | **N/A** |
+
+If your serial number is not listed above, your device is not vulnerable.
 
 
 &nbsp;
@@ -82,6 +81,11 @@ The following information is based on [this GBATemp thread](https://gbatemp.net/
 | 7.0.1          | [**RCM**](rcm.md)               | Wait for CFW               | Cart update to 8.0.1        | **N/A**                |
 | 8.0.1          | [**RCM**](rcm.md)               | Wait for homebrew          | Wait for homebrew           | Wait for homebrew      |
 | 8.1.0 - 14.1.0 | [**RCM**](rcm.md)               | Unhackable (currently)     | Unhackable (currently)      | Unhackable (currently) |
+
+&nbsp;
+
+!!! note "About OLED"
+    OLED Switches (HEG-001) are currently unhackable on any firmware version.
 
 &nbsp;
 
