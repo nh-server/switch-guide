@@ -41,7 +41,7 @@ The latest release of <a href="https://github.com/exelix11/SwitchThemeInjector/r
 
 Make sure that the images you want to use are 1280x720 and in JPG!
 
-1. Navigate to <a href="https://exelix11.github.io/SwitchThemeInjector/v2/" target="_blank">.**Exelix's Web Injector**</a>
+1. Navigate to <a href="https://exelix11.github.io/SwitchThemeInjector/v2/" target="_blank">**Exelix's Web Injector**</a>
 2. Select a Theme Target you want to edit. After this, click the Open an Image button and select your background image.
 3. Choose a theme name and an author name and optionally a different layout, then click build NxTheme.
 4. Your browser will prompt you to download a file. Save this file to a temporary folder.
@@ -80,7 +80,7 @@ Make sure that the images you want to use are 1280x720 and in JPG!
 My Switch crashes on boot after I installed a theme!:
 
 - You installed a bad theme. You can remove it by going into the `/atmosphere/contents/0100000000001000/romfs/lyt` and deleting every file in that folder.
-  - Note: `contents` is called `titles` on Atmosphere versions 0.9.4 and below
+  - Note: `contents` is called `titles` on Atmosphere versions 0.9.4 and below.
 
 The NXTheme installer crashes when I launch it:
 
