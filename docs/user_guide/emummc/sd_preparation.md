@@ -1,6 +1,6 @@
 # SD Preparation
 
-We will now place the required files for the Atmosphere custom firmware and some additional homebrew files on the SD card.
+We will now place the required files for the Atmosphere custom firmware and some additional homebrew files on the microSD Card.
 
 Atmosphere has its own bootloader, called fusee. For the purposes of this guide we will be using Hekate instead, so that we can back up the system's NAND (internal storage) and take advantage of other advanced features in the future.
 
@@ -29,26 +29,26 @@ Atmosphere has its own bootloader, called fusee. For the purposes of this guide 
 ### Instructions
 
 !!! tip ""
-    1. Insert your Switch's SD card into your PC
-    2. Copy *the contents of* the Atmosphere `.zip` file to the root of your SD card
-    3. Copy the `bootloader` folder from the Hekate `.zip` file to the root of your SD card
-    4. Copy the `bootloader` folder from the `bootlogos.zip` file to the root of your SD card
+    1. Insert your Switch's microSD Card into your PC
+    2. Copy *the contents of* the Atmosphere `.zip` file to the root of your microSD Card
+    3. Copy the `bootloader` folder from the Hekate `.zip` file to the root of your microSD Card
+    4. Copy the `bootloader` folder from the `bootlogos.zip` file to the root of your microSD Card
           - If you're asked to merge the bootloader folders, do so.
-    5. Copy `hekate_ipl.ini` to the `bootloader` folder on your SD card
-    6. Copy `Lockpick_RCM.bin` to the `/bootloader/payloads` folder on your SD card
-    7. Create a folder named `hosts` inside the `atmosphere` folder on your SD card, and put `emummc.txt` in it
-    8. Create a folder named `appstore` inside the `switch` folder on your SD card, and put `appstore.nro` in it
-    9. Copy `JKSV.nro`, `ftpd.nro`, `NX-Shell.nro` and `NxThemesInstaller.nro` to the `switch` folder on your SD card
-    10. If you were already using your microSD card as a storage device for your games and backed up the Nintendo folder before partitioning your microSD card, please place it back on the root of your microSD card.
-    11. Reinsert your SD card back into your Switch
+    5. Copy `hekate_ipl.ini` to the `bootloader` folder on your microSD Card
+    6. Copy `Lockpick_RCM.bin` to the `/bootloader/payloads` folder on your microSD Card
+    7. Create a folder named `hosts` inside the `atmosphere` folder on your microSD Card, and put `emuMMC.txt` in it
+    8. Create a folder named `appstore` inside the `switch` folder on your microSD Card, and put `appstore.nro` in it
+    9. Copy `JKSV.nro`, `ftpd.nro`, `NX-Shell.nro` and `NxThemesInstaller.nro` to the `switch` folder on your microSD Card
+    10. If you were already using your microSD Card as a storage device for your games and backed up the Nintendo folder before partitioning your microSD Card, please place it back on the root of your microSD Card.
+    11. Reinsert your microSD Card back into your Switch
 
     !!!danger "About emummc.txt"
         Putting the `emummc.txt` file provided by this guide into `/atmosphere/hosts` will prevent your emuMMC (emuNAND) from connecting to Nintendo. Not doing this will likely result in a ban.
 
     !!! tip ""
-        Your SD card should look similar to this. The `Nintendo` folder will not be present if your switch has not already booted with the microSD card inserted.
+        Your microSD Card should look similar to this. The `Nintendo` folder will not be present if your switch has not already booted with the microSD Card inserted.
         ![sdfilesimg](../img/sdfiles.png)
 
 &nbsp;
 
-#### [Continue to Making EmuMMC <i class="fa fa-arrow-circle-right fa-lg"></i>](making_emummc.md)
+#### [Continue to Making emuMMC <i class="fa fa-arrow-circle-right fa-lg"></i>](making_emummc.md)

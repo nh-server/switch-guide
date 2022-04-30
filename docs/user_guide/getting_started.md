@@ -2,11 +2,12 @@
 
 ### Finding your serial number
 
-The first thing to do is determine if your Switch is vulnerable to fusee-gelee, the exploit we will be using to launch CFW.
+The first thing to do is determine if your Switch is vulnerable to the RCM exploit, which is used to launch into CFW.
 
-This vulnerability was independently discovered by several different Switch hacking teams, and multiple variants of it were released to the public in April 2018 after a 90-day disclosure period ended. Nintendo and NVIDIA were made aware of the issue before the public release as a result, and Switch systems that are not vulnerable to the exploit started being spotted in the wild in July 2018. NVIDIA [publicly acknowledged the flaw](https://nvidia.custhelp.com/app/answers/detail/a_id/4660/~/security-notice%3A-nvidia-tegra-rcm-vulnerability) in April as well. In July 2019, Nintendo announced updated consoles, a handheld variant of the Switch called the Switch Lite (HDH-001), and a new model of original Switch (HAC-001-01) with better battery life. Both of these new models use a new processor called the T210b01 (also known as T214 and Mariko) with a new bootROM, and are not hackable at the current time.
+This vulnerability, called fusee-gelee (CVE-2018-6242), was independently discovered by several different Switch hacking teams. Multiple variants of it were released to the public in April 2018 after a 90-day disclosure period ended. Nintendo and NVIDIA were made aware of the issue before the public release as a result, and Switch systems that are not vulnerable to the exploit started being spotted in the wild in July 2018.
+NVIDIA [publicly acknowledged the flaw](https://nvidia.custhelp.com/app/answers/detail/a_id/4660/~/security-notice%3A-nvidia-tegra-rcm-vulnerability) in April. In July 2019, Nintendo announced updated consoles, a handheld variant of the Switch called the Switch Lite (HDH-001), and a new model of original Switch (HAC-001(-01)) with better battery life. Both of these new models use a new processor called the T210b01 (also known as T214 and Mariko) with a new bootROM, and have no software exploits which lead into custom firmware.
 
-Patched and Mariko units can be identified by their serial number. This number can be found on the bottom of your Switch adjacent to the USB-C port, or in the Settings applet at **System -> Serial Information**. 
+Patched and Mariko units can be identified by their serial number. This number can be found on the bottom of your Switch adjacent to the USB-C port, or in the Settings applet at **System -> Serial Information**.
 
 &nbsp;
 
@@ -20,10 +21,10 @@ Patched and Mariko units can be identified by their serial number. This number c
 
 ### Determining if your Switch is vulnerable
 
-The homebrew community has crowdsourced a list of known serial numbers which are vulnerable to fusee-gelee. 
+The homebrew community has crowdsourced a list of known serial numbers which are vulnerable to fusee-gelee.
 
-- If your serial number is on this list as "potentially patched", follow the guide and see if your system works. 
-- If your serial number is listed as "patched", there is nothing you can do at this time. 
+- If your serial number is on this list as "potentially patched", follow the guide and see if your system works.
+- If your serial number is listed as "patched", there is nothing you can do at this time.
 - If your system is patched, it is highly advised to keep it on 7.0.1 or lower, if possible, as there may be a vulnerability for these versions in the far future. **DO NOT update patched consoles past 7.0.1 if you want to ever have a chance of running homebrew and/or CFW on them.**
 
 !!! tip "Notice"
@@ -73,7 +74,7 @@ The following information is based on [this GBATemp thread](https://gbatemp.net/
 
 &nbsp;
 
-| Firmware Version | Unpatched Switches (HAC-001) | Patched Switches (HAC-001) | "New" Switch (HAC-001-01)   | Switch Lite (HDH-001)  | 
+| Firmware Version | Unpatched Switches (HAC-001) | Patched Switches (HAC-001) | "New" Switch (HAC-001-01)   | Switch Lite (HDH-001)  |
 |:---------------|:--------------------------------|:---------------------------|:----------------------------|:-----------------------|
 | 1.0.0          | Nereba or [**RCM**](rcm.md)     | **N/A**                    | **N/A**                     | **N/A**                |
 | 2.0.0 - 3.0.2  | Caffeine or [**RCM**](rcm.md)   | **N/A**                    | **N/A**                     | **N/A**                |

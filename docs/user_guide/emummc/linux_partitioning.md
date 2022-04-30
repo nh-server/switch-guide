@@ -1,7 +1,7 @@
 ## Manual Linux Preperations
 
-!!! danger "SD card identification"
-	Make 100% sure you get your microSD card during the following steps. If you are not careful, you can end up wiping your entire linux filesystem. We are not responsible for data loss when doing this.
+!!! danger "microSD Card identification"
+	Make 100% sure you get your microSD Card during the following steps. If you are not careful, you can end up wiping your entire linux filesystem. We are not responsible for data loss when doing this.
 
 !!! warning "Who is this for?"
 	This section is for the people who do not want to let a tool automatically modify their sd, and want to do it manually for more control over what gets created. This section helps with that
@@ -14,9 +14,9 @@
 ### Manual instructions (Linux)
 
 1. Open a terminal.
-2. Run `sudo fdisk -l`. Enter your password if prompted. This will print information about all drives connected to your computer. Use the information about the file size to identify your microSD card. Specifically, take note of the line after `Disk `. This will look something like `/dev/xxx`, where `xxx` will differ on your system (can also be longer than three characters). It does NOT end with a number.
+2. Run `sudo fdisk -l`. Enter your password if prompted. This will print information about all drives connected to your computer. Use the information about the file size to identify your microSD Card. Specifically, take note of the line after `Disk `. This will look something like `/dev/xxx`, where `xxx` will differ on your system (can also be longer than three characters). It does NOT end with a number.
 3. Run `sudo gparted <value>`. Enter your password if prompted. Replace `<value>` in the command with the information you obtained from step 2.
-4. You will see a list of partitions on your SD card. Go to `Device` -> `Create partition table`. Select `msdos` as the partition type and select Apply. This will remove all existing partitions from your SD card.
+4. You will see a list of partitions on your microSD Card. Go to `Device` -> `Create partition table`. Select `msdos` as the partition type and select Apply. This will remove all existing partitions from your microSD Card.
 5. Go to `Partition` -> `New`. And do the following:
     - Set `Free space following (MiB)` to `30000`. 
     - Set `Free space preceding (MiB)` to `1`. 
@@ -38,9 +38,9 @@
 	To fix this, follow these instructions:
 
 	1. Open a terminal.
-	2. Run `sudo fdisk -l`. Enter your password if prompted. This will print information about all drives connected to your computer. Use this information to determine the FAT32 partition on your SD card. Specifically, note the value under the column `Device`. This will look something like `/dev/xxx`, where `xxx` will differ on your system (can also be longer than three characters). It always ends with a number!
+	2. Run `sudo fdisk -l`. Enter your password if prompted. This will print information about all drives connected to your computer. Use this information to determine the FAT32 partition on your microSD Card. Specifically, note the value under the column `Device`. This will look something like `/dev/xxx`, where `xxx` will differ on your system (can also be longer than three characters). It always ends with a number!
 	3. Run `sudo mkdosfs <value> -s 64 -F 32 -I`. Enter your password if prompted. Replace `<value>` with the value you got from step 2.
-	4. Wait until it finishes running. Depending on the size of your microSD card, this might take a while.
+	4. Wait until it finishes running. Depending on the size of your microSD Card, this might take a while.
 	5. Run `sudo fatlabel <value> "sMicroSD"`. Enter your password if prompted. Replace `<value>` with the value you got from step 2.
 
 &nbsp;

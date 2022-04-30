@@ -19,4 +19,4 @@ This section is for dumping your games' title keys.
     1. Enter RCM and inject the Hekate payload.
     2. Tap the `Payloads` option, then press Lockpick_RCM.bin.
     3. If Lockpick_RCM asks you to select between SysNAND or EmuNAND, choose SysNAND by navigating with the volume buttons and pressing the power button.
-    4. Lockpick_RCM should now inform you that your title keys have been saved to `/switch/title.keys` on the SD card.
+    4. Lockpick_RCM should now inform you that your title keys have been saved to `/switch/title.keys` on the microSD Card.

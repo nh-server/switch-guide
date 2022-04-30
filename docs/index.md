@@ -60,7 +60,7 @@ A guide collaboration between Nintendo Homebrew's Helpers and Staff, from stock 
         - This method is not covered by the guide, but you can read more about it at [this website](https://mologie.github.io/nxboot/)
 
 
-    You will also need a micro SD card that is at least 64 gigabytes or larger if you plan on following this guide through the emummc path, which is safer and strongly recommended. If you must use a smaller SD card, it is possible with the sysmmc path, but strongly not recommended.
+    You will also need a microSD Card that is at least 64 gigabytes or larger if you plan on following this guide through the emuMMC path, which is safer and strongly recommended. If you must use a smaller microSD Card, it is possible with the sysMMC path, but strongly not recommended.
 
     Finally, you will need a way to access Recovery Mode. (This will be further explained in the "Entering RCM section")
 
@@ -74,4 +74,4 @@ It is advised that you read the entire guide from start to finish one or more ti
 
 &nbsp;
 
-#### [Continue to Getting Started <i class="fa fa-arrow-circle-right fa-lg"></i>](user_guide/getting_started.md) 
+#### [Continue to Getting Started <i class="fa fa-arrow-circle-right fa-lg"></i>](user_guide/getting_started.md)
