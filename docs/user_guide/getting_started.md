@@ -85,7 +85,7 @@ If your serial number is not listed above, your device is not vulnerable.
 &nbsp;
 
 !!! note "About OLED"
-    OLED Switches (HEG-001) are currently unhackable on any firmware version.
+    OLED Switches (HEG-001) are currently unhackable via software.
 
 &nbsp;
 
