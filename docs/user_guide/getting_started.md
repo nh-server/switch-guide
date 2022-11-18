@@ -80,7 +80,7 @@ If your serial number is not listed above, your device is not vulnerable.
 | 5.0.0 - 7.0.0  | [**RCM**](rcm.md)               | Wait for CFW               | **N/A**                     | **N/A**                |
 | 7.0.1          | [**RCM**](rcm.md)               | Wait for CFW               | Cart update to 8.0.1        | **N/A**                |
 | 8.0.1          | [**RCM**](rcm.md)               | Wait for homebrew          | Wait for homebrew           | Wait for homebrew      |
-| 8.1.0 - 14.1.2 | [**RCM**](rcm.md)               | Unhackable (currently)     | Unhackable (currently)      | Unhackable (currently) |
+| 8.1.0 and up | [**RCM**](rcm.md)               | Unhackable (currently)     | Unhackable (currently)      | Unhackable (currently) |
 
 &nbsp;
 
