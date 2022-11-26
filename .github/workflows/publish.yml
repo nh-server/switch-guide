@@ -6,7 +6,7 @@ on:
 
 jobs:
   doc-deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
 
     steps:
       - uses: actions/checkout@v2
@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-python@v2
         with:
           # Semantic version range syntax or exact version of a Python version
-          python-version: '3.6.7'
+          python-version: '3.11.0'
 
       # You can test your matrix by printing the current Python version
       - name: Display Python version
