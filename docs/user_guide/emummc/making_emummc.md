@@ -11,9 +11,12 @@
     1. Enter RCM and inject the Hekate payload
     2. Use the touch screen to navigate to `emuMMC`
     3. Tap on `Create emuMMC`, then select `SD Partition`
-    4. Tap on `Part 1`. It will start making the emummc now. After it's done return to the emuMMC menu using the `Close` buttons
+    4. Tap on `Part 1`. It will start making the emuMMC now. After it's done return to the emuMMC menu using the `Close` buttons
     5. Tap on `Change emuMMC`, then `SD RAW 1`
     6. Go back to the main menu
+
+!!!warning "After making the emummc"
+    Beware that sysMMC and emuMMC don't use the same Nintendo folder! Once you created your emuMMC, copy the `Nintendo` folder from the root of the sd card to the `emummc/RAW1/` folder.
 
 -----
 

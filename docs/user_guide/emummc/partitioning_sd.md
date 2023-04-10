@@ -4,7 +4,7 @@
 	Doing this will delete all your data from your sd card, be warned!
 
 !!! warning "Back up your existing Nintendo folder"
-	Before we start, if you are using a microSD card already as a storage device for your games, you will want to back up your `Nintendo` folder that is on the root of your microSD card to a safe place on your computer. This folder contains your downloaded games and game updates.
+	Before we start, if you are using a microSD card already as a storage device for your games, you will want to back up your `Nintendo` folder that is on the root of your microSD card to a safe place on your computer. This folder contains your downloaded games and game updates. After creating the emuMMC, you will need two copies of your Nintendo folder: one for your sysMMC and one for your emuMMC.
 
 -----
 
