@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
       - uses: actions/checkout@v3
@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-python@v4
         with:
           # Semantic version range syntax or exact version of a Python version
-          python-version: '3.6.7'
+          python-version: '3.11.0'
 
       # You can test your matrix by printing the current Python version
       - name: Display Python version
@@ -40,4 +40,3 @@ jobs:
       - name: Run Mkdocs
         # Build the site using mkdocs
         run: mkdocs build --verbose --clean --strict
-
