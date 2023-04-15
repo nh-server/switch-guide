@@ -9,29 +9,29 @@ RCM (short for ReCovery Mode) is a mode for the switch that allows nintendo to s
 
 ----
 
-### emuNAND CFW (**Recommended**)
+### emuNAND CFW (**Recommended for new users**)
 
 !!!tip "What's needed for emuNAND"
 	- A microSD card that's 64GB or larger
 
 	#### Pros of using emuNAND over sysNAND CFW:
 	
-	- Using homebrew applications such as save editors, or cheating in games offline without "dirtying" or affecting sysNAND, allowing sysNAND to be used online without ban risk.
+	- Using homebrew applications and CFW features in a safe environment that won't connect to Nintendo.
 	- Allowing users on patched Switches using Caffeine to update their emuNAND to latest and use it online, keeping sysNAND at a lower vulnerable version.
 
 &nbsp;
 
-#### [Continue to Entering RCM <i class="fa fa-arrow-circle-right fa-lg"></i>](emummc/entering_rcm.md)
+#### [Continue to Entering RCM (emuNAND) <i class="fa fa-arrow-circle-right fa-lg"></i>](emummc/entering_rcm.md)
 -----
 
 
-### sysNAND CFW (**Not Recommended**)
+### sysNAND CFW
 
-This is for the people who don't have an 64GB microSD card or larger, or who don't want emuNAND for whatever reason. 
+This is for the people who don't have an 64GB microSD card or larger, or who don't need/want an emuNAND. 
 
 !!!note "Note"
 	If you set up an emuNAND you may still have CFW on your sysNAND if you choose to use it. You do not have to follow the guide linked below; all the files are the same, you simply select "sysNAND CFW" from Hekate/Nyx.
 
 &nbsp;
 
-#### [Continue to SD preparations (sysNAND CFW) (**Not Recommended**) <i class="fa fa-arrow-circle-right fa-lg"></i>](sysnand/sd_preparation.md)
+#### [Continue to SD preparations (sysNAND CFW) <i class="fa fa-arrow-circle-right fa-lg"></i>](sysnand/sd_preparation.md)
