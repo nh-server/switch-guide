@@ -202,10 +202,14 @@
 <li>Enter RCM and inject the Hekate payload</li>
 <li>Use the touch screen to navigate to <code>emuMMC</code></li>
 <li>Tap on <code>Create emuMMC</code>, then select <code>SD Partition</code></li>
-<li>Tap on <code>Part 1</code>. It will start making the emummc now. After it's done return to the emuMMC menu using the <code>Close</code> buttons</li>
+<li>Tap on <code>Part 1</code>. It will start making the emuMMC now. After it's done return to the emuMMC menu using the <code>Close</code> buttons</li>
 <li>Tap on <code>Change emuMMC</code>, then <code>SD RAW 1</code></li>
 <li>Go back to the main menu</li>
 </ol>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">After making the emummc</p>
+<p>Beware that sysMMC and emuMMC don't use the same Nintendo folder! Once you created your emuMMC, copy the <code>Nintendo</code> folder from the root of the sd card to the <code>emummc/RAW1/</code> folder.</p>
 </div>
 <hr />
 <h3 id="making-a-nand-backup">Making a NAND backup</h3>
@@ -265,7 +269,7 @@
 
         <footer class="col-md-12">
             <hr>
-                <p>Copyright &copy; 2022 <a href="https://discord.gg/C29hYvh" target="_blank">Nintendo Homebrew</a>, Maintained by the <a href="/switch-guide/about">NH Discord Server</a>.</p>
+                <p>Copyright &copy; 2023 <a href="https://discord.gg/C29hYvh" target="_blank">Nintendo Homebrew</a>, Maintained by the <a href="/switch-guide/about">NH Discord Server</a>.</p>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
