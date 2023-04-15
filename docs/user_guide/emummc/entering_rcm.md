@@ -29,7 +29,6 @@ There are several methods of entering RCM (**R**e**C**overy **M**ode). The most 
 
     !!! snippet "Note"
         Some jig designs use paperclips, inheriting the same risks as the Metal Bridge / Paperclip method.
-        Once you have successfully entered RCM, you can take the jig out of the joycon rail.
 
     !!! snippet "Note"
         Once you have successfully entered RCM, you can take the jig out of the joycon rail.
