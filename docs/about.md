@@ -18,7 +18,7 @@ This guide was written by staff members of the [Nintendo Homebrew Discord Server
     - **Atmosphere-NX** for [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere).
     - **switchbrew** for [nx-hbloader](https://github.com/switchbrew/nx-hbloader) and [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu).
     - **nwert** and **CTCaer** for [Hekate](https://github.com/CTCaer/hekate).
-    - **WerWolv** for [EdiZon](https://github.com/WerWolv/EdiZon/releases).
+    - **WerWolv** for [EdiZon](https://github.com/WerWolv/EdiZon).
     - **J-D-K** for [JKSV](https://github.com/J-D-K/JKSV).
     - **Flagbrew** for [Checkpoint](https://github.com/FlagBrew/Checkpoint).
     - **mtheall** for [FTPD](https://github.com/mtheall/ftpd/).
@@ -29,10 +29,10 @@ This guide was written by staff members of the [Nintendo Homebrew Discord Server
     - **vgmoose**, **pwsincd**, **rw-r-r_0644** and **crc32** for [hb-appstore](https://github.com/vgmoose/hb-appstore).
     - **exelix** for [NXThemes Installer and SwitchThemeInjector](https://github.com/exelix11/SwitchThemeInjector).
     - **Essometer** for collecting patched Switch serials.
-    - **shchmue** for [Lockpick](https://github.com/shchmue/Lockpick/releases) and [Lockpick_RCM](https://github.com/shchmue/Lockpick_RCM/releases).
+    - **shchmue** for [Lockpick_RCM](https://vps.suchmeme.nl/git/mudkip/Lockpick_RCM).
     - **Ave** for [90DNS](https://gitlab.com/a/90dns).
     - **Nexrem (meganukebmp)** for the [Switch 90DNS Tester](https://github.com/meganukebmp/Switch_90DNS_tester).
-    - **exelix11** for [Switch Theme Injector](https://github.com/exelix11/SwitchThemeInjector/releases).
+    - **exelix11** for [Switch Theme Injector](https://github.com/exelix11/SwitchThemeInjector).
     - **vgmoose** for [hb-appstore](https://github.com/vgmoose/hb-appstore).
     - **suchmememanyskill** for [TegraExplorer](https://github.com/suchmememanyskill/TegraExplorer)
 

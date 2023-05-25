@@ -11,7 +11,7 @@ This section is for dumping your games' title keys.
 ### What you need
 
 !!! tip ""
-	- The latest release of [Lockpick_RCM](https://github.com/shchmue/Lockpick_RCM) in your `/bootloader/payloads` folder
+	- The latest release of [Lockpick_RCM](https://vps.suchmeme.nl/git/mudkip/Lockpick_RCM/releases) in your `/bootloader/payloads` folder
 
 ### Instructions
 
