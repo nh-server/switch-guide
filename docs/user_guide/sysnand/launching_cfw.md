@@ -24,6 +24,11 @@ To verify Atmosphere launched properly, open the Settings applet, and navigate t
 
 &nbsp;
 
+!!! tip "Reboot to Hekate"
+    Once booted into sysMMC with CFW, you can easily get back to Hekate by holding the power button, and selecting `Restart` in the power menu.
+
+&nbsp;
+
 ### Launching the Homebrew Menu
 
 You will now be able to launch the Homebrew Menu by opening the album or by holding the R button while launching any game (including demos/cartridges), or application (e.g. Youtube/Hulu). If R is not held, the game or application will launch like normal.
