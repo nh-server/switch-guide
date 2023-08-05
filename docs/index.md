@@ -75,3 +75,8 @@ It is advised that you read the entire guide from start to finish one or more ti
 &nbsp;
 
 #### [Continue to Getting Started <i class="fa fa-arrow-circle-right fa-lg"></i>](user_guide/getting_started.md) 
+&nbsp;
+
+Note: We are not now, nor have we ever been, nor will we ever be, associated with Anton Retro, sthetix, or any other YouTube/TikTok video guide makers.
+
+Furthermore, we resent any implication to the contrary.
