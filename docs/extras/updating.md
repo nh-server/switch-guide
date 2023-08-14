@@ -101,7 +101,7 @@ If you keep your emuMMC offline, you will have to use a gamecard to update your 
 
 ### Updating your emuMMC with Daybreak
 
-1. In Hekate go to `Launch -> Atmosphere FSS0 Emu`.
+1. In Hekate go to `Launch -> Atmosphere FSS0 emuMMC`.
 2. Once booted, hold `R` while launching a game to boot into the homebrew menu.
 3. Find Daybreak in the homebrew menu and launch it.
 4. Tap on `Install` and navigate to `tegraexplorer/Firmware/<latest firmware number>`.
