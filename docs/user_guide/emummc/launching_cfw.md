@@ -14,7 +14,7 @@ Unlike systems such as the DSi, Wii, or 3DS, Switch CFW is currently volatile. I
 !!! tip ""
     1. Power on your Switch into RCM, and inject the Hekate payload
     2. Navigate to `Launch` using the touch screen
-    3. Find `Atmosphere FSS0 EmuMMC` and launch it
+    3. Find `Atmosphere FSS0 emuMMC` and launch it
 
 Your Switch is now booting into Atmosphere.
 
