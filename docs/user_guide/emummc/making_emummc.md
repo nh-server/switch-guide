@@ -47,9 +47,8 @@
           - Insert your SD card into your Switch
           - Enter RCM again, inject Hekate again, and continue the backup by tapping on `Tools` > `Backup eMMC` > `eMMC RAW GPP`
           - Repeat the process until the NAND is completely dumped
-    5. Press `Close` > `Home` > `Power Off`
-    6. Insert your SD card into your PC
-    7. Copy the `backup` folder on your SD card to a safe location on your PC
+    5. Press `Close` > `USB Tools` > `SD Card`
+    6. Copy the `backup` folder from your microSD card to a safe location on your PC.
 
 &nbsp;
 
