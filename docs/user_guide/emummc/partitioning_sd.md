@@ -12,20 +12,23 @@
 
 What you need:
 
-- The latest release of <a href="https://github.com/suchmememanyskill/TegraExplorer/releases" target="_blank">TegraExplorer</a>
-
+- The latest release of <a href="https://github.com/CTCaer/Hekate/releases/" target="_blank">Hekate</a> (Download the `hekate_ctcaer_(version).zip` release of hekate)
 ### Instructions
 
-1. Inject the TegraExplorer payload with your 64GB (or larger) SD card inserted into your Switch.
+1. Inject the Hekate payload with your 64GB (or larger) SD card inserted into your Switch.
 	- If you forgot how to do this, re-read the [sending payload](sending_payload.md) section of the guide.
-2. Navigate to `Partition the sd` and press the A button to enter the SD format menu.
-	- If you can't find the Partition the sd option, make sure that your SD card is inserted and select Mount SD.
-3. Navigate to `Fat32 + EmuMMC` and press the A button to confirm.
-4. Read the warning, and select Yes to partition & format your SD card.
+2. Use the touchscreen to navigate to `Tools` at the top.
+3. Tap on the `Paritition SD Card` button.
+4. Read the warning and select `Don't Backup` to proceed to the next screen.
 	- Note: This will delete all data on your SD card. Make sure you backed up your Nintendo folder!
+5. Slide the red `emuMMC (RAW)` slider to the right until it gets to `29 FULL`.
+6. Tap on the `Next Step` button.
+7. Read the warning and tap on the `Start` button.
+9. Press the Switch's power button to continue.
 	- This should not take more than a few seconds.
-5. Press any button to return to the main menu.
-6. Navigate to `Reboot to RCM` and press the A button to reboot to RCM. It's now safe to eject your sd card for the next part of the guide.
+10. Tap on `Close` on the top-right of the screen.
+11. Tap on `Home` on the top of the screen.
+12. Tap on the `Reboot` button on the bottom-right of the screen and then tap the `RCM` button to reboot to RCM. It's now safe to eject your microSD card for the next part of the guide.
 
 !!! warning "Windows complaining about an unreadable drive"
     If you get the issue that Windows says the SD card is unreadable and wants to format it, do not format! This is likely your emuMMC partition. After partitioning your sd, your sd will show up as 2 drives on your pc. Use the drive that can be accessed
