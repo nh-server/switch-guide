@@ -1,9 +1,40 @@
 site_name: NH Switch Guide
-theme: slate
 copyright: Copyright &copy; 2023 <a href="https://discord.gg/C29hYvh" target="_blank">Nintendo Homebrew</a>, Maintained by the <a href="/switch-guide/about">NH Discord Server</a>.
 site_description: Switch CFW Guide.
 site_author: NH Discord Server.
 site_url: https://nh-server.github.io/switch-guide/
+repo_url: https://github.com/nh-server/switch-guide
+repo_name: NH Switch Guide
+
+theme:
+  name: material
+  favicon: img/favicon.ico
+  features:
+    - toc.integrate
+    - navigation.instant
+    - navigation.expand
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tracking
+
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+  icon:
+    repo: fontawesome/brands/github
+    logo: fontawesome/solid/wrench
 
 nav:
     - Home: index.md
@@ -35,8 +66,22 @@ nav:
     - About: about.md
     
 markdown_extensions:
-    - admonition
-    - fontawesome_markdown
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - def_list
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+      toc_depth: 3
 
 extra_css:
     - css/custom.css
