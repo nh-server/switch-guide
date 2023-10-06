@@ -1,4 +1,5 @@
 # Making Essential Backups
+
 !!! danger "Important"
     It is critical to make these backups. Do not skip these steps.
 
@@ -39,4 +40,4 @@
 
 -----
 
-#### [Continue to Launching CFW <i class="fa fa-arrow-circle-right fa-lg"></i>](launching_cfw.md)
+[Continue to Launching CFW :material-arrow-right:](launching_cfw.md){ .md-button .md-button--primary }

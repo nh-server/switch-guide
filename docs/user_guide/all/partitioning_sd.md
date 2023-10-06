@@ -17,7 +17,7 @@ What you need:
 ### Instructions
 
 1. Inject the TegraExplorer payload with your 64GB (or larger) SD card inserted into your Switch.
-	- If you forgot how to do this, re-read the [sending payload](sending_payload.md) section of the guide.
+	- If you forgot how to do this, re-read the [sending payload](../rcm/sending_payload.md) section of the guide.
 2. Navigate to `Partition the sd` and press the A button to enter the SD format menu.
 	- If you can't find the Partition the sd option, make sure that your SD card is inserted and select Mount SD.
 3. Navigate to `Fat32 + EmuMMC` and press the A button to confirm.
@@ -32,4 +32,4 @@ What you need:
     
 &nbsp;
 
-#### [Continue to SD Preparations <i class="fa fa-arrow-circle-right fa-lg"></i>](sd_preparation.md)
+[Continue to SD Preparations :material-arrow-right:](sd_preparation.md){ .md-button .md-button--primary }

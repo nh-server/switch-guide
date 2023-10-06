@@ -45,8 +45,8 @@ Atmosphere has its own bootloader, called fusee. For the purposes of this guide 
 
     !!! tip ""
         Your SD card should look similar to this. The `Nintendo` folder will not be present if your switch has not already booted with the microSD card inserted.
-        ![sdfilesimg](../img/sdfiles.png)
+        ![sdfilesimg](img/sdfiles.png)
 
 &nbsp;
 
-#### [Continue to Making EmuMMC <i class="fa fa-arrow-circle-right fa-lg"></i>](making_emummc.md)
+[Continue to Making Essential Backups :material-arrow-right:](making_essential_backups.md){ .md-button .md-button--primary }

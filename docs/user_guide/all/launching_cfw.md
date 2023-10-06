@@ -6,26 +6,29 @@ Unlike systems such as the DSi, Wii, or 3DS, Switch CFW is currently volatile. I
 
 &nbsp;
 
+!!! danger "Keep emuMMC offline at all times"
+    Your emuMMC (emuNAND) should never connect to Nintendo. For online play, eShop browsing, or any other Nintendo online activity, use your sysNAND. Using both emuMMC and sysNAND online will likely result in a ban.
+
 ### Instructions
 
 !!! tip ""
     1. Power on your Switch into RCM, and inject the Hekate payload
     2. Navigate to `Launch` using the touch screen
-    3. Find `Atmosphere FSS0 sysMMC` and launch it
+    3. Find `Atmosphere FSS0 emuMMC` and launch it
 
 Your Switch is now booting into Atmosphere.
 
-To verify Atmosphere launched properly, open the Settings applet, and navigate to System. You should see `AMS` next to the version number, as well as an `S` at the end, indicating you are booted into sysMMC.
+To verify Atmosphere launched properly, open the Settings applet, and navigate to System. You should see `AMS` next to the version number, as well as an `E` at the end, indicating you are booted into emuMMC.
 
 &nbsp;
 
 !!! tip ""
-    ![Atmosphere version string](../img/launching_cfw_atmosphere_version_string.jpg)
+    ![Atmosphere version string](img/launching-cfw-emummc-settings.jpg)
 
 &nbsp;
 
 !!! tip "Reboot to Hekate"
-    Once booted into sysMMC with CFW, you can easily get back to Hekate by holding the power button, and selecting `Restart` in the power menu.
+    Once booted into emuMMC, you can easily get back to Hekate by holding the power button, and selecting `Restart` in the power menu.
 
 &nbsp;
 

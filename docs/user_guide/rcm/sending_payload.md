@@ -3,7 +3,7 @@
 # Sending a Payload
 
 !!! warning "If you are here to test if your Switch is patched"
-    Make sure you have [put your device into RCM](entering_rcm.md) and downloaded TegraExplorer. Once finished, if your console is **not** patched, continue with [Partitioning the SD](partitioning_sd.md).
+    Make sure you have [put your device into RCM](entering_rcm.md) and downloaded TegraExplorer. Once finished, if your console is **not** patched, continue with [Partitioning the SD](../all/partitioning_sd.md).
 
 
 Now that the device is in RCM, we will need to send it a payload. The methods are mostly the same, but slightly differ depending on what hardware you have available.
@@ -123,7 +123,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 ### Instructions
     
 !!! tip ""
-    1. Go to the injection [website](https://fusee.eiphax.tech/) and scroll all the way down
+    1. Go to the injection [website](https://switchgui.de/web-payload/) and scroll all the way down
     2. Select the "Upload Payload" option and upload the hekate_ctcaer `.bin` file from the Hekate `.zip` file.
         - The first time you read this page you should inject TegraExplorer.bin.
     3. Connect your Switch in RCM to your Chromebook using the USB cable.
@@ -137,4 +137,4 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
 &nbsp;
 
-#### [Continue to Partitioning the SD <i class="fa fa-arrow-circle-right fa-lg"></i>](partitioning_sd.md)
+[Continue to Partitioning the SD :material-arrow-right:](../all/partitioning_sd.md){ .md-button .md-button--primary }

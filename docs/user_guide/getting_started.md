@@ -27,7 +27,7 @@ The homebrew community has crowdsourced a list of known serial numbers which are
 - If your system is patched, it is highly advised to keep it on 7.0.1 or lower, if possible, as there may be a vulnerability for these versions in the far future. **DO NOT update patched consoles past 7.0.1 if you want to ever have a chance of running homebrew and/or CFW on them.**
 
 !!! tip "Notice"
-    If you are unsure if your serial is patched, you can test your console yourself following the instructions [here.](emummc/sending_payload.md)
+    If you are unsure if your serial is patched, you can test your console yourself following the instructions [here.](rcm/sending_payload.md)
 
 -----
 
@@ -74,13 +74,13 @@ If your serial number is not listed above, your device is not vulnerable.
 
 | Firmware Version | Unpatched Switches (HAC-001) | Patched Switches (HAC-001) | "New" Switch (HAC-001-01)   | Switch Lite (HDH-001)  | 
 |:---------------|:--------------------------------|:---------------------------|:----------------------------|:-----------------------|
-| 1.0.0          | Nereba or [**RCM**](rcm.md)     | **N/A**                    | **N/A**                     | **N/A**                |
-| 2.0.0 - 3.0.2  | Caffeine or [**RCM**](rcm.md)   | **N/A**                    | **N/A**                     | **N/A**                |
-| 4.0.0 - 4.1.0  | Caffeine or [**RCM**](rcm.md)   | Caffeine                   | **N/A**                     | **N/A**                |
-| 5.0.0 - 7.0.0  | [**RCM**](rcm.md)               | Wait for CFW               | **N/A**                     | **N/A**                |
-| 7.0.1          | [**RCM**](rcm.md)               | Wait for CFW               | Cart update to 8.0.1        | **N/A**                |
-| 8.0.1          | [**RCM**](rcm.md)               | Wait for homebrew          | Wait for homebrew           | Wait for homebrew      |
-| 8.1.0 and up | [**RCM**](rcm.md)               | Unhackable (currently)     | Unhackable (currently)      | Unhackable (currently) |
+| 1.0.0          | Nereba or [**RCM**](rcm/index.md)     | **N/A**                    | **N/A**                     | **N/A**                |
+| 2.0.0 - 3.0.2  | Caffeine or [**RCM**](rcm/index.md)   | **N/A**                    | **N/A**                     | **N/A**                |
+| 4.0.0 - 4.1.0  | Caffeine or [**RCM**](rcm/index.md)   | Caffeine                   | **N/A**                     | **N/A**                |
+| 5.0.0 - 7.0.0  | [**RCM**](rcm/index.md)               | Wait for CFW               | **N/A**                     | **N/A**                |
+| 7.0.1          | [**RCM**](rcm/index.md)               | Wait for CFW               | Cart update to 8.0.1        | **N/A**                |
+| 8.0.1          | [**RCM**](rcm/index.md)               | Wait for homebrew          | Wait for homebrew           | Wait for homebrew      |
+| 8.1.0 and up | [**RCM**](rcm/index.md)               | Unhackable (currently)     | Unhackable (currently)      | Unhackable (currently) |
 
 &nbsp;
 
@@ -89,4 +89,4 @@ If your serial number is not listed above, your device is not vulnerable.
 
 &nbsp;
 
-#### [If your Switch is not patched, continue to RCM <i class="fa fa-arrow-circle-right fa-lg"></i>](rcm.md)
+[If your Switch is not patched, continue to RCM :material-arrow-right:](rcm/index.md){ .md-button .md-button--primary }
