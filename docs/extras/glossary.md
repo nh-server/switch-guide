@@ -27,7 +27,7 @@ The following list is in alphabetical order.
 - **nx-hbloader**: Intermediary program used to load the Homebrew Launcher from CFW developed by Switchbrew. Comes bundled with Atmosphere.
 - **PRODINFO**: A partition on the NAND of your Switch. This along with boot0 and boot1 is the only part of your Switch that can render it unbootable if improperly modified. Atmosphere backs up this partition on booting and it is included in your NAND backup.
 - **ReSwitched**: A hacking team that is one of the main developers for Atmosphere.
-- **RCM**: A shorthand for "Recovery Mode". When talking about hacking the Switch, this commonly refers to the Recovery Mode in the Tegra X1 chip that is included in the Nintendo Switch. Can be entered by holding down the Tegra X1 home button. This button is not the same as the home button on the joycons. Ways of pressing this button can be found [here](../user_guide/emummc/entering_rcm.md).
+- **RCM**: A shorthand for "Recovery Mode". When talking about hacking the Switch, this commonly refers to the Recovery Mode in the Tegra X1 chip that is included in the Nintendo Switch. Can be entered by holding down the Tegra X1 home button. This button is not the same as the home button on the joycons. Ways of pressing this button can be found [here](../user_guide/rcm/entering_rcm.md).
 - **[TegraRCMGUI](https://github.com/eliboa/TegraRcmGUI/releases)/[fusee-interface-tk](https://github.com/nh-server/fusee-interfacee-tk/releases)**: Software used to run the fusee-gelee exploit on the Switch.
 - **Tegra X1**: [A chip made by Nvidia that is used in the Nintendo Switch.](https://en.wikipedia.org/wiki/Tegra#Tegra_X1)
 - **Trinket**: A tiny chip that is soldered on the Switch motherboard to automatically send a payload if it is in RCM.
