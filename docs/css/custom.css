@@ -1,0 +1,16 @@
+/*
+#__nav_2_label {
+    box-shadow: none;
+    background: transparent;
+    margin-top: 10px;
+}
+
+.md-sidebar__scrollwrap {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+*/
+
+.md-sidebar.md-sidebar--primary {
+    order: 1;
+}
