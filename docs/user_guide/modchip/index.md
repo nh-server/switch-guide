@@ -28,5 +28,5 @@ Running CFW on modchipped switches is more simplistic as it only requires you to
     There is always a risk of your switch being rendered dysfunctional if you don't know what you're doing.
     The NH Discord server is also **NOT** a place for discussing modchips and fixing bad modchip installations (e.g. by you or a modchip installer).
 
-[Continue to Ensuring SD Payload :material-arrow-right:](ensure_sd_payload.md){ .md-button .md-button--primary }
+[Continue to Preparing Hekate :material-arrow-right:](preparing_hekate.md){ .md-button .md-button--primary }
 

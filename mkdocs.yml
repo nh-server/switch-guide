@@ -46,7 +46,7 @@ nav:
           - 'Sending a payload': 'user_guide/rcm/sending_payload.md'     
         - Modchip:
           - 'Introduction': 'user_guide/modchip/index.md' 
-          - 'Ensuring SD Payload': 'user_guide/modchip/ensure_sd_payload.md'
+          - 'Preparing Hekate': 'user_guide/modchip/preparing_hekate.md'
         - Finalizing Setup:
           - 'Partitioning the SD': 'user_guide/all/partitioning_sd.md'    
           - 'SD preparations': 'user_guide/all/sd_preparation.md'
