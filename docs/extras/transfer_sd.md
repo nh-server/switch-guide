@@ -22,7 +22,9 @@ You should first check whether you have a file or partition based emuMMC:
 4.  Eject the SD card and insert your new one.
 5.  Format your new SD card to FAT32 if it isn’t already.
     - To do this, use [guiformat](http://ridgecrop.co.uk/index.htm?guiformat.htm) for example (Windows).
-6.  Copy the files from your PC to your new SD card and you’re done.
+6.  Copy the files from your PC to your new SD card and insert it into the console.
+7.  Boot into Hekate, then press `Tools` -> `Arch bit • RCM Touch • Pkg1/2` -> `Fix Archive Bit`
+8.  Wait for the process to finish and you're done!
 
 -----
 ### If you are using a partition based emummc:
