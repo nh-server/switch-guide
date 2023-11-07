@@ -19,4 +19,8 @@
     .md-sidebar.md-sidebar--primary {
         order: 1;
     }
+
+    .md-sidebar__scrollwrap:not(:has(.md-nav.md-nav--secondary)) {
+        background: transparent;
+    }
 }
