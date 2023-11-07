@@ -3,6 +3,7 @@
     .md-nav--lifted > .md-nav__list > .md-nav__item--active > .md-nav__link {
         position: absolute;
         box-shadow: none;
+        padding-top: 4px;
     }
 
     .md-sidebar__scrollwrap {
