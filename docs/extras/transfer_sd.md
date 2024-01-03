@@ -47,3 +47,54 @@ You should first check whether you have a file or partition based emuMMC:
     - It is very important that for both of these the `SD emuMMC Raw Partition` option is enabled, otherwise you will be altering your sysMMC
       which is not what you want.
 15. Your emuMMC is now restored on the new SD card and you should be able to launch it from `Launch` -> `Atmosphere FSS0 emuMMC` in hekate.
+
+-----
+
+### A Comprehensive Guide to Migrating Your Nintendo Switch SD Card to a Larger Size
+
+If you've found yourself in need of more space, this step-by-step guide will walk you through the process of migrating your Nintendo Switch SD card to a larger size. We'll be using a Linux or Mac machine and the powerful "dd" tool for a seamless transition.
+
+**Requirements:**
+- Two SD card readers
+- Linux or Mac machine (Windows with Bash may work)
+- "dd" tool
+- Original SD card with a single 29GB partition for emuMMC
+- New larger SD card (formatted to 100% FAT32)
+- Necessary files for launching Hekate on the card (minimum file set)
+- Hekate payload injector
+
+**Step 1: Preparing Your New SD Card**
+1. Insert the new larger SD card into one of the card readers.
+2. Format the entire card to FAT32.
+3. Place the necessary files for launching Hekate on the card (ensure a bare minimum file set).
+4. Inject the Hekate payload into your Nintendo Switch.
+
+**Step 2: Partitioning the New SD Card**
+1. Launch Hekate and navigate to "Tools."
+2. Select "Partition SD."
+3. Allocate 29GB for emuMMC, leaving the rest for FAT32.
+
+**Step 3: Identifying Partitions on Original and New SD Cards**
+1. Remove the SD card from your Nintendo Switch.
+2. Plug both the original and new SD cards into their respective readers.
+3. Identify the original emuMMC partition on the old SD card (e.g., using disk utility on Mac, it may be rdisk6s2 assuming your SD card is disk6).
+4. Find the newly created emuMMC partition on the new/bigger SD card (e.g., using disk utility on Mac, it may be rdisk4s2 assuming your SD card is disk4).
+
+**Step 4: Executing the Migration Process**
+1. Open the terminal on your machine.
+2. Execute the following command:
+   ```bash
+   sudo dd if=/dev/rdisk6s2 of=/dev/disk4s2 bs=16m status=progress
+   ```
+   Replace `rdisk6s2` with the original emuMMC partition and `disk4s2` with the new emuMMC partition.
+
+**Step 5: Copying the FAT32 Partition**
+1. After the dd progress is completed, wipe the FAT32 partition on the new SD card.
+2. Use a tool of your choice (e.g., rsync on Mac) to copy the entire content of your old SD FAT32 partition to the new FAT32 partition.
+
+**Step 6: Finalizing the Migration**
+1. Insert the new SD card into your Nintendo Switch.
+2. Reboot to payload using Hekate.
+3. Enjoy the expanded storage capacity and continue gaming without any hiccups.
+
+By following these steps, you'll successfully migrate your Nintendo Switch SD card to a larger size, ensuring a smooth and uninterrupted gaming experience with increased storage space.
