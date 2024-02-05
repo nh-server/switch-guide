@@ -16,7 +16,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
     - The latest release of <a href="https://github.com/eliboa/TegraRcmGUI/releases" target="_blank">TegraRcmGUI</a> (either the MSI or zip)
     - A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
-    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (hekate_ctcaer bin) is located in the hekate_ctcaer zip.
+    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (`hekate_ctcaer_(version).bin`) is located in the `hekate_ctcaer_(version).zip`.
 
     #### Instructions
 
@@ -45,7 +45,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
     - The latest release of <a href="https://github.com/nh-server/fusee-interfacee-tk/releases" target="_blank">fusee-interfacee-tk</a>
     - A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
-    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (hekate_ctcaer bin) is located in the hekate_ctcaer zip.
+    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (`hekate_ctcaer_(version).bin`) is located in the `hekate_ctcaer_(version).zip`.
 
     #### Instructions
 
@@ -66,7 +66,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
     - If your device has a USB-C port, you may use a C-C cable
     - If your device only has a Micro USB port, you will need a USB OTG adapter and a USB A-C cable
     - This **will not work** on every phone!
-    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (hekate_ctcaer bin) is located in the   hekate_ctcaer zip.
+    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (`hekate_ctcaer_(version).bin`) is located in the `hekate_ctcaer_(version).zip`.
 
     #### Instructions
 
@@ -88,7 +88,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
     !!! warning "About USB-C"
         If your Chromebook has a USB-C port, do note that this will not work using a C-C cable.
        
-    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (hekate_ctcaer bin) is located in the hekate_ctcaer zip.
+    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (`hekate_ctcaer_(version).bin`) is located in the `hekate_ctcaer_(version).zip`.
 
     #### Instructions
 
@@ -109,7 +109,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
         Unofficial OTG Lighting adapters have variance in whether or not they work so an official one would be preferred.
         
     - A USB 3 Type A to Type C cable
-    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (hekate_ctcaer bin) is located in the hekate_ctcaer zip.
+    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (`hekate_ctcaer_(version).bin`) is located in the `hekate_ctcaer_(version).zip`.
 
     #### Instructions
 
@@ -121,21 +121,20 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 !!! danger "If nothing happens after you send the payload"
     If your console's screen remains black after you've sent Hekate (or any other payload), it's possible your payload was corrupted, or that your console is patched.   If your payload injector program shows         that 0 bytes were sent, then it is definitely patched, so you'll be unable to proceed with the rest of the guide.
 
-## Preparing Hekate
-We will prepare the MicroSD card for partitioning before going to the next page. Removing the SD card while in Hekate is safe so turning off the console is not necessary and keeping it on will save time that would be spent reinjecting the payload.
+### **Preparing Hekate**
+We will prepare the micro SD card for formatting/partitioning before going to the next page. Removing the SD card while in Hekate is safe so turning off the console is not necessary and keeping it on will save time that would be spent reinjecting the payload.
 
-#### What You Need
+### **What You Need:**
 - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target ="_blank">Hekate</a>.
-- Your MicroSD card
+- Your micro SD card
 
-#### Instructions
-1. Without turning your Switch off, remove the MicroSD card from it.
-2. Insert your Switch's MicroSD card into your PC.
-3. Inside the extracted Hekate folder you will find a folder named `bootloader`.
-4. Copy the `bootloader` folder to the root of your MicroSD card.
-5. Copy the Nintendo folder from the root of your MicroSD card to a safe space on your computer.
-6. Once the Nintendo folder is done copying eject your MicroSD from inside your OS.
-7. Put your MicroSD card back into your Switch.
-8. Use volume up and volume down to navigate the Hekate menu. Hover over 'reload' and hit power. Your screen should now have the Hekate GUI.
+### **Instructions:**
+1. Without turning your Switch off, remove the SD card from the Switch.
+2. Insert your Switch's SD card into your computer.
+3. Extract the hekate `.zip` to a location on your computer
+4. Inside the extracted hekate folder you will find a folder named `bootloader`.
+5. Copy the `bootloader` folder to the root of your SD card.
+6. Put your SD card back into your Switch.
+7. Use volume up and volume down to navigate the hekate menu. Hover over 'reload' and hit power. Your screen should now have the Hekate GUI.
 
-[Continue to Partitioning the SD :material-arrow-right:](../all/partitioning_sd.md){ .md-button .md-button--primary }
+[Continue to emuMMC vs sysCFW :material-arrow-right:](../all/syscfw_vs_emummc.md){ .md-button .md-button--primary }

@@ -1,6 +1,6 @@
 # Getting Started
 
-### Finding your serial number
+### **Finding your serial number**
 
 The first thing to do is determine if your Switch is vulnerable to fusee-gelee, the exploit we will be using to launch CFW.
 
@@ -10,21 +10,19 @@ Patched and Mariko units can be identified by their serial number. This number c
 
 &nbsp;
 
-!!! tip ""
-    ![Visual for System Settings serial location](../user_guide/img/getting_started_serial_location.jpg)
+![Visual for System Settings serial location](../user_guide/img/getting_started_serial_location.jpg)
 
-!!! tip ""
-    ![Visual for serial location on the bottom of console](../user_guide/img/serial_switch.png)    
+![Visual for serial location on the bottom of console](../user_guide/img/serial_switch.png)    
 
 &nbsp;
 
-### Determining if your Switch is vulnerable
+### **Determining if your Switch is vulnerable**
 
 The homebrew community has crowdsourced a list of known serial numbers which are vulnerable to fusee-gelee. 
 
 - If your serial number is on this list as "potentially patched", follow the guide and see if your system works. 
-- If your serial number is listed as "patched", there is nothing you can do at this time. 
-- If your system is patched, it is highly advised to keep it on 7.0.1 or lower, if possible, as there may be a vulnerability for these versions in the far future. **DO NOT update patched consoles past 7.0.1 if you want to ever have a chance of running homebrew and/or CFW on them.**
+- If your serial number is listed as "patched", there is nothing you can do at this time besides installing a modchip (hardware modification, should not be attempted by anyone unless they have the required skills). 
+- If your system is patched, it is highly advised to keep it on 7.0.1 or lower, if possible, as there may be a vulnerability for these versions in the far future. **DO NOT update patched consoles past 7.0.1 if you want to ever have a chance of running homebrew and/or CFW on them if you do not have the skills required to install a modchip.**
 
 !!! tip "Notice"
     If you are unsure if your serial is patched, you can test your console yourself following the instructions [here.](rcm/sending_payload.md)
@@ -33,7 +31,7 @@ The homebrew community has crowdsourced a list of known serial numbers which are
 
 &nbsp;
 
-### Serial list
+### **Serial list**
 
 The following information is based on [this GBATemp thread](https://gbatemp.net/threads/switch-informations-by-serial-number-read-the-first-post-before-asking-questions.481215/).
 
@@ -47,13 +45,13 @@ The following information is based on [this GBATemp thread](https://gbatemp.net/
 | XAJ7 | XAJ70000000000 to XAJ70040000000 | XAJ70040000000 to XAJ70050000000 | XAJ70050000000 and up |
 | XAK1 | **N/A** | XAK10000000000 and up | **N/A** |
 
-If your serial number is not listed above, your device is not vulnerable.
+If your serial number is not listed above, your device is not vulnerable to the fusee-gelee exploit.
 
 
 &nbsp;
 
 
-### Console Preparation
+### **Console Preparation**
 
 !!! danger "Important"
     Before setting up the console for homebrew, it is important to have at least one eShop game (such as [Fallout Shelter](https://www.nintendo.com/games/detail/fallout-shelter-switch/)), application (such as [YouTube](https://www.nintendo.com/games/detail/youtube-switch/) or [Hulu](https://www.nintendo.com/games/detail/hulu-switch/)), or a game demo such as [10 Second Run RETURNS](https://www.nintendo.com/games/detail/10-second-run-returns-switch). Running homebrew through any game cartridge will also work, but it must be inserted. Running homebrew does not permanently replace or remove the game/application, nor does it become tied to only one game/application (any cartridge you have inserted or any game/application installed can always be used). Once you have any game or application, you are prepared to continue on with the guide.
@@ -62,15 +60,10 @@ If your serial number is not listed above, your device is not vulnerable.
 
 -----
 
-### Version Table
-
-!!! note "Note"
-    Nereba and Caffeine how-to guides are currently a Work-In-Progress (WIP)!
+### **Version Table**
 
 !!! note "Note"
     While the "New" Switch (HAC-001-01)'s earliest possible firmware is 7.0.1, it is **not** vulnerable to *déjà vu*, the exploit used by Nereba and Caffeine, because of hardware differences from the "Old" Switch (HAC-001).
-
-&nbsp;
 
 | Firmware Version | Unpatched Switches (HAC-001) | Patched Switches (HAC-001) | "New" Switch (HAC-001-01)   | Switch Lite (HDH-001)  | 
 |:---------------|:--------------------------------|:---------------------------|:----------------------------|:-----------------------|
@@ -82,11 +75,7 @@ If your serial number is not listed above, your device is not vulnerable.
 | 8.0.1          | [**RCM**](rcm/index.md)               | Wait for homebrew          | Wait for homebrew           | Wait for homebrew      |
 | 8.1.0 and up | [**RCM**](rcm/index.md)               | Unhackable (currently)     | Unhackable (currently)      | Unhackable (currently) |
 
-&nbsp;
-
 !!! note "About OLED"
     OLED Switches (HEG-001) are currently unhackable via software.
-
-&nbsp;
 
 [If your Switch is not patched, continue to RCM :material-arrow-right:](rcm/index.md){ .md-button .md-button--primary }

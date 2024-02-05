@@ -1,5 +1,5 @@
 site_name: NH Switch Guide
-copyright: Copyright &copy; 2023 <a href="https://discord.gg/C29hYvh" target="_blank">Nintendo Homebrew</a>, Maintained by the <a href="/switch-guide/about">NH Discord Server</a>.
+copyright: Copyright &copy; 2024 <a href="https://discord.gg/C29hYvh" target="_blank">Nintendo Homebrew</a>, Maintained by the <a href="/switch-guide/about">NH Discord Server</a>.
 site_description: Switch CFW Guide.
 site_author: NH Discord Server.
 site_url: https://nh-server.github.io/switch-guide/
@@ -43,14 +43,16 @@ nav:
         - RCM:
           - 'Introduction': 'user_guide/rcm/index.md'  
           - 'Entering RCM': 'user_guide/rcm/entering_rcm.md'
-          - 'Sending a payload': 'user_guide/rcm/sending_payload.md'     
+          - 'Sending a payload': 'user_guide/rcm/sending_payload.md'
         - Modchip:
           - 'Introduction': 'user_guide/modchip/index.md' 
           - 'Preparing Hekate': 'user_guide/modchip/preparing_hekate.md'
         - Finalizing Setup:
-          - 'Partitioning the SD': 'user_guide/all/partitioning_sd.md'    
+          - 'emuMMC vs sysCFW': 'user_guide/all/syscfw_vs_emummc.md'
+          - 'Partitioning the SD for emuMMC': 'user_guide/all/partitioning_sd.md'
+          - 'Partitioning the SD for sysCFW': 'user_guide/all/partitioning_sd_syscfw.md'    
           - 'SD preparations': 'user_guide/all/sd_preparation.md'
-          - 'Making the emuMMC': 'user_guide/all/making_essential_backups.md'
+          - 'Making Essential Backups': 'user_guide/all/making_essential_backups.md'
           - 'Launching CFW': 'user_guide/all/launching_cfw.md'
     - Homebrew:
       - 'Homebrew': 'homebrew/index.md'
@@ -71,6 +73,8 @@ nav:
         - 'Updating CFW': 'extras/updating.md'
         - 'Changing SD cards': 'extras/transfer_sd.md'
         - 'Glossary': 'extras/glossary.md'
+        - 'Installing Android': 'extras/installing_android.md'
+        - 'Installing Linux': 'extras/installing_linux.md'
     - FAQ: faq.md
     - About: about.md
     
