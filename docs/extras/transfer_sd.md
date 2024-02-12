@@ -36,10 +36,10 @@ You should first check whether you have a file or partition based emuMMC:
 4.  Once both are done, go back to the main menu, remove your SD card and insert it into your PC.
 5.  If Windows asks you to format a drive, discard it and select the drive with your SD contents.
 6.  Copy the contents of your SD card somewhere to your PC.
-7.  Follow only [this page](https://switchgui.de/switch-guide/user_guide/emummc/partitioning_sd/) to partition the new SD card for an emuMMC setup.
+7.  Follow only [this page](/user_guide/all/partitioning_sd) to partition the new SD card for an emuMMC setup.
 8.  After it’s done, exit and insert your new SD card into your PC.
 9.  Copy the contents of your old SD card to your new one.
-10. Navigate to `/backup/<some characters>/` on your SD card and move `BOOT0`, `BOOT1` and the `rawnand.bin.xx` files to the `/backup/<some characters>/restore/emummc` folder.
+10. Navigate to `/backup/<some characters>/emummc` on your SD card and move `BOOT0`, `BOOT1` and the `rawnand.bin.xx` files to `/backup/<some characters>/restore/emummc`.
 11. Eject the SD card and insert it into your switch.
 12. Inject the hekate payload once again.
 13. Tap on `Tools`, `Restore eMMC`, set `SD emuMMC Raw Partition` at the bottom of your screen to `ON`.
