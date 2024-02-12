@@ -134,7 +134,8 @@ We will prepare the micro SD card for formatting/partitioning before going to th
 3. Extract the hekate `.zip` to a location on your computer
 4. Inside the extracted hekate folder you will find a folder named `bootloader`.
 5. Copy the `bootloader` folder to the root of your SD card.
-6. Put your SD card back into your Switch.
-7. Use volume up and volume down to navigate the hekate menu. Hover over 'reload' and hit power. Your screen should now have the Hekate GUI.
+6. Copy the `Nintendo` folder from the root of your SD to a safe space on your device.
+7. Put your SD card back into your Switch.
+8. Use volume up and volume down to navigate the hekate menu. Hover over 'reload' and hit power. Your screen should now have the Hekate GUI.
 
 [Continue to emuMMC vs sysCFW :material-arrow-right:](../all/syscfw_vs_emummc.md){ .md-button .md-button--primary }
