@@ -59,6 +59,7 @@ nav:
       - 'JKSV': 'homebrew/jksv.md'
       - 'Goldleaf': 'homebrew/goldleaf.md'
     - Tutorials:
+        - 'Extras': 'extras/index.md'
         - 'Blocking Nintendo servers': 'extras/blocking_nintendo.md'
         - 'Restoring a NAND Backup': 'extras/nandrestore.md'
         - 'AutoRCM': 'extras/autorcm.md'
