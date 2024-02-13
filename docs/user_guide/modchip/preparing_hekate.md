@@ -1,6 +1,6 @@
 # Payload and bootloader folder placement
 
-To get ready for formatting/partitioning your SD card, we will need to prepare your SD card with the required files. 
+To get ready for formatting/partitioning your SD card, we will need to prepare your SD card with the required files.
 
 ### **What you need:**
 - The latest release of <a href="https://github.com/CTCaer/Hekate/releases/" target="_blank">Hekate</a> (Download the `hekate_ctcaer_(version).zip` release of hekate)
@@ -17,9 +17,9 @@ To get ready for formatting/partitioning your SD card, we will need to prepare y
 6. Copy the `Nintendo` folder from the root of your SD to a safe space on your device.
 7. Insert your SD card back into your switch, then turn on your switch.
 8. You should now be loaded into hekate. If not, consult the warning message below.
-	
+
 !!! warning
     If your switch does not load into hekate or shows a `NO SD`/`No Payload` screen when turning on your switch, ensure that you inserted your SD card and renamed the hekate payload to exactly `payload.bin`
 
 
-[Continue to emuMMC vs sysCFW :material-arrow-right:](../all/syscfw_vs_emummc.md){ .md-button .md-button--primary }
+[Continue to choosing your firmware environment :material-arrow-right:](../all/firmware_environment.md){ .md-button .md-button--primary }

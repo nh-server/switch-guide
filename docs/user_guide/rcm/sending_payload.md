@@ -87,7 +87,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
     - A USB-A to USB-C cable
     !!! warning "About USB-C"
         If your Chromebook has a USB-C port, do note that this will not work using a C-C cable.
-       
+
     - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (`hekate_ctcaer_(version).bin`) is located in the `hekate_ctcaer_(version).zip`.
 
     #### Instructions
@@ -107,7 +107,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
     - An OTG Lighting to USB Adapter
     !!! warning "Unofficial Lightning Adapters"
         Unofficial OTG Lighting adapters have variance in whether or not they work so an official one would be preferred.
-        
+
     - A USB 3 Type A to Type C cable
     - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (`hekate_ctcaer_(version).bin`) is located in the `hekate_ctcaer_(version).zip`.
 
@@ -138,4 +138,4 @@ We will prepare the micro SD card for formatting/partitioning before going to th
 7. Put your SD card back into your Switch.
 8. Use volume up and volume down to navigate the hekate menu. Hover over 'reload' and hit power. Your screen should now have the Hekate GUI.
 
-[Continue to emuMMC vs sysCFW :material-arrow-right:](../all/syscfw_vs_emummc.md){ .md-button .md-button--primary }
+[Continue to choosing your firmware environment :material-arrow-right:](../all/firmware_environment.md){ .md-button .md-button--primary }
