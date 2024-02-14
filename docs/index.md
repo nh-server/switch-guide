@@ -6,28 +6,30 @@ NH Switch Guide is a collaboration from Nintendo Homebrew's Discord community, g
 
 For live support with this guide, visit us in **#switch-assistance-1** or **#switch-assistance-2** over at the [NH Discord server](https://discord.gg/C29hYvh).
 
-Prepare to set aside a minimum of an hour to follow this guide. This is because you will need to carefully read every page to follow the instructions safely. Some required device backups can also take around ten to thirty minutes to create, depending on your Switch model and your microSD card speed.
+Prepare to set aside a minimum of an hour to follow this guide. Carefully read and understand each page for safe execution for the safety and longevity of your Switch console. Some required device backups can also take around ten to thirty minutes to create, depending on your Switch model and your microSD speed.
 
 ### **What is Custom Firmware?**
 
 Custom FirmWare (“CFW”) is complex software that modifies the function of a device's operating system, also known as a system firmware.
-Atmosphère, for example, does this by running in the background and patching the OS on the fly.
+Atmosphère, for example, patches the Switch OS (named Horizon) on the fly.
 
 Custom firmware can be considered a holy grail in terms of device modding, as it allows nearly limitless control and freedoms than you would get with more primitive "userland" access.
 &nbsp;
 
 ### **What is homebrew?**
 
-Homebrew is a term for unofficial software written by hobbyists and amateur developers for locked down systems, like the Nintendo Switch. Homebrew can include original games, emulators, save-editing tools, and much, much more!
+Homebrew refers to unofficial software written by hobbyists for locked down systems, like the Nintendo Switch. Homebrew can include original games, emulators, save-editing tools, and much, much more!
 
-On the Switch in particular, you need CFW to run almost all available homebrew. Some lucky individuals with a "first-generation"/"V1" console can run homebrew by simply following this guide, for free (or ultra-low cost). All other consoles (known as "patched" consoles) can run homebrew, but it requires specialised hardware to be installed to the system beforehand.
+On the Switch in particular, you need CFW to run almost all available homebrew. Some first-gen ("V1") consoles can run homebrew for free, while all other ("patched") consoles require specialized hardware installation beforehand.
 &nbsp;
 
 ### **What does this guide install?**
 
 This guide has the end-goal of taking a completely unmodified Switch from stock firmware to a custom firmware named Atmosphère.
 
-"[fusee-gelee](https://github.com/Qyriad/fusee-launcher/blob/master/report/fusee_gelee.md)" is currently the most widespread entrypoint of launching custom firmware, giving us nearly full control of the system. It utilizes a vulnerability in the bootROM of the first-generation Switch systems, allowing us to boot the console via any payload we choose, instead of only ones that Nvidia and Nintendo authorize.  The result allows full baremetal control over your console, including system storage backups, recovery, custom firmwares, and custom operating systems.
+"[fusee-gelee](https://github.com/Qyriad/fusee-launcher/blob/master/report/fusee_gelee.md)" is currently the most widespread software entrypoint of launching custom firmware. It utilizes a vulnerability in the bootROM of the first-generation Switch systems, allowing us to boot the console via any payload we choose, instead of only ones that Nvidia and Nintendo authorize.  The result allows full baremetal control over your console, including system storage backups, recovery, custom firmwares, and custom operating systems.
+
+
 &nbsp;
 
 ### **What can I do with custom firmware?**
@@ -37,10 +39,12 @@ This guide has the end-goal of taking a completely unmodified Switch from stock 
 * Backup, edit, and restore saves for many games
 * Play games for older systems with various emulators, using RetroArch or other standalone emulators
 * Safely update to the latest system version without fear of losing access to homebrew
-- Safely customise your device while retaining access to Nintendo online services
+- Safely customise your device while retaining full access to Nintendo online services
 &nbsp;
 
 ### **What do I need to know before starting?**
+
+As previously mentioned, this guide will take a minimum of an hour to fully complete. Please responsibly set aside this time before your first run-through.
 
 Acknowledge that EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. A brick is a damaged device that no longer functions; something that becomes as "useful as a brick". On the Switch, they're rare, but still a possibility -- so make sure you read the directions carefully before performing them, and follow them EXACTLY.
 
@@ -82,3 +86,30 @@ It is advised that you read the entire guide from start to finish one or more ti
 Note: We are not currently, historically, or will we ever be, associated with Anton Retro, sthetix, Ely M., or other derivative or YouTube/TikTok guide publishers, especially any that claim relation to us.
 
 Furthermore, we resent any implication to the contrary.
+??? "Frequently Asked Questions about this page"
+      **Q: What are the differences between "first-generation" ("V1") consoles and "patched" consoles when it comes to running homebrew?** <br>
+      A: Once you boot into Horizon, not much. The primary things to keep in mind is that only V1 consoles support Atmosphère's "Reboot to Payload" function, but modchips automatically load payloads during reboots on their own.
+
+      **Q: What is Horizon?** <br>
+      A: Horizon is the name of the Switch's operating system. It is sometimes called "HorizonNX", because it is actually a derivative version of the Nintendo 3DS's operating system of the same name.
+
+      **Q: What different types of modchips are there?** <br>
+      A: There are three main types of modchips for the Nintendo Switch. Only two of them are relevant for this guide.<br>
+      On the V1 Nintendo Switch, a chip can be installed which automatically injects a payload whenever the console is detected in RCM. This type of modchip is **not** supported by this guide.<br>
+      On all other Switch consoles, there are DIY "Picofly" modchips which can be created with Raspberry Pi parts and custom cables. These use special firmwares, and are not compatible with firmwares intended for other modchips.<br>
+      There are also other "commercial" modchips of dubious origin by the name of "hwfly" or "SX Core/Lite"; we only will help with flashing new firmwares onto these, if you happen to already have one of them installed. Do not ask for assistance installing or sourcing this type of modchip.
+
+      **Q: What exactly is the "emuMMC path," and why is it recommended for the microSD card to be at least 128GB for this path?** <br>
+      A: The purpose of an emuMMC/emuNAND is to give you a safe place to use custom firmware functions without Nintendo catching sight. As it is an offline clone of your internal storage ran entirely from your microSD card, you will need to set allocate up to 64GB on your microSD card for it (depending on the size of your internal storage), plus a duplicate your of digital game data (emuMMC uses a separate Nintendo folder for game installs).
+
+      **Q: Why do I need to set my console as primary before starting this guide?** <br>
+      A: The Switch will otherwise try to connect to Nintendo servers before starting apps, which can lead to unexpected delays and make emuMMCs completely unusable.
+
+      **Q: Can I follow this guide if I have a smaller microSD card, and what are the risks involved in choosing the sysNAND CFW path?** <br>
+      A: Nothing stops you from using CFW on your sysNAND, but it is recommended for first-timers to get familiar with CFW by starting with an emuMMC. Running CFW on sysNAND can risk bricking your console's internal system software, stopping it from turning on even without starting the console via RCM or from your modchip. It also risks [bans](https://nx.eiphax.tech/ban.html).
+
+      **Q: Are there any specific restrictions or limitations imposed by Nintendo on consoles running custom firmware and homebrew?** <br>
+      A: Nintendo has shown a distinct tolerance for users using CFW while online. They __do not__ ban for the presence of CFW, they ban for misbehavior - such as piracy or cheating online. Otherwise, you are treated like all other users.
+
+      **Q: Is there any community support or forums recommended for users who may have questions or issues during the process?** <br>
+      A: Of course! As well as the [Nintendo Homebrew Discord server](https://discord.gg/C29hYvh), you can also try the [r/SwitchHacks subreddit](https://www.reddit.com/r/SwitchHacks/)!

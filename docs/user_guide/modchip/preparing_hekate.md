@@ -23,3 +23,19 @@ To get ready for formatting/partitioning your microSD card, we will need to prep
 
 
 [Continue to choosing your CFW environment :material-arrow-right:](../all/cfw_environment.md){ .md-button .md-button--primary }
+
+??? "Frequently Asked Questions about this page"
+      **Q: Can I use a microSD card with existing data, or does it need to be formatted specifically for this process?** <br>
+      A: It is recommended that you use a microSD that is already formatted as FAT32 before starting. In addition, it is important that the microSD card does not have any data from other Switch consoles already on it.
+
+      **Q: What makes Hekate the recommended choice in this guide?**<br>
+      A: Hekate is a polished, multi-purpose bootloader for the Switch. It has the tools to facilitate simple usage of custom firmware and custom operating systems, and aids with organisation and formatting later on in this guide.
+
+      **Q: What role does the /bootloader folder play in the overall functioning of Hekate, and why is it necessary for the microSD card setup?**<br>
+      A: The bootloader folder contains crucial parts of Hekate that can't fit in the injectable RCM/modchip payload, such as Nyx; Hekate's touch-enabled GUI. If you start Hekate without these files on your microSD, Hekate's functionality will be severely limited.
+
+      **Q: How often should I check for updates to Hekate, and what benefits do newer releases bring to the process?**<br>
+      A: Nintendo Homebrew's #announcements channel will automatically poll for updates to Atmosphère and Hekate, letting you know when updates are available for them. In general, you'll want to look for updates whenever a major Switch system update is launched, as major updates will stop Horizon from booting until Hekate and Atmosphère are updated accordingly.
+
+      **Q: Does this process have any effect on the Switch's system or data?**<br>
+      A: No, nothing in the guide yet has had any permanent effect on the Switch.
