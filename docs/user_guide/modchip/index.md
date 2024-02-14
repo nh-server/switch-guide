@@ -12,26 +12,13 @@ Modchipped Switch consoles, except certain original V1 consoles made from 2017 t
 
 Depending on your modchip's firmware, you may not be able to boot the console without a microSD card inserted.
 This means without a microSD inserted at all times, your Switch becomes *unusable*.
-???+ note "Note about modchips and their firmwares"
-    Some modchip firmwares (Spacecraft-NX, for example) **DO** allow you to bypass the modchip's `sdloader` by either holding both volume buttons or either one of the volume buttons during startup. This would allow you to boot normally without a microSD card inserted. However, not all modchips allow upgrading their firmware.
 
 If you do turn on your Switch without a microSD card inserted, you should end up at a splash screen saying something along the lines of `NO SD`.
 
-
-Introduction to Modchips
-Unlike "unpatched" consoles, modchips enable CFW through CPU voltage glitching, bypassing bootROM firmware verifications. This allows launching a payload.bin file instead of BOOT0, loaded via a modchip firmware module named `sdloader`. Modchips, in contrast to the RCM and its fusee-gelee exploit used by "unpatched" consoles, enable any console, including all "patched" consoles, to run CFW.
-
-General knowledge
-New to modchipped consoles? Here's what you need to know.
-
-Modchipped Switch consoles, except certain original V1 consoles made from 2017 to mid-2018, are immune to the fusee-gelee exploit in RCM. Payload injection in RCM is futile on consoles typically using modchips.
-
-Depending on your modchip's firmware, booting the console may require a microSD card. Without it, your Switch becomes unusable.
-
 ???+ note "Note about modchips and their firmwares"
-     Some modchip firmwares (e.g., Spacecraft-NX, Hwfly-NX and the Picofly firmware) allow bypassing sdloader by holding one of- or both volume buttons during power-on, enabling normal boot without a microSD card. Not all modchips support firmware upgrades.
+     Some modchip firmwares (e.g., Spacecraft-NX, Hwfly-NX and the Picofly firmware) allow bypassing `sdloader` by holding one of - or both - volume buttons during power-on, enabling normal boot without a microSD card. Not all modchips support firmware upgrades.
 
-     Booting without a microSD card leads to a NO SD splash screen.
+     If you do turn on your Switch without a microSD card inserted, you should end up at a splash screen saying something along the lines of `NO SD`.
 
 Modchipped Switch consoles allow untethered, coldboot CFW loading, directly entering custom firmware without external devices like dongles or jigs. This is in contrast to the tethered coldboot "RCM" entrypoint.
 
@@ -39,7 +26,7 @@ Modchipped Switch consoles allow untethered, coldboot CFW loading, directly ente
 
 Running CFW on modchipped consoles is more simplistic, as it only requires you to have `payload.bin` present on the root of your microSD card when you turn on the system.
 
-Before setting up for homebrew, install at least one eShop title. Running homebrew "over a title" allows more resources for homebrew apps. Try downloading a free game (such as [Fallout Shelter](https://www.nintendo.com/games/detail/fallout-shelter-switch/)), application (such as [YouTube](https://www.nintendo.com/games/detail/youtube-switch/)), or a game demo such as [10 Second Run RETURNS](https://www.nintendo.com/games/detail/10-second-run-returns-switch). Running homebrew via a game cartridge will also work, but it must be inserted every time. Running homebrew does not permanently replace or remove the game/application, nor does it become tied to only one game/application (any cartridge you have inserted or any game/application installed can always be used). Once you obtain any bootable title, you are prepared to continue on with the guide.
+Before setting up for homebrew, install at least one eShop title. Running the Homebrew Menu "over a title" allows more resources for homebrew apps. Try downloading a free game (such as [Fallout Shelter](https://www.nintendo.com/games/detail/fallout-shelter-switch/)), application (such as [YouTube](https://www.nintendo.com/games/detail/youtube-switch/)), or a game demo (such as [10 Second Run RETURNS](https://www.nintendo.com/games/detail/10-second-run-returns-switch)). Running the Homebrew Menu via a game cartridge will also work, but it must be inserted every time you want to boot into homebrew. Taking over a title in this manner does not permanently replace or remove the donor game/application, nor does it become tied to only one game/application. Any cartridge you have inserted or any game/application installed can always be used normally if you don't hold any buttons while booting it. <br> Once you obtain any bootable title, you are prepared to continue on with the guide.
 
 ### **Important**
 If you do decide to follow the recommended emuMMC path later in the guide, make sure you disable [Automatic Save Data Cloud backups/downloads](https://www.nintendo.co.uk/Support/Nintendo-Switch/How-to-Enable-Disable-Automatic-Save-Data-Backups-and-Downloads-1434310.html) beforehand as well as making sure [the Switch is set as Primary Console](https://en-americas-support.nintendo.com/app/answers/detail/a_id/22453/~/how-to-change-the-primary-console-for-your-nintendo-account).
