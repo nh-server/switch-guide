@@ -16,9 +16,9 @@ This means without a microSD inserted at all times, your Switch becomes *unusabl
 If you do turn on your Switch without a microSD card inserted, you should end up at a splash screen saying something along the lines of `NO SD`.
 
 ???+ note "Note about modchips and their firmwares"
-     Some modchip firmwares (e.g., Spacecraft-NX, Hwfly-NX and the Picofly firmware) allow bypassing `sdloader` by holding one of - or both - volume buttons during power-on, enabling normal boot without a microSD card. Not all modchips support firmware upgrades.
+     Some modchip firmwares (e.g., Spacecraft-NX, Hwfly-NX and the Picofly firmware) allow bypassing `sdloader` by holding one - or both - of the volume buttons during power-on, enabling normal boot without a microSD card. Not all modchips support firmware upgrades.
 
-     If you do turn on your Switch without a microSD card inserted, you should end up at a splash screen saying something along the lines of `NO SD`.
+     If you do turn on your Switch without a microSD card inserted, you should end up at a splash screen of `sdloader` saying something along the lines of `NO SD`.
 
 Modchipped Switch consoles allow untethered, coldboot CFW loading, directly entering custom firmware without external devices like dongles or jigs. This is in contrast to the tethered coldboot "RCM" entrypoint.
 
