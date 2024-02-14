@@ -2,12 +2,12 @@
 
 !!! info "information"
     Unlike "unpatched" consoles,
-    modchips enable CFW via CPU voltage glitching, which bypass firmware verifications. It allows a ``payload.bin`` file to be launched in place of BOOT0, loaded via a modchip firmware module named `sdloader`. This is much different from RCM and its exploit, [fusee-gelee](link), which "unpatched" consoles use.
-    Modchips allow any console (even all patched consoles) to run CFW!
+    modchips enable CFW via CPU voltage glitching, which bypass bootROM firmware verifications. It allows a ``payload.bin`` file to be launched in place of BOOT0, loaded via a modchip firmware module named `sdloader`. This is much different from RCM and its exploit, [fusee-gelee](https://github.com/Qyriad/fusee-launcher/blob/master/report/fusee_gelee.md), which "unpatched" consoles use.
+    Modchips allow any console (like all "patched" consoles) to run CFW!
 
 ### **General knowledge**
 
-If you're new to the world of modchipped Switch consoles, there are general things you should know.
+Are you new to the world of modchipped consoles? Here are some things you should know.
 
 Modchipped Switch consoles, except certain original V1 consoles made from 2017 to mid-2018, are immune to the fusee-gelee exploit in RCM. Attempting payload injection in RCM is futile; modchips are typically used on unhackable consoles in the first place.
 
@@ -19,11 +19,11 @@ This means that you will not be able to use your Switch *at all* if you don't ha
 
 If you do turn on your Switch without a microSD card inserted, you should end up at a splash screen saying something along the lines of `NO SD`.
 
-Unlike unpatched Switch consoles, modchipped Switch consoles allow "untethered, coldboot" CFW loading; they do not rely on an external device to inject a payload like unpatched Switch consoles would.
+Unlike unpatched Switch consoles, modchipped Switch consoles allow "untethered, coldboot" CFW loading; they do not require an external device to inject a payload like the RCM method does.
 
-- "Untethered coldboot" means being able to turn on your console from a fully-off ("cold") state, directly into custom firmware, without external devices such as a dongle, payload injector, or jig.
+- "Untethered coldboot" means being able to turn on your console from a fully-off ("cold") state directly into custom firmware, without external devices such as a dongle, payload injector, or jig.
 
-Running CFW on modchipped switches is more simplistic, as it only requires you to have `payload.bin` present on the root of your microSD card when you turn on the Switch.
+Running CFW on modchipped consoles is more simplistic, as it only requires you to have `payload.bin` present on the root of your microSD card when you turn on the system.
 
 Before setting up the console for homebrew, it is important to have at least one eShop title installed. Running the homebrew menu "over a title" allows for much higher resource allocation. Try downloading a free game (such as [Fallout Shelter](https://www.nintendo.com/games/detail/fallout-shelter-switch/)), application (such as [YouTube](https://www.nintendo.com/games/detail/youtube-switch/)), or a game demo such as [10 Second Run RETURNS](https://www.nintendo.com/games/detail/10-second-run-returns-switch). Running homebrew through any game cartridge will also work, but it must be inserted. Running homebrew does not permanently replace or remove the game/application, nor does it become tied to only one game/application (any cartridge you have inserted or any game/application installed can always be used). Once you obtain any bootable title, you are prepared to continue on with the guide.
 

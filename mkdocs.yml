@@ -48,7 +48,7 @@ nav:
           - 'Introduction': 'user_guide/modchip/index.md'
           - 'Preparing Hekate': 'user_guide/modchip/preparing_hekate.md'
         - Finalizing Setup:
-          - 'Choosing an Environment': 'user_guide/all/firmware_environment.md'
+          - 'Choosing an Environment': 'user_guide/all/cfw_environment.md'
           - 'Partitioning the SD for emuMMC': 'user_guide/all/partitioning_sd.md'
           - 'Partitioning the SD for sysCFW': 'user_guide/all/partitioning_sd_syscfw.md'
           - 'SD preparations': 'user_guide/all/sd_preparation.md'

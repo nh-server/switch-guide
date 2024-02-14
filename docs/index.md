@@ -2,36 +2,30 @@
 
 # NH Switch Guide
 
-A guide collaboration between Nintendo Homebrew's Helpers and Staff, from stock to Atmosphère.
+NH Switch Guide is a collaboration from Nintendo Homebrew's Discord community, getting you from stock to Atmosphère.
 
-For live support with this guide please visit us in **#switch-assistance-1** or **#switch-assistance-2** over at the [NH Discord server](https://discord.gg/C29hYvh).
-
-### **What is homebrew?**
-
-Homebrew is a term for unoffical software written by hobbyists and amateur developers for locked down systems, like the Nintendo Switch.
-
-Homebrew can include original games, emulators, save-editing tools, and much more.
-
-Homebrew can be run for free (except for an RCM jig) on your Switch through Custom Firmware as long as you have a "first-generation" system, and a USB-C cable. All other consoles *can* run homebrew, but it requires external tools and hardware.
-
-&nbsp;
+For live support with this guide, visit us in **#switch-assistance-1** or **#switch-assistance-2** over at the [NH Discord server](https://discord.gg/C29hYvh).
 
 ### **What is Custom Firmware?**
 
-Custom FirmWare (“CFW”) is a type of homebrew software that modifies the system firmware.
+Custom FirmWare (“CFW”) is complex software that modifies the function of a device's operating system, also known as a system firmware.
 Atmosphère, for example, does this by running in the background and patching the OS on the fly.
 
 Custom firmware can be considered a holy grail in terms of device modding, as it allows nearly limitless control and freedoms than you would get with more primitive "userland" access.
+&nbsp;
 
-CFW can be set up on any console, with a hardware modification known as a modchip. However, some lucky people can run CFW for free, with no (expensive) tools, as long as they own a first-generation Nintendo Switch ("V1"), which were all manufactured between 2017 and mid-2018.
+### **What is homebrew?**
+
+Homebrew is a term for unofficial software written by hobbyists and amateur developers for locked down systems, like the Nintendo Switch. Homebrew can include original games, emulators, save-editing tools, and much, much more!
+
+On the Switch in particular, you need CFW to run almost all available homebrew. Some lucky individuals with a "first-generation"/"V1" console can run homebrew by simply following this guide, for free (or ultra-low cost). All other consoles (known as "patched" consoles) can run homebrew, but it requires specialised hardware to be installed to the system beforehand.
 &nbsp;
 
 ### **What does this guide install?**
 
 This guide has the end-goal of taking a completely unmodified Switch from stock firmware to a custom firmware named Atmosphère.
 
-"fusee-gelee" is currently the most widespread method of launching custom firmware, giving us nearly full control of the system. It utilizes a vulnerability in the bootROM of the first-generation Switch systems, allowing us to send any payload we want to the Switch's recovery mode, instead of only ones that Nvidia and Nintendo authorized.
-
+"[fusee-gelee](https://github.com/Qyriad/fusee-launcher/blob/master/report/fusee_gelee.md)" is currently the most widespread entrypoint of launching custom firmware, giving us nearly full control of the system. It utilizes a vulnerability in the bootROM of the first-generation Switch systems, allowing us to boot the console via any payload we choose, instead of only ones that Nvidia and Nintendo authorize.  The result allows full baremetal control over your console, including system storage backups, recovery, custom firmwares, and custom operating systems.
 &nbsp;
 
 ### **What can I do with custom firmware?**
@@ -41,27 +35,27 @@ This guide has the end-goal of taking a completely unmodified Switch from stock 
 * Backup, edit, and restore saves for many games
 * Play games for older systems with various emulators, using RetroArch or other standalone emulators
 * Safely update to the latest system version without fear of losing access to homebrew
-
+- Safely customise your device while retaining access to Nintendo online services
 &nbsp;
 
 ### **What do I need to know before starting?**
 
-Before beginning the guide, you must know the risks of Switch hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They’re rare, but still a possibility -- so make sure you read the directions carefully before performing them, and follow them EXACTLY.
+Acknowledge that EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. A brick is a damaged device that no longer functions; something that becomes as "useful as a brick". On the Switch, they're rare, but still a possibility -- so make sure you read the directions carefully before performing them, and follow them EXACTLY.
 
 This guide will work on first-generation (V1) and modchipped Switch consoles in all regions on any firmware version.
 
 !!! note ""
 
-    You will need **one** of the following in order to successfully follow this guide:
+    You will need just **one** of the following in order to successfully follow this guide:
 
-    - A PC and a USB cable capable of data transfer between your Switch and your PC
-    - An Android device and a USB cable capable of data transfer between your Switch and your Android device
+    - A PC, and a USB-C cable capable of data transfer to connect them together
+    - An Android device, and a USB-C cable capable of data transfer to connect them together
         - This does not work on every Android phone
-    - A Lightning-OTG adapter, a jailbroken iOS device, and a USB cable capable of data transfer between your Switch and the adapter
+    - A Lightning OTG adapter, a jailbroken iOS device, and a USB cable, all capable of data transfer to connect everything together
         - This method is not covered by the guide, but you can read more about it at [this website](https://mologie.github.io/nxboot/)
     - A successfully modchipped Switch
 
-    You will also need a microSD card that is at least 128 gigabytes or larger if you plan on following this guide through the emuMMC path, which is safer and strongly recommended. If you do decide to follow the emuMMC path, make sure you disable [Automatic Save Data Cloud backups/downloads](https://www.nintendo.co.uk/Support/Nintendo-Switch/How-to-Enable-Disable-Automatic-Save-Data-Backups-and-Downloads-1434310.html) beforehand as well as making sure [the Switch is set as Primary Console](https://en-americas-support.nintendo.com/app/answers/detail/a_id/22453/~/how-to-change-the-primary-console-for-your-nintendo-account).
+    You will also need a microSD card that is *at least* 128 gigabytes if you plan on following this guide through the emuMMC path, which is safer and highly recommended. If you do decide to follow the emuMMC path, it is important to disable [Automatic Save Data Cloud backups and downloads](https://en-americas-support.nintendo.com/app/answers/detail/a_id/41209/~/how-to-enable%2Fdisable-automatic-save-data-backups-and-downloads) beforehand as well as making sure [the Switch is set as Primary Console](https://en-americas-support.nintendo.com/app/answers/detail/a_id/22453/~/how-to-change-the-primary-console-for-your-nintendo-account).
     If you must use a smaller microSD card, you can choose to use the sysNAND CFW path, after assuming the risks involved.
 
     Additionally, on a V1 "unpatched" Switch, you will need a way to access the ReCovery Mode (this will be further explained in the "Entering RCM section").
@@ -74,9 +68,14 @@ Custom firmware is not permanently installed and does not change anything on you
 
 It is advised that you read the entire guide from start to finish one or more times before actually running through the guide with your system.
 
-### **Continue with the applicable guide for your Switch by clicking one of the buttons below:**
 
-[Get Started with RCM (V1) :material-arrow-right:](user_guide/getting_started.md){ .md-button .md-button--primary } [Get Started with Modchips (Not Free!) :material-arrow-right:](user_guide/modchip/index.md){ .md-button .md-button--primary }
+&nbsp;
+
+### **Continue with the applicable guide for your Switch by clicking one of the buttons below:**
+&nbsp;
+
+
+[Get Started with RCM (free) :material-arrow-right:](user_guide/getting_started.md){ .md-button .md-button--primary } [Get Started with Modchips (not free!) :material-arrow-right:](user_guide/modchip/index.md){ .md-button .md-button--primary }
 
 &nbsp;
 
