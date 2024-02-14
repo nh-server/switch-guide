@@ -6,6 +6,8 @@ NH Switch Guide is a collaboration from Nintendo Homebrew's Discord community, g
 
 For live support with this guide, visit us in **#switch-assistance-1** or **#switch-assistance-2** over at the [NH Discord server](https://discord.gg/C29hYvh).
 
+Prepare to set aside a minimum of an hour to follow this guide. This is because you will need to carefully read every page to follow the instructions safely. Some required device backups can also take around ten to thirty minutes to create, depending on your Switch model and your microSD card speed.
+
 ### **What is Custom Firmware?**
 
 Custom FirmWare (“CFW”) is complex software that modifies the function of a device's operating system, also known as a system firmware.
