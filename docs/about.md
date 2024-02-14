@@ -2,12 +2,29 @@
 
 # About this guide
 
-This guide was written by staff members of the [Nintendo Homebrew Discord Server](https://discord.gg/C29hYvh) 
+This guide was written by community members of the [Nintendo Homebrew Discord Server](https://discord.gg/C29hYvh).
 
 &nbsp;
 
 !!! tip "Credits"
-    **Flump, jerbear64, Phoenix, xGhostBoyx, Such Meme Many Skill, PhazonicRidley, emmo, dennthecafebabe, Dax, and oreo639.**
+    - [SuchMemeManySkill](https://github.com/suchmememanyskill)
+    - [DefenderOfHyrule](https://github.com/DefenderOfHyrule)
+    - [ha1vorsen](https://github.com/ha1vorsen)
+    - [Dardel](https://github.com/DardelHMB)
+    - [MarigoldZephyrNio](https://github.com/MarigoldZephyrNio)
+    - [Sanras](https://github.com/Sanrax)
+    - [JeffVi](https://github.com/JeffVi)
+    - [eip618](https://github.com/eip618)
+    - [Flump](https://github.com/Flumpster)
+    - [oreo639](https://github.com/oreo639)
+    - [thedax](https://github.com/thedax)
+    - [dorkeline](https://github.com/dorkeline)
+    - [ihaveahax](https://github.com/ihaveahax)
+    - [PhazonicRidley](https://github.com/PhazonicRidley)
+    - [xGhostBoyx](https://github.com/xGhostBoyx)
+    - jerbear64
+    - Phoenix
+    - the Nintendo Homebrew community
 
     Thank you to [everyone else](https://github.com/nh-server/switch-guide/graphs/contributors) that contributed to the guide on GitHub, but special thanks to **noirscape**.
 

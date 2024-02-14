@@ -7,7 +7,7 @@ We will be using [hekate](https://github.com/CTCaer/hekate/releases/) to both ba
 ## Instructions
 
 You should first check whether you have a file or partition based emuMMC:
-    
+
 1.  Inject the hekate payload.
 2.  Tap on `emuMMC`.
 3.  Under `emuMMC Info & Selection`, check the text next to `Type`.
@@ -15,7 +15,7 @@ You should first check whether you have a file or partition based emuMMC:
 
 -----
 ### If you are using a file based emummc or are using no emummc at all:
-        
+
 1.  Remove your SD card.   
 2.  Insert your old SD card into your computer.
 3.  Copy the contents of your SD card somewhere to your PC.
@@ -26,7 +26,7 @@ You should first check whether you have a file or partition based emuMMC:
 
 -----
 ### If you are using a partition based emummc:
-    
+
 !!!warning "Space for the backup"
     You need at least 30GB of free space to be able to backup and restore the emuMMC!
 
@@ -36,7 +36,7 @@ You should first check whether you have a file or partition based emuMMC:
 4.  Once both are done, go back to the main menu, remove your SD card and insert it into your PC.
 5.  If Windows asks you to format a drive, discard it and select the drive with your SD contents.
 6.  Copy the contents of your SD card somewhere to your PC.
-7.  Follow only [this page](/user_guide/all/partitioning_sd) to partition the new SD card for an emuMMC setup.
+7.  Follow only [this page](../user_guide/all/partitioning_sd.md) to partition the new SD card for an emuMMC setup.
 8.  After it’s done, exit and insert your new SD card into your PC.
 9.  Copy the contents of your old SD card to your new one.
 10. Navigate to `/backup/<some characters>/emummc` on your SD card and move `BOOT0`, `BOOT1` and the `rawnand.bin.xx` files to `/backup/<some characters>/restore/emummc`.

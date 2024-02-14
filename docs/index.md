@@ -55,7 +55,7 @@ This guide will work on first-generation (V1) and modchipped Switch consoles in 
         - This method is not covered by the guide, but you can read more about it at [this website](https://mologie.github.io/nxboot/)
     - A successfully modchipped Switch
 
-    You will also need a microSD card that is *at least* 128 gigabytes if you plan on following this guide through the emuMMC path, which is safer and highly recommended. If you do decide to follow the emuMMC path, it is important to disable [Automatic Save Data Cloud backups and downloads](https://en-americas-support.nintendo.com/app/answers/detail/a_id/41209/~/how-to-enable%2Fdisable-automatic-save-data-backups-and-downloads) beforehand as well as making sure [the Switch is set as Primary Console](https://en-americas-support.nintendo.com/app/answers/detail/a_id/22453/~/how-to-change-the-primary-console-for-your-nintendo-account).
+    You will also need a microSD card that is *at least* 128 gigabytes if you plan on following this guide through the emuMMC path, which is safer and highly recommended. If you do decide to follow the emuMMC path, it is important to disable [Automatic Save Data Cloud backups and downloads](https://en-americas-support.nintendo.com/app/answers/detail/a_id/41209) beforehand as well as making sure [the Switch is set as Primary Console](https://en-americas-support.nintendo.com/app/answers/detail/a_id/22453/~/how-to-change-the-primary-console-for-your-nintendo-account).
     If you must use a smaller microSD card, you can choose to use the sysNAND CFW path, after assuming the risks involved.
 
     Additionally, on a V1 "unpatched" Switch, you will need a way to access the ReCovery Mode (this will be further explained in the "Entering RCM section").
@@ -71,10 +71,7 @@ It is advised that you read the entire guide from start to finish one or more ti
 
 &nbsp;
 
-### **Continue with the applicable guide for your Switch by clicking one of the buttons below:**
-&nbsp;
-
-
+# **Select an option below to continue the guide!**
 [Get Started with RCM (free) :material-arrow-right:](user_guide/getting_started.md){ .md-button .md-button--primary } [Get Started with Modchips (not free!) :material-arrow-right:](user_guide/modchip/index.md){ .md-button .md-button--primary }
 
 &nbsp;

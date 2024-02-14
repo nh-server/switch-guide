@@ -9,4 +9,4 @@ They are listed in the sidebar.
 - [Get started](index.md)
 - [Updating CFW](updating.md)
 - [Blocking Nintendo servers](blocking_nintendo.md)
-- [Changing SD cards](transfer_sd)
+- [Changing SD cards](transfer_sd.md)

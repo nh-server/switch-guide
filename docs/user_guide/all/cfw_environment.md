@@ -80,4 +80,4 @@ To proceed with emuCFW, click on the following button:
 
 #####Modchip Instability
 !!! danger "Modchips"
-      Modchips directly infiltrate communication with the internal storage chip. Due to this, there are slight chances of NAND backups being tainted with corrupted data. If a bad backup is restored to sysNAND, the console can be bricked, and a modchip alone won't be able to fix it. To be safe, either only run an emuMMC on a console with a modchip, or test NAND backups by running them as emuMMCs before you flash them to the sysNAND.
+      Modchips directly infiltrate communication with the internal storage chip. Due to this, there are slight chances of NAND backups being tainted with corrupted data. If a bad backup is restored to sysNAND, the console can be bricked, and a modchip alone won't be able to fix it. To be safe, either only run an emuMMC on a console with a modchip, verify BOOT0/1 backups using tools like [NXNandManager (Windows)(https://github.com/eliboa/NxNandManager)] or test NAND backups by running them as emuMMCs before you flash them to the sysNAND.
