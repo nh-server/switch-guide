@@ -19,7 +19,7 @@ If you do turn on your Switch without a microSD card inserted, you should end up
 
 
 Introduction to Modchips
-Unlike "unpatched" consoles, modchips enable CFW through CPU voltage glitching, bypassing bootROM firmware verifications. This allows launching a payload.bin file instead of BOOT0, loaded via a modchip firmware module named sdloader. Modchips, in contrast to the RCM and its fusee-gelee exploit used by "unpatched" consoles, enable any console, including all "patched" consoles, to run CFW.
+Unlike "unpatched" consoles, modchips enable CFW through CPU voltage glitching, bypassing bootROM firmware verifications. This allows launching a payload.bin file instead of BOOT0, loaded via a modchip firmware module named `sdloader`. Modchips, in contrast to the RCM and its fusee-gelee exploit used by "unpatched" consoles, enable any console, including all "patched" consoles, to run CFW.
 
 General knowledge
 New to modchipped consoles? Here's what you need to know.
@@ -29,9 +29,9 @@ Modchipped Switch consoles, except certain original V1 consoles made from 2017 t
 Depending on your modchip's firmware, booting the console may require a microSD card. Without it, your Switch becomes unusable.
 
 ???+ note "Note about modchips and their firmwares"
-Some modchip firmwares (e.g., Spacecraft-NX) allow bypassing sdloader by holding volume buttons during power-on, enabling normal boot without a microSD card. Not all modchips support firmware upgrades.
+     Some modchip firmwares (e.g., Spacecraft-NX, Hwfly-NX and the Picofly firmware) allow bypassing sdloader by holding one of- or both volume buttons during power-on, enabling normal boot without a microSD card. Not all modchips support firmware upgrades.
 
-Booting without a microSD card leads to a NO SD splash screen.
+     Booting without a microSD card leads to a NO SD splash screen.
 
 Modchipped Switch consoles allow untethered, coldboot CFW loading, directly entering custom firmware without external devices like dongles or jigs. This is in contrast to the tethered coldboot "RCM" entrypoint.
 
@@ -55,9 +55,10 @@ If you do decide to follow the recommended emuMMC path later in the guide, make 
 
 ??? "Frequently Asked Questions about this page"
       **Q: Can you provide more information about modchip firmwares, specifically regarding their impact on the boot process and the ability to bypass the sdloader?** <br>
+      A: Modchip firmwares indirectly determine the functionality of your system. Modern modchips (such as Picofly) typically have firmware flashed to them that support all hardware configurations (namely eMMC brands like Hynix, Samsung and Toshiba) "out-of-the-box" and also allow you to bypass `sdloader`. If this is not the case however, flashing the firmware manually is required by opening up the Switch and using the USB debug port that comes with the modchip to flash the modchip directly. This is especially required in the cases where the eMMC brand is not supported, as your Switch wouldn't boot whatsoever and the modchip would be stuck while trying to glitch/train and write its payload to the `BOOT0` partition of the internal storage.
 
       **Q: Can you further explain the concept of running homebrew "over a title" and why it allows for higher resource allocation?** <br>
       A: The default way to run homebrew within Atmosphère is via the Album applet on the HOME Menu. However, applets have significantly less resources compared to full applications, and homebrew tools often run into constraints with these limits. By holding a button while launching normal apps while in CFW, you can load the Homebrew menu in their stead with full resources.
 
       **Q: What makes Picofly the only supported modchip, and what are the potential risks associated with installing a modchip on your Switch without proper experience?** <br>
-      A: Other "commercial" modchips have dubious origins, or were manufactured by [established illegal piracy groups](https://www.justice.gov/opa/pr/two-members-notorious-videogame-piracy-group-team-xecuter-custody) that have no place in the homebrew community. For the safety of your console and to respect the law of where NH Server is based, we will not assist with sourcing these types of modchips.
+      A: Picofly is a fully open-source modchip, from the firmware to the RP2040 microcontroller it uses. Other "commercial" modchips have dubious origins, or were manufactured by [established illegal piracy groups](https://www.justice.gov/opa/pr/two-members-notorious-videogame-piracy-group-team-xecuter-custody) that have no place in the homebrew community. For the safety of your console and to respect the law of where NH Server is based, we will not assist with sourcing these types of modchips.
