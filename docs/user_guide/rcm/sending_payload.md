@@ -120,23 +120,23 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
     4. Click `Boot Now` to launch the payload you selected.
 
 !!! danger "If nothing happens after you send the payload"
-    If your console's screen remains black after you've sent Hekate (or any other payload), it's possible your payload was corrupted, or that your console is patched.   If your payload injector program shows         that 0 bytes were sent, then it is definitely patched, so you'll be unable to proceed with the rest of the guide.
+    If your console's screen remains black after you've sent Hekate (or any other payload), it's possible your payload was corrupted, or that your console is patched.   If your payload injector program shows         that zero or 0x0000 bytes were sent, then it is patched. This isn't a one-time glitch or up for debate; it is patched. Consider an alternate method that isn't via RCM.
 
 ### **Preparing Hekate**
-We will prepare the micro SD card for formatting/partitioning before going to the next page. Removing the SD card while in Hekate is safe so turning off the console is not necessary and keeping it on will save time that would be spent reinjecting the payload.
+We will prepare the microSD card for formatting/partitioning before going to the next page. Removing the microSD card while in Hekate is safe so turning off the console is not necessary and keeping it on will save time that would be spent reinjecting the payload.
 
 ### **What You Need:**
 - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target ="_blank">Hekate</a>.
-- Your micro SD card
+- Your microSD card
 
 ### **Instructions:**
-1. Without turning your Switch off, remove the SD card from the Switch.
-2. Insert your Switch's SD card into your computer.
-3. Extract the hekate `.zip` to a location on your computer
-4. Inside the extracted hekate folder you will find a folder named `bootloader`.
-5. Copy the `bootloader` folder to the root of your SD card.
-6. Copy the `Nintendo` folder from the root of your SD to a safe space on your device.
-7. Put your SD card back into your Switch.
-8. Use volume up and volume down to navigate the hekate menu. Hover over 'reload' and hit power. Your screen should now have the Hekate GUI.
+1. Without turning your Switch off, remove the microSD card from the Switch.
+2. Insert your Switch's microSD card into your computer.
+3. Extract the Hekate `.zip` to a location on your computer
+4. Inside the extracted Hekate folder you will find a folder named `bootloader`.
+5. Copy the `bootloader` folder to the root of your microSD card.
+6. Copy the `Nintendo` folder from the root of your microSD to a safe space on your device.
+7. Put your microSD card back into your Switch.
+8. Use volume up and volume down to navigate the Hekate menu. Hover over 'reload' and hit power. Your screen should now have the Hekate GUI.
 
 [Continue to choosing your CFW environment :material-arrow-right:](../all/cfw_environment.md){ .md-button .md-button--primary }

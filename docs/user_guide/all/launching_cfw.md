@@ -33,7 +33,7 @@ Unlike systems such as the DSi, Wii, or 3DS, Switch CFW is currently volatile. I
 ### **Launching the Homebrew Menu**
 
 You will now be able to launch the Homebrew Menu by opening the album or by holding the R button while launching any game (including demos/cartridges), or application (e.g. Youtube/Hulu). If R is not held, the game or application will launch like normal.
-    
+
 !!! warning "A note about using the album for the Homebrew Menu"
     - Using the album for the Homebrew Menu instead of a game or application has several limitations, including but not limited to: a smaller amount of available memory (RAM), as well as being unable to launch a full-featured web browser. It is strongly recommended to launch homebrew through applications or games instead.
 
@@ -42,20 +42,17 @@ You will now be able to launch the Homebrew Menu by opening the album or by hold
 
 - JKSV is a save manager, it can dump and restore saves from/to your system. For more information, see [Save Management](../../extras/save_management.md)
 
-- FTPD is a ftp tool for connecting your Switch's sd card wirelessly to your pc. Tools like WinSCP can connect to your switch on `(ip of switch):5000`
+- FTPD is a ftp tool for connecting your Switch's microSD card wirelessly to your PC. Tools like WinSCP can connect to your Switch on `(ip of Switch):5000`
 
 - NX-Shell is a file explorer for the Switch. You can move files, listen to mp3's, view images etc.
 
 - NXThemeInstaller is a theme installer app. See the [Theming section of our guide](../../extras/theming.md) for more information
 
 
-If you wish to install more homebrew apps, place them (`.nro` files) in the `switch` folder on your SD card.
+If you wish to install more homebrew apps, place them (`.nro` files) in the `switch` folder on your microSD card.
 
 ### **Installing Android/Linux**
 
-If you've partitioned your SD card for preparation of Android/Linux earlier, you can continue with the installation of Android/Linux here with the guides below:
+If you've partitioned your microSD card for preparation of Android/Linux earlier, you can continue with the installation of Android/Linux here with the guides below:
 
 [Android installation guide :material-arrow-right:](../../extras/installing_android.md){ .md-button .md-button--primary } [Linux installation guide :material-arrow-right:](../../extras/installing_linux.md){ .md-button .md-button--primary }
-
-
-

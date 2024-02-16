@@ -18,14 +18,14 @@ The following list is in alphabetical order.
   - **BIS keys**: Specific keys used to decrypt the NAND.
 - **[fusee-gelee](https://github.com/Qyriad/fusee-launcher/blob/master/report/fusee_gelee.md)/[ShofEL2](https://github.com/fail0verflow/shofel2)**: Two names for two different implementations of the same exploit. This is an exploit that grants full bootrom access to the Nintendo Switch from the Tegra X1s RCM and permits us to run CFW. This exploit requires an external device and a tiny hardware modification. fusee-gelee is developed by an ex-ReSwitched developer, while ShofEL2 is developed by the failoverfl0w team. This guide uses fusee-gelee.
 - **[hactool](https://github.com/SciresM/hactool)**: Software used to decrypt Nintendo Switch files like .XCI and .NSP files.
-- **[Hekate](https://github.com/CTCaer/hekate)**: A bootloader for the Nintendo Switch. The current guide uses this in combination with essential files from Atmosphere to boot CFW.
+- **[Hekate](https://github.com/CTCaer/hekate)**: A bootloader for the Nintendo Switch. The current guide uses this in combination with essential files from Atmosphère to boot CFW.
 - **Homebrew**: Unsigned code that can be ran on the Nintendo Switch. Examples of homebrew include save editors, emulators and ports of PC games, but can also include completely original games. To run this code, you need to have an exploit.
 - **Homebrew launcher**: Software developed by the Switchbrew team that lets you run other Homebrew.
 - **Jig**: Refers to a piece of hardware that you can put in the Joycon rail to enter RCM.
 - **KIP**: Short for Kernel Initial Process. These files can be loaded in when the Switch boots in CFW and provide additional functionality.
 - **NAND**: The internal filesystem used by the Switch. Contains boot0 and boot1, as well as PRODINFO and various other partitions.
 - **nx-hbloader**: Intermediary program used to load the Homebrew Launcher from CFW developed by Switchbrew. Comes bundled with Atmosphere.
-- **PRODINFO**: A partition on the NAND of your Switch. This along with boot0 and boot1 is the only part of your Switch that can render it unbootable if improperly modified. Atmosphere backs up this partition on booting and it is included in your NAND backup.
+- **PRODINFO**: A partition on the NAND of your Switch. This along with boot0 and boot1 is the only part of your Switch that can render it unbootable if improperly modified. Atmosphère backs up this partition on booting and it is included in your NAND backup.
 - **ReSwitched**: A hacking team that is one of the main developers for Atmosphere.
 - **RCM**: A shorthand for "Recovery Mode". When talking about hacking the Switch, this commonly refers to the Recovery Mode in the Tegra X1 chip that is included in the Nintendo Switch. Can be entered by holding down the Tegra X1 home button. This button is not the same as the home button on the joycons. Ways of pressing this button can be found [here](../user_guide/rcm/entering_rcm.md).
 - **[TegraRCMGUI](https://github.com/eliboa/TegraRcmGUI/releases)/[fusee-interface-tk](https://github.com/nh-server/fusee-interfacee-tk/releases)**: Software used to run the fusee-gelee exploit on the Switch.

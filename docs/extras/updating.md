@@ -6,20 +6,20 @@ After following our guide, your system will consist of three core elements that 
 
 ## Updating Atmosphere
 
-When updating Atmosphere always make sure to _read the release notes_. They may list important changes and modifications to your system.
+When updating Atmosphère, always make sure to _read the release notes_. They may list important changes and modifications to your system.
 
-!!! warning "Updating from below Atmosphere 1.0.0"
-    If you update from below Atmosphere 1.0.0, there are additional steps to follow. You will have to delete the `sept` folder from your sd, delete `fusee-secondary.bin` from your `atmosphere` folder and update your hekate config file: <a href="../../files/emu/hekate_ipl.ini" download>hekate_ipl.ini</a> in the `bootloader` folder.
+!!! warning "Updating from below Atmosphère 1.0.0"
+    If you update from below Atmosphère 1.0.0, there are additional steps to follow. You will have to delete the `sept` folder from your microSD, delete `fusee-secondary.bin` from your `atmosphere` folder and update your Hekate config file: <a href="../../files/emu/hekate_ipl.ini" download>hekate_ipl.ini</a> in the `bootloader` folder.
 
-When a new version of Atmosphere releases, you can update Atmosphere by following these steps:
+When a new version of Atmosphère releases, you can update Atmosphère by following these steps:
 
 
-1. Turn off your Nintendo Switch and plug your SD card in your computer.
+1. Turn off your Nintendo Switch and plug your microSD card in your computer.
 2. Download the latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a> (Download the `atmosphere-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip` release of Atmosphere.)
-3. Copy *the contents of* the Atmosphere `.zip` file to the root of your SD card.
+3. Copy *the contents of* the Atmosphere `.zip` file to the root of your microSD card.
     - If you are prompted to overwrite files, do so.
-4. (If your hekate is not on the latest version) Update hekate via the steps below
-5. Put your SD card back in your Switch and launch CFW.
+4. (If your Hekate is not on the latest version) Update Hekate via the steps below
+5. Put your microSD card back in your Switch and launch CFW.
 
 ## Updating Hekate
 
@@ -27,15 +27,15 @@ When updating Hekate always make sure to _read the release notes_. They may list
 
 When a new version of Hekate releases, you can update by following these steps:
 
-1. Turn off your Nintendo Switch and plug your SD card in your computer.
+1. Turn off your Nintendo Switch and plug your microSD card in your computer.
 2. Download the latest version of <a href="https://github.com/CTCaer/Hekate/releases/" target="_blank">Hekate</a> (Download the `hekate_ctcaer_(version).zip` release of hekate).
-3. Copy the `bootloader` folder from the Hekate `.zip` file to the root of your SD card. If you are asked to overwrite or merge files while copying, say yes to merge/overwrite them.
-4. Put your SD card back in your Switch and launch Hekate.
+3. Copy the `bootloader` folder from the Hekate `.zip` file to the root of your microSD card. If you are asked to overwrite or merge files while copying, say yes to merge/overwrite them.
+4. Put your microSD card back in your Switch and launch Hekate.
 5. Go to the Options tab at the top right of the screen. Turn "Update Reboot 2 Payload" on the bottom right ON (if it isn't on already). Tap "Save Options" at the bottom of the screen.
 
 ## Updating your firmware
 
-Always check _before_ updating your system firmware if the latest version of Atmosphere _as well_ as the latest version of Hekate support the firmware version you are updating towards.
+Always check _before_ updating your system firmware if the latest version of Atmosphère _as well_ as the latest version of Hekate support the firmware version you are updating towards.
 
 In addition, updating to or past some firmwares update the gamecard firmware. Reference the table below for information about these.
 
@@ -49,7 +49,7 @@ In addition, updating to or past some firmwares update the gamecard firmware. Re
 | On or above 9.0.0, but below 11.0.0  | 11.0.0 or above                               | Yes                       |
 | On or above 11.0.0 but below 12.0.0  | At least 11.0.1 but below 12.0.0              | No                        |
 | On or above 11.0.0 but below 12.0.0  | 12.0.0 or above                               | Yes                       |
-| On or above 12.0.0                   | Latest supported Atmosphere & Hekate revision | No                        |
+| On or above 12.0.0                   | Latest supported Atmosphère & Hekate revision | No                        |
 
 If at least one of the versions you are updating towards also updates the gamecard firmware, you will not be able to downgrade below that version without making the gamecard slot unusable until you update.
 
@@ -83,11 +83,11 @@ If you keep your emuMMC offline, you will have to use a gamecard to update your 
     - The latest release of <a href="https://github.com/suchmememanyskill/TegraExplorer/releases" target="_blank">TegraExplorer</a>
     - The latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a>
 
-### Preparing your SD card
+### Preparing your microSD card
 
 1. Insert your microSD card into your computer.
-2. Download `TegraExplorer.bin` and place it somewhere on your PC (A good idea is to put it where you keep all your switch payloads like Hekate).
-3. Update Atmosphere and Hekate by using the above guides.
+2. Download `TegraExplorer.bin` and place it somewhere on your PC (A good idea is to put it where you keep all your Switch payloads like Hekate).
+3. Update Atmosphère and Hekate by using the above guides.
 4. If you haven't already, update the sysMMC to the latest firmware.
 
 ### Dumping your sysMMC firmware

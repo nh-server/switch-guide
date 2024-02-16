@@ -1,8 +1,8 @@
-## Restore a NAND backup to the switch
+## Restore a NAND backup to the Switch
 
 !!! danger "Warning:" 	
-	-This will reset all of your saves, games, system version and other system settings back to a point when you made the the nand backup. Keep this in mind, as you probably don't have to restore a nand backup unless you have bricked your switch or want to go back online safely after using cfw.
-	
+	-This will reset all of your saves, games, system version and other system settings back to a point when you made the the nand backup. Keep this in mind, as you probably don't have to restore a nand backup unless you have bricked your Switch or want to go back online safely after using cfw.
+
 	-If you're going to restore an old NAND which will downgrade your firmware it's best to create a second NAND backup before restoring the first one in case something goes wrong.
 
 ### What you need:
@@ -10,21 +10,21 @@
 - Your `BOOT0` and `BOOT1`
 	- If you're missing any of the files above, ask for further help in the [Nintendo Homebrew](https://discord.gg/C29hYvh) Discord server.
 - The <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a> Payload
-- A microSD card larger than 32gb
+- A microSD card larger than 32GB
 
 ### Instructions:
 
-Before we start, check if you have a tree of folders called `backup/[8 Character NAND id]/restore` on your sd card.
+Before we start, check if you have a tree of folders called `backup/[8 Character NAND id]/restore` on your microSD card.
 
-!!! warning "If you don't see a backup or [8 Character NAND id] folder on your sd card:"
+!!! warning "If you don't see a backup or [8 Character NAND id] folder on your microSD card:"
 	This means you do not have a nand backup, it is highly recommended you make one as soon as possible. Follow the steps below to make one.
 
-	1. Launch the latest Hekate payload on your switch.
+	1. Launch the latest Hekate payload on your Switch.
 	2. Navigate to `Tools > Backup eMMC > eMMC BOOT0 & BOOT1` and let it do its thing.
-	3. Wait for the process to complete. When it's completed, you now have a `backup/[8 Character NAND id]/restore` folder on your sd card. Continue with step 1 of the guide.
+	3. Wait for the process to complete. When it's completed, you now have a `backup/[8 Character NAND id]/restore` folder on your microSD card. Continue with step 1 of the guide.
 
-1. Copy your `rawnand.bin` (combined or in 15 or 30 parts), `BOOT0`, and `BOOT1` to the `backup/[8 Character NAND id]/restore` folder on the sd card.
-2. Put your sd card into your switch, and launch Hekate.
+1. Copy your `rawnand.bin` (combined or in 15 or 30 parts), `BOOT0`, and `BOOT1` to the `backup/[8 Character NAND id]/restore` folder on the microSD card.
+2. Put your microSD card into your Switch, and launch Hekate.
 3. Navigate to `Tools > Restore eMMC`. Select `Restore eMMC BOOT0 & BOOT1`. Wait for this process to complete.
 4. In that same menu, select `eMMC RAW GPP` and wait for the process to complete. This will take a very long time to complete.
 
