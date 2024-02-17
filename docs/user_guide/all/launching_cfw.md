@@ -28,23 +28,23 @@ Unlike systems such as the DSi, Wii, or 3DS, Switch CFW is currently volatile. I
 &nbsp;
 
 !!! tip "Rebooting to Hekate"
-    Once booted into CFW, you can easily get back to Hekate by holding the power button, and selecting `Restart` in the power menu or by using the "reboot to payload" homebrew app in the homebrew menu. (Note that the reboot to payload app does *not* work on modchipped Switch consoles)
+    Once booted into CFW, you can easily get back to Hekate by holding the power button, and selecting `Restart` in the power menu or by using the "reboot to payload" homebrew app in the homebrew menu. (Note that while the Reboot to Payload *app* app does *not* work on modchipped Switch consoles, those already automatically run payloads upon reboot in the first place by default.)
 
 ### **Launching the Homebrew Menu**
 
-You will now be able to launch the Homebrew Menu by opening the album or by holding the R button while launching any game (including demos/cartridges), or application (e.g. Youtube/Hulu). If R is not held, the game or application will launch like normal.
+You will now be able to launch the Homebrew Menu by opening the album or by holding the R button while launching any game (including demos/cartridges), or application (e.g. YouTube/Hulu). If R is not held, the game or application will launch like normal.
 
 !!! warning "A note about using the album for the Homebrew Menu"
-    - Using the album for the Homebrew Menu instead of a game or application has several limitations, including but not limited to: a smaller amount of available memory (RAM), as well as being unable to launch a full-featured web browser. It is strongly recommended to launch homebrew through applications or games instead.
+    - Using Album for the Homebrew Menu instead of a game or application has several limitations, including but not limited to: a smaller amount of available memory (RAM), as well as being unable to launch a full-featured web browser. It is strongly recommended to launch homebrew through applications or games instead.
 
 
 ### **What the included homebrew applications do**
 
 - JKSV is a save manager, it can dump and restore saves from/to your system. For more information, see [Save Management](../../extras/save_management.md)
 
-- FTPD is a ftp tool for connecting your Switch's microSD card wirelessly to your PC. Tools like WinSCP can connect to your Switch on `(ip of Switch):5000`
+- FTPD is a FTP tool for connecting your Switch's SD contents wirelessly to your PC. Tools like WinSCP can connect to your Switch on `(IP of Switch):5000`
 
-- NX-Shell is a file explorer for the Switch. You can move files, listen to mp3's, view images etc.
+- NX-Shell is a file explorer for the Switch. You can move files, listen to MP3 files, view images etc.
 
 - NXThemeInstaller is a theme installer app. See the [Theming section of our guide](../../extras/theming.md) for more information
 

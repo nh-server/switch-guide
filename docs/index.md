@@ -27,7 +27,7 @@ On the Switch in particular, you need CFW to run almost all available homebrew. 
 
 This guide has the end-goal of taking a completely unmodified Switch from stock firmware to a custom firmware named Atmosphère.
 
-"[fusee-gelee](https://github.com/Qyriad/fusee-launcher/blob/master/report/fusee_gelee.md)" is currently the most widespread software entrypoint of launching custom firmware. It utilizes a vulnerability in the bootROM of the first-generation Switch systems, allowing us to boot the console via any payload we choose, instead of only ones that Nvidia and Nintendo authorize.  The result allows full baremetal control over your console, including system storage backups, recovery, custom firmwares, and custom operating systems.
+"[fusee-gelee](/files/extras/fusee_gelee_nvidia.pdf)" is currently the most widespread software entrypoint of launching custom firmware. It utilizes a vulnerability in the bootROM of the first-generation Switch systems, allowing us to boot the console via any payload we choose, instead of only ones that Nvidia and Nintendo authorize.  The result allows full baremetal control over your console, including system storage backups, recovery, custom firmwares, and custom operating systems.
 &nbsp;
 
 ### **What can I do with custom firmware?**

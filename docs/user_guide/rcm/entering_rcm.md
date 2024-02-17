@@ -30,7 +30,7 @@ Methods to enter RCM can require nothing more than household items (not recommen
 
     ![recommended_jig](../rcm/img/recommended_jig.jpg)
 
-    If you plan to make your own jig, this image lays out the pads layout on the console. Make sure your jig NEVER touches pin 4. Pin 4 provides 5 volts of power to the Joy-Con, and can permanently damage the rail or console if shorted.
+    If you plan to make your own jig, this image lays out the pad layout on the console. Make sure your jig NEVER touches pin 4. Pin 4 provides 5 volts of power to the Joy-Con, and can permanently damage the rail or console if shorted.
 
     ![switchjigs.com jigs](../rcm/img/entering_rcm_jig.jpg)
 
