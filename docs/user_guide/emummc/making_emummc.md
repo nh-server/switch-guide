@@ -47,9 +47,8 @@
           - Insert your SD card into your Switch
           - Enter RCM again, inject Hekate again, and continue the backup by tapping on `Tools` > `Backup eMMC` > `eMMC RAW GPP`
           - Repeat the process until the NAND is completely dumped
-    5. Press `Close` > `Home` > `Power Off`
-    6. Insert your SD card into your PC
-    7. Copy the `backup` folder on your SD card to a safe location on your PC
+    5. Press `Close` > `USB Tools` > `SD Card`
+    6. Copy the `backup` folder from your microSD card to a safe location on your PC.
 
 &nbsp;
 
@@ -64,10 +63,10 @@
     1. Enter RCM and inject the Hekate payload.
     2. Tap the `Payloads` option, then press Lockpick_RCM.bin.
     3. If Lockpick_RCM asks you to select between SysNAND or EmuNAND, choose SysNAND by navigating with the volume buttons and pressing the power button. If not, continue with step 4.
-    4. Lockpick_RCM should now inform you that your keys have been saved to `/switch/prod.keys` on the SD card.
+    4. Lockpick_RCM should now inform you that your keys have been saved to `/switch/prod.keys` on the microSD card.
     5. Press any button to return to the main menu.
-    6. Navigate to 'Power off' with the volume buttons and select it with the power button.
-    7. Insert your SD card into your PC.
+    6. Navigate to `Reboot to hekate` with the Volume buttons and select it with the Power button.
+    7. Tap on `Tools` on the top part of the screen. Then tap `USB Tools` > `SD Card`.
     8. Copy `prod.keys` from the `switch` folder on your SD card to a safe location on your PC (it is suggested to copy it to the same place that you copied your NAND backup to).
 
 &nbsp;
