@@ -1,5 +1,4 @@
-# Making Essential Backups and dumping keys
-
+# Making Essential Backups
 !!! danger "Important"
     It is critical to make these backups. Do not skip these steps.
 
@@ -39,24 +38,5 @@
 &nbsp;
 
 -----
-
-&nbsp;
-
-### Getting your Console's Unique Keys
-
-!!! danger "Important"
-    These keys are critical to have. In an extreme emergency, they can be used in conjunction with your NAND backup and other tools to restore your console to a working state.
-
-!!!tip ""
-    1. Enter RCM and inject the Hekate payload.
-    2. Tap the `Payloads` option, then press Lockpick_RCM.bin.
-    3. If Lockpick_RCM asks you to select between SysNAND and EmuNAND, choose SysNAND by navigating with the volume buttons and pressing the power button. If not, continue with step 4.
-    4. Lockpick_RCM should now inform you that your keys have been saved to `/switch/prod.keys` on the SD card.
-    5. Press any button to return to the main menu.
-    6. Navigate to 'Power off' with the volume buttons and select it with the power button.
-    7. Insert your SD card into your PC.
-    8. Copy `prod.keys` from the `switch` folder on your SD card to a safe location on your PC (it is suggested to copy it to the same place that you copied your NAND backup to).
-    
-&nbsp;
 
 #### [Continue to Launching CFW <i class="fa fa-arrow-circle-right fa-lg"></i>](launching_cfw.md)
