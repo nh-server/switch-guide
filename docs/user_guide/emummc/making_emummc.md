@@ -1,4 +1,4 @@
-# Making the Emummc, getting keys, and making essential backups 
+# Making the Emummc and essential backups 
 
 &nbsp;
 
