@@ -28,7 +28,6 @@ This guide was written by staff members of the [Nintendo Homebrew Discord Server
     - [**eliboa**](https://github.com/eliboa) for [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI).
     - [**vgmoose**](https://github.com/vgmoose), [**pwsincd**](https://github.com/pwsincd), [**rw-r-r_0644**](https://github.com/rw-r-r-0644) and [**crc32**](https://github.com/crc-32) for [hb-appstore](https://github.com/vgmoose/hb-appstore).
     - [**Essometer**](https://gbatemp.net/members/essometer.265523/) for collecting patched Switch serials.
-    - [**shchmue**](https://github.com/shchmue) for [Lockpick_RCM](https://vps.suchmeme.nl/git/mudkip/Lockpick_RCM).
     - [**Ave**](https://gitlab.com/a) for [90DNS](https://gitlab.com/a/90dns).
     - [**Nexrem (meganukebmp)**](https://github.com/meganukebmp) for the [Switch 90DNS Tester](https://github.com/meganukebmp/Switch_90DNS_tester).
     - [**exelix11**](https://github.com/exelix11) for [Switch Theme Injector](https://github.com/exelix11/SwitchThemeInjector).
