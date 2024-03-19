@@ -14,7 +14,7 @@ The following list is in alphabetical order.
 - **Deja Vu**: An unreleased exploit chain for the Nintendo Switch. The completely unpatched version of this chain will grant access to TrustZone, which effectively means being able to enter CFW. The TrustZone part of this exploit was patched in firmware version 5.0.0 and up, but normal homebrew access can still be gained up to firmware version 6.0.1.
 - **DNS**: [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System). Basically, it's the internet's addressbook. If you visit a website, the DNS is what tells you what server the site is hosted on.
 - **Dongle**: Device you can plug in the charging port of your Switch to automatically send a payload if your Switch is in RCM.
-- **Encryption keys**: Keys used to encrypt files from the Nintendo Switch. These can be dumped by following the guide [here](dumping_title_keys.md).
+- **Encryption keys**: Keys used to encrypt files from the Nintendo Switch.
   - **BIS keys**: Specific keys used to decrypt the NAND.
 - **[fusee-gelee](https://github.com/Qyriad/fusee-launcher/blob/master/report/fusee_gelee.md)/[ShofEL2](https://github.com/fail0verflow/shofel2)**: Two names for two different implementations of the same exploit. This is an exploit that grants full bootrom access to the Nintendo Switch from the Tegra X1s RCM and permits us to run CFW. This exploit requires an external device and a tiny hardware modification. fusee-gelee is developed by an ex-ReSwitched developer, while ShofEL2 is developed by the failoverfl0w team. This guide uses fusee-gelee.
 - **[hactool](https://github.com/SciresM/hactool)**: Software used to decrypt Nintendo Switch files like .XCI and .NSP files.
