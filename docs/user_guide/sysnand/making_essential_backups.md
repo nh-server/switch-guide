@@ -1,5 +1,4 @@
-# Making Essential Backups and dumping keys
-
+# Making Essential Backups
 !!! danger "Important"
     It is critical to make these backups. Do not skip these steps.
 
