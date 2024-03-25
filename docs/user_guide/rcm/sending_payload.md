@@ -99,25 +99,6 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
     4. Select "Do the thing". A pop-up will appear. Click the `APX` option.
     5. Press the Connect button and the payload will be injected.
 
-=== "iOS"
-    #### What you need
-
-    - The latest release of <a href="https://github.com/mologie/nxboot/releases/" target="_blank">NXBoot</a>.
-    - A Jailbroken device on iOS 11.0 or higher
-        - This also requires the proper sandbox patches from the jailbreak such as unc0ver
-    - An OTG Lighting to USB Adapter
-    !!! warning "Unofficial Lightning Adapters"
-        Unofficial OTG Lighting adapters have variance in whether or not they work so an official one would be preferred.
-
-    - A USB 3 Type A to Type C cable
-    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (`hekate_ctcaer_(version).bin`) is located in the `hekate_ctcaer_(version).zip`.
-
-    #### Instructions
-
-    1. Install and run NXBoot on your jailbroken device.
-    2. Connect your Switch to your iPhone using the OTG Lightning Adapter and USB cable.
-    3. Under select boot code change the inject payload to the `hekate_ctcaer_X.X.X.bin` file.
-    4. Click `Boot Now` to launch the payload you selected.
 
 !!! danger "If nothing happens after you send the payload"
     If your console's screen remains black after you've sent Hekate (or any other payload), it's possible your payload was corrupted, or that your console is patched.   If your payload injector program shows         that zero or 0x0000 bytes were sent, then it is patched. This isn't a one-time glitch or up for debate; it is patched. Consider an alternate method that isn't via RCM.
