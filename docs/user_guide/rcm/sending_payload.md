@@ -74,9 +74,9 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
     1. Copy the hekate_ctcaer `.bin` file from the Hekate `.zip` file to a location on your phone.
         - A tool such as Amaze File Manager can do this.
     2. Launch Rekado on your phone.
-    3. Navigate to `Payloads`, then press the `+` button at the bottom right.
+    3. Navigate to `Payloads` (Signified by a downwards arrow with a line), then press the `+` button at the bottom right.
     4. Navigate to your hekate_ctcaer `.bin` file and tap it to add it to Rekado's menu.
-    5. **Optional, but recommended**: Navigate to Rekado's settings and enable `Hide bundled`.
+    5. **Optional, but recommended**: Navigate to Rekado's settings in the top right and enable `Hide bundled`.
     6. Connect your Switch in RCM to your phone using the USB cable.
     7. If prompted, grant Rekado access to the Switch.
     8. Select the `hekate_ctcaer_X.X.X.bin` file in the dialog that pops up.
