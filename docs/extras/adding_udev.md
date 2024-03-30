@@ -30,7 +30,7 @@ To start, we will create a new group and add ourselves to it. The group the Nint
 Next we're gonna add a new udev rule. udev is a device manager for the linux kernel. The rule we're gonna specify is that if the Switch is connected in RCM mode, the group the Switch belongs to will be the group we made in the previous section.
 
 1. Open a terminal.
-2. Change to the root user with the following command: `sudo su`. Enter your password when prompted.
+2. Change to the root user with the following command: `sudo -i`. Enter your password when prompted.
 3. Enter the following command: `mkdir -p /etc/udev/rules.d`.
 4. Enter the following command: `echo 'SUBSYSTEMS=="usb", ATTRS{manufacturer}=="NVIDIA Corp.", ATTRS{product}=="APX", GROUP="nintendo_switch"' > /etc/udev/rules.d/10-switch.rules`.
 5. Enter the following command: `udevadm control --reload`.
