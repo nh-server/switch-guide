@@ -71,20 +71,23 @@ If your serial number is not listed above, your device is not vulnerable to the 
 | 1.0.0          | Nereba or [**RCM**](rcm/index.md)     | **N/A**                    | **N/A**                     | **N/A**                |
 | 2.0.0 - 3.0.2  | Caffeine or [**RCM**](rcm/index.md)   | **N/A**                    | **N/A**                     | **N/A**                |
 | 4.0.0 - 4.1.0  | Caffeine or [**RCM**](rcm/index.md)   | Caffeine                   | **N/A**                     | **N/A**                |
-| 5.0.0 - 7.0.0  | [**RCM**](rcm/index.md)               | Wait for CFW               | **N/A**                     | **N/A**                |
-| 7.0.1          | [**RCM**](rcm/index.md)               | Wait for CFW               | Cart update to 8.0.1        | **N/A**                |
-| 8.0.1          | [**RCM**](rcm/index.md)               | Wait for homebrew          | Wait for homebrew           | Wait for homebrew      |
-| 8.1.0 and up | [**RCM**](rcm/index.md)               | Unhackable (currently)     | Unhackable (currently)      | Unhackable (currently) |
+| 5.0.0 - 7.0.0  | [**RCM**](rcm/index.md)               | [Modchip](modchip/index.md) / Wait for CFW          | **N/A**                     | **N/A**                |
+| 7.0.1          | [**RCM**](rcm/index.md)               | [Modchip](modchip/index.md) / Wait for CFW          | [Modchip](modchip/index.md) / Cart update to 8.0.1        | **N/A**                |
+| 8.0.1          | [**RCM**](rcm/index.md)               | [Modchip](modchip/index.md) / Wait for homebrew          | [Modchip](modchip/index.md) / Wait for homebrew           | [Modchip](modchip/index.md) / Wait for homebrew      |
+| 8.1.0 and up   | [**RCM**](rcm/index.md)               | [**Modchip**](modchip/index.md) (no SW exploit)     | [**Modchip**](modchip/index.md) (no SW exploit)      | [**Modchip**](modchip/index.md) (no SW exploit) |
 
 !!! note "About OLED"
-    OLED Switch models (HEG-001) are currently unhackable via software.
+    All OLED Switch models (HEG-001) are currently unhackable via software.
+
+!!! note "Modchip methods"
+    If "Modchip" is listed as a method for your console version, then that means the device is currently unhackable without a hardware modification. If there are theoretical exploits that may lead to CFW or homebrew for that device, you also have the choice to "wait" for their release. These exploits may never launch and there is NO ETA, so what you choose to do is up to you.  
 
 If your Switch is not patched, [Continue to RCM :material-arrow-right:](rcm/index.md){ .md-button .md-button--primary }
 
 ??? "Frequently Asked Questions about this page"
       - **Q: How reliable is the crowdsourced list of vulnerable serial numbers, and what if my serial number is not listed?** <br>
-          A: Generally, we have not seen any deviation from these boundaries. Unless your serial is potentially patched, you can be certain that the table is accurate to reality.
+          A: To our knowledge, there hasn't been a single console which has disproved the trends documented here. Unless your serial is potentially patched, you can be certain that the table is accurate to reality.
       - **Q: Why is it essential to install at least one eShop title before setting up homebrew, and what is "title takeover"?** <br>
-          A: By default, the Homebrew menu and its apps are taking over the Album applet, causing unfavorable behavior for homebrew programs as applets don't have nearly as many resources as full apps do. Title takeover ensures the best performance, and is required for some homebrew.
+          A: By default, the Homebrew menu and its apps are taking over the Album applet, causing inconsistent behavior for homebrew programs, as applets don't have as many system resources as full apps. Title takeover ensures the best performance, and is required for some homebrew.
       - **Q: Why is the "New" Switch (HAC-001-01) not vulnerable to *déjà vu*, and what are the implications for Switch Lite (HDH-001) and OLED Switch consoles?** <br>
           A: Despite being exploitable via software, *déjà vu* is actually a bootROM exploit that isn't present in the new bootROM of the Tegra X1+.
