@@ -67,14 +67,14 @@ If your serial number is not listed above, your device is not vulnerable to the 
     While the "New" Switch (HAC-001-01)'s earliest possible firmware is 7.0.1, it is **not** vulnerable to *déjà vu*, the exploit used by Nereba and Caffeine, because of hardware differences from the "old" Switch (HAC-001).
 
 | Firmware Version | Unpatched Switch systems (HAC-001) | Patched Switch systems (HAC-001) | "New" Switch (HAC-001-01)   | Switch Lite (HDH-001)  |
-|:---------------|:--------------------------------|:---------------------------|:----------------------------|:-----------------------|
+|:---------------|:-----------------------------|:---------------------------|:----------------------------|:-----------------------|
 | 1.0.0          | Nereba or [**RCM**](rcm/index.md)     | **N/A**                    | **N/A**                     | **N/A**                |
 | 2.0.0 - 3.0.2  | Caffeine or [**RCM**](rcm/index.md)   | **N/A**                    | **N/A**                     | **N/A**                |
 | 4.0.0 - 4.1.0  | Caffeine or [**RCM**](rcm/index.md)   | Caffeine                   | **N/A**                     | **N/A**                |
 | 5.0.0 - 7.0.0  | [**RCM**](rcm/index.md)               | [Modchip](modchip/index.md) / Wait for CFW          | **N/A**                     | **N/A**                |
-| 7.0.1          | [**RCM**](rcm/index.md)               | [Modchip](modchip/index.md) / Wait for CFW          | [Modchip](modchip/index.md) / Cart update to 8.0.1        | **N/A**                |
-| 8.0.1          | [**RCM**](rcm/index.md)               | [Modchip](modchip/index.md) / Wait for homebrew          | [Modchip](modchip/index.md) / Wait for homebrew           | [Modchip](modchip/index.md) / Wait for homebrew      |
-| 8.1.0 and up   | [**RCM**](rcm/index.md)               | [**Modchip**](modchip/index.md) (no SW exploit)     | [**Modchip**](modchip/index.md) (no SW exploit)      | [**Modchip**](modchip/index.md) (no SW exploit) |
+| 7.0.1          | [**RCM**](rcm/index.md)               | [**Modchip**](modchip/index.md) (no software exploit)          | [**Modchip**](modchip/index.md) (no software exploit)        | **N/A**                |
+| 8.0.1          | [**RCM**](rcm/index.md)               | [**Modchip**](modchip/index.md) (no software exploit)          | [**Modchip**](modchip/index.md) (no software exploit)           | [**Modchip**](modchip/index.md) (no software exploit)      |
+| 8.1.0 and up   | [**RCM**](rcm/index.md)               | [**Modchip**](modchip/index.md) (no software exploit)     | [**Modchip**](modchip/index.md) (no software exploit)      | [**Modchip**](modchip/index.md) (no software exploit) |
 
 !!! note "About OLED"
     All OLED Switch models (HEG-001) are currently unhackable via software.
