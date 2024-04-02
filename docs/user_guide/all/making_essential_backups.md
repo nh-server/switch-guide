@@ -34,3 +34,8 @@
 -----
 
 [Continue to Launching CFW :material-arrow-right:](launching_cfw.md){ .md-button .md-button--primary }
+
+
+??? "Frequently Asked Questions about this page"
+      - **Q: Why is making a NAND backup considered crucial?** <br>
+					A: A NAND backup contains a complete snapshot of the internal files of your Switch, including console-specific files that cannot be regenerated if accidentally lost. This is why it is **mandatory** to keep at least one copy of your NAND backup in a safe place, even if it takes a lot of space. The consequence to not having one is, at best, a Switch that cannot connect to Nintendo Network, or at worst, a full brick. However, it is important to note that it is nearly impossible to permanently brick a hackable Nintendo Switch.
