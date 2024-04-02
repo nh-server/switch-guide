@@ -88,6 +88,6 @@ If your Switch is not patched, [Continue to RCM :material-arrow-right:](rcm/inde
       - **Q: How reliable is the crowdsourced list of vulnerable serial numbers, and what if my serial number is not listed?** <br>
           A: To our knowledge, there hasn't been a single console which has disproved the trends documented here. Unless your serial is potentially patched, you can be certain that the table is accurate to reality.
       - **Q: Why is it essential to install at least one eShop title before setting up homebrew, and what is "title takeover"?** <br>
-          A: By default, the Homebrew menu and its apps are taking over the Album applet, causing inconsistent behavior for homebrew programs, as applets don't have as many system resources as full apps. Title takeover ensures the best performance, and is required for some homebrew.
+          A: By default, the homebrew menu and its apps inherit the resources of the Album applet. Applets don't have as many system resources as full apps, and as such have inconsistent behavior when used for homebrew purposes. Title takeover ensures the best performance, and is required for some homebrew.
       - **Q: Why is the "New" Switch (HAC-001-01) not vulnerable to *déjà vu*, and what are the implications for Switch Lite (HDH-001) and OLED Switch consoles?** <br>
           A: Despite being exploitable via software, *déjà vu* is actually a bootROM exploit that isn't present in the new bootROM of the Tegra X1+.
