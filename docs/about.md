@@ -10,7 +10,7 @@ This guide was written by community members of the [Nintendo Homebrew Discord Se
     - [SuchMemeManySkill](https://github.com/suchmememanyskill)
     - [DefenderOfHyrule](https://github.com/DefenderOfHyrule)
     - [ha1vorsen](https://github.com/ha1vorsen)
-    - [Dardel](https://github.com/DardelHMB)
+    - [Dardel](https://codeberg.org/Dardel)
     - [MarigoldZephyrNio](https://github.com/MarigoldZephyrNio)
     - [Sanras](https://github.com/Sanrax)
     - [JeffVi](https://github.com/JeffVi)
