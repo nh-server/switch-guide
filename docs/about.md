@@ -19,7 +19,7 @@ This guide was written by community members of the [Nintendo Homebrew Discord Se
     - [oreo639](https://github.com/oreo639)
     - [thedax](https://github.com/thedax)
     - [dorkeline](https://github.com/dorkeline)
-    - [ihaveahax](https://github.com/ihaveahax)
+    - [ihaveahax](https://github.com/ihaveamac)
     - [PhazonicRidley](https://github.com/PhazonicRidley)
     - [xGhostBoyx](https://github.com/xGhostBoyx)
     - jerbear64
