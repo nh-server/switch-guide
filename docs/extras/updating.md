@@ -85,15 +85,17 @@ If you keep your emuMMC offline, you will have to use a gamecard to update your 
 
 ### Preparing your microSD card
 
-1. Insert your microSD card into your computer.
-2. Download `TegraExplorer.bin` and place it somewhere on your PC (A good idea is to put it where you keep all your Switch payloads like Hekate).
-3. Update Atmosphère and Hekate by using the above guides.
-4. If you haven't already, update the sysMMC to the latest firmware.
+1. Load Hekate, start Hekate UMS by going to `Tools` > `USB Tools` > `SD Card`
+2. Connect your Switch to your PC via a USB cable. An Android phone may also work.
+3. Download `TegraExplorer.bin` and place it somewhere on your device (A good idea is to put it where you keep all your Switch payloads like Hekate).
+4. Update Atmosphère and Hekate by using the above guides.
+5. If you haven't already, update the sysMMC to the latest firmware.
 
 ### Dumping your sysMMC firmware
 
 1. Make sure your sysMMC is up to date. If your sysMMC is not up-to-date, update it through the System Settings.
-2. Inject `TegraExplorer.bin` using TegraRCMGUI (Like you would with Hekate).
+2. Inject `TegraExplorer.bin` using your favourite payload injector (Like you would with Hekate).
+    - If you are using a modchipped Switch, you can simply put `TegraExplorer.bin` in `/bootloader/payloads` on your SD card, then turn on your console and load tegraexplorer via Hekate's payloads menu (`Payloads` > `TegraExplorer.bin`)
 3. Using the joystick and the A buttons, select `FirmwareDump.te`, then select `Dump sysmmc`.
 4. Wait about 1-2 minutes for the tool to dump your firmware.
 5. When the tool finishes, press any button.
