@@ -17,7 +17,7 @@
     - If you wish to install Android and/or Linux later, partition your microSD card here accordingly by moving the sliders you see during this step. We recommend setting the `Android (USER)` and `Linux (EXT4)` sliders to at least 16GB.
 3. Once done, go to Hekate's `Home` menu and then `Tools` > `USB tools` > `SD card` and plug your Switch into your PC via USB.
 4. Continue with the next step of the guide.
-    - Your microSD card should now be accessible on your PC, if not, consult the warning message below.
+    - Your microSD card should now be accessible on your PC. If not, consult the warning message below.
 
 !!! warning "Your microSD card is not showing up"
     If your microSD card isn't showing up at all, ensure that you're using a USB cable capable of data transfer and that, if you use Windows, Windows has assigned a drive letter to the FAT32 partition of your SD. If you still experience errors, join the <a href="https://discord.gg/C29hYvh" target="_blank">NH Discord server</a> for support.

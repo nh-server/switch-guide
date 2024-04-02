@@ -59,7 +59,7 @@ If you've partitioned your microSD card for preparation of Android/Linux earlier
 
 ??? "Frequently Asked Questions about this page"
       - **Q: How can you verify that sysCFW / emuMMC launched properly?** <br>
-          A: Once you boot into the Switch's HOME Menu, navigate to Settings > System. The system version should be prefixed with an S or E, standing for SysMMC or EmuMMC respectively. Seeing either of these confirms which enviironment you are using.
+          A: Once you boot into the Switch's HOME Menu, navigate to Settings > System. The system version should be prefixed with an S or E, standing for SysMMC or EmuMMC respectively. Seeing either of these confirms which environment you are using.
       - **Q: What options do you have for rebooting to Hekate while booted into CFW?** <br>
           A: If you use a modchip, your console will automatically boot into whatever payload that your modchip would normally boot into via a coldboot, after clicking the restart button in the power-off menu. This can be any payload, but ideally is Hekate.
           If you use no modchip (and you're using a V1 console), your console will "reboot-to-payload" by default, triggering whatever fusee payload is located in `atmosphere/reboot_to_payload.bin`. This can be any payload, but ideally is Hekate.
