@@ -4,7 +4,7 @@ This page documents how you can keep your system up-to-date.
 
 After following our guide, your system will consist of three core elements that can be updated. Atmosphere, Hekate and your system firmware.
 
-## Updating Atmosphere
+### **Updating Atmosphere**
 
 When updating Atmosphère, always make sure to _read the release notes_. They may list important changes and modifications to your system.
 
@@ -14,26 +14,31 @@ When updating Atmosphère, always make sure to _read the release notes_. They ma
 When a new version of Atmosphère releases, you can update Atmosphère by following these steps:
 
 
-1. Turn off your Nintendo Switch and plug your microSD card in your computer.
-2. Download the latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a> (Download the `atmosphere-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip` release of Atmosphere.)
-3. Copy *the contents of* the Atmosphere `.zip` file to the root of your microSD card.
+1. Enter RCM and inject the Hekate payload.
+    - If you use a modchipped Switch, you can simply just turn your Switch on with the Hekate payload renamed to `payload.bin` on the root of your SD.
+2. Navigate to `Tools` > `USB Tools` > `SD Card` and plug your Switch into your PC via USB.
+3. Download the latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a> (Download the `atmosphere-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip` release of Atmosphere.)
+4. Copy *the contents of* the Atmosphere `.zip` file to the root of your microSD card.
     - If you are prompted to overwrite files, do so.
-4. (If your Hekate is not on the latest version) Update Hekate via the steps below
-5. Put your microSD card back in your Switch and launch CFW.
+5. Eject the `UMS` device safely from within your computer's operating system.
+6. (If your Hekate is not on the latest version) update Hekate via the steps below.
 
-## Updating Hekate
+### **Updating Hekate**
 
 When updating Hekate always make sure to _read the release notes_. They may list important changes and modifications to your system.
 
 When a new version of Hekate releases, you can update by following these steps:
 
-1. Turn off your Nintendo Switch and plug your microSD card in your computer.
-2. Download the latest version of <a href="https://github.com/CTCaer/Hekate/releases/" target="_blank">Hekate</a> (Download the `hekate_ctcaer_(version).zip` release of hekate).
-3. Copy the `bootloader` folder from the Hekate `.zip` file to the root of your microSD card. If you are asked to overwrite or merge files while copying, say yes to merge/overwrite them.
-4. Put your microSD card back in your Switch and launch Hekate.
-5. Go to the Options tab at the top right of the screen. Turn "Update Reboot 2 Payload" on the bottom right ON (if it isn't on already). Tap "Save Options" at the bottom of the screen.
+1. Enter RCM and inject the Hekate payload.
+    - If you use a modchipped Switch, you can simply just turn your Switch on with the Hekate payload renamed to `payload.bin` on the root of your SD.
+2. Navigate to `Tools` > `USB Tools` > `SD Card` and plug your Switch into your PC via USB.
+3. Download the latest version of <a href="https://github.com/CTCaer/Hekate/releases/" target="_blank">Hekate</a> (Download the `hekate_ctcaer_(version).zip` release of hekate).
+4. Copy the `bootloader` folder from the Hekate `.zip` file to the root of your microSD card. If you are asked to overwrite or merge files while copying, say yes to merge/overwrite them.
+5. Eject the `UMS` device safely from within your computer's operating system.
+6. Go back to Hekate's main menu and press `Reload` > `Reload` to reload Hekate from your microSD card.
+7. From here, you're done and you can boot into CFW.
 
-## Updating your firmware
+### **Updating your firmware**
 
 Always check _before_ updating your system firmware if the latest version of Atmosphère _as well_ as the latest version of Hekate support the firmware version you are updating towards.
 
@@ -61,13 +66,13 @@ Otherwise, you can safely update your system firmware through the system setting
     If you have autoRCM enabled and you're updating your system while in stock firmware, **updating will disable autoRCM** and you will need to enter RCM manually to boot custom firmware again.
     To prevent autoRCM from being disabled, boot CFW on sysMMC and update through settings from there, as booting without AutoRCM <ins>will burn any preserved fuses</ins>.
 
-### About emuMMC
+### **About emuMMC**
 
 sysMMC and emuMMC have separate system firmwares and need to be updated separately.
 
 If you keep your emuMMC offline, you will have to use a gamecard to update your system firmware, synchronize it with another Nintendo Switch or dump an updated firmware from your sysMMC.
 
-## Updating emuMMC by dumping an updated firmware from your sysMMC
+### **Updating emuMMC by dumping an updated firmware from your sysMMC**
 
 !!!warning "Do you have an eMMC backup yet?"
     Please do not start this guide without doing a RAW GPP and a BOOT 0/1 eMMC backup!
@@ -77,36 +82,37 @@ If you keep your emuMMC offline, you will have to use a gamecard to update your 
 !!!danger "Downgrading"
     This guide is made for updating your emuMMC. It is **not** for downgrading. Downgrading at all, sysMMC or emuMMC, is not recommended and not worth it. Downgrading is also very dangerous and can lead to serious complications even when performed correctly.
 
-### What you will need
+#### **What you need:**
+- The latest release of <a href="https://github.com/suchmememanyskill/TegraExplorer/releases" target="_blank">TegraExplorer</a>
+- The latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a>
 
-!!!tip ""
-    - The latest release of <a href="https://github.com/suchmememanyskill/TegraExplorer/releases" target="_blank">TegraExplorer</a>
-    - The latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a>
-
-### Preparing your microSD card
+#### **Preparing your microSD card**
 
 1. Load Hekate, start Hekate UMS by going to `Tools` > `USB Tools` > `SD Card`
 2. Connect your Switch to your PC via a USB cable. An Android phone may also work.
 3. Download `TegraExplorer.bin` and place it somewhere on your device (A good idea is to put it where you keep all your Switch payloads like Hekate).
 4. Update Atmosphère and Hekate by using the above guides.
-5. If you haven't already, update the sysMMC to the latest firmware.
+5. If you haven't already, update the sysMMC to the latest firmware using the steps below.
 
-### Dumping your sysMMC firmware
+#### **Dumping your sysMMC firmware**
 
-1. Make sure your sysMMC is up to date. If your sysMMC is not up-to-date, update it through the System Settings.
+1. Make sure your sysMMC is up to date. If your sysMMC is not up-to-date, boot into Stock or sysCFW and update it through the System Settings.
+    - sysCFW is recommended since it preserves e-fuses and preserves AutoRCM (if applicable).
 2. Inject `TegraExplorer.bin` using your favourite payload injector (Like you would with Hekate).
-    - If you are using a modchipped Switch, you can simply put `TegraExplorer.bin` in `/bootloader/payloads` on your SD card, then turn on your console and load tegraexplorer via Hekate's payloads menu (`Payloads` > `TegraExplorer.bin`)
+    - If you are using a modchipped Switch, you can simply put `TegraExplorer.bin` in `sd:/bootloader/payloads` on your SD card, then turn on your console and load TegraExplorer via Hekate's payloads menu (`Payloads` > `TegraExplorer.bin`).
 3. Using the joystick and the A buttons, select `FirmwareDump.te`, then select `Dump sysmmc`.
-4. Wait about 1-2 minutes for the tool to dump your firmware.
-5. When the tool finishes, press any button.
-6. Select `Reboot to atmosphere/reboot_payload.bin`.
+    - If navigation doesn't work with your Joycons, navigating using the volume buttons and selecting using the power button also works.
+      (This is also required for Switch Lite console users.)
+4. Wait about 1-2 minutes for the script to dump your firmware.
+5. When the script finishes, press any button.
+6. Select `Reboot to bootloader/update.bin`.
 
-### Updating your emuMMC with Daybreak
+#### **Updating your emuMMC with Daybreak**
 
 1. In Hekate go to `Launch -> Atmosphere FSS0 emuMMC`.
 2. Once booted, hold `R` while launching a game to boot into the homebrew menu.
 3. Find Daybreak in the homebrew menu and launch it.
-4. Tap on `Install` and navigate to `tegraexplorer/Firmware/<latest firmware number>`.
+4. Tap on `Install` and navigate to `sd:/tegraexplorer/Firmware/<latest firmware number>`.
 5. Tap on `Continue` and then `Preserve settings`.
     - If you see the message `Warning: exFAT firmware is missing or corrupt`, you likely don't have the exFAT drivers installed on your sysMMC. Just press continue if this is the case.
 6. If it is available choose `Install (FAT32 + exFAT)`, otherwise `Install (FAT32)` and then `Continue`.

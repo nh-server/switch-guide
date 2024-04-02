@@ -2,20 +2,17 @@
 
 For cheats management, [EdiZon](https://github.com/WerWolv/EdiZon/releases) is recommended. It has support for Atmosphere's cheat engine, providing an easy way to download new cheats, as well as toggle them on or off.
 
-&nbsp;
 
-### Instructions
+### **Instructions:**
+Atmosphère looks for cheats to load in the `contents` sub-folder of the `atmosphere` folder. The template it looks for is `sd:/atmosphere/contents/<title_id>/cheats/<build_id>.txt`.
+You need to create the `<title_id>` folder and sub-folders manually:
 
-!!! tip ""
-   Atmosphère looks for cheats to load in the `contents` sub-folder of the `atmosphere` folder. The template it looks for is `sd:/atmosphere/contents/<title_id>/cheats/<build_id>.txt`.
-    You need to create the `<title_id>` folder and sub-folders manually:
+- `title_id` being the title or program of a game. This is game specific.
+- `build_id` being the version of a game. Cheats can be version specific so make sure the cheats you are using are compatible with your version.
 
-    - `title_id` being the title or program of a game. This is game specific.
-    - `build_id` being the version of a game. Cheats can be version specific so make sure the cheats you are using are compatible with your version.
+**Note: On Atmosphère 0.9.4 and below `contents` is called `titles`**.
 
-    **Note: On Atmosphère 0.9.4 and below `contents` is called `titles`**.
-
-    Switch game title IDs and build IDs can be found using the cheat menu of EdiZon (TID and BID, see below for a sample). Once the title is launched while in Atmosphere, your cheats should be applied.
+Switch game title IDs and build IDs can be found using the cheat menu of EdiZon (TID and BID, see below for a sample). Once the title is launched while in Atmosphere, your cheats should be applied.
 
 !!! tip "Preventing cheats from being active"
     To prevent cheats from being enabled by default, you can change your Atmosphère configuration:
@@ -31,5 +28,4 @@ For more in-depth details about Atmosphere's cheat engine, you can refer to [thi
 !!! tip "Cheats in EdiZon"
     Here the title ID of the game (TID) is "0100646009FBE000" and the build ID of the game (BID) is "0B9A75586BC1A6C6". Cheats are loaded from `sd:/atmosphere/contents/0100646009FBE000/cheats/0B9A75586BC1A6C6.txt`.
 
-    !!! tip ""
-	    ![ExampleGameCheat](../extras/img/game_cheating.jpg)
+    ![ExampleGameCheat](../extras/img/game_cheating.jpg)

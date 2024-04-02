@@ -1,8 +1,8 @@
 <a href="https://discord.gg/C29hYvh" target="_blank"><img style="float: right;" src="img/discord.png"></a>
 
-# NH Switch Guide
+# **NH Switch Guide**
 
-NH Switch Guide is a collaboration from Nintendo Homebrew's Discord community, getting you from stock to Atmosphère.
+The NH Switch Guide is a collaboration from Nintendo Homebrew's Discord community, getting you from a stock Switch to Atmosphère.
 
 For live support with this guide, visit us in **#switch-assistance-1** or **#switch-assistance-2** over at the [NH Discord server](https://discord.gg/C29hYvh).
 

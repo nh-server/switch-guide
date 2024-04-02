@@ -12,13 +12,13 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
 === "Windows"
 
-    #### What you need
+    #### **What you need:**
 
     - The latest release of <a href="https://github.com/eliboa/TegraRcmGUI/releases" target="_blank">TegraRcmGUI</a> (either the MSI or zip)
     - A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
     - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (`hekate_ctcaer_(version).bin`) is located in the `hekate_ctcaer_(version).zip`.
 
-    #### Instructions
+    #### **Instructions:**
 
     1. Install and run TegraRcmGUI.
     2. Navigate to the `Settings` tab, then press `Install Driver` and follow the on-screen instructions.
@@ -29,7 +29,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
     5. Press the file button next to `Inject payload`, and navigate to and select the `hekate_ctcaer_X.X.X.bin` file.
     6. Click `Inject payload` to launch the payload you selected.
 
-    #### Driver installation with Zadig
+    #### **Driver installation with Zadig**
 
     Follow these steps if you face issues when installing the driver with TegraRcmGUI. You will need the latest version of <a href="https://zadig.akeo.ie" target="_blank">Zadig</a>.
 
@@ -41,14 +41,14 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
 === "Mac / Linux"
 
-    #### What you need
+    #### **What you need:**
 
     - The latest release of <a href="https://github.com/nh-server/fusee-interfacee-tk/releases" target="_blank">fusee-interfacee-tk</a> (also avaliable on the [AUR](https://aur.archlinux.org/packages/fusee-interfacee-tk-bin))
          - If you use Arch Linux or a derivative distro, the AUR package is recommended.
     - A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
     - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (`hekate_ctcaer_(version).bin`) is located in the `hekate_ctcaer_(version).zip`.
 
-    #### Instructions
+    #### **Instructions:**
 
     1. Download and run the payload injector (if you're on Linux, you will need to run this program as root, use `sudo`, or follow the instructions at [Linux injection without root](../../extras/adding_udev.md)).
     2. Connect your Switch in RCM to your PC using the USB cable.
@@ -59,7 +59,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
 === "Android"
 
-    #### What you need
+    #### **What you need:**
 
     - The latest release of <a href="https://github.com/MenosGrante/Rekado/releases" target="_blank">Rekado</a>
     - You will need to enable Unknown Sources in your device settings to install this
@@ -69,7 +69,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
     - This **will not work** on every phone!
     - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (`hekate_ctcaer_(version).bin`) is located in the `hekate_ctcaer_(version).zip`.
 
-    #### Instructions
+    #### **Instructions:**
 
     1. Copy the hekate_ctcaer `.bin` file from the Hekate `.zip` file to a location on your phone.
         - A tool such as Amaze File Manager can do this.
@@ -83,7 +83,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
 === "Chromebook"
 
-    #### What you need
+    #### **What you need:**
 
     - A USB-A to USB-C cable
     !!! warning "About USB-C"
@@ -91,7 +91,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
     - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (`hekate_ctcaer_(version).bin`) is located in the `hekate_ctcaer_(version).zip`.
 
-    #### Instructions
+    #### **Instructions:**
 
     1. Go to the injection [website](https://switchgui.de/web-payload/) and scroll all the way down
     2. Select the "Upload Payload" option and upload the `hekate_ctcaer_X.X.X.bin` file from the Hekate `.zip` file.
@@ -106,11 +106,11 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 ### **Preparing Hekate**
 We will prepare the microSD card for formatting/partitioning before going to the next page. Removing the microSD card while in Hekate is safe so turning off the console is not necessary and keeping it on will save time that would be spent reinjecting the payload.
 
-### **What You Need:**
+#### **What you need:**
 - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target ="_blank">Hekate</a>.
 - Your microSD card
 
-### **Instructions:**
+#### **Instructions:**
 1. Without turning your Switch off, remove the microSD card from the Switch.
 2. Insert your Switch's microSD card into your computer.
 3. Extract the Hekate `.zip` to a location on your computer

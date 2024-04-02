@@ -1,13 +1,13 @@
-# Payload and bootloader folder placement
+### **Payload and bootloader folder placement**
 
 To get ready for formatting and/or partitioning your microSD card, we will need to prepare your it with the required files.
 
-### **What you need:**
+#### **What you need:**
 - The latest release of <a href="https://github.com/CTCaer/Hekate/releases/" target="_blank">Hekate</a> (Download the `hekate_ctcaer_(version).zip` release of Hekate)
 - Your microSD card
 
 
-### **Instructions:**
+#### **Instructions:**
 
 1. Extract the Hekate `.zip` to a location on your computer.
 2. Insert your microSD card into your computer.

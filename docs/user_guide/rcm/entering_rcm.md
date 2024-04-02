@@ -1,4 +1,4 @@
-# Entering RCM
+### **Entering RCM**
 
 The Switch's Tegra X1 processor has a recovery mode referred to shorthand as RCM, intended to be useless for end-users. Fortunately, due to the fusee-gelee vulnerability, this special mode acts as our gateway into CFW.
 
@@ -11,11 +11,11 @@ Methods to enter RCM can require nothing more than household items (not recommen
     The order of methods on this page is in the order of ease. The easiest to immediately accomplish are listed at the top, and the most advanced/difficult methods are at the bottom and should not be attempted by most people.
     **USING A PAPERCLIP OR TIN FOIL CAN/WILL DAMAGE YOUR CONSOLE, DO NOT DO THIS!**
 
-### **Instructions:**
+#### **Instructions:**
 
 1. Power off the Switch and short the pins on the Joy-Con rail using one of the methods listed below.
-2. While holding `Volume Up`, press `Power`.
-    - If your Switch displays the Nintendo logo and boots normally (or the screen was on and goes black), you didn't successfully enter RCM and should try again. Otherwise, if your console still has a black screen (even after tapping the power button again), your Switch is in RCM.
+2. While holding the `Volume Up` button, press the `Power` button once while holding `Volume Up`.
+    - If your Switch displays the Nintendo logo and boots normally (or the screen was on and goes black), you didn't successfully enter RCM and should try again. Otherwise, if your console still has a black screen (even after tapping the power button again), your Switch is in RCM and you can let go of the `Volume Up` button.
 3. Once your Switch is in RCM, remove the RCM jig (if applicable) and continue with the next page of the guide by clicking on the button at the bottom of this page.
 
 === "RCM Jig (Recommended for beginners)"

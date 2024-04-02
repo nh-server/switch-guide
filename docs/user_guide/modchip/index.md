@@ -1,4 +1,4 @@
-# Introduction to Modchips
+### **Introduction to Modchips**
 
 !!! info "information"
     Unlike "unpatched" consoles, modchips enable CFW via CPU voltage glitching, which bypass bootROM firmware verifications. It allows a ``payload.bin`` file to be launched in place of BOOT0, loaded via a modchip firmware module named `sdloader`. This is much different from RCM and its exploit, [fusee-gelee](https://github.com/Qyriad/fusee-launcher/blob/master/report/fusee_gelee.md), which "unpatched" consoles use.
@@ -27,6 +27,8 @@ Modchipped Switch consoles allow untethered, coldboot CFW loading, directly ente
 Running CFW on modchipped consoles is more simplistic, as it only requires you to have `payload.bin` present on the root of your microSD card when you turn on the system.
 
 Before setting up for homebrew, install at least one eShop title to utilize "title takeover", an Atmosphère feature that allows homebrew to use more resources than they would normally have. Try downloading a free game (such as [Fallout Shelter](https://www.nintendo.com/games/detail/fallout-shelter-switch/)), application (such as [YouTube](https://www.nintendo.com/games/detail/youtube-switch/)), or a game demo (such as [10 Second Run RETURNS](https://www.nintendo.com/games/detail/10-second-run-returns-switch)). Running the Homebrew Menu via a game cartridge will also work, but it must be inserted every time you want to boot into homebrew. Title takeover does not permanently replace or remove the donor game/application, nor does it become tied to it specifically. Any installation or cartridge used for title takeover can always be used normally if you don't hold any buttons when booting that title. <br> Once you obtain any bootable title, you are prepared to continue on with the guide.
+
+Furthermore, this guide assumes you have a functional modchip installation.
 
 ### **Important**
 If you do decide to follow the recommended emuMMC path later in the guide, make sure you disable [Automatic Save Data Cloud backups/downloads](https://www.nintendo.co.uk/Support/Nintendo-Switch/How-to-Enable-Disable-Automatic-Save-Data-Backups-and-Downloads-1434310.html) beforehand as well as making sure [the Switch is set as Primary Console](https://en-americas-support.nintendo.com/app/answers/detail/a_id/22453/~/how-to-change-the-primary-console-for-your-nintendo-account).
