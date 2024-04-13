@@ -15,7 +15,7 @@ You should first check whether you have a file or partition based emuMMC:
     - If you have one it should be either `SD Raw Partition` or `SD File`.
 
 -----
-### **If you are using a file based emummc or are using no emummc at all:**
+### **If you are using a file based emuMMC or are using no emuMMC at all:**
 
 1. Enter RCM and inject the Hekate payload.
     - If you use a modchipped Switch, you can simply just turn your Switch on with the Hekate payload renamed to `payload.bin` on the root of your SD.
@@ -28,7 +28,7 @@ You should first check whether you have a file or partition based emuMMC:
 7. Eject the `UMS` device safely from within your computer's operating system.
 
 -----
-### **If you are using a partition based emummc:**
+### **If you are using a partition based emuMMC:**
 
 !!!warning "Space for the backup"
     You need at least 30GB (or 60GB if using an OLED Switch) of free space to be able to restore the emuMMC!
@@ -51,4 +51,4 @@ You should first check whether you have a file or partition based emuMMC:
 13. Restore the backup by tapping on both `SD emuMMC BOOT0 & BOOT1` and `SD emuMMC RAW GPP` (Note: `SD emuMMC RAW GPP may take a while).
     - It is very important that for both of these the `SD emuMMC Raw Partition` option is enabled, otherwise you will be altering your sysMMC
       which is not what you want.
-14. Your emuMMC is now restored on the new microSD card and you should be able to launch it from `Launch` -> `Atmosphere FSS0 emuMMC` in hekate.
+14. Your emuMMC is now restored on the new microSD card and you should be able to launch it from `Launch` -> `Atmosphere FSS0 emuMMC` in Hekate.

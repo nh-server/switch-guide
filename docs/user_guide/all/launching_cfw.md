@@ -23,6 +23,8 @@ Unlike systems such as the DSi, Wii, or 3DS, Switch CFW is currently volatile. I
 
     Hekate is now booting into sysCFW. To verify that sysCFW launched properly, open System Settings and navigate to System. You should see `AMS` next to the version number (`AMS` indicating that you're booted into Atmosphere), as well as an `S` at the end (indicating you are booted into sysCFW).
 
+    - **Note:** You will also have the `Atmosphere FSS0 EmuMMC` launch option in Hekate, launching it will just result in an error and is expected because you don't have an emuMMC.
+
     ![Atmosphere version string](img/launching_cfw_atmosphere_version_string3.jpg)
 
 &nbsp;

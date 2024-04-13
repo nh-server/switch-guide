@@ -118,6 +118,7 @@ We will prepare the microSD card for formatting/partitioning before going to the
 5. Copy the `bootloader` folder to the root of your microSD card.
 6. Copy the `Nintendo` folder from the root of your microSD to a safe space on your device.
 7. Put your microSD card back into your Switch.
-8. Use volume up and volume down to navigate the Hekate menu. Hover over 'reload' and hit power. Your screen should now have the Hekate GUI.
+8. Use volume up and volume down to navigate the Hekate menu. Hover over 'reload' and press the power button to select. Your screen should now have the Hekate GUI (Nyx) pictured below.
+![Nyx](/user_guide/all/img/nyx.bmp){ width="600" }
 
 [Continue to choosing your CFW environment :material-arrow-right:](../all/cfw_environment.md){ .md-button .md-button--primary }

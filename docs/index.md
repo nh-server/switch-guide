@@ -6,7 +6,7 @@ The NH Switch Guide is a collaboration from Nintendo Homebrew's Discord communit
 
 For live support with this guide, visit us in **#switch-assistance-1** or **#switch-assistance-2** over at the [NH Discord server](https://discord.gg/C29hYvh).
 
-Prepare to set aside a minimum of an hour to follow this guide. This is specifically for you to carefully read and understand each page for safe execution for the safety and longevity of your Switch console. Some required device backups can also take around ten to thirty minutes to create, depending on your Switch model and your microSD speed.
+Prepare to set aside a minimum of an hour to follow this guide. This is specifically for you to carefully read and understand each page for safe execution for the safety and longevity of your Switch console. Some required device backups can also take around ten to thirty minutes to create, depending on your Switch model and your microSD card specifications.
 
 
 ### **What is Custom Firmware?**
@@ -33,7 +33,7 @@ This guide will give you the opportunity to set aside space on your microSD to i
 
 This guide has the end-goal of taking a completely unmodified Switch from stock firmware to a custom firmware named Atmosphère.
 
-"[fusee-gelee](files/extras/fusee_gelee_nvidia.pdf)" is currently the most widespread software entrypoint of launching custom firmware. It utilizes a vulnerability in the bootROM of the first-generation Switch systems, allowing us to boot the console via any payload we choose, instead of only ones that Nvidia and Nintendo authorize.  The result allows full baremetal control over your console, including system storage backups, recovery, custom firmwares, and custom operating systems.
+[fusee-gelee](files/extras/fusee_gelee_nvidia.pdf) is currently the most widespread software entrypoint of launching custom firmware. It utilizes a vulnerability in the bootROM of the first-generation Switch systems, allowing us to boot the console via any payload we choose, instead of only ones that Nvidia and Nintendo authorize.  The result allows full baremetal control over your console, including system storage backups, recovery, custom firmwares, and custom operating systems.
 &nbsp;
 
 ### **What can I do with custom firmware?**
@@ -54,9 +54,7 @@ Acknowledge that EVERY time you modify your system, there is always the potentia
 
 This guide will work on first-generation (V1) and modchipped Switch consoles in all regions on any firmware version.
 
-!!! note ""
-
-    You will need just **one** of the following in order to successfully follow this guide:
+!!! note "**You will need *one* of the following in order to successfully follow this guide:**"
 
     - A PC, and a USB-C cable capable of data transfer to connect them together
     - An Android device, and a USB-C cable capable of data transfer to connect them together
@@ -74,21 +72,19 @@ Upon completion, you will lose no data, ending up with everything that you start
 
 Keep your device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off.
 
-Custom firmware is not permanently installed and does not change anything on your console simply by running it. It will be entirely unloaded upon rebooting the console if you aren't using a modchip. However, CFW does allow you to make permanent changes at your own will, so __be responsible and cautious with the abilities enabled by CFW__.
+Custom firmware is not permanently installed and does not change anything on your console simply by running it. It will be entirely unloaded upon rebooting the console. However, CFW does allow you to make permanent changes to your console at your own will, so __be responsible and cautious with the abilities enabled by CFW__.
 
 It is advised that you read the entire guide from start to finish one or more times before actually running through the guide with your system.
 
-![reading warning](user_guide/img/ability.png)
-
 If something doesn't make sense while you follow the guide, please reach out and ask for clarification rather than fumble around on your own. If your English isn't the best, use a translator such as [Google Translate](https://translate.google.com/) to submit your questions, so we can help.
 
-&nbsp;
+-----
 
-# **Select an option below to continue the guide!**
-[Get Started with RCM (free) :material-arrow-right:](user_guide/getting_started.md){ .md-button .md-button--primary } [Get Started with Modchips (not free!) :material-arrow-right:](user_guide/modchip/index.md){ .md-button .md-button--primary }
+### **Click the button below to get started with the guide!**
+[Continue to Getting Started :material-arrow-right:](user_guide/getting_started.md){ .md-button .md-button--primary }
 
-&nbsp;
 
+-----
 
 Note: We are not currently, historically, or will we ever be, associated with Anton Retro, sthetix, Ely M., or other derivative or YouTube/TikTok guide publishers, especially any that claim relation to us.
 

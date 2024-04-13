@@ -1,6 +1,6 @@
 # Partitioning the SD Card and creating the emuMMC
 
-!!! warning "This will delete everything on your microSD card"
+!!! danger "This will delete everything on your microSD card"
     This process includes formatting the microSD card, which means all data on it will be lost. Now is a good time to back up *all* of its data (namely the `/Nintendo` folder) to a safe place so that you can restore it later. You can do this by following the instructions below.
     The Nintendo folder contains downloaded necessary game data (the data required for games to actually run). You will need to copy the Nintendo folder to `SD:/emuMMC/RAW1/` after creating the emuMMC.
 

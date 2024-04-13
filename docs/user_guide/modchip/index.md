@@ -6,16 +6,14 @@
 
 ### **General knowledge**
 
-New to modchipped consoles? Here's what you need to know.
-
-Modchipped Switch consoles, except certain original V1 consoles made from 2017 to mid-2018, are immune to the fusee-gelee exploit in RCM. Attempting payload injection in RCM is futile; modchips are typically used on patched consoles in the first place.
+Patched Switch consoles, except certain original V1 consoles made from 2017 to mid-2018, are immune to the fusee-gelee exploit in RCM. Attempting to inject a payload on a Patched console will be unsuccessful.
 
 Depending on your modchip's firmware, you may not be able to boot the console without a microSD card inserted.
 This means without a microSD inserted at all times, your Switch becomes *unusable*.
 
 If you do turn on your Switch without a microSD card inserted, you should end up at a splash screen saying something along the lines of `NO SD`.
 
-???+ note "Note about modchips and their firmwares"
+???+ note "About modchips and their firmware versions"
      Some modchip firmwares (e.g., Spacecraft-NX, Hwfly-NX and the Picofly firmware) allow bypassing `sdloader` by holding one - or both - of the volume buttons during power-on, enabling normal boot without a microSD card. Not all modchips support firmware upgrades.
 
      If you do turn on your Switch without a microSD card inserted, you should end up at a splash screen of `sdloader` saying something along the lines of `NO SD`.
@@ -25,8 +23,6 @@ Modchipped Switch consoles allow untethered, coldboot CFW loading, directly ente
 - "Untethered coldboot" means being able to turn on your console from a fully-off ("cold") state directly into custom firmware, without external devices such as a dongle, payload injector, or jig.
 
 Running CFW on modchipped consoles is more simplistic, as it only requires you to have `payload.bin` present on the root of your microSD card when you turn on the system.
-
-Before setting up for homebrew, install at least one eShop title to utilize "title takeover", an Atmosphère feature that allows homebrew to use more resources than they would normally have. Try downloading a free game (such as [Fallout Shelter](https://www.nintendo.com/games/detail/fallout-shelter-switch/)), application (such as [YouTube](https://www.nintendo.com/games/detail/youtube-switch/)), or a game demo (such as [10 Second Run RETURNS](https://www.nintendo.com/games/detail/10-second-run-returns-switch)). Running the Homebrew Menu via a game cartridge will also work, but it must be inserted every time you want to boot into homebrew. Title takeover does not permanently replace or remove the donor game/application, nor does it become tied to it specifically. Any installation or cartridge used for title takeover can always be used normally if you don't hold any buttons when booting that title. <br> Once you obtain any bootable title, you are prepared to continue on with the guide.
 
 Furthermore, this guide assumes you have a functional modchip installation.
 

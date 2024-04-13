@@ -1,6 +1,6 @@
 # Formatting and/or partitioning the SD
 
-!!! warning "This will delete everything on your microSD card"
+!!! danger "This will delete everything on your microSD card"
 	Doing this will delete all your data from your microSD card, be warned! Back up your `Nintendo` folder (if you used your microSD card for game storage already) and any other folders/files on the root of your microSD card beforehand using the instructions below.
     The Nintendo folder contains downloaded necessary game data (the data required for games to actually run). You will need to copy the Nintendo folder to `SD:/emuMMC/RAW1/` after creating the emuMMC.
 
@@ -20,7 +20,7 @@
     - Your microSD card should now be accessible on your PC. If not, consult the warning message below.
 
 !!! warning "Your microSD card is not showing up"
-    If your microSD card isn't showing up at all, ensure that you're using a USB cable capable of data transfer and that, if you use Windows, Windows has assigned a drive letter to the FAT32 partition of your SD. If you still experience errors, join the <a href="https://discord.gg/C29hYvh" target="_blank">NH Discord server</a> for support.
+    If your microSD card isn't showing up at all, ensure that you're using a USB cable capable of data transfer and that if you use Windows, Windows has assigned a drive letter to the FAT32 partition of your microSD card. If you still experience errors, join the <a href="https://discord.gg/C29hYvh" target="_blank">NH Discord server</a> for support.
 
 ![hekate-partitioning-emu](img/hekate-partitioning-sys.png)
 
