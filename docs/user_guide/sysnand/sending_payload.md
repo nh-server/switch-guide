@@ -106,7 +106,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 ### Instructions
     
 !!! tip ""
-    1. Go to the injection [website](https://switchgui.de/web-payload/) and scroll all the way down
+    1. Go to the injection [website](https://fusee.eiphax.tech/) and scroll all the way down
     2. Select the "Upload Payload" option and upload the hekate_ctcaer `.bin` file from the Hekate `.zip` file.
     3. Connect your Switch in RCM to your Chromebook using the USB cable.
     4. Select "Do the thing". A pop up will appear. Click the `APX` option.
