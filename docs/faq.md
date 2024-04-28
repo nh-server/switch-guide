@@ -63,7 +63,7 @@ Atmosphèreis maintained to support the latest firmware updates on unpatched uni
 
 - **"Old"** *Patched Switch (HAC-001): Do NOT update past 7.0.1. Units on 7.0.1 and below will eventually get CFW. Patched units that have upgraded to 8.0.0 or 8.0.1 will likely get homebrew.*
 
-- **"New"** *Switch (HAC-001-01): Do NOT update past 8.0.1. Units on 8.0.1 and below will likely get homebrew. Units on 8.1.0 and higher are not expected to be hacked and can be updated.*
+- **"New"** *Switch (HAC-001(-01): Do NOT update past 8.0.1. Units on 8.0.1 and below will likely get homebrew. Units on 8.1.0 and higher are not expected to be hacked and can be updated.*
 
 - **Switch Lite** *(HDH-001): Do NOT update past 8.0.1. Units on 8.0.1 and below will likely get homebrew. Units on 8.1.0 and higher are not expected to be hacked and can be updated.*
 
@@ -83,7 +83,7 @@ Nintendo still receives a lot of information, even with those options disabled.
 We also cannot know if Nintendo decides to look for something in the logs and ban people in retrospect.
 They have also shown to expand their telemetry options with every other firmware update.
 
-!!!tip "Currently all bans have been for very obvious and intrusive actions, specifically:"
+!!! warning "Currently all bans have been for very obvious and intrusive actions, specifically:"
     - Developers using their unique Switch data to poke and reverse-engineer Nintendos Server responses
     - People pirating games and using them online
     - People changing their profile pictures to custom pictures
@@ -141,11 +141,11 @@ If you suspect your microSD card is fake or damaged, see the instructions <a hre
 
 ### **My homebrew is not showing up on the menu**
 
-This is an issue primarily affecting macOS users, but may occur on other devices as well. If you are able to launch the homebrew menu, but you are not seeing some or any of your homebrew, you will need to unset the archive bit with Hekate.
+This is an issue primarily affecting macOS users, but may occur on other devices as well. If you are able to launch the homebrew menu, but you are not seeing some or any of your homebrew, you may need to unset the archive bit with Hekate.
 
 1. Send the Hekate payload to your Switch by following these instructions: [here](https://nh-server.github.io/switch-guide/user_guide/emummc/sending_payload/)
 2. Click on `Tools` on the top menu bar
-3. In the bottom left corner click on `Archive bit * AutoRCM`
+3. In the bottom left corner click on `Arch Bit • AutoRCM • Touch • Pkg1/2`
 4. Click on `Fix Archive bit` - this might take a while
 5. Press `Close` in the top right corner
 6. Press `Home` in the top menu bar to get back from where you started

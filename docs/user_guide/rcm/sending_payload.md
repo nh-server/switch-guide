@@ -93,15 +93,16 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
     #### **Instructions:**
 
-    1. Go to the injection [website](https://switchgui.de/web-payload/) and scroll all the way down
+    1. Go to the injection [website](https://fusee.eiphax.tech/) and scroll all the way down
     2. Select the "Upload Payload" option and upload the `hekate_ctcaer_X.X.X.bin` file from the Hekate `.zip` file.
     3. Connect your Switch in RCM to your Chromebook using the USB cable.
     4. Select "Do the thing". A pop-up will appear. Click the `APX` option.
     5. Press the Connect button and the payload will be injected.
 
-
 !!! danger "If nothing happens after you send the payload"
     If your console's screen remains black after you've sent Hekate (or any other payload), it's possible your payload was corrupted, or that your console is patched.   If your payload injector program shows         that zero or 0x0000 bytes were sent, then it is patched. This isn't a one-time glitch or up for debate; it is patched. Consider an alternate method that isn't via RCM.
+
+-----
 
 ### **Preparing Hekate**
 We will prepare the microSD card for formatting/partitioning before going to the next page. Removing the microSD card while in Hekate is safe so turning off the console is not necessary and keeping it on will save time that would be spent reinjecting the payload.

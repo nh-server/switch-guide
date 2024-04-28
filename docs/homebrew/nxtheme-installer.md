@@ -1,22 +1,23 @@
 # Theming
 
-You can install and create unique styles and layouts for your Switch Home Menu.
+Using NXTheme Installer, you can install and create unique styles and layouts for your Switch Home Menu.
 
 ### **Index**
 
-- Follow the [Installing a theme](../extras/theming.md/#installing-a-theme) section if you want to install a theme.
+- Follow the [Installing a theme](#installing-a-theme) section if you want to install a theme.
 
-- Follow the [Making a theme](../extras/theming.md/#making-a-theme) section if you want to make a theme manually.
+- Follow the [Making a theme](#making-a-theme) section if you want to make a theme manually.
 
-- Follow the [Installing a custom font](../extras/theming.md/#installing-a-custom-font) section if you want to install a custom font.
+- Follow the [Installing a custom font](#installing-a-custom-font) section if you want to install a custom font.
 
-- If you run into any issues, visit the [Troubleshooting](../extras/theming.md/#troubleshooting) section.
+- If you run into any issues, visit the [Troubleshooting](#troubleshooting) section.
 
+-----
 
 ### **Installing a theme**
 
-!!! tip "Community Themes"
-	If you want to use community made themes, for example from the <a href="https://www.reddit.com/r/NXThemes/" target="_blank">**r/NXThemes**</a> subreddit or [Themezer](https://themezer.net), you can follow the guide below to install a community provided `.nxtheme` file.
+!!! note "Community Themes"
+	If you want to use community made themes, for example from the <a href="https://www.reddit.com/r/NXThemes/" target="_blank">r/NXThemes</a> subreddit or [Themezer](https://themezer.net), you can follow the guide below to install a community provided `.nxtheme` file.
 
 #### **What you need:**
 
@@ -38,6 +39,8 @@ You can install and create unique styles and layouts for your Switch Home Menu.
 
 !!! tip "An example of a Home Menu theme being installed"
     ![ExampleSwitchTheme](../extras/img/switch_theming.jpg)
+
+-----
 
 ### **Making a theme**
 
@@ -80,7 +83,7 @@ You can install and create unique styles and layouts for your Switch Home Menu.
 4. Reboot into CFW via the `Reboot` tab to see the changes.
 
 
-&nbsp;
+-----
 
 ### **Troubleshooting**
 #### **My Switch crashes on boot after I installed a theme!:**
@@ -91,7 +94,7 @@ You can install and create unique styles and layouts for your Switch Home Menu.
 
 **Cause 3:** You installed a bad theme. You can remove them by navigating to `sd:/atmosphere/contents` and deleting the `01000000000001000` folder.
 
-- Note: `contents` is called `titles` on Atmosphère versions 0.9.4 and below.
+- **Note:** `contents` is called `titles` on Atmosphère versions 0.9.4 and below.
 
 &nbsp;
 
@@ -101,7 +104,7 @@ You can install and create unique styles and layouts for your Switch Home Menu.
 
 **Cause 2:** You installed a font that wasn't the right file type (e.g. `.otf`). You can remove your installed custom font data by navigating to `sd:/atmosphere/contents` and deleting the `0100000000000811` folder.
 
-- Note: `contents` is called `titles` on Atmosphère versions 0.9.4 and below.
+- **Note:** `contents` is called `titles` on Atmosphère versions 0.9.4 and below.
 
 &nbsp;
 

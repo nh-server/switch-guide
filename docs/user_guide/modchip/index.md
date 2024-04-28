@@ -14,9 +14,7 @@ This means without a microSD inserted at all times, your Switch becomes *unusabl
 If you do turn on your Switch without a microSD card inserted, you should end up at a splash screen saying something along the lines of `NO SD`.
 
 ???+ note "About modchips and their firmware versions"
-     Some modchip firmwares (e.g., Spacecraft-NX, Hwfly-NX and the Picofly firmware) allow bypassing `sdloader` by holding one - or both - of the volume buttons during power-on, enabling normal boot without a microSD card. Not all modchips support firmware upgrades.
-
-     If you do turn on your Switch without a microSD card inserted, you should end up at a splash screen of `sdloader` saying something along the lines of `NO SD`.
+     Some modchip firmwares (e.g., Spacecraft-NX, Hwfly-NX and the Picofly firmware) allow bypassing `sdloader` by holding one - or both - of the volume buttons during power-on, enabling normal boot without a microSD card. Not all modchips support manual firmware updates.
 
 Modchipped Switch consoles allow untethered, coldboot CFW loading, directly entering custom firmware without external devices like dongles or jigs. This is in contrast to the tethered coldboot "RCM" entrypoint.
 
@@ -26,6 +24,8 @@ Running CFW on modchipped consoles is more simplistic, as it only requires you t
 
 Furthermore, this guide assumes you have a functional modchip installation.
 
+-----
+
 ### **Important**
 If you do decide to follow the recommended emuMMC path later in the guide, make sure you disable [Automatic Save Data Cloud backups/downloads](https://www.nintendo.co.uk/Support/Nintendo-Switch/How-to-Enable-Disable-Automatic-Save-Data-Backups-and-Downloads-1434310.html) beforehand as well as making sure [the Switch is set as Primary Console](https://en-americas-support.nintendo.com/app/answers/detail/a_id/22453/~/how-to-change-the-primary-console-for-your-nintendo-account).
 
@@ -33,7 +33,7 @@ If you do decide to follow the recommended emuMMC path later in the guide, make 
 !!! danger "Disclaimer"
     We **ONLY** support the Picofly modchip (the `RP2040 Zero` development board and the "modchip variant" of it). Installing a modchip safely is your responsibility, so if you don't trust yourself, get someone trusted to perform the install.
     There is always a risk of your Switch being rendered dysfunctional when messing with its hardware without proper experience.
-    The NH Discord server is not for fixing bad modchip installations.
+    The NH-Discord server is not for fixing bad modchip installations.
     We can give advice and installation tips for the installation as long as it's for a Picofly modchip.
 
 [Continue to Preparing Hekate :material-arrow-right:](preparing_hekate.md){ .md-button .md-button--primary }

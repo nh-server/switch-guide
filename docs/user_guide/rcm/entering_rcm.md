@@ -11,6 +11,8 @@ Methods to enter RCM can require nothing more than household items (not recommen
     The order of methods on this page is in the order of ease. The easiest method to immediately accomplish is the `RCM Jig` method. The most advanced/difficult methods are mentioned in the other tabs and should not be attempted by most people as they require voiding your warranty and/or soldering.
     **USING A PAPERCLIP OR TIN FOIL CAN/WILL DAMAGE YOUR CONSOLE, DO NOT DO THIS!**
 
+-----
+
 #### **Instructions:**
 
 1. Power off the Switch and short the pins on the Joy-Con rail using one of the methods listed below.

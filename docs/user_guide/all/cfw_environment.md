@@ -42,7 +42,7 @@ For more information on terminology, please refer to the [glossary](../../extras
     * Dumping eShop games, saves, and encryption keys for preservation or installation on emuMMC or external Switch emulators
     * Restoring modified save data for many games
     * Custom fonts and home menu theming
-    * Modifying and cheating in most offline games (and some online games; [[info]](../../extras/cheats.md))
+    * Modifying and cheating in most offline games (and some online games; [[info]](../../homebrew/edizon.md))
 
     If you prefer snappiness, online play, and a seamless transition between official features and custom features, you may consider using CFW on sysMMC. In this guide, sysMMC is assumed to be utilised for online play.
 
@@ -88,7 +88,9 @@ For more information on terminology, please refer to the [glossary](../../extras
 
 </div>
 
-#####Modchip Instability
+-----
+
+##### Modchip Instability
 !!! danger "About Modchipped Switch console users"
       Modchips directly infiltrate communication with the internal storage chip. Due to this, there are slight chances of NAND backups being tainted with corrupted data. If a bad backup is restored to sysNAND, the console can be bricked, and a modchip alone won't be able to fix it. To be safe, either only run an emuMMC on a console with a modchip, verify BOOT0/1 backups using tools like [NXNandManager (Windows)](https://github.com/eliboa/NxNandManager) or test NAND backups by running them as emuMMCs before you flash them to the sysNAND.
 

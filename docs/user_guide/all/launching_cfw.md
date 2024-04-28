@@ -9,8 +9,10 @@ Unlike systems such as the DSi, Wii, or 3DS, Switch CFW is currently volatile. I
 
 === "Instructions for emuMMC"
 
-    1. From hekate's `Home` menu, navigate to the `Launch` menu.
-    2. Find `Atmosphere FSS0 emuMMC` and launch it.
+    #### Instructions:
+
+    1. From Hekate's `Home` menu, navigate to the `Launch` menu.
+    2. Find `Atmosphere FSS0 EmuMMC` and launch it.
 
     Hekate is now booting into your emuMMC. To verify that your emuMMC launched properly, open System Settings and navigate to System. You should see `AMS` next to the version number (`AMS` indicating that you're booted into Atmosphere), as well as an `E` at the end (indicating you are booted into emuMMC).
 
@@ -18,7 +20,9 @@ Unlike systems such as the DSi, Wii, or 3DS, Switch CFW is currently volatile. I
 
 === "Instructions for sysCFW"
 
-    1. From hekate's `Home` menu, navigate to the `Launch` menu.
+    #### Instructions:
+
+    1. From Hekate's `Home` menu, navigate to the `Launch` menu.
     2. Find `Atmosphere FSS0 sysMMC` and launch it.
 
     Hekate is now booting into sysCFW. To verify that sysCFW launched properly, open System Settings and navigate to System. You should see `AMS` next to the version number (`AMS` indicating that you're booted into Atmosphere), as well as an `S` at the end (indicating you are booted into sysCFW).
@@ -27,10 +31,10 @@ Unlike systems such as the DSi, Wii, or 3DS, Switch CFW is currently volatile. I
 
     ![Atmosphere version string](img/launching_cfw_atmosphere_version_string3.jpg)
 
-&nbsp;
-
 !!! tip "Rebooting to Hekate"
     Once booted into CFW, you can easily get back to Hekate by holding the power button, and selecting `Restart` in the power menu or by using the "reboot to payload" homebrew app in the homebrew menu. (Note that while the Reboot to Payload *app* app does *not* work on modchipped Switch consoles, those already automatically run payloads upon reboot in the first place by default.)
+
+-----
 
 ### **Launching the Homebrew Menu**
 
@@ -40,18 +44,13 @@ You will now be able to launch the Homebrew Menu by opening the album or by hold
     - Using Album for the Homebrew Menu instead of a game or application has several limitations, including but not limited to: a smaller amount of available memory (RAM), as well as being unable to launch a full-featured web browser. It is strongly recommended to launch homebrew through applications or games instead.
 
 
-### **What the included homebrew applications do**
+### **About the included Homebrew apps**
 
-- JKSV is a save manager, it can dump and restore saves from/to your system. For more information, see [Save Management](../../extras/save_management.md)
-
-- FTPD is a FTP tool for connecting your Switch's SD contents wirelessly to your PC. Tools like WinSCP can connect to your Switch on `(IP of Switch):5000`
-
-- NX-Shell is a file explorer for the Switch. You can move files, listen to MP3 files, view images etc.
-
-- NXThemeInstaller is a theme installer app. See the [Theming section of our guide](../../extras/theming.md) for more information
-
+See the [Homebrew](/homebrew/) tab for information about what the included Homebrew apps do and if you want to check out more Homebrew apps and read about sysmodules like MissionControl, ldn_mitm, sys-con and more.
 
 If you wish to install more homebrew apps, place them (`.nro` files) in the `switch` folder on your microSD card.
+
+-----
 
 ### **Installing Android/Linux**
 

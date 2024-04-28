@@ -1,4 +1,4 @@
-### **SD Preparation**
+### **Information**
 
 We will now place the required files for the Atmosphère custom firmware and some additional homebrew files on the microSD card.
 
@@ -6,6 +6,8 @@ Atmosphere has its own bootloader, called fusee. For the purposes of this guide 
 
 !!! warning "File name extensions"
     If you use Windows, you should enable file name extensions before continuing. See [this link](../../extras/showing_file_extensions.md) for a guide on how to do this.
+
+-----
 
 #### **What you need:**
 - The latest release of <a href="https://github.com/CTCaer/Hekate/releases/" target="_blank">Hekate</a> (Download the `hekate_ctcaer_(version).zip` release of hekate)
@@ -15,8 +17,9 @@ Atmosphere has its own bootloader, called fusee. For the purposes of this guide 
 - The latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a>. Download the `atmosphere-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip` release of Atmosphere.
 - The latest release of <a href="https://github.com/J-D-K/JKSV/releases" target="_blank">JKSV</a> (Download the `JKSV.nro` release of JKSV)
 - The latest release of <a href="https://github.com/mtheall/ftpd/releases" target="_blank">FTPD</a> (Download the `ftpd.nro` release of FTPD)
-- The latest release of <a href="https://github.com/exelix11/SwitchThemeInjector/releases" target="_blank">NXThemeInstaller</a> (Download the `NxThemesInstaller.nro` release of NxThemeInstaller)
+- The latest release of <a href="https://github.com/exelix11/SwitchThemeInjector/releases" target="_blank">NXThemesInstaller</a> (Download the `NXThemesInstaller.nro` release of NXThemesInstaller)
 - The latest release of <a href="https://github.com/joel16/NX-Shell/releases" target="_blank">NX-Shell</a> (Download the `NX-Shell.nro` release of nx-shell)
+- The latest release of <a href="https://github.com/XorTroll/Goldleaf/releases" target="_blank">Goldleaf</a> (Download the `Goldleaf.nro` release of Goldleaf)
 
 #### **Instructions:**
 1. Navigate to the accessible drive.
@@ -26,7 +29,7 @@ Atmosphere has its own bootloader, called fusee. For the purposes of this guide 
     - If you're asked to merge the bootloader folders, do so.
 5. Copy `hekate_ipl.ini` to the `bootloader` folder on your microSD card.
 6. Create a folder named `hosts` inside the `atmosphere` folder on your microSD card, and put `emummc.txt` in it.
-7. Copy `JKSV.nro`, `ftpd.nro`, `NX-Shell.nro` and `NxThemesInstaller.nro` to the `switch` folder on your microSD card.
+7. Copy `JKSV.nro`, `ftpd.nro`, `NxThemesInstaller.nro`, `NX-Shell.nro` and `Goldleaf.nro` to the `switch` folder on your microSD card.
 8. If you were already using your microSD card as a storage device for your games and backed up the Nintendo folder before partitioning your microSD card, please place it back on the root of your microSD card now.
     - If you created an emuMMC on the previous page, don't forget to copy the Nintendo folder to `sd:/emuMMC/RAW1/`!
 

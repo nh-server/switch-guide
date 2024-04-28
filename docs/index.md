@@ -4,10 +4,11 @@
 
 The NH Switch Guide is a collaboration from Nintendo Homebrew's Discord community, getting you from a stock Switch to Atmosphère.
 
-For live support with this guide, visit us in **#switch-assistance-1** or **#switch-assistance-2** over at the [NH Discord server](https://discord.gg/C29hYvh).
+For live support with this guide, visit us in **#switch-assistance-1** or **#switch-assistance-2** over at the [NH-Discord server](https://discord.gg/C29hYvh).
 
 Prepare to set aside a minimum of an hour to follow this guide. This is specifically for you to carefully read and understand each page for safe execution for the safety and longevity of your Switch console. Some required device backups can also take around ten to thirty minutes to create, depending on your Switch model and your microSD card specifications.
 
+-----
 
 ### **What is Custom Firmware?**
 
@@ -17,6 +18,8 @@ Atmosphère, for example, patches the Switch OS (named Horizon) on the fly.
 Custom firmware can be considered a holy grail in terms of device modding, as it allows nearly limitless control and freedoms than you would get with more primitive "userland" access.
 &nbsp;
 
+-----
+
 ### **What is homebrew?**
 
 Homebrew refers to unofficial software written by hobbyists for locked down systems, like the Nintendo Switch. Homebrew can include original games, emulators, save-editing tools, and much, much more!
@@ -24,10 +27,14 @@ Homebrew refers to unofficial software written by hobbyists for locked down syst
 On the Switch in particular, you need CFW to run almost all available homebrew. Some first-gen ("V1") consoles can run homebrew for free, while all other ("patched") consoles require specialized hardware installation beforehand.
 &nbsp;
 
+-----
+
 ### **What are custom operating systems?**
 Custom operating systems (OSes) are alternative system software installations, like Android or Linux, that install alongside the default Switch OS. These are usually perfect for powerusers who want to extend the functionality of their console beyond that of a gaming console, transforming Nintendo Switch to a full-fledged hybrid tablet or desktop. These custom OSes run completely independent of the Switch OS, meaning that anything you do in a custom OS cannot be reported back to Nintendo. Custom operating systems are not "emulations"; they run natively on the Switch's Tegra X1 APU.
 
 This guide will give you the opportunity to set aside space on your microSD to install these custom OSes onto, if you desire. It is important to note that these installations are optional; you do not need to install any custom OS in order to complete this guide and install Atmosphère. However, it is better to decide sooner rather than later, as the installation process involves formatting your microSD card.
+
+-----
 
 ### **What does this guide install?**
 
@@ -35,6 +42,8 @@ This guide has the end-goal of taking a completely unmodified Switch from stock 
 
 [fusee-gelee](files/extras/fusee_gelee_nvidia.pdf) is currently the most widespread software entrypoint of launching custom firmware. It utilizes a vulnerability in the bootROM of the first-generation Switch systems, allowing us to boot the console via any payload we choose, instead of only ones that Nvidia and Nintendo authorize.  The result allows full baremetal control over your console, including system storage backups, recovery, custom firmwares, and custom operating systems.
 &nbsp;
+
+-----
 
 ### **What can I do with custom firmware?**
 
@@ -44,7 +53,10 @@ This guide has the end-goal of taking a completely unmodified Switch from stock 
 * Play games for older systems with various emulators, using RetroArch or other standalone emulators
 * Safely update to the latest system version without fear of losing access to homebrew
 - Safely customise your device while retaining full access to Nintendo online services
-&nbsp;
+
+More on this can be found later on in the guide.
+
+-----
 
 ### **What do I need to know before starting?**
 
