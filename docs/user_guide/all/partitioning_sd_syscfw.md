@@ -15,7 +15,7 @@
 1. Navigate to `Tools` > `Partition SD card`
 2. Navigate to `Next Step` at the bottom right, then select `Start` in the menu that appears.
     - If you wish to install Android and/or Linux later, partition your microSD card here accordingly by moving the sliders you see during this step. We recommend setting the `Android (USER)` and `Linux (EXT4)` sliders to at least 16GB.
-    - Select `Legacy` partitioning if prompted. As of now, you cannot do anything with Dynamic as Android 13+ cannot run on the Switch yet. Legacy and Dynamic partitioning are NOT intercompatible.
+    - For Android; Select `Legacy` partitioning if prompted. As of now, you cannot do anything with Dynamic as Android 13+ cannot run on the Switch yet. Legacy and Dynamic partitioning are NOT intercompatible.
 3. Once done, go to Hekate's `Home` menu and then `Tools` > `USB tools` > `SD card` and plug your Switch into your PC via USB.
 4. Continue with the next step of the guide.
     - Your microSD card should now be accessible on your PC. If not, consult the warning message below.
