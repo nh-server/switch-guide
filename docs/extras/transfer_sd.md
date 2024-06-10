@@ -29,6 +29,18 @@ You should first check whether you have a file or partition based emuMMC:
 1. Eject the `UMS` device safely from within your computer's operating system.
 1. Boot into hekate and launch your desired boot entry.
 
+::: tip
+
+**Note for macOS users**
+
+If you perform this copy on macOS, you may find that Switch titles can no longer start and error with `Could not start the Software`, or other issues relating to the SD card. This is due to a quirk with how macOS handles FAT32 file systems. Fortunately, the fix is simple:
+
+1. Boot into hekate
+1. In the main menu, tap on `Tools`, then `Arch bit • RCM • Touch • Pkg1/2`
+1. Tap on `Fix Archive Bit`
+
+:::
+
 -----
 
 ### If you are using a partition based emuMMC:
@@ -60,3 +72,15 @@ You need at least 30GB (or 60GB if using an OLED Switch) of free space to be abl
     - It is very important that for both of these the `SD emuMMC Raw Partition` option is enabled, otherwise you will be altering your sysMMC
       which is not what you want.
 1. Your emuMMC is now restored on the new microSD card and you should be able to launch it from `Launch` -> `Atmosphere PKG3 emuMMC` in hekate.
+
+::: tip
+
+**Note for macOS users**
+
+If you perform this copy on macOS, you may find that Switch titles can no longer start and error with `Could not start the Software`, or other issues relating to the SD card. This is due to a quirk with how macOS handles FAT32 file systems. Fortunately, the fix is simple:
+
+1. Boot into hekate
+1. In the main menu, tap on `Tools`, then `Arch bit • RCM • Touch • Pkg1/2`
+1. Tap on `Fix Archive Bit`
+
+:::
