@@ -6,6 +6,9 @@ The following instructions only work if you have a system that implements `udev`
 
 Do the following instructions while your Switch is _not_ connected to your computer.
 
+!!! note "For Arch Linux users:"
+    The package `android-udev` includes rules that will also allow for payload injection to work without root. Do note this also allows Android specific commands such as `adb` and `fastboot` to also work without root (as is the intention of it.)
+
 &nbsp;
 
 ### **Option 1: Manually adding rules and group**
