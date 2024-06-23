@@ -1,6 +1,6 @@
 ### **Information**
 
-sys-botbase is an advanced [sysmodule](../../homebrew#terminologies) that allows users to interact with their Switch remotely, to "remote control" their Switch. This remote control allows users to create automated tasks, simulate button presses, simulate touchscreen input and read/write to the memory of the Switch while in-game.
+sys-botbase is an advanced [sysmodule](index.md#terminologies) that allows users to interact with their Switch remotely, to "remote control" their Switch. This remote control allows users to create automated tasks, simulate button presses, simulate touchscreen input and read/write to the memory of the Switch while in-game.
 
 #### Common use cases for sys-botbase:
 - Use ACNHPokerCore in combination with ACNH

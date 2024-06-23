@@ -19,6 +19,6 @@ For more information, you can check out NX-Shell's Github repository [here](http
 
 #### NX-Shell screenshots:
 
-![nx-shell-main](/homebrew/img/nx-shell-main.jpg)
+![nx-shell-main](img/nx-shell-main.jpg)
 
-![nx-shell-menu](/homebrew/img/nx-shell-menu.jpg)
+![nx-shell-menu](img/nx-shell-menu.jpg)

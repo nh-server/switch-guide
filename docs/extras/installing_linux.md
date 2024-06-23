@@ -1,7 +1,7 @@
 # Installing Linux 4 Switch
 
 !!! warning "Have you partitioned your microSD card?"
-    This guide assumes that you've followed the NH-Server guide up until this point, your microSD card should be partitioned accordingly. If you didn't do so, see [this page](/user_guide/all/partitioning_sd_syscfw) of our guide.
+    This guide assumes that you've followed the NH-Server guide up until this point, your microSD card should be partitioned accordingly. If you didn't do so, see [this page](../user_guide/all/partitioning_sd_syscfw.md) of our guide.
 
 Linux 4 Switch is a sister project to Switchroot Android--it uses a similar kernel but provides a variety of Linux distributions.The available distributions at this time are:
 

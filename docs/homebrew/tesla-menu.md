@@ -3,7 +3,7 @@
 Tesla-Menu is an overlay menu developed by [WerWolv](https://github.com/WerWolv), Tesla-Menu is comparable to Rosalina menu on the 3DS and its purpose is to be able to load community made overlays for Homebrew apps and sysmodules that can be accessed at any time. Below you can find common use cases for Tesla-Menu. The official Github page for Tesla-Menu can be found [here](https://github.com/WerWolv/Tesla-Menu).
 
 !!! note "Dependencies"
-    Tesla-Menu is dependent on a [sysmodule](../../homebrew#terminologies) called `nx-ovlloader`, this sysmodule is responsible for loading `ovlmenu.ovl` from `sd:/switch/.overlays`.
+    Tesla-Menu is dependent on a [sysmodule](index.md#terminologies) called `nx-ovlloader`, this sysmodule is responsible for loading `ovlmenu.ovl` from `sd:/switch/.overlays`.
 
 #### Common use cases for Tesla-Menu:
 - Load community made Tesla-Menu overlays

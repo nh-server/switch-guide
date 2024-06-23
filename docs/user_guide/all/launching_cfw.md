@@ -46,7 +46,7 @@ You will now be able to launch the Homebrew Menu by opening the album or by hold
 
 ### **About the included Homebrew apps**
 
-See the [Homebrew](/homebrew/) tab for information about what the included Homebrew apps do and if you want to check out more Homebrew apps and read about sysmodules like MissionControl, ldn_mitm, sys-con and more.
+See the [Homebrew](../../homebrew/index.md) tab for information about what the included Homebrew apps do and if you want to check out more Homebrew apps and read about sysmodules like MissionControl, ldn_mitm, sys-con and more.
 
 If you wish to install more homebrew apps, place them (`.nro` files) in the `switch` folder on your microSD card.
 

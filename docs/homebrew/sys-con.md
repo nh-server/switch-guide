@@ -1,6 +1,6 @@
 ### **Information**
 
-sys-con is a [sysmodule](../../homebrew#terminologies) that allows you to use normally-unsupported controllers as if they were natively supported, like PS3, PS4, PS5 and Xbox One S/X controllers via USB. The full supported feature and controller list can be found on the official Github repository [here](https://github.com/cathery/sys-con) including usage instructions and configuration options.
+sys-con is a [sysmodule](index.md#terminologies) that allows you to use normally-unsupported controllers as if they were natively supported, like PS3, PS4, PS5 and Xbox One S/X controllers via USB. The full supported feature and controller list can be found on the official Github repository [here](https://github.com/cathery/sys-con) including usage instructions and configuration options.
 
 -----
 

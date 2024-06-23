@@ -1,6 +1,6 @@
 # Making Essential Backups
 
-## Making a NAND Backup
+### **Making a NAND Backup**
 
 !!! danger "Important"
 	A NAND backup is crucial to have, it's a full backup of the internal storage of your Switch and can be used to restore the device to a working state in case of emergencies. **DO NOT SKIP THIS STEP**
@@ -9,7 +9,7 @@
 
 	It's highly recommended that you use an microSD card that is formatted to FAT32 and has at least 32 gigabytes of space free. This will still work on smaller cards, but it's not ideal.
 
-### **Instructions:**
+#### **Instructions:**
 
 1. Enter RCM and inject the Hekate payload.
     - If you use a modchipped Switch, you can simply just turn your Switch on with the Hekate payload renamed to `payload.bin` on the root of your SD.
@@ -37,11 +37,11 @@
 
 <div class="grid cards" markdown>
 
--   Click the button below to continue to Launching emuMMC!
-    [Launching CFW (emuMMC) :material-arrow-right:](/user_guide/all/launching_cfw/#__tabbed_1_1){ .md-button .md-button--primary }
+-   Click the button below to continue to Launching **emuMMC**!
+    [Launching CFW (emuMMC) :material-arrow-right:](launching_cfw.md#__tabbed_1_1){ .md-button .md-button--primary }
 
--   Click the button below to continue to Launching sysCFW!
-    [Launching CFW (sysCFW) :material-arrow-right:](/user_guide/all/launching_cfw/#__tabbed_1_2){ .md-button .md-button--primary }
+-   Click the button below to continue to Launching **sysCFW**!
+    [Launching CFW (sysCFW) :material-arrow-right:](launching_cfw.md#__tabbed_1_2){ .md-button .md-button--primary }
 
 </div>
 

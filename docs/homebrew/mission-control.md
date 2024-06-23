@@ -1,6 +1,6 @@
 ### **Information**
 
-MissionControl is a [sysmodule](../../homebrew#terminologies) that allows you to pair normally-unsupported controllers as if they were natively supported, like PS3, PS4, PS5 and Xbox One S/X controllers via Bluetooth. The full supported controller list can be found on the official Github repository [here](https://github.com/ndeadly/MissionControl) including pairing instructions for the supported controllers.
+MissionControl is a [sysmodule](index.md#terminologies) that allows you to pair normally-unsupported controllers as if they were natively supported, like PS3, PS4, PS5 and Xbox One S/X controllers via Bluetooth. The full supported controller list can be found on the official Github repository [here](https://github.com/ndeadly/MissionControl) including pairing instructions for the supported controllers.
 
 -----
 

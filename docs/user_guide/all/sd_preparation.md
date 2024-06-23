@@ -1,3 +1,5 @@
+# **microSD Card preparations**
+
 ### **Information**
 
 We will now place the required files for the Atmosphère custom firmware and some additional homebrew files on the microSD card.
@@ -12,7 +14,7 @@ Atmosphere has its own bootloader, called fusee. For the purposes of this guide 
 #### **What you need:**
 - The latest release of <a href="https://github.com/CTCaer/Hekate/releases/" target="_blank">Hekate</a> (Download the `hekate_ctcaer_(version).zip` release of hekate)
 - The Hekate config file: <a href="../../../files/emu/hekate_ipl.ini" download>hekate_ipl.ini</a>
-- The DNS-MITM DNS redirection config: <a href="../../../files/emummc.txt" download>emummc.txt</a>
+- The DNS.MITM DNS redirection config: <a href="../../../files/emummc.txt" download>emummc.txt</a>
 - The bootlogo zip folder: <a href="../../../files/bootlogos.zip" download>bootlogos.zip</a>
 - The latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a>. Download the `atmosphere-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip` release of Atmosphere.
 - The latest release of <a href="https://github.com/J-D-K/JKSV/releases" target="_blank">JKSV</a> (Download the `JKSV.nro` release of JKSV)

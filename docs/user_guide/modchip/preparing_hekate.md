@@ -1,27 +1,32 @@
-### **Payload and bootloader folder placement**
+# **Payload and bootloader folder placement**
 
-To get ready for formatting and/or partitioning your microSD card, we will need to prepare your it with the required files.
+To get ready for formatting and/or partitioning your microSD card, we will need to prepare and place the required files on the microSD card.
+
+!!! danger "Following the guide will delete everything on your microSD card!"
+    Later in the guide, you will be formatting and/or partitioning your microSD card. This means that all data on the microSD card will be lost. Now is a good time to back up *all* of its data to a safe place (for example, on your PC or external drive) so that you can restore it later. You can do this by following the instructions below.
+
+-----
+
 
 #### **What you need:**
 - The latest release of <a href="https://github.com/CTCaer/Hekate/releases/" target="_blank">Hekate</a> (Download the `hekate_ctcaer_(version).zip` release of Hekate)
 - Your microSD card
 
-
 #### **Instructions:**
 
 1. Extract the Hekate `.zip` to a location on your computer.
 2. Insert your microSD card into your computer.
-3. Inside of the extracted Hekate folder, you will find `/bootloader` and `hekate_ctcaer_(version).bin`
-4. Copy the `bootloader` folder and `hekate_ctcaer_(version).bin` payload to the root of your microSD card.
-5. Rename the `hekate_ctcaer_(version).bin` payload to `payload.bin`
-6. Copy the `Nintendo` folder from the root of your microSD to a safe space on your device.
+3. Copy the `Nintendo` folder (and any other important data) from the root of your microSD card to a safe space on your device.
+4. Inside of the extracted Hekate folder, you will find the `bootloader` folder and the `hekate_ctcaer_(version).bin` payload.
+5. Copy the `bootloader` folder and `hekate_ctcaer_(version).bin` payload to the root of your microSD card.
+6. Rename the `hekate_ctcaer_(version).bin` payload to `payload.bin`
 7. Insert your microSD card back into your Switch, then turn it on.
 8. You should now be loaded into the Hekate GUI (Nyx), pictured below, within seconds.
-![Nyx](/user_guide/all/img/nyx.bmp){ width="600" }
+![Nyx](../all/img/nyx.bmp){ width="600" }
     - If you are unable to load into Nyx, consult the warning message below.
 
 !!! warning
-    If your Switch does not load into the Hekate GUI, or shows a `NO SD`/`No Payload` screen when turning on the console, ensure that you inserted your microSD card and that Hekate's `payload.bin` is on the root of the microSD card.
+    If your Switch does not load into the Hekate GUI, or shows a `No SD Card`/`No Payload` screen when turning on the console, ensure that you inserted your microSD card and that Hekate's `payload.bin` is on the root of the microSD card.
 
 
 [Continue to choosing your CFW environment :material-arrow-right:](../all/cfw_environment.md){ .md-button .md-button--primary }

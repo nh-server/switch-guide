@@ -16,7 +16,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
     - The latest release of <a href="https://github.com/eliboa/TegraRcmGUI/releases" target="_blank">TegraRcmGUI</a> (either the MSI or zip)
     - A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
-    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (`hekate_ctcaer_(version).bin`) is located in the `hekate_ctcaer_(version).zip`.
+    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (`hekate_ctcaer_(version).bin`) is located inside of the `hekate_ctcaer_(version).zip`.
 
     #### **Instructions:**
 
@@ -43,10 +43,10 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
     #### **What you need:**
 
-    - The latest release of <a href="https://github.com/DavidBuchanan314/fusee-nano" target="_blank">fusee-nano</a> (also available on the [AUR](https://aur.archlinux.org/packages/fusee-nano))
+    - The latest release of [fusee-nano](https://github.com/DefenderOfHyrule/fusee-nano/releases) (also available on the [AUR](https://aur.archlinux.org/packages/fusee-nano))
          - If you use Arch Linux or a derivative distro, the AUR package is recommended.
     - A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
-    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (`hekate_ctcaer_(version).bin`) is located in the `hekate_ctcaer_(version).zip`.
+    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (`hekate_ctcaer_(version).bin`) is located inside of the `hekate_ctcaer_(version).zip`.
 
     #### **Instructions:**
 
@@ -59,8 +59,19 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
 === "Mac"
 
-    #### TBD
+    #### **What you need:**
 
+    - The latest release of [CrystalRCM](https://github.com/prayerie/CrystalRCM/releases) (the `CrystalRCM.(version).dmg` file)
+    - A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
+    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (`hekate_ctcaer_(version).bin`) is located inside of the `hekate_ctcaer_(version).zip`.
+
+    #### **Instructions:**
+
+    1. Download the latest release of CrystalRCM.
+    2. Connect your Switch in RCM to your PC using the USB cable, make sure it's also detected in CrystalRCM.
+    2. Mount the `CrystalRCM.(version).dmg` file, open the mounted disk image in File Explorer and copy the `CrystalRCM.app` file inside of the mounted disk image to any location on your Mac.
+    3. Open the `CrystalRCM.app` app, then click `Payload...` and select the `hekate_ctcaer_X.X.X.bin` file.
+    4. Once selected, click `Push!`. The payload should now be injected successfully.
 
 === "Android"
 
@@ -72,7 +83,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
     - If your device has a USB-C port, you may use a C-C cable
     - If your device only has a Micro USB port, you will need a USB OTG adapter and a USB A-C cable
     - This **will not work** on every phone!
-    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (`hekate_ctcaer_(version).bin`) is located in the `hekate_ctcaer_(version).zip`.
+    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (`hekate_ctcaer_(version).bin`) is located inside of the `hekate_ctcaer_(version).zip`.
 
     #### **Instructions:**
 
@@ -94,7 +105,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
     !!! warning "About USB-C"
         If your Chromebook has a USB-C port, do note that this will not work using a C-C cable.
 
-    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (`hekate_ctcaer_(version).bin`) is located in the `hekate_ctcaer_(version).zip`.
+    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (`hekate_ctcaer_(version).bin`) is located inside of the `hekate_ctcaer_(version).zip`.
 
     #### **Instructions:**
 
@@ -105,12 +116,17 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
     5. Press the Connect button and the payload will be injected.
 
 !!! danger "If nothing happens after you send the payload"
-    If your console's screen remains black after you've sent Hekate (or any other payload), it's possible your payload was corrupted, or that your console is patched.   If your payload injector program shows         that zero or 0x0000 bytes were sent, then it is patched. This isn't a one-time glitch or up for debate; it is patched. Consider an alternate method that isn't via RCM.
+    If your console's screen remains black after you've sent Hekate (or any other payload), it's possible your payload was corrupted, or that your console is patched. If your payload injector program shows that zero or 0x0000 bytes were sent, then it is patched. This isn't a one-time glitch or up for debate; it is patched. Consider an alternate method that isn't via RCM.
 
 -----
 
 ### **Preparing Hekate**
 We will prepare the microSD card for formatting/partitioning before going to the next page. Removing the microSD card while in Hekate is safe so turning off the console is not necessary and keeping it on will save time that would be spent reinjecting the payload.
+
+!!! danger "Following the guide will delete everything on your microSD card!"
+    Later in the guide, you will be formatting and/or partitioning your microSD card. This means that all data on the microSD card will be lost. Now is a good time to back up *all* of its data to a safe place (for example, on your PC or external drive) so that you can restore it later. You can do this by following the instructions below.
+
+-----
 
 #### **What you need:**
 - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target ="_blank">Hekate</a>.
@@ -118,13 +134,13 @@ We will prepare the microSD card for formatting/partitioning before going to the
 
 #### **Instructions:**
 1. Without turning your Switch off, remove the microSD card from the Switch.
-2. Insert your Switch's microSD card into your computer.
-3. Extract the Hekate `.zip` to a location on your computer
-4. Inside the extracted Hekate folder you will find a folder named `bootloader`.
-5. Copy the `bootloader` folder to the root of your microSD card.
-6. Copy the `Nintendo` folder from the root of your microSD to a safe space on your device.
+2. Insert your microSD card into your computer.
+3. Copy the `Nintendo` folder (and any other important data) from the root of your microSD card to a safe space on your device.
+4. Extract the Hekate `.zip` to a location on your computer
+5. Inside the extracted Hekate folder you will find a folder named `bootloader`.
+6. Copy the `bootloader` folder to the root of your microSD card.
 7. Put your microSD card back into your Switch.
 8. Use volume up and volume down to navigate the Hekate menu. Hover over 'reload' and press the power button to select. Your screen should now have the Hekate GUI (Nyx) pictured below.
-![Nyx](/user_guide/all/img/nyx.bmp){ width="600" }
+![Nyx](../all/img/nyx.bmp){ width="600" }
 
 [Continue to choosing your CFW environment :material-arrow-right:](../all/cfw_environment.md){ .md-button .md-button--primary }

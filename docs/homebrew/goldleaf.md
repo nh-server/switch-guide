@@ -20,4 +20,4 @@ And a *lot* more, which you can view on Goldleaf's Github repository [here](http
 
 #### Goldleaf screenshots:
 
-![main menu](/homebrew/img/goldleaf.jpg)
+![main menu](img/goldleaf.jpg)

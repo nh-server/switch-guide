@@ -1,11 +1,5 @@
 # Formatting and/or partitioning the microSD Card
 
-!!! danger "This will delete everything on your microSD card"
-	Doing this will delete all your data from your microSD card, be warned! Back up your `Nintendo` folder (if you used your microSD card for game storage already) and any other folders/files on the root of your microSD card beforehand using the instructions below.
-    The Nintendo folder contains downloaded necessary game data (the data required for games to actually run).
-
------
-
 ### **What you need:**
 
 - Your Switch loaded into Hekate
@@ -15,7 +9,7 @@
 1. Navigate to `Tools` > `Partition SD card`
 2. Navigate to `Next Step` at the bottom right, then select `Start` in the menu that appears.
     - If you wish to install Android and/or Linux later, partition your microSD card here accordingly by moving the sliders you see during this step. We recommend setting the `Android (USER)` and `Linux (EXT4)` sliders to at least 16GB.
-    - For Android; Select `Legacy` partitioning if prompted. As of now, you cannot do anything with Dynamic as Android 13+ cannot run on the Switch yet. Legacy and Dynamic partitioning are NOT intercompatible.
+    - For Android; Select `Legacy` partitioning for Android 10/11 and `Dynamic` partitioning for Android 14. Legacy and Dynamic partitioning are **NOT** intercompatible.
 3. Once done, go to Hekate's `Home` menu and then `Tools` > `USB tools` > `SD card` and plug your Switch into your PC via USB.
 4. Continue with the next step of the guide.
     - Your microSD card should now be accessible on your PC. If not, consult the warning message below.

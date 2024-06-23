@@ -1,6 +1,6 @@
 ### **Information**
 
-ldn_mitm is a [sysmodule](../../homebrew#terminologies) that allows you to route the local wireless ad-hoc network traffic of the Switch via the network your Switch is connected to, essentially allowing "LAN" functionality between consoles and emulators using ldn_mitm. The official Github repository for ldn_mitm can be found [here](https://github.com/spacemeowx2/ldn_mitm).
+ldn_mitm is a [sysmodule](index.md#terminologies) that allows you to route the local wireless ad-hoc network traffic of the Switch via the network your Switch is connected to, essentially allowing "LAN" functionality between consoles and emulators using ldn_mitm. The official Github repository for ldn_mitm can be found [here](https://github.com/spacemeowx2/ldn_mitm).
 
 #### Common use cases for ldn_mitm:
 - It can be used in combination with [lan-play](http://lan-play.com/install-switch)

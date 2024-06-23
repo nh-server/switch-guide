@@ -23,10 +23,10 @@ FTPD is simply an FTP server for the Switch, it can be used to transfer files wi
 
 #### FTPD's main menu:
 
-![FTPD](/homebrew/img/ftpd.jpg)
+![FTPD](img/ftpd.jpg)
 
 -----
 
 #### Additional information:
 
-FTPD can also run in the form of a background process (sysmodule), called sys-ftpd. It can be found [here](https://github.com/rehius/usk/releases/tag/PicoFly_2.75_2023.09.09_08-16), usage and configuration options are mentioned there as well.
+FTPD can also run in the form of a background process (sysmodule), called sys-ftpd. It can be found [here](https://github.com/cathery/sys-ftpd), usage and configuration options are mentioned there as well.

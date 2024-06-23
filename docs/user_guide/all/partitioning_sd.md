@@ -1,11 +1,5 @@
 # Partitioning the microSD Card and creating the emuMMC
 
-!!! danger "This will delete everything on your microSD card"
-    This process includes formatting the microSD card, which means all data on it will be lost. Now is a good time to back up *all* of its data (namely the `/Nintendo` folder) to a safe place so that you can restore it later. You can do this by following the instructions below.
-    The Nintendo folder contains downloaded necessary game data (the data required for games to actually run). You will need to copy the Nintendo folder to `SD:/emuMMC/RAW1/` after creating the emuMMC.
-
------
-
 ### **What you need:**
 
 - Your Switch loaded into Hekate
@@ -16,7 +10,7 @@
 2. Set the `emuMMC (RAW)` slider to `29 FULL` in the middle of the bar.
     - Set the `emuMMC (RAW)` slider to `58 FULL` if you're on an OLED Switch.
     - If you wish to install Android and/or Linux later, partition your microSD card here accordingly by moving the sliders you see during this step. We recommend setting the `Android (USER)` and `Linux (EXT4)` sliders to 16GB minimum.
-    - For Android; Select `Legacy` partitioning if prompted. As of now, you cannot do anything with Dynamic as Android 13+ cannot run on the Switch yet. Legacy and Dynamic partitioning are NOT intercompatible.
+    - For Android; Select `Legacy` partitioning if you wish to install Android 10/11 and `Dynamic` partitioning if you wish to install Android 14. Legacy and Dynamic partitioning are **NOT** intercompatible.
 3. Navigate to `Next Step` at the bottom right, then select `Start` in the menu that appears.
 4. From hekate's `Home` menu, navigate to `emuMMC` > `Create emuMMC` > `SD Partition` > `Part 1` and wait for Hekate to complete creating the emuMMC.
 5. Close the emuMMC creation menu by navigating to the `Close` button, then navigate to `Change emuMMC` > `SD RAW 1` and press the `Close` button twice in the top right to return to hekate's `Home` menu.

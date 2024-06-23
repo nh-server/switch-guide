@@ -1,6 +1,6 @@
 ### **Information**
 
-sys-clk is a [sysmodule](../../homebrew#terminologies) that allows you to overclock the hardware of your Switch. The usage, configuration and clock speed information can be found on the official Github repository [here](https://github.com/retronx-team/sys-clk)
+sys-clk is a [sysmodule](index.md#terminologies) that allows you to overclock the hardware of your Switch. The usage, configuration and clock speed information can be found on the official Github repository [here](https://github.com/retronx-team/sys-clk)
 
 !!! danger "Limits of sys-clk"
     sys-clk has limits for a reason, which is to not damage the hardware of your Switch. Using ***any*** modified version of sys-clk puts your Switch at risk of hardware failure. We do not support any modified version of sys-clk nor should you ever touch them. Overclocking is not something you should be doing 24/7 as overclocking in general will always degrade/wear out the hardware of your Switch faster and you should know what you're doing if you *do* decide to do so.
