@@ -30,7 +30,7 @@ On the Switch in particular, you need CFW to run almost all available homebrew. 
 -----
 
 ### **What are custom operating systems?**
-Custom operating systems (OSes) are alternative system software installations, like Android or Linux, that install alongside the default Switch OS. These are usually perfect for powerusers who want to extend the functionality of their console beyond that of a gaming console, transforming Nintendo Switch to a full-fledged hybrid tablet or desktop. These custom OSes run completely independent of the Switch OS, meaning that anything you do in a custom OS cannot be reported back to Nintendo. Custom operating systems are not "emulations"; they run natively on the Switch's Tegra X1 APU.
+Custom operating systems (OSes) are alternative system software installations, like Android or Linux, that install alongside the default Switch OS. These are usually perfect for powerusers who want to extend the functionality of their console beyond that of a gaming console, transforming Nintendo Switch to a full-fledged hybrid tablet or desktop. These custom OSes run completely independent of the Switch OS, meaning that anything you do in a custom OS cannot be reported back to Nintendo. Custom operating systems are not "emulated"; they run natively on the Switch's Tegra X1 SoC.
 
 This guide will give you the opportunity to set aside space on your microSD to install these custom OSes onto, if you desire. It is important to note that these installations are optional; you do not need to install any custom OS in order to complete this guide and install Atmosphère. However, it is better to decide sooner rather than later, as the installation process involves formatting your microSD card.
 
