@@ -39,22 +39,27 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
     4. Select `libusbK (v3.1.0.0)` in the driver list.
     5. Click `Install Driver` and wait for the installation to finish.
 
-=== "Mac / Linux"
+=== "Linux"
 
     #### **What you need:**
 
-    - The latest release of <a href="https://github.com/nh-server/fusee-interfacee-tk/releases" target="_blank">fusee-interfacee-tk</a> (also avaliable on the [AUR](https://aur.archlinux.org/packages/fusee-interfacee-tk-bin))
+    - The latest release of <a href="https://github.com/DavidBuchanan314/fusee-nano" target="_blank">fusee-nano</a> (also available on the [AUR](https://aur.archlinux.org/packages/fusee-nano))
          - If you use Arch Linux or a derivative distro, the AUR package is recommended.
     - A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
     - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (`hekate_ctcaer_(version).bin`) is located in the `hekate_ctcaer_(version).zip`.
 
     #### **Instructions:**
 
-    1. Download and run the payload injector (if you're on Linux, you will need to run this program as root, use `sudo`, or follow the instructions at [Linux injection without root](../../extras/adding_udev.md)).
+    1. Download and run the payload injector from your terminal. You will need to run the injector as root, unless you follow the instructions at [Linux injection without root](../../extras/adding_udev.md).
     2. Connect your Switch in RCM to your PC using the USB cable.
-    3. Wait for your Switch to be shown as found in the injector.
-    4. Press `Select Payload`, and navigate to and select the `hekate_ctcaer_X.X.X.bin` file.
-    5. Click `Send Payload!` to launch the payload you selected.
+    3. Run fusee-nano.
+        - This can be done with `./fusee-nano /path/to/hekate-ctcaer_X.X.X.bin`
+        - As mentioned earlier, unless you have followed the instructions at [Linux injection without root](../../extras/adding_udev.md), this will require root to run. For most systems, this is done with `sudo`
+
+
+=== "Mac"
+
+    #### TBD
 
 
 === "Android"
