@@ -52,8 +52,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
     1. Download and run the payload injector from your terminal. You will need to run the injector as root, unless you follow the instructions at [Linux injection without root](../../extras/adding_udev.md).
     2. Connect your Switch in RCM to your PC using the USB cable.
-    3. Run fusee-nano.
-        - This can be done with `./fusee-nano /path/to/hekate-ctcaer_X.X.X.bin`
+    3. Run fusee-nano with: `./fusee-nano /path/to/hekate-ctcaer_X.X.X.bin`
         - As mentioned earlier, unless you have followed the instructions at [Linux injection without root](../../extras/adding_udev.md), this will require root to run. For most systems, this is done with `sudo`
 
 
