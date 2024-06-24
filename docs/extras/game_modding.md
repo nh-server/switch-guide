@@ -30,7 +30,7 @@ The `romfs` folder contains modified assets in the way the game would normally r
 
 If you want to disable mods on launch of a game, hold the `L` button before launching the game and launch the game normally, `L` is the default button to do this. This will disable all modifications (like cheats and mods) that you have configured for your game.
 
-The modding process is also ***not*** the same for every game, for example:
+While most games only require Atmosphere's LayeredFS to enable game modding, there are some games that may require more specialized setup. For example:
 
 * Modding Super Smash Bros. requires [ARCropolis](https://github.com/Raytwo/ARCropolis) and [skyline](https://github.com/skyline-dev/skyline), ARCropolis looks for mods in the `sd:/ultimate/mods` directory on your microSD card.
 
