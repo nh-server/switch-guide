@@ -34,7 +34,7 @@ The modding process is also ***not*** the same for every game, for example:
 
 * Modding Super Smash Bros. requires [ARCropolis](https://github.com/Raytwo/ARCropolis) and [skyline](https://github.com/skyline-dev/skyline), ARCropolis looks for mods in the `sd:/ultimate/mods` directory on your microSD card.
 
-* Modding Splatoon 3 requires the [Flexlion](https://flexlion.github.io/) mod menu.
+* Modding Breath of the Wild and Tears of the Kingdom with multiple mods requires the use of [BCML](https://github.com/NiceneNerd/BCML) or [UKMM](https://github.com/NiceneNerd/UKMM) and [TKMM](https://github.com/TKMM-Team/Tkmm) respectively.
 
 * Animal Crossing: New Horizons requires some extra setup for mods to work. The folder that would normally be called `romfs` has to be called `romFs` and you'll need to create an empty file inside of `atmosphere/contents/01006F8002326000/romFs/System/Resource/` called `ResourceSizeTable.srsizetable`. More information on this can be found on the [ac-modding website](https://ac-modding.com/ACNH/mods.html).
 
