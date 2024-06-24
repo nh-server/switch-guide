@@ -45,6 +45,6 @@ The modding process is also ***not*** the same for every game, for example:
 If your game crashes during launch, hold the `L` button to see if disabling all modifications for your game solves the issue. If so, delete the most recently added mod(s) for your game.
 
 #### **My mods aren't showing up in-game!**
-Assuming you've followed the installation structions successfully, this is probably due to the archive bit being set on one or more folders/files on your microSD card. This is usually the result of copying files to a microSD card via a Mac. If you are experiencing this issue, try running the archive bit fixer utility via Hekate for all files.
+Assuming you've followed the installation instructions successfully, this is probably due to the archive bit being set on one or more folders/files on your microSD card. This is usually the result of copying files to a microSD card via a Mac. If you are experiencing this issue, try running the archive bit fixer utility via Hekate for all files.
 
 This can be done by booting into Hekate and going to `Tools` > `Arch bit • RCM Touch • Pkg1/2` > `Fix Archive Bit`.

@@ -110,6 +110,6 @@ Using NXTheme Installer, you can install and create unique styles and layouts fo
 
 #### **The NXTheme installer crashes when I launch it:**
 
-This is probably due to the archive bit being set on either the app or the nxthemes. This is usually the result of copying files to a microSD card via a Mac. If you are experiencing this issue, try running the archive bit fixer utility via Hekate for all files.
+This is probably due to the archive bit being set on either the app or the `.nxtheme` files. This is usually the result of copying files to a microSD card via a Mac. If you are experiencing this issue, try running the archive bit fixer utility via Hekate for all files.
 
 This can be done by booting into Hekate and going to `Tools` > `Arch bit • RCM Touch • Pkg1/2` > `Fix Archive Bit`.
