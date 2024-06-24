@@ -76,7 +76,7 @@ This guide will work on first-generation (V1) and modchipped Switch consoles in 
     - A successfully modchipped Switch
 
     If you choose the emuMMC path introduced later in the guide, you will also need a microSD card that is *at least* 128 gigabytes. In this path, it'll be important to disable the [Automatic Save Data Cloud](https://en-americas-support.nintendo.com/app/answers/detail/a_id/41209) function beforehand, as well as making sure [the Switch is set as the primary console](https://en-americas-support.nintendo.com/app/answers/detail/a_id/22453/~/how-to-change-the-primary-console-for-your-nintendo-account). <br>
-    If you must use a smaller microSD card, you can choose to use the sysNAND CFW path, after assuming the risks involved.
+    If you must use a smaller microSD card, you can choose to use the sysCFW path, after assuming the risks involved.
 
     Additionally, on a V1 "unpatched" Switch, you will need a way to access the ReCovery Mode (this will be further explained in the "Entering RCM section"). While possible with household tools, you may want to shell money out for a "jig" that inserts into the Joy-Con rail to reliably enable RCM.
 
@@ -117,8 +117,8 @@ Furthermore, we resent any implication to the contrary.
       - **Q: Why do I need to set my console as primary before starting this guide?** <br>
             A: The Switch will otherwise try to connect to Nintendo servers before starting apps, which can lead to unexpected delays and make emuMMCs completely unusable.
 
-      - **Q: Can I follow this guide if I have a smaller microSD card, and what are the risks involved in choosing the sysNAND CFW path?** <br>
-            A: Nothing stops you from using CFW on your sysNAND, but it is recommended for first-timers to get familiar with CFW by starting with an emuMMC. Running CFW on sysNAND can risk bricking your console's internal system software, stopping it from turning on even without starting the console via RCM or from your modchip. It also risks [bans](https://nx.eiphax.tech/ban.html).
+      - **Q: Can I follow this guide if I have a smaller microSD card, and what are the risks involved in choosing the sysCFW path?** <br>
+            A: Nothing stops you from using sysCFW, but it is recommended for first-timers to get familiar with CFW by starting with an emuMMC. If used improperly, running sysCFW can cause software bricks and/or [bans](https://nx.eiphax.tech/ban.html).
 
       - **Q: Are there any specific restrictions or limitations imposed by Nintendo on consoles running custom firmware and homebrew?** <br>
             A: Nintendo has shown a distinct tolerance for users using CFW while online. They __do not__ ban for the presence of CFW, they ban for misbehavior - such as piracy or cheating online. Otherwise, you are treated like all other users.
