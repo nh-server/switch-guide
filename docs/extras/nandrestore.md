@@ -1,9 +1,9 @@
 ## Restore a NAND backup to the Switch
 
 !!! danger "Warning:" 	
-	-This will reset all of your saves, games, system version and other system settings back to a point when you made the the nand backup. Keep this in mind, as you probably don't have to restore a nand backup unless you have bricked your Switch or want to go back online safely after using cfw.
+	- This will reset all of your saves, games, system version and other system settings back to the point of when you made the NAND backup. Keep this in mind, as you probably don't have to restore a NAND backup unless you have bricked your Switch or want to go back online safely after using CFW.
 
-	-If you're going to restore an old NAND which will downgrade your firmware it's best to create a second NAND backup before restoring the first one in case something goes wrong.
+	- If you're going to restore an old NAND which will downgrade your firmware it's best to create a second NAND backup before restoring the first one in case something goes wrong.
 
 ### What you need:
 - Your `rawnand.bin` (Combined or in 15 or 30 parts)
@@ -21,7 +21,7 @@ Before we start, check if you have a tree of folders called `backup/[8 Character
 
 	1. Launch the latest Hekate payload on your Switch.
 	2. Navigate to `Tools` > `Backup eMMC` > `eMMC BOOT0 & BOOT1` and let it do its thing.
-	3. Wait for the process to complete. When it's completed, you now have a `backup/[8 Character NAND id]/restore` folder on your microSD card. Continue with step 1 of the guide.
+	3. Wait for the process to complete. When it's completed, you now have a `backup/[8 Character NAND id]/restore` folder on your microSD card. Continue with step 1 of the instructions below.
 
 1. Enter RCM and inject the Hekate payload.
     - If you use a modchipped Switch, you can simply just turn your Switch on with the Hekate payload renamed to `payload.bin` on the root of your SD.

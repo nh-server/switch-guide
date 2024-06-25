@@ -12,7 +12,7 @@ Unlike systems such as the DSi, Wii, or 3DS, Switch CFW is currently volatile. I
     #### Instructions:
 
     1. From Hekate's `Home` menu, navigate to the `Launch` menu.
-    2. Find `Atmosphere FSS0 EmuMMC` and launch it.
+    2. Find `Atmosphere FSS0 emuMMC` and launch it.
 
     Hekate is now booting into your emuMMC. To verify that your emuMMC launched properly, open System Settings and navigate to System. You should see `AMS` next to the version number (`AMS` indicating that you're booted into Atmosphere), as well as an `E` at the end (indicating you are booted into emuMMC).
 
