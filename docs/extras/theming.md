@@ -12,8 +12,7 @@ You can create unique styles and layouts for your Switch Home Menu.
 
 	Follow the `Installing a theme` section if you want to install a theme
 
-	Follow the `Installing a custom font` sectio
-	n if you want to install a custom font
+	Follow the `Installing a custom font` section if you want to install a custom font
 
 &nbsp;
 
