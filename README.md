@@ -2,8 +2,6 @@
 
 [The guide can be found here!](https://switch.hacks.guide)
 
-[![Build Status](https://travis-ci.com/nh-server/switch-guide.svg?branch=master)](https://travis-ci.com/nh-server/switch-guide)
-
 Nintendo Switch homebrew guide written by staff members of the Nintendo Homebrew Discord server.
 
 ## Development
