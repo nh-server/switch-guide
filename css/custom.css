@@ -1,16 +1,27 @@
-summary {
-  cursor: pointer;
-  outline: none;
-}
 
-code {
-  white-space: normal !important;
-}
+@media screen and (min-width: 76.25em) {
+    .md-nav--lifted > .md-nav__list > .md-nav__item--active > .md-nav__link {
+        position: absolute;
+        box-shadow: none;
+        padding-top: 4px;
+    }
 
-body {
-    color: #E0E0E0;
-}
+    .md-sidebar__scrollwrap {
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 10px;
+        height: fit-content !important;
+    }
 
-a:not([class]) {
-  color: #00A3D1;
+    .md-sidebar__scrollwrap > .md-sidebar__inner {
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+
+    .md-sidebar.md-sidebar--primary {
+        order: 1;
+    }
+
+    .md-sidebar__scrollwrap:not(:has(.md-nav.md-nav--secondary)) {
+        background: transparent;
+    }
 }
