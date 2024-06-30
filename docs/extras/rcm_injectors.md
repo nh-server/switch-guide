@@ -1,4 +1,4 @@
-# RCM Payload Injectors 
+# RCM Payload Injectors
 
 There are currently multiple RCM payload injectors available from multiple different companies and individuals. These devices remove the need to use a computer or smartphone when hacking an unpatched Switch. Each injector has its own advantages and disadvantages, listed below:
 
