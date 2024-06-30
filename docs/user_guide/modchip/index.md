@@ -1,8 +1,19 @@
 ### **Introduction to Modchips**
 
-!!! info "information"
-    Unlike "unpatched" consoles, modchips enable CFW via CPU voltage glitching, which bypass bootROM firmware verifications. It allows a ``payload.bin`` file to be launched in place of BOOT0, loaded via a modchip firmware module named `sdloader`. This is much different from RCM and its exploit, [fusee-gelee](https://github.com/Qyriad/fusee-launcher/blob/master/report/fusee_gelee.md), which "unpatched" consoles use.
-    Modchips allow any console (like all "patched" consoles) to run CFW!
+### **Prerequisites**
+A modchip is a physical modification to the motherboard of your Switch. It cannot be installed without decent microsoldering experience. You can outsource this work to people who are willing to do the job for you, or you can also view the following guide if you are willing to install one yourself.
+
+[Modchip Installation guide](https://guide.nx-modchip.info/){ .md-button .md-button--primary }
+
+**Note:** The above guide is not hosted or supported by NH Server; we cannot provide support for reviving consoles ruined by inexperience.
+
+-----
+
+### **Information**
+Unlike "unpatched" consoles, modchips enable CFW via CPU voltage glitching, which bypass bootROM firmware verifications. It allows a ``payload.bin`` file to be launched in place of BOOT0, loaded via a modchip firmware module named `sdloader`. This is much different from RCM and its exploit, [fusee-gelee](https://github.com/Qyriad/fusee-launcher/blob/master/report/fusee_gelee.md), which "unpatched" consoles use.
+Modchips allow any console, including all patched consoles, to run CFW!
+
+-----
 
 ### **General knowledge**
 
@@ -33,7 +44,7 @@ If you do decide to follow the recommended emuMMC path later in the guide, make 
 !!! danger "Disclaimer"
     We **ONLY** support the Picofly modchip (the `RP2040 Zero` development board and the "modchip variant" of it). Installing a modchip safely is your responsibility, so if you don't trust yourself, get someone trusted to perform the install.
     There is always a risk of your Switch being rendered dysfunctional when messing with its hardware without proper experience.
-    The NH-Discord server is not for fixing bad modchip installations.
+    The NH-Discord server is not for fixing bad/failed modchip installations.
     We can give advice and installation tips for the installation as long as it's for a Picofly modchip.
 
 [Continue to Preparing Hekate :material-arrow-right:](preparing_hekate.md){ .md-button .md-button--primary }

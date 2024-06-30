@@ -11,11 +11,11 @@ The serial number on the back of the box can possibly tell you which consoles ar
 See <a href="https://gbatemp.net/threads/switch-informations-by-serial-number.481215/" target="_blank">here</a> for an up to date list.
 
 
-### **How do I use the exploit? How can I boot into RCM?**
+### **How do I use fusee-gelee? How can I boot into RCM?**
 
-To launch CFW through the exploit, the Switch needs to be in "Recovery Mode"(RCM).
+To launch CFW through the fusee-gelee, the Switch needs to be in "ReCovery Mode"(RCM).
 The easiest way to enter RCM is by grounding pin 10 in the right joycon rail and holding VOL+ on boot.
-Several methods and designs to do this exist, see [our guide](https://nh-server.github.io/switch-guide/user_guide/emummc/entering_rcm) for more information.
+Several methods and designs to do this exist, see [our guide](user_guide/rcm/entering_rcm.md) for more information.
 Once the Switch is in RCM it needs to be connected to either a computer, phone or dongle to send the exploit and the payload.
 
 This procedure needs to happen every time the Switch boots from a completely "off" state, otherwise the Switch will boot into the stock firmware.
@@ -139,14 +139,15 @@ If you suspect your microSD card is fake or damaged, see the instructions <a hre
 
 
 
-### **My homebrew is not showing up on the menu**
+### **My Homebrew apps are not showing up in the Homebrew menu!**
 
-This is an issue primarily affecting macOS users, but may occur on other devices as well. If you are able to launch the homebrew menu, but you are not seeing some or any of your homebrew, you may need to unset the archive bit with Hekate.
+This is an issue primarily affecting macOS users, but may occur on other devices as well. If you are able to launch the homebrew menu, but you are not seeing some or any of your Homebrew apps, you may need to unset the archive bit with Hekate.
 
-1. Send the Hekate payload to your Switch by following these instructions: [here](https://nh-server.github.io/switch-guide/user_guide/emummc/sending_payload/)
-2. Click on `Tools` on the top menu bar
-3. In the bottom left corner click on `Arch Bit • AutoRCM • Touch • Pkg1/2`
-4. Click on `Fix Archive bit` - this might take a while
-5. Press `Close` in the top right corner
-6. Press `Home` in the top menu bar to get back from where you started
-7. Follow the instructions at the Launching CFW page [here](https://nh-server.github.io/switch-guide/user_guide/emummc/launching_cfw/) to launch Atmosphere.
+1. Inject the Hekate payload using your favorite payload injector.
+    - If you have a modchipped Switch, place the Hekate payload on the root of your microSD card and rename it to payload.bin, reinsert your microSD card into your Switch and turn it on.
+2. Click on `Tools` on the top menu bar.
+3. In the bottom left corner click on `Arch Bit • AutoRCM • Touch • Pkg1/2`.
+4. Click on `Fix Archive bit` - this might take a while.
+5. Press `Close` in the top right corner.
+6. Press `Home` in the top menu bar to get back from where you started.
+7. Follow the instructions at the Launching CFW page [here](user_guide/all/launching_cfw.md/) to launch Atmosphere.

@@ -65,7 +65,7 @@ If your serial number is not listed above, your device is not vulnerable to the 
 | 8.1.0 and up     | [**RCM**](rcm/index.md)               | [**Modchip**](modchip/index.md) (no software exploit)          | [**Modchip**](modchip/index.md) (no software exploit)| [**Modchip**](modchip/index.md) (no software exploit)|
 
 !!! note "About Mariko Switch models"
-    All Mariko (V2) Switch models (`HAC-001(-01)`, `HDH-001`, `HEG-001`) are currently unhackable via software. If **Modchip** is listed as a method for your console model, then that means the device is currently unhackable without a hardware modification. If there are theoretical exploits that may lead to CFW or homebrew for that device, you also have the choice to "wait" for their release. These exploits may (and will likely) never launch and there is **NO ETA**, so what you choose to do is up to you. This guide assumes you have a functional modchip installation if you *do* have a Patched console.
+    All Mariko (V2) Switch models (`HAC-001(-01)`, `HDH-001`, `HEG-001`) are currently unhackable via software. If **Modchip** is listed as a method for your console model, then that means the device is currently unhackable without a hardware modification (modchip). If there are theoretical exploits that may lead to CFW or homebrew for that device, you also have the choice to "wait" for their release. These exploits may (and will likely) never launch and there is **NO ETA**, so what you choose to do is up to you. This guide assumes you have a functional modchip installation if you *do* have a Patched console.
 
 
 ### **Console Preparation**

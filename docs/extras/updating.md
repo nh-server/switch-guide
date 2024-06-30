@@ -15,7 +15,7 @@ When a new version of Atmosphère releases, you can update Atmosphère by follow
 
 
 1. Enter RCM and inject the Hekate payload.
-    - If you use a modchipped Switch, you can simply just turn your Switch on with the Hekate payload renamed to `payload.bin` on the root of your SD.
+    - If you use a modchipped Switch, you can simply just turn your Switch on with the Hekate payload renamed to `payload.bin` on the root of your microSD card.
 2. Navigate to `Tools` > `USB Tools` > `SD Card` and plug your Switch into your PC via USB.
 3. Download the latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a> (Download the `atmosphere-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip` release of Atmosphere.)
 4. Copy *the contents of* the Atmosphere `.zip` file to the root of your microSD card.
@@ -30,7 +30,7 @@ When updating Hekate always make sure to _read the release notes_. They may list
 When a new version of Hekate releases, you can update by following these steps:
 
 1. Enter RCM and inject the Hekate payload.
-    - If you use a modchipped Switch, you can simply just turn your Switch on with the Hekate payload renamed to `payload.bin` on the root of your SD.
+    - If you use a modchipped Switch, you can simply just turn your Switch on with the Hekate payload renamed to `payload.bin` on the root of your microSD card.
 2. Navigate to `Tools` > `USB Tools` > `SD Card` and plug your Switch into your PC via USB.
 3. Download the latest version of <a href="https://github.com/CTCaer/Hekate/releases/" target="_blank">Hekate</a> (Download the `hekate_ctcaer_(version).zip` release of hekate).
 4. Copy the `bootloader` folder from the Hekate `.zip` file to the root of your microSD card. If you are asked to overwrite or merge files while copying, say yes to merge/overwrite them.
@@ -74,12 +74,12 @@ If you keep your emuMMC offline, you will have to use a gamecard to update your 
 
 ### **Updating emuMMC by dumping an updated firmware from your sysMMC**
 
-!!!warning "Do you have an eMMC backup yet?"
+!!! warning "Do you have an eMMC backup yet?"
     Please do not start this guide without doing a RAW GPP and a BOOT 0/1 eMMC backup!
 
     You can learn how to make one [here](../user_guide/all/making_essential_backups.md).
 
-!!!danger "Downgrading"
+!!! danger "Downgrading"
     This guide is made for updating your emuMMC. It is **not** for downgrading. Downgrading at all, sysMMC or emuMMC, is not recommended and not worth it. Downgrading is also very dangerous and can lead to serious complications even when performed correctly.
 
 #### **What you need:**
@@ -88,18 +88,18 @@ If you keep your emuMMC offline, you will have to use a gamecard to update your 
 
 #### **Preparing your microSD card**
 
-1. Load Hekate, start Hekate UMS by going to `Tools` > `USB Tools` > `SD Card`
-2. Connect your Switch to your PC via a USB cable. An Android phone may also work.
-3. Download `TegraExplorer.bin` and place it somewhere on your device (A good idea is to put it where you keep all your Switch payloads like Hekate).
-4. Update Atmosphère and Hekate by using the above guides.
-5. If you haven't already, update the sysMMC to the latest firmware using the steps below.
+1. Boot into Hekate.
+2. Go to `Tools` > `USB Tools` > `SD Card` and connect your Switch to your PC via USB.
+3. Download the latest release of `TegraExplorer.bin` and place it `sd:/bootloader/payloads`.
+
+Make sure your sysMMC is updated before moving onto the instructions below.
 
 #### **Dumping your sysMMC firmware**
 
 1. Make sure your sysMMC is up to date. If your sysMMC is not up-to-date, boot into Stock or sysCFW and update it through the System Settings.
     - sysCFW is recommended since it preserves e-fuses and preserves AutoRCM (if applicable).
 2. Inject `TegraExplorer.bin` using your favourite payload injector (Like you would with Hekate).
-    - If you are using a modchipped Switch, you can simply put `TegraExplorer.bin` in `sd:/bootloader/payloads` on your SD card, then turn on your console and load TegraExplorer via Hekate's payloads menu (`Payloads` > `TegraExplorer.bin`).
+    - If you are using a modchipped Switch, you can simply put `TegraExplorer.bin` in `sd:/bootloader/payloads` on your microSD card, then turn on your console and load TegraExplorer via Hekate's payloads menu (`Payloads` > `TegraExplorer.bin`).
 3. Using the joystick and the A buttons, select `FirmwareDump.te`, then select `Dump sysmmc`.
     - If navigation doesn't work with your Joycons, navigating using the volume buttons and selecting using the power button also works.
       (This is also required for Switch Lite console users.)

@@ -1,6 +1,6 @@
 # Installing Android
 
-This page will detail the setup of the latest release of Switchroot Android (Android 11) for the Nintendo Switch.
+This page will detail the setup of Switchroot Android (Android 11) for the Nintendo Switch.
 
 !!! warning "Have you partitioned your microSD card?"
     This page assumes that you've followed our guide to set up Atmosphère. Before starting, your microSD card needs partitions for Android set up via Hekate.<br>
@@ -9,6 +9,9 @@ This page will detail the setup of the latest release of Switchroot Android (And
 
 !!! info "Looking for Android 10?"
     An unfortunate bug with clocking on Android 11 results in degraded performance for Erista (v1) units on Android 11. Android 10 installation is not covered here, but there is a [guide](https://wiki.switchroot.org/wiki/android/10-q-setup-guide) on the Switchroot Wiki. However, Android 11 is the currently supported version and uses much more updated drivers.
+
+!!! info "Looking for Android 14?"
+    Recently, Android 14 was released for the Switch. You can follow the official [LineageOS guide](https://wiki.lineageos.org/devices/nx_tab/) to install Android 14.
 
  The Switch lacks a cell modem; simply installing Android does not grant your Switch access to cell towers. This means, unlike most Android devices, you will not be able to make emergency phone calls, and you will still need Wi-Fi to access the Internet. You can, however, natively run Android programs and games.
 
