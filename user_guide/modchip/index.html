@@ -666,6 +666,24 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#information" class="md-nav__link">
+    <span class="md-ellipsis">
+      Information
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#general-knowledge" class="md-nav__link">
     <span class="md-ellipsis">
       General knowledge
@@ -1651,11 +1669,15 @@
   <h1>Introduction</h1>
 
 <h3 id="introduction-to-modchips"><strong>Introduction to Modchips</strong><a class="headerlink" href="#introduction-to-modchips" title="Permanent link">&para;</a></h3>
-<div class="admonition info">
-<p class="admonition-title">information</p>
+<h3 id="prerequisites"><strong>Prerequisites</strong><a class="headerlink" href="#prerequisites" title="Permanent link">&para;</a></h3>
+<p>A modchip is a physical modification to the motherboard of your Switch. It cannot be installed without decent microsoldering experience. You can outsource this work to people who are willing to do the job for you, or you can also view the following guide if you are willing to install one yourself.</p>
+<p><a class="md-button md-button--primary" href="https://guide.nx-modchip.info/">Modchip Installation guide</a></p>
+<p><strong>Note:</strong> The above guide is not hosted or supported by NH Server; we cannot provide support for reviving consoles ruined by inexperience.</p>
+<hr />
+<h3 id="information"><strong>Information</strong><a class="headerlink" href="#information" title="Permanent link">&para;</a></h3>
 <p>Unlike "unpatched" consoles, modchips enable CFW via CPU voltage glitching, which bypass bootROM firmware verifications. It allows a <code>payload.bin</code> file to be launched in place of BOOT0, loaded via a modchip firmware module named <code>sdloader</code>. This is much different from RCM and its exploit, <a href="https://github.com/Qyriad/fusee-launcher/blob/master/report/fusee_gelee.md">fusee-gelee</a>, which "unpatched" consoles use.
-Modchips allow any console (like all "patched" consoles) to run CFW!</p>
-</div>
+Modchips allow any console, including all patched consoles, to run CFW!</p>
+<hr />
 <h3 id="general-knowledge"><strong>General knowledge</strong><a class="headerlink" href="#general-knowledge" title="Permanent link">&para;</a></h3>
 <p>Patched Switch consoles, except certain original V1 consoles made from 2017 to mid-2018, are immune to the fusee-gelee exploit in RCM. Attempting to inject a payload on a Patched console will be unsuccessful.</p>
 <p>Depending on your modchip's firmware, you may not be able to boot the console without a microSD card inserted.
@@ -1678,7 +1700,7 @@ This means without a microSD inserted at all times, your Switch becomes <em>unus
 <p class="admonition-title">Disclaimer</p>
 <p>We <strong>ONLY</strong> support the Picofly modchip (the <code>RP2040 Zero</code> development board and the "modchip variant" of it). Installing a modchip safely is your responsibility, so if you don't trust yourself, get someone trusted to perform the install.
 There is always a risk of your Switch being rendered dysfunctional when messing with its hardware without proper experience.
-The NH-Discord server is not for fixing bad modchip installations.
+The NH-Discord server is not for fixing bad/failed modchip installations.
 We can give advice and installation tips for the installation as long as it's for a Picofly modchip.</p>
 </div>
 <p><a class="md-button md-button--primary" href="preparing_hekate/">Continue to Preparing Hekate <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg></span></a></p>

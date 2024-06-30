@@ -1650,7 +1650,7 @@
 <p>You should first check whether you have a file or partition based emuMMC:</p>
 <ol>
 <li>Enter RCM and inject the Hekate payload.<ul>
-<li>If you use a modchipped Switch, you can simply just turn your Switch on with the Hekate payload renamed to <code>payload.bin</code> on the root of your SD.</li>
+<li>If you use a modchipped Switch, you can simply just turn your Switch on with the Hekate payload renamed to <code>payload.bin</code> on the root of your microSD card.</li>
 </ul>
 </li>
 <li>Tap on the <code>emuMMC</code> button.</li>
@@ -1663,7 +1663,7 @@
 <h3 id="if-you-are-using-a-file-based-emummc-or-are-using-no-emummc-at-all"><strong>If you are using a file based emuMMC or are using no emuMMC at all:</strong><a class="headerlink" href="#if-you-are-using-a-file-based-emummc-or-are-using-no-emummc-at-all" title="Permanent link">&para;</a></h3>
 <ol>
 <li>Enter RCM and inject the Hekate payload.<ul>
-<li>If you use a modchipped Switch, you can simply just turn your Switch on with the Hekate payload renamed to <code>payload.bin</code> on the root of your SD.</li>
+<li>If you use a modchipped Switch, you can simply just turn your Switch on with the Hekate payload renamed to <code>payload.bin</code> on the root of your microSD card.</li>
 </ul>
 </li>
 <li>Navigate to <code>Tools</code> &gt; <code>USB Tools</code> &gt; <code>SD Card</code> and plug your Switch into your PC via USB.</li>
@@ -1690,7 +1690,7 @@
 <li>In the main menu, tap on <code>Tools</code>, then <code>Backup eMMC</code> and set <code>SD emuMMC Raw Partition</code> at the bottom of your screen to <code>ON</code>.</li>
 <li>Backup both <code>SD emuMMC BOOT0 &amp; BOOT1</code> and <code>SD emuMMC RAW GPP</code> (Note: <code>SD emuMMC RAW GPP</code> may take a while).</li>
 <li>Once both are done, go back to the main menu, navigate to <code>Tools</code> &gt; <code>USB Tools</code> &gt; <code>SD Card</code> and plug your Switch into your PC via USB.</li>
-<li>If Windows asks you to format a drive, discard it and select the drive with your SD contents.</li>
+<li>If Windows asks you to format a drive, discard it and open the accessible drive containing the contents of your microSD card.</li>
 <li>Copy the contents of your old microSD card somewhere to your PC.</li>
 <li>Follow the <code>Preparing Hekate</code> section at the bottom of <a href="../../user_guide/rcm/sending_payload/">this page</a> (Unpatched Switch users only) to prepare your new SD card with Hekate's files.<ul>
 <li>If you have a modchipped Switch, follow <a href="../../user_guide/modchip/preparing_hekate/">this page</a> instead.</li>
@@ -1702,7 +1702,7 @@
 <li>Navigate to <code>/backup/&lt;some characters&gt;/emummc</code> on your microSD card and move <code>BOOT0</code>, <code>BOOT1</code> and the <code>rawnand.bin.xx</code> files to <code>/backup/&lt;some characters&gt;/restore/emummc</code>.</li>
 <li>Eject the <code>UMS</code> device safely from within your computer's operating system.</li>
 <li>Tap on <code>Tools</code>, <code>Restore eMMC</code>, set <code>SD emuMMC Raw Partition</code> at the bottom of your screen to <code>ON</code>.</li>
-<li>Restore the backup by tapping on both <code>SD emuMMC BOOT0 &amp; BOOT1</code> and <code>SD emuMMC RAW GPP</code> (Note: `SD emuMMC RAW GPP may take a while).<ul>
+<li>Restore the backup by tapping on both <code>SD emuMMC BOOT0 &amp; BOOT1</code> and <code>SD emuMMC RAW GPP</code> (Note: <code>SD emuMMC RAW GPP</code> may take a while).<ul>
 <li>It is very important that for both of these the <code>SD emuMMC Raw Partition</code> option is enabled, otherwise you will be altering your sysMMC
   which is not what you want.</li>
 </ul>

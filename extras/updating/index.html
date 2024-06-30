@@ -1682,7 +1682,7 @@
 <p>When a new version of Atmosphère releases, you can update Atmosphère by following these steps:</p>
 <ol>
 <li>Enter RCM and inject the Hekate payload.<ul>
-<li>If you use a modchipped Switch, you can simply just turn your Switch on with the Hekate payload renamed to <code>payload.bin</code> on the root of your SD.</li>
+<li>If you use a modchipped Switch, you can simply just turn your Switch on with the Hekate payload renamed to <code>payload.bin</code> on the root of your microSD card.</li>
 </ul>
 </li>
 <li>Navigate to <code>Tools</code> &gt; <code>USB Tools</code> &gt; <code>SD Card</code> and plug your Switch into your PC via USB.</li>
@@ -1699,7 +1699,7 @@
 <p>When a new version of Hekate releases, you can update by following these steps:</p>
 <ol>
 <li>Enter RCM and inject the Hekate payload.<ul>
-<li>If you use a modchipped Switch, you can simply just turn your Switch on with the Hekate payload renamed to <code>payload.bin</code> on the root of your SD.</li>
+<li>If you use a modchipped Switch, you can simply just turn your Switch on with the Hekate payload renamed to <code>payload.bin</code> on the root of your microSD card.</li>
 </ul>
 </li>
 <li>Navigate to <code>Tools</code> &gt; <code>USB Tools</code> &gt; <code>SD Card</code> and plug your Switch into your PC via USB.</li>
@@ -1796,12 +1796,11 @@ To prevent autoRCM from being disabled, boot CFW on sysMMC and update through se
 </ul>
 <h4 id="preparing-your-microsd-card"><strong>Preparing your microSD card</strong><a class="headerlink" href="#preparing-your-microsd-card" title="Permanent link">&para;</a></h4>
 <ol>
-<li>Load Hekate, start Hekate UMS by going to <code>Tools</code> &gt; <code>USB Tools</code> &gt; <code>SD Card</code></li>
-<li>Connect your Switch to your PC via a USB cable. An Android phone may also work.</li>
-<li>Download <code>TegraExplorer.bin</code> and place it somewhere on your device (A good idea is to put it where you keep all your Switch payloads like Hekate).</li>
-<li>Update Atmosphère and Hekate by using the above guides.</li>
-<li>If you haven't already, update the sysMMC to the latest firmware using the steps below.</li>
+<li>Boot into Hekate.</li>
+<li>Go to <code>Tools</code> &gt; <code>USB Tools</code> &gt; <code>SD Card</code> and connect your Switch to your PC via USB.</li>
+<li>Download the latest release of <code>TegraExplorer.bin</code> and place it <code>sd:/bootloader/payloads</code>.</li>
 </ol>
+<p>Make sure your sysMMC is updated before moving onto the instructions below.</p>
 <h4 id="dumping-your-sysmmc-firmware"><strong>Dumping your sysMMC firmware</strong><a class="headerlink" href="#dumping-your-sysmmc-firmware" title="Permanent link">&para;</a></h4>
 <ol>
 <li>Make sure your sysMMC is up to date. If your sysMMC is not up-to-date, boot into Stock or sysCFW and update it through the System Settings.<ul>
@@ -1809,7 +1808,7 @@ To prevent autoRCM from being disabled, boot CFW on sysMMC and update through se
 </ul>
 </li>
 <li>Inject <code>TegraExplorer.bin</code> using your favourite payload injector (Like you would with Hekate).<ul>
-<li>If you are using a modchipped Switch, you can simply put <code>TegraExplorer.bin</code> in <code>sd:/bootloader/payloads</code> on your SD card, then turn on your console and load TegraExplorer via Hekate's payloads menu (<code>Payloads</code> &gt; <code>TegraExplorer.bin</code>).</li>
+<li>If you are using a modchipped Switch, you can simply put <code>TegraExplorer.bin</code> in <code>sd:/bootloader/payloads</code> on your microSD card, then turn on your console and load TegraExplorer via Hekate's payloads menu (<code>Payloads</code> &gt; <code>TegraExplorer.bin</code>).</li>
 </ul>
 </li>
 <li>Using the joystick and the A buttons, select <code>FirmwareDump.te</code>, then select <code>Dump sysmmc</code>.<ul>
