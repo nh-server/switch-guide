@@ -1,6 +1,6 @@
 # Switch Guide
 
-[The guide can be found here!](https://nh-server.github.io/switch-guide)
+[The guide can be found here!](https://switch.hacks.guide)
 
 [![Build Status](https://travis-ci.com/nh-server/switch-guide.svg?branch=master)](https://travis-ci.com/nh-server/switch-guide)
 
