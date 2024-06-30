@@ -45,6 +45,7 @@ jobs:
         # miscellaneous files needed for GitHub etc
         run: |
           touch site/.nojekyll
+          cp CNAME site/CNAME
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4.4.1
