@@ -13,6 +13,8 @@ This page will detail the setup of Switchroot Android (Android 11) for the Ninte
 !!! info "Looking for Android 14?"
     Recently, Android 14 was released for the Switch. You can follow the official [LineageOS guide](https://wiki.lineageos.org/devices/nx_tab/) to install Android 14.
 
+    - **Note:** You can skip the partitioning in the LineageOS guide. You already did this during the guide and do *not* have to do so again.
+
  The Switch lacks a cell modem; simply installing Android does not grant your Switch access to cell towers. This means, unlike most Android devices, you will not be able to make emergency phone calls, and you will still need Wi-Fi to access the Internet. You can, however, natively run Android programs and games.
 
 This page will also *not* detail things such as rooting and overclocking; external links to these types of additions can be found in the [Power User Guides](#power-user-guides) section at the bottom of this page.

@@ -2,7 +2,7 @@
 
 !!! note "About modchipped Switch console users"
 
-    If you already know you have a modchipped Switch console, you can continue with the [**Modchip introduction**](#if-your-switch-is-patched-and-modchipped-click-the-button-below-to-follow-the-modchip-path-of-the-guide) button at the bottom of this page.
+    If you already know you have a modchipped Switch console, you can skip ahead to the [Modchip Introduction](../user_guide/modchip/index.md) page.
 
 ### **Finding your serial number**
 

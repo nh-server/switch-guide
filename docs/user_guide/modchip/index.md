@@ -3,7 +3,7 @@
 ### **Prerequisites**
 A modchip is a physical modification to the motherboard of your Switch. It cannot be installed without decent microsoldering experience. You can outsource this work to people who are willing to do the job for you, or you can also view the following guide if you are willing to install one yourself.
 
-[Modchip Installation guide](https://guide.nx-modchip.info/){ .md-button .md-button--primary }
+[Modchip Installation guide :material-arrow-right:](https://guide.nx-modchip.info/){ .md-button .md-button--primary }
 
 **Note:** The above guide is not hosted or supported by NH Server; we cannot provide support for reviving consoles ruined by inexperience.
 
