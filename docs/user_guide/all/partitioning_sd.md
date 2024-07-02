@@ -4,6 +4,9 @@
 
 - Your Switch loaded into Hekate
 
+!!! warning "Partitioning WILL wipe all data on your SD card!"
+    Hekate will prompt you to back it up with UMS before you begin, but in case you miss it, go to `Tools` > `USB tools` > `SD card` and plug your switch into your PC via USB, and backup the contents of your SD card. If you don't mind redownloading all the games stored on the SD card, you may skip this.
+
 ### **Instructions:**
 
 1. Navigate to `Tools` > `Partition SD card`
