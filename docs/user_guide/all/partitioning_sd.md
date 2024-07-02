@@ -4,8 +4,8 @@
 
 - Your Switch loaded into Hekate
 
-!!! warning "Partitioning WILL wipe all data on your SD card!"
-    Hekate will prompt you to back it up with UMS before you begin, but in case you miss it, go to `Tools` > `USB tools` > `SD card` and plug your switch into your PC via USB, and backup the contents of your SD card. If you don't mind redownloading all the games stored on the SD card, you may skip this.
+!!! danger "Partitioning *WILL* wipe all data on your microSD card!"
+    In case you missed the warning earlier, your microSD card will be wiped during this page. Go to `Tools` > `USB Tools` > `SD Card`, plug your switch into your PC via USB and back up the contents of your microSD card to your PC if you haven't done so yet. If you don't mind redownloading all the games stored on the microSD card and/or all other (potentially important) files getting deleted, you may skip this.
 
 ### **Instructions:**
 
@@ -17,7 +17,7 @@
 3. Navigate to `Next Step` at the bottom right, then select `Start` in the menu that appears.
 4. From hekate's `Home` menu, navigate to `emuMMC` > `Create emuMMC` > `SD Partition` > `Part 1` and wait for Hekate to complete creating the emuMMC.
 5. Close the emuMMC creation menu by navigating to the `Close` button, then navigate to `Change emuMMC` > `SD RAW 1` and press the `Close` button twice in the top right to return to hekate's `Home` menu.
-6. Once done, go to `Tools` > `USB tools` > `SD card` and plug your Switch into your PC via USB.
+6. Once done, go to `Tools` > `USB Tools` > `SD Card` and plug your Switch into your PC via USB.
 7. Continue with the next step of the guide.
      - Your microSD card should now be accessible on your PC, if not, consult the warning message below.
 

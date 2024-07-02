@@ -4,8 +4,8 @@
 
 - Your Switch loaded into Hekate
 
-!!! warning "Partitioning WILL wipe all data on your SD card!"
-    Hekate will prompt you to back it up with UMS before you begin, but in case you miss it, go to `Tools` > `USB tools` > `SD card` and plug your switch into your PC via USB, and backup the contents of your SD card. If you don't mind redownloading all the games stored on the SD card, you may skip this.
+!!! danger "Partitioning *WILL* wipe all data on your microSD card!"
+    In case you missed the warning earlier, your microSD card will be wiped during this page. Go to `Tools` > `USB Tools` > `SD Card`, plug your switch into your PC via USB and back up the contents of your microSD card to your PC if you haven't done so yet. If you don't mind redownloading all the games stored on the microSD card and/or all other (potentially important) files getting deleted, you may skip this.
 
 ### **Instructions:**
 
@@ -13,7 +13,7 @@
 2. Navigate to `Next Step` at the bottom right, then select `Start` in the menu that appears.
     - If you wish to install Android and/or Linux later, partition your microSD card here accordingly by moving the sliders you see during this step. We recommend setting the `Android (USER)` and `Linux (EXT4)` sliders to at least 16GB.
     - For Android; Select `Legacy` partitioning for Android 10/11 and `Dynamic` partitioning for Android 13+. Legacy and Dynamic partitioning are **NOT** intercompatible.
-3. Once done, go to Hekate's `Home` menu and then `Tools` > `USB tools` > `SD card` and plug your Switch into your PC via USB.
+3. Once done, go to Hekate's `Home` menu and then `Tools` > `USB Tools` > `SD Card` and plug your Switch into your PC via USB.
 4. Continue with the next step of the guide.
     - Your microSD card should now be accessible on your PC. If not, consult the warning message below.
 

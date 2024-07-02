@@ -30,7 +30,7 @@ Atmosphere has its own bootloader, called fusee. For the purposes of this guide 
 4. Copy the `bootloader` folder from the `bootlogos.zip` file to the root of your microSD card.
     - If you're asked to merge the bootloader folders, do so.
 5. Copy `hekate_ipl.ini` to the `bootloader` folder on your microSD card.
-6. Create a folder named `hosts` inside the `atmosphere` folder on your microSD card, and put `emummc.txt` in it.
+6. Create a folder named `hosts` inside the `atmosphere` folder on your microSD card, and put `emummc.txt` inside of the `hosts` folder.
 7. Copy `JKSV.nro`, `ftpd.nro`, `NxThemesInstaller.nro`, `NX-Shell.nro` and `Goldleaf.nro` to the `switch` folder on your microSD card.
 8. If you were already using your microSD card as a storage device for your games and backed up the Nintendo folder before partitioning your microSD card, please place it back on the root of your microSD card now.
     - If you created an emuMMC on the previous page, don't forget to copy the Nintendo folder to `sd:/emuMMC/RAW1/`!
