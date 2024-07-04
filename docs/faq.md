@@ -15,7 +15,7 @@ See <a href="https://gbatemp.net/threads/switch-informations-by-serial-number.48
 
 To launch CFW through the fusee-gelee, the Switch needs to be in "ReCovery Mode"(RCM).
 The easiest way to enter RCM is by grounding pin 10 in the right joycon rail and holding VOL+ on boot.
-Several methods and designs to do this exist, see [our guide](user_guide/rcm/entering_rcm.md) for more information.
+Several methods and designs to do this exist, see [our guide](/user_guide/emummc/entering_rcm) for more information.
 Once the Switch is in RCM it needs to be connected to either a computer, phone or dongle to send the exploit and the payload.
 
 This procedure needs to happen every time the Switch boots from a completely "off" state, otherwise the Switch will boot into the stock firmware.
@@ -143,6 +143,7 @@ If you suspect your microSD card is fake or damaged, see the instructions <a hre
 
 This is an issue primarily affecting macOS users, but may occur on other devices as well. If you are able to launch the homebrew menu, but you are not seeing some or any of your Homebrew apps, you may need to unset the archive bit with Hekate.
 
+<<<<<<< HEAD
 1. Inject the Hekate payload using your favorite payload injector.
     - If you have a modchipped Switch, place the Hekate payload on the root of your microSD card and rename it to payload.bin, reinsert your microSD card into your Switch and turn it on.
 2. Click on `Tools` on the top menu bar.
@@ -151,3 +152,12 @@ This is an issue primarily affecting macOS users, but may occur on other devices
 5. Press `Close` in the top right corner.
 6. Press `Home` in the top menu bar to get back from where you started.
 7. Follow the instructions at the Launching CFW page [here](user_guide/all/launching_cfw.md/) to launch Atmosphere.
+=======
+1. Send the Hekate payload to your Switch by following these instructions: [here](/user_guide/emummc/sending_payload/)
+2. Click on `Tools` on the top menu bar
+3. In the bottom left corner click on `Arch Bit • AutoRCM • Touch • Pkg1/2`
+4. Click on `Fix Archive bit` - this might take a while
+5. Press `Close` in the top right corner
+6. Press `Home` in the top menu bar to get back from where you started
+7. Follow the instructions at the Launching CFW page [here](/user_guide/emummc/launching_cfw/) to launch Atmosphere.
+>>>>>>> b114b20 (Remove more remnants of old nh-server.github.io links)
