@@ -15,7 +15,7 @@ See <a href="https://gbatemp.net/threads/switch-informations-by-serial-number.48
 
 To launch CFW through the fusee-gelee, the Switch needs to be in "ReCovery Mode"(RCM).
 The easiest way to enter RCM is by grounding pin 10 in the right joycon rail and holding VOL+ on boot.
-Several methods and designs to do this exist, see [our guide](user_guide/rcm/entering_rcm.md) for more information.
+Several methods and designs to do this exist, see [our guide](/user_guide/emummc/entering_rcm) for more information.
 Once the Switch is in RCM it needs to be connected to either a computer, phone or dongle to send the exploit and the payload.
 
 This procedure needs to happen every time the Switch boots from a completely "off" state, otherwise the Switch will boot into the stock firmware.
