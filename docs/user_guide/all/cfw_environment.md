@@ -70,13 +70,12 @@ For more information on terminology, please refer to the [glossary](../../extras
 
     * A brick risk for risky behaviors, especially for modchip users [[info]](#modchip-instability)
     * A Nintendo server ban risk for misbehavior [[info]](https://nx.eiphax.tech/ban.html)
-    * No custom app installations on the HOME Menu (guaranteed ban)
     * No possibility of custom profile pictures (guaranteed ban)
 
     #### **In particular, here are just *some* popular use-cases for sysCFW:**
 
     * Enjoying CFW features such as custom sysmodules and homebrew apps
-    * Dumping eShop games, saves, and encryption keys for preservation or installation on emuMMC or external Switch emulators
+    * Dumping eShop games, save data, and encryption keys for preservation or installation on emuMMC or external Switch emulators
     * Restoring modified save data for many games
     * Custom fonts and home menu theming
     * Modifying and cheating in most offline games (and some online games; [[info]](../../homebrew/edizon.md))
