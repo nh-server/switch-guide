@@ -1725,7 +1725,7 @@ See <a href="https://gbatemp.net/threads/switch-informations-by-serial-number.48
 <h3 id="how-do-i-use-fusee-gelee-how-can-i-boot-into-rcm"><strong>How do I use fusee-gelee? How can I boot into RCM?</strong><a class="headerlink" href="#how-do-i-use-fusee-gelee-how-can-i-boot-into-rcm" title="Permanent link">&para;</a></h3>
 <p>To launch CFW through the fusee-gelee, the Switch needs to be in "ReCovery Mode"(RCM).
 The easiest way to enter RCM is by grounding pin 10 in the right joycon rail and holding VOL+ on boot.
-Several methods and designs to do this exist, see <a href="/user_guide/emummc/entering_rcm">our guide</a> for more information.
+Several methods and designs to do this exist, see <a href="../user_guide/rcm/entering_rcm/">our guide</a> for more information.
 Once the Switch is in RCM it needs to be connected to either a computer, phone or dongle to send the exploit and the payload.</p>
 <p>This procedure needs to happen every time the Switch boots from a completely "off" state, otherwise the Switch will boot into the stock firmware.</p>
 <h3 id="what-makes-a-good-jig-good-can-i-use-a-paperclip"><strong>What makes a good jig good? Can I use a paperclip?</strong><a class="headerlink" href="#what-makes-a-good-jig-good-can-i-use-a-paperclip" title="Permanent link">&para;</a></h3>
@@ -1814,41 +1814,21 @@ Additionally, it is advised to use 90DNS which blocks connections to any Nintend
 <p>Do not buy microSD cards from sites like eBay.
 These microSD cards are often fake and do not have the advertised amount of storage and will result in data corruption if used.
 Amazon has had some problems with fake microSD cards, so we recommend buying them at a physical store. Even on trustworthy sites, <em>always, always check reviews on a product before buying!!</em></p>
-<p>If you suspect your microSD card is fake or damaged, see the instructions <a href="https://3ds.eiphax.tech/sd.html" target="_blank">here</a> to verify the integrity of your microSD card.</p>
+<p>If you suspect your microSD card is fake or damaged, see the instructions <a href="https://wiki.hacks.guide/wiki/Checking_SD_card_integrity" target="_blank">here</a> to verify the integrity of your microSD card.</p>
 <h3 id="my-homebrew-apps-are-not-showing-up-in-the-homebrew-menu"><strong>My Homebrew apps are not showing up in the Homebrew menu!</strong><a class="headerlink" href="#my-homebrew-apps-are-not-showing-up-in-the-homebrew-menu" title="Permanent link">&para;</a></h3>
 <p>This is an issue primarily affecting macOS users, but may occur on other devices as well. If you are able to launch the homebrew menu, but you are not seeing some or any of your Homebrew apps, you may need to unset the archive bit with Hekate.</p>
-<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD
-1. Inject the Hekate payload using your favorite payload injector.
-    - If you have a modchipped Switch, place the Hekate payload on the root of your microSD card and rename it to payload.bin, reinsert your microSD card into your Switch and turn it on.
-2. Click on <code>Tools</code> on the top menu bar.
-3. In the bottom left corner click on <code>Arch Bit • AutoRCM • Touch • Pkg1/2</code>.
-4. Click on <code>Fix Archive bit</code> - this might take a while.
-5. Press <code>Close</code> in the top right corner.
-6. Press <code>Home</code> in the top menu bar to get back from where you started.
-7. Follow the instructions at the Launching CFW page <a href="../user_guide/all/launching_cfw/">here</a> to launch Atmosphere.
-=======
-1. Send the Hekate payload to your Switch by following these instructions: <a href="/user_guide/emummc/sending_payload/">here</a>
-2. Click on <code>Tools</code> on the top menu bar
-3. In the bottom left corner click on <code>Arch Bit • AutoRCM • Touch • Pkg1/2</code>
-4. Click on <code>Fix Archive bit</code> - this might take a while
-5. Press <code>Close</code> in the top right corner
-6. Press <code>Home</code> in the top menu bar to get back from where you started
-7. Follow the instructions at the Launching CFW page <a href="/user_guide/emummc/launching_cfw/">here</a> to launch Atmosphere.</p>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<p>b114b20 (Remove more remnants of old nh-server.github.io links)</p>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
+<ol>
+<li>Inject the Hekate payload using your favorite payload injector.<ul>
+<li>If you have a modchipped Switch, place the Hekate payload on the root of your microSD card and rename it to payload.bin, reinsert your microSD card into your Switch and turn it on.</li>
+</ul>
+</li>
+<li>Press <code>Tools</code> on the top menu bar.</li>
+<li>In the bottom right corner, press <code>Arch Bit • AutoRCM • Touch • Pkg1/2</code>.</li>
+<li>Press <code>Fix Archive bit</code> - this might take a while.</li>
+<li>Press <code>Close</code> in the top right corner.</li>
+<li>Press <code>Home</code> in the top menu bar to get back from where you started.</li>
+<li>Follow the instructions at the Launching CFW page <a href="../user_guide/all/launching_cfw/">here</a> to launch Atmosphere.</li>
+</ol>
 
 
 
