@@ -1663,7 +1663,10 @@
 </ul>
 </li>
 <li>Press the file button next to <code>Inject payload</code>, and navigate to and select the <code>hekate_ctcaer_X.X.X.bin</code> file.</li>
-<li>Click <code>Inject payload</code> to launch the payload you selected.</li>
+<li>Click <code>Inject payload</code> to launch the payload you selected.<ul>
+<li>If your payload was successfully injected your switch should have yellow text that says "Nyx is missing", this will be resolved soon.</li>
+</ul>
+</li>
 </ol>
 <h4 id="driver-installation-with-zadig"><strong>Driver installation with Zadig</strong><a class="headerlink" href="#driver-installation-with-zadig" title="Permanent link">&para;</a></h4>
 <p>Follow these steps if you face issues when installing the driver with TegraRcmGUI. You will need the latest version of <a href="https://zadig.akeo.ie" target="_blank">Zadig</a>.</p>
@@ -1691,6 +1694,7 @@
 <li>Connect your Switch in RCM to your PC using the USB cable.</li>
 <li>Run fusee-nano with: <code>./fusee-nano /path/to/hekate-ctcaer_X.X.X.bin</code><ul>
 <li>As mentioned earlier, unless you have followed the instructions at <a href="../../../extras/adding_udev/">Linux injection without root</a>, this will require root to run. For most systems, this is done with <code>sudo</code></li>
+<li>If your payload was successfully injected your switch should have yellow text that says "Nyx is missing", this will be resolved soon.</li>
 </ul>
 </li>
 </ol>
@@ -1708,7 +1712,10 @@
 <li>Connect your Switch in RCM to your PC using the USB cable, make sure it's also detected in CrystalRCM.</li>
 <li>Mount the <code>CrystalRCM.(version).dmg</code> file, open the mounted disk image in File Explorer and copy the <code>CrystalRCM.app</code> file inside of the mounted disk image to any location on your Mac.</li>
 <li>Open the <code>CrystalRCM.app</code> app, then click <code>Payload...</code> and select the <code>hekate_ctcaer_X.X.X.bin</code> file.</li>
-<li>Once selected, click <code>Push!</code>. The payload should now be injected successfully.</li>
+<li>Once selected, click <code>Push!</code>. The payload should now be injected successfully.<ul>
+<li>If your payload was successfully injected your switch should have yellow text that says "Nyx is missing", this will be resolved soon.</li>
+</ul>
+</li>
 </ol>
 </div>
 <div class="tabbed-block">
@@ -1734,7 +1741,10 @@
 <li><strong>Optional, but recommended</strong>: Navigate to Rekado's settings in the top right and enable <code>Hide bundled</code>.</li>
 <li>Connect your Switch in RCM to your phone using the USB cable.</li>
 <li>If prompted, grant Rekado access to the Switch.</li>
-<li>Select the <code>hekate_ctcaer_X.X.X.bin</code> file in the dialog that pops up.</li>
+<li>Select the <code>hekate_ctcaer_X.X.X.bin</code> file in the dialog that pops up.<ul>
+<li>If your payload was successfully injected your switch should have yellow text that says "Nyx is missing", this will be resolved soon.</li>
+</ul>
+</li>
 </ol>
 </div>
 <div class="tabbed-block">
@@ -1746,16 +1756,16 @@
 <p class="admonition-title">About USB-C</p>
 <p>If your Chromebook has a USB-C port, do note that this will not work using a C-C cable.</p>
 </div>
-<ul>
-<li>The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (<code>hekate_ctcaer_(version).bin</code>) is located inside of the <code>hekate_ctcaer_(version).zip</code>.</li>
-</ul>
 <h4 id="instructions_4"><strong>Instructions:</strong><a class="headerlink" href="#instructions_4" title="Permanent link">&para;</a></h4>
 <ol>
 <li>Go to the injection <a href="https://fusee.eiphax.tech/">website</a> and scroll all the way down</li>
-<li>Select the "Upload Payload" option and upload the <code>hekate_ctcaer_X.X.X.bin</code> file from the Hekate <code>.zip</code> file.</li>
+<li>Open the dropdown menu and select <code>hekate_ctcaer_X_X_X</code> from the list.</li>
 <li>Connect your Switch in RCM to your Chromebook using the USB cable.</li>
-<li>Select "Do the thing". A pop-up will appear. Click the <code>APX</code> option.</li>
-<li>Press the Connect button and the payload will be injected.</li>
+<li>Select "Deliver Payload". A pop-up will appear. Click the <code>APX</code> option.</li>
+<li>Press the Connect button and the payload will be injected.<ul>
+<li>If your payload was successfully injected your switch should have yellow text that says "Nyx is missing", this will be resolved soon.</li>
+</ul>
+</li>
 </ol>
 </div>
 </div>
@@ -1786,6 +1796,7 @@
 <li>Inside the extracted Hekate folder you will find a folder named <code>bootloader</code>.</li>
 <li>Copy the <code>bootloader</code> folder to the root of your microSD card.</li>
 <li>Put your microSD card back into your Switch.</li>
+<li>Press any button to continue to the Hekate menu.</li>
 <li>Use volume up and volume down to navigate the Hekate menu. Hover over 'reload' and press the power button to select. Your screen should now have the Hekate GUI (Nyx) pictured below.
 <img alt="Nyx" src="../../all/img/nyx.bmp" width="600" /></li>
 </ol>
