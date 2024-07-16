@@ -16,6 +16,9 @@ Unlike systems such as the DSi, Wii, or 3DS, Switch CFW is currently volatile. I
 
     Hekate is now booting into your emuMMC. To verify that your emuMMC launched properly, open System Settings and navigate to System. You should see `AMS` next to the version number (`AMS` indicating that you're booted into Atmosphere), as well as an `E` at the end (indicating you are booted into emuMMC).
 
+    !!! note ""
+        If you wish to set up an extra method of blocking Nintendo's servers on your emuMMC, visit [this page](../../extras/blocking_nintendo.md#instructions-90dns) to set up 90DNS.
+
     ![Atmosphere version string](img/launching_cfw_atmosphere_version_string2.jpg)
 
 === "Instructions for sysCFW"

@@ -15,7 +15,7 @@ Methods to enter RCM can require nothing more than household items (not recommen
 
 #### **Instructions:**
 
-1. Power off the Switch and short the pins on the Joy-Con rail using one of the methods listed below.
+1. Power off the Switch and short the pins on the right Joy-Con rail using one of the methods listed below.
 2. While holding the `Volume Up` button, press the `Power` button once while holding `Volume Up`.
     - If your Switch displays the Nintendo logo and boots normally (or the screen was on and goes black), you didn't successfully enter RCM and should try again. Otherwise, if your console still has a black screen (even after tapping the power button again), your Switch is in RCM and you can let go of the `Volume Up` button.
 3. Once your Switch is in RCM, remove the RCM jig (if applicable) and continue with the next page of the guide by clicking on the button at the bottom of this page.
@@ -36,7 +36,7 @@ Methods to enter RCM can require nothing more than household items (not recommen
 
     -----
     
-    !!! note "Making your own RCM Jig"
+    ??? note "Making your own RCM Jig"
         If you plan on making your own jig, the second image lays out the right Joy-Con pad out on the console. Make sure your jig NEVER touches pin 4. Pin 4 provides 5 volts of power to the Joy-Con, and can permanently damage the rail or console if shorted.
         ![switchjigs.com jigs](../rcm/img/entering_rcm_jig.jpg){ width="600"}
 
