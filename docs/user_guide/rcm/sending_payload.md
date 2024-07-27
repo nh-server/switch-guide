@@ -62,6 +62,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
     - The latest release of [CrystalRCM](https://github.com/prayerie/CrystalRCM/releases) (the `CrystalRCM.(version).dmg` file)
     - A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
+    - A MicroSD card reader for your computer (if it doesn't already have one built in)
     - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (`hekate_ctcaer_(version).bin`) is located inside of the `hekate_ctcaer_(version).zip`.
 
     #### **Instructions:**
