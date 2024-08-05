@@ -1699,6 +1699,19 @@
 <h3 id="opening-tesla-menu"><strong>Opening Tesla-Menu</strong><a class="headerlink" href="#opening-tesla-menu" title="Permanent link">&para;</a></h3>
 <p>Tesla-Menu can be opened by pressing <code>L</code> + <code>R Stick press (R3)</code> + <code>DPAD down</code>, assuming you use the default configuration.</p>
 <p><img alt="tesla" src="../img/tesla-menu.jpg" /></p>
+<h4 id="changing-the-button-combination">Changing the button combination<a class="headerlink" href="#changing-the-button-combination" title="Permanent link">&para;</a></h4>
+<p>If you wish to change the default button configuration, see the instructions below:</p>
+<ol>
+<li>Navigate to <code>sd:/config</code> on your microSD card.</li>
+<li>Create a folder named <code>tesla</code> if it doesn't exist already.</li>
+<li>Create a file named <code>config.ini</code> in <code>sd:/config/tesla</code>.</li>
+<li>Paste the following text inside of <code>config.ini</code>:
+    <div class="highlight"><pre><span></span><code>[tesla]
+key_combo=L+R+RS
+# A, B, X, Y, LS, RS, L, R, ZL, ZR, PLUS, MINUS, DLEFT, DUP, DRIGHT, DDOWN, SL, SR
+</code></pre></div></li>
+<li>Change the <code>key_combo</code> value to anything you desire and save the file. The accepted inputs are mentioned on the third line.</li>
+</ol>
 <hr />
 <h3 id="commonly-used-tesla-menu-overlays"><strong>Commonly used Tesla-Menu overlays</strong><a class="headerlink" href="#commonly-used-tesla-menu-overlays" title="Permanent link">&para;</a></h3>
 <ul>
@@ -1708,6 +1721,7 @@
 <li><a href="https://github.com/XorTroll/emuiibo">Emuiibo</a> (this requires you to also install the Emuiibo sysmodule)</li>
 <li><a href="https://github.com/DefenderOfHyrule/TriPlayer">TriPlayer</a> (this requires you to also install the TriPlayer sysmodule)</li>
 <li><a href="https://github.com/DefenderOfHyrule/ldn_mitm">ldn_mitm</a> (this requires you to also install the ldn_mitm sysmodule)</li>
+<li><a href="https://github.com/averne/Fizeau">Fizeau</a> (this requires you to also install the Fizeau sysmodule)</li>
 </ul>
 <hr />
 <h3 id="troubleshooting"><strong>Troubleshooting</strong><a class="headerlink" href="#troubleshooting" title="Permanent link">&para;</a></h3>
