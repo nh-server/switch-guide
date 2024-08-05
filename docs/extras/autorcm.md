@@ -35,7 +35,7 @@ AutoRCM can be used for good as well:
 
 ### **Enable/Disable AutoRCM**
 
-If, despite all of the information above, you still wish to enable AutoRCM, and understand the risks, do the following:
+If, despite all of the information above, you still wish to enable (or disable) AutoRCM, and understand the risks, do the following:
 
 1. Boot into Hekate
 2. Go to `Tools`

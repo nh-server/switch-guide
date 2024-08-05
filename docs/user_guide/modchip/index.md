@@ -17,7 +17,7 @@ Modchips allow any console, including all patched consoles, to run CFW!
 
 ### **General knowledge**
 
-Patched Switch consoles, except certain original V1 consoles made from 2017 to mid-2018, are immune to the fusee-gelee exploit in RCM. Attempting to inject a payload on a Patched console will be unsuccessful.
+Patched Switch consoles (consoles produced after mid-2018) are immune to the fusee-gelee exploit in RCM. Attempting to inject a payload on a Patched console will be unsuccessful.
 
 Depending on your modchip's firmware, you may not be able to boot the console without a microSD card inserted.
 This means without a microSD inserted at all times, your Switch becomes *unusable*.
