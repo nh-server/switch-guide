@@ -33,7 +33,7 @@ AutoRCM can be used for good as well:
 	- This method corrupts a single byte in both your BOOT0 and your BOOT1 partitions. This is why a backup of those is recommended.
     - This software version of AutoRCM can almost always be reversed, so don't freak out if it doesn't work out the way you'd like it to.
 
-### **Enabling AutoRCM**
+### **Enable/Disable AutoRCM**
 
 If, despite all of the information above, you still wish to enable AutoRCM, and understand the risks, do the following:
 
