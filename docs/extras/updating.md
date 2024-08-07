@@ -54,7 +54,9 @@ In addition, updating to or past some firmwares update the gamecard firmware. Re
 | On or above 9.0.0, but below 11.0.0  | 11.0.0 or above                               | Yes                       |
 | On or above 11.0.0 but below 12.0.0  | At least 11.0.1 but below 12.0.0              | No                        |
 | On or above 11.0.0 but below 12.0.0  | 12.0.0 or above                               | Yes                       |
-| On or above 12.0.0                   | Latest supported Atmosphère & Hekate revision | No                        |
+| On or above 12.0.0 but below 14.0.0  | At least 12.0.1 but below 13.2.1              | No                        |
+| On or above 12.0.0 but below 14.0.0  | 14.0.0 or above                               | Yes                       |
+| On or above 14.0.0                   | Latest supported Atmosphère & Hekate revision | No                        |
 
 If at least one of the versions you are updating towards also updates the gamecard firmware, you will not be able to downgrade below that version without making the gamecard slot unusable until you update.
 
