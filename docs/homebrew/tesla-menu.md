@@ -36,6 +36,21 @@ Tesla-Menu can be opened by pressing `L` + `R Stick press (R3)` + `DPAD down`, a
 
 ![tesla](img/tesla-menu.jpg)
 
+#### Changing the button combination
+
+If you wish to change the default button configuration, see the instructions below:
+
+1. Navigate to `sd:/config` on your microSD card.
+2. Create a folder named `tesla` if it doesn't exist already.
+3. Create a file named `config.ini` in `sd:/config/tesla`.
+4. Paste the following text inside of `config.ini`:
+    ```
+    [tesla]
+    key_combo=L+R+RS
+    # A, B, X, Y, LS, RS, L, R, ZL, ZR, PLUS, MINUS, DLEFT, DUP, DRIGHT, DDOWN, SL, SR
+    ```
+5. Change the `key_combo` value to anything you desire and save the file. The accepted inputs are mentioned on the third line.
+
 -----
 
 ### **Commonly used Tesla-Menu overlays**
@@ -45,6 +60,7 @@ Tesla-Menu can be opened by pressing `L` + `R Stick press (R3)` + `DPAD down`, a
 - [Emuiibo](https://github.com/XorTroll/emuiibo) (this requires you to also install the Emuiibo sysmodule)
 - [TriPlayer](https://github.com/DefenderOfHyrule/TriPlayer) (this requires you to also install the TriPlayer sysmodule)
 - [ldn_mitm](https://github.com/DefenderOfHyrule/ldn_mitm) (this requires you to also install the ldn_mitm sysmodule)
+- [Fizeau](https://github.com/averne/Fizeau) (this requires you to also install the Fizeau sysmodule)
 
 -----
 

@@ -32,9 +32,9 @@ If you want to disable mods on launch of a game, hold the `L` button before laun
 
 While most games only require Atmosphere's LayeredFS to enable game modding, there are some games that may require more specialized setup. For example:
 
-* Modding Super Smash Bros. requires [ARCropolis](https://github.com/Raytwo/ARCropolis) and [skyline](https://github.com/skyline-dev/skyline), ARCropolis looks for mods in the `sd:/ultimate/mods` directory on your microSD card.
+* Modding Super Smash Bros. requires [ARCropolis](https://github.com/Raytwo/ARCropolis/releases) and [skyline](https://github.com/skyline-dev/skyline/releases). Skyline's `exefs` folder goes into the `atmosphere/contents/01006A800016E000/` directory. ARCropolis looks for mods in the `sd:/ultimate/mods` directory on your microSD card.
 
-* Modding Breath of the Wild and Tears of the Kingdom with multiple mods requires the use of [BCML](https://github.com/NiceneNerd/BCML) or [UKMM](https://github.com/NiceneNerd/UKMM) and [TKMM](https://github.com/TKMM-Team/Tkmm) respectively.
+* Modding Breath of the Wild and Tears of the Kingdom with multiple mods requires the use of [BCML](https://github.com/NiceneNerd/BCML) or [UKMM](https://github.com/NiceneNerd/UKMM/releases) (Recommended) and [TKMM](https://github.com/TKMM-Team/Tkmm/releases) respectively.
 
 * Animal Crossing: New Horizons requires some extra setup for mods to work. The folder that would normally be called `romfs` has to be called `romFs` and you'll need to create an empty file inside of `atmosphere/contents/01006F8002326000/romFs/System/Resource/` called `ResourceSizeTable.srsizetable`. More information on this can be found on the [ac-modding website](https://ac-modding.com/ACNH/mods.html).
 
