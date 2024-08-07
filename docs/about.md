@@ -23,6 +23,7 @@ This guide was written by community members of the [Nintendo Homebrew Discord Se
 - [dorkeline](https://github.com/dorkeline)
 - [ihaveahax](https://github.com/ihaveamac)
 - [PhazonicRidley](https://github.com/PhazonicRidley)
+- [emmo](https://github.com/el-emmo)
 - [xGhostBoyx](https://github.com/xGhostBoyx)
 - jerbear64
 - Phoenix
