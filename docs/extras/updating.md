@@ -48,9 +48,9 @@ In addition, updating to or past some firmwares update the gamecard firmware. Re
 | ------------------------------------ | --------------------------------------------- | ------------------------- |
 | Below 4.0.0                          | Below 4.0.0                                   | No                        |
 | Below 4.0.0                          | 4.0.0 or above                                | Yes                       |
-| On or above 4.0.0, but below 9.0.0   | At least 4.1.0 but below 9.0.0                | No                        |
+| On or above 4.0.0, but below 9.0.0   | At least 4.0.1 but below 9.0.0                | No                        |
 | On or above 4.0.0, but below 9.0.0   | 9.0.0 or above                                | Yes                       |
-| On or above 9.0.0, but below 11.0.0  | At least 9.1.0 but below 11.0.0               | No                        |
+| On or above 9.0.0, but below 11.0.0  | At least 9.0.1 but below 11.0.0               | No                        |
 | On or above 9.0.0, but below 11.0.0  | 11.0.0 or above                               | Yes                       |
 | On or above 11.0.0 but below 12.0.0  | At least 11.0.1 but below 12.0.0              | No                        |
 | On or above 11.0.0 but below 12.0.0  | 12.0.0 or above                               | Yes                       |
