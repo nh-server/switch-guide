@@ -62,6 +62,7 @@ nav:
       - 'NXTheme Installer': 'homebrew/nxtheme-installer.md'
       - 'NX-Shell': 'homebrew/nx-shell.md'
       - 'EdiZon': 'homebrew/edizon.md'
+      - 'SimpleModManager': 'homebrew/simplemodmanager.md/'
       - 'Tesla-Menu': 'homebrew/tesla-menu.md'
       - 'MissionControl': 'homebrew/mission-control.md'
       - 'sys-con': 'homebrew/sys-con.md'
