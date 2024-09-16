@@ -8,6 +8,8 @@ import { defineConfig } from 'vitepress'
 
 import container from 'markdown-it-container'
 
+import * as i18n from './i18n'
+
 export default defineConfig({
   title: "NH Switch Guide",
   description: "Switch CFW Guide.",
@@ -20,6 +22,9 @@ export default defineConfig({
       { icon: 'discord', link: 'https://discord.gg/C29hYvh' },
       { icon: 'github', link: 'https://github.com/nh-server/switch-guide' }
     ]
+  },
+  locales: {
+    root: i18n.en_US
   },
   vite: {
     resolve: {
