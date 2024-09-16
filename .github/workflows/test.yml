@@ -1,42 +1,26 @@
-name: Test build
+name: Test site build
 
 on:
   pull_request:
-    branches: [ master ]
 
 jobs:
-  build:
-    runs-on: ubuntu-22.04
+  doc-test:
+    runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           persist-credentials: false
+          submodules: recursive
 
-      - name: Set up Python 3.x
-        uses: actions/setup-python@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
-          # Semantic version range syntax or exact version of a Python version
-          python-version: '3.11.0'
-
-      # You can test your matrix by printing the current Python version
-      - name: Display Python version
-        run: python -c "import sys; print(sys.version)"
-
-      - name: Cache pip
-        uses: actions/cache@v3
-        with:
-          # This path is specific to Ubuntu
-          path: ~/.cache/pip
-          # Look to see if there is a cache hit for the corresponding requirements file
-          key: ${{ runner.os }}-pip-${{ hashFiles('requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
-            ${{ runner.os }}-
+          node-version: 20
+          cache: npm
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: npm ci
 
-      - name: Run Mkdocs
-        # Build the site using mkdocs
-        run: mkdocs build --verbose --clean --strict
+      - name: Build site
+        run: npm run docs:build
