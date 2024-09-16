@@ -1,0 +1,3 @@
+[submodule "docs/.vitepress/theme"]
+	path = docs/.vitepress/theme
+	url = https://github.com/hacks-guide/vitepress-theme
