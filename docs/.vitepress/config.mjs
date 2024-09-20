@@ -15,6 +15,11 @@ export default defineConfig({
     hostname: 'https://switch.hacks.guide'
   },
   head: [['link', { rel: 'icon', href: '/img/favicon.ico' }]],
+  themeConfig: {
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/nh-server/switch-guide' }
+    ]
+  },
   vite: {
     resolve: {
       alias: [
