@@ -14,6 +14,7 @@ export default defineConfig({
   sitemap: {
     hostname: 'https://switch.hacks.guide'
   },
+  head: [['link', { rel: 'icon', href: '/img/favicon.ico' }]],
   vite: {
     resolve: {
       alias: [
