@@ -12,6 +12,11 @@ export default defineConfig({
   title: "NH Switch Guide",
   description: "Switch CFW Guide.",
   head: [['link', { rel: 'icon', href: '/img/favicon.ico' }]],
+  themeConfig: {
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/nh-server/switch-guide' }
+    ]
+  },
   vite: {
     resolve: {
       alias: [
