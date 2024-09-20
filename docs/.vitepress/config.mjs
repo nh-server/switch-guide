@@ -11,6 +11,7 @@ import container from 'markdown-it-container'
 export default defineConfig({
   title: "NH Switch Guide",
   description: "Switch CFW Guide.",
+  head: [['link', { rel: 'icon', href: '/img/favicon.ico' }]],
   vite: {
     resolve: {
       alias: [
