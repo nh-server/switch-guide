@@ -211,6 +211,12 @@ const themeConfig = {
 			},
 			sidebar_common
 		],
+	},
+	footer: {
+		copyright: 'Copyright © 2024 Nintendo Homebrew',
+		items: [
+			{ text: localeData.pages["about"], link: `/about` }
+		]
 	}
 };
 
