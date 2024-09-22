@@ -17,6 +17,7 @@ export default defineConfig({
   head: [['link', { rel: 'icon', href: '/img/favicon.ico' }]],
   themeConfig: {
     socialLinks: [
+      { icon: 'discord', link: 'https://discord.gg/C29hYvh' },
       { icon: 'github', link: 'https://github.com/nh-server/switch-guide' }
     ]
   },
