@@ -14,7 +14,7 @@ Your emuMMC (emuNAND) should never connect to Nintendo. For online play, eShop b
 
 ::::: tabs
 
-:::: tab Instructions for emuMMC
+:::: tab default Instructions for emuMMC
 
 ### Instructions:
 

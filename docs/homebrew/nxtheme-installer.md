@@ -49,7 +49,7 @@ If you want to use community made themes, for example from the [r/NXThemes](http
 
 ::::: tabs
 
-:::: tab Windows
+:::: tab default Windows
 
 ### What you need:
 
