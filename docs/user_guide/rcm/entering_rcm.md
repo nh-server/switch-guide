@@ -31,7 +31,7 @@ The order of methods on this page is in the order of ease. The easiest method to
 
 ::::: tabs
 
-:::: tab RCM Jig
+:::: tab default RCM Jig
 
 Some jig designs use paperclips, inheriting the same risks as the "metal bridge" / "paperclip method" and should not be done.
 

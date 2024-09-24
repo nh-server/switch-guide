@@ -14,7 +14,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
 ::::: tabs
 
-:::: tab Windows
+:::: tab default Windows
 
 ### What you need:
 

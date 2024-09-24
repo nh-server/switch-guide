@@ -70,7 +70,10 @@ export default defineConfig({
         render: (tokens, idx) => {
           const token = tokens[idx];
           if (token.nesting === 1) {
-            return `<Tab name="${token.info.match(/^ ?tab\s+(.*)$/)[1]}">`;
+            let tokenData = token.info.match(/^ ?tab\s(default\s)?(.*)$/);
+            let isDefault = typeof tokenData[1] !== 'undefined';
+            let name = tokenData[2];
+            return `<Tab name="${name}" ${isDefault ? "default=true" : ""}>`;
           } else {
             return `</Tab>\n`;
           }

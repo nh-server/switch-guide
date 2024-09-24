@@ -20,7 +20,7 @@ The maintained EdiZon overlay can be found [here](https://github.com/proferabg/E
 
 ::::: tabs
 
-:::: tab Installation instructions (EdiZon):
+:::: tab default Installation instructions (EdiZon):
 
 1. Boot into Hekate and go to `Tools` > `USB Tools` > `SD Card`, then plug your Switch into your PC via USB.
 1. Your microSD card should now be accessible on your PC, open it.
