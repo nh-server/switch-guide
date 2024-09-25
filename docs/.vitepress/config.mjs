@@ -28,6 +28,12 @@ export default defineConfig({
           replacement: fileURLToPath(
             new URL('./theme/components/VPFooter.vue', import.meta.url)
           )
+        },
+        {
+          find: /^.*\/VPHero\.vue$/,
+          replacement: fileURLToPath(
+            new URL('./theme/components/VPHero.vue', import.meta.url)
+          )
         }
       ]
     }
