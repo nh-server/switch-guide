@@ -6,16 +6,19 @@ The following instructions only work if you have a system that implements `udev`
 
 Do the following instructions while your Switch is _not_ connected to your computer.
 
-!!! note "For Arch Linux users:"
-    The package `android-udev` includes rules that will also allow for payload injection to work without root. Do note this also allows Android specific commands such as `adb` and `fastboot` to also work without root (as is the intention of it.)
+::: tip
 
-&nbsp;
+**For Arch Linux users:**
 
-### **Option 1: Manually adding rules and group**
+The package `android-udev` includes rules that will also allow for payload injection to work without root. Do note this also allows Android specific commands such as `adb` and `fastboot` to also work without root (as is the intention of it.)
+
+:::
+
+## Option 1: Manually adding rules and group
 
 The following instructions are not for beginners. Only do this if you understand what you are doing.
 
-#### **Creating a new group**
+### Creating a new group
 
 To start, we will create a new group and add ourselves to it. The group the Nintendo Switch device will be owned by on Linux will be set to this group.
 
@@ -25,7 +28,7 @@ To start, we will create a new group and add ourselves to it. The group the Nint
 1. Enter the following command: `sudo usermod -a -G nintendo_switch $USER`. Make sure that the `G` is capitalized!
 1. Close the terminal.
 
-#### **Adding a udev rule**
+### Adding a udev rule
 
 Next we're gonna add a new `udev` rule. `udev` is a device manager for the linux kernel. The rule we're gonna specify is that if the Switch is connected in `RCM`, the group the Switch belongs to will be the group we made in the previous section.
 
@@ -39,9 +42,7 @@ Next we're gonna add a new `udev` rule. `udev` is a device manager for the linux
 
 You should now be able to run the payload sender without having to use `sudo`.
 
-&nbsp;
-
-### **Option 2: Installing a package with the rules**
+## Option 2: Installing a package with the rules
 
 These rules will actually allow _ANY_ user to access your Switch via USB, not only _your_ user.
 

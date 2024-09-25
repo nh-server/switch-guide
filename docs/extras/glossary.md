@@ -6,7 +6,7 @@ This section is dedicated to explaining a number of common terms that are used w
 
 The following list is in alphabetical order.
 
-- **90DNS**: DNS that blocks system updates on the Nintendo Switch. This can be enabled by following the guide [here](blocking_nintendo.md).
+- **90DNS**: DNS that blocks system updates on the Nintendo Switch. This can be enabled by following the guide [here](blocking_nintendo).
 - **[Atmosphère](https://github.com/Atmosphere-NX/Atmosphere)**: The CFW developed by the Atmosphere-NX organization on GitHub and the one used in this guide.
 - **AutoRCM**: A method that corrupts parts of your boot0 and boot1, causing the Switch to boot into RCM automatically. Using this requires an additional peripheral (such as a computer, phone, dongle, or modchip) to be able to boot your Switch.
 - **boot0 and boot1**: Two partitions of the Switch NAND.
@@ -29,7 +29,7 @@ The following list is in alphabetical order.
 - **PRODINFO**: A partition on the NAND of your Switch. This along with boot0 and boot1 is the only part of your Switch that can render it unbootable if improperly modified. Atmosphère backs up this partition on booting and it is included in your NAND backup.
 - **qLaunch**: This is similar to the HOME Menu on the Nintendo 3DS. It serves as a launcher for many applets such as System Settings, the main home menu (ResidentMenu), User/Friends Page (myPage), Lock Screen (Entrance), News menu (Notification), and so on.
 - **ReSwitched**: A hacking team that is one of the main developers for Atmosphère.
-- **RCM**: A shorthand for "Recovery Mode". When talking about hacking the Switch, this commonly refers to the Recovery Mode in the Tegra X1 chip that is included in the Nintendo Switch. Can be entered by holding down the Tegra X1 home button. This button is not the same as the home button on the joycons. Ways of pressing this button can be found [here](../user_guide/rcm/entering_rcm.md).
+- **RCM**: A shorthand for "Recovery Mode". When talking about hacking the Switch, this commonly refers to the Recovery Mode in the Tegra X1 chip that is included in the Nintendo Switch. Can be entered by holding down the Tegra X1 home button. This button is not the same as the home button on the joycons. Ways of pressing this button can be found [here](../user_guide/rcm/entering_rcm).
 - **ROM**: "Read-only memory"; a section of data that cannot be modified once it is written. <br> Some forms of ROM can be rewritten under very specific scenarios, such as [EEPROM](https://en.wikipedia.org/wiki/EEPROM) (electronically-erasable/programmable ROM).
 - **[TegraRCMGUI](https://github.com/eliboa/TegraRcmGUI/releases)/[fusee-interface-tk](https://github.com/nh-server/fusee-interfacee-tk/releases)**: Software used to run the fusee-gelee exploit on the Switch.
 - **Stock**: "Stock" generally refers to the original factory operation or state of something. <br> For example, stock firmware means the original operation of Horizon, not using CFW.

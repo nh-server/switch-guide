@@ -1,14 +1,12 @@
-### **Information**
+# SysDVR
 
-SysDVR is a [sysmodule](index.md#terminologies) that allows you to stream the screen of your Switch (while in-game/in an application) to your PC via the network or USB.
+SysDVR is a [sysmodule](index#terminologies) that allows you to stream the screen of your Switch (while in-game/in an application) to your PC via the network or USB.
 
-### **SysDVR**
+## Usage
 
 Installation, usage, configuration and extensive troubleshooting information can be found on the [SysDVR Wiki](https://github.com/exelix11/SysDVR/wiki).
 
------
-
-#### SysDVR screenshots:
+## SysDVR screenshots:
 
 ![sysdvr](img/sysdvr1.png)
 

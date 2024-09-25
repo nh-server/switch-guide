@@ -1,9 +1,8 @@
-### **NX-Shell**
+# NX-Shell
+
 NX-Shell is a file manager.
 
------
-
-#### Common use cases for NX-Shell
+### Common use cases for NX-Shell
 
 - Copying files
 - Moving files
@@ -15,9 +14,7 @@ NX-Shell is a file manager.
 
 For more information, you can check out NX-Shell's Github repository [here](https://github.com/joel16/NX-Shell).
 
------
-
-#### NX-Shell screenshots:
+### NX-Shell screenshots:
 
 ![nx-shell-main](img/nx-shell-main.jpg)
 

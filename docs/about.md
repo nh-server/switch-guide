@@ -1,14 +1,10 @@
-<a href="https://discord.gg/C29hYvh"><img style="float: right;" src="../img/discord.png"></a>
-
 # About this guide
 
 This guide was written by community members of the [Nintendo Homebrew Discord Server](https://discord.gg/C29hYvh).
 
 [You can find this guide on GitHub](https://github.com/nh-server/switch-guide), It is licensed under the [ISC license](https://github.com/nh-server/switch-guide/blob/master/LICENSE.md).
 
------
-
-### Guide Writers / Maintainers
+## Guide Writers / Maintainers
 - [SuchMemeManySkill](https://github.com/suchmememanyskill)
 - [DefenderOfHyrule](https://github.com/DefenderOfHyrule)
 - [ha1vorsen](https://github.com/ha1vorsen)
@@ -31,9 +27,7 @@ This guide was written by community members of the [Nintendo Homebrew Discord Se
 
 Thank you to [everyone else](https://github.com/nh-server/switch-guide/graphs/contributors) that contributed to the guide on GitHub, but special thanks to **noirscape**.
 
------
-
-### Developers
+## Developers
 
 - [**Atmosphere-NX**](https://github.com/Atmosphere-NX) for [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere).
 - [**switchbrew**](https://github.com/switchbrew) for [nx-hbloader](https://github.com/switchbrew/nx-hbloader) and [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu).
@@ -53,5 +47,8 @@ Thank you to [everyone else](https://github.com/nh-server/switch-guide/graphs/co
 - [**exelix11**](https://github.com/exelix11) for [Switch Theme Injector](https://github.com/exelix11/SwitchThemeInjector).
 - [**suchmememanyskill**](https://github.com/suchmememanyskill) for [TegraExplorer](https://github.com/suchmememanyskill/TegraExplorer)
 
-!!! tip ""
-    ![Nintendo Homebrew](img/nh.jpg)
+::: tip
+
+![Nintendo Homebrew](img/nh.jpg)
+
+:::
