@@ -4,6 +4,8 @@ title: "NH Switch Guide"
 hero:
   text: "NH Switch Guide"
   tagline: "A collaboration from Nintendo Homebrew's Discord community, getting you from a stock Switch to Atmosphère."
+  image:
+    src: "/img/home-page-feature.jpg"
 ---
 
 ::: tip
