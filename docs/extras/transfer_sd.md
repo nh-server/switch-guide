@@ -4,7 +4,7 @@ The goal of this page is to transfer the contents from one microSD card to anoth
 
 We will be using [hekate](https://github.com/CTCaer/hekate/releases/) to both backup and restore the emuMMC, so make sure that you have its latest files on your microSD card already.
 
-#### **Instructions:**
+## Instructions:
 
 You should first check whether you have a file or partition based emuMMC:
 
@@ -15,7 +15,8 @@ You should first check whether you have a file or partition based emuMMC:
     - If you have one it should be either `SD Raw Partition` or `SD File`.
 
 -----
-### **If you are using a file based emuMMC or are using no emuMMC at all:**
+
+### If you are using a file based emuMMC or are using no emuMMC at all:
 
 1. Enter RCM and inject the Hekate payload.
     - If you use a modchipped Switch, you can simply just turn your Switch on with the Hekate payload renamed to `payload.bin` on the root of your microSD card.
@@ -28,10 +29,16 @@ You should first check whether you have a file or partition based emuMMC:
 1. Eject the `UMS` device safely from within your computer's operating system.
 
 -----
-### **If you are using a partition based emuMMC:**
 
-!!! warning "Space for the backup"
-    You need at least 30GB (or 60GB if using an OLED Switch) of free space to be able to restore the emuMMC!
+### If you are using a partition based emuMMC:
+
+::: warning
+
+**Space for the backup**
+
+You need at least 30GB (or 60GB if using an OLED Switch) of free space to be able to restore the emuMMC!
+
+:::
 
 1. Enter RCM and inject the Hekate payload.
     - If you use a modchipped Switch, you can simply just turn your Switch on with the Hekate payload renamed to `payload.bin` on the root of your SD.
@@ -40,9 +47,9 @@ You should first check whether you have a file or partition based emuMMC:
 1.  Once both are done, go back to the main menu, navigate to `Tools` > `USB Tools` > `SD Card` and plug your Switch into your PC via USB.
 1.  If Windows asks you to format a drive, discard it and open the accessible drive containing the contents of your microSD card.
 1.  Copy the contents of your old microSD card somewhere to your PC.
-1.  Follow the `Preparing Hekate` section at the bottom of [this page](../user_guide/rcm/sending_payload.md) (Unpatched Switch users only) to prepare your new SD card with Hekate's files.
-    - If you have a modchipped Switch, follow [this page](../user_guide/modchip/preparing_hekate.md) instead.
-1.  Follow only steps 1-3 on [this page](../user_guide/all/partitioning_sd.md) to partition the new microSD card for an emuMMC setup.
+1.  Follow the `Preparing Hekate` section at the bottom of [this page](../user_guide/rcm/sending_payload) (Unpatched Switch users only) to prepare your new SD card with Hekate's files.
+    - If you have a modchipped Switch, follow [this page](../user_guide/modchip/preparing_hekate) instead.
+1.  Follow only steps 1-3 on [this page](../user_guide/all/partitioning_sd) to partition the new microSD card for an emuMMC setup.
 1.  After it’s done, boot into Hekate and navigate to `Tools` > `USB Tools` > `SD Card`, then plug your Switch into your PC via USB.
 1.  Copy the backup you made of your old microSD card on your PC to your new microSD card.
 1. Navigate to `/backup/<some characters>/emummc` on your microSD card and move `BOOT0`, `BOOT1` and the `rawnand.bin.xx` files to `/backup/<some characters>/restore/emummc`.
