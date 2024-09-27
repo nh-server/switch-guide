@@ -18,7 +18,7 @@
     - Your microSD card should now be accessible on your PC. If not, consult the warning message below.
 
 !!! warning "Your microSD card is not showing up"
-    If your microSD card isn't showing up at all, ensure that you're using a USB cable capable of data transfer and that if you use Windows, Windows has assigned a drive letter to the FAT32 partition of your microSD card. If you still experience errors, join the <a href="https://discord.gg/C29hYvh" target="_blank">NH-Discord server</a> for support.
+    If your microSD card isn't showing up at all, ensure that you're using a USB cable capable of data transfer and that if you use Windows, Windows has assigned a drive letter to the FAT32 partition of your microSD card. If you still experience errors, join the [NH-Discord server](https://discord.gg/C29hYvh) for support.
 
 ![hekate-partitioning-emu](img/hekate-partitioning-sys.png)
 

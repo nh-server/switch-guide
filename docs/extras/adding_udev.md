@@ -45,10 +45,9 @@ You should now be able to run the payload sender without having to use `sudo`.
 
 These rules will actually allow _ANY_ user to access your Switch via USB, not only _your_ user.
 
-You may just follow the instructions at <a href="https://github.com/pheki/nx-udev" target="_blank">nx-udev</a>, or if you're on Ubuntu / Debian:
+You may just follow the instructions at [nx-udev](https://github.com/pheki/nx-udev), or if you're on Ubuntu / Debian:
 
-1. Download <a href="https://github.com/pheki/nx-udev/releases/latest/download/nx-udev_latest_all.deb
-" target="_blank">nx-udev_latest_all.deb</a>.
+1. Download [nx-udev_latest_all.deb](https://github.com/pheki/nx-udev/releases/latest/download/nx-udev_latest_all.deb).
 1. Open a terminal in the same directory as your download.
 1. Run `sudo dpkg -i nx-udev_latest_all.deb` to install the package
 

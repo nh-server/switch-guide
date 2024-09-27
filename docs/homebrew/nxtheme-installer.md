@@ -17,7 +17,7 @@ Using NXTheme Installer, you can install and create unique styles and layouts fo
 ### **Installing a theme**
 
 !!! note "Community Themes"
-    If you want to use community made themes, for example from the <a href="https://www.reddit.com/r/NXThemes/" target="_blank">r/NXThemes</a> subreddit or [Themezer](https://themezer.net), you can follow the guide below to install a community provided `.nxtheme` file.
+    If you want to use community made themes, for example from the [r/NXThemes](https://www.reddit.com/r/NXThemes/) subreddit or [Themezer](https://themezer.net), you can follow the guide below to install a community provided `.nxtheme` file.
 
 #### **What you need:**
 
@@ -48,7 +48,7 @@ Using NXTheme Installer, you can install and create unique styles and layouts fo
 
     #### **What you need:**
 
-    The latest release of <a href="https://github.com/exelix11/SwitchThemeInjector/releases" target="_blank">**Switch Theme Injector**</a>
+    The latest release of [**Switch Theme Injector**](https://github.com/exelix11/SwitchThemeInjector/releases)
 
     - You need to download the `ReleaseVx.x.zip` on the download page
 
@@ -66,7 +66,7 @@ Using NXTheme Installer, you can install and create unique styles and layouts fo
 
     Make sure that the images you want to use are 1280x720 and in JPG!
 
-    1. Navigate to <a href="https://exelix11.github.io/SwitchThemeInjector/v2/" target="_blank">**Exelix's Web Injector**</a>.
+    1. Navigate to [**Exelix's Web Injector**](https://exelix11.github.io/SwitchThemeInjector/v2/)
     1. Select a Theme Target you want to edit. After this, click the Open an Image button and select your background image.
     1. Choose a theme name and an author name and optionally a different layout, then click build NxTheme.
     1. Your browser will prompt you to download a file. Save this file to a temporary folder.

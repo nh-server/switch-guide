@@ -23,7 +23,7 @@
 
 !!! warning "Your microSD card is not showing up or Windows complaining about an unreadable drive"
     If you get the issue that Windows says the microSD card is unreadable and wants to format it, do not format! This is likely your emuMMC partition. After partitioning your SD, your microSD will show up as 2 drives on your PC. Use the accessible drive.
-    If your microSD card isn't showing up at all, ensure that you're using a USB cable capable of data transfer and that, if you use Windows, Windows has assigned a drive letter to the FAT32 partition of your SD. If you still experience errors, join the <a href="https://discord.gg/C29hYvh" target="_blank">NH-Discord server</a> for support.
+    If your microSD card isn't showing up at all, ensure that you're using a USB cable capable of data transfer and that, if you use Windows, Windows has assigned a drive letter to the FAT32 partition of your SD. If you still experience errors, join the [NH-Discord server](https://discord.gg/C29hYvh) for support.
 
 
 ![hekate-partitioning-emu](img/hekate-partitioning-emu.png)

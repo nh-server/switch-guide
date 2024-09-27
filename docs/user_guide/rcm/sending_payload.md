@@ -14,9 +14,9 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
     #### **What you need:**
 
-    - The latest release of <a href="https://github.com/eliboa/TegraRcmGUI/releases" target="_blank">TegraRcmGUI</a> (either the MSI or zip)
+    - The latest release of [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI/releases) (either the MSI or zip)
     - A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
-    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (`hekate_ctcaer_(version).bin`) is located inside of the `hekate_ctcaer_(version).zip`.
+    - The latest release of [Hekate](https://github.com/CTCaer/hekate/releases/). The Hekate payload (`hekate_ctcaer_(version).bin`) is located inside of the `hekate_ctcaer_(version).zip`.
 
     #### **Instructions:**
 
@@ -31,7 +31,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
         - If your payload was successfully injected your switch should have yellow text that says "Update bootloader folder!", this will be resolved soon.
     #### **Driver installation with Zadig**
 
-    Follow these steps if you face issues when installing the driver with TegraRcmGUI. You will need the latest version of <a href="https://zadig.akeo.ie" target="_blank">Zadig</a>.
+    Follow these steps if you face issues when installing the driver with TegraRcmGUI. You will need the latest version of [Zadig](https://zadig.akeo.ie)
 
     1. Launch Zadig. In the `Options` menu, be sure that `List All Devices` is enabled.
     1. Connect your Switch in RCM to your PC using the USB cable.
@@ -46,7 +46,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
     - The latest release of [fusee-nano](https://github.com/DefenderOfHyrule/fusee-nano/releases) (also available on the [AUR](https://aur.archlinux.org/packages/fusee-nano))
         - If you use Arch Linux or a derivative distro, the AUR package is recommended.
     - A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
-    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (`hekate_ctcaer_(version).bin`) is located inside of the `hekate_ctcaer_(version).zip`.
+    - The latest release of [Hekate](https://github.com/CTCaer/hekate/releases/). The Hekate payload (`hekate_ctcaer_(version).bin`) is located inside of the `hekate_ctcaer_(version).zip`.
 
     #### **Instructions:**
 
@@ -62,7 +62,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
     - The latest release of [CrystalRCM](https://github.com/prayerie/CrystalRCM/releases) (the `CrystalRCM.(version).dmg` file)
     - A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
-    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (`hekate_ctcaer_(version).bin`) is located inside of the `hekate_ctcaer_(version).zip`.
+    - The latest release of [Hekate](https://github.com/CTCaer/hekate/releases/). The Hekate payload (`hekate_ctcaer_(version).bin`) is located inside of the `hekate_ctcaer_(version).zip`.
 
     #### **Instructions:**
 
@@ -76,13 +76,13 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
     #### **What you need:**
 
-    - The latest release of <a href="https://github.com/MenosGrante/Rekado/releases" target="_blank">Rekado</a>
+    - The latest release of [Rekado](https://github.com/MenosGrante/Rekado/releases)
     - You will need to enable Unknown Sources in your device settings to install this
     - A USB-C cable
     - If your device has a USB-C port, you may use a C-C cable
     - If your device only has a Micro USB port, you will need a USB OTG adapter and a USB A-C cable
     - This **will not work** on every phone!
-    - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (`hekate_ctcaer_(version).bin`) is located inside of the `hekate_ctcaer_(version).zip`.
+    - The latest release of [Hekate](https://github.com/CTCaer/hekate/releases/). The Hekate payload (`hekate_ctcaer_(version).bin`) is located inside of the `hekate_ctcaer_(version).zip`.
 
     #### **Instructions:**
 
@@ -128,7 +128,7 @@ We will prepare the microSD card for formatting/partitioning before going to the
 -----
 
 #### **What you need:**
-- The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target ="_blank">Hekate</a>.
+- The latest release of [Hekate](https://github.com/CTCaer/hekate/releases/)
 - Your microSD card
 
 #### **Instructions:**

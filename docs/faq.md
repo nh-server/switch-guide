@@ -8,7 +8,7 @@ Any console purchased after approximately August 2018 is **likely** to be patche
 Currently the only way to know if your Switch is hackable is by trying to send the payload in RCM.
 Even with this exploit fixed, many Switch consoles on 8.0.1 and below will be hackable to some degree in the future (see [Should I update my Firmware?](#should-i-update-my-firmware) for much more detailed information).
 The serial number on the back of the box can possibly tell you which consoles are patched and which aren't.
-See <a href="https://gbatemp.net/threads/switch-informations-by-serial-number.481215/" target="_blank">here</a> for an up to date list.
+See [here](https://gbatemp.net/threads/switch-informations-by-serial-number.481215/) for an up to date list.
 
 
 ### **How do I use fusee-gelee? How can I boot into RCM?**
@@ -58,7 +58,7 @@ This will not work on an unpatched system, and is practically useless for most u
 On every boot the Switch firmware checks how many e-fuses have been burned and how many e-fuses the Switch expects to be burned.
 Major updates to the Switch, or updates in which a large vulnerability has been patched, irreversibly burn one of the Switch's 64 "e-fuses".
 *If the Switch ever detects that more e-fuses have been burned than expected (meaning a downgrade happened), it will refuse to boot. Replacing e-fuses is not an option.*
-You can find more information about fuses <a href="https://switchbrew.org/wiki/Fuses#Anti-downgrade" target="_blank">here</a>
+You can find more information about fuses [here](https://switchbrew.org/wiki/Fuses#Anti-downgrade)
 Atmosphèreis maintained to support the latest firmware updates on unpatched units. The situation for patched and new units is as follows:
 
 - **"Old"** *Patched Switch (HAC-001): Do NOT update past 7.0.1. Units on 7.0.1 and below will eventually get CFW. Patched units that have upgraded to 8.0.0 or 8.0.1 will likely get homebrew.*
@@ -77,7 +77,7 @@ As long as the Switch is connected to the internet, Nintendo gets a report about
 Even if the Switch is offline and connects to the internet at a later point, Nintendo still recieves information about what happened while the Switch was disconnected.
 
 To disable some of this telemetry, it is advised to disable the sending of error reports in the System Settings of the Switch.
-Additionally if you live in the EU you can set the "do not share" option on <a href="https://accounts.nintendo.com/setting" target="_blank">Nintendo's website</a> to prevent your Switch from sending a lot of telemetry, although the effectiveness of this is questionable.
+Additionally if you live in the EU you can set the "do not share" option on [Nintendo's website](https://accounts.nintendo.com/setting) to prevent your Switch from sending a lot of telemetry, although the effectiveness of this is questionable.
 
 Nintendo still receives a lot of information, even with those options disabled.
 We also cannot know if Nintendo decides to look for something in the logs and ban people in retrospect.
@@ -134,7 +134,7 @@ These microSD cards are often fake and do not have the advertised amount of stor
 Amazon has had some problems with fake microSD cards, so we recommend buying them at a physical store. Even on trustworthy sites, *always, always check reviews on a product before buying!!*
 
 
-If you suspect your microSD card is fake or damaged, see the instructions <a href="https://wiki.hacks.guide/wiki/Checking_SD_card_integrity" target="_blank">here</a> to verify the integrity of your microSD card.
+If you suspect your microSD card is fake or damaged, see the instructions [here](https://wiki.hacks.guide/wiki/Checking_SD_card_integrity) to verify the integrity of your microSD card.
 
 
 

@@ -17,7 +17,7 @@ When a new version of Atmosphère releases, you can update Atmosphère by follow
 1. Enter RCM and inject the Hekate payload.
     - If you use a modchipped Switch, you can simply just turn your Switch on with the Hekate payload renamed to `payload.bin` on the root of your microSD card.
 1. Navigate to `Tools` > `USB Tools` > `SD Card` and plug your Switch into your PC via USB.
-1. Download the latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a> (Download the `atmosphere-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip` release of Atmosphere.)
+1. Download the latest release of [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere/releases) (Download the `atmosphere-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip` release of Atmosphere.)
 1. Copy *the contents of* the Atmosphere `.zip` file to the root of your microSD card.
     - If you are prompted to overwrite files, do so.
 1. Eject the `UMS` device safely from within your computer's operating system.
@@ -32,7 +32,7 @@ When a new version of Hekate releases, you can update by following these steps:
 1. Enter RCM and inject the Hekate payload.
     - If you use a modchipped Switch, you can simply just turn your Switch on with the Hekate payload renamed to `payload.bin` on the root of your microSD card.
 1. Navigate to `Tools` > `USB Tools` > `SD Card` and plug your Switch into your PC via USB.
-1. Download the latest version of <a href="https://github.com/CTCaer/Hekate/releases/" target="_blank">Hekate</a> (Download the `hekate_ctcaer_(version).zip` release of hekate).
+1. Download the latest version of [Hekate](https://github.com/CTCaer/Hekate/releases/) (Download the `hekate_ctcaer_(version).zip` release of hekate).
 1. Copy the `bootloader` folder from the Hekate `.zip` file to the root of your microSD card. If you are asked to overwrite or merge files while copying, say yes to merge/overwrite them.
 1. Eject the `UMS` device safely from within your computer's operating system.
 1. Go back to Hekate's main menu and press `Reload` > `Reload` to reload Hekate from your microSD card.
@@ -85,8 +85,8 @@ If you keep your emuMMC offline, you will have to use a gamecard to update your 
     This guide is made for updating your emuMMC. It is **not** for downgrading. Downgrading at all, sysMMC or emuMMC, is not recommended and not worth it. Downgrading is also very dangerous and can lead to serious complications even when performed correctly.
 
 #### **What you need:**
-- The latest release of <a href="https://github.com/suchmememanyskill/TegraExplorer/releases" target="_blank">TegraExplorer</a>
-- The latest release of <a href="https://github.com/Atmosphere-NX/Atmosphere/releases" target="_blank">Atmosphere</a>
+- The latest release of [TegraExplorer](https://github.com/suchmememanyskill/TegraExplorer/releases)
+- The latest release of [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere/releases)
 
 #### **Preparing your microSD card**
 

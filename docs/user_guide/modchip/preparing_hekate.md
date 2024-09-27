@@ -9,7 +9,7 @@ To get ready for formatting and/or partitioning your microSD card, we will need 
 
 
 #### **What you need:**
-- The latest release of <a href="https://github.com/CTCaer/Hekate/releases/" target="_blank">Hekate</a> (Download the `hekate_ctcaer_(version).zip` release of Hekate)
+- The latest release of [Hekate](https://github.com/CTCaer/Hekate/releases/) (Download the `hekate_ctcaer_(version).zip` release of Hekate)
 - Your microSD card
 
 #### **Instructions:**

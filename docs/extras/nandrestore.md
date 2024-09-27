@@ -9,7 +9,7 @@
 - Your `rawnand.bin` (Combined or in 15 or 30 parts)
 - Your `BOOT0` and `BOOT1`
     - If you're missing any of the files above, ask for further help in the [Nintendo Homebrew](https://discord.gg/C29hYvh) Discord server.
-- The <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a> Payload
+- The [Hekate](https://github.com/CTCaer/hekate/releases/) Payload
 - A microSD card larger than 32GB
 
 ### Instructions:
@@ -37,7 +37,7 @@ Before we start, check if you have a tree of folders called `backup/[8 Character
 
     - Note:  This section can be disregarded for modchipped Switch users.
 
-    A system update is considered a security version when a fuse is burned, you can check **<a href="https://switchbrew.org/wiki/Fuses#Anti-downgrade" target=blank>which versions burn fuses here</a>**.
+    A system update is considered a security version when a fuse is burned, you can check **[which versions burn fuses here](https://switchbrew.org/wiki/Fuses#Anti-downgrade)**.
 
     If you were in AutoRCM before you upgraded to a newer security version (and still were after the upgrade) you don't have to do this.
 
