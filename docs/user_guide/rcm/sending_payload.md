@@ -44,7 +44,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
     #### **What you need:**
 
     - The latest release of [fusee-nano](https://github.com/DefenderOfHyrule/fusee-nano/releases) (also available on the [AUR](https://aur.archlinux.org/packages/fusee-nano))
-         - If you use Arch Linux or a derivative distro, the AUR package is recommended.
+        - If you use Arch Linux or a derivative distro, the AUR package is recommended.
     - A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
     - The latest release of <a href="https://github.com/CTCaer/hekate/releases/" target="_blank">Hekate</a>. The Hekate payload (`hekate_ctcaer_(version).bin`) is located inside of the `hekate_ctcaer_(version).zip`.
 

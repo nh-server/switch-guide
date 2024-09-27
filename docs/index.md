@@ -102,26 +102,26 @@ Note: We are not currently, historically, or will we ever be, associated with An
 
 Furthermore, we resent any implication to the contrary.
 ??? "Frequently Asked Questions about this page"
-      - **Q: What are the differences between "first-generation" ("V1") consoles and "patched" consoles when it comes to running homebrew?** <br>
-            A: Once you boot into Horizon, not much. The primary things to keep in mind is that only V1 consoles support Atmosphère's "Reboot to Payload" function, but modchips automatically load payloads during reboots on their own.
+    - **Q: What are the differences between "first-generation" ("V1") consoles and "patched" consoles when it comes to running homebrew?** <br>
+        A: Once you boot into Horizon, not much. The primary things to keep in mind is that only V1 consoles support Atmosphère's "Reboot to Payload" function, but modchips automatically load payloads during reboots on their own.
 
-      - **Q: What is Horizon?** <br>
-            A: Horizon is the name of the Switch's operating system. It is sometimes called "HorizonNX", because it is actually a derivative version of the Nintendo 3DS's operating system of the same name.
+    - **Q: What is Horizon?** <br>
+        A: Horizon is the name of the Switch's operating system. It is sometimes called "HorizonNX", because it is actually a derivative version of the Nintendo 3DS's operating system of the same name.
 
-      - **Q: Why is it called Atmosphère?** <br>
-            A: Atmosphère "runs on top of the Horizon" operating system. Each layer of Horizon's security is referenced via the atmosphere's different layers. For example, the EL1 "kernel" reimplementation is called mesosphère, while the EL3 "TrustZone" reimplementation is called exosphère. <br> Learn more about ARM Exception Levels [here](https://developer.arm.com/documentation/102412/0103/Privilege-and-Exception-levels/Exception-levels).
+    - **Q: Why is it called Atmosphère?** <br>
+        A: Atmosphère "runs on top of the Horizon" operating system. Each layer of Horizon's security is referenced via the atmosphere's different layers. For example, the EL1 "kernel" reimplementation is called mesosphère, while the EL3 "TrustZone" reimplementation is called exosphère. <br> Learn more about ARM Exception Levels [here](https://developer.arm.com/documentation/102412/0103/Privilege-and-Exception-levels/Exception-levels).
 
-      - **Q: What exactly is the "emuMMC path," and why is it recommended for the microSD card to be at least 128GB for this path?** <br>
-            A: The purpose of an emuMMC/emuNAND is to give you a safe place to use custom firmware functions without Nintendo catching sight. As it is an offline clone of your internal storage ran entirely from your microSD card, you will need to set allocate up to 64GB on your microSD card for it (depending on the size of your internal storage), plus a duplicate your of digital game data (emuMMC uses a separate Nintendo folder for game installs).
+    - **Q: What exactly is the "emuMMC path," and why is it recommended for the microSD card to be at least 128GB for this path?** <br>
+        A: The purpose of an emuMMC/emuNAND is to give you a safe place to use custom firmware functions without Nintendo catching sight. As it is an offline clone of your internal storage ran entirely from your microSD card, you will need to set allocate up to 64GB on your microSD card for it (depending on the size of your internal storage), plus a duplicate your of digital game data (emuMMC uses a separate Nintendo folder for game installs).
 
-      - **Q: Why do I need to set my console as primary before starting this guide?** <br>
-            A: The Switch will otherwise try to connect to Nintendo servers before starting apps, which can lead to unexpected delays and make emuMMCs completely unusable.
+    - **Q: Why do I need to set my console as primary before starting this guide?** <br>
+        A: The Switch will otherwise try to connect to Nintendo servers before starting apps, which can lead to unexpected delays and make emuMMCs completely unusable.
 
-      - **Q: Can I follow this guide if I have a smaller microSD card, and what are the risks involved in choosing the sysCFW path?** <br>
-            A: Nothing stops you from using sysCFW, but it is recommended for first-timers to get familiar with CFW by starting with an emuMMC. If used improperly, running sysCFW can cause software bricks and/or [bans](https://nx.eiphax.tech/ban.html).
+    - **Q: Can I follow this guide if I have a smaller microSD card, and what are the risks involved in choosing the sysCFW path?** <br>
+        A: Nothing stops you from using sysCFW, but it is recommended for first-timers to get familiar with CFW by starting with an emuMMC. If used improperly, running sysCFW can cause software bricks and/or [bans](https://nx.eiphax.tech/ban.html).
 
-      - **Q: Are there any specific restrictions or limitations imposed by Nintendo on consoles running custom firmware and homebrew?** <br>
-            A: Nintendo has shown a distinct tolerance for users using CFW while online. They __do not__ ban for the presence of CFW, they ban for misbehavior - such as piracy or cheating online. Otherwise, you are treated like all other users.
+    - **Q: Are there any specific restrictions or limitations imposed by Nintendo on consoles running custom firmware and homebrew?** <br>
+        A: Nintendo has shown a distinct tolerance for users using CFW while online. They __do not__ ban for the presence of CFW, they ban for misbehavior - such as piracy or cheating online. Otherwise, you are treated like all other users.
 
-      - **Q: Is there any community support or forums recommended for users who may have questions or issues during the process?** <br>
-            A: Of course! As well as the [Nintendo Homebrew Discord server](https://discord.gg/C29hYvh), you can also try the [r/SwitchHacks subreddit](https://www.reddit.com/r/SwitchHacks/)!
+    - **Q: Is there any community support or forums recommended for users who may have questions or issues during the process?** <br>
+        A: Of course! As well as the [Nintendo Homebrew Discord server](https://discord.gg/C29hYvh), you can also try the [r/SwitchHacks subreddit](https://www.reddit.com/r/SwitchHacks/)!

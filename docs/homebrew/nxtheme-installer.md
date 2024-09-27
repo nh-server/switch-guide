@@ -17,7 +17,7 @@ Using NXTheme Installer, you can install and create unique styles and layouts fo
 ### **Installing a theme**
 
 !!! note "Community Themes"
-	If you want to use community made themes, for example from the <a href="https://www.reddit.com/r/NXThemes/" target="_blank">r/NXThemes</a> subreddit or [Themezer](https://themezer.net), you can follow the guide below to install a community provided `.nxtheme` file.
+    If you want to use community made themes, for example from the <a href="https://www.reddit.com/r/NXThemes/" target="_blank">r/NXThemes</a> subreddit or [Themezer](https://themezer.net), you can follow the guide below to install a community provided `.nxtheme` file.
 
 #### **What you need:**
 
@@ -27,11 +27,11 @@ Using NXTheme Installer, you can install and create unique styles and layouts fo
 
 1. Download `NXThemesInstaller.nro` and put it in `sd:/switch`.
 1. Copy the `.nxtheme` files to the `themes` folder on your microSD card (It is recommended you put them into their own folders, e.g. `sd:/themes/awesome_theme/awesome.nxtheme`).
-	- Create the `themes` folder on the root of your microSD card if it does not exist.
+    - Create the `themes` folder on the root of your microSD card if it does not exist.
 1. Boot into sysCFW/emuMMC and launch the Homebrew Menu, then launch `NXThemes Installer` *with* an internet connection.
     - NXTheme Installer will automatically download the required theme patches if it has a connection to the internet. These theme patches are required for themes to work.
-	If you don't want to or don't have the ability connect to a Wi-Fi network, installing the theme patches can be done manually.
-	See the instructions [here](https://github.com/exelix11/theme-patches#if-you-dont-want-to-connect-your-console-to-the-internet) on how to install them manually.
+    If you don't want to or don't have the ability connect to a Wi-Fi network, installing the theme patches can be done manually.
+    See the instructions [here](https://github.com/exelix11/theme-patches#if-you-dont-want-to-connect-your-console-to-the-internet) on how to install them manually.
 1. If you get prompted about extracting your home menu data, do so.
     - You can always do this manually via the `Extract home menu` tab in `NXTheme Installer`.
 1. You should now see the main menu of `NXTheme Installer`, the `Themes` tab is where you will find your themes. To install them, press the folder name of your theme and go through each home menu section to install the desired theme for that section (e.g. going to `/awesome_theme` and selecting your theme for the specific menu you want to change, do the same for the other menus).

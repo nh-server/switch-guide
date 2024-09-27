@@ -97,8 +97,8 @@ For more information on terminology, please refer to the [glossary](../../extras
       Modchips directly infiltrate communication with the internal storage chip. Due to this, there are slight chances of NAND backups being tainted with corrupted data. If a bad backup is restored to sysNAND, the console can be bricked, and a modchip alone won't be able to fix it. To be safe, we recommend setting up an emuMMC on a console with a modchip, verify BOOT0/1 backups using tools like [NXNandManager (Windows)](https://github.com/eliboa/NxNandManager) or test NAND backups by running them as emuMMCs before you flash them to the sysNAND.
 
 ??? "Frequently Asked Questions about this page"
-      - **Q: Why is CFW referred to as being "never permanently installed"?** <br>
-                  A: Unless you have a modchip of any kind, turning the console off will disactivate the custom firmware. There is no current method for Atmosphère to install-to or permanently replace any part of the Nintendo Switch, so it will need to be triggered by an exploit every time you turn on the console. Atmosphère will then patch Horizon to bring you custom firmware features.
+    - **Q: Why is CFW referred to as being "never permanently installed"?** <br>
+        A: Unless you have a modchip of any kind, turning the console off will disactivate the custom firmware. There is no current method for Atmosphère to install-to or permanently replace any part of the Nintendo Switch, so it will need to be triggered by an exploit every time you turn on the console. Atmosphère will then patch Horizon to bring you custom firmware features.
 
-      - **Q: Should I personally use sys/emuMMC?** <br>
-                  A: These questions are answered in detail within the webpage. Please make sure that you are fully reading the page before jumping here.
+    - **Q: Should I personally use sys/emuMMC?** <br>
+        A: These questions are answered in detail within the webpage. Please make sure that you are fully reading the page before jumping here.

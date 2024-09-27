@@ -3,7 +3,7 @@
 If you need to troubleshoot something, or need to try a different boot setup, read on.
 
 !!! danger "Do I need any of these?"
-	Unless you are experiencing problems with booting or Atmosphère itself, it's strongly recommended to use the main guide instead of these. They are provided for the sake of completeness.
+    Unless you are experiencing problems with booting or Atmosphère itself, it's strongly recommended to use the main guide instead of these. They are provided for the sake of completeness.
 
 &nbsp;
 

@@ -59,7 +59,7 @@ Methods to enter RCM can require nothing more than household items (not recommen
     #### Wire reference:
     ![wire reference](../rcm/img/entering_rcm_button_1.jpg){ width="675"}
 
-	You will then want to take the circular end of one of the wires and add a small amount of solder, keeping it mostly flat (ONLY DO THIS TO ONE OF THE WIRES!). You will then glue this wire down to the below point on the rail release button. Make sure glue doesn't cover the top of the solder/wire as it will act as a contact point. Also, ensure that you leave enough space for the button to function correctly. Try pushing the button from the outside and observing its travel path so that you can see where and how you should safely glue the solder glob.
+    You will then want to take the circular end of one of the wires and add a small amount of solder, keeping it mostly flat (ONLY DO THIS TO ONE OF THE WIRES!). You will then glue this wire down to the below point on the rail release button. Make sure glue doesn't cover the top of the solder/wire as it will act as a contact point. Also, ensure that you leave enough space for the button to function correctly. Try pushing the button from the outside and observing its travel path so that you can see where and how you should safely glue the solder glob.
 
     #### Joy-Con button:
     ![eip joycon button reference](../rcm/img/entering_rcm_button_5.jpg){ width="650"}
