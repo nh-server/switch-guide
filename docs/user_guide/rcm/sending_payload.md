@@ -21,23 +21,23 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
     #### **Instructions:**
 
     1. Install and run TegraRcmGUI.
-    2. Navigate to the `Settings` tab, then press `Install Driver` and follow the on-screen instructions.
+    1. Navigate to the `Settings` tab, then press `Install Driver` and follow the on-screen instructions.
         - If you face issues when installing the driver, follow the [driver installation with Zadig](#driver-installation-with-zadig) section below.
-    3. Connect your Switch in RCM to your PC using the USB cable.
-    4. Navigate to the `Payload` tab of TegraRcmGUI.
+    1. Connect your Switch in RCM to your PC using the USB cable.
+    1. Navigate to the `Payload` tab of TegraRcmGUI.
         - Your Switch should be shown as detected in the bottom left corner.
-    5. Press the file button next to `Inject payload`, and navigate to and select the `hekate_ctcaer_X.X.X.bin` file.
-    6. Click `Inject payload` to launch the payload you selected.
+    1. Press the file button next to `Inject payload`, and navigate to and select the `hekate_ctcaer_X.X.X.bin` file.
+    1. Click `Inject payload` to launch the payload you selected.
         - If your payload was successfully injected your switch should have yellow text that says "Update bootloader folder!", this will be resolved soon.
     #### **Driver installation with Zadig**
 
     Follow these steps if you face issues when installing the driver with TegraRcmGUI. You will need the latest version of <a href="https://zadig.akeo.ie" target="_blank">Zadig</a>.
 
     1. Launch Zadig. In the `Options` menu, be sure that `List All Devices` is enabled.
-    2. Connect your Switch in RCM to your PC using the USB cable.
-    3. In Zadig, select "APX" in the device list.
-    4. Select `libusbK (v3.1.0.0)` in the driver list.
-    5. Click `Install Driver` and wait for the installation to finish.
+    1. Connect your Switch in RCM to your PC using the USB cable.
+    1. In Zadig, select "APX" in the device list.
+    1. Select `libusbK (v3.1.0.0)` in the driver list.
+    1. Click `Install Driver` and wait for the installation to finish.
 
 === "Linux"
 
@@ -51,8 +51,8 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
     #### **Instructions:**
 
     1. Download and run the payload injector from your terminal. You will need to run the injector as root, unless you follow the instructions at [Linux injection without root](../../extras/adding_udev.md).
-    2. Connect your Switch in RCM to your PC using the USB cable.
-    3. Run fusee-nano with: `./fusee-nano /path/to/hekate-ctcaer_X.X.X.bin`
+    1. Connect your Switch in RCM to your PC using the USB cable.
+    1. Run fusee-nano with: `./fusee-nano /path/to/hekate-ctcaer_X.X.X.bin`
         - As mentioned earlier, unless you have followed the instructions at [Linux injection without root](../../extras/adding_udev.md), this will require root to run. For most systems, this is done with `sudo`
         - If your payload was successfully injected your switch should have yellow text that says "Update bootloader folder!", this will be resolved soon.
 
@@ -67,10 +67,10 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
     #### **Instructions:**
 
     1. Download the latest release of CrystalRCM.
-    2. Connect your Switch in RCM to your PC using the USB cable, make sure it's also detected in CrystalRCM.
-    2. Mount the `CrystalRCM.(version).dmg` file, open the mounted disk image in File Explorer and copy the `CrystalRCM.app` file inside of the mounted disk image to any location on your Mac.
-    3. Open the `CrystalRCM.app` app, then click `Payload...` and select the `hekate_ctcaer_X.X.X.bin` file.
-    4. Once selected, click `Push!`. The payload should now be injected successfully.
+    1. Connect your Switch in RCM to your PC using the USB cable, make sure it's also detected in CrystalRCM.
+    1. Mount the `CrystalRCM.(version).dmg` file, open the mounted disk image in File Explorer and copy the `CrystalRCM.app` file inside of the mounted disk image to any location on your Mac.
+    1. Open the `CrystalRCM.app` app, then click `Payload...` and select the `hekate_ctcaer_X.X.X.bin` file.
+    1. Once selected, click `Push!`. The payload should now be injected successfully.
         - If your payload was successfully injected your switch should have yellow text that says "Update bootloader folder!", this will be resolved soon.
 === "Android"
 
@@ -88,13 +88,13 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
     1. Copy the hekate_ctcaer `.bin` file from the Hekate `.zip` file to a location on your phone.
         - A tool such as Amaze File Manager can do this.
-    2. Launch Rekado on your phone.
-    3. Navigate to `Payloads` (Signified by a downwards arrow with a line), then press the `+` button at the bottom right.
-    4. Navigate to your hekate_ctcaer `.bin` file and tap it to add it to Rekado's menu.
-    5. **Optional, but recommended**: Navigate to Rekado's settings in the top right and enable `Hide bundled`.
-    6. Connect your Switch in RCM to your phone using the USB cable.
-    7. If prompted, grant Rekado access to the Switch.
-    8. Select the `hekate_ctcaer_X.X.X.bin` file in the dialog that pops up.
+    1. Launch Rekado on your phone.
+    1. Navigate to `Payloads` (Signified by a downwards arrow with a line), then press the `+` button at the bottom right.
+    1. Navigate to your hekate_ctcaer `.bin` file and tap it to add it to Rekado's menu.
+    1. **Optional, but recommended**: Navigate to Rekado's settings in the top right and enable `Hide bundled`.
+    1. Connect your Switch in RCM to your phone using the USB cable.
+    1. If prompted, grant Rekado access to the Switch.
+    1. Select the `hekate_ctcaer_X.X.X.bin` file in the dialog that pops up.
         - If your payload was successfully injected your switch should have yellow text that says "Update bootloader folder!", this will be resolved soon.
 === "Chromebook"
 
@@ -108,10 +108,10 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
     #### **Instructions:**
 
     1. Go to the injection [website](https://fusee.eiphax.tech/) and scroll all the way down
-    2. Open the dropdown menu and select `hekate_ctcaer_X_X_X` from the list.
-    3. Connect your Switch in RCM to your Chromebook using the USB cable.
-    4. Select "Deliver Payload". A pop-up will appear. Click the `APX` option.
-    5. Press the Connect button and the payload will be injected.
+    1. Open the dropdown menu and select `hekate_ctcaer_X_X_X` from the list.
+    1. Connect your Switch in RCM to your Chromebook using the USB cable.
+    1. Select "Deliver Payload". A pop-up will appear. Click the `APX` option.
+    1. Press the Connect button and the payload will be injected.
         - If your payload was successfully injected your switch should have yellow text that says "Update bootloader folder!", this will be resolved soon.
 
 !!! danger "If nothing happens after you send the payload"
@@ -133,14 +133,14 @@ We will prepare the microSD card for formatting/partitioning before going to the
 
 #### **Instructions:**
 1. Without turning your Switch off, remove the microSD card from the Switch.
-2. Insert your microSD card into your computer.
-3. Copy the `Nintendo` folder (and any other important data) from the root of your microSD card to a safe space on your device.
-4. Extract the Hekate `.zip` to a location on your computer
-5. Inside the extracted Hekate folder you will find a folder named `bootloader`.
-6. Copy the `bootloader` folder to the root of your microSD card.
-7. Put your microSD card back into your Switch.
-8. Press any button to continue to the Hekate menu.
-9. Use volume up and volume down to navigate the Hekate menu. Hover over 'reload' and press the power button to select. Your screen should now have the Hekate GUI (Nyx) pictured below.
+1. Insert your microSD card into your computer.
+1. Copy the `Nintendo` folder (and any other important data) from the root of your microSD card to a safe space on your device.
+1. Extract the Hekate `.zip` to a location on your computer
+1. Inside the extracted Hekate folder you will find a folder named `bootloader`.
+1. Copy the `bootloader` folder to the root of your microSD card.
+1. Put your microSD card back into your Switch.
+1. Press any button to continue to the Hekate menu.
+1. Use volume up and volume down to navigate the Hekate menu. Hover over 'reload' and press the power button to select. Your screen should now have the Hekate GUI (Nyx) pictured below.
 ![Nyx](../all/img/nyx.bmp){ width="600" }
 
 [Continue to choosing your CFW environment :material-arrow-right:](../all/cfw_environment.md){ .md-button .md-button--primary }

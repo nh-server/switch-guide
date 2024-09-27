@@ -7,9 +7,9 @@ AutoRCM causes the console to believe it is bricked, and will automatically laun
 !!! warning "If you don't have a BOOT0/1 backup yet..."
 	You really want to kill your console, huh? If you haven't made a BOOT0/1 backup yet, it is recommended to make one **right now**.
 
-	1. Boot into Hekate
-	2. Go to `Tools`, and select `Backup eMMC`
-	3. Then tap `eMMC BOOT0 & BOOT1` and let the process complete.
+    1. Boot into Hekate
+    1. Go to `Tools`, and select `Backup eMMC`
+    1. Then tap `eMMC BOOT0 & BOOT1` and let the process complete.
 
 ### **Disadvantages of AutoRCM**
 
@@ -38,7 +38,7 @@ AutoRCM can be used for good as well:
 If, despite all of the information above, you still wish to enable (or disable) AutoRCM, and understand the risks, do the following:
 
 1. Boot into Hekate
-2. Go to `Tools`
-3. At the bottom of the page, tap `Arch Bit • AutoRCM • Touch • Pkg1/2`
-4. Then tap `AutoRCM`. It will show a little `ON` next to the option once you have done this.
+1. Go to `Tools`
+1. At the bottom of the page, tap `Arch Bit • AutoRCM • Touch • Pkg1/2`
+1. Then tap `AutoRCM`. It will show a little `ON` next to the option once you have done this.
     - If you wish to disable it instead, follow these same steps and ensure the `AutoRCM` option is set to `OFF`.

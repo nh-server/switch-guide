@@ -15,18 +15,18 @@ For cheats management, [EdiZon](https://github.com/WerWolv/EdiZon) and/or [EdiZo
 
 === "Installation instructions (EdiZon):"
     1. Boot into Hekate and go to `Tools` > `USB Tools` > `SD Card`, then plug your Switch into your PC via USB.
-    2. Your microSD card should now be accessible on your PC, open it.
-    3. Put the `EdiZon.nro` in `sd:/switch`.
-    4. Boot into CFW.
+    1. Your microSD card should now be accessible on your PC, open it.
+    1. Put the `EdiZon.nro` in `sd:/switch`.
+    1. Boot into CFW.
 
 === "Installation instructions (EdiZon-SE):"
     1. Boot into Hekate and go to `Tools` > `USB Tools` > `SD Card`, then plug your Switch into your PC via USB.
-    2. Your microSD card should now be accessible on your PC, open it.
-    3. Extract the `.zip` file to a location on your computer.
-    - If your archive manager allows for it, you can also simply open the `.zip` file directly.
-    4. Copy the *contents* of the (extracted) `.zip` file to the root of your microSD card.
-    - **Optional:** You can verify if you've installed EdiZon-SE correctly, you should have a folder called `054e4f4558454000` (EdiZon-SE) in `sd:/atmosphere/contents` and an `EdiZon.nro` file in `sd:/switch/EdiZon`.
-    5. Boot into CFW.
+    1. Your microSD card should now be accessible on your PC, open it.
+    1. Extract the `.zip` file to a location on your computer.
+        - If your archive manager allows for it, you can also simply open the `.zip` file directly.
+    1. Copy the *contents* of the (extracted) `.zip` file to the root of your microSD card.
+        - **Optional:** You can verify if you've installed EdiZon-SE correctly, you should have a folder called `054e4f4558454000` (EdiZon-SE) in `sd:/atmosphere/contents` and an `EdiZon.nro` file in `sd:/switch/EdiZon`.
+    1. Boot into CFW.
 
 -----
 
@@ -52,7 +52,7 @@ Once the title is launched while in Atmosphere, your cheats should be applied.
 To prevent cheats from being enabled by default, you can change your Atmosphère configuration by following the steps below.
 
 1. Copy `system_settings.ini` from `sd:/atmosphere/config_templates` to `sd:/atmosphere/config` if it's not already there.
-2. Open the `system_settings.ini` file with a text editor and edit the line `; dmnt_cheats_enabled_by_default = u8!0x1` to `dmnt_cheats_enabled_by_default = u8!0x0`.
+1. Open the `system_settings.ini` file with a text editor and edit the line `; dmnt_cheats_enabled_by_default = u8!0x1` to `dmnt_cheats_enabled_by_default = u8!0x0`.
 
     - Make sure you remove the space and the semicolon "`; `" in front of `dmnt_cheats_enabled_by_default`.
 

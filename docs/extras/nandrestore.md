@@ -19,17 +19,17 @@ Before we start, check if you have a tree of folders called `backup/[8 Character
 !!! warning "If you don't see a backup or [8 Character NAND id] folder on your microSD card:"
 	This means you do not have a nand backup, it is highly recommended you make one as soon as possible. Follow the steps below to make one.
 
-	1. Launch the latest Hekate payload on your Switch.
-	2. Navigate to `Tools` > `Backup eMMC` > `eMMC BOOT0 & BOOT1` and let it do its thing.
-	3. Wait for the process to complete. When it's completed, you now have a `backup/[8 Character NAND id]/restore` folder on your microSD card. Continue with step 1 of the instructions below.
+    1. Launch the latest Hekate payload on your Switch.
+    1. Navigate to `Tools` > `Backup eMMC` > `eMMC BOOT0 & BOOT1` and let it do its thing.
+    1. Wait for the process to complete. When it's completed, you now have a `backup/[8 Character NAND id]/restore` folder on your microSD card. Continue with step 1 of the instructions below.
 
 1. Enter RCM and inject the Hekate payload.
     - If you use a modchipped Switch, you can simply just turn your Switch on with the Hekate payload renamed to `payload.bin` on the root of your SD.
-2. Navigate to `Tools` > `USB Tools` > `SD Card` and plug your Switch into your PC via USB.
-3. Copy your `rawnand.bin` (combined or in 15 or 30 parts), `BOOT0`, and `BOOT1` to the `backup/[8 Character NAND id]/restore` folder on the microSD card.
-4. Eject the `UMS` device safely from within your computer's operating system.
-5. Navigate to `Tools` > `Restore eMMC`. Select `Restore eMMC BOOT0 & BOOT1`. Wait for this process to complete.
-6. In that same menu, select `eMMC RAW GPP` and wait for the process to complete.
+1. Navigate to `Tools` > `USB Tools` > `SD Card` and plug your Switch into your PC via USB.
+1. Copy your `rawnand.bin` (combined or in 15 or 30 parts), `BOOT0`, and `BOOT1` to the `backup/[8 Character NAND id]/restore` folder on the microSD card.
+1. Eject the `UMS` device safely from within your computer's operating system.
+1. Navigate to `Tools` > `Restore eMMC`. Select `Restore eMMC BOOT0 & BOOT1`. Wait for this process to complete.
+1. In that same menu, select `eMMC RAW GPP` and wait for the process to complete.
     - This will generally take a long time to complete, the time it takes depends on your microSD card's specifications. (10-15 minutes is expected.)
 
 !!! danger "If you're downgrading using your NAND backup"
@@ -41,5 +41,5 @@ Before we start, check if you have a tree of folders called `backup/[8 Character
 
 	If you were in AutoRCM before you upgraded to a newer security version (and still were after the upgrade) you don't have to do this.
 
-	1. In Hekate's main menu, navigate to `Tools` and go to the bottom of the page where you will find a button called `Archive bit - AutoRCM`
-	2. Select the `AutoRCM` buttom and you will see `ON` written next to it. This means it is enabled.
+    1. In Hekate's main menu, navigate to `Tools` and go to the bottom of the page where you will find a button called `Archive bit - AutoRCM`
+    1. Select the `AutoRCM` buttom and you will see `ON` written next to it. This means it is enabled.

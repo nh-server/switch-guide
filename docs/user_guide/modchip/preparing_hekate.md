@@ -15,13 +15,13 @@ To get ready for formatting and/or partitioning your microSD card, we will need 
 #### **Instructions:**
 
 1. Extract the Hekate `.zip` to a location on your computer.
-2. Insert your microSD card into your computer.
-3. Copy the `Nintendo` folder (and any other important data) from the root of your microSD card to a safe space on your device.
-4. Inside of the extracted Hekate folder, you will find the `bootloader` folder and the `hekate_ctcaer_(version).bin` payload.
-5. Copy the `bootloader` folder and `hekate_ctcaer_(version).bin` payload to the root of your microSD card.
-6. Rename the `hekate_ctcaer_(version).bin` payload to `payload.bin`
-7. Insert your microSD card back into your Switch, then turn it on.
-8. You should now be loaded into the Hekate GUI (Nyx), pictured below, within seconds.
+1. Insert your microSD card into your computer.
+1. Copy the `Nintendo` folder (and any other important data) from the root of your microSD card to a safe space on your device.
+1. Inside of the extracted Hekate folder, you will find the `bootloader` folder and the `hekate_ctcaer_(version).bin` payload.
+1. Copy the `bootloader` folder and `hekate_ctcaer_(version).bin` payload to the root of your microSD card.
+1. Rename the `hekate_ctcaer_(version).bin` payload to `payload.bin`
+1. Insert your microSD card back into your Switch, then turn it on.
+1. You should now be loaded into the Hekate GUI (Nyx), pictured below, within seconds.
 ![Nyx](../all/img/nyx.bmp){ width="600" }
     - If you are unable to load into Nyx, consult the warning message below.
 

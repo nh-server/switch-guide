@@ -145,9 +145,9 @@ This is an issue primarily affecting macOS users, but may occur on other devices
 
 1. Inject the Hekate payload using your favorite payload injector.
     - If you have a modchipped Switch, place the Hekate payload on the root of your microSD card and rename it to payload.bin, reinsert your microSD card into your Switch and turn it on.
-2. Press `Tools` on the top menu bar.
-3. In the bottom right corner, press `Arch Bit • AutoRCM • Touch • Pkg1/2`.
-4. Press `Fix Archive bit` - this might take a while.
-5. Press `Close` in the top right corner.
-6. Press `Home` in the top menu bar to get back from where you started.
-7. Follow the instructions at the Launching CFW page [here](user_guide/all/launching_cfw.md) to launch Atmosphere.
+1. Press `Tools` on the top menu bar.
+1. In the bottom right corner, press `Arch Bit • AutoRCM • Touch • Pkg1/2`.
+1. Press `Fix Archive bit` - this might take a while.
+1. Press `Close` in the top right corner.
+1. Press `Home` in the top menu bar to get back from where you started.
+1. Follow the instructions at the Launching CFW page [here](user_guide/all/launching_cfw.md) to launch Atmosphere.
