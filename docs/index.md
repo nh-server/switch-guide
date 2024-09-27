@@ -47,11 +47,11 @@ This guide has the end-goal of taking a completely unmodified Switch from stock 
 
 ### **What can I do with custom firmware?**
 
-* Customize your HOME Menu with user-created themes and splash screens
-* Run “ROM hacks” for games that you own
-* Backup, edit, and restore saves for many games
-* Play games for older systems with various emulators, using RetroArch or other standalone emulators
-* Safely update to the latest system version without fear of losing access to homebrew
+- Customize your HOME Menu with user-created themes and splash screens
+- Run “ROM hacks” for games that you own
+- Backup, edit, and restore saves for many games
+- Play games for older systems with various emulators, using RetroArch or other standalone emulators
+- Safely update to the latest system version without fear of losing access to homebrew
 - Safely customise your device while retaining full access to Nintendo online services
 
 More on this can be found later on in the guide.

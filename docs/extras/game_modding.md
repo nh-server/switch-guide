@@ -7,12 +7,12 @@ LayeredFS, a tool built into Atmosphere, allows you to (temporarily) replace a g
 Check the section below to find your mod's folder/file structure, then install your mod accordingly.
 
 !!! note "**Checking folder/file structures**"
-    * If the mod solely includes a `romfs` (and/or `exefs` folder), you will need to place that folder inside of `sd:/atmosphere/contents/<title_id>/`.
+    - If the mod solely includes a `romfs` (and/or `exefs` folder), you will need to place that folder inside of `sd:/atmosphere/contents/<title_id>/`.
         - **Note:** The title ID folder has to be created manually in this case. This is game specific and the title ID of every game can be found on the following websites: [switchbrew](https://switchbrew.org/wiki/Title_list/Games) and [nswdb](https://nswdb.com/).
 
-    * If the mod solely includes a `contents` folder, you can simply copy that folder to `sd:/atmosphere/` on your microSD card and merge folders if prompted.
+    - If the mod solely includes a `contents` folder, you can simply copy that folder to `sd:/atmosphere/` on your microSD card and merge folders if prompted.
 
-    * If the mod has the complete folder structure set up (i.e. `atmosphere/contents/<title_id>/romfs`), you can simply copy the `atmosphere` folder (likely inside of a mod's `.zip` file) to the root of your microSD card and merge folders if prompted.
+    - If the mod has the complete folder structure set up (i.e. `atmosphere/contents/<title_id>/romfs`), you can simply copy the `atmosphere` folder (likely inside of a mod's `.zip` file) to the root of your microSD card and merge folders if prompted.
 
 !!! warning "Atmosphere 0.9.4 and below"
     **Note: On Atmosphère 0.9.4 and below, `contents` is called `titles`**
@@ -32,11 +32,11 @@ If you want to disable mods on launch of a game, hold the `L` button before laun
 
 While most games only require Atmosphere's LayeredFS to enable game modding, there are some games that may require more specialized setup. For example:
 
-* Modding Super Smash Bros. requires [ARCropolis](https://github.com/Raytwo/ARCropolis/releases) and [skyline](https://github.com/skyline-dev/skyline/releases). Skyline's `exefs` folder goes into the `atmosphere/contents/01006A800016E000/` directory. ARCropolis looks for mods in the `sd:/ultimate/mods` directory on your microSD card.
+- Modding Super Smash Bros. requires [ARCropolis](https://github.com/Raytwo/ARCropolis/releases) and [skyline](https://github.com/skyline-dev/skyline/releases). Skyline's `exefs` folder goes into the `atmosphere/contents/01006A800016E000/` directory. ARCropolis looks for mods in the `sd:/ultimate/mods` directory on your microSD card.
 
-* Modding Breath of the Wild and Tears of the Kingdom with multiple mods requires the use of [BCML](https://github.com/NiceneNerd/BCML) or [UKMM](https://github.com/NiceneNerd/UKMM/releases) (Recommended) and [TKMM](https://github.com/TKMM-Team/Tkmm/releases) respectively.
+- Modding Breath of the Wild and Tears of the Kingdom with multiple mods requires the use of [BCML](https://github.com/NiceneNerd/BCML) or [UKMM](https://github.com/NiceneNerd/UKMM/releases) (Recommended) and [TKMM](https://github.com/TKMM-Team/Tkmm/releases) respectively.
 
-* Animal Crossing: New Horizons requires some extra setup for mods to work. The folder that would normally be called `romfs` has to be called `romFs` and you'll need to create an empty file inside of `atmosphere/contents/01006F8002326000/romFs/System/Resource/` called `ResourceSizeTable.srsizetable`. More information on this can be found on the [ac-modding website](https://ac-modding.com/ACNH/mods.html).
+- Animal Crossing: New Horizons requires some extra setup for mods to work. The folder that would normally be called `romfs` has to be called `romFs` and you'll need to create an empty file inside of `atmosphere/contents/01006F8002326000/romFs/System/Resource/` called `ResourceSizeTable.srsizetable`. More information on this can be found on the [ac-modding website](https://ac-modding.com/ACNH/mods.html).
 
 -----
 

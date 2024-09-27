@@ -22,28 +22,28 @@ For more information on terminology, please refer to the [glossary](../../extras
 -   ### **emuMMC CFW (Recommended)**
     #### **CFW on emuMMC has the following benefits:**
 
-    * No risk of bans as long as emuMMC remains offline from Nintendo [[info]](../../extras/img/ban.png)
-    * A safe area to test dangerous or risky mods and homebrew
-    * No chance of bricking and losing console-unique information while using CFW
+    - No risk of bans as long as emuMMC remains offline from Nintendo [[info]](../../extras/img/ban.png)
+    - A safe area to test dangerous or risky mods and homebrew
+    - No chance of bricking and losing console-unique information while using CFW
 
     #### **The following drawbacks:**
 
-    * Large microSD size requirement (32GB or 64GB will be reserved, depending on if you use a Switch OLED or not). If you want a *decent* experience, a minimum of 128GB is required (unless you are an advanced user and can resize the USER partition of your NAND)
-    * Slower console response times due to the limitation of your microSD card's classifications/specifications
-    * No official online play while in CFW
-    * More microSD card wear over time
-    * Doubled digital game storage requirements <link to dumping digital games>
+    - Large microSD size requirement (32GB or 64GB will be reserved, depending on if you use a Switch OLED or not). If you want a *decent* experience, a minimum of 128GB is required (unless you are an advanced user and can resize the USER partition of your NAND)
+    - Slower console response times due to the limitation of your microSD card's classifications/specifications
+    - No official online play while in CFW
+    - More microSD card wear over time
+    - Doubled digital game storage requirements <link to dumping digital games>
 
     #### **And the following considerations:**
     No parity between sysMMC and emuMMC (Game installs, save data, and system settings will be separated when you boot between the two)
 
     #### **In particular, here are just *some* popular use-cases for CFW on emuMMC:**
 
-    * Restoring modified save data for any game
-    * Modding and cheating in any game
-    * Custom fonts and home menu theming
-    * Downgrading titles to base versions, without mandatory updates
-    * Enjoying CFW features such as custom sysmodules and homebrew apps
+    - Restoring modified save data for any game
+    - Modding and cheating in any game
+    - Custom fonts and home menu theming
+    - Downgrading titles to base versions, without mandatory updates
+    - Enjoying CFW features such as custom sysmodules and homebrew apps
 
     If you prefer foolproofing, and a separation between official features and custom features, you may consider using CFW on emuMMC. In this guide, emuMMC is assumed to be utilised for offline play.
 
@@ -59,26 +59,26 @@ For more information on terminology, please refer to the [glossary](../../extras
 -   ### **sysCFW (CFW on sysMMC)**
     #### **CFW on sysMMC has the following benefits:**
 
-    * Parity of system settings, save data, and titles between CFW usage and standard usage (no need to duplicate digital games)
-    * Significantly lower microSD card storage requirements
-    * Possibility of online play during CFW use
-    * Fast console response time by not having to rely on the speed of your microSD card
-    * Longer microSD card lifespan
+    - Parity of system settings, save data, and titles between CFW usage and standard usage (no need to duplicate digital games)
+    - Significantly lower microSD card storage requirements
+    - Possibility of online play during CFW use
+    - Fast console response time by not having to rely on the speed of your microSD card
+    - Longer microSD card lifespan
 
 
     #### **The following drawbacks:**
 
-    * A brick risk for risky behaviors, especially for modchip users [[info]](#modchip-instability)
-    * A Nintendo server ban risk for misbehavior [[info]](https://nx.eiphax.tech/ban.html)
-    * No possibility of custom profile pictures (guaranteed ban)
+    - A brick risk for risky behaviors, especially for modchip users [[info]](#modchip-instability)
+    - A Nintendo server ban risk for misbehavior [[info]](https://nx.eiphax.tech/ban.html)
+    - No possibility of custom profile pictures (guaranteed ban)
 
     #### **In particular, here are just *some* popular use-cases for sysCFW:**
 
-    * Enjoying CFW features such as custom sysmodules and homebrew apps
-    * Dumping eShop games, save data, and encryption keys for preservation or installation on emuMMC or external Switch emulators
-    * Restoring modified save data for many games
-    * Custom fonts and home menu theming
-    * Modifying and cheating in most offline games (and some online games; [[info]](../../homebrew/edizon.md))
+    - Enjoying CFW features such as custom sysmodules and homebrew apps
+    - Dumping eShop games, save data, and encryption keys for preservation or installation on emuMMC or external Switch emulators
+    - Restoring modified save data for many games
+    - Custom fonts and home menu theming
+    - Modifying and cheating in most offline games (and some online games; [[info]](../../homebrew/edizon.md))
 
     If you prefer snappiness, online play, and a seamless transition between official features and custom features, you may consider using CFW on sysMMC. In this guide, sysMMC is assumed to be utilised for online play.
 
