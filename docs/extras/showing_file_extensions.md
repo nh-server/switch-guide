@@ -5,14 +5,14 @@ By default, Microsoft Windows 10 and 11 do not show file extensions for known fi
 ### **Instructions for Windows 10:**
 
 1. Open a new File Explorer window.
-2. Switch to the View tab/ribbon.
-3. On this tab, if the `File name extensions` checkbox is not ticked, put a check/tick mark in it by clicking it.
+1. Switch to the View tab/ribbon.
+1. On this tab, if the `File name extensions` checkbox is not ticked, put a check/tick mark in it by clicking it.
 
 ### **Instructions for Windows 11:**
 
 1. Open a new File Explorer window.
-2. Click the `View` hamburger menu/dropdown menu.
-3. Go to `Show` at the bottom and ensure that `File name extensions` is ticked.
+1. Click the `View` hamburger menu/dropdown menu.
+1. Go to `Show` at the bottom and ensure that `File name extensions` is ticked.
 
 !!! tip ""
     ![Visual for the above instructions](img/file_extensions.png)

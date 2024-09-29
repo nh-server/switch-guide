@@ -22,12 +22,12 @@ Tesla-Menu is an overlay menu developed by [WerWolv](https://github.com/WerWolv)
 
 #### Installation instructions:
 1. Boot into Hekate and go to `Tools` > `USB Tools` > `SD Card`, then plug your Switch into your PC via USB.
-2. Your microSD card should now be accessible on your PC, open it.
-3. Extract both `.zip` files to a location on your computer.
+1. Your microSD card should now be accessible on your PC, open it.
+1. Extract both `.zip` files to a location on your computer.
     - If your archive manager allows for it, you can also simply open the `.zip` files directly.
-4. Copy the *contents* of each (extracted) `.zip` file to the root of your microSD card.
+1. Copy the *contents* of each (extracted) `.zip` file to the root of your microSD card.
     - **Optional:** You can verify if you've installed Tesla-Menu and nx-ovlloader correctly, you should have a folder called `420000000007E51A` (nx-ovlloader) in `sd:/atmosphere/contents` and the `ovlmenu.ovl` (Tesla-Menu) file in `sd:/switch/.overlays`.
-5. Boot into CFW.
+1. Boot into CFW.
 
 -----
 
@@ -41,15 +41,15 @@ Tesla-Menu can be opened by pressing `L` + `R Stick press (R3)` + `DPAD down`, a
 If you wish to change the default button configuration, see the instructions below:
 
 1. Navigate to `sd:/config` on your microSD card.
-2. Create a folder named `tesla` if it doesn't exist already.
-3. Create a file named `config.ini` in `sd:/config/tesla`.
-4. Paste the following text inside of `config.ini`:
+1. Create a folder named `tesla` if it doesn't exist already.
+1. Create a file named `config.ini` in `sd:/config/tesla`.
+1. Paste the following text inside of `config.ini`:
     ```
     [tesla]
     key_combo=L+R+RS
     # A, B, X, Y, LS, RS, L, R, ZL, ZR, PLUS, MINUS, DLEFT, DUP, DRIGHT, DDOWN, SL, SR
     ```
-5. Change the `key_combo` value to anything you desire and save the file. The accepted inputs are mentioned on the third line.
+1. Change the `key_combo` value to anything you desire and save the file. The accepted inputs are mentioned on the third line.
 
 -----
 

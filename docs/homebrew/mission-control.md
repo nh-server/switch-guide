@@ -10,12 +10,12 @@ MissionControl is a [sysmodule](index.md#terminologies) that allows you to pair 
 
 #### Installation instructions:
 1. Boot into Hekate and go to `Tools` > `USB Tools` > `SD Card`, then plug your Switch into your PC via USB.
-2. Your microSD card should now be accessible on your PC, open it.
-3. Extract the `.zip` file to a location on your computer.
+1. Your microSD card should now be accessible on your PC, open it.
+1. Extract the `.zip` file to a location on your computer.
     - If your archive manager allows for it, you can also simply open the `.zip` file directly.
-4. Copy the *contents* of the (extracted) `.zip` file to the root of your microSD card.
+1. Copy the *contents* of the (extracted) `.zip` file to the root of your microSD card.
     - **Optional:** You can verify if you've installed MissionControl correctly, you should have a folder called `010000000000BD00` (MissionControl) in `sd:/atmosphere/contents`.
-5. Boot into CFW.
+1. Boot into CFW.
 
 -----
 

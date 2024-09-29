@@ -16,9 +16,9 @@ Methods to enter RCM can require nothing more than household items (not recommen
 #### **Instructions:**
 
 1. Power off the Switch and short the pins on the right Joy-Con rail using one of the methods listed below.
-2. While holding the `Volume Up` button, press the `Power` button once while holding `Volume Up`.
+1. While holding the `Volume Up` button, press the `Power` button once while holding `Volume Up`.
     - If your Switch displays the Nintendo logo and boots normally (or the screen was on and goes black), you didn't successfully enter RCM and should try again. Otherwise, if your console still has a black screen (even after tapping the power button again), your Switch is in RCM and you can let go of the `Volume Up` button.
-3. Once your Switch is in RCM, remove the RCM jig (if applicable) and continue with the next page of the guide by clicking on the button at the bottom of this page.
+1. Once your Switch is in RCM, remove the RCM jig (if applicable) and continue with the next page of the guide by clicking on the button at the bottom of this page.
 
 -----
 
@@ -59,7 +59,7 @@ Methods to enter RCM can require nothing more than household items (not recommen
     #### Wire reference:
     ![wire reference](../rcm/img/entering_rcm_button_1.jpg){ width="675"}
 
-	You will then want to take the circular end of one of the wires and add a small amount of solder, keeping it mostly flat (ONLY DO THIS TO ONE OF THE WIRES!). You will then glue this wire down to the below point on the rail release button. Make sure glue doesn't cover the top of the solder/wire as it will act as a contact point. Also, ensure that you leave enough space for the button to function correctly. Try pushing the button from the outside and observing its travel path so that you can see where and how you should safely glue the solder glob.
+    You will then want to take the circular end of one of the wires and add a small amount of solder, keeping it mostly flat (ONLY DO THIS TO ONE OF THE WIRES!). You will then glue this wire down to the below point on the rail release button. Make sure glue doesn't cover the top of the solder/wire as it will act as a contact point. Also, ensure that you leave enough space for the button to function correctly. Try pushing the button from the outside and observing its travel path so that you can see where and how you should safely glue the solder glob.
 
     #### Joy-Con button:
     ![eip joycon button reference](../rcm/img/entering_rcm_button_5.jpg){ width="650"}

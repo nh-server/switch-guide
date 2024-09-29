@@ -16,7 +16,7 @@ The following list is in alphabetical order.
 - **DNS**: [Domain Name System](https://en.wikipedia.org/wiki/Domain_Name_System). Basically, the internet's addressbook. If you visit a website, the DNS lookup is what tells you what server the site is hosted on.
 - **Dongle**: Device you can plug in the USB-C of your Switch to automatically send a payload if your Switch is in RCM.
 - **Encryption keys**: Keys used to encrypt data from the Nintendo Switch.
-  - **BIS keys**: Built-in Storage keys. They are used to encrypt/decrypt the NAND's contents.
+    - **BIS keys**: Built-in Storage keys. They are used to encrypt/decrypt the NAND's contents.
 - **[fusee-gelee](https://github.com/Qyriad/fusee-launcher/blob/master/report/fusee_gelee.md)/[ShofEL2](https://github.com/fail0verflow/shofel2)**: Two names for two different implementations of the [same exploit](https://nvd.nist.gov/vuln/detail/CVE-2018-6242). This is an exploit that grants full bootROM access to the Nintendo Switch from the Tegra X1's RCM, and permitting us to run CFW. This exploit requires an external device or a tiny hardware modification. fusee-gelee is developed by an ex-ReSwitched developer, while ShofEL2 is developed by the failoverfl0w team. This guide uses fusee-gelee.
 - **[hactool](https://github.com/SciresM/hactool)**: Software used to decrypt Nintendo Switch files like .XCI and .NSP files.
 - **[Hekate](https://github.com/CTCaer/hekate)**: A bootloader for the Nintendo Switch. The current guide uses this in combination with essential files from Atmosphère to boot CFW.

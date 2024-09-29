@@ -10,8 +10,8 @@ If you choose the emuMMC path introduced later in the guide, it'll be important 
 [Continue to Entering RCM :material-arrow-right:](entering_rcm.md){ .md-button .md-button--primary }
 
 ??? "Frequently Asked Questions about this page"
-      - **Q: How does the RCM exploit work on unpatched Nintendo Switch consoles?** <br>
-      A: For more information, please reference [this page](../../fusee_gelee.md). There is also a Medium article about it [here](https://medium.com/@SoyLatteChen/inside-fus%C3%A9e-gel%C3%A9e-the-unpatchable-entrypoint-for-nintendo-switch-hacking-26f42026ada0).
+    - **Q: How does the RCM exploit work on unpatched Nintendo Switch consoles?** <br>
+        A: For more information, please reference [this page](../../fusee_gelee.md). There is also a Medium article about it [here](https://medium.com/@SoyLatteChen/inside-fus%C3%A9e-gel%C3%A9e-the-unpatchable-entrypoint-for-nintendo-switch-hacking-26f42026ada0).
 
-      - **Q: Does RCM work on patched consoles?** <br>
-      A: Yes. RCM is an intended mode for all Switch consoles. The exploit is the unintended effect that only some consoles can use. Consoles with the Tegra X1+ have a completely new bootROM with no evidence of the exploit, while "patched" V1 systems have an IROM patch to the bootROM applied that effectively removes fusee-gelee as well.
+    - **Q: Does RCM work on patched consoles?** <br>
+        A: Yes. RCM is an intended mode for all Switch consoles. The exploit is the unintended effect that only some consoles can use. Consoles with the Tegra X1+ have a completely new bootROM with no evidence of the exploit, while "patched" V1 systems have an IROM patch to the bootROM applied that effectively removes fusee-gelee as well.
