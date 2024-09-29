@@ -1730,22 +1730,22 @@ We can give advice and installation tips for the installation as long as it's fo
 <ul>
 <li>
 <p><strong>Q: Can you provide more information about modchip firmwares, specifically regarding their impact on the boot process and the ability to bypass the sdloader?</strong> <br>
-        A: Modchip firmwares indirectly determine the functionality of your system. Modern modchips (such as Picofly) typically have firmware flashed to them that support all hardware configurations (namely eMMC brands like Hynix, Samsung and Toshiba) "out-of-the-box" and also allow you to bypass <code>sdloader</code>. If this is not the case however, flashing the firmware manually is required by opening up the Switch and using the USB debug port that comes with the modchip to flash the modchip directly. This is especially required in the cases where the eMMC brand is not supported, as your Switch wouldn't boot whatsoever and the modchip would be stuck while trying to glitch/train and write its payload to the <code>BOOT0</code> partition of the internal storage.</p>
+    A: Modchip firmwares indirectly determine the functionality of your system. Modern modchips (such as Picofly) typically have firmware flashed to them that support all hardware configurations (namely eMMC brands like Hynix, Samsung and Toshiba) "out-of-the-box" and also allow you to bypass <code>sdloader</code>. If this is not the case however, flashing the firmware manually is required by opening up the Switch and using the USB debug port that comes with the modchip to flash the modchip directly. This is especially required in the cases where the eMMC brand is not supported, as your Switch wouldn't boot whatsoever and the modchip would be stuck while trying to glitch/train and write its payload to the <code>BOOT0</code> partition of the internal storage.</p>
 </li>
 <li>
 <p><strong>Q: What different types of modchips are there?</strong> <br>
-        A: There are three main types of modchips for the Nintendo Switch. Only two of them are relevant for this guide.<br>
-        On the V1 Nintendo Switch, a chip can be installed which automatically injects a payload whenever the console is detected in RCM. This type of modchip is <strong>not</strong> supported by this guide.<br>
-        On all other Switch consoles, there are DIY "Picofly" modchips which can be created with Raspberry Pi parts and custom cables. These use special firmwares, and are not compatible with firmwares intended for other modchips.<br>
-        There are also other "commercial" modchips of dubious origin by the name of "hwfly" or "SX Core/Lite"; we only will help with flashing new firmwares onto these, if you happen to already have one of them installed. Do not ask for assistance installing or sourcing this type of modchip.</p>
+    A: There are three main types of modchips for the Nintendo Switch. Only two of them are relevant for this guide.<br>
+    On the V1 Nintendo Switch, a chip can be installed which automatically injects a payload whenever the console is detected in RCM. This type of modchip is <strong>not</strong> supported by this guide.<br>
+    On all other Switch consoles, there are DIY "Picofly" modchips which can be created with Raspberry Pi parts and custom cables. These use special firmwares, and are not compatible with firmwares intended for other modchips.<br>
+    There are also other "commercial" modchips of dubious origin by the name of "hwfly" or "SX Core/Lite"; we only will help with flashing new firmwares onto these, if you happen to already have one of them installed. Do not ask for assistance installing or sourcing this type of modchip.</p>
 </li>
 <li>
 <p><strong>Q: Can you further explain the concept of running homebrew "over a title" and why it allows for higher resource allocation?</strong> <br>
-        A: The default way to run homebrew within Atmosphère is via the Album applet on the HOME Menu. However, applets have significantly less resources compared to full applications, and homebrew tools often run into constraints with these limits. By holding a button while launching normal apps while in CFW, you can load the Homebrew menu in their stead with full resources.</p>
+    A: The default way to run homebrew within Atmosphère is via the Album applet on the HOME Menu. However, applets have significantly less resources compared to full applications, and homebrew tools often run into constraints with these limits. By holding a button while launching normal apps while in CFW, you can load the Homebrew menu in their stead with full resources.</p>
 </li>
 <li>
 <p><strong>Q: What makes Picofly the only supported modchip, and what are the potential risks associated with installing a modchip on your Switch without proper experience?</strong> <br>
-        A: Picofly is a fully open-source modchip, from the firmware to the RP2040 microcontroller it uses. Other "commercial" modchips have dubious origins, or were manufactured by <a href="https://www.justice.gov/opa/pr/two-members-notorious-videogame-piracy-group-team-xecuter-custody">established illegal piracy groups</a> that have no place in the homebrew community. For the safety of your console and to respect the law of where NH Server is based, we will not assist with sourcing these types of modchips.</p>
+    A: Picofly is a fully open-source modchip, from the firmware to the RP2040 microcontroller it uses. Other "commercial" modchips have dubious origins, or were manufactured by <a href="https://www.justice.gov/opa/pr/two-members-notorious-videogame-piracy-group-team-xecuter-custody">established illegal piracy groups</a> that have no place in the homebrew community. For the safety of your console and to respect the law of where NH Server is based, we will not assist with sourcing these types of modchips.</p>
 </li>
 </ul>
 </details>
