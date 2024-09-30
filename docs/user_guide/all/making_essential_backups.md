@@ -53,7 +53,7 @@ Hekate will stop producing these parts when it runs out of space. When this happ
 
 Click the button below to continue to Launching **emuMMC**!
 
-[Launching CFW (emuMMC) :material-arrow-right:](launching_cfw?tab=instructions-for-emummc)
+[Launching CFW (emuMMC)](launching_cfw?tab=instructions-for-emummc)
 
 :::
 
@@ -61,7 +61,7 @@ Click the button below to continue to Launching **emuMMC**!
 
 Click the button below to continue to Launching **sysCFW**!
 
-[Launching CFW (sysCFW) :material-arrow-right:](launching_cfw?tab=instructions-for-syscfw)
+[Launching CFW (sysCFW)](launching_cfw?tab=instructions-for-syscfw)
 
 :::
 
