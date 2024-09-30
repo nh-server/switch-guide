@@ -177,6 +177,6 @@ Later in the guide, you will be formatting and/or partitioning your microSD card
 
 ::: tip
 
-[Continue to choosing your CFW environment :material-arrow-right:](../all/cfw_environment)
+[Continue to choosing your CFW environment](../all/cfw_environment)
 
 :::

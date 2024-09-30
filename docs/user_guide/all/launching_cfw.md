@@ -86,13 +86,13 @@ If you've partitioned your microSD card for preparation of Android/Linux earlier
 
 ::: tip
 
-[Android installation guide :material-arrow-right:](../../extras/installing_android)
+[Android installation guide](../../extras/installing_android)
 
 :::
 
 ::: tip
 
-[Linux installation guide :material-arrow-right:](../../extras/installing_linux)
+[Linux installation guide](../../extras/installing_linux)
 
 :::
 

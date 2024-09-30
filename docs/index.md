@@ -89,9 +89,11 @@ It is advised that you read the entire guide from start to finish one or more ti
 
 If something doesn't make sense while you follow the guide, please reach out and ask for clarification rather than fumble around on your own. If your English isn't the best, use a translator such as [Google Translate](https://translate.google.com/) to submit your questions, so we can help.
 
-## Click the button below to get started with the guide!
-[Continue to Getting Started :material-arrow-right:](user_guide/getting_started)
+::: tip
 
+[Continue to Getting Started](user_guide/getting_started)
+
+:::
 
 -----
 

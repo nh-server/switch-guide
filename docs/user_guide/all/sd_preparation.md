@@ -57,6 +57,6 @@ If you use Windows, you should enable file name extensions before continuing. Se
 
 ::: tip
 
-[Continue to Making Essential Backups :material-arrow-right:](making_essential_backups)
+[Continue to Making Essential Backups](making_essential_backups)
 
 :::

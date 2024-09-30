@@ -6,7 +6,7 @@ A modchip is a physical modification to the motherboard of your Switch. It canno
 
 ::: tip
 
-[Modchip Installation guide :material-arrow-right:](https://guide.nx-modchip.info/)
+[Modchip Installation guide](https://guide.nx-modchip.info/)
 
 :::
 
@@ -59,7 +59,7 @@ We can give advice and installation tips for the installation as long as it's fo
 
 ::: tip
 
-[Continue to Preparing Hekate :material-arrow-right:](preparing_hekate)
+[Continue to Preparing Hekate](preparing_hekate)
 
 :::
 

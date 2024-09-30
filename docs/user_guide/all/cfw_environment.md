@@ -60,7 +60,7 @@ This path of the guide ***also*** includes sysCFW as launch option.
 
 To proceed with CFW on **emuMMC**, click on the button below:
 
-[Continue with the emuMMC path :material-arrow-right:](../all/partitioning_sd)
+[Continue with the emuMMC path](../all/partitioning_sd)
 
 :::
 
@@ -99,7 +99,7 @@ If you prefer snappiness, online play, and a seamless transition between officia
 
 To proceed with CFW on **sysMMC**, click on the button below:
 
-[Continue with the sysCFW path :material-arrow-right:](../all/partitioning_sd_syscfw)
+[Continue with the sysCFW path](../all/partitioning_sd_syscfw)
 
 :::
 

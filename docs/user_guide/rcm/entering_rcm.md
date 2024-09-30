@@ -148,6 +148,6 @@ Here is an example from `sonlen` on our Discord server.
 
 ::: tip
 
-[Continue to Sending a Payload :material-arrow-right:](sending_payload)
+[Continue to Sending a Payload](sending_payload)
 
 :::

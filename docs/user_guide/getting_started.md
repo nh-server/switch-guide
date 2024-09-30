@@ -92,7 +92,7 @@ Before setting up for homebrew, install at least one eShop title to utilize "tit
 
 **If your Switch is not patched, click the button below to follow the RCM path of the guide.**
 
-[Continue to RCM :material-arrow-right:](rcm/index)
+[Continue to RCM](rcm/index)
 
 :::
 
@@ -100,7 +100,7 @@ Before setting up for homebrew, install at least one eShop title to utilize "tit
 
 **If your Switch is patched and modchipped, click the button below to follow the Modchip path of the guide.**
 
-[Continue to Modchip introduction :material-arrow-right:](modchip/index)
+[Continue to Modchip introduction](modchip/index)
 
 :::
 
