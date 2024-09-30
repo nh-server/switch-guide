@@ -6,7 +6,7 @@ If you choose the emuMMC path introduced later in the guide, it'll be important 
 
 ::: tip
 
-[Continue to Entering RCM :material-arrow-right:](entering_rcm)
+[Continue to Entering RCM](entering_rcm)
 
 :::
 

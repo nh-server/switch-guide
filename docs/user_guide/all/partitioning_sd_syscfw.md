@@ -34,6 +34,6 @@ If your microSD card isn't showing up at all, ensure that you're using a USB cab
 
 ::: tip
 
-[Continue to SD Preparations :material-arrow-right:](sd_preparation)
+[Continue to SD Preparations](sd_preparation)
 
 :::
