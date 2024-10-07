@@ -1,4 +1,4 @@
-# 90DNS-equivalent
+# Block Nintendo Servers
 127.0.0.1 *nintendo.*
 127.0.0.1 *nintendo-europe.com
 127.0.0.1 *nintendoswitch.*
