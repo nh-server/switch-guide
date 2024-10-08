@@ -15,12 +15,12 @@ sys-botbase is an advanced [sysmodule](index.md#terminologies) that allows users
 
 #### Installation instructions:
 1. Boot into Hekate and go to `Tools` > `USB Tools` > `SD Card`, then plug your Switch into your PC via USB.
-2. Your microSD card should now be accessible on your PC, open it.
-3. Extract the `.zip` file to a location on your computer.
+1. Your microSD card should now be accessible on your PC, open it.
+1. Extract the `.zip` file to a location on your computer.
     - If your archive manager allows for it, you can also simply open the `.zip` file directly.
-4. Copy the *contents* of each (extracted) `.zip` file to the root of your microSD card.
+1. Copy the *contents* of each (extracted) `.zip` file to the root of your microSD card.
     - **Optional:** You can verify if you've installed sys-botbase correctly, you should have a folder called `430000000000000B` (sys-botbase) in `sd:/atmosphere/contents`.
-5. Boot into CFW.
+1. Boot into CFW.
 
 -----
 

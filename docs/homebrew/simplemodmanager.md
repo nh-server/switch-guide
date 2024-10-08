@@ -16,15 +16,15 @@ SimpleModManager is a [homebrew app](index.md#terminologies) that allows easily 
 
 #### Installation instructions:
 1. Boot into Hekate and go to `Tools` > `USB Tools` > `SD Card`, then plug your Switch into your PC via USB.
-2. Your microSD card should now be accessible on your PC, open it.
-3. Copy the `SimpleModManager.nro` file the `/switch/` folder on your microSD card.
-4. Boot into CFW.
+1. Your microSD card should now be accessible on your PC, open it.
+1. Copy the `SimpleModManager.nro` file the `/switch/` folder on your microSD card.
+1. Boot into CFW.
 
 #### Usage instructions:
 1. Create a directory named `mods/<game name>/<mod name>/` on the root of the SD card.
     - What you put for the mod name does not have to align with anything, put whatever you like!
-2. Create the layeredFS directory for your mod that can be found on the [Game Modding](../extras/game_modding.md) page, skipping the `atmosphere` folder inside the `<mod name>` folder.
-3. Launch SimpleModManager via the Homebrew Menu and your games will show up, pressing A on them will show the mods available.
+1. Create the layeredFS directory for your mod that can be found on the [Game Modding](../extras/game_modding.md) page, skipping the `atmosphere` folder inside the `<mod name>` folder.
+1. Launch SimpleModManager via the Homebrew Menu and your games will show up, pressing A on them will show the mods available.
 
 ![ExampleSwitchTheme](img/simplemodmanager1.jpg){ width="600" }
 ![ExampleSwitchTheme](img/simplemodmanager2.jpg){ width="600" }
