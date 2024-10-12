@@ -67,11 +67,11 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
     #### **Instructions:**
 
     1. Download the latest release of CrystalRCM.
-    1. Connect your Switch in RCM to your PC using the USB cable, make sure it's also detected in CrystalRCM.
     1. Mount the `CrystalRCM.(version).dmg` file, open the mounted disk image in File Explorer and copy the `CrystalRCM.app` file inside of the mounted disk image to any location on your Mac.
     1. Open the `CrystalRCM.app` app, then click `Payload...` and select the `hekate_ctcaer_X.X.X.bin` file.
         - macOS may warn you about the application being downloaded from the internet. To get around this warning, hold the control key while clicking the application, then click Open and Open again.
         - **macOS Sequoia users:** Apple has changed how unsigned applications from the internet are opened. You will need to follow the instructions <a href="https://wiki.hacks.guide/wiki/Open_unsigned_applications_on_macOS_Sequoia">here</a> to open the application.
+    1. Connect your Switch in RCM to your PC using the USB cable, make sure it's also detected in CrystalRCM.
     1. Once selected, click `Push!`. The payload should now be injected successfully.
         - If your payload was successfully injected your switch should have yellow text that says "Update bootloader folder!", this will be resolved soon.
 === "Android"
