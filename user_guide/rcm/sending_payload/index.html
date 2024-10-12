@@ -1730,9 +1730,13 @@
 <h4 id="instructions_2"><strong>Instructions:</strong><a class="headerlink" href="#instructions_2" title="Permanent link">&para;</a></h4>
 <ol>
 <li>Download the latest release of CrystalRCM.</li>
-<li>Connect your Switch in RCM to your PC using the USB cable, make sure it's also detected in CrystalRCM.</li>
 <li>Mount the <code>CrystalRCM.(version).dmg</code> file, open the mounted disk image in File Explorer and copy the <code>CrystalRCM.app</code> file inside of the mounted disk image to any location on your Mac.</li>
-<li>Open the <code>CrystalRCM.app</code> app, then click <code>Payload...</code> and select the <code>hekate_ctcaer_X.X.X.bin</code> file.</li>
+<li>Open the <code>CrystalRCM.app</code> app, then click <code>Payload...</code> and select the <code>hekate_ctcaer_X.X.X.bin</code> file.<ul>
+<li>macOS may warn you about the application being downloaded from the internet. To get around this warning, hold the control key while clicking the application, then click Open and Open again.</li>
+<li><strong>macOS Sequoia users:</strong> Apple has changed how unsigned applications from the internet are opened. You will need to follow the instructions <a href="https://wiki.hacks.guide/wiki/Open_unsigned_applications_on_macOS_Sequoia">here</a> to open the application.</li>
+</ul>
+</li>
+<li>Connect your Switch in RCM to your PC using the USB cable, make sure it's also detected in CrystalRCM.</li>
 <li>Once selected, click <code>Push!</code>. The payload should now be injected successfully.<ul>
 <li>If your payload was successfully injected your switch should have yellow text that says "Update bootloader folder!", this will be resolved soon.</li>
 </ul>
