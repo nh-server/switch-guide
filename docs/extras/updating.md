@@ -4,12 +4,17 @@ This page documents how you can keep your system up-to-date.
 
 After following our guide, your system will consist of three core elements that can be updated. Atmosphere, Hekate and your system firmware.
 
-### **Updating Atmosphere**
+## Updating Atmosphere
 
 When updating Atmosphère, always make sure to _read the release notes_. They may list important changes and modifications to your system.
 
-!!! warning "Updating from below Atmosphère 1.0.0"
-    If you update from below Atmosphère 1.0.0, there are additional steps to follow. You will have to delete the `sept` folder from your microSD, delete `fusee-secondary.bin` from your `atmosphere` folder and update your Hekate config file: <a href="../../files/emu/hekate_ipl.ini" download>hekate_ipl.ini</a> in the `bootloader` folder.
+::: warning
+
+**Updating from below Atmosphère 1.0.0**
+
+If you update from below Atmosphère 1.0.0, there are additional steps to follow. You will have to delete the `sept` folder from your microSD, delete `fusee-secondary.bin` from your `atmosphere` folder and update your Hekate config file: <a href="/files/emu/hekate_ipl.ini" download>hekate_ipl.ini</a> in the `bootloader` folder.
+
+:::
 
 When a new version of Atmosphère releases, you can update Atmosphère by following these steps:
 
@@ -23,7 +28,7 @@ When a new version of Atmosphère releases, you can update Atmosphère by follow
 1. Eject the `UMS` device safely from within your computer's operating system.
 1. (If your Hekate is not on the latest version) update Hekate via the steps below.
 
-### **Updating Hekate**
+## Updating Hekate
 
 When updating Hekate always make sure to _read the release notes_. They may list important changes and modifications to your system.
 
@@ -38,7 +43,7 @@ When a new version of Hekate releases, you can update by following these steps:
 1. Go back to Hekate's main menu and press `Reload` > `Reload` to reload Hekate from your microSD card.
 1. From here, you're done and you can boot into CFW.
 
-### **Updating your firmware**
+## Updating your firmware
 
 Always check _before_ updating your system firmware if the latest version of Atmosphère _as well_ as the latest version of Hekate support the firmware version you are updating towards.
 
@@ -64,31 +69,47 @@ Atmosphere (and Hekate) come bundled with patches that automatically disable the
 
 Otherwise, you can safely update your system firmware through the system settings.
 
-!!!warning "Note about autoRCM"
-    If you have autoRCM enabled and you're updating your system while in stock firmware, **updating will disable autoRCM** and you will need to enter RCM manually to boot custom firmware again.
-    To prevent autoRCM from being disabled, boot CFW on sysMMC and update through settings from there, as booting without AutoRCM <ins>will burn any preserved fuses</ins>.
+::: warning
 
-### **About emuMMC**
+**Note about autoRCM**
+
+If you have autoRCM enabled and you're updating your system while in stock firmware, **updating will disable autoRCM** and you will need to enter RCM manually to boot custom firmware again.
+
+To prevent autoRCM from being disabled, boot CFW on sysMMC and update through settings from there, as booting without AutoRCM <ins>will burn any preserved fuses</ins>.
+
+:::
+
+### About emuMMC
 
 sysMMC and emuMMC have separate system firmwares and need to be updated separately.
 
 If you keep your emuMMC offline, you will have to use a gamecard to update your system firmware, synchronize it with another Nintendo Switch or dump an updated firmware from your sysMMC.
 
-### **Updating emuMMC by dumping an updated firmware from your sysMMC**
+### Updating emuMMC by dumping an updated firmware from your sysMMC
 
-!!! warning "Do you have an eMMC backup yet?"
-    Please do not start this guide without doing a RAW GPP and a BOOT 0/1 eMMC backup!
+::: warning
 
-    You can learn how to make one [here](../user_guide/all/making_essential_backups.md).
+**Do you have an eMMC backup yet?**
 
-!!! danger "Downgrading"
-    This guide is made for updating your emuMMC. It is **not** for downgrading. Downgrading at all, sysMMC or emuMMC, is not recommended and not worth it. Downgrading is also very dangerous and can lead to serious complications even when performed correctly.
+Please do not start this guide without doing a RAW GPP and a BOOT 0/1 eMMC backup!
 
-#### **What you need:**
+You can learn how to make one [here](../user_guide/all/making_essential_backups).
+
+:::
+
+::: danger
+
+**Downgrading**
+
+This guide is made for updating your emuMMC. It is **not** for downgrading. Downgrading at all, sysMMC or emuMMC, is not recommended and not worth it. Downgrading is also very dangerous and can lead to serious complications even when performed correctly.
+
+:::
+
+#### What you need:
 - The latest release of [TegraExplorer](https://github.com/suchmememanyskill/TegraExplorer/releases)
 - The latest release of [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere/releases)
 
-#### **Preparing your microSD card**
+#### Preparing your microSD card
 
 1. Boot into Hekate.
 1. Go to `Tools` > `USB Tools` > `SD Card` and connect your Switch to your PC via USB.
@@ -96,7 +117,7 @@ If you keep your emuMMC offline, you will have to use a gamecard to update your 
 
 Make sure your sysMMC is updated before moving onto the instructions below.
 
-#### **Dumping your sysMMC firmware**
+#### Dumping your sysMMC firmware
 
 1. Make sure your sysMMC is up to date. If your sysMMC is not up-to-date, boot into Stock or sysCFW and update it through the System Settings.
     - sysCFW is recommended since it preserves e-fuses and preserves AutoRCM (if applicable).
@@ -109,7 +130,7 @@ Make sure your sysMMC is updated before moving onto the instructions below.
 1. When the script finishes, press any button.
 1. Select `Reboot to bootloader/update.bin`.
 
-#### **Updating your emuMMC with Daybreak**
+#### Updating your emuMMC with Daybreak
 
 1. In Hekate go to `Launch -> Atmosphere FSS0 emuMMC`.
 1. Once booted, hold `R` while launching a game to boot into the homebrew menu.
