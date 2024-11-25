@@ -56,6 +56,26 @@ export default defineConfig({
   },
   markdown: {
     config: (md) => {
+      md.use(container, "cards", {
+        render: (tokens, idx) => {
+          const token = tokens[idx];
+          if (token.nesting === 1) {
+            return `<div class="cards">\n`;
+          } else {
+            return `</div>\n`;
+          }
+        }
+      });
+      md.use(container, 'card', {
+        render: (tokens, idx) => {
+          const token = tokens[idx];
+          if (token.nesting === 1) {
+            return `<div class="card">\n`;
+          } else {
+            return `</div>\n`;
+          }
+        }
+      });
       md.use(container, "tabs", {
         render: (tokens, idx) => {
           const token = tokens[idx];

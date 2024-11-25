@@ -1,3 +1,7 @@
+---
+aside: false
+---
+
 # CFW on sysMMC vs. CFW on emuMMC
 
 A "CFW Environment" describes the context in which you are using custom firmware (CFW).
@@ -17,7 +21,10 @@ For more information on terminology, please refer to the [glossary](../../extras
 
 -----
 
-:::: tip
+::::: cards
+
+:::: card
+
 ### emuMMC CFW (Recommended)
 #### CFW on emuMMC has the following benefits:
 
@@ -54,8 +61,6 @@ This path of the guide ***also*** includes sysCFW as launch option.
 
 :::
 
------
-
 ::: info
 
 To proceed with CFW on **emuMMC**, click on the button below:
@@ -66,7 +71,7 @@ To proceed with CFW on **emuMMC**, click on the button below:
 
 ::::
 
-:::: tip
+:::: card
 
 ### sysCFW (CFW on sysMMC)
 #### CFW on sysMMC has the following benefits:
@@ -104,6 +109,8 @@ To proceed with CFW on **sysMMC**, click on the button below:
 :::
 
 ::::
+
+:::::
 
 ### Modchip Instability
 
