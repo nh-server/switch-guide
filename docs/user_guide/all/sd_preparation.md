@@ -34,6 +34,7 @@ If you use Windows, you should enable file name extensions before continuing. Se
 1. Copy `hekate_ipl.ini` to the `bootloader` folder on your microSD card.
     - If you're asked to replace the file, do so.
 1. Create a folder named `hosts` inside the `atmosphere` folder on your microSD card, and put `emummc.txt` inside of the `hosts` folder.
+    - If you would like to configure this for sysMMC (sysNAND), you can duplicate `emummc.txt` and rename the duplicate to `sysmmc.txt`.
 1. Copy `JKSV.nro`, `ftpd.nro`, `NxThemesInstaller.nro`, `NX-Shell.nro` and `Goldleaf.nro` to the `switch` folder on your microSD card.
 1. If you were already using your microSD card as a storage device for your games and backed up the Nintendo folder before partitioning your microSD card, please place it back on the root of your microSD card now.
     - If you created an emuMMC on the previous page, don't forget to copy the Nintendo folder to `sd:/emuMMC/RAW1/`!
@@ -43,6 +44,7 @@ If you use Windows, you should enable file name extensions before continuing. Se
     **About emummc.txt**
 
     Putting the `emummc.txt` file provided by this guide into `/atmosphere/hosts` will prevent your emuMMC (emuNAND) from connecting to Nintendo. Not doing this will likely result in a ban.
+    Renaming this file to `sysmmc.txt` will instead prevent your sysMMC from connecting to Nintendo. Do this if you're following the sysCFW (sysMMC) route and do not wish to connect to Nintendo servers.
 
     :::
 
