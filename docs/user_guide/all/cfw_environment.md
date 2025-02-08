@@ -28,7 +28,7 @@ For more information on terminology, please refer to the [glossary](../../extras
 ### emuMMC CFW (Recommended)
 #### CFW on emuMMC has the following benefits:
 
-- No risk of bans as long as emuMMC remains offline from Nintendo [[info]](../../extras/img/ban.png)
+- No risk of bans as long as emuMMC remains offline from Nintendo [[info]](https://nx.eiphax.tech/ban.html))
 - A safe area to test dangerous or risky mods and homebrew
 - No chance of bricking and losing console-unique information while using CFW
 
