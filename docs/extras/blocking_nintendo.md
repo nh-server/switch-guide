@@ -11,14 +11,14 @@ You can configure Atmosphère to automatically redirect any requests directed to
 
 ### Setup:
 
-1. Enter RCM and inject the Hekate payload.
-    - If you use a modchipped Switch, you can simply just turn your Switch on with the Hekate payload renamed to `payload.bin` on the root of your SD.
+1. Enter RCM and inject the hekate payload.
+    - If you use a modchipped Switch, you can simply just turn your Switch on with the hekate payload renamed to `payload.bin` on the root of your SD.
 1. Navigate to `Tools` > `USB Tools` > `SD Card` and plug your Switch into your PC via USB.
 1. Enter the `atmosphere` folder.
 1. If it doesn't exist already, create a folder named `hosts` in the `atmosphere` folder.
     - You should end up with the `sd:/atmosphere/hosts` directory.
 1. Copy the `emummc.txt` file into the hosts folder.
-    - If you want to apply the DNS redirection to sysmmc instead of emummc, rename the file to `sysmmc.txt`.
+    - If you want to apply the DNS redirection to sysMMC instead of emuMMC, rename the file to `sysmmc.txt`.
 1. Eject the `UMS` device safely from within your computer's operating system and boot into CFW.
 
 ::: tip

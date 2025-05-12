@@ -1,6 +1,6 @@
 # Game modding with LayeredFS
 
-LayeredFS, a tool built into Atmosphere, allows you to (temporarily) replace a game's assets with your own, modified assets as long as you're booted into CFW.
+LayeredFS, a tool built into Atmosphère, allows you to (temporarily) replace a game's assets with your own, modified assets as long as you're booted into CFW.
 
 ## Usage instructions
 
@@ -19,7 +19,7 @@ Check the section below to find your mod's folder/file structure, then install y
 
 ::: warning
 
-**Atmosphere 0.9.4 and below**
+**Atmosphère 0.9.4 and below**
 
 **Note: On Atmosphère 0.9.4 and below, `contents` is called `titles`**
 
@@ -35,7 +35,7 @@ The `romfs` folder contains modified assets in the way the game would normally r
 
 If you want to disable mods on launch of a game, hold the `L` button before launching the game and launch the game normally, `L` is the default button to do this. This will disable all modifications (like cheats and mods) that you have configured for your game.
 
-While most games only require Atmosphere's LayeredFS to enable game modding, there are some games that may require more specialized setup. For example:
+While most games only require Atmosphère's LayeredFS to enable game modding, there are some games that may require more specialized setup. For example:
 
 - Modding Super Smash Bros. requires [ARCropolis](https://github.com/Raytwo/ARCropolis/releases) and [skyline](https://github.com/skyline-dev/skyline/releases). Skyline's `exefs` folder goes into the `atmosphere/contents/01006A800016E000/` directory. ARCropolis looks for mods in the `sd:/ultimate/mods` directory on your microSD card.
 - Modding Breath of the Wild and Tears of the Kingdom with multiple mods requires the use of [BCML](https://github.com/NiceneNerd/BCML) or [UKMM](https://github.com/NiceneNerd/UKMM/releases) (Recommended) and [TKMM](https://github.com/TKMM-Team/Tkmm/releases) respectively.
@@ -48,6 +48,6 @@ If your game crashes during launch, hold the `L` button to see if disabling all 
 
 ### My mods aren't showing up in-game!
 
-Assuming you've followed the installation instructions successfully, this is probably due to the archive bit being set on one or more folders/files on your microSD card. This is usually the result of copying files to a microSD card via a Mac. If you are experiencing this issue, try running the archive bit fixer utility via Hekate for all files.
+Assuming you've followed the installation instructions successfully, this is probably due to the archive bit being set on one or more folders/files on your microSD card. This is usually the result of copying files to a microSD card via a Mac. If you are experiencing this issue, try running the archive bit fixer utility via hekate for all files.
 
-This can be done by booting into Hekate and going to `Tools` > `Arch bit • RCM Touch • Pkg1/2` > `Fix Archive Bit`.
+This can be done by booting into hekate and going to `Tools` > `Arch bit • RCM Touch • Pkg1/2` > `Fix Archive Bit`.

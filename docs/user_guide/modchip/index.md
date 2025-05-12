@@ -59,7 +59,7 @@ We can give advice and installation tips for the installation as long as it's fo
 
 ::: tip
 
-[Continue to Preparing Hekate](preparing_hekate)
+[Continue to Preparing hekate](preparing_hekate)
 
 :::
 

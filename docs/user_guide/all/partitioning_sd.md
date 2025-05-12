@@ -2,7 +2,7 @@
 
 ## What you need:
 
-- Your Switch loaded into Hekate
+- Your Switch loaded into hekate
 
 ::: danger
 

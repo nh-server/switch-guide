@@ -19,7 +19,7 @@ SimpleModManager should not be used for some specific games like Super Smash Bro
 - The latest release of [SimpleModManager](https://github.com/nadrino/SimpleModManager/releases/latest) (the `SimpleModManager.nro` file)
 
 ## Installation instructions:
-1. Boot into Hekate and go to `Tools` > `USB Tools` > `SD Card`, then plug your Switch into your PC via USB.
+1. Boot into hekate and go to `Tools` > `USB Tools` > `SD Card`, then plug your Switch into your PC via USB.
 1. Your microSD card should now be accessible on your PC, open it.
 1. Copy the `SimpleModManager.nro` file the `/switch/` folder on your microSD card.
 1. Boot into CFW.

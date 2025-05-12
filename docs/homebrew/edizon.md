@@ -2,7 +2,7 @@
 
 ## EdiZon
 
-For cheats management, [EdiZon](https://github.com/WerWolv/EdiZon) and/or [EdiZon-SE](https://github.com/tomvita/EdiZon-SE) (up to date and offers more features) are recommended. They offer support for Atmosphere's cheat engine, providing an easy way to download new cheats, as well as toggle them on or off.
+For cheats management, [EdiZon](https://github.com/WerWolv/EdiZon) and/or [EdiZon-SE](https://github.com/tomvita/EdiZon-SE) (up to date and offers more features) are recommended. They offer support for Atmosphère's cheat engine, providing an easy way to download new cheats, as well as toggle them on or off.
 
 ## Installation requirements:
 - An archive manager like [7-Zip](https://www.7-zip.org/)
@@ -12,7 +12,7 @@ For cheats management, [EdiZon](https://github.com/WerWolv/EdiZon) and/or [EdiZo
 
 **EdiZon overlay**
 
-EdiZon also offers a Tesla-Menu overlay, however, the official EdiZon overlay is no longer maintained and will result in Atmosphere crashing when trying to use the EdiZon overlay on firmware version 16.0.0+.
+EdiZon also offers a Tesla-Menu overlay, however, the official EdiZon overlay is no longer maintained and will result in Atmosphère crashing when trying to use the EdiZon overlay on firmware version 16.0.0+.
 
 The maintained EdiZon overlay can be found [here](https://github.com/proferabg/EdiZon-Overlay/releases).
 
@@ -22,7 +22,7 @@ The maintained EdiZon overlay can be found [here](https://github.com/proferabg/E
 
 :::: tab default Installation instructions (EdiZon):
 
-1. Boot into Hekate and go to `Tools` > `USB Tools` > `SD Card`, then plug your Switch into your PC via USB.
+1. Boot into hekate and go to `Tools` > `USB Tools` > `SD Card`, then plug your Switch into your PC via USB.
 1. Your microSD card should now be accessible on your PC, open it.
 1. Put the `EdiZon.nro` in `sd:/switch`.
 1. Boot into CFW.
@@ -31,7 +31,7 @@ The maintained EdiZon overlay can be found [here](https://github.com/proferabg/E
 
 :::: tab Installation instructions (EdiZon-SE):
 
-1. Boot into Hekate and go to `Tools` > `USB Tools` > `SD Card`, then plug your Switch into your PC via USB.
+1. Boot into hekate and go to `Tools` > `USB Tools` > `SD Card`, then plug your Switch into your PC via USB.
 1. Your microSD card should now be accessible on your PC, open it.
 1. Extract the `.zip` file to a location on your computer.
     - If your archive manager allows for it, you can also simply open the `.zip` file directly.
@@ -54,7 +54,7 @@ You need to create the `<title_id>` folder and sub-folders manually:
 
 **Note:** On Atmosphère 0.9.4 and below `contents` is called `titles`.
 
-Once the title is launched while in Atmosphere, your cheats should be applied.
+Once the title is launched while in Atmosphère, your cheats should be applied.
 
 ## Preventing cheats from being enabled by default
 
@@ -72,12 +72,12 @@ Here the Title ID of the game (TID) is `0100646009FBE000` and the Build ID of th
 
 ## Additional information:
 
-For more in-depth details about Atmosphere's cheat engine, you can refer to [this page](https://github.com/Atmosphere-NX/Atmosphere/blob/master/docs/features/cheats.md).
+For more in-depth details about Atmosphère's cheat engine, you can refer to [this page](https://github.com/Atmosphere-NX/Atmosphere/blob/master/docs/features/cheats.md).
 
 ## Troubleshooting
 
 ### EdiZon isn't showing up when I open the Homebrew menu!:
 
-Assuming you've followed the installation instructions successfully, this is probably due to the archive bit being set on one or more folders/files on your microSD card. This is usually the result of copying files to a microSD card via a Mac. If you are experiencing this issue, try running the archive bit fixer utility via Hekate for all files.
+Assuming you've followed the installation instructions successfully, this is probably due to the archive bit being set on one or more folders/files on your microSD card. This is usually the result of copying files to a microSD card via a Mac. If you are experiencing this issue, try running the archive bit fixer utility via hekate for all files.
 
-This can be done by booting into Hekate and going to `Tools` > `Arch bit • RCM Touch • Pkg1/2` > `Fix Archive Bit`.
+This can be done by booting into hekate and going to `Tools` > `Arch bit • RCM Touch • Pkg1/2` > `Fix Archive Bit`.

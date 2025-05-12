@@ -23,7 +23,7 @@ Your emuMMC (emuNAND) should never connect to Nintendo. For online play, eShop b
 1. From Hekate's `Home` menu, navigate to the `Launch` menu.
 1. Find `Atmosphere PKG3 emuMMC` and launch it.
 
-Hekate is now booting into your emuMMC. To verify that your emuMMC launched properly, open System Settings and navigate to System. You should see `AMS` next to the version number (`AMS` indicating that you're booted into Atmosphere), as well as an `E` at the end (indicating you are booted into emuMMC).
+Hekate is now booting into your emuMMC. To verify that your emuMMC launched properly, open System Settings and navigate to System. You should see `AMS` next to the version number (`AMS` indicating that you're booted into Atmosphère), as well as an `E` at the end (indicating you are booted into emuMMC).
 
 ::: info
 
@@ -42,7 +42,7 @@ If you wish to set up an extra method of blocking Nintendo's servers on your emu
 1. From Hekate's `Home` menu, navigate to the `Launch` menu.
 1. Find `Atmosphere PKG3 sysMMC` and launch it.
 
-Hekate is now booting into sysCFW. To verify that sysCFW launched properly, open System Settings and navigate to System. You should see `AMS` next to the version number (`AMS` indicating that you're booted into Atmosphere), as well as an `S` at the end (indicating you are booted into sysCFW).
+Hekate is now booting into sysCFW. To verify that sysCFW launched properly, open System Settings and navigate to System. You should see `AMS` next to the version number (`AMS` indicating that you're booted into Atmosphère), as well as an `S` at the end (indicating you are booted into sysCFW).
 
 - **Note:** You will also have the `Atmosphere PKG3 EmuMMC` launch option in Hekate, launching it will just result in an error and is expected because you don't have an emuMMC.
 

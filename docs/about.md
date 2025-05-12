@@ -29,9 +29,9 @@ Thank you to [everyone else](https://github.com/nh-server/switch-guide/graphs/co
 
 ## Developers
 
-- [**Atmosphere-NX**](https://github.com/Atmosphere-NX) for [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere).
+- [**Atmosphère-NX**](https://github.com/Atmosphere-NX) for [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere).
 - [**switchbrew**](https://github.com/switchbrew) for [nx-hbloader](https://github.com/switchbrew/nx-hbloader) and [nx-hbmenu](https://github.com/switchbrew/nx-hbmenu).
-- [**nwert**](https://github.com/nwert) and [**CTCaer**](https://github.com/CTCaer) for [Hekate](https://github.com/CTCaer/hekate).
+- [**nwert**](https://github.com/nwert) and [**CTCaer**](https://github.com/CTCaer) for [hekate](https://github.com/CTCaer/hekate).
 - [**WerWolv**](https://github.com/WerWolv) for [EdiZon](https://github.com/WerWolv/EdiZon).
 - [**J-D-K**](https://github.com/J-D-K) for [JKSV](https://github.com/J-D-K/JKSV).
 - [**Flagbrew**](https://github.com/FlagBrew) for [Checkpoint](https://github.com/FlagBrew/Checkpoint).

@@ -42,7 +42,7 @@ To enter RCM more comfortably a solution called "AutoRCM" exists.
 Once set up, this method will always boot the Switch into RCM, even without a jig or holding any buttons.
 This works by "bricking" the Switch in a controlled manner.
 The Switch detects that something is wrong and boots into RCM to get repaired.
-The big downside of this method is, that it is impossible to boot the Switch without a computer, phone or dongle, as it will never boot into stock firmware by itself, and that it requires an SD card with the proper CFW files on it at all times. In addition, if the battery of the Switch is completely drained, the Switch will need to charge to at least 10% in Hekate before launching Atmosphere, otherwise the Switch will refuse to boot due to the low battery. Charging in RCM is not recommended as this is very slow. AutoRCM can be reversed, but it is advised to keep a working NAND and BOOT0/1 backup before using it.
+The big downside of this method is, that it is impossible to boot the Switch without a computer, phone or dongle, as it will never boot into stock firmware by itself, and that it requires an SD card with the proper CFW files on it at all times. In addition, if the battery of the Switch is completely drained, the Switch will need to charge to at least 10% in hekate before launching Atmosphère, otherwise the Switch will refuse to boot due to the low battery. Charging in RCM is not recommended as this is very slow. AutoRCM can be reversed, but it is advised to keep a working NAND and BOOT0/1 backup before using it.
 
 Many Android-phones are able to send the exploit to the Switch, making them a perfect portable way to launch CFW. Different designs for portable dongles exist, ranging from Raspberry Pi Zero and Arduino projects to internal dongles, that work completely autonomous. The latter should only be done by advanced users, as it requires soldering onto the Switch mainboard itself.
 
@@ -106,7 +106,7 @@ For patched units reliant on deja-vu, sysNAND will always have to be on a firmwa
 
 We do not recommend the use of ReiNX or SX OS for many reasons, primary among them that they use lots of assets from Atmosphère and offer no real benefit that Atmosphère does not offer anyway.
 We also do not recommend Kosmos, as its large amount of extras on top of regular Atmosphère make it difficult to troubleshoot strange issues.
-All of these alternative CFWs also tend to use non-conventional setups which can cause issues that make it difficult to troubleshoot, which is another reason we prefer using Atmosphere.
+All of these alternative CFWs also tend to use non-conventional setups which can cause issues that make it difficult to troubleshoot, which is another reason we prefer using Atmosphère.
 Additionally, it is advised to use 90DNS which blocks connections to any Nintendo servers. If you use an emuNAND for CFW and keep your sysNAND clean for playing online, you should use 90DNS on your emuNAND.
 *Note: Keeping your emuNAND "dirty" and your sysNAND "clean" pertains primarily to those using the RCM exploit. Users employing Nereba or Caffeine will do the opposite.*
 
@@ -146,13 +146,13 @@ If you suspect your microSD card is fake or damaged, see the instructions [here]
 
 ## My Homebrew apps are not showing up in the Homebrew menu!
 
-This is an issue primarily affecting macOS users, but may occur on other devices as well. If you are able to launch the homebrew menu, but you are not seeing some or any of your Homebrew apps, you may need to unset the archive bit with Hekate.
+This is an issue primarily affecting macOS users, but may occur on other devices as well. If you are able to launch the homebrew menu, but you are not seeing some or any of your Homebrew apps, you may need to unset the archive bit with hekate.
 
-1. Inject the Hekate payload using your favorite payload injector.
-    - If you have a modchipped Switch, place the Hekate payload on the root of your microSD card and rename it to payload.bin, reinsert your microSD card into your Switch and turn it on.
+1. Inject the hekate payload using your favorite payload injector.
+    - If you have a modchipped Switch, place the hekate payload on the root of your microSD card and rename it to payload.bin, reinsert your microSD card into your Switch and turn it on.
 1. Press `Tools` on the top menu bar.
 1. In the bottom right corner, press `Arch Bit • AutoRCM • Touch • Pkg1/2`.
 1. Press `Fix Archive bit` - this might take a while.
 1. Press `Close` in the top right corner.
 1. Press `Home` in the top menu bar to get back from where you started.
-1. Follow the instructions at the Launching CFW page [here](user_guide/all/launching_cfw) to launch Atmosphere.
+1. Follow the instructions at the Launching CFW page [here](user_guide/all/launching_cfw) to launch Atmosphère.

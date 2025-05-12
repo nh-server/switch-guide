@@ -4,7 +4,7 @@
 
 **If you are here to test if your Switch is patched**
 
-Make sure you have [put your device into RCM](entering_rcm) and downloaded Hekate. Once finished, if your console is **not** patched, continue with the "Preparing Hekate" section at the bottom of the page.
+Make sure you have [put your device into RCM](entering_rcm) and downloaded hekate. Once finished, if your console is **not** patched, continue with the "Preparing hekate" section at the bottom of the page.
 
 :::
 
@@ -20,7 +20,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
 - The latest release of [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI/releases) (either the MSI or zip)
 - A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
-- The latest release of [Hekate](https://github.com/CTCaer/hekate/releases/). The Hekate payload (`hekate_ctcaer_(version).bin`) is located inside of the `hekate_ctcaer_(version).zip`.
+- The latest release of [hekate](https://github.com/CTCaer/Hekate/releases/). The hekate payload (`hekate_ctcaer_(version).bin`) is located inside of the `hekate_ctcaer_(version).zip`.
 
 ### Instructions:
 
@@ -31,6 +31,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 1. Navigate to the `Payload` tab of TegraRcmGUI.
     - Your Switch should be shown as detected in the bottom left corner.
 1. Press the file button next to `Inject payload`, and navigate to and select the `hekate_ctcaer_X.X.X.bin` file.
+    - Do not use the hekate payload included in TegraRcmGUI. It is outdated and missing a feature needed later in the guide.
 1. Click `Inject payload` to launch the payload you selected.
     - If your payload was successfully injected your switch should have yellow text that says "Update bootloader folder!", this will be resolved soon.
 
@@ -53,7 +54,7 @@ Follow these steps if you face issues when installing the driver with TegraRcmGU
 - The latest release of [fusee-nano](https://github.com/DefenderOfHyrule/fusee-nano/releases) (also available on the [AUR](https://aur.archlinux.org/packages/fusee-nano))
     - If you use Arch Linux or a derivative distro, the AUR package is recommended.
 - A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
-- The latest release of [Hekate](https://github.com/CTCaer/hekate/releases/). The Hekate payload (`hekate_ctcaer_(version).bin`) is located inside of the `hekate_ctcaer_(version).zip`.
+- The latest release of [hekate](https://github.com/CTCaer/hekate/releases/). The hekate payload (`hekate_ctcaer_(version).bin`) is located inside of the `hekate_ctcaer_(version).zip`.
 
 ### Instructions:
 
@@ -71,7 +72,7 @@ Follow these steps if you face issues when installing the driver with TegraRcmGU
 
 - The latest release of [CrystalRCM](https://github.com/prayerie/CrystalRCM/releases) (the `CrystalRCM.(version).dmg` file)
 - A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
-- The latest release of [Hekate](https://github.com/CTCaer/hekate/releases/). The Hekate payload (`hekate_ctcaer_(version).bin`) is located inside of the `hekate_ctcaer_(version).zip`.
+- The latest release of [hekate](https://github.com/CTCaer/hekate/releases/). The hekate payload (`hekate_ctcaer_(version).bin`) is located inside of the `hekate_ctcaer_(version).zip`.
 
 ### Instructions:
 
@@ -96,11 +97,11 @@ Follow these steps if you face issues when installing the driver with TegraRcmGU
 - If your device has a USB-C port, you may use a C-C cable
 - If your device only has a Micro USB port, you will need a USB OTG adapter and a USB A-C cable
     - This **will not work** on every phone!
-- The latest release of [Hekate](https://github.com/CTCaer/hekate/releases/). The Hekate payload (`hekate_ctcaer_(version).bin`) is located inside of the `hekate_ctcaer_(version).zip`.
+- The latest release of [hekate](https://github.com/CTCaer/hekate/releases/). The hekate payload (`hekate_ctcaer_(version).bin`) is located inside of the `hekate_ctcaer_(version).zip`.
 
 ### Instructions:
 
-1. Copy the hekate_ctcaer `.bin` file from the Hekate `.zip` file to a location on your phone.
+1. Copy the hekate_ctcaer `.bin` file from the hekate `.zip` file to a location on your phone.
     - A tool such as Amaze File Manager can do this.
 1. Launch Rekado on your phone.
 1. Navigate to `Payloads` (Signified by a downwards arrow with a line), then press the `+` button at the bottom right.
@@ -144,12 +145,12 @@ If your Chromebook has a USB-C port, do note that this will not work using a C-C
 
 **If nothing happens after you send the payload**
 
-If your console's screen remains black after you've sent Hekate (or any other payload), it's possible your payload was corrupted, or that your console is patched. If your payload injector program shows that zero or 0x0000 bytes were sent, then it is patched. This isn't a one-time glitch or up for debate; it is patched. Consider an alternate method that isn't via RCM.
+If your console's screen remains black after you've sent hekate (or any other payload), it's possible your payload was corrupted, or that your console is patched. If your payload injector program shows that zero or 0x0000 bytes were sent, then it is patched. This isn't a one-time glitch or up for debate; it is patched. Consider an alternate method that isn't via RCM.
 
 :::
 
-## Preparing Hekate
-We will prepare the microSD card for formatting/partitioning before going to the next page. Removing the microSD card while in Hekate is safe so turning off the console is not necessary and keeping it on will save time that would be spent reinjecting the payload.
+## Preparing hekate
+We will prepare the microSD card for formatting/partitioning before going to the next page. Removing the microSD card while in hekate is safe so turning off the console is not necessary and keeping it on will save time that would be spent reinjecting the payload.
 
 ::: danger
 
@@ -160,19 +161,19 @@ Later in the guide, you will be formatting and/or partitioning your microSD card
 :::
 
 ### What you need:
-- The latest release of [Hekate](https://github.com/CTCaer/hekate/releases/).
+- The latest release of [hekate](https://github.com/CTCaer/hekate/releases/).
 - Your microSD card
 
 ### Instructions:
 1. Without turning your Switch off, remove the microSD card from the Switch.
 1. Insert your microSD card into your computer.
 1. Copy the `Nintendo` folder (and any other important data) from the root of your microSD card to a safe space on your device.
-1. Extract the Hekate `.zip` to a location on your computer
-1. Inside the extracted Hekate folder you will find a folder named `bootloader`.
+1. Extract the hekate `.zip` to a location on your computer
+1. Inside the extracted hekate folder you will find a folder named `bootloader`.
 1. Copy the `bootloader` folder to the root of your microSD card.
 1. Put your microSD card back into your Switch.
-1. Press any button to continue to the Hekate menu.
-1. Use volume up and volume down to navigate the Hekate menu. Hover over 'reload' and press the power button to select. Your screen should now have the Hekate GUI (Nyx) pictured below.
+1. Press any button to continue to the hekate menu.
+1. Use volume up and volume down to navigate the hekate menu. Hover over 'reload' and press the power button to select. Your screen should now have the hekate GUI (Nyx) pictured below.
     ![Nyx](../all/img/nyx.bmp){ width="600" }
 
 ::: tip

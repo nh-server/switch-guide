@@ -15,7 +15,7 @@ sys-clk has limits for a reason, which is to not damage the hardware of your Swi
 - The latest release of [sys-clk](https://github.com/retronx-team/sys-clk/releases) (the `sys-clk-(version).zip` file)
 
 ## Installation instructions:
-1. Boot into Hekate and go to `Tools` > `USB Tools` > `SD Card`, then plug your Switch into your PC via USB.
+1. Boot into hekate and go to `Tools` > `USB Tools` > `SD Card`, then plug your Switch into your PC via USB.
 1. Your microSD card should now be accessible on your PC, open it.
 1. Extract the `.zip` file to a location on your computer.
     - If your archive manager allows for it, you can also simply open the `.zip` file directly.
@@ -38,6 +38,6 @@ Open the Homebrew menu and open sys-clk's manager app. This app allows you to ch
 
 ## sys-clk isn't working!:
 
-Assuming you've followed the installation instructions successfully, this is probably due to the archive bit being set on one or more folders/files on your microSD card. This is usually the result of copying files to a microSD card via a Mac. If you are experiencing this issue, try running the archive bit fixer utility via Hekate for all files.
+Assuming you've followed the installation instructions successfully, this is probably due to the archive bit being set on one or more folders/files on your microSD card. This is usually the result of copying files to a microSD card via a Mac. If you are experiencing this issue, try running the archive bit fixer utility via hekate for all files.
 
-This can be done by booting into Hekate and going to `Tools` > `Arch bit • RCM Touch • Pkg1/2` > `Fix Archive Bit`.
+This can be done by booting into hekate and going to `Tools` > `Arch bit • RCM Touch • Pkg1/2` > `Fix Archive Bit`.

@@ -25,14 +25,14 @@ Before we start, check if you have a tree of folders called `backup/[8 Character
 
 This means you do not have a nand backup, it is highly recommended you make one as soon as possible. Follow the steps below to make one.
 
-1. Launch the latest Hekate payload on your Switch.
+1. Launch the latest hekate payload on your Switch.
 1. Navigate to `Tools` > `Backup eMMC` > `eMMC BOOT0 & BOOT1` and let it do its thing.
 1. Wait for the process to complete. When it's completed, you now have a `backup/[8 Character NAND id]/restore` folder on your microSD card. Continue with step 1 of the instructions below.
 
 :::
 
-1. Enter RCM and inject the Hekate payload.
-    - If you use a modchipped Switch, you can simply just turn your Switch on with the Hekate payload renamed to `payload.bin` on the root of your SD.
+1. Enter RCM and inject the hekate payload.
+    - If you use a modchipped Switch, you can simply just turn your Switch on with the hekate payload renamed to `payload.bin` on the root of your SD.
 1. Navigate to `Tools` > `USB Tools` > `SD Card` and plug your Switch into your PC via USB.
 1. Copy your `rawnand.bin` (combined or in 15 or 30 parts), `BOOT0`, and `BOOT1` to the `backup/[8 Character NAND id]/restore` folder on the microSD card.
 1. Eject the `UMS` device safely from within your computer's operating system.
@@ -52,7 +52,7 @@ A system update is considered a security version when a fuse is burned, you can 
 
 If you were in AutoRCM before you upgraded to a newer security version (and still were after the upgrade) you don't have to do this.
 
-1. In Hekate's main menu, navigate to `Tools` and go to the bottom of the page where you will find a button called `Archive bit - AutoRCM`
+1. In hekate's main menu, navigate to `Tools` and go to the bottom of the page where you will find a button called `Archive bit - AutoRCM`
 1. Select the `AutoRCM` buttom and you will see `ON` written next to it. This means it is enabled.
 
 :::

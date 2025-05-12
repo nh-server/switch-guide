@@ -114,6 +114,6 @@ Make sure that the images you want to use are 1280x720 and in JPG!
 
 ### The NXTheme installer crashes when I launch it:
 
-This is probably due to the archive bit being set on either the app or the `.nxtheme` files. This is usually the result of copying files to a microSD card via a Mac. If you are experiencing this issue, try running the archive bit fixer utility via Hekate for all files.
+This is probably due to the archive bit being set on either the app or the `.nxtheme` files. This is usually the result of copying files to a microSD card via a Mac. If you are experiencing this issue, try running the archive bit fixer utility via hekate for all files.
 
-This can be done by booting into Hekate and going to `Tools` > `Arch bit • RCM Touch • Pkg1/2` > `Fix Archive Bit`.
+This can be done by booting into hekate and going to `Tools` > `Arch bit • RCM Touch • Pkg1/2` > `Fix Archive Bit`.

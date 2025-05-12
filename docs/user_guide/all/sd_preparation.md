@@ -2,7 +2,7 @@
 
 We will now place the required files for the Atmosphère custom firmware and some additional homebrew files on the microSD card.
 
-Atmosphere has its own bootloader, called fusee. For the purposes of this guide we will be using Hekate instead, so that we can back up the system's NAND (internal storage) and take advantage of other advanced features in the future.
+Atmosphère has its own bootloader, called fusee. For the purposes of this guide we will be using hekate instead, so that we can back up the system's NAND (internal storage) and take advantage of other advanced features in the future.
 
 ::: warning
 
@@ -13,11 +13,11 @@ If you use Windows, you should enable file name extensions before continuing. Se
 :::
 
 ## What you need:
-- The latest release of [Hekate](https://github.com/CTCaer/Hekate/releases/) (Download the `hekate_ctcaer_(version).zip` release of hekate)
-- The Hekate config file: <a href="/files/emu/hekate_ipl.ini" download>hekate_ipl.ini</a>
+- The latest release of [hekate](https://github.com/CTCaer/Hekate/releases/) (Download the `hekate_ctcaer_(version).zip` release of hekate)
+- The hekate config file: <a href="/files/emu/hekate_ipl.ini" download>hekate_ipl.ini</a>
 - The DNS.MITM DNS redirection config: <a href="/files/emummc.txt" download>emummc.txt</a>
 - The bootlogo zip folder: <a href="/files/bootlogos.zip" download>bootlogos.zip</a>
-- The latest release of [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere/releases). Download the `atmosphere-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip` release of Atmosphere.
+- The latest release of [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere/releases). Download the `atmosphere-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip` release of Atmosphère.
 - The latest release of [JKSV](https://github.com/J-D-K/JKSV/releases) (Download the `JKSV.nro` release of JKSV)
 - The latest release of [FTPD](https://github.com/mtheall/ftpd/releases) (Download the `ftpd.nro` release of FTPD)
 - The latest release of [NXThemesInstaller](https://github.com/exelix11/SwitchThemeInjector/releases) (Download the `NXThemesInstaller.nro` release of NXThemesInstaller)
@@ -34,7 +34,7 @@ If you're on a Chromebook, the following section may prove to be difficult. The 
 ## Instructions:
 1. Navigate to the accessible drive.
 1. Copy *the contents of* the Atmosphère`.zip` file to the root of your microSD card.
-1. Copy the `bootloader` folder from the Hekate `.zip` file to the root of your microSD card.
+1. Copy the `bootloader` folder from the hekate `.zip` file to the root of your microSD card.
     - If you're asked to replace files or merge folders, do so.
         - On macOS, you will need to *merge* folders, *not* replace them.
 1. Copy the `bootloader` folder from the `bootlogos.zip` file to the root of your microSD card.

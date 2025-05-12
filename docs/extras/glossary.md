@@ -7,7 +7,7 @@ This section is dedicated to explaining a number of common terms that are used w
 The following list is in alphabetical order.
 
 - **90DNS**: DNS that blocks system updates on the Nintendo Switch. This can be enabled by following the guide [here](blocking_nintendo).
-- **[Atmosphère](https://github.com/Atmosphere-NX/Atmosphere)**: The CFW developed by the Atmosphere-NX organization on GitHub and the one used in this guide.
+- **[Atmosphère](https://github.com/Atmosphere-NX/Atmosphere)**: The CFW developed by the Atmosphère-NX organization on GitHub and the one used in this guide.
 - **AutoRCM**: A method that corrupts parts of your boot0 and boot1, causing the Switch to boot into RCM automatically. Using this requires an additional peripheral (such as a computer, phone, dongle, or modchip) to be able to boot your Switch.
 - **boot0 and boot1**: Two partitions of the Switch NAND.
 - **bootROM**: An initial system loader whose primary purpose is to initialise a device's hardware and prepare it for use. It is also typically responsible for authenticating hardware and software necessary to start the device. A bootROM is a ROM, meaning that it is etched into the device and cannot be rewritten or upgraded without replacing the hardware entirely.
@@ -19,7 +19,7 @@ The following list is in alphabetical order.
     - **BIS keys**: Built-in Storage keys. They are used to encrypt/decrypt the NAND's contents.
 - **[fusee-gelee](https://github.com/Qyriad/fusee-launcher/blob/master/report/fusee_gelee.md)/[ShofEL2](https://github.com/fail0verflow/shofel2)**: Two names for two different implementations of the [same exploit](https://nvd.nist.gov/vuln/detail/CVE-2018-6242). This is an exploit that grants full bootROM access to the Nintendo Switch from the Tegra X1's RCM, and permitting us to run CFW. This exploit requires an external device or a tiny hardware modification. fusee-gelee is developed by an ex-ReSwitched developer, while ShofEL2 is developed by the failoverfl0w team. This guide uses fusee-gelee.
 - **[hactool](https://github.com/SciresM/hactool)**: Software used to decrypt Nintendo Switch files like .XCI and .NSP files.
-- **[Hekate](https://github.com/CTCaer/hekate)**: A bootloader for the Nintendo Switch. The current guide uses this in combination with essential files from Atmosphère to boot CFW.
+- **[hekate](https://github.com/CTCaer/hekate)**: A bootloader for the Nintendo Switch. The current guide uses this in combination with essential files from Atmosphère to boot CFW.
 - **Homebrew**: Unsigned code that can be ran on the Nintendo Switch. Examples of homebrew include save editors, emulators and ports of PC games, but can also include completely original games. To run this code, you need to have an exploit.
 - **Homebrew launcher**: Software developed by the Switchbrew team that lets you run other Homebrew.
 - **Jig**: Refers to a piece of hardware that you can put in the Joycon rail to enter RCM.

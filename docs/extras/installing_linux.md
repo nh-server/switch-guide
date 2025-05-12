@@ -36,7 +36,7 @@ This page was made in collaboration with `makinbacon21` on Discord. See the coll
 
 If you'd like, you can donate to the people who made this project possible using these links.
 
-- CTCaer (Linux & Low level developer, Hekate maintainer)
+- CTCaer (Linux & Low level developer, hekate maintainer)
 [https://www.patreon.com/ctcaer](https://www.patreon.com/ctcaer)
 
 - Azkali (Linux & Low level developer)

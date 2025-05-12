@@ -6,7 +6,7 @@ This page will detail the setup of Switchroot Android (Android 11) for the Ninte
 
 **Have you partitioned your microSD card?**
 
-This page assumes that you've followed our guide to set up Atmosphère. Before starting, your microSD card needs partitions for Android set up via Hekate.
+This page assumes that you've followed our guide to set up Atmosphère. Before starting, your microSD card needs partitions for Android set up via hekate.
 
 If you didn't do so, see [this page](../user_guide/all/partitioning_sd_syscfw) to install Android alongside Atmosphère. If you don't want to use Switch CFW and only Android, check the [Official Switchroot Documentation](https://wiki.switchroot.org/wiki/android/11-r-setup-guide) instead.
 
@@ -37,7 +37,7 @@ The Switch lacks a cell modem; simply installing Android does not grant your Swi
 This page will also *not* detail things such as rooting and overclocking; external links to these types of additions can be found in the [Power User Guides](#power-user-guides) section at the bottom of this page.
 
 ## Requirements:
-- A Nintendo Switch console that is capable of running Hekate. <br>
+- A Nintendo Switch console that is capable of running hekate. <br>
 - A microSD card *larger than* 8GB.
     - Please consult the [Switchroot microSD Card Guide](https://wiki.switchroot.org/wiki/sd-card-guide) before buying!
 - A good quality, data-transfer capable USB-A to USB-C cable.
@@ -48,13 +48,13 @@ This page will also *not* detail things such as rooting and overclocking; extern
 
 ### Step 0: Preparation
 
-If you have official Joy-Con controllers, you can set up auto-pairing so undocking them seamlessly connects to the console regardless of what OS is running. To make this work, boot HOS, ensure both work undocked (pair them), then reboot to Hekate. Select `Nyx Options` followed by `Dump Joy-Con BT`. You should see "Found 2 out of 2 Joy-Con pairing data!"
+If you have official Joy-Con controllers, you can set up auto-pairing so undocking them seamlessly connects to the console regardless of what OS is running. To make this work, boot HOS, ensure both work undocked (pair them), then reboot to hekate. Select `Nyx Options` followed by `Dump Joy-Con BT`. You should see "Found 2 out of 2 Joy-Con pairing data!"
 
 ::: tip
 
 **Have a Switch Lite?**
 
-You should poke the dump button in Hekate anyway -- this will dump factory stick and IMU calibration for use in Android.
+You should poke the dump button in hekate anyway -- this will dump factory stick and IMU calibration for use in Android.
 
 :::
 
@@ -80,9 +80,9 @@ Download the latest `.7z` release archive from [the official Switchroot download
 
 **Are you using a V1 or V2 Switch (standard models)?**
 
-These models have a poorly designed microSD card reader and repeated removals/reinsertions can eventually cause the reader to fail. Please use Hekate SD UMS to transfer files instead of removing the microSD card from your Switch!
+These models have a poorly designed microSD card reader and repeated removals/reinsertions can eventually cause the reader to fail. Please use hekate SD UMS to transfer files instead of removing the microSD card from your Switch!
 
-- This can be done by booting into Hekate and going to `Tools` > `USB Tools` > `SD Card` and plugging your Switch into your PC via USB.
+- This can be done by booting into hekate and going to `Tools` > `USB Tools` > `SD Card` and plugging your Switch into your PC via USB.
 
 :::
 
@@ -121,7 +121,7 @@ root
 
 ### Step 3: Flashing Android
 
-Open the Hekate partition manager (located in `Tools` > `Partition SD Card`) and select Flash Android at the bottom of your screen. All three images should be found and successfully flashed. Select the option to reboot to recovery.
+Open the hekate partition manager (located in `Tools` > `Partition SD Card`) and select Flash Android at the bottom of your screen. All three images should be found and successfully flashed. Select the option to reboot to recovery.
 
 Once in recovery, select `Factory Reset` followed by `Format Data`. This *does not delete anything here*, but rather is used to prepare your data partitions for flashing. Ignore any errors that may appear. Return to the main menu and select `Apply Update` followed by `Select from SWITCH SD`. Find and select the `lineage-18.1...` zip in the list, and wait for it to finish.
 
@@ -129,7 +129,7 @@ Once in recovery, select `Factory Reset` followed by `Format Data`. This *does n
 
 **Did the zip fail to flash?**
 
-Your microSD card is probably bad... Take a look at Hekate's microSD card info, and consider buying a better card.
+Your microSD card is probably bad... Take a look at hekate's microSD card info, and consider buying a better card.
 
 :::
 
@@ -149,7 +149,7 @@ Once done, reboot the system when prompted -- Android is now installed!
 
 - If Joy-Con autopairing has not kicked in, try a reboot. Sometimes the first boot doesn't pick up the addition.
 - To access recovery/TWRP: hold `VOL+` on boot or reboot.
-- To access Hekate from Android: hold `VOL-` on reboot.
+- To access hekate from Android: hold `VOL-` on reboot.
 - To reboot back to Android: hold `Power` for a few seconds and perform a standard reboot.
 - To return to Horizon (`OFW/CFW`): power your Switch off fully, then boot into your desired mode.
 
@@ -175,7 +175,7 @@ If you'd like, you can donate to the people who made this project possible using
 - npjohnson (Android developer)
 [https://paypal.me/nolenjohnson](https://paypal.me/nolenjohnson)
 
-- CTCaer (Linux & Low level developer, Hekate maintainer)
+- CTCaer (Linux & Low level developer, hekate maintainer)
 [https://www.patreon.com/ctcaer](https://www.patreon.com/ctcaer)
 
 - ave (Infrastructure & Hosting)

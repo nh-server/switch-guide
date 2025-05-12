@@ -2,9 +2,9 @@
 
 This page documents how you can keep your system up-to-date.
 
-After following our guide, your system will consist of three core elements that can be updated. Atmosphere, Hekate and your system firmware.
+After following our guide, your system will consist of three core elements that can be updated. Atmosphère, hekate and your system firmware.
 
-## Updating Atmosphere
+## Updating Atmosphère
 
 When updating Atmosphère, always make sure to _read the release notes_. They may list important changes and modifications to your system.
 
@@ -12,40 +12,40 @@ When updating Atmosphère, always make sure to _read the release notes_. They ma
 
 **Updating from below Atmosphère 1.0.0**
 
-If you update from below Atmosphère 1.0.0, there are additional steps to follow. You will have to delete the `sept` folder from your microSD, delete `fusee-secondary.bin` from your `atmosphere` folder and update your Hekate config file: <a href="/files/emu/hekate_ipl.ini" download>hekate_ipl.ini</a> in the `bootloader` folder.
+If you update from below Atmosphère 1.0.0, there are additional steps to follow. You will have to delete the `sept` folder from your microSD, delete `fusee-secondary.bin` from your `atmosphere` folder and update your hekate config file: <a href="/files/emu/hekate_ipl.ini" download>hekate_ipl.ini</a> in the `bootloader` folder.
 
 :::
 
 When a new version of Atmosphère releases, you can update Atmosphère by following these steps:
 
 
-1. Enter RCM and inject the Hekate payload.
-    - If you use a modchipped Switch, you can simply just turn your Switch on with the Hekate payload renamed to `payload.bin` on the root of your microSD card.
+1. Enter RCM and inject the hekate payload.
+    - If you use a modchipped Switch, you can simply just turn your Switch on with the hekate payload renamed to `payload.bin` on the root of your microSD card.
 1. Navigate to `Tools` > `USB Tools` > `SD Card` and plug your Switch into your PC via USB.
-1. Download the latest release of [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere/releases) (Download the `atmosphere-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip` release of Atmosphere.)
-1. Copy *the contents of* the Atmosphere `.zip` file to the root of your microSD card.
+1. Download the latest release of [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere/releases) (Download the `atmosphere-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip` release of Atmosphère.)
+1. Copy *the contents of* the Atmosphère `.zip` file to the root of your microSD card.
     - If you are prompted to overwrite files, do so.
 1. Eject the `UMS` device safely from within your computer's operating system.
-1. (If your Hekate is not on the latest version) update Hekate via the steps below.
+1. (If your hekate is not on the latest version) update hekate via the steps below.
 
-## Updating Hekate
+## Updating hekate
 
-When updating Hekate always make sure to _read the release notes_. They may list important changes and modifications to your system.
+When updating hekate always make sure to _read the release notes_. They may list important changes and modifications to your system.
 
-When a new version of Hekate releases, you can update by following these steps:
+When a new version of hekate releases, you can update by following these steps:
 
-1. Enter RCM and inject the Hekate payload.
-    - If you use a modchipped Switch, you can simply just turn your Switch on with the Hekate payload renamed to `payload.bin` on the root of your microSD card.
+1. Enter RCM and inject the hekate payload.
+    - If you use a modchipped Switch, you can simply just turn your Switch on with the hekate payload renamed to `payload.bin` on the root of your microSD card.
 1. Navigate to `Tools` > `USB Tools` > `SD Card` and plug your Switch into your PC via USB.
-1. Download the latest version of [Hekate](https://github.com/CTCaer/Hekate/releases/) (Download the `hekate_ctcaer_(version).zip` release of hekate).
-1. Copy the `bootloader` folder from the Hekate `.zip` file to the root of your microSD card. If you are asked to overwrite or merge files while copying, say yes to merge/overwrite them.
+1. Download the latest version of [hekate](https://github.com/CTCaer/Hekate/releases/) (Download the `hekate_ctcaer_(version).zip` release of hekate).
+1. Copy the `bootloader` folder from the hekate `.zip` file to the root of your microSD card. If you are asked to overwrite or merge files while copying, say yes to merge/overwrite them.
 1. Eject the `UMS` device safely from within your computer's operating system.
-1. Go back to Hekate's main menu and press `Reload` > `Reload` to reload Hekate from your microSD card.
+1. Go back to hekate's main menu and press `Reload` > `Reload` to reload hekate from your microSD card.
 1. From here, you're done and you can boot into CFW.
 
 ## Updating your firmware
 
-Always check _before_ updating your system firmware if the latest version of Atmosphère _as well_ as the latest version of Hekate support the firmware version you are updating towards.
+Always check _before_ updating your system firmware if the latest version of Atmosphère _as well_ as the latest version of hekate support the firmware version you are updating towards.
 
 In addition, updating to or past some firmwares update the gamecard firmware. Reference the table below for information about these.
 
@@ -61,11 +61,11 @@ In addition, updating to or past some firmwares update the gamecard firmware. Re
 | On or above 11.0.0 but below 12.0.0  | 12.0.0 or above                               | Yes                       |
 | On or above 12.0.0 but below 14.0.0  | At least 12.0.1 but below 13.2.1              | No                        |
 | On or above 12.0.0 but below 14.0.0  | 14.0.0 or above                               | Yes                       |
-| On or above 14.0.0                   | Latest supported Atmosphère & Hekate revision | No                        |
+| On or above 14.0.0                   | Latest supported Atmosphère & hekate revision | No                        |
 
 If at least one of the versions you are updating towards also updates the gamecard firmware, you will not be able to downgrade below that version without making the gamecard slot unusable until you update.
 
-Atmosphere (and Hekate) come bundled with patches that automatically disable the gamecard slot if it is detected that the system has an older gamecard firmware that would be updated. If you boot into RCM on each boot (for example by using AutoRCM), this means that the gamecard slot will not be updated and you can downgrade below that version. If this happens, you will not be able to use the gamecard slot as long as you are on the newer firmware.
+Atmosphère (and hekate) come bundled with patches that automatically disable the gamecard slot if it is detected that the system has an older gamecard firmware that would be updated. If you boot into RCM on each boot (for example by using AutoRCM), this means that the gamecard slot will not be updated and you can downgrade below that version. If this happens, you will not be able to use the gamecard slot as long as you are on the newer firmware.
 
 Otherwise, you can safely update your system firmware through the system settings.
 
@@ -117,11 +117,11 @@ There are two supported methods of dumping your sysMMC's firmware, these methods
 
 #### What you need:
 - The latest release of [Goldleaf](https://github.com/XorTroll/Goldleaf/releases) (`Goldleaf.nro`)
-- The latest release of [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere/releases) (`atmosphere-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip`)
+- The latest release of [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere/releases) (`atmosphere-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip`)
 
 #### Preparing your microSD card
 
-1. Boot into Hekate.
+1. Boot into hekate.
 1. Go to `Tools` > `USB Tools` > `SD Card` and connect your Switch to your PC via USB.
 1. Download the latest release of `Goldleaf.nro` and place it in `sd:/switch` on your microSD card.
 
@@ -129,7 +129,7 @@ There are two supported methods of dumping your sysMMC's firmware, these methods
 
 1. Make sure your sysMMC is up to date. If your sysMMC is not up-to-date, boot into sysCFW and update it through `System Settings` > `System` > `System Update`.
     - sysCFW is recommended since it preserves e-fuses and preserves AutoRCM (if applicable).
-1. Boot into Hekate, and navigate to `Launch` > `Atmosphere PKG3 sysMMC`.
+1. Boot into hekate, and navigate to `Launch` > `Atmosphere PKG3 sysMMC`.
     - `Atmosphere PKG3 sysMMC` is sysCFW, this environment may be called something different if you do not use the config we provide in our guide.
 1. Once booted into sysCFW, open the homebrew menu in applet mode by opening the gallery applet on your home menu. 
     - Title takeover mode (holding `R` while launching any title on your HOME menu) also works, but isn't *required* for this process.
@@ -153,7 +153,7 @@ On Mariko ("V2") consoles, this method of dumping the sysMMC's firmware requires
 
 #### Preparing your microSD card
 
-1. Boot into Hekate.
+1. Boot into hekate.
 1. Go to `Tools` > `USB Tools` > `SD Card` and connect your Switch to your PC via USB.
 1. Download the latest release of `TegraExplorer.bin` and place it `sd:/bootloader/payloads` on your microSD card.
 
@@ -176,7 +176,7 @@ On Mariko ("V2") consoles, this method of dumping the sysMMC's firmware requires
 
 #### Updating your emuMMC's firmware with Daybreak
 
-1. In Hekate go to `Launch -> Atmosphere PKG3 emuMMC`.
+1. In hekate go to `Launch -> Atmosphere PKG3 emuMMC`.
 1. Once booted into your emuMMC, open the homebrew menu in applet mode by launching the gallery applet on your HOME menu.
     - Title takeover mode (holding `R` while launching any title on your HOME menu) also works, but isn't *required* for this process.
 1. Find Daybreak in the homebrew menu and launch it.

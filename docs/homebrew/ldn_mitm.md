@@ -12,7 +12,7 @@ ldn_mitm is a [sysmodule](index#terminologies) that allows you to route the loca
 - The latest release of [ldn_mitm](https://github.com/DefenderOfHyrule/ldn_mitm/releases) (the `ldn_mitm.zip` file)
 
 ## Installation instructions:
-1. Boot into Hekate and go to `Tools` > `USB Tools` > `SD Card`, then plug your Switch into your PC via USB.
+1. Boot into hekate and go to `Tools` > `USB Tools` > `SD Card`, then plug your Switch into your PC via USB.
 1. Your microSD card should now be accessible on your PC, open it.
 1. Extract the `.zip` file to a location on your computer.
     - If your archive manager allows for it, you can also simply open the `.zip` file directly.
@@ -29,10 +29,10 @@ You can enable/disable ldn_mitm by opening the Homebrew menu, opening ldn_mitm's
 ## Troubleshooting
 ### My Switch crashes on boot after I installed ldn_mitm!:
 
-**Cause:** If your Switch crashes with Error `std::abort (0xFFE)` and Title ID `4200000000000010`, you're using a version of ldn_mitm that's incompatible with your Atmosphere version. The expected Atmosphere version is mentioned on each release page of an ldn_mitm release.
+**Cause:** If your Switch crashes with Error `std::abort (0xFFE)` and Title ID `4200000000000010`, you're using a version of ldn_mitm that's incompatible with your Atmosphère version. The expected Atmosphère version is mentioned on each release page of an ldn_mitm release.
 
 ### ldn_mitm isn't working!:
 
-Assuming you've followed the installation instructions successfully, this is probably due to the archive bit being set on one or more folders/files on your microSD card. This is usually the result of copying files to a microSD card via a Mac. If you are experiencing this issue, try running the archive bit fixer utility via Hekate for all files.
+Assuming you've followed the installation instructions successfully, this is probably due to the archive bit being set on one or more folders/files on your microSD card. This is usually the result of copying files to a microSD card via a Mac. If you are experiencing this issue, try running the archive bit fixer utility via hekate for all files.
 
-This can be done by booting into Hekate and going to `Tools` > `Arch bit • RCM Touch • Pkg1/2` > `Fix Archive Bit`.
+This can be done by booting into hekate and going to `Tools` > `Arch bit • RCM Touch • Pkg1/2` > `Fix Archive Bit`.

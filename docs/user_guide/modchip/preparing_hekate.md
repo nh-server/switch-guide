@@ -11,25 +11,25 @@ Later in the guide, you will be formatting and/or partitioning your microSD card
 :::
 
 ## What you need:
-- The latest release of [Hekate](https://github.com/CTCaer/Hekate/releases/) (Download the `hekate_ctcaer_(version).zip` release of Hekate)
+- The latest release of [hekate](https://github.com/CTCaer/Hekate/releases/) (Download the `hekate_ctcaer_(version).zip` release of hekate)
 - Your microSD card
 
 ## Instructions:
 
-1. Extract the Hekate `.zip` to a location on your computer.
+1. Extract the hekate `.zip` to a location on your computer.
 1. Insert your microSD card into your computer.
 1. Copy the `Nintendo` folder (and any other important data) from the root of your microSD card to a safe space on your device.
-1. Inside of the extracted Hekate folder, you will find the `bootloader` folder and the `hekate_ctcaer_(version).bin` payload.
+1. Inside of the extracted hekate folder, you will find the `bootloader` folder and the `hekate_ctcaer_(version).bin` payload.
 1. Copy the `bootloader` folder and `hekate_ctcaer_(version).bin` payload to the root of your microSD card.
 1. Rename the `hekate_ctcaer_(version).bin` payload to `payload.bin`
 1. Insert your microSD card back into your Switch, then turn it on.
-1. You should now be loaded into the Hekate GUI (Nyx), pictured below, within seconds.
+1. You should now be loaded into the hekate GUI (Nyx), pictured below, within seconds.
     ![Nyx](../all/img/nyx.bmp){ width="600" }
     - If you are unable to load into Nyx, consult the warning message below.
 
 ::: warning
 
-If your Switch does not load into the Hekate GUI, or shows a `No SD Card`/`No Payload` screen when turning on the console, ensure that you inserted your microSD card and that Hekate's `payload.bin` is on the root of the microSD card.
+If your Switch does not load into the hekate GUI, or shows a `No SD Card`/`No Payload` screen when turning on the console, ensure that you inserted your microSD card and that hekate's `payload.bin` is on the root of the microSD card.
 
 :::
 
@@ -45,21 +45,21 @@ If your Switch does not load into the Hekate GUI, or shows a `No SD Card`/`No Pa
 
 A: It is recommended that you use a microSD that is already formatted as FAT32 before starting. In addition, it is important that the microSD card does not have any data from other Switch consoles already on it.
 
-**Q: What makes Hekate the recommended choice in this guide?**
+**Q: What makes hekate the recommended choice in this guide?**
 
-A: Hekate is a polished, multi-purpose bootloader for the Switch. It has the tools to facilitate simple usage of custom firmware and custom operating systems, and aids with organisation and formatting later on in this guide.
+A: hekate is a polished, multi-purpose bootloader for the Switch. It has the tools to facilitate simple usage of custom firmware and custom operating systems, and aids with organisation and formatting later on in this guide.
 
-**Q: How do you pronounce "Hekate"?**
+**Q: How do you pronounce "hekate"?**
 
-A: Hekate comes from Greek. The most commonly accepted pronunciations are "HEK-ate", "HEK-uh-tee", and "hek-AH-tay".
+A: hekate comes from Greek. The most commonly accepted pronunciations are "HEK-ate", "HEK-uh-tee", and "hek-AH-tay".
 
-**Q: What role does the `/bootloader` folder play in the overall functionality of Hekate?**
+**Q: What role does the `/bootloader` folder play in the overall functionality of hekate?**
 
-A: The bootloader folder contains crucial parts of Hekate that can't fit in the injectable RCM/modchip payload, such as Nyx; Hekate's touch-enabled GUI. If you start Hekate without these files on your microSD, Hekate's functionality will be severely limited.
+A: The bootloader folder contains crucial parts of hekate that can't fit in the injectable RCM/modchip payload, such as Nyx; hekate's touch-enabled GUI. If you start hekate without these files on your microSD, hekate's functionality will be severely limited.
 
-**Q: How often should I check for updates to Hekate, and what benefits do newer releases bring to the process?**
+**Q: How often should I check for updates to hekate, and what benefits do newer releases bring to the process?**
 
-A: Nintendo Homebrew's #announcements channel will automatically poll for updates to Atmosphère and Hekate, letting you know when updates are available for them. In general, you'll want to look for updates whenever a major Switch system update is launched, as major updates will stop Horizon from booting until Hekate and Atmosphère are updated accordingly.
+A: Nintendo Homebrew's #announcements channel will automatically poll for updates to Atmosphère and hekate, letting you know when updates are available for them. In general, you'll want to look for updates whenever a major Switch system update is launched, as major updates will stop Horizon from booting until hekate and Atmosphère are updated accordingly.
 
 **Q: Does this process have any effect on the Switch's system or data?**
 
