@@ -23,15 +23,15 @@ It's highly recommended that you use an microSD card that is formatted to FAT32 
     - This should only take a few seconds, but if your microSD card is very slow, it may take around a minute.
 1. Tap on `Close` to continue, then tap on `eMMC RAW GPP`
     - This will take a long time. Expect it to take between 10 minutes to an hour (or more, if your microSD card is very slow).
-    - If your microSD card has less than 32GB of space available, please follow [these instructions](#on-fat32-formatted-microsd-cards-or-cards-that-have-less-than-32-gigabytes-of-space-available-the-nand-backup-will-be-split-into-1-or-2-gigabyte-parts) instead.
+    - If your microSD card has less than 32GB of space available, please follow the "**About microSD cards with less than 32GB of free space**" instructions at the end of this section instead.
 1. Go to the top right and press `Close` > `Home`.
 1. Navigate to `Tools` > `USB tools` > `SD card` and plug your Switch into your PC via USB.
 1. Copy the `backup` folder on your microSD card to a safe location on your PC.
 1. Once done, you may delete the `backup` folder from the root of your microSD card and eject the `UMS` device safely from within your computer's operating system, then return to Hekate's `Home` menu.
 
-::: details About microSD cards with less than 32GB of free space
+::: details About microSD cards with less than 32GB of free space (Click to unfold)
 
-**On FAT32 formatted microSD cards or cards that have less than 32 gigabytes of space available, the NAND backup will be split into 1 or 2 gigabyte parts.**
+On FAT32 formatted microSD cards or cards that have less than 32 gigabytes of space available, the NAND backup will be split into 1 or 2 gigabyte parts.
 
 Hekate will stop producing these parts when it runs out of space. When this happens, do the following:
 

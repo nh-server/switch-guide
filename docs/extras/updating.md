@@ -89,11 +89,15 @@ If you keep your emuMMC offline, you will have to use a gamecard to update your 
 
 ::: warning
 
-**Do you have an eMMC backup yet?**
+**Before starting; do you have an eMMC NAND backup?**
 
-Please do not start this guide without doing a RAW GPP and a BOOT 0/1 eMMC backup!
+Please do not start this guide without performing an eMMC RAW GPP and eMMC BOOT0/BOOT1 NAND backup!
 
-You can learn how to make one [here](../user_guide/all/making_essential_backups).
+You should always have *at least* one functional NAND backup, in the possible event of your console becoming "softbricked". This is not expected to happen while hollowing the steps below, but this is a general reminder for the people who *don't* have a NAND backup, as you *do* interact with internal system files during the steps below.
+
+If you do already have a NAND backup stored somewhere safely, you may ignore this warning.
+
+You can learn how to make a NAND backup [here](../user_guide/all/making_essential_backups).
 
 :::
 
@@ -101,44 +105,87 @@ You can learn how to make one [here](../user_guide/all/making_essential_backups)
 
 **Downgrading**
 
-This guide is made for updating your emuMMC. It is **not** for downgrading. Downgrading at all, sysMMC or emuMMC, is not recommended and not worth it. Downgrading is also very dangerous and can lead to serious complications even when performed correctly.
+This guide is made for updating your emuMMC's firmware. It is **not** for downgrading. Downgrading at all, sysMMC or emuMMC, is not recommended and not worth it. Downgrading is also very dangerous and can lead to serious complications even when performed correctly.
 
 :::
 
+There are two supported methods of dumping your sysMMC's firmware, these methods are detailed in the two tabs below. Either choice will provide the same end result, but can be more difficult depending on the console model you have.
+
+::::: tabs
+
+:::: tab Dumping your firmware via Goldleaf
+
 #### What you need:
-- The latest release of [TegraExplorer](https://github.com/suchmememanyskill/TegraExplorer/releases)
-- The latest release of [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere/releases)
+- The latest release of [Goldleaf](https://github.com/XorTroll/Goldleaf/releases) (`Goldleaf.nro`)
+- The latest release of [Atmosphere](https://github.com/Atmosphere-NX/Atmosphere/releases) (`atmosphere-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip`)
 
 #### Preparing your microSD card
 
 1. Boot into Hekate.
 1. Go to `Tools` > `USB Tools` > `SD Card` and connect your Switch to your PC via USB.
-1. Download the latest release of `TegraExplorer.bin` and place it `sd:/bootloader/payloads`.
-
-Make sure your sysMMC is updated before moving onto the instructions below.
+1. Download the latest release of `Goldleaf.nro` and place it in `sd:/switch` on your microSD card.
 
 #### Dumping your sysMMC firmware
 
-1. Make sure your sysMMC is up to date. If your sysMMC is not up-to-date, boot into Stock or sysCFW and update it through the System Settings.
+1. Make sure your sysMMC is up to date. If your sysMMC is not up-to-date, boot into sysCFW and update it through `System Settings` > `System` > `System Update`.
     - sysCFW is recommended since it preserves e-fuses and preserves AutoRCM (if applicable).
-1. Inject `TegraExplorer.bin` using your favourite payload injector (Like you would with Hekate).
-    - If you are using a modchipped Switch, you can simply put `TegraExplorer.bin` in `sd:/bootloader/payloads` on your microSD card, then turn on your console and load TegraExplorer via Hekate's payloads menu (`Payloads` > `TegraExplorer.bin`).
-1. Using the joystick and the A buttons, select `FirmwareDump.te`, then select `Dump sysmmc`.
+1. Boot into Hekate, and navigate to `Launch` > `Atmosphere PKG3 sysMMC`.
+    - `Atmosphere PKG3 sysMMC` is sysCFW, this environment may be called something different if you do not use the config we provide in our guide.
+1. Once booted into sysCFW, open the homebrew menu in applet mode by opening the gallery applet on your home menu. 
+    - Title takeover mode (holding `R` while launching any title on your HOME menu) also works, but isn't *required* for this process.
+1. Find Goldleaf in your homebrew menu and launch the app.
+1. Navigate to `Console & Goldleaf settings` > `Firmware and updates` > `Export update` > `Directory`, then wait for Goldleaf to finish dumping your currently installed firmware version.
+1. Once done, reboot back to hekate by holding power for 3-4 seconds and selecting `Power Options` > `Restart`, or by using the `Reboot to Payload` homebrew app in your homebrew menu (Erista ("V1") console users only).
+
+::::
+
+:::: tab Dumping your firmware via TegraExplorer
+
+#### What you need:
+- The latest release of [TegraExplorer](https://github.com/suchmememanyskill/TegraExplorer/releases) (`TegraExplorer.bin`)
+
+::: warning
+
+On Mariko ("V2") consoles, this method of dumping the sysMMC's firmware requires you to have dumped your console's `prod.keys` prior to starting the steps below. To do this, you will need Lockpick_RCM.
+- We do ***not***, under any circumstance, assist with the sourcing (locating) of the Lockpick_RCM payload, please refrain from asking about where to obtain it.
+
+:::
+
+#### Preparing your microSD card
+
+1. Boot into Hekate.
+1. Go to `Tools` > `USB Tools` > `SD Card` and connect your Switch to your PC via USB.
+1. Download the latest release of `TegraExplorer.bin` and place it `sd:/bootloader/payloads` on your microSD card.
+
+#### Dumping your sysMMC firmware
+
+1. Make sure your sysMMC is up to date. If your sysMMC is not up-to-date, boot into sysCFW and update it through `System Settings` > `System` > `System Update`.
+    - sysCFW is recommended since it preserves e-fuses and preserves AutoRCM (if applicable).
+1. Boot into hekate and navigate to `Payloads` > `TegraExplorer.bin`.
+1. Using the joystick and the A buttons, select the `FirmwareDump.te` script, then select `Dump sysmmc`.
     - If navigation doesn't work with your Joycons, navigating using the volume buttons and selecting using the power button also works.
       (This is also required for Switch Lite console users.)
-1. Wait about 1-2 minutes for the script to dump your firmware.
+1. Wait approximately 1-2 minutes for the script to dump your firmware.
+    - It may take a little longer depending on the specifications of your microSD card.
 1. When the script finishes, press any button.
 1. Select `Reboot to bootloader/update.bin`.
 
-#### Updating your emuMMC with Daybreak
+::::
 
-1. In Hekate go to `Launch -> Atmosphere FSS0 emuMMC`.
-1. Once booted, hold `R` while launching a game to boot into the homebrew menu.
+:::::
+
+#### Updating your emuMMC's firmware with Daybreak
+
+1. In Hekate go to `Launch -> Atmosphere PKG3 emuMMC`.
+1. Once booted into your emuMMC, open the homebrew menu in applet mode by launching the gallery applet on your HOME menu.
+    - Title takeover mode (holding `R` while launching any title on your HOME menu) also works, but isn't *required* for this process.
 1. Find Daybreak in the homebrew menu and launch it.
-1. Tap on `Install` and navigate to `sd:/tegraexplorer/Firmware/<latest firmware number>`.
+1. Tap on `Install` and follow the instructions corresponding to the method you used to dump your firmware below.
+    - For users who dumped their firmware using Goldleaf: Navigate to `sd:/switch/Goldleaf/export/update/<latest firmware version number>`.
+    - For users who dumped their firmware using TegraExplorer: Navigate to `sd:/tegraexplorer/Firmware/<latest firmware version number>`.
 1. Tap on `Continue` and then `Preserve settings`.
     - If you see the message `Warning: exFAT firmware is missing or corrupt`, you likely don't have the exFAT drivers installed on your sysMMC. Just press continue if this is the case.
-1. If it is available choose `Install (FAT32 + exFAT)`, otherwise `Install (FAT32)` and then `Continue`.
+1. If it is available choose `Install (FAT32 + exFAT)`, otherwise select `Install (FAT32)` and then `Continue`.
 1. Wait until Daybreak completes installing the dumped firmware.
 1. Once it completes, it will ask if you want to reboot. Tap `Reboot`.
-1. Once rebooted, launch into emuMMC and verify your system works. You can verify your system has been properly updated in `Settings -> System`.
+1. Once rebooted, launch into emuMMC and verify your system works. You can verify your system has been properly updated in `System Settings` > `System`, it will tell you the installed firmware version underneath the `System Update` button.

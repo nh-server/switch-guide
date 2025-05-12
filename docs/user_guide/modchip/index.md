@@ -21,11 +21,11 @@ Modchips allow any console, including all patched consoles, to run CFW!
 Patched Switch consoles (consoles produced after mid-2018) are immune to the fusee-gelee exploit in RCM. Attempting to inject a payload on a Patched console will be unsuccessful.
 
 Depending on your modchip's firmware, you may not be able to boot the console without a microSD card inserted.
-This means without a microSD inserted at all times, your Switch becomes *unusable*.
+This means without a microSD inserted at all times, your Switch becomes *unusable*. The likelihood of the Switch becoming *unusable* is small, but still possible. To know if your modchip and its firmware support the bypassing of the firmware module `sdloader`, consult the "**About modchips and their firmware versions**" section below.
 
 If you do turn on your Switch without a microSD card inserted, you should end up at a splash screen saying something along the lines of `NO SD`.
 
-::: details About modchips and their firmware versions
+::: details About modchips and their firmware versions (Click to unfold)
 
 Some modchip firmwares (e.g., Spacecraft-NX, Hwfly-NX and the Picofly firmware) allow bypassing `sdloader` by holding one - or both - of the volume buttons during power-on, enabling normal boot without a microSD card. Not all modchips support manual firmware updates.
 
@@ -40,7 +40,7 @@ Running CFW on modchipped consoles is more simplistic, as it only requires you t
 Furthermore, this guide assumes you have a functional modchip installation.
 
 ## Important
-If you do decide to follow the recommended emuMMC path later in the guide, make sure you disable [Automatic Save Data Cloud backups/downloads](https://www.nintendo.co.uk/Support/Nintendo-Switch/How-to-Enable-Disable-Automatic-Save-Data-Backups-and-Downloads-1434310.html) beforehand as well as making sure [the Switch is set as Primary Console](https://en-americas-support.nintendo.com/app/answers/detail/a_id/22453/~/how-to-change-the-primary-console-for-your-nintendo-account).
+If you do decide to follow the recommended emuMMC path later in the guide, make sure you disable [Automatic Save Data Cloud backups/downloads](https://www.nintendo.co.uk/Support/Nintendo-Switch/How-to-Enable-Disable-Automatic-Save-Data-Backups-and-Downloads-1434310.html) beforehand as well as making sure [the Switch is set as the primary Pass-Enabled console](https://en-americas-support.nintendo.com/app/answers/detail/a_id/41221/~/how-to-set-or-change-the-primary-nintendo-switch-console-for-a-nintendo-account).
 
 
 ::: danger

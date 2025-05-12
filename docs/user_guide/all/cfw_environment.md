@@ -25,7 +25,7 @@ For more information on terminology, please refer to the [glossary](../../extras
 
 :::: card
 
-### emuMMC CFW (Recommended)
+### emuMMC CFW
 #### CFW on emuMMC has the following benefits:
 
 - No risk of bans as long as emuMMC remains offline from Nintendo [[info]](https://nx.eiphax.tech/ban.html))

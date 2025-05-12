@@ -27,6 +27,7 @@ You should first check whether you have a file or partition based emuMMC:
     - To do this, use [this guide](https://wiki.hacks.guide/wiki/Formatting_an_SD_card).
 1. Copy the files from your PC or directly from your old microSD card to your new microSD card.
 1. Eject the `UMS` device safely from within your computer's operating system.
+1. Boot into Hekate and launch your desired boot entry.
 
 -----
 
@@ -58,4 +59,4 @@ You need at least 30GB (or 60GB if using an OLED Switch) of free space to be abl
 1. Restore the backup by tapping on both `SD emuMMC BOOT0 & BOOT1` and `SD emuMMC RAW GPP` (Note: `SD emuMMC RAW GPP` may take a while).
     - It is very important that for both of these the `SD emuMMC Raw Partition` option is enabled, otherwise you will be altering your sysMMC
       which is not what you want.
-1. Your emuMMC is now restored on the new microSD card and you should be able to launch it from `Launch` -> `Atmosphere FSS0 emuMMC` in Hekate.
+1. Your emuMMC is now restored on the new microSD card and you should be able to launch it from `Launch` -> `Atmosphere PKG3 emuMMC` in Hekate.

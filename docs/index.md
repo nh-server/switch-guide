@@ -43,12 +43,12 @@ This guide has the end-goal of taking a completely unmodified Switch from stock 
 
 ## What can I do with custom firmware?
 
-- Customize your HOME Menu with user-created themes and splash screens
-- Run “ROM hacks” for games that you own
-- Backup, edit, and restore saves for many games
-- Play games for older systems with various emulators, using RetroArch or other standalone emulators
-- Safely update to the latest system version without fear of losing access to homebrew
-- Safely customise your device while retaining full access to Nintendo online services
+- Customize your HOME Menu with user-created themes and splash screens.
+- Run “ROM hacks” for games that you own.
+- Backup, edit, and restore saves for many games.
+- Play games for older systems with various emulators, using RetroArch or other standalone emulators.
+- Safely update to the latest system version without fear of losing access to homebrew.
+- Safely customise your device while retaining full access to Nintendo Switch Online services.
 
 More on this can be found later on in the guide.
 
@@ -62,24 +62,24 @@ This guide will work on first-generation (V1) and modchipped Switch consoles in 
 
 ::: tip
 
-**You will need *one* of the following in order to successfully follow this guide:**
+**You will need ***one*** of the following in order to successfully follow this guide:**
 
-- A PC, and a USB-C cable capable of data transfer to connect them together
-- An Android device, and a USB-C cable capable of data transfer to connect them together
-    - This does not work on every Android phone
-- A Lightning OTG adapter, a jailbroken iOS device, and a USB cable, all capable of data transfer to connect everything together
+- A PC, a microSD card reader, and a USB-C cable capable of data transfer to connect them together.
+- An Android device with microSD card reader and a USB-C cable capable of data transfer to connect them together.
+    - This does not work on every Android phone.
+- A Lightning OTG adapter, a microSD card reader, a jailbroken iOS device, and a USB cable capable of data transfer to connect them together.
     - This method is not covered by the guide, but you can read more about it at [this website](https://mologie.github.io/nxboot/)
-- A successfully modchipped Switch
+- A successfully modchipped Switch and a microSD card reader.
 
-If you choose the emuMMC path introduced later in the guide, you will also need a microSD card that is *at least* 128 gigabytes. In this path, it'll be important to disable the [Automatic Save Data Cloud](https://en-americas-support.nintendo.com/app/answers/detail/a_id/41209) function beforehand, as well as making sure [the Switch is set as the primary console](https://en-americas-support.nintendo.com/app/answers/detail/a_id/22453/~/how-to-change-the-primary-console-for-your-nintendo-account).
+If you choose the emuMMC path introduced later in the guide, you will also need a microSD card that is *at least* 128 gigabytes. In this path, it'll be important to disable the [Automatic Save Data Cloud](https://en-americas-support.nintendo.com/app/answers/detail/a_id/41209) function beforehand, as well as making sure [the Switch is set as the primary Pass-Enabled console](https://en-americas-support.nintendo.com/app/answers/detail/a_id/41221/~/how-to-set-or-change-the-primary-nintendo-switch-console-for-a-nintendo-account).
 
-If you must use a smaller microSD card, you can choose to use the sysCFW path, after assuming the risks involved.
+If you must use a smaller microSD card or don't wish to use an emuMMC, you can choose to use the sysCFW path instead.
 
-Additionally, on a V1 "unpatched" Switch, you will need a way to access the ReCovery Mode (this will be further explained in the "Entering RCM section"). While possible with household tools, you may want to shell money out for a "jig" that inserts into the Joy-Con rail to reliably enable RCM.
+Additionally, on a V1 "unpatched" Switch, you will need a way to access the ReCovery Mode (this will be further explained in the "Entering RCM" section). While possible with household tools, you may want to shell money out for a "jig" that inserts into the Joy-Con rail to reliably enable RCM.
 
 :::
 
-Upon completion, you will lose no data, ending up with everything that you started with (games, Nintendo Account, saves, etc will be preserved). Your functionalities will only be enhanced.
+Upon completion, you will lose no data, ending up with everything that you started with (games, Nintendo Account, save data, etc will be preserved). Your functionalities will only be enhanced.
 
 Keep your device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off.
 

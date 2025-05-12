@@ -2,13 +2,15 @@
 
 Now that the preparation work is out of the way, we're finally ready to launch custom firmware on the Switch.
 
-Unlike systems such as the DSi, Wii, or 3DS, Switch CFW is currently volatile. It will only work as long as your Switch is on. As soon as your Switch completely loses power for any reason (shutting down, battery dying, etc.), CFW will no longer be active and you will need to follow these instructions again.
+Unlike systems such as the DSi, Wii, or 3DS, Switch CFW is currently volatile (nonpersistent). 
+
+It will only work as long as your Switch is on. As soon as your Switch completely loses power for any reason (shutting down, battery dying, etc.), CFW will no longer be active and you will need to enter RCM and inject the hekate payload if you wish to boot into CFW again (only relevant for users with unpatched consoles).
 
 ::: danger
 
 **Keep emuMMC offline at all times**
 
-Your emuMMC (emuNAND) should never connect to Nintendo. For online play, eShop browsing, or any other Nintendo online activity, use your sysNAND. Using both emuMMC and sysNAND online will likely result in a ban.
+Your emuMMC (emuNAND) should never connect to Nintendo. For online play, eShop browsing, or any other Nintendo online activity, use your sysMMC (sysNAND). Using both emuMMC and sysMMC online will likely eventually result in a ban.
 
 :::
 
@@ -19,7 +21,7 @@ Your emuMMC (emuNAND) should never connect to Nintendo. For online play, eShop b
 ### Instructions:
 
 1. From Hekate's `Home` menu, navigate to the `Launch` menu.
-1. Find `Atmosphere FSS0 emuMMC` and launch it.
+1. Find `Atmosphere PKG3 emuMMC` and launch it.
 
 Hekate is now booting into your emuMMC. To verify that your emuMMC launched properly, open System Settings and navigate to System. You should see `AMS` next to the version number (`AMS` indicating that you're booted into Atmosphere), as well as an `E` at the end (indicating you are booted into emuMMC).
 
@@ -38,11 +40,11 @@ If you wish to set up an extra method of blocking Nintendo's servers on your emu
 ### Instructions:
 
 1. From Hekate's `Home` menu, navigate to the `Launch` menu.
-1. Find `Atmosphere FSS0 sysMMC` and launch it.
+1. Find `Atmosphere PKG3 sysMMC` and launch it.
 
 Hekate is now booting into sysCFW. To verify that sysCFW launched properly, open System Settings and navigate to System. You should see `AMS` next to the version number (`AMS` indicating that you're booted into Atmosphere), as well as an `S` at the end (indicating you are booted into sysCFW).
 
-- **Note:** You will also have the `Atmosphere FSS0 EmuMMC` launch option in Hekate, launching it will just result in an error and is expected because you don't have an emuMMC.
+- **Note:** You will also have the `Atmosphere PKG3 EmuMMC` launch option in Hekate, launching it will just result in an error and is expected because you don't have an emuMMC.
 
 ![Atmosphere version string](img/launching_cfw_atmosphere_version_string3.jpg)
 
@@ -62,7 +64,7 @@ Once booted into CFW, you can easily get back to Hekate by holding the power but
 
 ### Launching the Homebrew Menu
 
-You will now be able to launch the Homebrew Menu by opening the album or by holding the R button while launching any game (including demos/cartridges), or application (e.g. YouTube/Hulu). If R is not held, the game or application will launch like normal.
+You will now be able to launch the Homebrew Menu by opening the album or by holding the `R` button while launching any game (including demos/cartridges), or application (e.g. YouTube/Hulu). If `R` is not held, the game or application will launch like normal.
 
 ::: warning
 
