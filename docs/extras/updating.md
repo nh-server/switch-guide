@@ -93,7 +93,7 @@ If you keep your emuMMC offline, you will have to use a gamecard to update your 
 
 Please do not start this guide without performing an eMMC RAW GPP and eMMC BOOT0/BOOT1 NAND backup!
 
-You should always have *at least* one functional NAND backup, in the possible event of your console becoming "softbricked". This is not expected to happen while hollowing the steps below, but this is a general reminder for the people who *don't* have a NAND backup, as you *do* interact with internal system files during the steps below.
+You should always have *at least* one functional NAND backup, in the possible event of your console becoming "softbricked". This is not expected to happen while following the steps below, but this is a general reminder for the people who *don't* have a NAND backup, as you *do* interact with internal system files during the steps below.
 
 If you do already have a NAND backup stored somewhere safely, you may ignore this warning.
 
@@ -113,7 +113,7 @@ There are two supported methods of dumping your sysMMC's firmware, these methods
 
 ::::: tabs
 
-:::: tab Dumping your firmware via Goldleaf
+:::: tab default Dumping your firmware via Goldleaf
 
 #### What you need:
 - The latest release of [Goldleaf](https://github.com/XorTroll/Goldleaf/releases) (`Goldleaf.nro`)
