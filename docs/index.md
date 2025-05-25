@@ -67,8 +67,9 @@ This guide will work on first-generation (V1) and modchipped Switch consoles in 
 - A PC, a microSD card reader, and a USB-C cable capable of data transfer to connect them together.
 - An Android device with microSD card reader and a USB-C cable capable of data transfer to connect them together.
     - This does not work on every Android phone.
-- A Lightning OTG adapter, a microSD card reader, a jailbroken iOS device, and a USB cable capable of data transfer to connect them together.
-    - This method is not covered by the guide, but you can read more about it at [this website](https://mologie.github.io/nxboot/)
+- An iOS device with one of the following. This method is not covered by the guide, but you can read more about it at [this website](https://mologie.github.io/nxboot/)
+    - A Lightning OTG adapter, a microSD card reader, a jailbroken or TrollStore compatible iOS device (iOS 9+), and a USB-C cable capable of data transfer to connect them together.
+    - A TrollStore compatible iOS device with a native USBC port, and a USB-C cable capable of data transfer to connect them together.
 - A successfully modchipped Switch and a microSD card reader.
 
 If you choose the emuMMC path introduced later in the guide, you will also need a microSD card that is *at least* 128 gigabytes. In this path, it'll be important to disable the [Automatic Save Data Cloud](https://en-americas-support.nintendo.com/app/answers/detail/a_id/41209) function beforehand, as well as making sure [the Switch is set as the primary Pass-Enabled console](https://en-americas-support.nintendo.com/app/answers/detail/a_id/41221/~/how-to-set-or-change-the-primary-nintendo-switch-console-for-a-nintendo-account).
