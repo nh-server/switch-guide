@@ -189,3 +189,35 @@ On Mariko ("V2") consoles, this method of dumping the sysMMC's firmware requires
 1. Wait until Daybreak completes installing the dumped firmware.
 1. Once it completes, it will ask if you want to reboot. Tap `Reboot`.
 1. Once rebooted, launch into emuMMC and verify your system works. You can verify your system has been properly updated in `System Settings` > `System`, it will tell you the installed firmware version underneath the `System Update` button.
+
+#### Common crashes after updating
+
+After updating your firmware, you might run into crashes due to outdated files. The following crashes are the most common ones, this is not an exhaustive list.
+
+### Custom theme crash
+::: tip
+
+![Visual for theme crash](img/theme_crash.png)
+
+:::
+
+This crash happens due to the currently installed custom theme not supporting your firmware version. In order to fix it, navigate to `sd:/atmosphere/contents` and delete the folder named `0100000000001000`. You may reinstall your custom theme afterwards.
+
+### MissionControl crash
+
+::: tip
+
+![Visual for missioncontrol crash](img/missioncontrol_crash1.png)
+![Visual for missioncontrol crash](img/missioncontro2_crash1.png)
+
+:::
+
+This happens due to your current version of [MissionControl](../homebrew/mission-control) not supporting your firmware version. If there is a newer version of MissionControl available to support your current firmware, update to it. If not, you can fix this crash by navigating to `sd:/atmosphere/contents` and deleting the folder named `010000000000BD00`, which will uninstall MissionControl.
+
+### Fully yellow screen on boot
+
+This happens due to an outdated version of Atmosphère being installed. Even if you're sure you've updated Atmosphère, update it to the newest version available again.
+
+### 'Unknown pkg1 version. HOS version not supported!'
+
+If there is a line of white text saying `Found pkg1 ('XXXXXXXXXXXXXX').`, X being any number, this is most likely due to an outdated version of Hekate being installed. Even if you're sure you've updated Hekate, update it to the newest version available again.
