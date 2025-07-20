@@ -197,7 +197,7 @@ After updating your firmware, you might run into crashes due to outdated files. 
 ### Custom theme crash
 ::: tip
 
-![Visual for theme crash](img/theme_crash.png)
+![Visual for theme crash](img/themecrash.png)
 
 :::
 
@@ -207,8 +207,8 @@ This crash happens due to the currently installed custom theme not supporting yo
 
 ::: tip
 
-![Visual for missioncontrol crash](../img/missioncontrol_crash1.png)
-![Visual for missioncontrol crash](../img/missioncontro2_crash1.png)
+![Visual for missioncontrol crash](img/missioncontrolcrash1.png)
+![Visual for missioncontrol crash](img/missioncontro2crash1.png)
 
 :::
 
