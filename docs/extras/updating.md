@@ -207,8 +207,8 @@ This crash happens due to the currently installed custom theme not supporting yo
 
 ::: tip
 
-![Visual for missioncontrol crash](img/missioncontrol_crash1.png)
-![Visual for missioncontrol crash](img/missioncontro2_crash1.png)
+![Visual for missioncontrol crash](../img/missioncontrol_crash1.png)
+![Visual for missioncontrol crash](../img/missioncontro2_crash1.png)
 
 :::
 
