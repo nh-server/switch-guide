@@ -27,7 +27,7 @@ When a new version of Atmosphère releases, you can update Atmosphère by follow
     - If you are prompted to overwrite files, do so.
 1. Eject the `UMS` device safely from within your computer's operating system.
 1. (If your hekate is not on the latest version) update hekate via the steps below.
-
+2. 
 ## Updating hekate
 
 When updating hekate always make sure to _read the release notes_. They may list important changes and modifications to your system.
