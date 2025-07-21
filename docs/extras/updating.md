@@ -17,7 +17,7 @@ When a new version of Atmosphère releases, you can update Atmosphère by follow
 1. Copy *the contents of* the Atmosphère `.zip` file to the root of your microSD card.
     - If you are prompted to overwrite files, do so.
 1. Eject the `UMS` device safely from within your computer's operating system.
-1. (If hekate is not on the latest version) update hekate via the steps below.
+1. (If your hekate is not on the latest version) update hekate via the steps below.
 
 ## Updating hekate
 
@@ -63,7 +63,7 @@ This guide is made for updating your emuMMC's firmware. It is **not** for downgr
 There are two supported methods of dumping your sysMMC's firmware, these methods are detailed in the two tabs below. Either choice will provide the same end result, but can be more difficult depending on the console model you have.
 
 - **Note:**
-If you have autoRCM enabled and you're updating your system while in stock firmware, **updating will disable autoRCM** and you will need to enter RCM manually to boot custom firmware again.
+If you have an unpatched Switch, have autoRCM enabled and you're updating your system while in stock firmware, **updating will disable autoRCM** and you will need to enter RCM manually to boot custom firmware again.
 To prevent autoRCM from being disabled, boot CFW on sysMMC and update through settings from there, as booting without AutoRCM <ins>will burn any preserved e-fuses</ins>.
 
 ::::: tabs
@@ -144,9 +144,9 @@ On Mariko ("V2") consoles, this method of dumping the sysMMC's firmware requires
 1. Once it completes, it will ask if you want to reboot. Tap `Reboot`.
 1. Once rebooted, launch into emuMMC and verify your system works. You can verify your system has been properly updated in `System Settings` > `System`, it will tell you the installed firmware version underneath the `System Update` button.
 
-### Common crashes after updating
+## Common crashes after updating
 
-After updating your firmware, you might run into crashes due to incompatible sysmodules. The following crashes are the most common ones, but is not an exhaustive list.
+After updating your firmware, you might run into crashes due to incompatible [sysmodules](/homebrew.html#terminologies). The following crashes are the most common ones, but is not an exhaustive list.
 
 #### Custom theme crash
 ::: tip
@@ -161,20 +161,31 @@ This crash typically happens due to the currently installed custom theme not bei
 
 ::: tip
 
-![Visual for missioncontrol crash](img/missioncontrolcrash1.png)
-![Visual for missioncontrol crash](img/missioncontrolcrash2.png)
+![Visual for missioncontrol crash hekate](img/missioncontrolcrash1.jpg)
+![Visual for missioncontrol crash fusee](img/missioncontrolcrash2.jpg)
 
 :::
 
 This happens due to your current version of [MissionControl](../homebrew/mission-control) not being compatible with your currently installed Atmosphère version. If there is a newer version of MissionControl available for your currently installed Atmosphère version, you should update to that newer version if you wish to keep using MissionControl. If not, you can fix this crash by navigating to `sd:/atmosphere/contents` and deleting the folder named `010000000000bd00`, which will uninstall MissionControl.
 
-#### Fully yellow/blue screen on boot
+#### ldn_mitm crash
+
+::: tip
+
+![Visual for ldn_mitm crash hekate](img/ldn_mitmcrash1.jpg)
+![Visual for ldn_mitm crash fusee](img/ldn_mitmcrash2.jpg)
+
+:::
+
+This happens due to your current version of [ldn_mitm](../homebrew/ldn_mitm) not being compatible with your currently installed Atmosphère version. If there is a newer version of ldn_mitm available for your currently installed Atmosphère version, you should update to that newer version if you wish to keep using ldn_mitm. If not, you can fix this crash by navigating to `sd:/atmosphere/contents` and deleting the folder named `4200000000000010`, which will uninstall ldn_mitm.
+
+### Fully yellow/blue screen on boot
 
 This usually happens due to mismatched Atmosphère files being installed (for example, due to an incomplete Atmosphère update). Even if you're sure you've updated Atmosphère, re-update to the latest available version.
 
-#### 'Unknown pkg1 version. HOS version not supported!'
+### 'Unknown pkg1 version. HOS version not supported!'
 
-If there is a line of white text saying `Found pkg1 ('XXXXXXXXXXXXXX').`, X being any number, this is most likely due to an incompatible version of Hekate being installed. Even if you're sure you've updated Hekate, re-update to the latest available version. The pkg1 ID is the ID of the installed firmware version, if the pkg1 field is empty or contains scrambled text, please ask for assistance in `#switch-assistance-1` or `#switch-assistance-2` in the [NH Discord server](https://discord.gg/C29hYvh).
+If there is a line of white text saying `Found pkg1 ('XXXXXXXXXXXXXX').`, X being any number, this is most likely due to an incompatible version of hekate being installed. Even if you're sure you've updated hekate, re-update to the latest available version. The pkg1 ID is the ID of the installed firmware version, if the pkg1 field is empty or contains scrambled text, please ask for assistance in `#switch-assistance-1` or `#switch-assistance-2` in the [NH Discord server](https://discord.gg/C29hYvh).
 
 :::: details Legacy information {closed}
 
