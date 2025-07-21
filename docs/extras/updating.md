@@ -8,16 +8,7 @@ After following our guide, your system will consist of three core elements that 
 
 When updating Atmosphère, always make sure to _read the release notes_. They may list important changes and modifications to your system.
 
-::: warning
-
-**Updating from below Atmosphère 1.0.0**
-
-If you update from below Atmosphère 1.0.0, there are additional steps to follow. You will have to delete the `sept` folder from your microSD, delete `fusee-secondary.bin` from your `atmosphere` folder and update your hekate config file: <a href="/files/emu/hekate_ipl.ini" download>hekate_ipl.ini</a> in the `bootloader` folder.
-
-:::
-
 When a new version of Atmosphère releases, you can update Atmosphère by following these steps:
-
 
 1. Enter RCM and inject the hekate payload.
     - If you use a modchipped Switch, you can simply just turn your Switch on with the hekate payload renamed to `payload.bin` on the root of your microSD card.
@@ -26,8 +17,8 @@ When a new version of Atmosphère releases, you can update Atmosphère by follow
 1. Copy *the contents of* the Atmosphère `.zip` file to the root of your microSD card.
     - If you are prompted to overwrite files, do so.
 1. Eject the `UMS` device safely from within your computer's operating system.
-1. (If your hekate is not on the latest version) update hekate via the steps below.
-2. 
+1. (If hekate is not on the latest version) update hekate via the steps below.
+
 ## Updating hekate
 
 When updating hekate always make sure to _read the release notes_. They may list important changes and modifications to your system.
@@ -41,75 +32,39 @@ When a new version of hekate releases, you can update by following these steps:
 1. Copy the `bootloader` folder from the hekate `.zip` file to the root of your microSD card. If you are asked to overwrite or merge files while copying, say yes to merge/overwrite them.
 1. Eject the `UMS` device safely from within your computer's operating system.
 1. Go back to hekate's main menu and press `Reload` > `Reload` to reload hekate from your microSD card.
-1. From here, you're done and you can boot into CFW.
+1. From here, you're done and you can boot into CFW and update your firmware. (See sections below.)
 
 ## Updating your firmware
 
 Always check _before_ updating your system firmware if the latest version of Atmosphère _as well_ as the latest version of hekate support the firmware version you are updating towards.
 
-In addition, updating to or past some firmwares update the gamecard firmware. Reference the table below for information about these.
-
-| Updating from                        | Updating towards                              | Updates gamecard firmware |
-| ------------------------------------ | --------------------------------------------- | ------------------------- |
-| Below 4.0.0                          | Below 4.0.0                                   | No                        |
-| Below 4.0.0                          | 4.0.0 or above                                | Yes                       |
-| On or above 4.0.0, but below 9.0.0   | At least 4.0.1 but below 9.0.0                | No                        |
-| On or above 4.0.0, but below 9.0.0   | 9.0.0 or above                                | Yes                       |
-| On or above 9.0.0, but below 11.0.0  | At least 9.0.1 but below 11.0.0               | No                        |
-| On or above 9.0.0, but below 11.0.0  | 11.0.0 or above                               | Yes                       |
-| On or above 11.0.0 but below 12.0.0  | At least 11.0.1 but below 12.0.0              | No                        |
-| On or above 11.0.0 but below 12.0.0  | 12.0.0 or above                               | Yes                       |
-| On or above 12.0.0 but below 14.0.0  | At least 12.0.1 but below 13.2.1              | No                        |
-| On or above 12.0.0 but below 14.0.0  | 14.0.0 or above                               | Yes                       |
-| On or above 14.0.0                   | Latest supported Atmosphère & hekate revision | No                        |
-
-If at least one of the versions you are updating towards also updates the gamecard firmware, you will not be able to downgrade below that version without making the gamecard slot unusable until you update.
-
-Atmosphère (and hekate) come bundled with patches that automatically disable the gamecard slot if it is detected that the system has an older gamecard firmware that would be updated. If you boot into RCM on each boot (for example by using AutoRCM), this means that the gamecard slot will not be updated and you can downgrade below that version. If this happens, you will not be able to use the gamecard slot as long as you are on the newer firmware.
-
-Otherwise, you can safely update your system firmware through the system settings.
-
-::: warning
-
-**Note about autoRCM**
-
-If you have autoRCM enabled and you're updating your system while in stock firmware, **updating will disable autoRCM** and you will need to enter RCM manually to boot custom firmware again.
-
-To prevent autoRCM from being disabled, boot CFW on sysMMC and update through settings from there, as booting without AutoRCM <ins>will burn any preserved fuses</ins>.
-
-:::
-
 ### About emuMMC
 
-sysMMC and emuMMC have separate system firmwares and need to be updated separately.
+Your sysMMC and emuMMC have separate system firmwares and need to be updated separately.
 
-If you keep your emuMMC offline, you will have to use a gamecard to update your system firmware, synchronize it with another Nintendo Switch or dump an updated firmware from your sysMMC.
+If you keep your emuMMC offline, you have 3 options:
+
+1. You can dump the currently installed firmware version from your sysMMC
+1. You can dump the firmware from another Switch you own
+1. You can use a gamecard to update your firmware (keep in mind that no gamecard contains the latest available firmware version at the time of writing)
+
+Only the first option is covered in the steps below.
 
 ### Updating emuMMC by dumping an updated firmware from your sysMMC
-
-::: warning
-
-**Before starting; do you have an eMMC NAND backup?**
-
-Please do not start this guide without performing an eMMC RAW GPP and eMMC BOOT0/BOOT1 NAND backup!
-
-You should always have *at least* one functional NAND backup, in the possible event of your console becoming "softbricked". This is not expected to happen while following the steps below, but this is a general reminder for the people who *don't* have a NAND backup, as you *do* interact with internal system files during the steps below.
-
-If you do already have a NAND backup stored somewhere safely, you may ignore this warning.
-
-You can learn how to make a NAND backup [here](../user_guide/all/making_essential_backups).
-
-:::
 
 ::: danger
 
 **Downgrading**
 
-This guide is made for updating your emuMMC's firmware. It is **not** for downgrading. Downgrading at all, sysMMC or emuMMC, is not recommended and not worth it. Downgrading is also very dangerous and can lead to serious complications even when performed correctly.
+This guide is made for updating your emuMMC's firmware. It is **not** for downgrading. Downgrading at all, sysMMC or emuMMC, is not supported, not recommended and not worth it. Downgrading is also very dangerous and can lead to serious complications even when performed correctly.
 
 :::
 
 There are two supported methods of dumping your sysMMC's firmware, these methods are detailed in the two tabs below. Either choice will provide the same end result, but can be more difficult depending on the console model you have.
+
+- **Note:**
+If you have autoRCM enabled and you're updating your system while in stock firmware, **updating will disable autoRCM** and you will need to enter RCM manually to boot custom firmware again.
+To prevent autoRCM from being disabled, boot CFW on sysMMC and update through settings from there, as booting without AutoRCM <ins>will burn any preserved e-fuses</ins>.
 
 ::::: tabs
 
@@ -117,7 +72,6 @@ There are two supported methods of dumping your sysMMC's firmware, these methods
 
 #### What you need:
 - The latest release of [Goldleaf](https://github.com/XorTroll/Goldleaf/releases) (`Goldleaf.nro`)
-- The latest release of [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere/releases) (`atmosphere-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip`)
 
 #### Preparing your microSD card
 
@@ -192,7 +146,7 @@ On Mariko ("V2") consoles, this method of dumping the sysMMC's firmware requires
 
 ### Common crashes after updating
 
-After updating your firmware, you might run into crashes due to outdated files. The following crashes are the most common ones, this is not an exhaustive list.
+After updating your firmware, you might run into crashes due to incompatible sysmodules. The following crashes are the most common ones, but is not an exhaustive list.
 
 #### Custom theme crash
 ::: tip
@@ -201,7 +155,7 @@ After updating your firmware, you might run into crashes due to outdated files. 
 
 :::
 
-This crash happens due to the currently installed custom theme not supporting your firmware version. In order to fix it, navigate to `sd:/atmosphere/contents` and delete the folder named `0100000000001000`. You may reinstall your custom theme afterwards.
+This crash typically happens due to the currently installed custom theme not being compatible with the HOME menu of your currently installed firmware version. In order to fix this crash, navigate to `sd:/atmosphere/contents` and delete the folder named `0100000000001000`. You may reinstall your custom theme afterwards using the `Installing a theme` section [here](/homebrew/nxtheme-installer.html#installing-a-theme).
 
 #### MissionControl crash
 
@@ -212,12 +166,47 @@ This crash happens due to the currently installed custom theme not supporting yo
 
 :::
 
-This happens due to your current version of [MissionControl](../homebrew/mission-control) not supporting your firmware version. If there is a newer version of MissionControl available to support your current firmware, update to it. If not, you can fix this crash by navigating to `sd:/atmosphere/contents` and deleting the folder named `010000000000BD00`, which will uninstall MissionControl.
+This happens due to your current version of [MissionControl](../homebrew/mission-control) not being compatible with your currently installed Atmosphère version. If there is a newer version of MissionControl available for your currently installed Atmosphère version, you should update to that newer version if you wish to keep using MissionControl. If not, you can fix this crash by navigating to `sd:/atmosphere/contents` and deleting the folder named `010000000000bd00`, which will uninstall MissionControl.
 
-#### Fully yellow screen on boot
+#### Fully yellow/blue screen on boot
 
-This happens due to an outdated version of Atmosphère being installed. Even if you're sure you've updated Atmosphère, update it to the newest version available again.
+This usually happens due to mismatched Atmosphère files being installed (for example, due to an incomplete Atmosphère update). Even if you're sure you've updated Atmosphère, re-update to the latest available version.
 
 #### 'Unknown pkg1 version. HOS version not supported!'
 
-If there is a line of white text saying `Found pkg1 ('XXXXXXXXXXXXXX').`, X being any number, this is most likely due to an outdated version of Hekate being installed. Even if you're sure you've updated Hekate, update it to the newest version available again.
+If there is a line of white text saying `Found pkg1 ('XXXXXXXXXXXXXX').`, X being any number, this is most likely due to an incompatible version of Hekate being installed. Even if you're sure you've updated Hekate, re-update to the latest available version. The pkg1 ID is the ID of the installed firmware version, if the pkg1 field is empty or contains scrambled text, please ask for assistance in `#switch-assistance-1` or `#switch-assistance-2` in the [NH Discord server](https://discord.gg/C29hYvh).
+
+:::: details Legacy information {closed}
+
+::: warning
+
+**Updating from below Atmosphère 1.0.0**
+
+If you update from below Atmosphère 1.0.0, there are additional steps to follow. You will have to delete the `sept` folder from your microSD, delete `fusee-secondary.bin` from your `atmosphere` folder and update your hekate config file: <a href="/files/emu/hekate_ipl.ini" download>hekate_ipl.ini</a> in the `bootloader` folder.
+
+:::
+
+In addition, updating to or past some firmwares update the gamecard firmware. Reference the table below for information about these.
+
+| Updating from                        | Updating towards                              | Updates gamecard firmware |
+| ------------------------------------ | --------------------------------------------- | ------------------------- |
+| Below 4.0.0                          | Below 4.0.0                                   | No                        |
+| Below 4.0.0                          | 4.0.0 or above                                | Yes                       |
+| On or above 4.0.0, but below 9.0.0   | At least 4.0.1 but below 9.0.0                | No                        |
+| On or above 4.0.0, but below 9.0.0   | 9.0.0 or above                                | Yes                       |
+| On or above 9.0.0, but below 11.0.0  | At least 9.0.1 but below 11.0.0               | No                        |
+| On or above 9.0.0, but below 11.0.0  | 11.0.0 or above                               | Yes                       |
+| On or above 11.0.0 but below 12.0.0  | At least 11.0.1 but below 12.0.0              | No                        |
+| On or above 11.0.0 but below 12.0.0  | 12.0.0 or above                               | Yes                       |
+| On or above 12.0.0 but below 14.0.0  | At least 12.0.1 but below 13.2.1              | No                        |
+| On or above 12.0.0 but below 14.0.0  | 14.0.0 or above                               | Yes                       |
+| On or above 14.0.0                   | Latest supported Atmosphère & hekate revision | No                        |
+
+If at least one of the versions you are updating towards also updates the gamecard firmware, you will not be able to downgrade below that version without making the gamecard slot unusable until you update.
+
+Atmosphère (and hekate) come bundled with patches that automatically disable the gamecard slot if it is detected that the system has an older gamecard firmware that would be updated. If you boot into RCM on each boot (for example by using AutoRCM), this means that the gamecard slot will not be updated and you can downgrade below that version. If this happens, you will not be able to use the gamecard slot as long as you are on the newer firmware.
+
+Otherwise, you can safely update your system firmware through the system settings.
+
+::::
+
