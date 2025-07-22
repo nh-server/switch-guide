@@ -33,6 +33,8 @@ When a new version of hekate releases, you can update by following these steps:
 1. Eject the `UMS` device safely from within your computer's operating system.
 1. Go back to hekate's main menu and press `Reload` > `Reload` to reload hekate from your microSD card.
 1. From here, you're done and you can boot into CFW and update your firmware. (See sections below.)
+    - **Note:** If your system does *not* boot as expected after updating, please consult the [Common crashes after updating](#common-crashes-after-updating) section below.
+
 
 ## Updating your firmware
 
@@ -143,10 +145,14 @@ On Mariko ("V2") consoles, this method of dumping the sysMMC's firmware requires
 1. Wait until Daybreak completes installing the dumped firmware.
 1. Once it completes, it will ask if you want to reboot. Tap `Reboot`.
 1. Once rebooted, launch into emuMMC and verify your system works. You can verify your system has been properly updated in `System Settings` > `System`, it will tell you the installed firmware version underneath the `System Update` button.
+    - **Note:** If your system does *not* boot as expected after updating, please consult the [Common crashes after updating](#common-crashes-after-updating) section below.
 
 ## Common crashes after updating
 
 After updating your firmware, you might run into crashes due to incompatible [sysmodules](/homebrew.html#terminologies). The following crashes are the most common ones, but is not an exhaustive list.
+
+- **Note:** hekate and fusee are both bootloaders, these bootloaders have different ways of presenting error screens to the user. Errors displayed by hekate will typically be yellow and errors displayed by fusee will typically be white.</br>
+- Below you will find the way it's presented depending on how you normally boot into CFW. 
 
 #### Custom theme crash
 ::: tip
@@ -160,8 +166,9 @@ This crash typically happens due to the currently installed custom theme not bei
 #### MissionControl crash
 
 ::: tip
-
+#### hekate crash screen:
 ![Visual for missioncontrol crash hekate](img/missioncontrolcrash1.jpg)
+#### fusee crash screen:
 ![Visual for missioncontrol crash fusee](img/missioncontrolcrash2.jpg)
 
 :::
@@ -171,8 +178,9 @@ This happens due to your current version of [MissionControl](../homebrew/mission
 #### ldn_mitm crash
 
 ::: tip
-
+#### hekate crash screen:
 ![Visual for ldn_mitm crash hekate](img/ldn_mitmcrash1.jpg)
+#### fusee crash screen:
 ![Visual for ldn_mitm crash fusee](img/ldn_mitmcrash2.jpg)
 
 :::
@@ -187,17 +195,27 @@ This usually happens due to mismatched Atmosphère files being installed (for ex
 
 If there is a line of white text saying `Found pkg1 ('XXXXXXXXXXXXXX').`, X being any number, this is most likely due to an incompatible version of hekate being installed. Even if you're sure you've updated hekate, re-update to the latest available version. The pkg1 ID is the ID of the installed firmware version, if the pkg1 field is empty or contains scrambled text, please ask for assistance in `#switch-assistance-1` or `#switch-assistance-2` in the [NH Discord server](https://discord.gg/C29hYvh).
 
+### Gamecards don't work after updating my firmware
+
+Please unfold the `Legacy information` section at the bottom of this page and see if that resolves your issues.
+
+### Still running into issues?
+
+If you still run into issues at this point, please ask for assistance in `#switch-assistance-1` or `#switch-assistance-2` in the [NH Discord server](https://discord.gg/C29hYvh)
+
 :::: details Legacy information {closed}
 
 ::: warning
 
-**Updating from below Atmosphère 1.0.0**
+#### **Updating from below Atmosphère 1.0.0**
 
 If you update from below Atmosphère 1.0.0, there are additional steps to follow. You will have to delete the `sept` folder from your microSD, delete `fusee-secondary.bin` from your `atmosphere` folder and update your hekate config file: <a href="/files/emu/hekate_ipl.ini" download>hekate_ipl.ini</a> in the `bootloader` folder.
 
 :::
 
-In addition, updating to or past some firmwares update the gamecard firmware. Reference the table below for information about these.
+#### **Gamecard reader firmware** 
+
+In addition, updating to or past some firmwares update the firmware of the gamecard reader of your Switch. Refer to the table below for information about which firmware updates updated the firmware of the gamecard reader.
 
 | Updating from                        | Updating towards                              | Updates gamecard firmware |
 | ------------------------------------ | --------------------------------------------- | ------------------------- |
@@ -213,9 +231,9 @@ In addition, updating to or past some firmwares update the gamecard firmware. Re
 | On or above 12.0.0 but below 14.0.0  | 14.0.0 or above                               | Yes                       |
 | On or above 14.0.0                   | Latest supported Atmosphère & hekate revision | No                        |
 
-If at least one of the versions you are updating towards also updates the gamecard firmware, you will not be able to downgrade below that version without making the gamecard slot unusable until you update.
+If at least one of the versions you are updating towards also updates the gamecard reader's firmware, you will not be able to downgrade below that version without making the gamecard reader unusable until you update.
 
-Atmosphère (and hekate) come bundled with patches that automatically disable the gamecard slot if it is detected that the system has an older gamecard firmware that would be updated. If you boot into RCM on each boot (for example by using AutoRCM), this means that the gamecard slot will not be updated and you can downgrade below that version. If this happens, you will not be able to use the gamecard slot as long as you are on the newer firmware.
+Atmosphère and hekate come bundled with patches that automatically disable the gamecard reader if it is detected that the system has an older gamecard reader firmware that would be updated. If you boot into RCM on each boot (for example by using AutoRCM), this means that the gamecard slot will not be updated and you can downgrade below that version. If this happens, you will not be able to use the gamecard slot as long as you are on the newer firmware.
 
 Otherwise, you can safely update your system firmware through the system settings.
 
