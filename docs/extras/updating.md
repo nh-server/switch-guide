@@ -149,7 +149,7 @@ On Mariko ("V2") consoles, this method of dumping the sysMMC's firmware requires
 
 ## Common crashes after updating
 
-After updating your firmware, you might run into crashes due to incompatible [sysmodules](/homebrew.html#terminologies). The following crashes are the most common ones, but is not an exhaustive list.
+After updating your firmware, you might run into crashes due to incompatible [sysmodules](/homebrew/#terminologies). The following crashes are the most common ones, but is not an exhaustive list.
 
 - **Note:** hekate and fusee are both bootloaders, these bootloaders have different ways of presenting error screens to the user. Errors displayed by hekate will typically be yellow and errors displayed by fusee will typically be white.</br>
 - Below you will find the way it's presented depending on how you normally boot into CFW. 
