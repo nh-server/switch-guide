@@ -1,1 +1,0 @@
-import{_ as t,c as o,ae as a,o as i}from"./chunks/framework.DdCgrOrw.js";const m=JSON.parse('{"title":"FAQ","description":"","frontmatter":{},"headers":[],"relativePath":"faq.md","filePath":"faq.md"}'),n={name:"faq.md"};function r(s,e,h,l,d,u){return i(),o("div",null,e[0]||(e[0]=[a("",42)]))}const p=t(n,[["render",r]]);export{m as __pageData,p as default};
