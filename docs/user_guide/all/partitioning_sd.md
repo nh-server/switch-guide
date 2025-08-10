@@ -19,7 +19,7 @@ In case you missed the warning earlier, your microSD card will be wiped during t
     - Set the `emuMMC (RAW)` slider to `58 FULL` if you're on an OLED Switch.
     - If you wish to install Android and/or Linux later, partition your microSD card here accordingly by moving the sliders you see during this step. We recommend setting the `Android (USER)` and `Linux (EXT4)` sliders to at least 16GB.
 1. Navigate to `Next Step` at the bottom right, then select `Start` in the menu that appears.
-    - For Android; Select `Legacy` partitioning for Android 10/11 and `Dynamic` partitioning for Android 13+. Legacy and Dynamic partitioning are **NOT** intercompatible.
+    - For Android; Select `Dynamic` partitioning for Android 15. Legacy and Dynamic partitioning are **NOT** intercompatible.
 1. From hekate's `Home` menu, navigate to `emuMMC` > `Create emuMMC` > `SD Partition` > `Part 1` and wait for Hekate to complete creating the emuMMC.
 1. Close the emuMMC creation menu by navigating to the `Close` button, then navigate to `Change emuMMC` > `SD RAW 1` and press the `Close` button twice in the top right to return to hekate's `Home` menu.
 1. Once done, go to `Tools` > `USB Tools` > `SD Card` and plug your Switch into your PC via USB.
