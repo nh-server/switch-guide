@@ -1,6 +1,6 @@
 # Installing Android
 
-This page will detail the setup of Switchroot Android (Android 14) for the Nintendo Switch.
+This page will detail the setup of Switchroot Android (Android 15) for the Nintendo Switch.
 
 ::: warning
 
