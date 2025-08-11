@@ -1,42 +1,60 @@
 # Installing Android
 
-This page will detail the setup of Switchroot Android (Android 11) for the Nintendo Switch.
+This page will detail the required information you need to know about installing Android (Android 15) for the Nintendo Switch.
 
 ::: warning
 
 **Have you partitioned your microSD card?**
 
-This page assumes that you've followed our guide to set up Atmosphère. Before starting, your microSD card needs partitions for Android set up via hekate.
+This page assumes that you've followed our guide to partition your microSD card for an Android setup. If you didn't do so yet, please follow [this page](../user_guide/all/partitioning_sd_syscfw).
 
-If you didn't do so, see [this page](../user_guide/all/partitioning_sd_syscfw) to install Android alongside Atmosphère. If you don't want to use Switch CFW and only Android, check the [Official Switchroot Documentation](https://wiki.switchroot.org/wiki/android/11-r-setup-guide) instead.
+:::
+
+### Installation
+
+Click the following link to continue to the official LineageOS documentation for installing Android 15 (external link):
+
+::: tip
+[Install Android 15](https://wiki.lineageos.org/devices/nx_tab/)
+:::
+
+- **Note:** You can skip the partitioning mentioned in the LineageOS documentation. You already did this during the guide and do *not* have to do so again.
 
 If you already have Android fully installed, do not follow this guide, as your current installation would be erased.
 
-:::
+-----
+
+### Post-Install information
+
+#### Tips and Tricks
+
+- If Joy-Con autopairing has not kicked in, try a reboot. Sometimes the first boot doesn't pick up the addition.
+- To access LineageOS recovery: hold `VOL+` on boot or reboot.
+- To access hekate from Android: hold `VOL-` on reboot.
+- To reboot back to Android: hold `Power` for a few seconds and perform a standard reboot.
+- To return to Horizon (`OFW/CFW`): power your Switch off fully, then boot into your desired mode.
+
+-----
+
+#### Need Help?
+
+Join the [Switchroot Discord server](https://discord.gg/N9PPYXjWMY).
+
+-----
 
 ::: info
 
-**Looking for Android 10?**
+**Looking for Android 10/11?**
 
-An unfortunate bug with clocking on Android 11 results in degraded performance for Erista (v1) units on Android 11. Android 10 installation is not covered here, but there is a [guide](https://wiki.switchroot.org/wiki/android/10-q-setup-guide) on the Switchroot Wiki. However, Android 11 is the currently supported version and uses much more updated drivers.
+An unfortunate bug with clocking on Android 11 results in degraded performance for Erista (v1) units on Android 11. Android 10/11 installation is not covered here, but there are [guides](https://wiki.switchroot.org/wiki/android) on the Switchroot Wiki. However, Android 15 is the currently supported version of Android which uses much more updated drivers and is updated frequently. 
 
-:::
-
-::: info
-
-**Looking for Android 14?**
-
-Recently, Android 14 was released for the Switch. You can follow the official [LineageOS guide](https://wiki.lineageos.org/devices/nx_tab/) to install Android 14.
-
-- **Note:** You can skip the partitioning in the LineageOS guide. You already did this during the guide and do *not* have to do so again.
+This page *does* contain a legacy guide for Android 10, which can be found in the `Legacy information (Android 10)` section at the very bottom of this page.
 
 :::
 
-The Switch lacks a cell modem; simply installing Android does not grant your Switch access to cell towers. This means, unlike most Android devices, you will not be able to make emergency phone calls, and you will still need Wi-Fi to access the Internet. You can, however, natively run Android programs and games.
+:::: details Legacy information (Android 10) {closed}
 
-This page will also *not* detail things such as rooting and overclocking; external links to these types of additions can be found in the [Power User Guides](#power-user-guides) section at the bottom of this page.
-
-## Requirements:
+#### Requirements:
 - A Nintendo Switch console that is capable of running hekate. <br>
 - A microSD card *larger than* 8GB.
     - Please consult the [Switchroot microSD Card Guide](https://wiki.switchroot.org/wiki/sd-card-guide) before buying!
@@ -44,9 +62,9 @@ This page will also *not* detail things such as rooting and overclocking; extern
     - C to C is unstable, but this will be fixed in the next release.
 - A computer.
 
-## Instructions:
+#### Instructions:
 
-### Step 0: Preparation
+#### Step 0: Preparation
 
 If you have official Joy-Con controllers, you can set up auto-pairing so undocking them seamlessly connects to the console regardless of what OS is running. To make this work, boot HOS, ensure both work undocked (pair them), then reboot to hekate. Select `Nyx Options` followed by `Dump Joy-Con BT`. You should see "Found 2 out of 2 Joy-Con pairing data!"
 
@@ -60,7 +78,7 @@ You should poke the dump button in hekate anyway -- this will dump factory stick
 
 -----
 
-### Step 1: Downloading Files
+#### Step 1: Downloading Files
 
 Download the latest `.7z` release archive from [the official Switchroot download site](https://download.switchroot.org/android-11/)--choose `nx-atv...` for Android TV (more console-like experience) or `nx-tab...` for standard Android (a more standard Android tablet experience). Both are usable with controllers and docking, but only tab supports proper touch input.
 
@@ -74,7 +92,7 @@ Download the latest `.7z` release archive from [the official Switchroot download
 
 -----
 
-### Step 2: Arranging the microSD Card
+#### Step 2: Arranging the microSD Card
 
 ::: tip
 
@@ -119,7 +137,7 @@ root
 
 -----
 
-### Step 3: Flashing Android
+#### Step 3: Flashing Android
 
 Open the hekate partition manager (located in `Tools` > `Partition SD Card`) and select Flash Android at the bottom of your screen. All three images should be found and successfully flashed. Select the option to reboot to recovery.
 
@@ -143,9 +161,9 @@ Good luck... TWRP is for advanced users; no user support will be provided. TWRP 
 
 Once done, reboot the system when prompted -- Android is now installed!
 
-## Post-Install
+#### Post-Install
 
-### Tips and Tricks
+#### Tips and Tricks
 
 - If Joy-Con autopairing has not kicked in, try a reboot. Sometimes the first boot doesn't pick up the addition.
 - To access recovery/TWRP: hold `VOL+` on boot or reboot.
@@ -153,11 +171,15 @@ Once done, reboot the system when prompted -- Android is now installed!
 - To reboot back to Android: hold `Power` for a few seconds and perform a standard reboot.
 - To return to Horizon (`OFW/CFW`): power your Switch off fully, then boot into your desired mode.
 
-### Power User Guides
+#### Power User Guides
 
 To learn more about using the Switch Configuration App and overclocking, see the [Switch Configuration App](https://wiki.switchroot.org/wiki/android/11-r-setup-guide#switch-configuration-app) section. Furthermore, you can check out the [INI guide](https://wiki.switchroot.org/wiki/android/11-r-ini-guide) as well.
 
-## Need Help?
+The Switch lacks a cell modem; simply installing Android does not grant your Switch access to cell towers. This means, unlike most Android devices, you will not be able to make emergency phone calls, and you will still need Wi-Fi to access the Internet. You can, however, natively run Android programs and games.
+
+This page will also *not* detail things such as rooting and overclocking; external links to these types of additions can be found in the [Power User Guides](#power-user-guides) section at the bottom of this page.
+
+#### Need Help?
 
 Join the [Switchroot Discord server](https://discord.gg/N9PPYXjWMY).
 
@@ -182,3 +204,5 @@ If you'd like, you can donate to the people who made this project possible using
 [https://patreon.com/aveao](https://patreon.com/aveao)
 
 :::
+
+::::

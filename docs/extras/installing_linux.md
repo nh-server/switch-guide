@@ -1,19 +1,34 @@
-# Installing Linux 4 Switch
+# Installing Linux 4 Switch (L4S)
+
+Linux 4 Switch is a sister project to Switchroot Android--it uses a similar kernel but provides a variety of Linux distributions. 
 
 ::: warning
 
 **Have you partitioned your microSD card?**
 
-This guide assumes that you've followed the NH-Server guide up until this point, your microSD card should be partitioned accordingly. If you didn't do so, see [this page](../user_guide/all/partitioning_sd_syscfw) of our guide.
+This page assumes that you've followed our guide to partition your microSD card for a Linux setup. If you didn't do so yet, please follow [this page](../user_guide/all/partitioning_sd_syscfw).
 
 :::
 
-Linux 4 Switch is a sister project to Switchroot Android--it uses a similar kernel but provides a variety of Linux distributions.The available distributions at this time are:
+### Installation
 
-- Ubuntu Bionic (maintained by CTCaer, the primary dev of both the L4S kernel and hekate--this is the most stable and supported distro)
-- Ubuntu Jammy (maintained by theofficialgman, one of the primary devs of the L4T Megascript installer program)
-- Fedora 39 (maintained by azkali, a L4S kernel developer)
-- Lakka 5.x (maintained by gavin_darkglider, a L4S kernel developer and Lakka maintainer)
+Click the following link to continue to the official Switchroot documentation for installing an L4S Linux distribution (external link):
+
+::: tip
+[Install a Linux Distribution](https://wiki.switchroot.org/wiki/linux/linux-distributions)
+:::
+
+- **Note:** You can skip the partitioning mentioned in the Switchroot documentation. You already did this during the guide and do *not* have to do so again.
+
+If you already have Linux fully installed, do not follow this guide, as your current installation would be erased.
+
+-----
+
+#### Need Help?
+
+Join the [Switchroot Discord server](https://discord.gg/N9PPYXjWMY).
+
+-----
 
 ::: info
 
@@ -22,17 +37,10 @@ Linux 4 Switch is a sister project to Switchroot Android--it uses a similar kern
 Unfortunately, L4S Arch Linux is deprecated following an xorg ABI change that breaks compatibility with the Tegra210 BSP.
 
 :::
-
-## The installation
-To install an L4S distribution, follow the official guide starting from [0. Linux Distributions](https://wiki.switchroot.org/wiki/linux/linux-distributions).
-
-- **Note:** You can skip partitioning your microSD card since you partitioned your microSD card during the NH-Server guide. Start from step 4. during the [Installation](https://wiki.switchroot.org/wiki/linux/linux-install-update-guide#installation) section.
-
------    
-    
-This page was made in collaboration with `makinbacon21` on Discord. See the collapsible section below for the L4S guide maintainers.
-    
+        
 ::: details L4S Project Staff (Android / Linux)
+
+This page was made in collaboration with `makinbacon21` on Discord.
 
 If you'd like, you can donate to the people who made this project possible using these links.
 
