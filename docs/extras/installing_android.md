@@ -23,6 +23,13 @@ Recently, Android 15 was released for the Switch. You can follow the official [L
 
 :::
 
+::: warning
+
+**Android 10/11**
+
+These versions are deprecated, and only kept for archival purposes. Please follow the guide above to install Android 15.
+
+:::
 
 ## Post-Install
 
