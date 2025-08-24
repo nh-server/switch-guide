@@ -154,7 +154,7 @@ After the primary setup for Google Drive, you can launch JKSV with an internet c
 
 ---
 
-### **6. (OPTIONAL BONUS STEP!)**
+### **7. (OPTIONAL BONUS STEP!)**
 
 1. Make a secure backup of `client_secret.json` from your microSD card **after logging in with JKSV**.
     - This is recommended if you plan to share saves between multiple consoles due to Google’s OAuth scope policies.
