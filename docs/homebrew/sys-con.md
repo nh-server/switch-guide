@@ -1,10 +1,10 @@
 # sys-con
 
-sys-con is a [sysmodule](index#terminologies) that allows you to use normally-unsupported controllers as if they were natively supported, like PS3, PS4, PS5 and Xbox One S/X controllers via USB. The full supported feature and controller list can be found on the official Github repository [here](https://github.com/cathery/sys-con) including usage instructions and configuration options.
+sys-con is a [sysmodule](index#terminologies) that allows you to use normally-unsupported controllers as if they were natively supported, like PS3, PS4, PS5 and Xbox One S/X controllers via USB. The full supported feature and controller list can be found on the following Github repository [here](https://github.com/o0Zz/sys-con) including usage instructions and configuration options.
 
 ## Installation requirements:
 - An archive manager like [7-Zip](https://www.7-zip.org/)
-- The latest release of [sys-con](https://github.com/cathery/sys-con/releases) (the `sys-con-(version).zip` file)
+- The latest release of [sys-con](https://github.com/o0Zz/sys-con/releases) (the `sys-con-(version).zip` file)
 
 ## Installation instructions:
 1. Boot into hekate and go to `Tools` > `USB Tools` > `SD Card`, then plug your Switch into your PC via USB.

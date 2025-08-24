@@ -45,9 +45,56 @@ Follow these steps if you face issues when installing the driver with TegraRcmGU
 1. Select `libusbK (v3.1.0.0)` in the driver list.
 1. Click `Install Driver` and wait for the installation to finish.
 
+If you experience issues with TegraRcmGUI or you just want to try a different payload injector, you can check out JTegraNX by unfolding the section below. 
+
+::: details Alternative payload injector for Windows {closed}
+
+### What you need:
+
+- The latest release of [JTegraNX](https://github.com/DefenderOfHyrule/JTegraNX/releases)
+- A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
+- The latest release of [hekate](https://github.com/CTCaer/hekate/releases/). The hekate payload (`hekate_ctcaer_(version).bin`) is located inside of the `hekate_ctcaer_(version).zip`.
+- At least Java 11+ (ideally 21 LTS)
+
+### Instructions:
+
+1. Download and run the JTegraNX-X.X.X.jar file.
+1. Connect your Switch in RCM to your PC using the USB cable.
+1. Click the `Browse for payload` button, then navigate to- and select the `hekate_ctcaer_X.X.X.bin` file.
+    - **Note:** You can also click the `Payloads` tab at the top of the JTegraNX window and select the latest hekate payload from there.
+1. Click the `Inject payload` button.
+    - If your payload was successfully injected your switch should have yellow text that says "Update bootloader folder!", this will be resolved soon.
+
+:::
+
 ::::
 
 :::: tab Linux
+
+### What you need:
+
+- The latest release of [JTegraNX](https://github.com/DefenderOfHyrule/JTegraNX/releases)
+- A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
+- The latest release of [hekate](https://github.com/CTCaer/hekate/releases/). The hekate payload (`hekate_ctcaer_(version).bin`) is located inside of the `hekate_ctcaer_(version).zip`.
+- At least Java 11+ (ideally 21 LTS)
+
+### Instructions:
+
+1. Download and run the JTegraNX-X.X.X.jar file. (This can be done from terminal or from your file manager.) 
+    - **Note:** You will need to run JTegraNX as root, unless you follow the instructions at [Linux injection without root](../../extras/adding_udev).
+1. Connect your Switch in RCM to your PC using the USB cable.
+1. Click the `Browse for payload` button, then navigate to- and select the `hekate_ctcaer_X.X.X.bin` file.
+    - **Note:** You can also click the `Payloads` tab at the top of the JTegraNX window and select the latest hekate payload from there.
+1. Click the `Inject payload` button.
+    - If your payload was successfully injected your switch should have yellow text that says "Update bootloader folder!", this will be resolved soon.
+
+---
+
+If you experience issues with JTegraNX, you just want to try a different payload injector or you don't want to use Java, you can check out fusee-nano by unfolding the section below. 
+    
+- **Note:** fusee-nano has a tendency to simply not work on *some* system configurations for unknown reasons. Please keep this in mind.
+
+::: details Alternative payload injector for Linux {closed}
 
 ### What you need:
 
