@@ -150,7 +150,7 @@ Copy the `client_secret.json` file to: `sd:/config/JKSV`.
 
 The next time JKSV starts with an internet connection, it will guide you to complete the login process by navigating to `https://google.com/device` and filling in the code mentioned in the middle of your screen in JKSV.
 
-The next time JKSV starts with an internet connection, it will give you a notification near the bottom of your screen stating `Successfully signed in to Google Drive!` if your configuration file was set up correctly. You can now back up and store your save data backups on your WebDAV server by pressing `Zr` on any save data backup!
+After the primary setup for Google Drive, you can launch JKSV with an internet connection again and it will give you a notification near the bottom of your screen stating `Successfully signed in to Google Drive!` if your configuration file was set up correctly. You can now back up and store your save data backups on Google Drive by pressing `Zr` on any save data backup!
 
 ---
 
