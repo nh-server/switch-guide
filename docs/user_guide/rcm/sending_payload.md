@@ -131,12 +131,10 @@ If you experience issues with JTegraNX, you just want to try a different payload
 1. Connect your Switch in RCM to your PC using the USB cable, make sure it's also detected in CrystalRCM.
 1. Once selected, click `Push!`. The payload should now be injected successfully.
     - If your payload was successfully injected your switch should have yellow text that says "Update bootloader folder!", this will be resolved soon.
+  
+::: details Alternative way if CrystalRCM crashes on launch
 
-::::
-
-:::: tab Mac-Alternative
-
-This is an alternative incase CrystalRCM does not work for you.
+This is an alternative incase CrystalRCM does not work for you, if it crashes on launch or any other issues.
 
 ### What you need:
 
@@ -155,6 +153,8 @@ This is an alternative incase CrystalRCM does not work for you.
 5. Type in `inject` followed by the path to your hekate boot file (.bin); For instance: `inject /Users/<user>/Downloads/hekate/hekate_boot.bin`
 6. You can also just type inject and drag and drop the .bin file from the hekate folder -- don't forget to remove the space!
 7. Hit enter and you should see the hekate screen. You may proceed to the rest of the guide.
+
+:::
 
 ::::
 
