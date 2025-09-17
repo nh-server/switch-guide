@@ -117,6 +117,29 @@ If you experience issues with JTegraNX, you just want to try a different payload
 
 ### What you need:
 
+- The latest release of [CrystalRCM](https://github.com/prayerie/CrystalRCM/releases) (the `CrystalRCM.(version).dmg` file)
+- A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
+- The latest release of [hekate](https://github.com/CTCaer/hekate/releases/). The hekate payload (`hekate_ctcaer_(version).bin`) is located inside of the `hekate_ctcaer_(version).zip`.
+
+### Instructions:
+
+1. Download the latest release of CrystalRCM.
+1. Mount the `CrystalRCM.(version).dmg` file, open the mounted disk image in File Explorer and copy the `CrystalRCM.app` file inside of the mounted disk image to any location on your Mac.
+1. Open the `CrystalRCM.app` app, then click `Payload...` and select the `hekate_ctcaer_X.X.X.bin` file.
+    - macOS may warn you about the application being downloaded from the internet. To get around this warning, hold the control key while clicking the application, then click Open and Open again.
+    - **macOS Sequoia users:** Apple has changed how unsigned applications from the internet are opened. You will need to follow the instructions [here](https://wiki.hacks.guide/wiki/Open_unsigned_applications_on_macOS_Sequoia) to open the application.
+1. Connect your Switch in RCM to your PC using the USB cable, make sure it's also detected in CrystalRCM.
+1. Once selected, click `Push!`. The payload should now be injected successfully.
+    - If your payload was successfully injected your switch should have yellow text that says "Update bootloader folder!", this will be resolved soon.
+
+::::
+
+:::: tab Mac-Alternative
+
+This is an alternative incase CrystalRCM does not work for you.
+
+### What you need:
+
 - The latest release of [JTegraNX](https://github.com/DefenderOfHyrule/JTegraNX/releases)
 - A USB-C to USB-A cable **or** a USB-C to USB-C cable capable of transfering data
 - The latest release of [hekate](https://github.com/CTCaer/hekate/releases/) (Note: the hekate boot file is inside the .zip as a .bin file)
