@@ -118,7 +118,7 @@ Furthermore, we resent any implication to the contrary.
 
 - **Q: What exactly is the "emuMMC path," and why is it recommended for the microSD card to be at least 128GB for this path?**
 
-    A: The purpose of an emuMMC/emuNAND is to give you a safe place to use custom firmware functions without Nintendo catching sight. As it is an offline clone of your internal storage ran entirely from your microSD card, you will need to set allocate up to 64GB on your microSD card for it (depending on the size of your internal storage), plus a duplicate your of digital game data (emuMMC uses a separate Nintendo folder for game installs).
+    A: The purpose of an emuMMC/emuNAND is to give you a safe place to use custom firmware functions without Nintendo catching sight. As it is an offline clone of your internal storage ran entirely from your microSD card, you will need to set allocate up to 64GB on your microSD card for it (depending on the size of your internal storage), plus a duplicate of your digital game data (emuMMC uses a separate Nintendo folder for game installs).
 
 - **Q: Why do I need to set my console as primary before starting this guide?**
 
