@@ -49,7 +49,22 @@ If you want to use community made themes, for example from the [r/NXThemes](http
 
 ::::: tabs
 
-:::: tab default Windows
+:::: tab default Any
+
+#### Making the theme
+
+
+
+1. Navigate to [**Themezer's NXTheme creation tool**](https://themezer.net/create/switch/theme).
+1. Select a menu, a layout and/or a background (make sure it is at least 1280x720 and in JPG), and any other assets you want in your theme.
+1. Enter details like the name and tags, then click `Download .nxtheme`.
+1. Your browser will prompt you to download a file. Save this file to a temporary folder.
+1. Repeat step 2 to 4 for every menu of the Switch you want to modify.
+1. If you've tried them out and are happy, click 'Upload'!
+
+::::
+
+:::: tab Windows
 
 ### What you need:
 
@@ -63,20 +78,6 @@ The latest release of [**Switch Theme Injector**](https://github.com/exelix11/Sw
 1. Select a Home menu part, A 720p image and a Layout patch. Click on `Build NXTheme` after selecting your home menu part, image and layout patch.
 1. Fill out the details in the window that pops up. After filling out this window and clicking ok, you will get asked where to save the NXTheme file. Save this file to a temporary folder.
 1. Repeat step 3 and 4 for every Home Menu part of the Switch you want to modify.
-
-::::
-
-:::: tab Mac / Linux / ChromeOS
-
-#### Making the theme
-
-Make sure that the images you want to use are 1280x720 and in JPG!
-
-1. Navigate to [**Exelix's Web Injector**](https://exelix11.github.io/SwitchThemeInjector/v2/).
-1. Select a Theme Target you want to edit. After this, click the Open an Image button and select your background image.
-1. Choose a theme name and an author name and optionally a different layout, then click build NxTheme.
-1. Your browser will prompt you to download a file. Save this file to a temporary folder.
-1. Repeat step 2 to 4 for every Home Menu part of the Switch you want to modify.
 
 ::::
 
