@@ -64,7 +64,7 @@ Once booted into CFW, you can easily get back to Hekate by holding the power but
 
 ### Launching the Homebrew Menu
 
-You will now be able to launch the Homebrew Menu by opening the album or by holding the `R` button while launching any game (including demos/cartridges), or application (e.g. YouTube/Hulu). If `R` is not held, the game or application will launch like normal.
+You will now be able to launch the Homebrew Menu by opening the album or by holding the `ZR` button while launching any game (including demos/cartridges), or application (e.g. YouTube/Hulu). If `ZR` is not held, the game or application will launch like normal.
 
 ::: warning
 
