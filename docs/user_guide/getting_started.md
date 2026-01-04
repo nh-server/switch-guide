@@ -53,11 +53,10 @@ If your serial number is not listed above, your device is not vulnerable to the 
 
 ## Version Table
 
-| System Version | Unpatched Switch Systems     | Patched Switch Systems |
+| System Version | Unpatched Switch Systems     | Patched or Mariko Switch Systems |
 |:-----------------|:--------------------------------------|:---------------------------------|
-| 1.0.0            | Nereba or [**RCM**](rcm/index)     | **N/A**                          |
-| 2.0.0 - 4.0.1   | Caffeine or [**RCM**](rcm/index)   | **N/A**      |
-| 4.1.0    | Caffeine or [**RCM**](rcm/index)   | Caffeine                         |
+| 1.0.0 - 4.0.1            | [**RCM**](rcm/index)     | **N/A**                          |
+| 4.1.0    | [**RCM**](rcm/index)   | Caffeine                         |
 | 5.0.0+    | [**RCM**](rcm/index)               | [**Modchip**](modchip/index)                |
 
 ::: tip
