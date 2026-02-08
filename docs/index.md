@@ -14,6 +14,18 @@ Prepare to set aside a minimum of an hour to follow this guide. This is specific
 
 :::
 
+::: danger
+
+# Notice
+
+As of January 26th, 2026, the sole maintainer of Atmosphère, SciresM, has announced that they are [retiring from the public hacking scene](https://gist.github.com/SciresM/e760b192d873af67ce8f0f5c7000a651). Since they have retired, Atmosphère updates will likely take longer to release with future firmware updates. What this means is that, currently, firmware version 21.2.0 is the latest (officially) supported firmware, without any potential uncertainty.
+
+Users should be cautious updating past firmware versions 21.2.0, as Atmosphère may not work on newer firmware versions if Nintendo has implemented any major changes.
+
+Because of this, there is a large likelihood of (potentially dangerous) Atmosphère forks coming into existence because of this. Users are advised **not** to use these forks, and should wait for proper Atmosphère updates from developers who know what they're doing.
+
+:::
+
 ## What is Custom Firmware?
 
 Custom FirmWare (“CFW”) is complex software that modifies the function of a device's operating system, also known as a system firmware.
