@@ -25,8 +25,7 @@ Patched and Mariko units can be identified by their serial number. This number c
 The community has crowdsourced a list of known serial numbers which are vulnerable to fusee-gelee.
 
 - If your serial number is on this list as "potentially patched", follow the notice directly after this list.
-- If your serial number is listed as "patched", there is nothing you can do at this time besides installing a modchip (hardware modification. It __requires__ experience with microsoldering.).
-- If your system is patched, it is highly advised to keep it on 7.0.1 or lower, if possible, as there may be a vulnerability for these versions in the far future. **DO NOT update patched consoles past 7.0.1 if you want to ever have a chance of running homebrew and/or CFW on them if you do not have the skills required to install a modchip.**
+- If your serial number is listed as "patched", there is nothing you can do besides installing a modchip (hardware modification. It __requires__ experience with microsoldering.).
 
 ::: tip
 
@@ -54,29 +53,17 @@ If your serial number is not listed above, your device is not vulnerable to the 
 
 ## Version Table
 
-::: tip
-
-**Note**
-
-While the "New" Switch (HAC-001(-01)'s earliest possible firmware is 7.0.1, it is **not** vulnerable to *déjà vu*, the exploit used by Nereba and Caffeine, because of hardware differences from the "old" Switch (HAC-001).
-
-:::
-
-| Firmware Version | Unpatched Switch systems (HAC-001)    | Patched Switch systems (HAC-001) | "New" Switch (HAC-001(-01)  | Switch Lite (HDH-001)                                |
-|:-----------------|:--------------------------------------|:---------------------------------|:----------------------------|:-----------------------------------------------------|
-| 1.0.0            | Nereba or [**RCM**](rcm/index)     | **N/A**                          | **N/A**                     | **N/A**                                              |
-| 2.0.0 - 3.0.2    | Caffeine or [**RCM**](rcm/index)   | **N/A**                          | **N/A**                     | **N/A**                                              |
-| 4.0.0 - 4.1.0    | Caffeine or [**RCM**](rcm/index)   | Caffeine                         | **N/A**                     | **N/A**                                              |
-| 5.0.0 - 7.0.0    | [**RCM**](rcm/index)               | [**Modchip**](modchip/index) / Wait for CFW                 | **N/A**                     | **N/A**                |
-| 7.0.1            | [**RCM**](rcm/index)               | [**Modchip**](modchip/index) (no software exploit)          | [**Modchip**](modchip/index) (no software exploit)| **N/A**  |
-| 8.0.1            | [**RCM**](rcm/index)               | [**Modchip**](modchip/index) (no software exploit)          | [**Modchip**](modchip/index) (no software exploit)| [**Modchip**](modchip/index) (no software exploit)|
-| 8.1.0 and up     | [**RCM**](rcm/index)               | [**Modchip**](modchip/index) (no software exploit)          | [**Modchip**](modchip/index) (no software exploit)| [**Modchip**](modchip/index) (no software exploit)|
+| System Version | Unpatched Switch Systems     | Patched or Mariko Switch Systems |
+|:-----------------|:--------------------------------------|:---------------------------------|
+| 1.0.0 - 4.0.1            | [**RCM**](rcm/index)     | **N/A**                          |
+| 4.1.0    | [**RCM**](rcm/index)   | Caffeine                         |
+| 5.0.0+    | [**RCM**](rcm/index)               | [**Modchip**](modchip/index)                |
 
 ::: tip
 
 **About Mariko Switch models**
 
-All Mariko (V2) Switch models (`HAC-001(-01)`, `HDH-001`, `HEG-001`) are currently unhackable via software. If **Modchip** is listed as a method for your console model, then that means the device is currently unhackable without a hardware modification (modchip). If there are theoretical exploits that may lead to CFW or homebrew for that device, you also have the choice to "wait" for their release. These exploits may (and will likely) never launch and there is **NO ETA**, so what you choose to do is up to you. This guide assumes you have a functional modchip installation if you *do* have a Patched console.
+All Mariko (V2) Switch models (`HAC-001(-01)`, `HDH-001`, `HEG-001`) are unhackable via software. If **Modchip** is listed as a method for your console model, then that means the device is unhackable without a hardware modification (modchip). This guide assumes you have a functional modchip installation if you *do* have a Patched console.
 
 :::
 
@@ -113,9 +100,4 @@ Before setting up for homebrew, install at least one eShop title to utilize "tit
 - **Q: Why is it essential to install at least one eShop title before setting up homebrew, and what is "title takeover"?**
 
     A: By default, the homebrew menu and its apps inherit the resources of the Album applet. Applets don't have as many system resources as full apps, and as such have inconsistent behavior when used for homebrew purposes. Title takeover ensures the best performance, and is required for some homebrew.
-
-- **Q: Why is the "New" Switch (HAC-001(-01)) not vulnerable to *déjà vu*, and what are the implications for Switch Lite (HDH-001) and OLED Switch consoles?**
-
-    A: Despite being exploitable via software, *déjà vu* is actually a bootROM exploit that isn't present in the new bootROM of the Tegra X1+.
-
 :::
