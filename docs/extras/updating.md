@@ -40,9 +40,42 @@ When a new version of hekate releases, you can update by following these steps:
 
 Always check _before_ updating your system firmware if the latest version of Atmosphère _as well_ as the latest version of hekate support the firmware version you are updating towards.
 
+### Updating your sysMMC's firmware
+
+-   Before continuing with this guide, make sure your sysMMC is up to date. If your sysMMC is not up-to-date, do the following depending on whether your Switch is modchipped or not:
+
+    :::::: danger
+    #### **Note regarding updating towards major firmware versions** 
+    
+    Updating your Switch firmware should be done via OFW or Stock on modchipped consoles when updating towards a major firmware version. The term "major" in Switch firmware version means that the first number in the firmware version number has changed. An example of a major firmware version update would be updating from `20.5.0` to `21.0.0`, the first number is the major firmware version number. You may also want to do the same thing for minor firmware versions (for example, updating from `21.1.0` to `21.2.0`).
+    
+    The reason why updating via OFW/Stock is recommended on modchipped consoles is because it ensures that you properly burn your e-fuses and preserve the ability to boot OFW afterwards (in the situations where Atmosphere and/or hekate haven't been updated to support the firmware version you've updated to). In rare instances, it also prevents issues that *can* occur when updating via sysCFW (incomplete firmware updates, improperly updated BOOT0/BOOT1 partitions, etc).
+    
+    #### Click one of the tabs below depending on your situation:
+    
+    </br>
+    
+    ::::: tabs
+    
+    :::: tab default Modchipped-console users
+    - **Modchipped-console users:** Boot hekate/Nyx, navigate to `Reboot` > `OFW` from hekate's `Home` menu and then update through `System Settings` > `System` > `System Update`. 
+        - **Note:** If you cannot boot `OFW`, please boot `Stock sysMMC` from hekate's `Launch` menu instead.
+    ::::
+    
+    :::: tab Unpatched/Non hardware modified-console users
+    - **Unpatched/Non hardware modified-console users:** Boot hekate/Nyx, navigate to `Launch` > `Atmosphere PKG3 sysMMC` (may be called something different if you aren't using our guide's hekate configuration) and then update your firmware via `System Settings` > `System` > `System Update`.
+        - **Note:** If you have an unpatched Switch, have autoRCM enabled and you're updating your system while booted into Stock or OFW, **updating will disable autoRCM** and you will need to enter RCM manually to boot custom firmware again. To prevent autoRCM from being disabled, boot sysCFW and update through settings from there, as booting without AutoRCM <ins>will burn any preserved e-fuses</ins>.
+    ::::
+
+    :::::
+    
+    Once you've successfully updated your firmware, continue with the rest of the guide below.
+
+    ::::::
+    
 ### About emuMMC
 
-Your sysMMC and emuMMC have separate system firmwares and need to be updated separately.
+Your sysMMC and emuMMC have separate system firmware versions and need to be updated separately.
 
 If you keep your emuMMC offline, you have 3 options:
 
@@ -62,11 +95,7 @@ This guide is made for updating your emuMMC's firmware. It is **not** for downgr
 
 :::
 
-There are two supported methods of dumping your sysMMC's firmware, these methods are detailed in the two tabs below. Either choice will provide the same end result, but can be more difficult depending on the console model you have.
-
-- **Note:**
-If you have an unpatched Switch, have autoRCM enabled and you're updating your system while in stock firmware, **updating will disable autoRCM** and you will need to enter RCM manually to boot custom firmware again.
-To prevent autoRCM from being disabled, boot CFW on sysMMC and update through settings from there, as booting without AutoRCM <ins>will burn any preserved e-fuses</ins>.
+There are three supported methods of dumping your sysMMC's firmware, these methods are detailed in the tabs below. All choices will provide the same end result, but can be more difficult depending on the console model you have.
 
 ::::: tabs
 
@@ -82,15 +111,36 @@ To prevent autoRCM from being disabled, boot CFW on sysMMC and update through se
 1. Download the latest release of `Goldleaf.nro` and place it in `sd:/switch` on your microSD card.
 
 #### Dumping your sysMMC firmware
-
-1. Make sure your sysMMC is up to date. If your sysMMC is not up-to-date, boot into sysCFW and update it through `System Settings` > `System` > `System Update`.
-    - sysCFW is recommended since it preserves e-fuses and preserves AutoRCM (if applicable).
+    
 1. Boot into hekate, and navigate to `Launch` > `Atmosphere PKG3 sysMMC`.
     - `Atmosphere PKG3 sysMMC` is sysCFW, this environment may be called something different if you do not use the config we provide in our guide.
 1. Once booted into sysCFW, open the homebrew menu in applet mode by opening the gallery applet on your home menu. 
     - Title takeover mode (holding `R` while launching any title on your HOME menu) also works, but isn't *required* for this process.
 1. Find Goldleaf in your homebrew menu and launch the app.
 1. Navigate to `Console & Goldleaf settings` > `Firmware and updates` > `Export update` > `Directory`, then wait for Goldleaf to finish dumping your currently installed firmware version.
+1. Once done, reboot back to hekate by holding power for 3-4 seconds and selecting `Power Options` > `Restart`, or by using the `Reboot to Payload` homebrew app in your homebrew menu (Erista ("V1") console users only).
+
+::::
+
+:::: tab default Dumping your firmware via nxdumptool
+
+#### What you need:
+- The latest release of [nxdumptool](https://github.com/DarkMatterCore/nxdumptool/releases) (`nxdt_rw_poc.nro`)
+
+#### Preparing your microSD card
+
+1. Boot into hekate.
+1. Go to `Tools` > `USB Tools` > `SD Card` and connect your Switch to your PC via USB.
+1. Download the latest release of `nxdt_rw_poc.nro` and place it in `sd:/switch` on your microSD card.
+
+#### Dumping your sysMMC firmware
+    
+1. Boot into hekate, and navigate to `Launch` > `Atmosphere PKG3 sysMMC`.
+    - `Atmosphere PKG3 sysMMC` is sysCFW, this environment may be called something different if you do not use the config we provide in our guide.
+1. Once booted into sysCFW, open the homebrew menu in applet mode by opening the gallery applet on your home menu. 
+    - Title takeover mode (holding `R` while launching any title on your HOME menu) also works, but isn't *required* for this process.
+1. Find nxdumptool (`nxdt_rw_poc`) in your homebrew menu and launch the app.
+1. Navigate to `dump system update` > `start dump`, then wait for nxdumptool to finish dumping your currently installed firmware version.
 1. Once done, reboot back to hekate by holding power for 3-4 seconds and selecting `Power Options` > `Restart`, or by using the `Reboot to Payload` homebrew app in your homebrew menu (Erista ("V1") console users only).
 
 ::::
@@ -115,8 +165,6 @@ On Mariko ("V2") consoles, this method of dumping the sysMMC's firmware requires
 
 #### Dumping your sysMMC firmware
 
-1. Make sure your sysMMC is up to date. If your sysMMC is not up-to-date, boot into sysCFW and update it through `System Settings` > `System` > `System Update`.
-    - sysCFW is recommended since it preserves e-fuses and preserves AutoRCM (if applicable).
 1. Boot into hekate and navigate to `Payloads` > `TegraExplorer.bin`.
 1. Using the joystick and the A buttons, select the `FirmwareDump.te` script, then select `Dump sysmmc`.
     - If navigation doesn't work with your Joycons, navigating using the volume buttons and selecting using the power button also works.
@@ -138,6 +186,7 @@ On Mariko ("V2") consoles, this method of dumping the sysMMC's firmware requires
 1. Find Daybreak in the homebrew menu and launch it.
 1. Tap on `Install` and follow the instructions corresponding to the method you used to dump your firmware below.
     - For users who dumped their firmware using Goldleaf: Navigate to `sd:/switch/Goldleaf/export/update/<latest firmware version number>`.
+    - For users who dumped their firmware using nxdumptool: Navigate to `sd:/nxdt_rw_poc/System Update/<latest firmware version number>`.
     - For users who dumped their firmware using TegraExplorer: Navigate to `sd:/tegraexplorer/Firmware/<latest firmware version number>`.
 1. Tap on `Continue` and then `Preserve settings`.
     - If you see the message `Warning: exFAT firmware is missing or corrupt`, you likely don't have the exFAT drivers installed on your sysMMC. Just press continue if this is the case.

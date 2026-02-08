@@ -20,15 +20,15 @@ Tesla-Menu is dependent on a [sysmodule](index#terminologies) called `nx-ovlload
 
 ## Installation requirements:
 - An archive manager like [7-Zip](https://www.7-zip.org/)
-- The latest release of [Tesla-Menu](https://github.com/WerWolv/Tesla-Menu/releases/tag/v1.2.3) (the `ovlmenu.zip` file)
-- The latest release of [nx-ovlloader](https://github.com/WerWolv/nx-ovlloader/releases/tag/v1.0.7) (the `nx-ovlloader.zip` file)
+- The latest release of [Tesla-Menu](https://github.com/DefenderOfHyrule/Tesla-Menu/releases/tag/v1.2.0) (the `ovlmenu.ovl` file)
+- The latest release of [nx-ovlloader](https://github.com/DefenderOfHyrule/nx-ovlloader/releases/tag/v1.2.0) (the `nx-ovlloader.zip` file)
 
 ## Installation instructions:
 1. Boot into hekate and go to `Tools` > `USB Tools` > `SD Card`, then plug your Switch into your PC via USB.
 1. Your microSD card should now be accessible on your PC, open it.
-1. Extract both `.zip` files to a location on your computer.
-    - If your archive manager allows for it, you can also simply open the `.zip` files directly.
-1. Copy the *contents* of each (extracted) `.zip` file to the root of your microSD card.
+1. Extract the nx-ovlloader `.zip` file to a location on your computer.
+    - If your archive manager allows for it, you can also simply open the `.zip` file directly.
+1. Copy the *contents* of the (extracted) `.zip` file to the root of your microSD card, then copy `ovlmenu.ovl` to `sd:/switch/.overlays`.
     - **Optional:** You can verify if you've installed Tesla-Menu and nx-ovlloader correctly, you should have a folder called `420000000007E51A` (nx-ovlloader) in `sd:/atmosphere/contents` and the `ovlmenu.ovl` (Tesla-Menu) file in `sd:/switch/.overlays`.
 1. Boot into CFW.
 

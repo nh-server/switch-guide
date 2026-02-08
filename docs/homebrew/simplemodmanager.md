@@ -1,6 +1,6 @@
 # SimpleModManager
 
-SimpleModManager is a [homebrew app](index#terminologies) that allows easily adding and removing mods to the layeredFS directory from another directory on the SD card.
+SimpleModManager is a [homebrew app](index#terminologies) that allows easily adding and removing mods to the layeredFS directory from another directory on the SD card. Its official Github page can be found [here](https://github.com/nadrino/SimpleModManager).
 
 ### Common use cases for SimpleModManager:
 
@@ -16,7 +16,7 @@ SimpleModManager should not be used for some specific games like Super Smash Bro
 :::
 
 ## Installation requirements:
-- The latest release of [SimpleModManager](https://github.com/nadrino/SimpleModManager/releases/latest) (the `SimpleModManager.nro` file)
+- The latest release of [SimpleModManager](https://github.com/DefenderOfHyrule/SimpleModManager/releases/tag/v2.1.4) (the `SimpleModManager.nro` file)
 
 ## Installation instructions:
 1. Boot into hekate and go to `Tools` > `USB Tools` > `SD Card`, then plug your Switch into your PC via USB.
