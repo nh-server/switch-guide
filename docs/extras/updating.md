@@ -45,7 +45,7 @@ Always check _before_ updating your system firmware if the latest version of Atm
 -   Before continuing with this guide, make sure your sysMMC is up to date. If your sysMMC is not up-to-date, do the following depending on whether your Switch is modchipped or not:
 
     :::::: danger
-    #### **Note regarding updating towards major firmware versions** 
+    # **Note regarding updating towards major firmware versions** 
     
     Updating your Switch firmware should be done via OFW or Stock on modchipped consoles when updating towards a major firmware version. The term "major" in Switch firmware version means that the first number in the firmware version number has changed. An example of a major firmware version update would be updating from `20.5.0` to `21.0.0`, the first number is the major firmware version number. You may also want to do the same thing for minor firmware versions (for example, updating from `21.1.0` to `21.2.0`).
     

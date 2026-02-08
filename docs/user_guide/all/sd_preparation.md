@@ -32,7 +32,7 @@ If you're on a Chromebook, the following section may prove to be difficult. The 
 :::
 
 ## Instructions:
-1. Navigate to the accessible drive.
+1. Navigate to the accessible drive (`SWITCH SD`).
 1. Copy *the contents of* the Atmosphère`.zip` file to the root of your microSD card.
 1. Copy the `bootloader` folder from the hekate `.zip` file to the root of your microSD card.
     - If you're asked to replace files or merge folders, do so.
