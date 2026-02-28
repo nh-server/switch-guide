@@ -38,12 +38,11 @@ If you're on a Chromebook, the following section may prove to be difficult. The 
 1. Navigate to the accessible drive (`SWITCH SD`).
 1. Copy *the contents of* the Atmosphère`.zip` file to the root of your microSD card.
 1. Copy the `bootloader` folder from the hekate `.zip` file to the root of your microSD card.
-    * If you're asked to replace files or merge folders, do so.
-        * On macOS, you will need to *merge* folders, *not* replace them.
+    * Merge and/or replace the content already on your SD card with the files within the `.zip` file if asked to do so. On macOS, you will need to specifically select the `Merge` option if prompted.
 1. Copy the `bootloader` folder from the `bootlogos.zip` file to the root of your microSD card.
-    * If you're asked to merge the bootloader folders, do so.
+    * Merge the bootloader folders if asked to do so.
 1. Copy `hekate_ipl.ini` to the `bootloader` folder on your microSD card.
-    * If you're asked to replace the file, do so.
+    * Replace the file if asked to do so.
 1. Create a folder named `hosts` inside the `atmosphere` folder on your microSD card, and put `emummc.txt` inside of the `hosts` folder.
 1. Copy `JKSV.nro`, `ftpd.nro`, `NxThemesInstaller.nro`, `NX-Shell.nro` and `Goldleaf.nro` to the `switch` folder on your microSD card.
 1. If you were already using your microSD card as a storage device for your games and backed up the Nintendo folder before partitioning your microSD card, please place it back on the root of your microSD card now.
