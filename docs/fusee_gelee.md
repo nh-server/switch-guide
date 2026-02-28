@@ -1,4 +1,4 @@
-## **Vulnerability Disclosure: Fusée Gelée**
+# **Vulnerability Disclosure: Fusée Gelée**
 
 This report documents Fusée Gelée, a coldboot vulnerability that allows full,
 unauthenticated arbitrary code execution from an early bootROM context via Tegra
@@ -8,17 +8,17 @@ Processor (BPMP) before any lock-outs take effect, this vulnerability compromise
 the entire root-of-trust for each processor, and allows exfiltration of secrets
 e.g. burned into device fuses.
 
- Quick vitals: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   | |
---------------------|--------------------------------------------------------
- *Reporter:*      | Katherine Temkin (@ktemkin)
- *Affiliation:*   | ReSwitched (https://reswitched.tech)
- *E-mail:*        | k@ktemkin.com
- *Affects:*       | Tegra SoCs, independent of software stack
- *Versions:*      | believed to affect Tegra SoCs released prior to the T186 / X2
- *Impact:*        | early bootROM code execution with no software requirements, which can lead to full compromise of on-device secrets where USB access is possible
- *Disclosure*     | public disclosure planned for June 15th, 2018
+| Quick vitals: &nbsp; &nbsp; &nbsp; |                                                                                                                                                 |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| *Reporter:*                        | Katherine Temkin (@ktemkin)                                                                                                                     |
+| *Affiliation:*                     | ReSwitched (<https://reswitched.tech>)                                                                                                          |
+| *E-mail:*                          | <k@ktemkin.com>                                                                                                                                 |
+| *Affects:*                         | Tegra SoCs, independent of software stack                                                                                                       |
+| *Versions:*                        | believed to affect Tegra SoCs released prior to the T186 / X2                                                                                   |
+| *Impact:*                          | early bootROM code execution with no software requirements, which can lead to full compromise of on-device secrets where USB access is possible |
+| *Disclosure*                       | public disclosure planned for June 15th, 2018                                                                                                   |
 
-#### Vulnerability Summary
+## Vulnerability Summary
 
 The USB software stack provided inside the boot instruction rom (IROM/bootROM)
 contains a copy operation whose length can be controlled by an attacker. By
@@ -30,9 +30,7 @@ execution can then be used to exfiltrate secrets and to load arbitrary code onto
 the main CPU Complex (CCPLEX) "application processors" at the highest possible
 level of privilege (typically as the TrustZone Secure Monitor at PL3/EL3).
 
------
-
-#### Public Disclosure Notice
+## Public Disclosure Notice
 
 This vulnerability is notable due to the significant number and variety of
 devices affected, the severity of the issue, and the immutability of the relevant
@@ -48,13 +46,11 @@ the general public and exploit-holders and notifying the public, users will be
 able to best assess how this vulnerability impacts their personal threat models.
 
 Accordingly, ReSwitched anticipates public disclosure of this vulnerability:
-  * If another group releases an implementation of the identified
-     vulnerability; or
-  * On June 15th, 2018, whichever comes first.
 
------
+* If another group releases an implementation of the identified vulnerability; or
+* On June 15th, 2018, whichever comes first.
 
-### **Vulnerability Details**
+## **Vulnerability Details**
 
 The core of the Tegra boot process is approximated by the following block of
 pseudo-code, as obtained by reverse-engineering an IROM extracted from a
@@ -96,9 +92,10 @@ boot_complete:
 ```
 
 Tegra processors include a USB Recovery Mode (RCM), which we can observe to be activated under a number of conditions:
-  * If the processor fails to find a valid Boot Control Table (BCT) + bootloader on its boot media;
-  * If processor straps are pulled to a particular value e.g. by holding a button combination; or
-  * If the processor is rebooted after a particular value is written into a power management controller scratch register.
+
+* If the processor fails to find a valid Boot Control Table (BCT) + bootloader on its boot media;
+* If processor straps are pulled to a particular value e.g. by holding a button combination; or
+* If the processor is rebooted after a particular value is written into a power management controller scratch register.
 
 USB recovery mode is present in all devices, including devices that have been
 production secured. To ensure that USB recovery mode does not allow unauthenticated
@@ -229,15 +226,15 @@ standard USB control requests. The core of this code is responsible for respondi
 to USB control requests. A *control request* is initiated when the host sends a
 setup packet, of the following form:
 
-Field     | &nbsp; &nbsp; &nbsp; &nbsp; Size  &nbsp; &nbsp;| Description
-----------|:----:|-----
-direction | 1b   | if '1', the device should respond with data
-type      | 2b   | specifies whether this request is of a standard type or not
-recipient | 5b   | encodes the context in which this request should be considered; <br /> for example, is this about a `DEVICE` or about an `ENDPOINT`?
-request   | 8b   | specifies the request number
-value     | 16b  | argument to the request
-index     | 16b  | argument to the request
-length    | 16b  | specifies the maximum amount of data to be transferred
+| Field     | Size                                            | Description                                                                                                                          |
+| --------- | :---------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------ |
+| direction |                       1b                        | if '1', the device should respond with data                                                                                          |
+| type      |                       2b                        | specifies whether this request is of a standard type or not                                                                          |
+| recipient |                       5b                        | encodes the context in which this request should be considered; <br /> for example, is this about a `DEVICE` or about an `ENDPOINT`? |
+| request   |                       8b                        | specifies the request number                                                                                                         |
+| value     |                       16b                       | argument to the request                                                                                                              |
+| index     |                       16b                       | argument to the request                                                                                                              |
+| length    |                       16b                       | specifies the maximum amount of data to be transferred                                                                               |
 
 As an example, the host can request the status of a device by issuing a
 `GET_STATUS` request, at which point the device would be expected to respond with
@@ -303,15 +300,16 @@ In most cases, the handler correctly limits the length of the transmitted
 responses to the amount it has available, per the USB specification. However,
 in a few notable cases, the length is *incorrectly always set to the amount
 requested* by the host:
-  * When issuing a `GET_CONFIGURATION` request with a `DEVICE` recipient.
-  * When issuing a `GET_INTERFACE` request with a `INTERFACE` recipient.
-  * When issuing a `GET_STATUS` request with a `ENDPOINT` recipient.
+
+* When issuing a `GET_CONFIGURATION` request with a `DEVICE` recipient.
+* When issuing a `GET_INTERFACE` request with a `INTERFACE` recipient.
+* When issuing a `GET_STATUS` request with a `ENDPOINT` recipient.
 
 This is a critical security error, as the host can request up to 65,535 bytes per
 control request. In cases where this is loaded directly into `size_to_tx`, this
 value directly sets the extent of the `memcpy` that follows-- and thus can copy
 up to 65,535 bytes into the currently selected `dma_buffer`. As the DMA buffers
-used for the USB stack are each comparatively short, this can result in a _very_
+used for the USB stack are each comparatively short, this can result in a *very*
 significant buffer overflow.
 
 To validate that the vulnerability is present on a given device, one can try
@@ -332,13 +330,14 @@ the layout used by the T210 variant of the affected bootROM:
 ![Bootrom memory layout](img/mem_layout.png)
 
 The major memory regions relevant to this vulnerability are as follows:
-  * The bootROM's *execution stack* grows downward from `0x40010000`; so the
+
+* The bootROM's *execution stack* grows downward from `0x40010000`; so the
     execution stack is located in the memory *immediately preceding* that address.
-  * The DMA buffers used for USB are located at `0x40005000` and `0x40009000`,
+* The DMA buffers used for USB are located at `0x40005000` and `0x40009000`,
     respectively. Because the USB stack alternates between these two buffers
     once per USB transfer, the host effectively can control which DMA buffer
     is in use by sending USB transfers.
-  * Once the bootloader's RCM code receives a 680-byte command, it begins to store
+* Once the bootloader's RCM code receives a 680-byte command, it begins to store
     received data in a section of upper IRAM located at address `0x40010000`, and can
     store up to `0x30000` bytes of payload. This address is notable, as it is immediately
     past the end of the active execution stack.
@@ -347,11 +346,12 @@ Of particular note is the adjacency of the bootROM's *execution stack* and the
 attacker-controlled *RCM payload*. Consider the behavior of the previous pseudo-code
 segment on receipt of a `GET_STATUS` request to the `ENDPOINT` with an
 excessive length. The resulting memcpy:
-  * copies *up to* 65,535 bytes total;
-  * sources data from a region *starting at the status variable on the stack*
+
+* copies *up to* 65,535 bytes total;
+* sources data from a region *starting at the status variable on the stack*
     and extending significantly past the stack -- effectively copying mostly
     *from the attacker-controllable RCM payload buffer*
-  * targets a buffer starting either `0x40005000` or `0x40009000`, at the
+* targets a buffer starting either `0x40005000` or `0x40009000`, at the
     attacker's discretion, reaching addresses of up to `0x40014fff` or `0x40018fff`
 
 This is a powerful copy primitive, as it copies *from attacker controlled memory*
@@ -361,16 +361,18 @@ and into a region that *includes the entire execution stack*:
 
 This would be a powerful exploit on any platform; but this is a particularly devastating
 attack in the bootROM environment, which does not:
-  * Use common attack mitigations such as stack canaries, ostensibly to reduce
+
+* Use common attack mitigations such as stack canaries, ostensibly to reduce
     complexity and save limited IRAM and IROM space.
-  * Apply memory protections, so the entire stack and all attacker
+* Apply memory protections, so the entire stack and all attacker
     controlled buffers can be read from, written to, and executed from.
-  * Employ typical 'application-processor' mitigation strategies such as ASLR.
+* Employ typical 'application-processor' mitigation strategies such as ASLR.
 
 Accordingly, we now have:
+
   1. The capability to load arbitrary payloads into memory via RCM, as RCM only
      validates command signatures once payload receipt is complete.
-  2. The ability to copy attacker-controlled values over the execution stack,
+  1. The ability to copy attacker-controlled values over the execution stack,
      overwriting return addresses and redirecting execution to a location of our
      choice.
 
@@ -381,37 +383,38 @@ operations that precede normal startup are executed. This means, for example,
 that the T210 fuses-- and the keydata stored within them-- are accessible from
 the attack payload, and the bootROM is not yet protected.
 
-#### Exploit Execution
+## Exploit Execution
 
 The Fusée Launcher PoC exploits the vulnerability described on the T210 via a
 careful sequence of interactions:
+
   1. The device is started in RCM mode. Device specifics will differ, but this
      is often via a key-combination held on startup.
-  2. A host computer is allowed to enumerate the RCM device normally.
-  3. The host reads the RCM device's ID by reading 16 bytes from the EP1 IN.
-  4. The host builds an exploit payload, which is comprised of:
+  1. A host computer is allowed to enumerate the RCM device normally.
+  1. The host reads the RCM device's ID by reading 16 bytes from the EP1 IN.
+  1. The host builds an exploit payload, which is comprised of:
       1. An RCM command that includes a maximum length, ensuring that we can send
          as much payload as possible without completing receipt of the RCM payload.
          Only the length of this command is used prior to validation; so we can
          submit an RCM command that starts with a maximum length of 0x30298, but
          which fills the remaining 676 bytes of the RCM command with any value.
-      2. A set of values with which to overwrite the stack. As stack return address
+      1. A set of values with which to overwrite the stack. As stack return address
          locations vary across the series, it's recommended that a large block
          composed of a single entry-point address be repeated a significant number
          of times, so one can effectively replace the entire stack with that address.
-      3. The program to be executed ("final payload") is appended, ensuring that its
+      1. The program to be executed ("final payload") is appended, ensuring that its
          position in the binary matches the entry-point from the previous step.
-      4. The payload is padded to be evenly divisible by the 0x1000 block size to
+      1. The payload is padded to be evenly divisible by the 0x1000 block size to
          ensure the active block is not overwritten by the "DMA dual-use" bug
          described above.
-  5. The exploit payload is sent to the device over EP1 OUT, tracking the number of
-     0x1000-byte "blocks" that have been sent to the device. If this number is _even_,
+  1. The exploit payload is sent to the device over EP1 OUT, tracking the number of
+     0x1000-byte "blocks" that have been sent to the device. If this number is *even*,
      the next write will be issued to the lower DMA buffer (`0x40005000`); otherwise,
      it will be issued to the upper DMA buffer (`0x40009000`).
-  6. If the next write would target the lower DMA buffer, issue another write
+  1. If the next write would target the lower DMA buffer, issue another write
      of a full 0x1000 bytes to move the target to the upper DMA buffer, reducing
      the total amount of data to be copied.
-  7. Trigger the vulnerable memcpy by sending a `GET_STATUS` `IN` control
+  1. Trigger the vulnerable memcpy by sending a `GET_STATUS` `IN` control
      request with an `ENDPOINT` recipient, and a length long enough to smash the
      desired stack region, and preferably not longer than required.
 
@@ -419,18 +422,17 @@ A simple host program that triggers this vulnerability is included with this
 report: see `fusee-launcher.py`. Note the restrictions on its function in the
 following section.
 
------
-
-### **Proof of Concept**
+## **Proof of Concept**
 
 Included with this report is a set of three files:
-  * `fusee-launcher.py` -- The main proof-of-concept accompanying this report.
+
+* `fusee-launcher.py` -- The main proof-of-concept accompanying this report.
     This python script is designed to launch a simple binary payload in the
     described bootROM context via the exploit.
-  * `intermezzo.bin` -- This small stub is designed to relocate a payload from
+* `intermezzo.bin` -- This small stub is designed to relocate a payload from
     a higher load address to the standard RCM load address of `0x40010000`. This
     allows standard RCM payloads (such as `nvtboot-recover.bin`) to be executed.
-  * `fusee.bin` -- An example payload for the Nintendo Switch, a representative
+* `fusee.bin` -- An example payload for the Nintendo Switch, a representative
     and well-secured device based on a T210. This payload will print information
     from the device's fuses and protected IROM to the display, demonstrating that
     early bootROM execution has been achieved.
@@ -438,54 +440,55 @@ Included with this report is a set of three files:
 **Support note:** Many host-OS driver stacks are reluctant to issue unreasonably
 large control requests. Accordingly, the current proof-of-concept includes code
 designed to work in the following environments:
-  * **64-bit linux via `xhci_hcd`**. The proof-of-concept can manually submit
+
+* **64-bit linux via `xhci_hcd`**. The proof-of-concept can manually submit
     large control requests, but does not work with the common `ehci_hcd` drivers
     due to driver limitations. A rough rule of thumb is that a connection via a
     blue / USB3 SuperSpeed port will almost always be handled by `xhci_hcd`.
-  * **macOS**. The exploit works out of the box with no surprises or restrictions
+* **macOS**. The exploit works out of the box with no surprises or restrictions
     on modern macOS.
 
 Windows support would require addition of a custom kernel module, and thus was
 beyond the scope of a simple proof-of-concept.
 
 To use this proof-of-concept on a Nintendo Switch:
+
   1. Set up an Linux or macOS environment that meets the criteria above, and
      which has a working `python3` and `pyusb` as well as `libusb` installed.
-  2. Connect the Switch to your host PC with a USB A -> USB C cable.
-  3. Boot the Switch in RCM mode. There are three ways to do this, but the first--
+  1. Connect the Switch to your host PC with a USB A -> USB C cable.
+  1. Boot the Switch in RCM mode. There are three ways to do this, but the first--
      unseating its eMMC board-- is likely the most straightforward:
       1. Ensure the Switch cannot boot off its eMMC. The most straightforward way to
          to this is to open the back cover and remove the socketed eMMC board; corrupting
          the BCT or bootloader on the eMMC boot partition would also work.
-      2. Trigger the RCM straps. Hold VOL_UP and short pin 10 on the right
+      1. Trigger the RCM straps. Hold VOL_UP and short pin 10 on the right
          JoyCon connector to ground while engaging the power button.
-      3. Set bit 2 of PMC scratch register zero. On modern firmwares, this requires
+      1. Set bit 2 of PMC scratch register zero. On modern firmware, this requires
          EL3 or pre-sleep BPMP execution.
-  4. Run the `fusee-launcher.py` with an argument of `fusee.bin`. (This requires
+  1. Run the `fusee-launcher.py` with an argument of `fusee.bin`. (This requires
      `intermezzo.bin` to be located in the same folder as `fusee-launcher.py`.)
 
-    ```
-    sudo python3 ./fusee-launcher.py fusee.bin
-    ```
+```shell
+sudo python3 ./fusee-launcher.py fusee.bin
+```
 
 If everything functions correctly, your Switch should be displaying a collection
 of fuse and protected-IROM information:
 
 ![exploit working](img/switch_hax.jpg)
 
-
-### **Recommended Mitigations**
+## **Recommended Mitigations**
 
 In this case, the recommended mitigation is to correct the USB control request
 handler such that it always correctly constrains the length to be transmitted.
 This has to be handled according to the type of device:
 
-- **For a device already in consumer hands**, no solution is proposed.
+* **For a device already in consumer hands**, no solution is proposed.
     Unfortunately, access to the fuses needed to configure the device's ipatches
     was blocked when the ODM_PRODUCTION fuse was burned, so no bootROM update
     is possible. It is suggested that consumers be made aware of the situation
     so they can move to other devices, where possible.
-- **For new devices**, the correct solution is likely to introduce an
+* **For new devices**, the correct solution is likely to introduce an
     new ipatch or new ipatches that limits the size of control request responses.
 
 It seems likely that OEMs producing T210-based devices may move to T214 solutions;

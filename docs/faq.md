@@ -3,15 +3,14 @@
 ## What firmware versions are currently hackable?
 
 Currently two hardware revisions of the Switch exist. Any Switch bought or manufactured before the middle of 2018 has a bootrom bug that allows us to run code regardless of the firmware version on the Switch. When Nintendo updates the system, however, CFW will usually need an update to account for it.
-This bug cannot be fixed by Nintendo once the console leaves the factory, unless the console is sent in for repairs. This means that all current and future firmwares will be able to launch CFW through this exploit on the old hardware revision.
+This bug cannot be fixed by Nintendo once the console leaves the factory, unless the console is sent in for repairs. This means that all current and future firmware will be able to launch CFW through this exploit on the old hardware revision.
 
 Any console purchased after approximately August 2018 is **likely** to be patched. This includes the latest units on shelves, referred to as 'red box' or 'Mariko'.
     Mariko is hardware patched, but may come on a vulnerable firmware.
 Currently the only way to know if your Switch is hackable is by trying to send the payload in RCM.
 Even with this exploit fixed, many Switch consoles on 8.0.1 and below will be hackable to some degree in the future (see [Should I update my Firmware?](#should-i-update-my-firmware) for much more detailed information).
 The serial number on the back of the box can possibly tell you which consoles are patched and which aren't.
-See [here](https://gbatemp.net/threads/switch-informations-by-serial-number.481215/) for an up to date list.
-
+See [GBAtemp](https://gbatemp.net/threads/switch-informations-by-serial-number.481215/) for an up to date list.
 
 ## How do I use fusee-gelee? How can I boot into RCM?
 
@@ -21,7 +20,6 @@ Several methods and designs to do this exist, see [our guide](user_guide/rcm/ent
 Once the Switch is in RCM it needs to be connected to either a computer, phone or dongle to send the exploit and the payload.
 
 This procedure needs to happen every time the Switch boots from a completely "off" state, otherwise the Switch will boot into the stock firmware.
-
 
 ## What makes a good jig good? Can I use a paperclip?
 
@@ -35,7 +33,6 @@ A good jig uses 32Gauge(0.2mm diameter) wire and is bent in a way that the end o
 You can download and 3d-print your own jig and use the pictures on [this website](https://www.thingiverse.com/thing:2892320) to guide you on how to bend the wire correctly.
 Premade jigs can be found on online marketplaces for cheap.
 
-
 ## Is there an easier way to enter RCM?
 
 To enter RCM more comfortably a solution called "AutoRCM" exists.
@@ -46,37 +43,35 @@ The big downside of this method is, that it is impossible to boot the Switch wit
 
 Many Android-phones are able to send the exploit to the Switch, making them a perfect portable way to launch CFW. Different designs for portable dongles exist, ranging from Raspberry Pi Zero and Arduino projects to internal dongles, that work completely autonomous. The latter should only be done by advanced users, as it requires soldering onto the Switch mainboard itself.
 
-
 ## Should I update my Firmware?
 
-If your Switch is one of the new hardware revisions that patched the exploit in RCM and you are on firmware 7.0.1 or lower, you should not update if you want to have CFW in the forseeable future.
+If your Switch is one of the new hardware revisions that patched the exploit in RCM and you are on firmware 7.0.1 or lower, you should not update if you want to have CFW in the foreseeable future.
 
-If your Switch is one of the older hardware revisions and you don't mind having to use jigs/hardmods/AutoRCM and sending the exploit via computer, phone or dongle everytime you want to launch into CFW then it is completely safe to update.
+If your Switch is one of the older hardware revisions and you don't mind having to use jigs/hardmods/AutoRCM and sending the exploit via computer, phone or dongle every time you want to launch into CFW then it is completely safe to update.
 If you want the chance to maybe, one day, not have to use a external device, then it is recommended to stay on a FW as low as possible.
-Beware that this means that you potentially need to wait for a very long time (months to years) for this to happen, if ever. Private exploits to launch CFW over the Browser are known to exist for firmwares up to 7.0.1.
+Beware that this means that you potentially need to wait for a very long time (months to years) for this to happen, if ever. Private exploits to launch CFW over the Browser are known to exist for firmware up to 7.0.1.
 
 Downgrading on the Switch is possible, but it requires using AutoRCM and a custom bootloader payload to bypass the Switch's several hardware anti-downgrade mechanisms.
 This will not work on an unpatched system, and is practically useless for most users.
 On every boot the Switch firmware checks how many e-fuses have been burned and how many e-fuses the Switch expects to be burned.
 Major updates to the Switch, or updates in which a large vulnerability has been patched, irreversibly burn one of the Switch's 64 "e-fuses".
 *If the Switch ever detects that more e-fuses have been burned than expected (meaning a downgrade happened), it will refuse to boot. Replacing e-fuses is not an option.*
-You can find more information about fuses [here](https://switchbrew.org/wiki/Fuses#Anti-downgrade).
-Atmosphèreis maintained to support the latest firmware updates on unpatched units. The situation for patched and new units is as follows:
+You can find more information about fuses on [SwitchBrew](https://switchbrew.org/wiki/Fuses#Anti-downgrade).
+Atmosphère is maintained to support the latest firmware updates on unpatched units. The situation for patched and new units is as follows:
 
-- **"Old"** *Patched Switch (HAC-001): Do NOT update past 7.0.1. Units on 7.0.1 and below will eventually get CFW. Patched units that have upgraded to 8.0.0 or 8.0.1 will likely get homebrew.*
+* **"Old"** *Patched Switch (HAC-001): Do NOT update past 7.0.1. Units on 7.0.1 and below will eventually get CFW. Patched units that have upgraded to 8.0.0 or 8.0.1 will likely get homebrew.*
 
-- **"New"** *Switch (HAC-001(-01): Do NOT update past 8.0.1. Units on 8.0.1 and below will likely get homebrew. Units on 8.1.0 and higher are not expected to be hacked and can be updated.*
+* **"New"** *Switch (HAC-001(-01): Do NOT update past 8.0.1. Units on 8.0.1 and below will likely get homebrew. Units on 8.1.0 and higher are not expected to be hacked and can be updated.*
 
-- **Switch Lite** *(HDH-001): Do NOT update past 8.0.1. Units on 8.0.1 and below will likely get homebrew. Units on 8.1.0 and higher are not expected to be hacked and can be updated.*
+* **Switch Lite** *(HDH-001): Do NOT update past 8.0.1. Units on 8.0.1 and below will likely get homebrew. Units on 8.1.0 and higher are not expected to be hacked and can be updated.*
 
 A method to update without burning e-fuses exists, but, like downgrading, it forces you to use AutoRCM and sending the exploit via USB every time, as booting into the stock firmware even once would instantly burn the e-fuse. Note that other anti-downgrade mechanisms exist, making it for example impossible to boot game carts on a firmware below 4.1/9.0.0 if the Switch has ever launched a game on firmware 4.1+/9.0.0+. This can only be worked around by completely disabling the game cart slot while on 4.1/9.0.0 or greater, which is similarly impractical for most users.
-
 
 ## Is it safe to use homebrew? Will I get banned?
 
 The Switch comes with a lot of telemetry, and has been called a "telemetry monster" by several prominent developers.
 As long as the Switch is connected to the internet, Nintendo gets a report about a lot of different actions and states and has the option to log or act on them.
-Even if the Switch is offline and connects to the internet at a later point, Nintendo still recieves information about what happened while the Switch was disconnected.
+Even if the Switch is offline and connects to the internet at a later point, Nintendo still receives information about what happened while the Switch was disconnected.
 
 To disable some of this telemetry, it is advised to disable the sending of error reports in the System Settings of the Switch.
 Additionally if you live in the EU you can set the "do not share" option on [Nintendo's website](https://accounts.nintendo.com/setting) to prevent your Switch from sending a lot of telemetry, although the effectiveness of this is questionable.
@@ -88,12 +83,13 @@ They have also shown to expand their telemetry options with every other firmware
 ::: warning
 
 **Currently all bans have been for very obvious and intrusive actions, specifically:**
-- Developers using their unique Switch data to poke and reverse-engineer Nintendos Server responses
-- People pirating games and using them online
-- People changing their profile pictures to custom pictures
-- People using savegame editors to unlock content that is not available yet and using it online (Splatoon 2)
-- People cheating online in general (Modifying Cart stats in MK8)
-- People installing homebrew NSP files, which Nintendo can pick up on with their telemetry
+
+* Developers using their unique Switch data to poke and reverse-engineer Nintendo's Server responses
+* People pirating games and using them online
+* People changing their profile pictures to custom pictures
+* People using savegame editors to unlock content that is not available yet and using it online (Splatoon 2)
+* People cheating online in general (Modifying Cart stats in MK8)
+* People installing homebrew NSP files, which Nintendo can pick up on with their telemetry
 
 :::
 
@@ -102,7 +98,7 @@ Atmosphère stops some, but ***not all*** of Nintendo's telemetry, and prevents 
 Atmosphère is not a silver bullet, and this does not mean that Nintendo won't decide to ban people for harmless homebrew in the future. If you are scared to get banned then don't use homebrew for now. Atmosphère now supports emuMMC (emuNAND): a copy of Switch system software, run entirely from the microSD card instead.
 This erases ban risks due to the fact that emuMMC is run in a quarantined, offline state, not touching the internal memory. You are still able to boot into original firmware to play online.
 
-For patched units reliant on deja-vu, sysNAND will always have to be on a firmware below 4.1. For Switch versions from 5.0 to 7.0.1 deja-vu isn't quite out yet but will come eventually. (Also please note that firmwares 8.0.0+ will never work with deja-vu) You can use an updated emuMMC dedicated to online/clean play, while your sysNAND is used offline for custom firmware.
+For patched units reliant on deja-vu, sysNAND will always have to be on a firmware below 4.1. For Switch versions from 5.0 to 7.0.1 deja-vu isn't quite out yet but will come eventually. (Also please note that firmware versions 8.0.0+ will never work with deja-vu) You can use an updated emuMMC dedicated to online/clean play, while your sysNAND is used offline for custom firmware.
 
 We do not recommend the use of ReiNX or SX OS for many reasons, primary among them that they use lots of assets from Atmosphère and offer no real benefit that Atmosphère does not offer anyway.
 We also do not recommend Kosmos, as its large amount of extras on top of regular Atmosphère make it difficult to troubleshoot strange issues.
@@ -114,13 +110,12 @@ Additionally, it is advised to use 90DNS which blocks connections to any Nintend
 
 Homebrew can come in two different formats, namely in `nro` files and in `bin` files.
 
-- `nro` Files are placed in the `switch` folder on your microSD card and can be launched using the Homebrew menu.
-- `bin` This format is used as a payload and is to be pushed in RCM using a payload launcher like tegrarcmgui on windows and fusee-interfacee-tk on other operating systems.
+* `nro` Files are placed in the `switch` folder on your microSD card and can be launched using the Homebrew menu.
+* `bin` This format is used as a payload and is to be pushed in RCM using a payload launcher like tegrarcmgui on windows and fusee-interfacee-tk on other operating systems.
 
 **Homebrew risks**
 *Be careful with launching downloaded homebrew! If you don't know the source, it's best not to launch it.*
 *Homebrew can potentially damage your system! Atmosphère provides protections against common bricking methods, but these are not guaranteed to always work!*
-
 
 ## What microSD card/format should I use?
 
@@ -130,29 +125,23 @@ The recommended microSD card size is 128GB. This will permit you to make a full 
 
 The recommended filesystem format is FAT32. While the Switch supports exFAT through an additional update from Nintendo, this filesystem is prone to corruption and as a result is not advisable.
 
-
-
 ## Fake microSD cards
 
 Do not buy microSD cards from sites like eBay.
 These microSD cards are often fake and do not have the advertised amount of storage and will result in data corruption if used.
 Amazon has had some problems with fake microSD cards, so we recommend buying them at a physical store. Even on trustworthy sites, *always, always check reviews on a product before buying!!*
 
-
-If you suspect your microSD card is fake or damaged, see the instructions [here](https://wiki.hacks.guide/wiki/Checking_SD_card_integrity) to verify the integrity of your microSD card.
-
-
-
+If you suspect your microSD card is fake or damaged, see the instructions on the [hacks.guide Wiki](https://wiki.hacks.guide/wiki/Checking_SD_card_integrity) to verify the integrity of your microSD card.
 
 ## My Homebrew apps are not showing up in the Homebrew menu!
 
 This is an issue primarily affecting macOS users, but may occur on other devices as well. If you are able to launch the homebrew menu, but you are not seeing some or any of your Homebrew apps, you may need to unset the archive bit with hekate.
 
 1. Inject the hekate payload using your favorite payload injector.
-    - If you have a modchipped Switch, place the hekate payload on the root of your microSD card and rename it to payload.bin, reinsert your microSD card into your Switch and turn it on.
+    * If you have a modchipped Switch, place the hekate payload on the root of your microSD card and rename it to payload.bin, reinsert your microSD card into your Switch and turn it on.
 1. Press `Tools` on the top menu bar.
 1. In the bottom right corner, press `Arch Bit • AutoRCM • Touch • Pkg1/2`.
 1. Press `Fix Archive bit` - this might take a while.
 1. Press `Close` in the top right corner.
 1. Press `Home` in the top menu bar to get back from where you started.
-1. Follow the instructions at the Launching CFW page [here](user_guide/all/launching_cfw) to launch Atmosphère.
+1. Follow the instructions at the [Launching CFW](user_guide/all/launching_cfw) page to launch Atmosphère.

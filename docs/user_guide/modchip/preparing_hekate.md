@@ -10,11 +10,12 @@ Later in the guide, you will be formatting and/or partitioning your microSD card
 
 :::
 
-## What you need:
-- The latest release of [hekate](https://github.com/CTCaer/Hekate/releases/) (Download the `hekate_ctcaer_(version).zip` release of hekate)
-- Your microSD card
+## Section I - Requirements
 
-## Instructions:
+* The latest release of [hekate](https://github.com/CTCaer/Hekate/releases/) (Download the `hekate_ctcaer_(version).zip` release of hekate)
+* Your microSD card
+
+## Section II - Instructions
 
 1. Extract the hekate `.zip` to a location on your computer.
 1. Insert your microSD card into your computer.
@@ -25,7 +26,7 @@ Later in the guide, you will be formatting and/or partitioning your microSD card
 1. Insert your microSD card back into your Switch, then turn it on.
 1. You should now be loaded into the hekate GUI (Nyx), pictured below, within seconds.
     ![Nyx](../all/img/nyx.bmp){ width="600" }
-    - If you are unable to load into Nyx, consult the warning message below.
+    * If you are unable to load into Nyx, consult the warning message below.
 
 ::: warning
 
@@ -47,7 +48,7 @@ A: It is recommended that you use a microSD that is already formatted as FAT32 b
 
 **Q: What makes hekate the recommended choice in this guide?**
 
-A: hekate is a polished, multi-purpose bootloader for the Switch. It has the tools to facilitate simple usage of custom firmware and custom operating systems, and aids with organisation and formatting later on in this guide.
+A: hekate is a polished, multi-purpose bootloader for the Switch. It has the tools to facilitate simple usage of custom firmware and custom operating systems, and aids with organization and formatting later on in this guide.
 
 **Q: How do you pronounce "hekate"?**
 

@@ -18,20 +18,20 @@ Patched and Mariko units can be identified by their serial number. This number c
 
 ![Visual for System Settings serial location](../user_guide/img/getting_started_serial_location.jpg)
 
-![Visual for serial location on the bottom of console](../user_guide/img/serial_switch.png)    
+![Visual for serial location on the bottom of console](../user_guide/img/serial_switch.png)
 
 ## Determining if your Switch is vulnerable
 
 The community has crowdsourced a list of known serial numbers which are vulnerable to fusee-gelee.
 
-- If your serial number is on this list as "potentially patched", follow the notice directly after this list.
-- If your serial number is listed as "patched", there is nothing you can do besides installing a modchip (hardware modification. It __requires__ experience with microsoldering.).
+* If your serial number is on this list as "potentially patched", follow the notice directly after this list.
+* If your serial number is listed as "patched", there is nothing you can do besides installing a modchip (hardware modification. It **requires** experience with microsoldering.).
 
 ::: tip
 
 **Notice**
 
-If you are unsure if your serial is patched, you can test your console yourself following the instructions [here](rcm/sending_payload).
+If you are unsure if your serial is patched, you can test your console yourself following the instructions on the [sending RCM payload](rcm/sending_payload) page.
 
 :::
 
@@ -39,41 +39,41 @@ If you are unsure if your serial is patched, you can test your console yourself 
 
 The following information is based on [this GBATemp thread](https://gbatemp.net/threads/switch-informations-by-serial-number-read-the-first-post-before-asking-questions.481215/).
 
-|  Serial Numbers  | <span style="color:green">Unpatched</span> | <span style="color:orange">Potentially patched</span> | <span style="color:red">Patched</span> |
-| :----|:---------------------------------|:---------------------------------|:----------------------|
-| XAW1 | XAW10000000000 to XAW10074000000 | XAW10074000000 to XAW10120000000 | XAW10120000000 and up |
-| XAW4 | XAW40000000000 to XAW40011000000 | XAW40011000000 to XAW40012000000 | XAW40012000000 and up |
-| XAW7 | XAW70000000000 to XAW70017800000 | XAW70017800000 to XAW70030000000 | XAW70030000000 and up |
-| XAJ1 | XAJ10000000000 to XAJ10020000000 | XAJ10020000000 to XAJ10030000000 | XAJ10030000000 and up |
-| XAJ4 | XAJ40000000000 to XAJ40046000000 | XAJ40046000000 to XAJ40060000000 | XAJ40060000000 and up |
-| XAJ7 | XAJ70000000000 to XAJ70040000000 | XAJ70040000000 to XAJ70050000000 | XAJ70050000000 and up |
-| XAK1 | **N/A**                          | XAK10000000000 and up            | **N/A**               |
+| Serial Numbers | <span style="color:green">Unpatched</span> | <span style="color:orange">Potentially patched</span> | <span style="color:red">Patched</span> |
+| :------------- | :----------------------------------------- | :---------------------------------------------------- | :------------------------------------- |
+| XAW1           | XAW10000000000 to XAW10074000000           | XAW10074000000 to XAW10120000000                      | XAW10120000000 and up                  |
+| XAW4           | XAW40000000000 to XAW40011000000           | XAW40011000000 to XAW40012000000                      | XAW40012000000 and up                  |
+| XAW7           | XAW70000000000 to XAW70017800000           | XAW70017800000 to XAW70030000000                      | XAW70030000000 and up                  |
+| XAJ1           | XAJ10000000000 to XAJ10020000000           | XAJ10020000000 to XAJ10030000000                      | XAJ10030000000 and up                  |
+| XAJ4           | XAJ40000000000 to XAJ40046000000           | XAJ40046000000 to XAJ40060000000                      | XAJ40060000000 and up                  |
+| XAJ7           | XAJ70000000000 to XAJ70040000000           | XAJ70040000000 to XAJ70050000000                      | XAJ70050000000 and up                  |
+| XAK1           | **N/A**                                    | XAK10000000000 and up                                 | **N/A**                                |
 
 If your serial number is not listed above, your device is not vulnerable to the fusee-gelee exploit.
 
 ## Version Table
 
-| System Version | Unpatched Switch Systems     | Patched or Mariko Switch Systems |
-|:-----------------|:--------------------------------------|:---------------------------------|
-| 1.0.0 - 4.0.1            | [**RCM**](rcm/index)     | **N/A**                          |
-| 4.1.0    | [**RCM**](rcm/index)   | Caffeine                         |
-| 5.0.0+    | [**RCM**](rcm/index)               | [**Modchip**](modchip/index)                |
+| System Version | Unpatched Switch Systems | Patched or Mariko Switch Systems |
+| :------------- | :----------------------- | :------------------------------- |
+| 1.0.0 - 4.0.1  | [**RCM**](rcm/index)     | **N/A**                          |
+| 4.1.0          | [**RCM**](rcm/index)     | Caffeine                         |
+| 5.0.0+         | [**RCM**](rcm/index)     | [**Modchip**](modchip/index)     |
 
 ::: tip
 
 **About Mariko Switch models**
 
-All Mariko (V2) Switch models (`HAC-001(-01)`, `HDH-001`, `HEG-001`) are unhackable via software. If **Modchip** is listed as a method for your console model, then that means the device is unhackable without a hardware modification (modchip). This guide assumes you have a functional modchip installation if you *do* have a Patched console.
+All Mariko (V2) Switch models (`HAC-001(-01)`, `HDH-001`, `HEG-001`) are un-hackable via software. If **Modchip** is listed as a method for your console model, then that means the device is un-hackable without a hardware modification (modchip). This guide assumes you have a functional modchip installation if you *do* have a Patched console.
 
 :::
 
 ## **Console Preparation**
 
-### Important
+### Important Information
 
 Before setting up for homebrew, install at least one eShop title to utilize "title takeover", an Atmosphère feature that allows homebrew to use more resources than they would normally have. Try downloading a free game (like [Fallout Shelter](https://www.nintendo.com/games/detail/fallout-shelter-switch/)), application (like [YouTube](https://www.nintendo.com/games/detail/youtube-switch/)), or a game demo (like [10 Second Run RETURNS](https://www.nintendo.com/games/detail/10-second-run-returns-switch)). Running the Homebrew Menu via a game cartridge is an alternative, but requires the game to be inserted any time you want to launch the Homebrew Menu. Generally, title takeover doesn't permanently alter the donor game or application. <br> Once you obtain any bootable title, you are prepared to continue on with the guide.
 
------
+---
 
 ::: tip
 
@@ -93,11 +93,11 @@ Before setting up for homebrew, install at least one eShop title to utilize "tit
 
 ::: details Frequently Asked Questions about this page
 
-- **Q: How reliable is the crowdsourced list of vulnerable serial numbers, and what if my serial number is not listed?**
+* **Q: How reliable is the crowdsourced list of vulnerable serial numbers, and what if my serial number is not listed?**
 
     A: To our knowledge, there hasn't been a single console which has disproved the trends documented here. Unless your serial is potentially patched, you can be certain that the table is accurate to reality.
 
-- **Q: Why is it essential to install at least one eShop title before setting up homebrew, and what is "title takeover"?**
+* **Q: Why is it essential to install at least one eShop title before setting up homebrew, and what is "title takeover"?**
 
     A: By default, the homebrew menu and its apps inherit the resources of the Album applet. Applets don't have as many system resources as full apps, and as such have inconsistent behavior when used for homebrew purposes. Title takeover ensures the best performance, and is required for some homebrew.
 :::

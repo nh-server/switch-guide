@@ -18,6 +18,9 @@ export default defineConfig({
   },
   head: [['link', { rel: 'icon', href: '/img/favicon.ico' }]],
   themeConfig: {
+    outline: {
+      level: 'deep'
+    },
     docFooter: {
       prev: false,
       next: false
@@ -30,15 +33,10 @@ export default defineConfig({
   locales: {
     root: i18n.en_US
   },
+  cleanUrls: true,
   vite: {
     resolve: {
       alias: [
-        {
-          find: /^.*\/VPDocOutlineItem\.vue$/,
-          replacement: fileURLToPath(
-            new URL('./theme/components/VPDocOutlineItem.vue', import.meta.url)
-          )
-        },
         {
           find: /^.*\/VPFooter\.vue$/,
           replacement: fileURLToPath(
