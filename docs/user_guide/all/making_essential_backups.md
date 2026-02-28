@@ -35,8 +35,10 @@ On FAT32 formatted microSD cards or cards that have less than 32 gigabytes of sp
 
 hekate will stop producing these parts when it runs out of space. When this happens, do the following:
 
-1. Press `OK` when hekate tells you to back up your stuff.</br>
-    ![nandbackup](img/nandbackup.bmp){ width=600 }
+1. Press `OK` when hekate tells you to back up your stuff.
+
+    ![nandbackup](img/nandbackup.bmp)
+
 1. Press `Close` > `Close` > `USB Tools` > `SD Card` and connect your Switch to your PC via USB.
 1. Your microSD card should now be accessible on your PC, move the `backup` folder on the root of your microSD card to a safe location on your PC.
     * *If* you are prompted to merge folders, do so.

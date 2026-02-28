@@ -230,7 +230,7 @@ setup packet, of the following form:
 | --------- | :---------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------------ |
 | direction |                       1b                        | if '1', the device should respond with data                                                                                          |
 | type      |                       2b                        | specifies whether this request is of a standard type or not                                                                          |
-| recipient |                       5b                        | encodes the context in which this request should be considered; <br /> for example, is this about a `DEVICE` or about an `ENDPOINT`? |
+| recipient |                       5b                        | encodes the context in which this request should be considered;<br> for example, is this about a `DEVICE` or about an `ENDPOINT`?    |
 | request   |                       8b                        | specifies the request number                                                                                                         |
 | value     |                       16b                       | argument to the request                                                                                                              |
 | index     |                       16b                       | argument to the request                                                                                                              |
@@ -372,7 +372,7 @@ Accordingly, we now have:
 
   1. The capability to load arbitrary payloads into memory via RCM, as RCM only
      validates command signatures once payload receipt is complete.
-  1. The ability to copy attacker-controlled values over the execution stack,
+  2. The ability to copy attacker-controlled values over the execution stack,
      overwriting return addresses and redirecting execution to a location of our
      choice.
 

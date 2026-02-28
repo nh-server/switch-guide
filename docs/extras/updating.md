@@ -196,7 +196,7 @@ On Mariko ("V2") consoles, this method of dumping the sysMMC's firmware requires
 
 #### Updating your emuMMC's firmware with Daybreak
 
-1. In hekate go to `Launch -> Atmosphere PKG3 emuMMC`.
+1. In hekate go to `Launch` > `Atmosphere PKG3 emuMMC`.
 1. Once booted into your emuMMC, open the homebrew menu in applet mode by launching the gallery applet on your HOME menu.
     * Title takeover mode (holding `R` while launching any title on your HOME menu) also works, but isn't *required* for this process.
 1. Find Daybreak in the homebrew menu and launch it.
@@ -216,7 +216,7 @@ On Mariko ("V2") consoles, this method of dumping the sysMMC's firmware requires
 
 After updating your firmware, you might run into crashes due to incompatible [sysmodules](/homebrew/#terminologies). The following crashes are the most common ones, but is not an exhaustive list.
 
-* **Note:** hekate and fusee are both bootloaders, these bootloaders have different ways of presenting error screens to the user. Errors displayed by hekate will typically be yellow and errors displayed by fusee will typically be white.</br>
+* **Note:** hekate and fusee are both bootloaders, these bootloaders have different ways of presenting error screens to the user. Errors displayed by hekate will typically be yellow and errors displayed by fusee will typically be white.
 * Below you will find the way it's presented depending on how you normally boot into CFW.
 
 ### Custom theme crash

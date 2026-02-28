@@ -54,7 +54,7 @@ This page *does* contain a legacy guide for Android 10, which can be found in th
 
 ### Requirements
 
-* A Nintendo Switch console that is capable of running hekate. <br>
+* A Nintendo Switch console that is capable of running hekate.
 * A microSD card *larger than* 8GB.
     * Please consult the [Switchroot microSD Card Guide](https://wiki.switchroot.org/wiki/sd-card-guide) before buying!
 * A good quality, data-transfer capable USB-A to USB-C cable.

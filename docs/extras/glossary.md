@@ -32,9 +32,9 @@ The following list is in alphabetical order.
 | **qLaunch** | This is similar to the HOME Menu on the Nintendo 3DS. It serves as a launcher for many applets such as System Settings, the main home menu (ResidentMenu), User/Friends Page (myPage), Lock Screen (Entrance), News menu (Notification), and so on. |
 | **ReSwitched** | A hacking team that is one of the main developers for Atmosphère. |
 | **RCM** | A shorthand for "Recovery Mode". When talking about hacking the Switch, this commonly refers to the Recovery Mode in the Tegra X1 chip that is included in the Nintendo Switch. Can be entered by holding down the Tegra X1 home button. This button is not the same as the home button on the joycons. Ways of pressing this button can be found on the [Entering RCM guide](../user_guide/rcm/entering_rcm). |
-| **ROM** | "Read-only memory"; a section of data that cannot be modified once it is written. <br> Some forms of ROM can be rewritten under very specific scenarios, such as [EEPROM](https://en.wikipedia.org/wiki/EEPROM) (electronically-erasable/programmable ROM). |
+| **ROM** | "Read-only memory"; a section of data that cannot be modified once it is written. Some forms of ROM can be rewritten under very specific scenarios, such as [EEPROM](https://en.wikipedia.org/wiki/EEPROM) (electronically-erasable/programmable ROM). |
 | **[TegraRCMGUI](https://github.com/eliboa/TegraRcmGUI/releases)/[fusee-interface-tk](https://github.com/nh-server/fusee-interfacee-tk/releases)** | Software used to run the fusee-gelee exploit on the Switch. |
-| **Stock** | "Stock" generally refers to the original factory operation or state of something. <br> For example, stock firmware means the original operation of Horizon, not using CFW. |
+| **Stock** | "Stock" generally refers to the original factory operation or state of something. For example, stock firmware means the original operation of Horizon, not using CFW. |
 | **Tegra X1** | [A chip made by Nvidia that is used in the Nintendo Switch.](https://en.wikipedia.org/wiki/Tegra#Tegra_X1) |
 | **Trinket** | A category of modchip that is soldered on the Switch motherboard to automatically send a payload if it is in RCM. They are not necessarily always the Trinket brand, as this refers to the category of modchip. |
 | **TrustZone** | The highest security level on the Switch. |

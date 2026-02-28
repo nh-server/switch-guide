@@ -31,8 +31,6 @@ Depending on whether you are using a partition based emuMMC, file based emuMMC, 
 
 :::
 
-<br>
-
 ::::: tabs
 
 :::: tab default Partition based emuMMC
