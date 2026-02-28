@@ -1,4 +1,4 @@
-Copyright (c) 2024, Nintendo Homebrew
+Copyright (c) 2024-2026 Nintendo Homebrew
 
 Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
@@ -14,7 +14,7 @@ PERFORMANCE OF THIS SOFTWARE.
 
 Additionally, files in `docs/.vitepress` is licensed under the following:
 
-Copyright (c) 2024, Nintendo Homebrew
+Copyright (c) 2024 Nintendo Homebrew
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

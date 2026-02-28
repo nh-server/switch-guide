@@ -213,7 +213,7 @@ const themeConfig = {
 		],
 	},
 	footer: {
-		copyright: 'Copyright © 2025 Nintendo Homebrew',
+		copyright: 'Copyright © 2026 Nintendo Homebrew',
 		items: [
 			{ text: localeData.pages["about"], link: `/about` }
 		]
