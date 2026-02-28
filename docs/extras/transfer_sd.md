@@ -8,6 +8,12 @@ The goal of this page is to transfer the contents from one microSD card to anoth
 
 We will be using [hekate](https://github.com/CTCaer/hekate/releases/) to both backup and restore the emuMMC, so make sure that you have its latest files on your microSD card already.
 
+::: warning
+
+If you follow the steps on this guide and find that you are suddenly unable to open your homebrew or games due to "corrupted data", you likely need to unset archive bits on your SD card. Instructions for this process can be found on the [FAQ page](../faq.md#my-homebrew-apps-are-not-showing-up-in-the-homebrew-menu).
+
+:::
+
 ## Preparation
 
 You should first check whether you have a file or partition based emuMMC:

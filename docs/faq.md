@@ -135,7 +135,7 @@ If you suspect your microSD card is fake or damaged, see the instructions on the
 
 ## My Homebrew apps are not showing up in the Homebrew menu!
 
-This is an issue primarily affecting macOS users, but may occur on other devices as well. If you are able to launch the homebrew menu, but you are not seeing some or any of your Homebrew apps, you may need to unset the archive bit with hekate.
+This is an issue primarily affecting macOS users, but may occur on other devices as well. If you are able to launch the homebrew menu, but you are not seeing some or any of your Homebrew apps, you may need to unset archive bits with hekate.
 
 1. Inject the hekate payload using your favorite payload injector.
     * If you have a modchipped Switch, place the hekate payload on the root of your microSD card and rename it to payload.bin, reinsert your microSD card into your Switch and turn it on.
