@@ -283,7 +283,7 @@ If you still run into issues at this point, please ask for assistance in `#switc
 
 **Updating from below Atmosphère 1.0.0**
 
-If you update from below Atmosphère 1.0.0, there are additional steps to follow. You will have to delete the `sept` folder from your microSD, delete `fusee-secondary.bin` from your `atmosphere` folder and update your hekate config file: <a href="/files/emu/hekate_ipl.ini" download>hekate_ipl.ini</a> in the `bootloader` folder.
+If you update from below Atmosphère 1.0.0, there are additional steps to follow. You will have to delete the `sept` folder from your microSD, delete `fusee-secondary.bin` from your `atmosphere` folder and update your hekate config file: [hekate_ipl.ini](/files/emu/hekate_ipl.ini){download} in the `bootloader` folder.
 
 :::
 

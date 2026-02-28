@@ -12,7 +12,7 @@ You can configure Atmosphère to automatically redirect any requests directed to
 
 ### Section I - Requirements
 
-* The <a href="/files/emummc.txt" download>emummc.txt</a> file
+* The [emummc.txt](/files/emummc.txt){download} file
 * Atmosphère 0.18.0 or higher
 
 ### Section II - Installation

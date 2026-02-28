@@ -15,8 +15,8 @@ If you use Windows, you should enable file name extensions before continuing. Se
 ## Section I - Requirements
 
 * The latest release of [hekate](https://github.com/CTCaer/Hekate/releases/) (Download the `hekate_ctcaer_(version).zip` release of hekate)
-* The hekate config file: <a href="/files/emu/hekate_ipl.ini" download>hekate_ipl.ini</a>
-* The DNS.MITM DNS redirection config: <a href="/files/emummc.txt" download>emummc.txt</a>
+* The hekate config file: [hekate_ipl.ini](/files/emu/hekate_ipl.ini){download}
+* The DNS.MITM DNS redirection config: [emummc.txt](/files/emummc.txt){download}
 * The bootlogo zip folder: [bootlogos.zip](/files/bootlogos.zip)
 * The latest release of [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere/releases). Download the `atmosphere-(version)-master-(version)+hbl-(version)+hbmenu-(version).zip` release of Atmosphère.
 * The latest release of [JKSV](https://github.com/J-D-K/JKSV/releases) (Download the `JKSV.nro` release of JKSV)
