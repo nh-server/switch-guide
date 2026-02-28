@@ -127,9 +127,9 @@ Additionally, on a V1 "unpatched" Switch, you will need a way to access the ReCo
 
 **Bricking Risks**
 
-We ask that you acknowledge that EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. A brick is a damaged device that can no longer function; in other words, something that becomes "as useful as a brick".
+We ask that you acknowledge that EVERY time you modify your system, there is always the potential for an **UNRECOVERABLE** brick. A brick is a damaged device that can no longer function; in other words, something that becomes "as useful as a brick".
 
-Bricks are rare on the Nintendo Switch, but still a possibility — so make sure you read the directions CAREFULLY before performing them, and follow them EXACTLY.
+Bricks are rare on the Nintendo Switch, but still a possibility — so make sure you read the directions **CAREFULLY** before performing them, and follow them **EXACTLY**.
 
 Keep your device plugged in and charged throughout the entire process to avoid data loss or damage from an unexpected power-off.
 
