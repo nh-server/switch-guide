@@ -121,7 +121,7 @@ If you must use a smaller microSD card or don't wish to use an emuMMC, you can c
 
 Additionally, on a V1 "unpatched" Switch, you will need a way to access the ReCovery Mode (this will be further explained in the Entering RCM section of the guide). While possible with household tools, you may want to shell money out for a "jig" that inserts into the Joy-Con rail to reliably enable RCM.
 
-## What is important information I should know before proceeding?
+## What else should I know before proceeding?
 
 ::: danger
 
@@ -145,7 +145,7 @@ Custom firmware is **not** permanently installed and does not change anything on
 
 ::: tip
 
-**Assistance**
+**Getting Assistance**
 
 It is advised that you read the entire guide from start to finish one or more times before actually running through the guide with your system, to help with your understanding of the information provided.
 
