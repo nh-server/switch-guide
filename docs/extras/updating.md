@@ -65,7 +65,7 @@ Select the tab that best applies to your situation. Once you've successfully upd
 
 ::::: tabs
 
-:::: tab default Modchipped-console users
+:::: tab Modchipped-console users
 
 * **Modchipped-console users:** Boot hekate/Nyx, navigate to `Reboot` > `OFW` from hekate's `Home` menu and then update through `System Settings` > `System` > `System Update`.
     * **Note:** If you cannot boot `OFW`, please boot `Stock sysMMC` from hekate's `Launch` menu instead.
@@ -133,13 +133,13 @@ There are three supported methods of dumping your sysMMC's firmware, these metho
 
 ::::
 
-:::: tab default Dumping your firmware via nxdumptool
+:::: tab Dumping your firmware via nxdumptool
 
 #### Requirements
 
 * The latest release of [nxdumptool](https://github.com/DarkMatterCore/nxdumptool/releases) (`nxdt_rw_poc.nro`)
 
-#### Section I - Preparing your SD card
+#### Section I - Preparing your microSD card
 
 1. Boot into hekate.
 1. Go to `Tools` > `USB Tools` > `SD Card` and connect your Switch to your PC via USB.

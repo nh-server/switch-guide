@@ -30,7 +30,7 @@ SimpleModManager should not be used for some specific games like Super Smash Bro
 
 ## Section III - Usage
 
-1. Create a directory named `mods/<game name>/<mod name>/` on the root of the SD card.
+1. Create a directory named `mods/<game name>/<mod name>/` on the root of the microSD card.
     * What you put for the mod name does not have to align with anything, put whatever you like!
 1. Create the layeredFS directory for your mod that can be found on the [Game Modding](../extras/game_modding) page, skipping the `atmosphere` folder inside the `<mod name>` folder.
 1. Launch SimpleModManager via the Homebrew Menu and your games will show up, pressing A on them will show the mods available.

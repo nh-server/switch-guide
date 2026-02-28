@@ -38,7 +38,7 @@ If you're on a Chromebook, the following section may prove to be difficult. The 
 1. Navigate to the accessible drive (`SWITCH SD`).
 1. Copy *the contents of* the Atmosphère`.zip` file to the root of your microSD card.
 1. Copy the `bootloader` folder from the hekate `.zip` file to the root of your microSD card.
-    * Merge and/or replace the content already on your SD card with the files within the `.zip` file if asked to do so. On macOS, you will need to specifically select the `Merge` option if prompted.
+    * Merge and/or replace the content already on your microSD card with the files within the `.zip` file if asked to do so. On macOS, you will need to specifically select the `Merge` option if prompted.
 1. Copy the `bootloader` folder from the `bootlogos.zip` file to the root of your microSD card.
     * Merge the bootloader folders if asked to do so.
 1. Copy `hekate_ipl.ini` to the `bootloader` folder on your microSD card.
