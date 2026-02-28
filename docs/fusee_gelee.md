@@ -372,7 +372,7 @@ Accordingly, we now have:
 
   1. The capability to load arbitrary payloads into memory via RCM, as RCM only
      validates command signatures once payload receipt is complete.
-  2. The ability to copy attacker-controlled values over the execution stack,
+  1. The ability to copy attacker-controlled values over the execution stack,
      overwriting return addresses and redirecting execution to a location of our
      choice.
 
