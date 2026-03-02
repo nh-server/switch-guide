@@ -38,8 +38,15 @@ If your microSD card isn't showing up at all, ensure that you're using a USB cab
 
 ![hekate-partitioning-emu](img/hekate-partitioning-emu.png)
 
-::: tip
+::::: cards
 
-[Continue to SD Preparations](sd_preparation)
+:::: card
 
-:::
+Click the button below to continue to SD Preparations.
+
+<a href="sd_preparation" class="btn btn-solid">Continue to SD Preparations →</a>
+
+::::
+
+:::::
+

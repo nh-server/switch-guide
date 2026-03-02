@@ -16,11 +16,11 @@ Click the following link to continue to the official Switchroot documentation fo
 
 ::: tip
 
-[Install a Linux Distribution](https://wiki.switchroot.org/wiki/linux/linux-distributions)
+<a href="https://wiki.switchroot.org/wiki/linux/linux-distributions" class="btn btn-solid">Install a Linux Distribution →</a>
+
+**Note:** You can skip the partitioning mentioned in the Switchroot documentation. You already did this during the guide and do *not* have to do so again.
 
 :::
-
-* **Note:** You can skip the partitioning mentioned in the Switchroot documentation. You already did this during the guide and do *not* have to do so again.
 
 If you already have Linux fully installed, do not follow this guide, as your current installation would be erased.
 

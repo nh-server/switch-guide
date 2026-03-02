@@ -19,10 +19,12 @@ This page assumes that you've followed our guide to partition your microSD card 
 Click the following link to continue to the official LineageOS documentation for installing Android 15 (external link):
 
 ::: tip
-[Install Android 15](https://wiki.lineageos.org/devices/nx_tab/)
-:::
 
-* **Note:** You can skip the partitioning mentioned in the LineageOS documentation. You already did this during the guide and do *not* have to do so again.
+<a href="https://wiki.lineageos.org/devices/nx_tab/" class="btn btn-solid">Install Android 15 →</a>
+
+**Note:** You can skip the partitioning mentioned in the LineageOS documentation. You already did this during the guide and do *not* have to do so again.
+
+:::
 
 If you already have Android fully installed, do not follow this guide, as your current installation would be erased.
 

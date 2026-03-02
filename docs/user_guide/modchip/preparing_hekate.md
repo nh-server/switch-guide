@@ -34,11 +34,17 @@ If your Switch does not load into the hekate GUI, or shows a `No SD Card`/`No Pa
 
 :::
 
-::: tip
+::::: cards
 
-[Continue to choosing your CFW environment](../all/cfw_environment)
+:::: card
 
-:::
+Click the button below to continue to choosing your CFW environment.
+
+<a href="../all/cfw_environment" class="btn btn-solid">Continue to choosing your CFW environment →</a>
+
+::::
+
+:::::
 
 ::: details Frequently Asked Questions about this page
 

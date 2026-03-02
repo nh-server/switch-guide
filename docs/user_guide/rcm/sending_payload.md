@@ -117,7 +117,7 @@ If you experience issues with JTegraNX, you just want to try a different payload
 
 ::::
 
-:::: tab Mac
+:::: tab macOS
 
 ### Section I - Requirements
 
@@ -231,8 +231,14 @@ Later in the guide, you will be formatting and/or partitioning your microSD card
 
     ![Nyx](../all/img/nyx.bmp){ width="600" }
 
-::: tip
+::::: cards
 
-[Continue to choosing your CFW environment](../all/cfw_environment)
+:::: card
 
-:::
+Click the button below to continue to choosing your CFW environment.
+
+<a href="../all/cfw_environment" class="btn btn-solid">Continue to choosing your CFW environment →</a>
+
+::::
+
+:::::

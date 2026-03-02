@@ -20,8 +20,6 @@ For more information on terminology, please refer to the [glossary](../../extras
 
 **You get to decide!** Your choices are between using the internal storage or emulated storage. We will go over the advantages and disadvantages of either decision below.
 
----
-
 ::::: cards
 
 :::: card
@@ -68,7 +66,7 @@ This path of the guide ***also*** includes sysCFW as launch option.
 
 To proceed with CFW on **emuMMC**, click on the button below:
 
-[Continue with the emuMMC path](../all/partitioning_sd)
+<a href="../all/partitioning_sd" class="btn btn-solid">Continue with the emuMMC path →</a>
 
 :::
 
@@ -102,13 +100,11 @@ To proceed with CFW on **emuMMC**, click on the button below:
 
 If you prefer snappiness, online play, and a seamless transition between official features and custom features, you may consider using CFW on sysMMC. In this guide, sysMMC is assumed to be utilized for online play.
 
----
-
 ::: info
 
 To proceed with CFW on **sysMMC**, click on the button below:
 
-[Continue with the sysCFW path](../all/partitioning_sd_syscfw)
+<a href="../all/partitioning_sd_syscfw" class="btn btn-solid">Continue with the sysCFW path →</a>
 
 :::
 

@@ -145,8 +145,14 @@ Below you will find the full folder/file structure on your microSD card.
 
 ::::
 
-::: tip
+::::: cards
 
-[Continue to Making Essential Backups](making_essential_backups)
+:::: card
 
-:::
+Click the button below to continue to Making Essential Backups.
+
+<a href="making_essential_backups" class="btn btn-solid">Continue to Making Essential Backups →</a>
+
+::::
+
+:::::

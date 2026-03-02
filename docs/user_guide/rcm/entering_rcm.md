@@ -162,8 +162,14 @@ Here is an example from `sonlen` on our Discord server.
 
 :::::
 
-::: tip
+::::: cards
 
-[Continue to Sending a Payload](sending_payload)
+:::: card
 
-:::
+Click the button below to continue to Sending a Payload.
+
+<a href="sending_payload" class="btn btn-solid">Continue to Sending a Payload →</a>
+
+::::
+
+:::::

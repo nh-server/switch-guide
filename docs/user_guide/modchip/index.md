@@ -6,11 +6,11 @@ A modchip is a physical modification to the motherboard of your Switch. It canno
 
 ::: tip
 
-[Modchip Installation guide](https://guide.nx-modchip.info/)
-
-:::
+<a href="https://guide.nx-modchip.info/" class="btn btn-solid">Modchip Installation guide →</a>
 
 **Note:** The above guide is not hosted or supported by NH Server; we cannot provide support for reviving consoles ruined by inexperience.
+
+:::
 
 ## Information
 
@@ -48,21 +48,27 @@ If you do decide to follow the recommended emuMMC path later in the guide, make 
 
 **Disclaimer**
 
-We **ONLY** support the Picofly modchip (the `RP2040 Zero` development board and the "modchip variant" of it). Installing a modchip safely is your responsibility, so if you don't trust yourself, get someone trusted to perform the install.
+We **ONLY** support the Picofly modchip (`RP2040` microcontroller based development boards and "pre-made" modchips). 
+
+Installing a modchip safely is your responsibility, so if you don't trust yourself, get someone trusted to perform the install.
 
 There is always a risk of your Switch being rendered dysfunctional when messing with its hardware without proper experience.
-
-The NH-Discord server is not for fixing bad/failed modchip installations.
 
 We can give advice and installation tips for the installation as long as it's for a Picofly modchip.
 
 :::
 
-::: tip
+::::: cards
 
-[Continue to Preparing hekate](preparing_hekate)
+:::: card
 
-:::
+Click the button below to continue to Preparing hekate.
+
+<a href="preparing_hekate" class="btn btn-solid">Continue to Preparing hekate →</a>
+
+::::
+
+:::::
 
 ::: details Frequently Asked Questions about this page
 

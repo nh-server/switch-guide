@@ -1,4 +1,5 @@
 ---
+aside: false
 outline: false
 ---
 
@@ -86,17 +87,25 @@ If you wish to install more homebrew apps, place them (`.nro` files) in the `swi
 
 If you've partitioned your microSD card for preparation of Android/Linux earlier, you can continue with installing either operating system with the guides below:
 
-::: tip
+::::: cards
 
-[Android installation guide](../../extras/installing_android)
+:::: card
 
-:::
+Click the button below to continue to the Android installation guide!
 
-::: tip
+<a href="../../extras/installing_android" class="btn btn-solid">Android installation guide →</a>
 
-[Linux installation guide](../../extras/installing_linux)
+::::
 
-:::
+:::: card
+
+Click the button below to continue to the Linux installation guide!
+
+<a href="../../extras/installing_linux" class="btn btn-solid">Linux installation guide →</a>
+
+::::
+
+:::::
 
 ::: details Frequently Asked Questions about this page
 

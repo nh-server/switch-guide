@@ -119,7 +119,13 @@ If you choose the emuMMC path introduced later in the guide, you will also need 
 
 If you must use a smaller microSD card or don't wish to use an emuMMC, you can choose to use the sysCFW path instead.
 
-Additionally, on a V1 "unpatched" Switch, you will need a way to access the ReCovery Mode (this will be further explained in the Entering RCM section of the guide). While possible with household tools, you may want to shell money out for a "jig" that inserts into the Joy-Con rail to reliably enable RCM.
+Additionally, on a V1 "unpatched" Switch, you will need a way to access the ReCovery Mode (this will be further explained in the `Entering RCM` section of the guide). While *technically* possible with household items, we do not support this method of entering RCM, you will want to shell money out for an "RCM jig" that inserts into the right-hand Joy-Con rail to reliably enter RCM.
+
+### Important Information
+
+Before setting up for homebrew, install at least one eShop title to utilize "title takeover", an Atmosphère feature that allows homebrew to use more resources than they would normally have. Try downloading a free game (like [Fallout Shelter](https://www.nintendo.com/games/detail/fallout-shelter-switch/)), application (like [YouTube](https://www.nintendo.com/games/detail/youtube-switch/)), or a game demo (like [10 Second Run RETURNS](https://www.nintendo.com/games/detail/10-second-run-returns-switch)). Running the Homebrew Menu via a game cartridge is an alternative, but requires the game to be inserted any time you want to launch the Homebrew Menu. Generally, title takeover doesn't permanently alter the donor game or application.
+
+Once you obtain any launchable title, you are prepared to continue on with the guide.
 
 ## What else should I know before proceeding?
 
@@ -157,7 +163,7 @@ If your English isn't the best, use a translator such as [Google Translate](http
 
 ::: tip
 
-**Compatability**
+**Compatibility**
 
 This guide will work on first-generation (V1) and modchipped Switch consoles in all regions on any firmware version.
 
@@ -165,15 +171,19 @@ This guide will work on first-generation (V1) and modchipped Switch consoles in 
 
 ## Ready to start?
 
-If so, please follow the link below to proceed to the main guide.
+If so, please click the button below to proceed to the main guide.
 
-::: tip
+::::: cards
 
-[Continue to Getting Started](user_guide/getting_started)
+:::: card 
+
+<a href="user_guide/getting_started" class="btn btn-solid">Continue to Getting Started →</a>
 
 Once you have finished reading the above information, proceed to Get Started to determine your console exploitability, and resulting exploit method.
 
-:::
+::::
+
+:::::
 
 ---
 
@@ -199,10 +209,6 @@ Once you have finished reading the above information, proceed to Get Started to 
 
     A: The Switch will otherwise try to connect to Nintendo servers before starting apps, which can lead to unexpected delays and make emuMMCs completely unusable.
 
-* **Q: Can I follow this guide if I have a smaller microSD card, and what are the risks involved in choosing the sysCFW path?**
-
-    A: Nothing stops you from using sysCFW, but it is recommended for first-timers to get familiar with CFW by starting with an emuMMC. If used improperly, running sysCFW can cause software bricks and/or [bans](https://nx.eiphax.tech/ban.html).
-
 * **Q: Are there any specific restrictions or limitations imposed by Nintendo on consoles running custom firmware and homebrew?**
 
     A: Nintendo has shown a distinct tolerance for users using CFW while online. They **do not** ban for the presence of CFW, they ban for misbehavior - such as piracy or cheating online. Otherwise, you are treated like all other users.
@@ -210,5 +216,9 @@ Once you have finished reading the above information, proceed to Get Started to 
 * **Q: Is there any community support or forums recommended for users who may have questions or issues during the process?**
 
     A: Of course! As well as the [Nintendo Homebrew Discord server](https://discord.gg/C29hYvh), you can also try the [r/SwitchHacks subreddit](https://www.reddit.com/r/SwitchHacks/)!
+    
+* **Q: Why is it essential to install at least one eShop title before setting up homebrew, and what is "title takeover"?**
+
+    A: By default, the homebrew menu and its apps inherit the resources of the Album applet. Applets don't have as many system resources as full apps, and as such have inconsistent behavior when used for homebrew purposes. Title takeover ensures the best performance, and is required for some homebrew.
 
 :::

@@ -1,3 +1,8 @@
+---
+aside: false
+outline: false
+---
+
 # Making Essential Backups
 
 This guide will instruct you on how to create a NAND backup of your Nintendo Switch.
@@ -51,21 +56,25 @@ hekate will stop producing these parts when it runs out of space. When this happ
 
 ## Booting into CFW
 
-::: tip
+::::: cards
 
-Click the link below to continue to Launching **emuMMC**!
+:::: card
 
-[Launching CFW (emuMMC)](launching_cfw?tab=instructions-for-emummc)
+Click the button below to continue to Launching **emuMMC**!
 
-:::
+<a href="launching_cfw?tab=instructions-for-emummc" class="btn btn-solid">Launching CFW (emuMMC) →</a>
 
-::: tip
+::::
 
-Click the link below to continue to Launching **sysCFW**!
+:::: card
 
-[Launching CFW (sysCFW)](launching_cfw?tab=instructions-for-syscfw)
+Click the button below to continue to Launching **sysCFW**!
 
-:::
+<a href="launching_cfw?tab=instructions-for-syscfw" class="btn btn-solid">Launching CFW (sysCFW) →</a>
+
+::::
+
+:::::
 
 ::: details Frequently Asked Questions about this page
 

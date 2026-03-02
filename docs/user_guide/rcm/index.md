@@ -4,11 +4,17 @@ RCM (short for **R**e**C**overy **M**ode) is a pre-boot mode for Tegra processor
 
 If you choose the emuMMC path introduced later in the guide, it'll be important to disable the [Automatic Save Data Cloud](https://en-americas-support.nintendo.com/app/answers/detail/a_id/41209) function beforehand, as well as making sure [the Switch is set as the primary Pass-Enabled console](https://en-americas-support.nintendo.com/app/answers/detail/a_id/41221/~/how-to-set-or-change-the-primary-nintendo-switch-console-for-a-nintendo-account).
 
-::: tip
+::::: cards
 
-[Continue to Entering RCM](entering_rcm)
+:::: card
 
-:::
+Click the button below to continue to Entering RCM.
+
+<a href="entering_rcm" class="btn btn-solid">Continue to Entering RCM →</a>
+
+::::
+
+:::::
 
 ::: details Frequently Asked Questions about this page
 
