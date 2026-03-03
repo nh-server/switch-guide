@@ -1,6 +1,9 @@
 ---
 aside: false
 outline: false
+head: [
+    ['script', {src: '/scripts/ssnc.js'}]
+]
 ---
 
 # Getting Started
@@ -32,7 +35,7 @@ The community has crowdsourced a list of known serial numbers which are vulnerab
 ::: info
 
 Enter your Switch serial number to check if it's exploitable via RCM:
-<SerialChecker />
+<!-- @include: @/_internal/serialNumberChecker.html -->
 
 :::
 
