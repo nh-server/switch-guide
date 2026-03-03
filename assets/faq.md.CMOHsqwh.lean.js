@@ -1,0 +1,1 @@
+import{_ as t,o,c as a,ai as i}from"./chunks/framework.Di2lRXru.js";const m=JSON.parse('{"title":"FAQ","description":"","frontmatter":{},"headers":[],"relativePath":"faq.md","filePath":"faq.md"}'),n={name:"faq.md"};function r(s,e,h,l,d,c){return o(),a("div",null,[...e[0]||(e[0]=[i("",42)])])}const p=t(n,[["render",r]]);export{m as __pageData,p as default};
