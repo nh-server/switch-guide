@@ -1,0 +1,104 @@
+<div class="serial-checker">
+    <div class="serial-input-row">
+        <select id="serial-prefix">
+            <optgroup label="XAW (World/Global)">
+                <option>XAW1</option>
+                <option>XAW4</option>
+                <option>XAW7</option>
+                <option>XAW9</option>
+            </optgroup>
+            <optgroup label="XAJ (Japan)">
+                <option>XAJ1</option>
+                <option>XAJ4</option>
+                <option>XAJ7</option>
+            </optgroup>
+            <optgroup label="XAK (Korea)">
+                <option>XAK1</option>
+            </optgroup>
+            <optgroup label="Mariko (not hackable via software)">
+                <option>XKW1</option>
+                <option>XKJ1</option>
+                <option>XJW0</option>
+                <option>XWW0</option>
+            </optgroup>
+            <optgroup label="Switch 2 (not hackable)">
+                <option>HAE1</option>
+                <option>HAJ1</option>
+                <option>HAK1</option>
+                <option>HAW1</option>
+            </optgroup>
+        </select>
+        <input
+        id="serial-digits"
+        type="text"
+        placeholder="0000000000"
+        maxlength="10"
+        inputmode="numeric"
+        />
+    </div>
+    <p class="serial-hint">Select your Switch serial number prefix from the dropdown menu, then enter the digits that follow. You only need the first 6 digits.</p>
+    <div id="serial-result" class="serial-result-hidden">
+        <strong id="serial-result-serial"></strong> —
+        <span id="serial-result-text"></span>
+    </div>
+</div>
+
+<style>
+.serial-checker {
+  margin: 0.75rem 0;
+}
+.serial-input-row {
+  display: flex;
+  gap: 0.5rem;
+}
+.serial-input-row select {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 6px;
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  font-size: 1rem;
+  font-family: monospace;
+}
+.serial-input-row input {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--vp-c-border);
+  border-radius: 6px;
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-1);
+  font-size: 1rem;
+  font-family: monospace;
+  box-sizing: border-box;
+}
+.serial-hint {
+  margin-top: 0.4rem;
+  font-size: 0.85rem;
+  color: var(--vp-c-text-2);
+}
+#serial-result {
+  margin-top: 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  border-left: 4px solid;
+}
+#serial-result.tip {
+  background: rgba(0, 180, 0, 0.1);
+  border-color: #00b400;
+  color: var(--vp-c-text-1);
+}
+#serial-result.warning {
+  background: var(--vp-custom-block-warning-bg);
+  border-color: var(--vp-custom-block-warning-border);
+  color: var(--vp-custom-block-warning-text);
+}
+#serial-result.danger {
+  background: var(--vp-custom-block-danger-bg);
+  border-color: var(--vp-custom-block-danger-border);
+  color: var(--vp-custom-block-danger-text);
+}
+
+.serial-result-hidden {
+    display: none!important;
+}
+</style>
