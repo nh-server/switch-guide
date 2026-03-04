@@ -9,6 +9,8 @@ function initSerialChecker() {
 
   function checkSerial(s) {
     if (s.match(/^X[KJWT][JWCE]/)) return 'mariko';
+    if (s.match(/^XAW[9]/)) return 'refurb';
+    if (s.match(/^XAK[1]/)) return 'krmaybe';
     if (s.match(/^HA[JKWE]/)) return 'switch2';
     if (!s.match(/^XA[JKW9][1479]/)) return 'invalid';
 
@@ -60,13 +62,14 @@ function initSerialChecker() {
   }
 
   const messages = {
-    mariko:    { type: 'warning', text: 'This appears to be a <strong>Mariko (V2) Switch or Switch Lite</strong>. These are patched and not hackable via software, only via hardware modchip. Find trusted hardmodders <a href="https://nintendohomebrew.com/hardmodders">here</a>.' },
-    switch2:   { type: 'danger',  text: 'This appears to be a <strong>Switch 2</strong>. These are currently not hackable.' },
-      refurb:   { type: 'warning',  text: 'This prefix belongs to officially <strong>refurbished Switch</strong> consoles, it <strong>might be patched</strong>. The only way to know for sure is to manually push a payload. Continue to <a href="/user_guide/rcm/sending_payload.html">this page</a>.' },
-      maybe:     { type: 'warning', text: 'This serial <strong>might be patched</strong>. The only way to know for sure is to manually push a payload. Continue to <a href="/user_guide/rcm/sending_payload.html">this page</a>.' },
-      patched:   { type: 'danger',  text: 'This serial is <strong>patched</strong>. It is not hackable via software. Find trusted hardmodders <a href="https://nintendohomebrew.com/hardmodders">here</a>.' },
-      unpatched: { type: 'tip',     text: 'This serial is <strong>not patched</strong>! Click the following link to continue with the <a href="rcm/index">RCM path</a> of the guide.' },
-      invalid:   { type: 'danger',  text: 'This serial is <strong>invalid</strong>. Double-check you typed it correctly. At minimum, provide 6 digits after the prefix.' },
+    mariko:      { type: 'danger', text: 'This appears to be a <strong>Mariko (V2) Switch or Switch Lite</strong>. These are patched and not hackable via software, only via hardware modchip. Find trusted hardware modders <a href="https://nintendohomebrew.com/hardmodders">here</a>.' },
+    switch2:     { type: 'danger',  text: 'This appears to be a <strong>Switch 2</strong>. These are currently not hackable.' },
+    refurb:      { type: 'warning', text: 'This prefix belongs to officially <strong>refurbished Switch</strong> consoles, it <strong>might be patched</strong>. The only way to know for sure is to manually push a payload. Continue to <a href="/user_guide/rcm/sending_payload.html">this page</a>.' },
+    krmaybe: { type: 'warning', text: 'This serial <strong>might be patched</strong>. The only way to know for sure is to manually push a payload. Continue to <a href="/user_guide/rcm/sending_payload.html">this page</a>.' },
+    maybe:       { type: 'warning', text: 'This serial <strong>might be patched</strong>. The only way to know for sure is to manually push a payload. Continue to <a href="/user_guide/rcm/sending_payload.html">this page</a>.' },
+    patched:     { type: 'danger',  text: 'This serial is <strong>patched</strong>. It is not hackable via software. Find trusted hardware modders <a href="https://nintendohomebrew.com/hardmodders">here</a>.' },
+    unpatched:   { type: 'tip',     text: 'This serial is <strong>not patched</strong>! Click the following link to continue with the <a href="rcm/index">RCM path</a> of the guide.' },
+    invalid:     { type: 'danger',  text: 'This serial is <strong>invalid</strong>. Double-check you typed it correctly. At minimum, provide 6 digits after the prefix.' },
   }
 
   function redact(s) {
@@ -80,26 +83,19 @@ function initSerialChecker() {
     result.classList = type;
   }
 
-
   function serialChangeEvent() {
     const d = digits.value.replace(/\D/g, '');
     const s = (prefix.value + d).toUpperCase();
 
     const earlyCheck = checkSerial(s.padEnd(14, 'X'));
-    if (earlyCheck === 'mariko' || earlyCheck === 'switch2') {
+    if (earlyCheck === 'mariko' || earlyCheck === 'switch2' || earlyCheck === 'refurb' || earlyCheck === 'krmaybe') {
+      digits.disabled = true;
+      digits.value = '';
       outputResult(prefix.value + "…", messages[earlyCheck]);
       return;
     }
 
-    if (prefix.value === 'XAW9') {
-      outputResult(prefix.value + "…", messages.refurb);
-      return;
-    }
-
-    if (prefix.value === 'XAK1') {
-      outputResult(prefix.value + "…", messages.maybe);
-      return;
-    }
+    digits.disabled = false;
 
     if (d.length < 6) {
       result.classList = "serial-result-hidden";
