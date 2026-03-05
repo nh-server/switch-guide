@@ -8,7 +8,7 @@ outline: false
 A "CFW Environment" describes the context in which you are using custom firmware (CFW).
 As a reminder, custom firmware is never permanently installed, and runs independently on top of the system firmware. This means that you never have to commit to where you want to use custom firmware.
 
-Atmosphère temporarily patches HOS (HorizonOS, operating system of the switch) to enable customizations. You can choose what version of HOS it patches, each time you turn on your system. Each option has its own benefits and drawbacks.
+Atmosphère temporarily patches HOS (HorizonOS, the operating system of the Switch) to enable customizations. You can choose what version of HOS it patches, each time you turn on your system. Each option has its own benefits and drawbacks.
 
 * For the purposes of this guide, the suffix -NAND and -MMC are interchangeable.
 
