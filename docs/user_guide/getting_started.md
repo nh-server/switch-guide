@@ -53,6 +53,7 @@ The following information is based on [this GBATemp thread](https://gbatemp.net/
 | XAJ1           | XAJ10000000000 to XAJ10020000000           | XAJ10020000000 to XAJ10030000000                      | XAJ10030000000 and up                  |
 | XAJ4           | XAJ40000000000 to XAJ40044000000           | XAJ40044000000 to XAJ40083000000                      | XAJ40083000000 and up                  |
 | XAJ7           | XAJ70000000000 to XAJ70040000000           | XAJ70040000000 to XAJ70050000000                      | XAJ70050000000 and up                  |
+| XAJ9           | **N/A**                                    | XAW90000000000 and up                                 | **N/A**                                |
 | XAK1           | **N/A**                                    | XAK10000000000 and up                                 | **N/A**                                |
 
 If your serial number is not listed above, your device is not vulnerable to the fusee-gelee exploit.
