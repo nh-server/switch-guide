@@ -9,8 +9,8 @@ function initSerialChecker() {
 
   function checkSerial(s) {
     if (s.match(/^X[KJWT][JWCE]/)) return 'mariko';
-    if (s.match(/^XAW[9]/)) return 'refurb';
-    if (s.match(/^XAK[1]/)) return 'krmaybe';
+    if (s.match(/^XA[JW][9]/)) return 'refurb';
+    if (s.match(/^XAK[1479]/)) return 'krmaybe';
     if (s.match(/^HA[JKWE]/)) return 'switch2';
     if (!s.match(/^XA[JKW9][1479]/)) return 'invalid';
 
