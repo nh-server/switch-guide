@@ -7,9 +7,9 @@ outline: false
 
 Now that the preparation work is out of the way, we're finally ready to launch custom firmware on the Switch.
 
-Unlike systems such as the DSi, Wii, or 3DS, Switch CFW is currently volatile (nonpersistent).
+Unlike systems such as the DSi, Wii, or 3DS, Switch CFW is volatile (nonpersistent).
 
-It will only work as long as your Switch is on. As soon as your Switch completely loses power for any reason (shutting down, battery dying, etc.), CFW will no longer be active and you will need to enter RCM and inject the hekate payload if you wish to boot into CFW again (only relevant for users with unpatched consoles).
+It will only stay as long as your Switch is on and in CFW. As soon as your Switch completely turns off, or exits CFW for any reason (shutting down, battery dying, booting stock etc.), CFW will no longer be active. If you wish to boot into CFW again, with an unpatched console you will need to enter RCM and inject the hekate payload while with a modchip, you only need to power the console on and the modchip will inject the payload.
 
 ::: danger
 
@@ -38,6 +38,8 @@ If you wish to set up an extra method of blocking Nintendo's servers on your emu
 
 ![Atmosphere version string](img/launching_cfw_atmosphere_version_string2.jpg)
 
+* **Note:** The `y.y.y` is where your system version would be. The `x.x.x` after the `AMS` is where your Atmosphere version would be.
+
 ::::
 
 :::: tab Instructions for sysCFW
@@ -53,6 +55,7 @@ Hekate is now booting into sysCFW. To verify that sysCFW launched properly, open
 
 ![Atmosphere version string](img/launching_cfw_atmosphere_version_string3.jpg)
 
+* **Note:** The `y.y.y` is where your system version would be. The `x.x.x` after the `AMS` is where your Atmosphere version would be.
 ::::
 
 :::::
@@ -61,19 +64,19 @@ Hekate is now booting into sysCFW. To verify that sysCFW launched properly, open
 
 **Rebooting to Hekate**
 
-Once booted into CFW, you can easily get back to Hekate by holding the power button, and selecting `Restart` in the power menu or by using the "reboot to payload" homebrew app in the homebrew menu. (Note that while the Reboot to Payload *app* app does *not* work on modchipped Switch consoles, those already automatically run payloads upon reboot in the first place by default.)
+Once booted into CFW, you can easily get back to Hekate by using the "reboot to payload" homebrew app in the homebrew menu, or by holding the power button, and then selecting `Restart` in the power menu. (Note that while the Reboot to Payload app does *not* work on modchipped Switch consoles. Those consoles already automatically run payloads upon reboot.)
 
 :::
 
 ## Launching the Homebrew Menu
 
-You will now be able to launch the Homebrew Menu by opening the album or by holding the `R` button while launching any game (including demos/cartridges), or application (e.g. YouTube/Hulu). If `R` is not held, the game or application will launch like normal.
+You will now be able to launch the Homebrew Menu by opening the album (called "applet mode") or by holding the `R` button while launching any game (including demos/cartridges), or application (e.g. YouTube/Hulu) (called "title override"). If `R` is not held, the game or application will launch like normal.
 
 ::: warning
 
 **A note about using the album for the Homebrew Menu**
 
-* Using Album for the Homebrew Menu instead of a game or application has several limitations, including but not limited to: a smaller amount of available memory (RAM), as well as being unable to launch a full-featured web browser. It is strongly recommended to launch homebrew through applications or games instead.
+* Using the Album for the Homebrew Menu instead of a game or application has several limitations, including but not limited to: much less available memory (RAM), as well as being unable to launch a full-featured web browser. It is recommended to launch homebrew through applications or games instead.
 
 :::
 
