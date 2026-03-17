@@ -8,6 +8,12 @@ This page documents how you can keep your system up-to-date.
 
 After following our guide, your system will consist of three core elements that can be updated. Atmosphère, hekate and your system firmware.
 
+::: danger
+
+As of March 17th, 2026, Atmosphère does not support 22.0.0 and above. Is it not recommended to follow this guide until Atmosphère receives an update.
+
+:::
+
 ## Updating Atmosphère
 
 When updating Atmosphère, always make sure to *read the release notes*. They may list important changes and modifications to your system.
