@@ -8,6 +8,12 @@ This page documents how you can keep your system up-to-date.
 
 After following our guide, your system will consist of three core elements that can be updated. Atmosphère, hekate and your system firmware.
 
+::: danger
+
+As of March 17th, 2026, Atmosphère does not support 22.0.0 and above. Is it not recommended to follow this guide until Atmosphère receives an update.
+
+:::
+
 ## Updating Atmosphère
 
 When updating Atmosphère, always make sure to *read the release notes*. They may list important changes and modifications to your system.
@@ -88,8 +94,10 @@ Your sysMMC and emuMMC have separate system firmware versions and need to be upd
 If you keep your emuMMC offline, you have 3 options:
 
 1. You can dump the currently installed firmware version from your sysMMC
-1. You can dump the firmware from another Switch you own
+1. You can dump the firmware from another modded Switch you own
+1. You can use the "Match Version with Local Users" feature to send a system update from another Switch (Requires both systems to have the same game on the home menu)
 1. You can use a gamecard to update your firmware (keep in mind that no gamecard contains the latest available firmware version at the time of writing)
+
 
 Only the first option is covered in the steps below.
 

@@ -36,9 +36,9 @@ Additionally, we are not currently, historically, or will ever be, associated wi
 
 As of January 26th, 2026, the sole maintainer of Atmosphère, SciresM, has announced that they are [retiring from the public hacking scene](https://gist.github.com/SciresM/e760b192d873af67ce8f0f5c7000a651). Since they have retired, Atmosphère updates will likely take longer to release when future Nintendo Switch firmware updates arrive. What this means is that, currently, firmware version `21.2.0` is the latest (officially) supported firmware, without any potential uncertainty.
 
-Users should be cautious when considering updating past firmware version `21.2.0`. Atmosphère may not function on newer firmware versions if Nintendo implements any major changes.
+Users should be cautious when considering updating to firmware version `22.0.0` or newer. As of March 17, 2026, Atmosphère does not function on this versions.
 
-In addition, due to the longer duration between updates, there is a large likelihood of **potentially dangerous** Atmosphère forks coming into existence. Users are advised **NOT** to use these forks, and should wait for proper Atmosphère updates from team members that are trusted and knowledgeable.
+In addition, due to the longer duration between updates, there is a large likelihood of **potentially dangerous** Atmosphère forks coming into existence for these versions. Users are advised **NOT** to use these forks, and should wait for proper Atmosphère updates from team members that are trusted and knowledgeable.
 
 :::
 
