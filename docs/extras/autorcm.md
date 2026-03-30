@@ -8,7 +8,7 @@ AutoRCM causes the console to believe it is bricked, and will automatically laun
 
 **If you don't have a BOOT0/1 backup yet...**
 
-You really want to kill your console, huh? If you haven't made a BOOT0/1 backup yet, it is recommended to make one **right now**.
+If you haven't made a BOOT0/1 backup yet, it is recommended to make one **right now**. Please follow the steps below to do so:
 
 1. Boot into hekate.
 1. Go to `Tools`, and select `Backup eMMC`.

@@ -1,17 +1,5 @@
 # Introduction to Modchips
 
-## Prerequisites
-
-A modchip is a physical modification to the motherboard of your Switch. It cannot be installed without decent microsoldering experience. You can outsource this work to people who are willing to do the job for you, or you can also view the following guide if you are willing to install one yourself.
-
-::: tip
-
-<a href="https://guide.nx-modchip.info/" class="btn btn-solid">Modchip Installation guide →</a>
-
-**Note:** The above guide is not hosted or supported by NH Server; we cannot provide support for reviving consoles ruined by inexperience.
-
-:::
-
 ## Information
 
 Unlike "unpatched" consoles, modchips enable CFW via CPU voltage glitching, which bypass bootROM firmware verifications. It allows a ``payload.bin`` file to be launched in place of BOOT0, loaded via a modchip firmware module named `sdloader`. This is much different from RCM and its exploit, [fusee-gelee](https://github.com/Qyriad/fusee-launcher/blob/master/report/fusee_gelee.md), which "unpatched" consoles use.
@@ -19,7 +7,7 @@ Modchips allow any console, including all patched consoles, to run CFW!
 
 ## General knowledge
 
-Patched Switch consoles (consoles produced after mid-2018) are immune to the fusee-gelee exploit in RCM. Attempting to inject a payload on a Patched console will be unsuccessful.
+Patched Switch consoles (consoles produced after mid-2018) are immune to the fusee-gelee exploit in RCM. Attempting to inject a payload via RCM on a Patched console will be unsuccessful.
 
 Depending on your modchip's firmware, you may not be able to boot the console without a microSD card inserted.
 This means without a microSD inserted at all times, your Switch becomes *unusable*. The likelihood of the Switch becoming *unusable* is small, but still possible. To know if your modchip and its firmware support the bypassing of the firmware module `sdloader`, consult the "**About modchips and their firmware versions**" section below.
