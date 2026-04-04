@@ -135,6 +135,12 @@ If you experience issues with JTegraNX, you just want to try a different payload
 1. Connect your Switch in RCM to your PC using the USB cable, make sure it's also detected in CrystalRCM.
 1. Once selected, click `Push!`. The payload should now be injected successfully.
     * If your payload was successfully injected your switch should have yellow text that says "Update bootloader folder!", this will be resolved soon.
+      
+::: warning
+
+If the progress bar in CrystalRCM appears to be stuck at about 75% for a long time and your Switch screen stays black, your device is likely patched. You will need to install a modchip to continue.
+
+:::
 
 ::::
 
