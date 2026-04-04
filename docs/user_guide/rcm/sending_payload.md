@@ -226,7 +226,7 @@ Later in the guide, you will be formatting and/or partitioning your microSD card
 1. Inside the extracted hekate folder you will find a folder named `bootloader`.
 1. Copy the `bootloader` folder to the root of your microSD card.
 1. Put your microSD card back into your Switch.
-1. Press any button to continue to the hekate menu.
+1. Press either volume button or power to continue to the hekate menu.
 1. Use volume up and volume down to navigate the hekate menu. Hover over 'load nyx' and press the power button to select. Your screen should now have the hekate GUI (Nyx) pictured below.
 
     ![Nyx](../all/img/nyx.bmp){ width="600" }
