@@ -14,7 +14,7 @@ NX-Shell is a file manager.
 
 :::
 
-More information can be found on the [NX-Shell GitHub](https://github.com/DefenderOfHyrule/NX-Shell/releases) repository.
+More information can be found on the [NX-Shell GitHub](https://github.com/DefenderOfHyrule/NX-Shell/) repository.
 
 ## NX-Shell screenshots
 
