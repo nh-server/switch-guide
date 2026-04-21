@@ -22,7 +22,7 @@ If you use Windows, you should enable file name extensions before continuing. Se
 * The latest release of [JKSV](https://github.com/J-D-K/JKSV/releases) (Download the `JKSV.nro` release of JKSV)
 * The latest release of [FTPD](https://github.com/mtheall/ftpd/releases) (Download the `ftpd.nro` release of FTPD)
 * The latest release of [NXThemesInstaller](https://github.com/exelix11/SwitchThemeInjector/releases) (Download the `NXThemesInstaller.nro` release of NXThemesInstaller)
-* The latest release of [NX-Shell](https://github.com/joel16/NX-Shell/releases) (Download the `NX-Shell.nro` release of nx-shell)
+* The latest release of [NX-Shell](https://github.com/DefenderOfHyrule/NX-Shell/releases) (Download the `NX-Shell.nro` release of nx-shell)
 * The latest release of [Goldleaf](https://github.com/XorTroll/Goldleaf/releases) (Download the `Goldleaf.nro` release of Goldleaf)
 
 ::: danger
