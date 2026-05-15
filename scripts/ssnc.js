@@ -78,7 +78,7 @@ function initSerialChecker() {
         return 'patched';
       } else if (assemblyLine === 4) {
         if (checkingValue < 4001100) return 'unpatched';
-        if (checkingValue < 4001200) return 'maybe';
+        if (checkingValue < 4001250) return 'maybe';
         return 'patched';
       } else if (assemblyLine === 7) {
         if (checkingValue < 7001750) return 'unpatched';
