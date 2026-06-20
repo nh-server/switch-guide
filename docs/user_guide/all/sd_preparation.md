@@ -60,7 +60,7 @@ Putting the `emummc.txt` file provided by this guide into `/atmosphere/hosts` wi
 
 **Issue with Windows**
 
-Windows often sets unintended archive bits on folders when copying to FAT32, which the switch can't interpret properly. To fix these unintended archive bits do this on the Switch:
+Windows often sets unintended archive bits on folders when copying to FAT32, which the Switch can't interpret properly. To fix these unintended archive bits do this on the Switch:
 
 Boot into Hekate, then press Tools ➜ Arch bit • RCM Touch • Pkg1/2 ➜ Fix Archive Bit.
 
