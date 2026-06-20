@@ -56,6 +56,16 @@ Putting the `emummc.txt` file provided by this guide into `/atmosphere/hosts` wi
 
 :::
 
+::: warning
+
+**Issue with Windows**
+
+Windows often sets unintended archive bits on folders when copying to FAT32, which the switch can't interpret properly. To fix these unintended archive bits do this on the Switch:
+
+Boot into Hekate, then press Tools ➜ Arch bit • RCM Touch • Pkg1/2 ➜ Fix Archive Bit.
+
+:::
+
 :::: tip
 
 Your microSD card should look similar to the image below. The `Nintendo` folder will not be present if your Switch has not already booted with the microSD card inserted and the `emuMMC` folder will not be present if you're following the sysCFW path of the guide/you haven't created an emuMMC! The `payload.bin` file will not be present if you're using an unpatched Switch, as it's only for modchipped console users.
