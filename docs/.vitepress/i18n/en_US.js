@@ -36,7 +36,6 @@ const themeConfig = {
 					{ text: localeData.pages["extras/adding_udev"], link: `/extras/adding_udev` },
 					{ text: localeData.pages["extras/showing_file_extensions"], link: `/extras/showing_file_extensions` },
 					{ text: localeData.pages["extras/alternate_bootsetups"], link: `/extras/alternate_bootsetups` },
-					{ text: localeData.pages["extras/rcm_injectors"], link: `/extras/rcm_injectors` },
 					{ text: localeData.pages["extras/updating"], link: `/extras/updating` },
 					{ text: localeData.pages["extras/transfer_sd"], link: `/extras/transfer_sd` },
 					{ text: localeData.pages["extras/installing_android"], link: `/extras/installing_android` },
