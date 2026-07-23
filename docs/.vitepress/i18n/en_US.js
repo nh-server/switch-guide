@@ -56,7 +56,7 @@ const themeConfig = {
 					{ text: localeData.pages["homebrew/ftpd"], link: `/homebrew/ftpd` },
 					{ text: localeData.pages["homebrew/nxtheme-installer"], link: `/homebrew/nxtheme-installer` },
 					{ text: localeData.pages["homebrew/nx-shell"], link: `/homebrew/nx-shell` },
-					{ text: localeData.pages["homebrew/edizon"], link: `/homebrew/edizon` },
+					{ text: localeData.pages["homebrew/breeze"], link: `/homebrew/breeze` },
 					{ text: localeData.pages["homebrew/simplemodmanager"], link: `/homebrew/simplemodmanager` },
 					{ text: localeData.pages["homebrew/tesla-menu"], link: `/homebrew/tesla-menu` },
 					{ text: localeData.pages["homebrew/mission-control"], link: `/homebrew/mission-control` },

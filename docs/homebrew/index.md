@@ -22,7 +22,7 @@ Homebrew apps are stored in `sd:/switch` by default and Homebrew sysmodules are 
 
 ### Additional Homebrew apps/sysmodules
 
-* [EdiZon](edizon) (sysmodule and Homebrew app)
+* [Breeze](breeze) (sysmodule and Homebrew app)
 * [SimpleModManager](simplemodmanager) (Homebrew app)
 * [Tesla-Menu](tesla-menu) (sysmodule)
 * [MissionControl](mission-control) (sysmodule)
