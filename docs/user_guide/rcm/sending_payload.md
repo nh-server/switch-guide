@@ -123,7 +123,7 @@ If you experience issues with OmniRCM or you just want to try a different payloa
 ### Section II - Instructions
 
 1. Set up the [udev rule](https://switch.hacks.guide/extras/adding_udev.html) for rootless injections
-    * This is nesscesary unless you wish to run your browser as root every time you want to inject. 
+    * This is necessary unless you wish to run your browser as root every time you want to inject. 
 1. Head over to https://omnircm.nintendohomebrew.com/web/
 1. Connect your Switch in RCM to your PC using the USB cable.
 1. Click on `Connect device...` and select `APX`.
