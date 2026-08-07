@@ -37,7 +37,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 1. Click the Green `► Inject Payload` button
     * If your payload was successfully injected your switch should have yellow text that says "Update bootloader folder!", this will be resolved soon.
 
-If you experience issues with OmniRCM or you just want to try a different payload injector, you can check out the web injector by unfolding the section below.
+If you experience issues with driver installation or you just want to try a different payload injector, you can check out TegraRcmGUI and Zadig sections by unfolding them below.
 
 ::: details Alternative payload injector for Windows {closed}
 
