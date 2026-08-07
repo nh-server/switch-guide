@@ -88,19 +88,13 @@ Follow these steps if you face issues when installing the driver with OmniRCM. Y
 ### Section II - Instructions
 
 1. Download and open OmniRCM.
-
     ::: details If you cannot open the executable... {closed}
-
     You'll need to make the executable executable if your file manager doesn't allow you to run the executable from your file manager directly. To do this, follow the instructions below:
-
     1. Open a terminal window,
-    1. Enter the following command: chmod +x /path/to/OmniRCM-linux-(architecture) (replacing /path/to with the actual path to the executable).
+    1. Enter the following command: `chmod +x /path/to/OmniRCM-linux-(architecture)` (replacing /path/to with the actual path to the executable).
     1. You should now be able to double click the app to open it from your file manager.
-    
     - **Note:** most file managers *do* allow you to make a file executable by right clicking the file and going to Properties > Permissions (or similar) > Allow executing file as program. The process is roughly the same for all Linux distributions.
-
     :::
-
 1. Connect your Switch in while it's in RCM to your PC using the USB cable.
 1. Click the red `Setup udev` button near the top of the OmniRCM window.
 1. Fill in your root password in the dialogue box that appears.
