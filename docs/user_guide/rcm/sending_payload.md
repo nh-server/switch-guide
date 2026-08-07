@@ -37,7 +37,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 1. Click the Green `► Inject Payload` button
     * If your payload was successfully injected your switch should have yellow text that says "Update bootloader folder!", this will be resolved soon.
 
-If you experience issues with OmniRCM or you just want to try a different payload injector, you can check out JTegraNX by unfolding the section below.
+If you experience issues with OmniRCM or you just want to try a different payload injector, you can check out the web injector by unfolding the section below.
 
 ::: details Alternative payload injector for Windows {closed}
 
@@ -111,9 +111,7 @@ Note: most file managers do allow you to make a file executable by right clickin
 
 ---
 
-If you experience issues with JTegraNX, you just want to try a different payload injector or you don't want to use Java, you can check out fusee-nano by unfolding the section below.
-
-* **Note:** fusee-nano has a tendency to simply not work on *some* system configurations for unknown reasons. Please keep this in mind.
+If you experience issues with OmniRCM or you just want to try a different payload injector, you can check out the web injector by unfolding the section below.
 
 ::: details Alternative payload injector for Linux {closed}
 
@@ -154,6 +152,29 @@ If you experience issues with JTegraNX, you just want to try a different payload
 1. Click the Green `► Inject Payload` button
     * If your payload was successfully injected your switch should have yellow text that says "Update bootloader folder!", this will be resolved soon.
 
+---
+
+If you experience issues with OmniRCM or you just want to try a different payload injector, you can check out the web injector by unfolding the section below.
+
+::: details Alternative payload injector for macOS {closed}
+
+### Section I - Requirements
+
+* A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
+* A Chromium based browser (ex. Chrome, Brave, etc..)
+
+### Section II - Instructions
+
+1. Head over to https://omnircm.nintendohomebrew.com/web/
+1. Connect your Switch in RCM to your PC using the USB cable.
+1. Click on `Connect device...` and select `APX`.
+1. Download the Hekate payload by clicking the button labeled `hekate_ctcaer_*.bin`.
+1. Click on `Add payload...` and select the Hekate payload you downloaded in the previous step.
+1. Click the Blue `Inject` button.
+    * If your payload was successfully injected your switch should have yellow text that says "Update bootloader folder!", this will be resolved soon.
+
+:::
+
 ::::
 
 :::: tab Android
@@ -175,6 +196,29 @@ If you experience issues with JTegraNX, you just want to try a different payload
 1. Select the `hekate` payload.
 1. Tap on the `Inject` button.
     * If your payload was successfully injected your switch should have yellow text that says "Update bootloader folder!", this will be resolved soon.
+
+---
+
+If you experience issues with OmniRCM or you just want to try a different payload injector, you can check out the web injector by unfolding the section below.
+
+::: details Alternative payload injector for macOS {closed}
+
+### Section I - Requirements
+
+* A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
+* A Chromium based browser (ex. Chrome, Brave, etc..)
+
+### Section II - Instructions
+
+1. Head over to https://omnircm.nintendohomebrew.com/web/
+1. Connect your Switch in RCM to your PC using the USB cable.
+1. Click on `Connect device...` and select `APX`.
+1. Download the Hekate payload by clicking the button labeled `hekate_ctcaer_*.bin`.
+1. Click on `Add payload...` and select the Hekate payload you downloaded in the previous step.
+1. Click the Blue `Inject` button.
+    * If your payload was successfully injected your switch should have yellow text that says "Update bootloader folder!", this will be resolved soon.
+
+:::
 
 ::::
 
