@@ -150,6 +150,12 @@ If you experience issues with OmniRCM or you just want to try a different payloa
 1. Select the `hekate` payload.
 1. Click the Green `► Inject Payload` button
     * If your payload was successfully injected your switch should have yellow text that says "Update bootloader folder!", this will be resolved soon.
+      
+::: warning
+
+If the progress bar in CrystalRCM appears to be stuck at about 75% for a long time and your Switch screen stays black, your device is likely patched. You will need to install a modchip to continue.
+
+:::
 
 ---
 
