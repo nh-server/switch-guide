@@ -126,8 +126,7 @@ If you experience issues with OmniRCM or you just want to try a different payloa
 1. Head over to https://omnircm.nintendohomebrew.com/web/
 1. Connect your Switch in RCM to your PC using the USB cable.
 1. Click on `Connect device...` and select `APX`.
-1. Download the hekate payload by clicking the button labeled `hekate_ctcaer_*.bin`.
-1. Click on `Add payload...` and select the hekate payload you downloaded in the previous step.
+1. Click the hekate entry in the payload list.
 1. Click the Blue `Inject` button.
     * If your payload was successfully injected your switch should have yellow text that says "Update bootloader folder!", this will be resolved soon.
 
@@ -167,8 +166,7 @@ If you experience issues with OmniRCM or you just want to try a different payloa
 1. Head over to https://omnircm.nintendohomebrew.com/web/
 1. Connect your Switch in RCM to your PC using the USB cable.
 1. Click on `Connect device...` and select `APX`.
-1. Download the hekate payload by clicking the button labeled `hekate_ctcaer_*.bin`.
-1. Click on `Add payload...` and select the hekate payload you downloaded in the previous step.
+1. Click the hekate entry in the payload list.
 1. Click the Blue `Inject` button.
     * If your payload was successfully injected your switch should have yellow text that says "Update bootloader folder!", this will be resolved soon.
 
@@ -212,8 +210,7 @@ If you experience issues with OmniRCM or you just want to try a different payloa
 1. Head over to https://omnircm.nintendohomebrew.com/web/
 1. Connect your Switch in RCM to your Android device using the USB cable.
 1. Click on `Connect device...` and select `APX`.
-1. Download the hekate payload by clicking the button labeled `hekate_ctcaer_*.bin`.
-1. Click on `Add payload...` and select the hekate payload you downloaded in the previous step.
+1. Click the hekate entry in the payload list.
 1. Click the Blue `Inject` button.
     * If your payload was successfully injected your switch should have yellow text that says "Update bootloader folder!", this will be resolved soon.
 
@@ -266,8 +263,7 @@ If your Chromebook has a USB-C port, do note that this will not work using a C-C
 1. Head over to https://omnircm.nintendohomebrew.com/web/
 1. Connect your Switch in RCM to your PC using the USB cable.
 1. Click on `Connect device...` and select `APX`.
-1. Download the hekate payload by clicking the button labeled `hekate_ctcaer_*.bin`.
-1. Click on `Add payload...` and select the hekate payload you downloaded in the previous step.
+1. Click the hekate entry in the payload list.
 1. Click the Blue `Inject` button.
     * If your payload was successfully injected your switch should have yellow text that says "Update bootloader folder!", this will be resolved soon.
 
@@ -279,7 +275,7 @@ If your Chromebook has a USB-C port, do note that this will not work using a C-C
 
 **If nothing happens after you send the payload**
 
-If your console's screen remains black after you've sent hekate (or any other payload), it's possible your payload was corrupted, or that your console is patched. If your payload injector program shows that zero or 0x0000 bytes were sent, then it is patched. This isn't a one-time glitch or up for debate; it is patched. Consider an alternate method that isn't via RCM.
+If your console's screen remains black after you've sent hekate (or any other payload), it's possible your payload was corrupted, or that your console is patched. If your payload injector shows that your console is patched, then it is patched. This isn't a one-time glitch or up for debate; it is patched. All results are basically fully confident. Consider an alternate method that isn't via RCM.
 
 :::
 
