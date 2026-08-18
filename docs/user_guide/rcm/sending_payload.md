@@ -29,7 +29,7 @@ Now that the device is in RCM, we will need to send it a payload. The methods ar
 
 1. Download and open OmniRCM.
     * If you get a SmartScreen popup, click `More info` and click `Run anyway`.
-1. Connect your Switch in while it's in RCM to your PC using the USB cable.
+1. Connect your Switch while it's in RCM to your PC using the USB cable.
 1. Click the red `Install Driver` button near the top of the window.
     * If you face issues when installing the driver, follow the driver installation with [Zadig](#optional---driver-installation-with-zadig) section below.
 1. Under `Payloads`, click the `↓ Update` button to fetch the remote payloads.
@@ -95,7 +95,7 @@ Follow these steps if you face issues when installing the driver with OmniRCM. Y
     1. You should now be able to double click the app to open it from your file manager.
     - **Note:** most file managers *do* allow you to make a file executable by right clicking the file and going to Properties > Permissions (or similar) > Allow executing file as program. The process is roughly the same for all Linux distributions.
     :::
-1. Connect your Switch in while it's in RCM to your PC using the USB cable.
+1. Connect your Switch while it's in RCM to your PC using the USB cable.
 1. Click the red `Setup udev` button near the top of the OmniRCM window.
 1. Fill in your root password in the dialogue box that appears.
 1. Click `Install`
@@ -144,7 +144,7 @@ If you experience issues with OmniRCM or you just want to try a different payloa
 1. Download the latest release of OmniRCM.
 1. Extract the `OmniRCM-osx.zip` archive somewhere (if needed, usually automatic).
 1. Use Finder to open `OmniRCM.app`.
-1. Connect your Switch in while it's in RCM to your PC using the USB cable.
+1. Connect your Switch while it's in RCM to your PC using the USB cable.
 1. Under `Payloads`, click the `↓ Update` button to fetch the remote payloads.
 1. Select the `hekate` payload.
 1. Click the Green `► Inject Payload` button
@@ -187,7 +187,7 @@ If you experience issues with OmniRCM or you just want to try a different payloa
 
 1. Install the `OmniRCM-android.apk` file.
 1. Open the app from your Home menu.
-1. Connect your Switch in while it's in RCM to your Android device using the USB cable.
+1. Connect your Switch while it's in RCM to your Android device using the USB cable.
 1. Allow OmniRCM to access the APX device. (either temporarily or permanently)
 1. Tap on the `Fetch Payloads` button to fetch the remote payloads.
 1. Select the `hekate` payload.
@@ -236,7 +236,7 @@ If you experience issues with OmniRCM or you just want to try a different payloa
 1. Navigate to `OmniRCM` > `Utilities` > `OmniRCM` and tap `GET`.
 1. Install the app from the queue. In `Sileo`, this is in the bottom right of your screen.
 1. Open the app.
-1. Connect your Switch in while it's in RCM to your Phone using the USB cable.s
+1. Connect your Switch while it's in RCM to your Phone using the USB cable.s
 1. Tap on the `Fetch Payloads` button to fetch the remote payloads.
 1. Select the `hekate` payload.
 1. Tap on the `Inject` button.
