@@ -31,6 +31,7 @@
         "extras/updating": "Updating CFW",
         "faq": "FAQ",
         "homebrew": "Homebrew",
+        "homebrew/controllers": "Unofficial Controllers",
         "multiple-options": "Multiple Options",
         "user_guide/all/cfw_environment": "CFW on sysMMC vs. CFW on emuMMC",
         "user_guide/all/launching_cfw": "Launching CFW",

@@ -50,6 +50,7 @@ const themeConfig = {
 				text: localeData.pages["homebrew"],
 				link: `/homebrew/`,
 				items: [
+					{ text: localeData.pages["homebrew/controllers"], link: `/homebrew/controllers` },
 				]
 			},
 			sidebar_common
