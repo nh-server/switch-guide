@@ -14,7 +14,7 @@ If you use Windows, you should enable file name extensions before continuing. Se
 
 ## Section I - Requirements
 
-* The latest release of [hekate](https://github.com/CTCaer/Hekate/releases/) (Download the `hekate_ctcaer_(version).zip` release of hekate)
+* The latest release of [hekate](https://github.com/CTCaer/Hekate/releases/) (Download the `hekate_ctcaer_(version)_Nyx_(version).zip` release of hekate)
 * The hekate config file: [hekate_ipl.ini](/files/emu/hekate_ipl.ini){download}
 * The DNS.MITM DNS redirection config: [emummc.txt](https://nintendohomebrew.com/assets/emummc.txt){download}
 * The bootlogo zip folder: [bootlogos.zip](/files/bootlogos.zip)
