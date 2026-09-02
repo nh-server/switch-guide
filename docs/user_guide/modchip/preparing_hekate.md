@@ -12,7 +12,7 @@ Later in the guide, you will be formatting and/or partitioning your microSD card
 
 ## Section I - Requirements
 
-* The latest release of [hekate](https://github.com/CTCaer/Hekate/releases/) (Download the `hekate_ctcaer_(version).zip` release of hekate)
+* The latest release of [hekate](https://github.com/CTCaer/Hekate/releases/) (Download the `hekate_ctcaer_(version)_Nyx_(version).zip` release of hekate)
 * Your microSD card
 
 ## Section II - Instructions

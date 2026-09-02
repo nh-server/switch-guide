@@ -45,7 +45,7 @@ You need at least 30GB (or 60GB if using an OLED Switch) of free space to be abl
 
 ## Section I - Requirements
 
-* The latest version of [hekate](https://github.com/CTCaer/Hekate/releases/) (`hekate_ctcaer_(version).zip`).
+* The latest version of [hekate](https://github.com/CTCaer/Hekate/releases/) (`hekate_ctcaer_(version)_Nyx_(version).zip`).
 
 ## Section II - Instructions for Old microSD card
 
@@ -84,7 +84,7 @@ You need at least 30GB (or 60GB if using an OLED Switch) of free space to be abl
 
 ## Section I - Requirements
 
-* The latest version of [hekate](https://github.com/CTCaer/Hekate/releases/) (`hekate_ctcaer_(version).zip`).
+* The latest version of [hekate](https://github.com/CTCaer/Hekate/releases/) (`hekate_ctcaer_(version)_Nyx_(version).zip`).
 
 ## Section II - Instructions for Old microSD card
 
