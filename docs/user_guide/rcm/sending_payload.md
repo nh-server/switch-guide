@@ -46,7 +46,7 @@ If you experience issues with driver installation or you just want to try a diff
 
 * The latest release of [TegraRCMGUI](https://github.com/eliboa/TegraRcmGUI/releases)
 * A USB-A to USB-C cable (or a standard USB-C cable if your computer natively supports USB-C)
-* The latest release of [hekate](https://github.com/CTCaer/hekate/releases/). The hekate payload (`hekate_ctcaer_(version)_nyx_(version).bin`) is located inside of the `hekate_ctcaer_(version).zip`.
+* The latest release of [hekate](https://github.com/CTCaer/hekate/releases/). The hekate payload (`hekate_ctcaer_(version).bin`) is located inside of the `hekate_ctcaer_(version)_Nyx_(version).zip`.
 
 ### Section II - Instructions
 
@@ -302,7 +302,7 @@ Later in the guide, you will be formatting and/or partitioning your microSD card
 
 ### Section I - Requirements
 
-* The latest release of [hekate](https://github.com/CTCaer/hekate/releases/) (`hekate_ctcaer_(version)_nyx_(version).zip`).
+* The latest release of [hekate](https://github.com/CTCaer/hekate/releases/) (`hekate_ctcaer_(version)_Nyx_(version).zip`).
 * Your microSD card
 
 ### Section II - Instructions
