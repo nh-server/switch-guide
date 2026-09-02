@@ -32,7 +32,7 @@ When a new version of hekate releases, you can update by following these steps:
 1. Enter RCM and inject the hekate payload.
     * If you use a modchipped Switch, you can simply just turn your Switch on with the hekate payload renamed to `payload.bin` on the root of your microSD card.
 1. Navigate to `Tools` > `USB Tools` > `SD Card` and plug your Switch into your PC via USB.
-1. Download the latest version of [hekate](https://github.com/CTCaer/Hekate/releases/) (Download the `hekate_ctcaer_(version).zip` release of hekate).
+1. Download the latest version of [hekate](https://github.com/CTCaer/Hekate/releases/) (Download the `hekate_ctcaer_(version)_Nyx_(version).zip` release of hekate).
 1. Copy the `bootloader` folder from the hekate `.zip` file to the root of your microSD card. If you are asked to overwrite or merge files while copying, say yes to merge/overwrite them.
 1. Eject the `UMS` device safely from within your computer's operating system.
 1. Go back to hekate's main menu and press `Reload` > `Reload` to reload hekate from your microSD card.
