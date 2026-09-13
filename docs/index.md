@@ -8,6 +8,12 @@ hero:
     src: "/img/home-page-feature.jpg"
 ---
 
+<script setup>
+import FirmwareCompatibilityChecker from './_internal/FirmwareCompatibilityChecker.vue'
+</script>
+
+<FirmwareCompatibilityChecker />
+
 ::: tip
 
 <span style="font-size: 16px;">:clock1: **Estimated Completion Time: 1 Hour**</span>
