@@ -69,7 +69,14 @@ function formatDate(iso) {
       <span class="fw-compat-dot" :class="overallTone"></span>
       <div>
         <div class="fw-compat-title">{{ headerTitle }}</div>
-        <div class="fw-compat-sub">{{ headerSub }}</div>
+        <div class="fw-compat-sub">
+          {{ headerSub }}
+          <template v-if="hasData && overallTone === 'ok'">
+            You can follow
+            <a href="https://switch.hacks.guide/extras/updating" target="_blank" rel="noopener">this page</a>
+            to update Atmosphère and hekate.
+          </template>
+        </div>
       </div>
     </div>
 
