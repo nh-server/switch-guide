@@ -86,6 +86,11 @@ See the [Homebrew](../../homebrew/index) tab for information about what the incl
 
 If you wish to install more homebrew apps, place them (`.nro` files) in the `switch` folder on your microSD card.
 
+### Donations
+
+If you appreciate our guides or the Nintendo Homebrew Discord server and would like to show your support, we accept [Donations](contribute#donations).
+
+
 ## Installing Android/Linux
 
 If you've partitioned your microSD card for preparation of Android/Linux earlier, you can continue with installing either operating system with the guides below:

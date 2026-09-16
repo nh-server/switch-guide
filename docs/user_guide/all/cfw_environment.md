@@ -28,7 +28,7 @@ For more information on terminology, please refer to the [glossary](../../extras
 
 #### CFW on emuMMC has the following benefits
 
-* No risk of bans as long as emuMMC remains offline from Nintendo [[info]](https://nx.eiphax.tech/ban.html))
+* No risk of bans as long as emuMMC remains offline from Nintendo [[info]](https://nx.eiphax.tech/ban))
 * A safe area to test dangerous or risky mods and homebrew
 * No chance of bricking and losing console-unique information while using CFW
 
@@ -87,7 +87,7 @@ To proceed with CFW on **emuMMC**, click on the button below:
 #### The following drawbacks
 
 * A brick risk for risky behaviors, especially for modchip users [[info]](#modchip-instability)
-* A Nintendo server ban risk for misbehavior [[info]](https://nx.eiphax.tech/ban.html)
+* A Nintendo server ban risk for misbehavior [[info]](https://nx.eiphax.tech/ban)
 * No possibility of custom profile pictures (guaranteed ban)
 
 #### In particular, here are just *some* popular use-cases for sysCFW
