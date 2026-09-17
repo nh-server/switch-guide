@@ -60,7 +60,7 @@ Maintaining this guide (as well as our support channels) is primarily a voluntee
 
 ::: tip
 
-[![Paypal](../img/paypal_white.png)](https://paypal.me/NintendoHomebrew){style="display: block;text-align: center"}
+[![Paypal](img/paypal_white.png)](https://paypal.me/NintendoHomebrew){style="display: block;text-align: center"}
 
 [https://paypal.me/NintendoHomebrew](https://paypal.me/NintendoHomebrew){style="display: block;text-align: center"}
 
