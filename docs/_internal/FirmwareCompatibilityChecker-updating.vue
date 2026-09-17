@@ -72,9 +72,7 @@ function formatDate(iso) {
         <div class="fw-compat-sub">
           {{ headerSub }}
           <template v-if="hasData && overallTone === 'ok'">
-            You can follow
-            <a href="https://switch.hacks.guide/extras/updating" target="_blank" rel="noopener">this page</a>
-            to update Atmosphère and hekate.
+            You can follow the rest of this page to update Atmosphère, hekate and your firmware.
           </template>
         </div>
       </div>

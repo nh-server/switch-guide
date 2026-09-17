@@ -86,10 +86,13 @@ See the [Homebrew](../../homebrew/index) tab for information about what the incl
 
 If you wish to install more homebrew apps, place them (`.nro` files) in the `switch` folder on your microSD card.
 
-### Donations
+-----
 
-If you appreciate our guides or the Nintendo Homebrew Discord server and would like to show your support, we accept [Donations](contribute#donations).
+<script setup>
+import DonationBox from '../../_internal/DonationBox.vue'
+</script>
 
+<DonationBox />
 
 ## Installing Android/Linux
 

@@ -53,3 +53,15 @@ Thank you to [everyone else](https://github.com/nh-server/switch-guide/graphs/co
 ![Nintendo Homebrew](img/nh.jpg)
 
 :::
+
+## Donations
+
+Maintaining this guide (as well as our support channels) is primarily a volunteer effort, so if this guide has helped you in some way, donations are greatly appreciated!
+
+::: tip
+
+[![Paypal](../img/paypal_white.png)](https://paypal.me/NintendoHomebrew){style="display: block;text-align: center"}
+
+[https://paypal.me/NintendoHomebrew](https://paypal.me/NintendoHomebrew){style="display: block;text-align: center"}
+
+:::

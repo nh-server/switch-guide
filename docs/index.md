@@ -8,12 +8,6 @@ hero:
     src: "/img/home-page-feature.jpg"
 ---
 
-<script setup>
-import FirmwareCompatibilityChecker from './_internal/FirmwareCompatibilityChecker.vue'
-</script>
-
-<FirmwareCompatibilityChecker />
-
 ::: tip
 
 <span style="font-size: 16px;">:clock1: **Estimated Completion Time: 1 Hour**</span>
@@ -159,7 +153,13 @@ If your English isn't the best, use a translator such as [Google Translate](http
 
 **Compatibility**
 
-This guide will work on first-generation (V1) and modchipped Switch consoles in all regions on any firmware version.
+This guide will work on first-generation (V1) unpatched and modchipped Switch consoles in all regions on any firmware version (as long as Atmosphère and hekate support the latest firmware version). If this is not the case, it's not the end of the world, and you will just need to wait out the remaining time for Atmosphère and hekate to have been updated. You can view the current compatibility status below:
+
+<script setup>
+import FirmwareCompatibilityChecker from './_internal/FirmwareCompatibilityChecker.vue'
+</script>
+
+<FirmwareCompatibilityChecker />
 
 :::
 

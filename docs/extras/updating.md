@@ -8,6 +8,16 @@ This page documents how you can keep your system up-to-date.
 
 After following our guide, your system will consist of three core elements that can be updated. Atmosphère, hekate and your system firmware.
 
+Below, you will be able to check whether Atmosphère and hekate support the latest firmware update or not.
+
+## Atmosphère and hekate compatibility
+
+<script setup>
+import FirmwareCompatibilityChecker from '../_internal/FirmwareCompatibilityChecker-updating.vue'
+</script>
+
+<FirmwareCompatibilityChecker />
+
 ## Updating Atmosphère
 
 When updating Atmosphère, always make sure to *read the release notes*. They may list important changes and modifications to your system.
@@ -41,7 +51,7 @@ When a new version of hekate releases, you can update by following these steps:
 
 ## Updating your firmware
 
-Always check *before* updating your system firmware if the latest version of Atmosphère *as well* as the latest version of hekate support the firmware version you are updating towards.
+Always check *before* updating your system firmware if the latest version of Atmosphère *as well* as the latest version of hekate support the firmware version you are updating towards. You can do this by checking the [update compatibility checker](#atmosphere-and-hekate-compatibility) near the top of this page.
 
 ### Section I - Updating your sysMMC's firmware
 
