@@ -162,6 +162,15 @@ Here is an example from `sonlen` on our Discord server.
 
 :::::
 
+::: warning
+
+**Reminder**
+
+Remember, once you confirm your console is in RCM, you can take >
+It is no longer needed, as it is used only for entering RCM.
+
+:::
+
 ::::: cards
 
 :::: card
