@@ -2,6 +2,13 @@
 outline: false
 ---
 
+<script setup>
+import dnsmitmWarning from '../_internal/dnsmitmWarning.vue'
+import FirmwareCompatibilityChecker from '../_internal/FirmwareCompatibilityChecker-updating.vue'
+</script>
+
+<dnsmitmWarning />
+
 # Keeping your system up-to-date
 
 This page documents how you can keep your system up-to-date.
@@ -12,9 +19,6 @@ Below, you will be able to check whether Atmosphère and hekate support the late
 
 ## Atmosphère and hekate compatibility
 
-<script setup>
-import FirmwareCompatibilityChecker from '../_internal/FirmwareCompatibilityChecker-updating.vue'
-</script>
 
 <FirmwareCompatibilityChecker />
 
