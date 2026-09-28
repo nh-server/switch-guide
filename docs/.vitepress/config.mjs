@@ -8,7 +8,7 @@ import { defineConfig } from 'vitepress'
 
 import container from 'markdown-it-container'
 
-import * as i18n from './i18n'
+import * as i18n from './i18n/index.mjs'
 
 export default defineConfig({
   title: "NH Switch Guide",
