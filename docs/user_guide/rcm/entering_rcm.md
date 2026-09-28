@@ -166,7 +166,7 @@ Here is an example from `sonlen` on our Discord server.
 
 **Reminder**
 
-Remember, once you confirm your console is in RCM, you can take >
+Remember, once you confirm your console is in RCM, you can take out your jig if you are using one.
 It is no longer needed, as it is used only for entering RCM.
 
 :::
