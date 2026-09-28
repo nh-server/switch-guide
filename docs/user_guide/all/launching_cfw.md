@@ -3,6 +3,13 @@ aside: false
 outline: false
 ---
 
+<script setup>
+import DonationBox from '../../_internal/DonationBox.vue'
+import dnsmitmWarning from '../../_internal/dnsmitmWarning.vue'
+</script>
+
+<dnsmitmWarning />
+
 # Launching CFW
 
 Now that the preparation work is out of the way, we're finally ready to launch custom firmware on the Switch.
@@ -87,10 +94,6 @@ See the [Homebrew](../../homebrew/index) tab for information about what the incl
 If you wish to install more homebrew apps, place them (`.nro` files) in the `switch` folder on your microSD card.
 
 -----
-
-<script setup>
-import DonationBox from '../../_internal/DonationBox.vue'
-</script>
 
 <DonationBox />
 
