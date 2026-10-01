@@ -1,35 +1,46 @@
 <script setup>
 import { data } from './firmwareCompatibility.data.js'
 
-function compareVersions(a, b) {
-  if (!a || !b) return null
-  const pa = a.split('.').map(Number)
-  const pb = b.split('.').map(Number)
-  for (let i = 0; i < 3; i++) {
-    const diff = (pa[i] || 0) - (pb[i] || 0)
-    if (diff !== 0) return diff
-  }
-  return 0
+function firmwareSeries(version) {
+  if (!version) return null
+
+  const match = version.match(/^(\d+\.\d+)/)
+
+  return match ? match[1] : null
 }
 
 function statusFor(supportedFirmware, currentFirmware) {
-  if (!supportedFirmware || !currentFirmware) {
+  const supportedSeries = firmwareSeries(supportedFirmware)
+  const currentSeries = firmwareSeries(currentFirmware)
+
+  if (!supportedSeries || !currentSeries) {
     return { label: 'Unable to determine', tone: 'unknown' }
   }
-  const diff = compareVersions(supportedFirmware, currentFirmware)
-  if (diff === null) return { label: 'Unable to determine', tone: 'unknown' }
-  return diff >= 0
-    ? { label: 'Supports current firmware', tone: 'ok' }
-    : { label: `Supports up to ${supportedFirmware} only`, tone: 'warn' }
+
+  if (supportedSeries === currentSeries) {
+    return { label: 'Supports current firmware', tone: 'ok' }
+  }
+
+  return {
+    label: `Supports up to ${supportedFirmware} only`,
+    tone: 'warn'
+  }
 }
 
 const hasData = !!(data.firmware && data.atmosphere && data.hekate)
 
 const atmosphereStatus = hasData
-  ? statusFor(data.atmosphere.supportedFirmware, data.firmware.version)
+  ? statusFor(
+      data.atmosphere.supportedFirmware,
+      data.firmware.version
+    )
   : null
+
 const hekateStatus = hasData
-  ? statusFor(data.hekate.supportedFirmware, data.firmware.version)
+  ? statusFor(
+      data.hekate.supportedFirmware,
+      data.firmware.version
+    )
   : null
 
 const overallTone = (() => {
@@ -40,6 +51,7 @@ const overallTone = (() => {
 
 const headerTitle = (() => {
   if (!hasData) return 'Compatibility check unavailable'
+
   return overallTone === 'ok'
     ? `Firmware ${data.firmware.version} is supported`
     : `Firmware ${data.firmware.version} isn't supported yet`
@@ -47,14 +59,17 @@ const headerTitle = (() => {
 
 const headerSub = (() => {
   if (!hasData) return 'Check the release pages below manually.'
+
   if (overallTone === 'ok') {
     return `You can safely update your console to ${data.firmware.version}!`
   }
+
   return `Don't update your console until both Atmosphère and hekate support ${data.firmware.version}, if you currently wish to use CFW.`
 })()
 
 function formatDate(iso) {
   if (!iso) return ''
+
   return new Date(iso).toLocaleDateString(undefined, {
     year: 'numeric',
     month: 'short',
