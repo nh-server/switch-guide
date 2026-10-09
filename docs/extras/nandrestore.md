@@ -4,8 +4,9 @@
 
 **Warning:**
 
-* This will reset all of your saves, games, system version and other system settings back to the point of when you made the NAND backup. Keep this in mind, as you probably don't have to restore a NAND backup unless you have bricked your Switch or want to go back online safely after using CFW.
+* This will reset all of your saves, games, system version and other system settings back to the point of when you made the NAND backup. Keep this in mind, as you probably don't have to restore a NAND backup unless you have bricked your Switch or have done something bannable on your sysNAND.
 * If you're going to restore an old NAND which will downgrade your firmware it's best to create a second NAND backup before restoring the first one in case something goes wrong.
+* Ideally, you will restore a backup that was made close to the time you are restoring it, as this will reduce the ban risk that comes with restoring a backup.
 
 :::
 
