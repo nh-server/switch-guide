@@ -8,22 +8,6 @@ head: [
 
 # Getting Started
 
-::: tip
-
-**About modchipped Switch console users**
-
-If you already know you have a modchipped Switch console, you can skip ahead to the [Modchip Introduction](../user_guide/modchip/index) page.
-
-A modchip is a physical modification to the motherboard of your Switch. It cannot be installed without decent microsoldering experience. You can outsource this work to people who are willing to do the job for you, or you can also view the following guide if you are willing- and able to install one yourself.
-
-::: tip
-
-<a href="https://guide.nx-modchip.info/" class="btn btn-solid">Modchip Installation guide →</a>
-
-**Note:** The above guide is not hosted or supported by NH Server; we cannot provide support for reviving consoles ruined by inexperience.
-
-:::
-
 ## Finding your serial number
 
 In the RCM path, we'll first determine if your Switch is vulnerable to fusee-gelee, the exploit we will be using to launch CFW.
@@ -106,6 +90,18 @@ The table below shows firmware version information regarding the available explo
 ::::
 
 :::::
+
+::: tip
+
+**About modchipped Switch console users**
+
+A modchip is a physical modification to the motherboard of your Switch. It cannot be installed without decent microsoldering experience. You can outsource this work to people who are willing to do the job for you, or you can also view the following guide if you are willing- and able to install one yourself.
+
+::: tip
+
+<a href="https://guide.nx-modchip.info/" class="btn btn-solid">Modchip Installation guide →</a>
+
+**Note:** The above guide is not hosted or supported by NH Server; we cannot provide support for reviving consoles ruined by inexperience.
 
 ::: details Frequently Asked Questions about this page
 
