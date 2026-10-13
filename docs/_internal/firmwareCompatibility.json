@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T22:32:48.270Z",
+  "generatedAt": "2026-10-13T13:57:12.618Z",
   "error": null,
   "firmware": {
     "version": "23.0.1",
@@ -18,7 +18,7 @@
     "tag": "v6.5.4",
     "url": "https://github.com/CTCaer/hekate/releases/tag/v6.5.4",
     "publishedAt": "2026-09-28T00:06:10Z",
-    "supportedFirmware": "23.0.0",
+    "supportedFirmware": "23.0.1",
     "supportedFirmwareSeries": "23.0",
     "compatible": true
   }
