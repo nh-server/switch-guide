@@ -55,7 +55,7 @@ The following information is based on [this GBATemp thread](https://gbatemp.net/
 | Serial Numbers | <span style="color:green">Unpatched</span> | <span style="color:orange">Potentially patched</span> | <span style="color:red">Patched</span> |
 | :------------- | :----------------------------------------- | :---------------------------------------------------- | :------------------------------------- |
 | XAW1           | XAW10000000000 to XAW10065000000           | XAW10065000000 to XAW10120000000                      | XAW10120000000 and up                  |
-| XAW4           | XAW40000000000 to XAW40011000000           | XAW40011000000 to XAW40012500000                      | XAW40012500000 and up                  |
+| XAW4           | XAW40000000000 to XAW40011000000           | XAW40011000000 to XAW40013000000                      | XAW40013000000 and up                  |
 | XAW7           | XAW70000000000 to XAW70017500000           | XAW70017500000 to XAW70030000000                      | XAW70030000000 and up                  |
 | XAW9           | **N/A**                                    | XAW90000000000 and up                                 | **N/A**                                |
 | XAJ1           | XAJ10000000000 to XAJ10020000000           | XAJ10020000000 to XAJ10030000000                      | XAJ10030000000 and up                  |
