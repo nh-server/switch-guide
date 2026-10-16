@@ -3,11 +3,9 @@ outline: false
 ---
 
 <script setup>
-import dnsmitmWarning from '../_internal/dnsmitmWarning.vue'
 import FirmwareCompatibilityChecker from '../_internal/FirmwareCompatibilityChecker-updating.vue'
 </script>
 
-<dnsmitmWarning />
 
 # Keeping your system up-to-date
 

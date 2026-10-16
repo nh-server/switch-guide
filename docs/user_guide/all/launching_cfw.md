@@ -5,10 +5,8 @@ outline: false
 
 <script setup>
 import DonationBox from '../../_internal/DonationBox.vue'
-import dnsmitmWarning from '../../_internal/dnsmitmWarning.vue'
 </script>
 
-<dnsmitmWarning />
 
 # Launching CFW
 
