@@ -50,20 +50,7 @@ const themeConfig = {
 				text: localeData.pages["homebrew"],
 				link: `/homebrew/`,
 				items: [
-					{ text: localeData.pages["homebrew/jksv"], link: `/homebrew/jksv` },
-					{ text: localeData.pages["homebrew/goldleaf"], link: `/homebrew/goldleaf` },
-					{ text: localeData.pages["homebrew/ftpd"], link: `/homebrew/ftpd` },
-					{ text: localeData.pages["homebrew/nxtheme-installer"], link: `/homebrew/nxtheme-installer` },
-					{ text: localeData.pages["homebrew/nx-shell"], link: `/homebrew/nx-shell` },
-					{ text: localeData.pages["homebrew/edizon"], link: `/homebrew/edizon` },
-					{ text: localeData.pages["homebrew/simplemodmanager"], link: `/homebrew/simplemodmanager` },
-					{ text: localeData.pages["homebrew/tesla-menu"], link: `/homebrew/tesla-menu` },
-					{ text: localeData.pages["homebrew/mission-control"], link: `/homebrew/mission-control` },
-					{ text: localeData.pages["homebrew/sys-con"], link: `/homebrew/sys-con` },
-					{ text: localeData.pages["homebrew/sys-botbase"], link: `/homebrew/sys-botbase` },
-					{ text: localeData.pages["homebrew/sysdvr"], link: `/homebrew/sysdvr` },
-					{ text: localeData.pages["homebrew/sys-clk"], link: `/homebrew/sys-clk` },
-					{ text: localeData.pages["homebrew/ldn_mitm"], link: `/homebrew/ldn_mitm` }
+					{ text: localeData.pages["homebrew/controllers"], link: `/homebrew/controllers` },
 				]
 			},
 			sidebar_common
