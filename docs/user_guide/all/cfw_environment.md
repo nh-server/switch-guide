@@ -28,13 +28,13 @@ For more information on terminology, please refer to the [glossary](../../extras
 
 #### CFW on emuMMC has the following benefits
 
-* No risk of bans as long as emuMMC remains offline from Nintendo [[info]](https://nx.eiphax.tech/ban))
+* No risk of bans as long as emuMMC remains offline from Nintendo [[info]](https://nx.eiphax.tech/ban)
 * A safe area to test dangerous or risky mods and homebrew
 * No chance of bricking and losing console-unique information while using CFW
 
 #### The following drawbacks
 
-* Large microSD size requirement (32GB or 64GB will be reserved, depending on if you use a Switch OLED or not). If you want a *decent* experience, a minimum of 128GB is required (unless you are an advanced user and can resize the USER partition of your NAND)
+* Large microSD size requirement (64GB or 32GB will be reserved, depending on if you use a Switch OLED or not). If you want a *decent* experience, a minimum of 128GB is required (unless you are an advanced user and can resize the USER partition of your NAND)
 * Slower console response times due to the limitation of your microSD card's classifications/specifications
 * No official online play while in CFW
 * More microSD card wear over time
