@@ -44,15 +44,15 @@ This page will explore:
 
 The primary terms used on this guide are explained in various sections below.
 
-### What is Custom FirmWare?
+### What is Custom Firmware?
 
-Custom FirmWare (“CFW”) is complex software that modifies the function of a device's operating system, also known as a system firmware. Atmosphère, for example, patches the Switch OS (named Horizon) on the fly.
+Custom Firmware (“CFW”) is complex software that modifies the function of a device's operating system, also known as a system firmware. Atmosphère, for example, patches the Switch OS (named Horizon) on the fly.
 
 Custom firmware can be considered the "holy grail" in terms of device modding, as it allows nearly limitless control and freedoms than you would get with more primitive "userland" access.
 
 ### What is homebrew?
 
-Homebrew refers to unofficial software written by hobbyists for locked down systems, like the Nintendo Switch. Homebrew can include original games, emulators, save-editing tools, and much, much more!
+Homebrew refers to unofficial software written by hobbyists for locked-down systems, like the Nintendo Switch. Homebrew can include original games, emulators, save-editing tools, and much, much more!
 
 On the Switch in particular, you need CFW to run almost all available homebrew. Some first-gen ("V1") consoles can run homebrew for free, while all other ("patched") consoles require specialized hardware installation beforehand.
 
@@ -73,9 +73,9 @@ More information about the fusee-gelee vulnerability can be found in its vulnera
 ## What can I do with custom firmware?
 
 * Customize your HOME Menu with user-created themes and splash screens.
-* Running game modifications on games that you own.
+* Run game modifications on games that you own.
 * Backup, edit, and restore saves for many games.
-* Play games for older systems with various emulators, using RetroArch or other standalone emulators.
+* Play games for older systems, using RetroArch or other standalone emulators.
 * Safely update to the latest system version without fear of permanently losing access to CFW.
 * Safely customize your device while retaining full access to Nintendo Switch Online services.
 
@@ -85,7 +85,7 @@ More things to do with a CFW-installed Switch can be found later on in the guide
 
 ### For Desktop/Laptop Users
 
-* A desktop or laptop computer running Windows/macOS/Linux/chromeOS
+* A desktop or laptop computer running Windows/macOS/Linux/ChromeOS
 * A built-in microSD card reader, or an adapter that will allow you to read a microSD card
 * A USB cable capable of data transfer to connect your computer and Nintendo Switch together
 
@@ -107,13 +107,13 @@ If you choose the emuMMC path introduced later in the guide, you will also need 
 
 If you must use a smaller microSD card or don't wish to use an emuMMC, you can choose to use the sysCFW path instead.
 
-Additionally, on a V1 "unpatched" Switch, you will need a way to access the ReCovery Mode (this will be further explained in the `Entering RCM` section of the guide). While *technically* possible with household items, we do not support this method of entering RCM, you will want to shell money out for an "RCM jig" that inserts into the right-hand Joy-Con rail to reliably enter RCM.
+Additionally, on a V1 "unpatched" Switch, you will need a way to access the Recovery Mode (this will be further explained in the `Entering RCM` section of the guide). While *technically* this is possible with household items, we do not support this method of entering RCM. You will want to shell money out for an "RCM jig" that inserts into the right-hand Joy-Con rail to reliably enter RCM.
 
 ### Important Information
 
 Before setting up for homebrew, install at least one eShop title to utilize "title takeover", an Atmosphère feature that allows homebrew to use more resources than they would normally have. Try downloading a free game (like [Fallout Shelter](https://www.nintendo.com/games/detail/fallout-shelter-switch/)), application (like [YouTube](https://www.nintendo.com/games/detail/youtube-switch/)), or a game demo (like [10 Second Run RETURNS](https://www.nintendo.com/games/detail/10-second-run-returns-switch)). Running the Homebrew Menu via a game cartridge is an alternative, but requires the game to be inserted any time you want to launch the Homebrew Menu. Generally, title takeover doesn't permanently alter the donor game or application.
 
-Once you obtain any launchable title, you are prepared to continue on with the guide.
+Once you obtain any launchable title, you may   continue on with the guide.
 
 ## What else should I know before proceeding?
 
@@ -173,7 +173,7 @@ If so, please click the button below to proceed to the main guide.
 
 <a href="user_guide/getting_started" class="btn btn-solid">Continue to Getting Started →</a>
 
-Once you have finished reading the above information, proceed to Get Started to determine your console exploitability, and resulting exploit method.
+Once you have finished reading the above information, proceed to Getting Started to determine your console exploitability, and resulting exploit method.
 
 ::::
 
@@ -189,7 +189,7 @@ Once you have finished reading the above information, proceed to Get Started to 
 
 * **Q: What is Horizon?**
 
-    A: Horizon is the name of the Switch's operating system. It is sometimes called "HorizonNX", because it is actually a derivative version of the Nintendo 3DS's operating system of the same name.
+    A: Horizon is the name of the Switch's operating system. It is sometimes called "HorizonNX", because it is actually a derivative version of the Nintendo 3DS's operating system also called Horizon.
 
 * **Q: Why is it called Atmosphère?**
 
@@ -197,7 +197,7 @@ Once you have finished reading the above information, proceed to Get Started to 
 
 * **Q: What exactly is the "emuMMC path," and why is it recommended for the microSD card to be at least 128GB for this path?**
 
-    A: The purpose of an emuMMC/emuNAND is to give you a safe place to use custom firmware functions without Nintendo catching sight. As it is an offline clone of your internal storage ran entirely from your microSD card, you will need to set allocate up to 64GB on your microSD card for it (depending on the size of your internal storage), plus a duplicate of your digital game data (emuMMC uses a separate Nintendo folder for game installs).
+    A: The purpose of an emuMMC/emuNAND is to give you a safe place to use custom firmware functions without Nintendo catching sight. As it is an offline clone of your internal storage ran entirely from your microSD card, you will need to allocate up to 64GB on your microSD card for it (depending on the size of your internal storage), plus a duplicate of your digital game data (emuMMC uses a separate Nintendo folder for game installs).
 
 * **Q: Why do I need to set my console as primary before starting this guide?**
 
