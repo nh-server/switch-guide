@@ -2,21 +2,19 @@
 
 ## Information
 
-Unlike "unpatched" consoles, modchips enable CFW via CPU voltage glitching, which bypass bootROM firmware verifications. It allows a ``payload.bin`` file to be launched in place of BOOT0, loaded via a modchip firmware module named `sdloader`. This is much different from RCM and its exploit, [fusee-gelee](https://github.com/Qyriad/fusee-launcher/blob/master/report/fusee_gelee.md), which "unpatched" consoles use.
+Unlike "unpatched" consoles, modchips enable CFW via CPU voltage glitching, which bypasses bootROM firmware verifications. This allows a ``payload.bin`` file to be launched in place of BOOT0, loaded via a modchip firmware module named `sdloader`. This is very different from RCM and its exploit, [fusee-gelee](https://github.com/Qyriad/fusee-launcher/blob/master/report/fusee_gelee.md), which "unpatched" consoles use.
 Modchips allow any console, including all patched consoles, to run CFW!
 
 ## General knowledge
 
-Patched Switch consoles (consoles produced after mid-2018) are immune to the fusee-gelee exploit in RCM. Attempting to inject a payload via RCM on a Patched console will be unsuccessful.
+Patched Switch consoles (consoles produced after mid-2018) are immune to the fusee-gelee exploit in RCM. Attempting to inject a payload via RCM on a patched console will be unsuccessful.
 
-Depending on your modchip's firmware, you may not be able to boot the console without a microSD card inserted.
-This means without a microSD inserted at all times, your Switch becomes *unusable*. The likelihood of the Switch becoming *unusable* is small, but still possible. To know if your modchip and its firmware support the bypassing of the firmware module `sdloader`, consult the "**About modchips and their firmware versions**" section below.
-
-If you do turn on your Switch without a microSD card inserted, you should end up at a splash screen saying something along the lines of `NO SD`.
+Depending on your modchip's firmware, you may not be able to boot the console without a microSD card inserted; instead it will end up at a splash screen saying something along the lines of `NO SD`.
+If this is the case, this means without a microSD inserted at all times, your Switch becomes *unusable*. The likelihood of the Switch becoming unusable is small, but still possible. To know if your modchip and its firmware support the bypassing of the firmware module `sdloader`, consult the "**About modchips and their firmware versions**" section below.
 
 ::: details About modchips and their firmware versions (Click to unfold)
 
-Some modchip firmware (e.g., Spacecraft-NX, Hwfly-NX and the Picofly firmware) allows bypassing `sdloader` by holding one - or both - of the volume buttons during power-on, enabling normal boot without a microSD card. Not all modchips support manual firmware updates.
+Some modchip firmware (e.g., Spacecraft-NX, Hwfly-NX and the Picofly firmware) allows bypassing `sdloader` by holding one - or both - of the volume buttons during power-on, enabling normal boot without a microSD card. If your modchip doesn't support this, you may be able to update the firmware to one that does. However, not all modchips support manual firmware updates.
 
 :::
 
@@ -36,7 +34,7 @@ If you do decide to follow the recommended emuMMC path later in the guide, make 
 
 **Disclaimer**
 
-We **ONLY** support the Picofly modchip (`RP2040` microcontroller based development boards and "pre-made" modchips). 
+We **ONLY** support the Picofly modchip (`RP2040` microcontroller-based development boards and "pre-made" modchips). 
 
 Installing a modchip safely is your responsibility, so if you don't trust yourself, get someone trusted to perform the install.
 
@@ -68,17 +66,13 @@ Click the button below to continue to Preparing hekate.
 
     A: There are three main types of modchips for the Nintendo Switch. Only two of them are relevant for this guide.
 
-    On the V1 Nintendo Switch, a chip can be installed which automatically injects a payload whenever the console is detected in RCM. This type of modchip is **not** supported by this guide.
+    On unpatched Switches, a chip can be installed which can automatically enter RCM mode and inject a payload. This type of modchip is **not** supported by this guide.
 
     On all other Switch consoles, there are DIY "Picofly" modchips which can be created with Raspberry Pi parts and custom cables. These use special firmware, and are not compatible with firmware intended for other modchips.
 
     There are also other "commercial" modchips of dubious origin by the name of "hwfly" or "SX Core/Lite"; we only will help with flashing new firmware onto these, if you happen to already have one of them installed. Do not ask for assistance installing or sourcing this type of modchip.
 
-* **Q: Can you further explain the concept of running homebrew "over a title" and why it allows for higher resource allocation?**
-
-    A: The default way to run homebrew within Atmosphère is via the Album applet on the HOME Menu. However, applets have significantly less resources compared to full applications, and homebrew tools often run into constraints with these limits. By holding a button while launching normal apps while in CFW, you can load the Homebrew menu in their stead with full resources.
-
-* **Q: What makes Picofly the only supported modchip, and what are the potential risks associated with installing a modchip on your Switch without proper experience?**
+* **Q: What makes Picofly the only supported modchip?**
 
     A: Picofly is a fully open-source modchip, from the firmware to the RP2040 microcontroller it uses. Other "commercial" modchips have dubious origins, or were manufactured by [established illegal piracy groups](https://www.justice.gov/opa/pr/two-members-notorious-videogame-piracy-group-team-xecuter-custody) that have no place in the homebrew community. For the safety of your console and to respect the law of where NH Server is based, we will not assist with sourcing these types of modchips.
 
