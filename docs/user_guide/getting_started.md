@@ -14,7 +14,7 @@ head: [
 
 If you already know you have a modchipped Switch console, you can skip ahead to the [Modchip Introduction](../user_guide/modchip/index) page.
 
-A modchip is a physical modification to the motherboard of your Switch. It cannot be installed without decent microsoldering experience. You can outsource this work to people who are willing to do the job for you, or you can also view the following guide if you are willing- and able to install one yourself.
+A modchip is a physical modification to the motherboard of your Switch. It cannot be installed without decent microsoldering experience. You can outsource this work to people who are willing to do the job for you, or you can also view the following guide if you are willing and able to install one yourself.
 
 ::: tip
 
@@ -30,7 +30,7 @@ In the RCM path, we'll first determine if your Switch is vulnerable to fusee-gel
 
 The fusee-gelee vulnerability was discovered independently by different Switch hacking teams, who all independently released versions of the exploit in April 2018. Nintendo and NVIDIA were informed 90 days before these releases, and patched consoles were launched by mid-2018. NVIDIA [publicly acknowledged the flaw](https://nvidia.custhelp.com/app/answers/detail/a_id/4660/~/security-notice%3A-nvidia-tegra-rcm-vulnerability) in April as well. In July 2019, Nintendo announced updated consoles: the Switch Lite (HDH-001), and a new model of original Switch (HAC-001(-01)/"V2") with better battery life. Both of these new models use the Tegra X1+ (also known as Mariko, the T214, and T210B01) with a brand-new bootROM, and cannot currently be hacked without a modchip.
 
-Patched and Mariko units can be identified by their serial number. This number can be found in the Settings applet at **System -> Serial Information**. You can also find it on the bottom of the console, adjacent to the charging port. However, it is always more accurate to use the serial reported in Settings instead, especially if you aren't the original owner of the console.
+Patched and Mariko units can be identified by their serial number. This number can be found in the Settings applet at **System -> Serial Information**. You can also find it on the bottom of the console, adjacent to the charging port. However, it is always more accurate to use the serial reported in Settings instead, especially if you aren't the original owner of the console, in case the Switch is no longer in its original casing.
 
 ![Visual for System Settings serial location](../user_guide/img/getting_started_serial_location.jpg)
 
@@ -70,20 +70,6 @@ The following information is based on [this GBATemp thread](https://gbatemp.net/
 If your serial number is not listed above, your device is not vulnerable to the fusee-gelee exploit.
 
 :::
-
-## Firmware Version Table
-
-The table below shows firmware version information regarding the available exploits based on the firmware version your Switch is on. Any firmware version past `4.1.0` is not vulnerable to software exploits.
-
-* **RCM** means your Switch is vulnerable to the fusee-gelee exploit in RCM.
-* **Caffeine** is an old software exploit that works with firmware version `4.1.0`.
-* **Modchip** means you need to have a modchipped Switch.
-
-| System Version | Unpatched Switch Systems | Patched or Mariko Switch Systems |
-| :------------- | :----------------------- | :------------------------------- |
-| 1.0.0 - 4.0.1  | [**RCM**](rcm/index)     | **N/A**                          |
-| 4.1.0          | [**RCM**](rcm/index)     | Caffeine                         |
-| 5.0.0+         | [**RCM**](rcm/index)     | [**Modchip**](modchip/index)     |
 
 ## Continue with the right path for your Switch
 
