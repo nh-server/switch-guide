@@ -78,15 +78,30 @@ function extractHighestVersion(text, patterns) {
   return highest
 }
 
-async function getLatestFirmware() {
-  const res = await fetch(FIRMWARE_FEED_URL)
+function resolveEffectiveSupportedFirmware(statedVersion, knownVersions) {
+  const series = firmwareSeries(statedVersion)
 
-  if (!res.ok) {
-    throw new Error(`Firmware feed request failed: HTTP ${res.status}`)
+  if (!series) {
+    return statedVersion
   }
 
-  const xml = await res.text()
+  let best = statedVersion
+
+  for (const version of knownVersions) {
+    if (
+      firmwareSeries(version) === series &&
+      compareVersions(version, best) > 0
+    ) {
+      best = version
+    }
+  }
+
+  return best
+}
+
+function parseSwitchFirmwareVersions(xml) {
   const items = xml.match(/<item>[\s\S]*?<\/item>/g) || []
+  const versions = []
 
   for (const item of items) {
     const titleMatch = item.match(/<title>(.*?)<\/title>/)
@@ -98,17 +113,31 @@ async function getLatestFirmware() {
     const versionMatch = title.match(/^Switch (\d+\.\d+\.\d+)$/)
 
     if (isOriginalSwitch && versionMatch) {
-      const version = versionMatch[1]
-
-      return {
-        version,
-        compatibilityVersion: firmwareSeries(version),
-        sourceUrl: 'https://yls8.mtheall.com/ninupdates/reports.php'
-      }
+      versions.push(versionMatch[1])
     }
   }
 
-  return null
+  return versions
+}
+
+async function getFirmwareInfo() {
+  const res = await fetch(FIRMWARE_FEED_URL)
+
+  if (!res.ok) {
+    throw new Error(`Firmware feed request failed: HTTP ${res.status}`)
+  }
+
+  const versions = parseSwitchFirmwareVersions(await res.text())
+
+  const latest = versions.length
+    ? {
+        version: versions[0],
+        compatibilityVersion: firmwareSeries(versions[0]),
+        sourceUrl: 'https://yls8.mtheall.com/ninupdates/reports.php'
+      }
+    : null
+
+  return { latest, versions }
 }
 
 async function getLatestRelease(apiUrl) {
@@ -135,15 +164,17 @@ async function buildCompatibilityData() {
   }
 
   try {
-    const [firmware, atmosphereRelease, hekateRelease] = await Promise.all([
-      getLatestFirmware(),
+    const [firmwareInfo, atmosphereRelease, hekateRelease] = await Promise.all([
+      getFirmwareInfo(),
       getLatestRelease(ATMOSPHERE_RELEASE_API),
       getLatestRelease(HEKATE_RELEASE_API)
     ])
 
+    const firmware = firmwareInfo.latest
+
     const atmosphereBody = atmosphereRelease.body || ''
 
-    const atmosphereSupportedFirmware = extractHighestVersion(
+    const atmosphereStatedFirmware = extractHighestVersion(
       atmosphereBody,
       [
         String.raw`(?:basic\s+)?support\s+(?:was\s+)?added\s+for\s+(\d+\.\d+\.\d+)`,
@@ -151,9 +182,6 @@ async function buildCompatibilityData() {
         String.raw`support\s+for\s+(\d+\.\d+\.\d+)`
       ]
     )
-
-    const atmosphereSupportedFirmwareSeries =
-      firmwareSeries(atmosphereSupportedFirmware)
 
     const hekateBody = hekateRelease.body || ''
 
@@ -168,6 +196,19 @@ async function buildCompatibilityData() {
     const hekateSupportedFirmwareSeries =
       firmwareSeries(hekateSupportedFirmware)
 
+    const knownFirmwareVersions = [
+      ...firmwareInfo.versions,
+      ...(hekateSupportedFirmware ? [hekateSupportedFirmware] : [])
+    ]
+
+    const atmosphereSupportedFirmware = resolveEffectiveSupportedFirmware(
+      atmosphereStatedFirmware,
+      knownFirmwareVersions
+    )
+
+    const atmosphereSupportedFirmwareSeries =
+      firmwareSeries(atmosphereSupportedFirmware)
+
     result.firmware = firmware
 
     result.atmosphere = {
@@ -175,6 +216,7 @@ async function buildCompatibilityData() {
       url: atmosphereRelease.html_url,
       publishedAt: atmosphereRelease.published_at,
       supportedFirmware: atmosphereSupportedFirmware,
+      releaseNotesFirmware: atmosphereStatedFirmware,
       supportedFirmwareSeries: atmosphereSupportedFirmwareSeries,
       compatible: isFirmwareCompatible(
         firmware?.version,
