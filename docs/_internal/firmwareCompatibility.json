@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T05:41:13.815Z",
+  "generatedAt": "2026-11-11T20:13:06.479Z",
   "error": null,
   "firmware": {
     "version": "23.5.0",
@@ -16,11 +16,11 @@
     "compatible": true
   },
   "hekate": {
-    "tag": "v6.5.4",
-    "url": "https://github.com/CTCaer/hekate/releases/tag/v6.5.4",
-    "publishedAt": "2026-09-28T00:06:10Z",
-    "supportedFirmware": "23.0.1",
-    "supportedFirmwareSeries": "23.0",
-    "compatible": false
+    "tag": "v6.5.5",
+    "url": "https://github.com/CTCaer/hekate/releases/tag/v6.5.5",
+    "publishedAt": "2026-11-11T17:43:29Z",
+    "supportedFirmware": "23.5.0",
+    "supportedFirmwareSeries": "23.5",
+    "compatible": true
   }
 }
